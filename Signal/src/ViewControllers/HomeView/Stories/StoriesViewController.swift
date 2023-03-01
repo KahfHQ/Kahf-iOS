@@ -291,13 +291,13 @@ class StoriesViewController: OWSViewController, StoryListDataSourceDelegate {
                     self?.showPrivacySettings()
                 }
             ),
-            .init(
+            /*.init(
                 title: CommonStrings.openSettingsButton,
                 image: Theme.isDarkThemeEnabled ? UIImage(named: "settings-solid-24")?.tintedImage(color: .white) : UIImage(named: "settings-outline-24"),
                 handler: { [weak self] _ in
                     self?.showAppSettings()
                 }
-            )
+            )*/
         ])
 
         let avatarView = ConversationAvatarView(sizeClass: .twentyEight, localUserDisplayMode: .asUser)

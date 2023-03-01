@@ -13,7 +13,11 @@ class HomeTabBarController: UITabBarController {
         case chatList = 0
         case stories = 1
     }
-
+    lazy var settingsNavController = AppSettingsViewController.inModalNavigationController()
+    lazy var settingsTabBarItem = UITabBarItem(title: NSLocalizedString("SETTINGS_NAV_BAR_TITLE",
+        comment: "Title for settings activity"),
+        image: UIImage(named: "chats-tab-bar"),
+        selectedImage: UIImage(named: "chats-tab-bar"))
     lazy var chatListViewController = ChatListViewController()
     lazy var chatListNavController = OWSNavigationController(rootViewController: chatListViewController)
     lazy var chatListTabBarItem = UITabBarItem(
@@ -63,10 +67,11 @@ class HomeTabBarController: UITabBarController {
 
         databaseStorage.appendDatabaseChangeDelegate(self)
 
-        viewControllers = [chatListNavController, storiesNavController]
+        viewControllers = [storiesNavController,chatListNavController,settingsNavController]
 
         chatListNavController.tabBarItem = chatListTabBarItem
         storiesNavController.tabBarItem = storiesTabBarItem
+        settingsNavController.tabBarItem = settingsTabBarItem
 
         updateChatListBadge()
         storyBadgeCountManager.beginObserving(observer: self)
