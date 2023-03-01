@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Teraz nie";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "O aplikácií Signal";
+"ABOUT_SECTION_TITLE" = "O aplikácií Kahf";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Potvrdiť nové bezpečnostné číslo";
@@ -29,7 +29,7 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO" = "Hlasová správa";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal hovor";
+"ACTION_AUDIO_CALL" = "Kahf hovor";
 
 /* Label for 'invite' button in contact view. */
 "ACTION_INVITE" = "Pozvať do Signalu";
@@ -118,7 +118,7 @@
 /* Label shown over thumbnails of GIFs in the All Media view */
 "ALL_MEDIA_THUMBNAIL_LABEL_GIF" = "GIF";
 
-/* Title for the view of all your signal connections */
+/* Title for the view of all your Kahf connections */
 "ALL_SIGNAL_CONNECTIONS_TITLE" = "Všetky spojenia";
 
 /* notification action */
@@ -128,13 +128,13 @@
 "APN_Message" = "Pravdepodobne máte nové správy";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal sa nedá spustiť. Pošlite, prosím, denník ladenia na support@signal.org, aby sme mohli tento problém vyriešiť.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf sa nedá spustiť. Pošlite, prosím, denník ladenia na support@Kahf.org, aby sme mohli tento problém vyriešiť.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Chyba";
 
 /* Button to try launching the app even though the last launch failed */
-"APP_LAUNCH_FAILURE_CONTINUE" = "Namiesto toho otvorte Signal";
+"APP_LAUNCH_FAILURE_CONTINUE" = "Namiesto toho otvorte Kahf";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Nepodarilo sa načítať databázu";
@@ -146,19 +146,19 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Neznáma verzia databázy";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Pri pokuse o otvorenie sa vyskytol problém so Signal. Pošlite ladiaci záznam na adresu support@signal.org, aby ste pomohli vyriešiť tento problém.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Pri pokuse o otvorenie sa vyskytol problém so Kahf. Pošlite ladiaci záznam na adresu support@Kahf.org, aby ste pomohli vyriešiť tento problém.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Signal sa nepodarilo otvoriť";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Kahf sa nepodarilo otvoriť";
 
 /* Error description indicating that the app crashed because there was low storage space available on the device. */
-"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Signal sa nepodarilo otvoriť, pretože v pamäti vášho zariadenia nie je dostatok voľného miesta. Ak chcete používať Signal, uvoľnite miesto spravovaním úložiska v Nastaveniach.";
+"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Kahf sa nepodarilo otvoriť, pretože v pamäti vášho zariadenia nie je dostatok voľného miesta. Ak chcete používať Kahf, uvoľnite miesto spravovaním úložiska v Nastaveniach.";
 
 /* Error title indicating that the app crashed because there was low storage space available on the device. */
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Nedostatok úložného priestoru";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Údaje prenesené z vášho starého zariadenia sa nepodarilo obnoviť. Odošlite denník ladenia na adresu support@signal.org, aby sme mohli tento problém vyriešiť. Ak Signal preinštalujete, môžete prísť o vašu históriu správ.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Údaje prenesené z vášho starého zariadenia sa nepodarilo obnoviť. Odošlite denník ladenia na adresu support@Kahf.org, aby sme mohli tento problém vyriešiť. Ak Kahf preinštalujete, môžete prísť o vašu históriu správ.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Prenos sa nepodarilo dokončiť";
@@ -173,7 +173,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "V App Store je dostupná verzia %1$@.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Je k dispozícii nová verzia Signal";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Je k dispozícii nová verzia Kahf";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Aktualizovať";
@@ -227,9 +227,9 @@
 "APPLE_PAY_DONATION_ERROR_PAYMENT_CANNOT_BE_AUTHORIZED" = "Skontrolujte, či je váš spôsob platby v službe Apple Pay aktuálny. Ak nie je, aktualizujte ho a skúste to znovu.";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Kahf";
 
-/* On the iOS home screen, if you tap and hold the Signal icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
+/* On the iOS home screen, if you tap and hold the Kahf icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
 "APPLICATION_SHORTCUT_NEW_MESSAGE" = "Nová správa";
 
 /* Label for the archive button for conversations list view */
@@ -247,7 +247,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Exportovanie prílohy zlyhalo.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Kahf was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Ukladanie zlyhalo";
 
 /* Format string for file extension label in call interstitial view */
@@ -316,14 +316,14 @@
 /* A button to select a GIF from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_GIF" = "GIF";
 
-/* A message on a button prompting the user to go settings to grant Signal photos access. */
+/* A message on a button prompting the user to go settings to grant Kahf photos access. */
 "ATTACHMENT_KEYBOARD_GIVE_PHOTOS_ACCESS" = "Udeliť prístup";
 
 /* A button to select a location from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_LOCATION" = "Poloha";
 
 /* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
-"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Na zobrazenie vašich fotiek a videí Signal potrebuje povolenie.";
+"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Na zobrazenie vašich fotiek a videí Kahf potrebuje povolenie.";
 
 /* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
 "ATTACHMENT_KEYBOARD_NO_PHOTOS" = "Keď spravíte fotky, najnovšie budete môcť poslať sem.";
@@ -406,11 +406,11 @@
 /* The title for the badge configuration page */
 "BADGE_CONFIGURATION_TITLE" = "Odznaky";
 
-/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Signal\" button will be shown. This is the text in that button. */
+/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Kahf\" button will be shown. This is the text in that button. */
 "BADGE_DETAILS_DONATE_TO_SIGNAL" = "Prispieť teraz";
 
 /* When viewing someone else's donor badge, you'll see a sheet. This is the title on that sheet. Embeds {badge owner's short name} */
-"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ podporuje Signal";
+"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ podporuje Kahf";
 
 /* String explaining to the user that their boost badge has expired on the badge expiry sheet. */
 "BADGE_EXPIRED_BOOST_BODY" = "Platnosť vášho odznaku Boost vypršala a už sa vo vašom profile ďalej nezobrazuje.\n\nSignal môžete používať aj naďalej, ale ak chcete podporiť technológiu, ktorá je vytvorená pre vás, zvážte možnosť stať sa mesačným prispievateľom.";
@@ -431,12 +431,12 @@
 "BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Mesačný príspevok bol zrušený";
 
 /* String explaining to the user that their subscription badge has expired on the badge expiry sheet. Embeds {failure-specific sentence(s)}. */
-"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_CHARGE_FAILURE_BODY_FORMAT" = "Váš pravidelný mesačný príspevok bol zrušený. Odznak %1$@ sa už vo vašom profile ďalej nezobrazuje.\n\nAk chcete naďalej podporovať Signal a znovu aktivovať svoj odznak, aktualizujte svoje platobné údaje a prispejte znovu.";
+"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_CHARGE_FAILURE_BODY_FORMAT" = "Váš pravidelný mesačný príspevok bol zrušený. Odznak %1$@ sa už vo vašom profile ďalej nezobrazuje.\n\nAk chcete naďalej podporovať Kahf a znovu aktivovať svoj odznak, aktualizujte svoje platobné údaje a prispejte znovu.";
 
 /* Body of the sheet shown when your subscription is canceled due to inactivity */
 "BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "Váš pravidelný mesačný príspevok bol automaticky zrušený, pretože ste boli príliš dlho neaktívny. Váš odznak %1$@ sa už vo vašom profile ďalej nezobrazuje.\n\nSignal môžete používať aj naďalej, ak však chcete podporiť aplikáciu a znovu aktivovať svoj odznak, prispejte opäť.";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
 "BADGE_THANKS_BODY" = "Získali ste odznak prispievateľa od Signalu! Ukážte ho vo svojom profile a dajte tak najavo svoju podporu.";
 
 /* Label prompting the user to display the new badge on their profile on the badge thank you sheet. */
@@ -445,7 +445,7 @@
 /* Label prompting the user to feature the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_MAKE_FEATURED" = "Zobraziť odznak v profile";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
 "BADGE_THANKS_TITLE" = "Ďakujeme za vašu podporu!";
 
 /* Footer explaining that only one badge can be featured at a time on the thank you sheet. */
@@ -638,7 +638,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Žiadna odpoveď";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %1$@";
+"CALL_STATUS_FORMAT" = "Kahf %1$@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Zavolať";
@@ -701,10 +701,10 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Váš fotoaparát je vypnutý";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Používateľ Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Používateľ Kahf";
 
 /* The generic name used for group calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_GROUP_NAME" = "Signal skupina";
+"CALLKIT_ANONYMOUS_GROUP_NAME" = "Kahf skupina";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Nasnímať obrázok a potom ho poslať";
@@ -778,38 +778,38 @@
 /* Title for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_TITLE" = "Chyba";
 
-/* Users can donate to Signal with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CARD_NUMBER_GENERIC_ERROR" = "Neplatné číslo karty";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card number field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card number field on that screen. */
 "CARD_DONATION_CARD_NUMBER_LABEL" = "Číslo karty";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_GENERIC_ERROR" = "Neplatné CVV";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
 "CARD_DONATION_CVV_LABEL" = "CVV";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_TOO_LONG_ERROR" = "Kód je príliš dlhý";
 
-/* Users can donate to Signal with a credit or debit card. This is the text on the \"Donate\" button. */
+/* Users can donate to Kahf with a credit or debit card. This is the text on the \"Donate\" button. */
 "CARD_DONATION_DONATE_BUTTON" = "Prispieť";
 
-/* Users can donate to Signal with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_EXPIRATION_DATE_GENERIC_ERROR" = "Neplatný dátum exsp.";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
 "CARD_DONATION_EXPIRATION_DATE_LABEL" = "Dátum exsp.";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card expiration date field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card expiration date field on that screen. */
 "CARD_DONATION_EXPIRATION_DATE_PLACEHOLDER" = "MM/RR";
 
-/* Users can donate to Signal with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
+/* Users can donate to Kahf with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
 "CARD_DONATION_HEADER" = "Výška príspevku: %1$@";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the body text of that sheet. */
-"CARD_DONATION_READ_MORE_SHEET_BODY" = "Počas vášho prispievania na Signal nezhromažďujeme ani neukladáme žiadne vaše osobné údaje.\n\nNa prijímanie vašich príspevkov a spracovanie platieb používame službu Stripe. K údajom, ktoré v rámci tejto platobnej brány poskytnete, nemáme prístup ani ich neukladáme.Signal si nespája a ani si nemôže spojiť váš príspevok s vaším Signal účtom.\n\nĎakujeme za vašu podporu!";
+"CARD_DONATION_READ_MORE_SHEET_BODY" = "Počas vášho prispievania na Kahf nezhromažďujeme ani neukladáme žiadne vaše osobné údaje.\n\nNa prijímanie vašich príspevkov a spracovanie platieb používame službu Stripe. K údajom, ktoré v rámci tejto platobnej brány poskytnete, nemáme prístup ani ich neukladáme.Kahf si nespája a ani si nemôže spojiť váš príspevok s vaším Kahf účtom.\n\nĎakujeme za vašu podporu!";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the title of that sheet. */
 "CARD_DONATION_READ_MORE_SHEET_TITLE" = "Vaše údaje sú súkromné";
@@ -817,8 +817,8 @@
 /* On the credit/debit card donation screen, a small amount of information text is shown. Users can click this link to learn more information. */
 "CARD_DONATION_SUBHEADER_LEARN_MORE" = "Dozvedieť sa viac.";
 
-/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Signal does not collect or store their personal information. */
-"CARD_DONATION_SUBHEADER_TEXT" = "Zadajte údaje z platobnej karty. Signal nezhromažďuje ani neukladá vaše osobné údaje.";
+/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Kahf does not collect or store their personal information. */
+"CARD_DONATION_SUBHEADER_TEXT" = "Zadajte údaje z platobnej karty. Kahf nezhromažďuje ani neukladá vaše osobné údaje.";
 
 /* Title for the 'censorship circumvention country' view. */
 "CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE" = "Vyberte krajinu";
@@ -884,7 +884,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Porovnať so schránkou";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Vyberte alebo nájdite používateľa Signal pre zahájenie chatu.";
+"COMPOSE_BUTTON_HINT" = "Vyberte alebo nájdite používateľa Kahf pre zahájenie chatu.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Skladať";
@@ -902,7 +902,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Nájsť podľa používateľského mena";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "V aplikácii Nastavenia iOS môžete povoliť prístup ku kontaktom, aby ste videli, kto z vašich kontaktov používa Signal.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "V aplikácii Nastavenia iOS môžete povoliť prístup ku kontaktom, aby ste videli, kto z vašich kontaktov používa Kahf.";
 
 /* Configure reactions title text */
 "CONFIGURE_REACTIONS" = "Konfigurovať reakcie";
@@ -1033,7 +1033,7 @@
 /* Error indicating that at least one contact field must be selected before sharing a contact. */
 "CONTACT_SHARE_NO_FIELDS_SELECTED" = "Nebolo zvolené žiadne pole kontaktu.";
 
-/* Button text to initiate an email to signal support staff */
+/* Button text to initiate an email to Kahf support staff */
 "CONTACT_SUPPORT" = "Kontaktovať zákaznícku podporu";
 
 /* The localized representation of the 'Donations & Badges' support filter. */
@@ -1082,7 +1082,7 @@
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Niečo nefunguje";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal nemohol dokončiť vašu žiadosť o zákaznícku podporu.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Kahf nemohol dokončiť vašu žiadosť o zákaznícku podporu.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Skúste to znovu";
@@ -1211,7 +1211,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "audio";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Podporou Signal získate odznaky pre svoj profil. Klepnutím na odznak získate ďalšie informácie.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Podporou Kahf získate odznaky pre svoj profil. Klepnutím na odznak získate ďalšie informácie.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Odznaky";
@@ -1396,14 +1396,14 @@
 /* No comment provided by engineer. */
 "COUNTRYCODE_SELECT_TITLE" = "Vybrať kód krajiny";
 
-/* Body text for an interactive in-app prompt to set up a Signal username. */
+/* Body text for an interactive in-app prompt to set up a Kahf username. */
 "CREATE_USERNAME_MEGAPHONE_BODY" = "Usernames let others message you without needing your phone number.";
 
-/* Title for a button in an interactive in-app prompt to set up a Signal username, which will start a create-username flow. */
+/* Title for a button in an interactive in-app prompt to set up a Kahf username, which will start a create-username flow. */
 "CREATE_USERNAME_MEGAPHONE_SET_UP_BUTTON_TITLE" = "Set Up";
 
-/* Title for an interactive in-app prompt to set up a Signal username. */
-"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Signal username";
+/* Title for an interactive in-app prompt to set up a Kahf username. */
+"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Kahf username";
 
 /* Credit/debit card donation error for decline failures where the card has expired. */
 "CREDIT_OR_DEBIT_CARD_DONATION_ERROR_EXPIRED_CARD" = "Platnosť karty vypršala. Skontrolujte, či sú údaje z vašej karty správne a skúste to znova.";
@@ -1454,7 +1454,7 @@
 "DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Spustiť";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Pomôže nám to vyriešiť váš problém, dokončenie však môže trvať niekoľko minút. Počas kontroly môžete Signal zavrieť, nezabudnite sa ale následne vrátiť a odoslať svoje záznamy.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Pomôže nám to vyriešiť váš problém, dokončenie však môže trvať niekoľko minút. Počas kontroly môžete Kahf zavrieť, nezabudnite sa ale následne vrátiť a odoslať svoje záznamy.";
 
 /* Button to skip database integrity check step */
 "DATABASE_INTEGRITY_CHECK_SKIP" = "Preskočiť";
@@ -1468,20 +1468,20 @@
 /* In some cases, the user's message history can become corrupted, and a recovery interface is shown. The user has not been hacked and may be confused by this interface, so try to avoid using terms like \"database\" or \"corrupted\"—terms like \"message history\" are better. This is the title on the first screen of this interface, which gives them some information and asks them to continue. */
 "DATABASE_RECOVERY_AWAITING_USER_CONFIRMATION_TITLE" = "Problém pri získavaní údajov";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_CONTINUE_ANYWAY" = "Napriek tomu pokračovať";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_DESCRIPTION" = "Ak si želáte dokončiť obnovu údajov, odporúčame vám, aby vo vašom zariadení bolo aspoň %1$@ voľného miesta.";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_TITLE" = "Vyžaduje sa viac úložného priestoru";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This is the description on the screen where we show an error message. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Históriu správ sa nepodarilo obnoviť. Po preinštalovaní môžete Signal naďalej používať. Odošlite záznam s chybou, pomôže nám lepšie pochopiť, kde sa vyskytol problém.";
+"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Históriu správ sa nepodarilo obnoviť. Po preinštalovaní môžete Kahf naďalej používať. Odošlite záznam s chybou, pomôže nám lepšie pochopiť, kde sa vyskytol problém.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This button lets them delete all of their data. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Resetovať Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Resetovať Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the final button they will press before their data is reset. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_CONFIRM" = "Resetovať";
@@ -1490,7 +1490,7 @@
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_DESCRIPTION" = "Informácie o vašom účte, profil a všetky správy budú vymazané. Po dokončení tohto procesu sa aplikácia zatvorí.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the title of that dialog. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Resetovať Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Resetovať Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) They were asked to submit a debug log. This is the button that submits this log. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_SUBMIT_DEBUG_LOG_BUTTON" = "Odoslať denník ladenia";
@@ -1565,7 +1565,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Vymazať účet";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Týmto sa vymaže váš účet Signal a aplikácia sa resetuje. Aplikácia sa po dokončení tohto procesu zavrie.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Týmto sa vymaže váš účet Kahf a aplikácia sa resetuje. Aplikácia sa po dokončení tohto procesu zavrie.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Naozaj chcete vymazať svoj účet?";
@@ -1589,7 +1589,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Telefónne číslo";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Potvrďte svoje Signal číslo";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Potvrďte svoje Kahf číslo";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Vymazať účet";
@@ -1604,7 +1604,7 @@
 "DELETE_ALL_MESSAGES_IN_CONVERSATION_BUTTON" = "Vymazať všetky správy";
 
 /* Notification warning the user that they have been de-registered. */
-"DEREGISTRATION_NOTIFICATION" = "Na tomto zariadení ste boli odhlásení zo služby Signal.";
+"DEREGISTRATION_NOTIFICATION" = "Na tomto zariadení ste boli odhlásení zo služby Kahf.";
 
 /* Label for button that lets users re-register using the same phone number. */
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Znovu zaregistrovať toto telefónne číslo";
@@ -1612,7 +1612,7 @@
 /* Label warning the user that they have been de-registered. */
 "DEREGISTRATION_WARNING" = "Zariadenie už nie je registrované. Vaše telefónne číslo môže byť registrované v Signale na inom zariadení. Ťukniťe pre opätovnú registráciu.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Kahf Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Posledná aktivita %1$@";
 
 /* {{Short Date}} when device was linked. */
@@ -1634,7 +1634,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Ak máte vaše staré iOS zariadenie, môžete si z neho bezpečne preniesť účet a správy do tohto zariadenia.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Ak ste predtým používali Signal na prepojenom iPade,  môžete si z neho bezpečne preniesť účet a správy do tohto zariadenia.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Ak ste predtým používali Kahf na prepojenom iPade,  môžete si z neho bezpečne preniesť účet a správy do tohto zariadenia.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Pokračovať bez prenosu účtu a správ";
@@ -1664,7 +1664,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Preniesť z iOS zariadenia";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Ak budete pokračovať,  vypnete Signal na iných zariadeniach, ktoré sú momentálne registrované prostredníctvom tohto istého telefónneho čísla.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Ak budete pokračovať,  vypnete Kahf na iných zariadeniach, ktoré sú momentálne registrované prostredníctvom tohto istého telefónneho čísla.";
 
 /* An error indicating that we were unable to verify the identity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Vaše nové zariadenie sa nepodarilo overiť, skúste to prosím znovu";
@@ -1685,13 +1685,13 @@
 "DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Aktualizujte na najnovšiu verziu Signalu a skúste to znovu";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Preneste si účet Signal do nového iOS zariadenia. Uistite sa, že vaše nové zariadenie je nablízku a že je zapnuté.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Preneste si účet Kahf do nového iOS zariadenia. Uistite sa, že vaše nové zariadenie je nablízku a že je zapnuté.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Preniesť účet";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Otvorte Signal na vašom starom zariadení, prineste ho blízko a uistite sa, že Wi-Fi a Bluetooth sú zapnuté na oboch zariadeniach.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Otvorte Kahf na vašom starom zariadení, prineste ho blízko a uistite sa, že Wi-Fi a Bluetooth sú zapnuté na oboch zariadeniach.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Umiestnite tento QR kód do rámu vášho druhého zariadenia.";
@@ -1703,7 +1703,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Čaká sa na druhé zariadenie…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Ponechajte obe zariadenia blízko seba. Nevypínajte ani jedno zariadenie a nechajte Signal otvorený. Prenosy sú zabezpečené prostredníctvom koncového šifrovania.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Ponechajte obe zariadenia blízko seba. Nevypínajte ani jedno zariadenie a nechajte Kahf otvorený. Prenosy sú zabezpečené prostredníctvom koncového šifrovania.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Prijímajú sa dáta";
@@ -1718,7 +1718,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Pridržte vaše nové zariadenie pred kamerou";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Ponechajte obe zariadenia blízko seba. Nevypínajte ani jedno zariadenie a nechajte Signal otvorený.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Ponechajte obe zariadenia blízko seba. Nevypínajte ani jedno zariadenie a nechajte Kahf otvorený.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Prenášajú sa dáta";
@@ -1787,13 +1787,13 @@
 "DONATE_CHOOSE_PAYMENT_METHOD_SHEET_SUBTITLE_FOR_ONE_TIME_DONATION" = "Získate odznak %1$@ na jeden mesiac";
 
 /* When users make donations on a friend's behalf, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Príspevok na Signal v hodnote %1$@";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Príspevok na Kahf v hodnote %1$@";
 
 /* When users make monthly donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money per month}}, such as \"$5/month\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Prispieť %1$@ na Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Prispieť %1$@ na Kahf";
 
 /* When users make one-time donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Prispieť %1$@ na Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Prispieť %1$@ na Kahf";
 
 /* Users can donate on a friend's behalf and can optionally add a message. This is tells users about that optional message. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_ADDITIONAL_MESSAGE_INFO" = "Príjemca bude o príspevku informovaný v správe. Pridajte svoj vlastný text správy nižšie.";
@@ -1804,10 +1804,10 @@
 /* If a donation badge has been sent, indicates that it's expired and can no longer be redeemed. This is shown in the chat. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_CHAT_EXPIRED" = "Platnosť vypršala";
 
-/* If the user tries to donate to Signal but no amount is selected, this error message is shown. */
+/* If the user tries to donate to Kahf but no amount is selected, this error message is shown. */
 "DONATE_SCREEN_ERROR_NO_AMOUNT_SELECTED" = "Vyberte sumu, ktorú chcete darovať.";
 
-/* If the user tries to donate to Signal but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
+/* If the user tries to donate to Kahf but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
 "DONATE_SCREEN_ERROR_SELECT_A_LARGER_AMOUNT_FORMAT" = "Minimálna suma, ktorú môžete darovať, je %1$@.";
 
 /* On the donation screen, you can choose between one-time and monthly donations. This is the text on the picker for one-time donations. */
@@ -1850,7 +1850,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_BADGE_REDEEMED" = "Odomknutý";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is a short paragraph on the screen where users choose the badge their friend will receive. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "Podporte Signal príspevkom za priateľa alebo člena rodiny, ktorý používa Signal. Svoju podporu budú môcť zobraziť na svojom profile.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "Podporte Kahf príspevkom za priateľa alebo člena rodiny, ktorý používa Kahf. Svoju podporu budú môcť zobraziť na svojom profile.";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is the title on the screen where users choose the badge their friend will receive. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_TITLE" = "Prispieť za priateľa";
@@ -1892,10 +1892,10 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PREVIEW_OUTGOING" = "✨ Poslali ste príspevok za používateľa %1$@";
 
 /* You received a donation from a friend. This is the title of that message in the chat. Embeds {{short contact name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "Používateľ %1$@ prispel na Signal vo vašom mene";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "Používateľ %1$@ prispel na Kahf vo vašom mene";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Za tohto používateľa nemôžete poslať príspevok, kým si neaktualizuje Signal.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Za tohto používateľa nemôžete poslať príspevok, kým si neaktualizuje Kahf.";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, an error dialog will be shown. This is the title of that error dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_TITLE" = "Nie je možné odoslať príspevok";
@@ -1922,7 +1922,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_SENT_TITLE_FORMAT" = "Príspevok pre %1$@";
 
 /* When you donate on behalf of a friend, a thank-you sheet will appear. This is the text on that sheet. Embeds {{recipient name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_BODY_FORMAT" = "Prispeli ste na Signal v mene používateľa %1$@. Svoju podporu bude môcť zobraziť na svojom profile.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_BODY_FORMAT" = "Prispeli ste na Kahf v mene používateľa %1$@. Svoju podporu bude môcť zobraziť na svojom profile.";
 
 /* When you donate on behalf of a friend, a thank-you sheet will appear. This is the title on that sheet. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_TITLE" = "Ďakujeme za vašu podporu!";
@@ -1931,19 +1931,19 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_VIEW" = "Zobraziť";
 
 /* A friend has donated on your behalf and you received a badge. This text says that you received a badge, and from whom. Embeds {{contact's short name, such as a first name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "Používateľ %1$@ prispel na Signal vo vašom mene! Ukážte svoju podporu pre Signal vo svojom profile.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "Používateľ %1$@ prispel na Kahf vo vašom mene! Ukážte svoju podporu pre Kahf vo svojom profile.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 1st paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 1st paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_1" = "Súkromné posielanie správ. Žiadne reklamy, žiadne sledovače, žiadne monitorovanie.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 2nd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Signal využíva podporu v podobe príspevkov, čo znamená, že vaše súkromie je stredobodom všetkého, čo robíme. Signal je vytvorený pre vás, nie pre vaše údaje a nie za účelom zisku.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 2nd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Kahf využíva podporu v podobe príspevkov, čo znamená, že vaše súkromie je stredobodom všetkého, čo robíme. Kahf je vytvorený pre vás, nie pre vaše údaje a nie za účelom zisku.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 3rd paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 3rd paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Ak môžete, prispejte ešte dnes a dopomôžte Signalu k tomu, aby bol zábavnou, spoľahlivou a dostupnou aplikáciou pre každého.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the title of that screen. */
-"DONATION_READ_MORE_SCREEN_TITLE" = "Signal je odlišný.";
+/* There is a screen where users can read more about their donation to Kahf. This is the title of that screen. */
+"DONATION_READ_MORE_SCREEN_TITLE" = "Kahf je odlišný.";
 
 /* Section title for donation amount on receipts */
 "DONATION_RECEIPT_AMOUNT" = "Suma";
@@ -1958,7 +1958,7 @@
 "DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Zdieľať potvrdenku";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Ďakujeme, že podporujete Signal. Váš príspevok pomáha poháňať poslanie vyvíjania technológie zameranej na súkromie s otvoreným zdrojovým kódom, čo chráni slobodu vyjadrovania a umožňuje bezpečnú globálnu komunikáciu pre milióny ľudí na celom svete. Ak ste občanom Spojených štátov, prosím, uchovajte si túto potvrdenku pre vaše daňové záznamy. Signal Technology Foundation je nezisková organizácia oslobodená od platenia daní v Spojených štátoch, podľa sekcie 501c3 zásad o štátnych príjmoch z vnútorných zdrojov. Naše federálne daňové ID je 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "Ďakujeme, že podporujete Kahf. Váš príspevok pomáha poháňať poslanie vyvíjania technológie zameranej na súkromie s otvoreným zdrojovým kódom, čo chráni slobodu vyjadrovania a umožňuje bezpečnú globálnu komunikáciu pre milióny ľudí na celom svete. Ak ste občanom Spojených štátov, prosím, uchovajte si túto potvrdenku pre vaše daňové záznamy. Kahf Technology Foundation je nezisková organizácia oslobodená od platenia daní v Spojených štátoch, podľa sekcie 501c3 zásad o štátnych príjmoch z vnútorných zdrojov. Naše federálne daňové ID je 82-4506840.";
 
 /* Title for receipts for donations given on a friend's behalf */
 "DONATION_RECEIPT_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Príspevok za priateľa";
@@ -1979,13 +1979,13 @@
 "DONATION_RECEIPTS" = "Potvrdenia o daroch";
 
 /* Text at the bottom of the donation receipts list, telling users that receipts might not be available */
-"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Ak ste preinštalovali Signal, potvrdenky z predchádzajúcich darov nebudú k dispozícii.";
+"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Ak ste preinštalovali Kahf, potvrdenky z predchádzajúcich darov nebudú k dispozícii.";
 
 /* On the donation settings screen, tapping this button will take the user to a screen where they can donate. */
 "DONATION_SCREEN_DONATE_BUTTON" = "Prispieť";
 
 /* On donation screens, a small amount of information text is shown. This is the subtitle for that text. */
-"DONATION_SCREENS_HEADER_DESCRIPTION" = "Súkromné posielanie správ, ktoré financujete vy. Žiadne reklamy, žiadne sledovanie, žiadne kompromisy. Prispejte teraz a podporte Signal.";
+"DONATION_SCREENS_HEADER_DESCRIPTION" = "Súkromné posielanie správ, ktoré financujete vy. Žiadne reklamy, žiadne sledovanie, žiadne kompromisy. Prispejte teraz a podporte Kahf.";
 
 /* On donation screens, a small amount of information text is shown. Users can click this link to learn more information. */
 "DONATION_SCREENS_HEADER_READ_MORE" = "Prečítať viac";
@@ -1996,8 +1996,8 @@
 /* Title for the \"donate for a friend\" button on the donation view. */
 "DONATION_VIEW_DONATE_ON_BEHALF_OF_A_FRIEND" = "Prispieť za priateľa";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Dar na Signal";
+/* Text describing to the user that they're going to pay a donation to Kahf */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Dar na Kahf";
 
 /* Text that's shown when the donation view fails to load data, probably due to network failure */
 "DONATION_VIEW_LOAD_FAILED" = "Chyba siete. Skontrolujte pripojenie a skúste to znova.";
@@ -2008,8 +2008,8 @@
 /* Title for the 'Manage Subscription' button on the donation screen */
 "DONATION_VIEW_MANAGE_SUBSCRIPTION" = "Spravovať prispievanie";
 
-/* Text describing to the user that they're going to pay a monthly donation to Signal */
-"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Mesačný príspevok na Signal";
+/* Text describing to the user that they're going to pay a monthly donation to Kahf */
+"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Mesačný príspevok na Kahf";
 
 /* Title for the 'more' section on the donation screen */
 "DONATION_VIEW_MORE_SECTION_TITLE" = "Viac";
@@ -2023,23 +2023,23 @@
 /* Title for the 'Subscription FAQ' button on the donation screen */
 "DONATION_VIEW_SUBSCRIPTION_FAQ" = "Časté otázky o prispievaním";
 
-/* Title on the 'Donate to Signal' screen */
-"DONATION_VIEW_TITLE" = "Prispieť na Signal";
+/* Title on the 'Donate to Kahf' screen */
+"DONATION_VIEW_TITLE" = "Prispieť na Kahf";
 
 /* Label for the currency picker button in donation views */
 "DONATIONS_CURRENCY_PICKER_LABEL" = "Mena";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Prístup môžete povoliť v aplikácii Nastavenia iOS.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal potrebuje prístup ku kontaktom, aby mohol upraviť informácie o kontakte";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Kahf potrebuje prístup ku kontaktom, aby mohol upraviť informácie o kontakte";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Upraviť skupinu";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Tohto používateľa nie je možné pridať do skupiny, kým si neaktualizuje Signal.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Tohto používateľa nie je možné pridať do skupiny, kým si neaktualizuje Kahf.";
 
 /* Error message indicating that an avatar image is invalid and cannot be used. */
 "EDIT_GROUP_ERROR_INVALID_AVATAR" = "Neplatná fotka.";
@@ -2056,14 +2056,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Kopírovať";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Ahoj,\n\nv poslednej dobe na svojom iPhone používam Signal, aby moje chaty zostali súkromné. Potešilo by ma, keby si si ho nainštaloval(a) aj ty, aby sme si boli istí, že nikto iný nečíta naše správy a neodpočúva naše hovory.\n\nSignal je dostupný pre iPhony a Android. Získaš ho tu: %1$@\n\nSignal funguje ako tvoja súčasná aplikácia na posielanie správ. Môžeme posielať obrázky, videá, uskutočňovať hovory a vytvárať skupinové chaty. A najlepšie na tom je, že ich nikto iný nemôže vidieť, ani ľudia, čo vyvíjajú Signal!\n\nViac o Open Whisper Systems, ľuďoch, ktorí vyvíjajú Signal, sa môžeš dočítať tu: %2$@";
+/* body of email sent to contacts when inviting to install Kahf. Embeds {{link to install Kahf}} and {{link to the Kahf home page}} */
+"EMAIL_INVITE_BODY" = "Ahoj,\n\nv poslednej dobe na svojom iPhone používam Kahf, aby moje chaty zostali súkromné. Potešilo by ma, keby si si ho nainštaloval(a) aj ty, aby sme si boli istí, že nikto iný nečíta naše správy a neodpočúva naše hovory.\n\nSignal je dostupný pre iPhony a Android. Získaš ho tu: %1$@\n\nSignal funguje ako tvoja súčasná aplikácia na posielanie správ. Môžeme posielať obrázky, videá, uskutočňovať hovory a vytvárať skupinové chaty. A najlepšie na tom je, že ich nikto iný nemôže vidieť, ani ľudia, čo vyvíjajú Kahf!\n\nViac o Open Whisper Systems, ľuďoch, ktorí vyvíjajú Kahf, sa môžeš dočítať tu: %2$@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Prejdime na Signal";
+/* subject of email sent to contacts when inviting to install Kahf */
+"EMAIL_INVITE_SUBJECT" = "Prejdime na Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Vaše zariadenie nie je nastavené na odosielanie E-mailov. Pre poslanie žiadosti o technickú podporu, nastavte E-maily na vašom zariadení, alebo napíšte na support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Vaše zariadenie nie je nastavené na odosielanie E-mailov. Pre poslanie žiadosti o technickú podporu, nastavte E-maily na vašom zariadení, alebo napíšte na support@Kahf.org";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-mail nedostupný";
@@ -2096,7 +2096,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Cestovanie a miesta";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Nikto z vašich kontaktov nemá Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Nikto z vašich kontaktov nemá Kahf.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Prečo niekoho nepozvete?";
@@ -2150,7 +2150,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Neplatná odpoveď služby.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Toto zariadenie už nie je registrované s vaším telefónnym číslom. Prosím reinštalujte Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Toto zariadenie už nie je registrované s vaším telefónnym číslom. Prosím reinštalujte Kahf.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Chyba serveru. Skúste znovu neskôr.";
@@ -2188,10 +2188,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Žiadna relácia pre tento kontakt.";
 
-/* Shown when signal users safety numbers changed */
+/* Shown when Kahf users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "Bezpečnostné číslo sa zmenilo.";
 
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Kahf users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "Vaše bezpečnostné číslo s %1$@ sa zmenilo.";
 
 /* Text notifying the user that their secure session has been reset */
@@ -2207,10 +2207,10 @@
 "ERROR_NETWORK_FAILURE" = "Chyba siete";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Pomôžte nám zlepšiť Signal nahlásením tejto chyby spolu s denníkmi ladenia z vášho zariadenia na adresu support@signal.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Pomôžte nám zlepšiť Kahf nahlásením tejto chyby spolu s denníkmi ladenia z vášho zariadenia na adresu support@Kahf.org; %1$@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: Vyskytla sa chyba";
+"ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Vyskytla sa chyba";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Vaše zariadenie už nie je prepojené. Pre odosielanie ďalších správ ho, prosím, znovu prepojte.";
@@ -2221,7 +2221,7 @@
 /* Error indicating a send failure due to an expired application. */
 "ERROR_SENDING_EXPIRED" = "Vaša verzia Signalu vypršala. Pre odosielanie ďalších správ ju, prosím, aktualizujte.";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Kahf id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Neregistrovaný používateľ: %1$@";
 
 /* Label notifying the user that the app has expired. */
@@ -2501,10 +2501,10 @@
 "GROUP_CALL_WILL_NOTIFY_TWO_PEOPLE_FORMAT" = "%1$@ a %2$@ dostanú upozornenie";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there is one other person in the group. Embeds {member name} */
-"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Signal zavolá používateľovi %1$@";
+"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Kahf zavolá používateľovi %1$@";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there are two other people in the group. Embeds {{ %1$@ participant1, %2$@ participant2 }} */
-"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Signal zavolá používateľom %1$@ a %2$@";
+"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Kahf zavolá používateľom %1$@ a %2$@";
 
 /* Text explaining that you are in the group call. */
 "GROUP_CALL_YOU_ARE_HERE" = "Ste v skupinovom hovore";
@@ -2687,7 +2687,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Neplatný odkaz";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Pre pridanie sa do tejto skupiny, aktualizujte Signal na tomto zariadení.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Pre pridanie sa do tejto skupiny, aktualizujte Kahf na tomto zariadení.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Vyžadovať schválenie administrátorom pri nových členoch, ktorí sa pridajú prostredníctvom odkazu do skupiny.";
@@ -2746,8 +2746,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR kód";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Zdieľať cez Signal";
+/* Label for the 'share group link via Kahf' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Zdieľať cez Kahf";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Každý, kto má tento odkaz, môže vidieť názov a členov tejto skupiny a požiadať o členstvo. Zdieľajte ho s ľuďmi, ktorým dôverujete.";
@@ -3089,7 +3089,7 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Môžem zmodernizovať Zastaranú skupinu?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Na vytvorenie Novej skupiny by všetci členovia mali prejsť na najnovšiu verziu aplikácie Signal.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Na vytvorenie Novej skupiny by všetci členovia mali prejsť na najnovšiu verziu aplikácie Kahf.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Zastarané vs. Nové skupiny";
@@ -3161,10 +3161,10 @@
 "GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_2_BODY" = "Celá história správ a všetky médiá boli zachované tak, ako pred aktualizáciou.";
 
 /* Body text for the 'dropped member' section of the 'upgrade legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_1" = "Tento člen bol odstránený zo skupiny a nebude sa môcť do nej znovu pridať, kým si Signal neaktualizuje:";
+"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_1" = "Tento člen bol odstránený zo skupiny a nebude sa môcť do nej znovu pridať, kým si Kahf neaktualizuje:";
 
 /* Body text for the 'dropped members' section of the 'upgrade legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_N" = "Títo členovia boli odstránený zo skupiny a nebudú sa môcť do nej znovu pridať, kým si Signal neaktualizujú:";
+"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_N" = "Títo členovia boli odstránený zo skupiny a nebudú sa môcť do nej znovu pridať, kým si Kahf neaktualizujú:";
 
 /* Body text for the 'invites member' section of the 'upgrade legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_INVITED_MEMBERS_1" = "Tento člen musí znovu prijať pozvánku do skupiny a kým ju neprijme, nebude dostávať skupinové správy:";
@@ -3223,7 +3223,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Kontaktujte nás";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Kahf support website */
 "HELP_SUPPORT_CENTER" = "Centrum technickej podpory";
 
 /* Label for 'archived conversations' button. */
@@ -3238,16 +3238,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Koncept: ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Niektoré z vašich kontaktov už používajú Signal, vrátane %1$@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Kahf contact.  Embeds {{The name of 1 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Niektoré z vašich kontaktov už používajú Kahf, vrátane %1$@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Niektoré z vašich kontaktov už používajú Signal, vrátane %1$@ a %2$@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Kahf contacts.  Embeds {{The names of 2 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Niektoré z vašich kontaktov už používajú Kahf, vrátane %1$@ a %2$@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Niektoré z vašich kontaktov už používajú Signal, vrátane %1$@, %2$@ a %3$@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Kahf contacts.  Embeds {{The names of 3 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Niektoré z vašich kontaktov už používajú Kahf, vrátane %1$@, %2$@ a %3$@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Kahf contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Zahájte svoj prvý chat tu.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -3280,11 +3280,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Nemôžete zdieľať viac ako %1$@ položiek.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Kahf has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Zmeniť fotky";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Povoľte úplný prístup v Nastaveniach alebo zmeňte, ku ktorým fotkám bude Signal môcť pristupovať.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Povoľte úplný prístup v Nastaveniach alebo zmeňte, ku ktorým fotkám bude Kahf môcť pristupovať.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Nevidíte vaše fotky?";
@@ -3343,8 +3343,8 @@
 /* Indicates that another user has changed their phone number. Embeds: {{ the user's name}} */
 "INFO_MESSAGE_USER_CHANGED_PHONE_NUMBER_FORMAT" = "%1$@ si zmenil(a) svoje telefónne číslo.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ používa Signal!";
+/* Shown in inbox and conversation when a user joins Kahf, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ používa Kahf!";
 
 /* accessibility label for the button which shows the regular keyboard instead of sticker picker */
 "INPUT_TOOLBAR_KEYBOARD_BUTTON_ACCESSIBILITY_LABEL" = "Klávesnica";
@@ -3367,10 +3367,10 @@
 /* The provided proxy host address is not valid */
 "INVALID_PROXY_HOST_ERROR" = "Zadaná proxy adresa je neplatná, skontrolujte adresu a skúste to znova.";
 
-/* Alert body when contacts disabled while trying to invite contacts to signal */
+/* Alert body when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Na pozvanie svojich priateľov, aby sa pridali k používateľom Signalu, môžete v aplikácii Nastavenia iOS povoliť prístup ku kontaktom.";
 
-/* Alert title when contacts disabled while trying to invite contacts to signal */
+/* Alert title when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Povoliť prístup ku kontaktom";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
@@ -3473,7 +3473,7 @@
 "LINK_PREVIEW_UNKNOWN_DOMAIN" = "Náhľad stránky";
 
 /* Shown in an alert when trying to edit a contact. */
-"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Správa systémových kontaktov už nie je na iPade k dispozícii. Ak chcete do systémových kontaktov pridať Signal spojenia, otvorte aplikáciu Signal v telefóne.";
+"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Správa systémových kontaktov už nie je na iPade k dispozícii. Ak chcete do systémových kontaktov pridať Kahf spojenia, otvorte aplikáciu Kahf v telefóne.";
 
 /* Shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. */
 "LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Správa systémových kontaktov už nie je na iPade podporovaná. Toto zariadenie bude pokračovať v synchronizácii všetkých zmien vo vašom zozname kontaktov zo Signalu vo vašom telefóne.";
@@ -3497,7 +3497,7 @@
 "LINKING_DEVICE_FAILED_TITLE" = "Prepojenie zariadenia zlyhalo";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Aby ste preniesli váš Signal účet, musíte povoliť prístup k lokálnej sieti na oboch zariadeniach.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Aby ste preniesli váš Kahf účet, musíte povoliť prístup k lokálnej sieti na oboch zariadeniach.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Potrebujete pomoc?";
@@ -3509,7 +3509,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Zapnite “Lokálna sieť”";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Prejdite na  Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Prejdite na  Kahf";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Zapnite Prístup k lokálnej sieti";
@@ -3524,7 +3524,7 @@
 "LOGGING_SECTION" = "Logovanie";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Záznamy ladenia môžu pomôcť pri riešení problémov a zlyhaní Signal.";
+"LOGGING_SECTION_FOOTER" = "Záznamy ladenia môžu pomôcť pri riešení problémov a zlyhaní Kahf.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Správa";
@@ -3572,7 +3572,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Vymazať pre všetkých";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Táto správa sa vymaže pre každého, kto používa aktuálnu verziu aplikácie Signal. Členovia budú vidieť, že ste vymazali správu.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Táto správa sa vymaže pre každého, kto používa aktuálnu verziu aplikácie Kahf. Členovia budú vidieť, že ste vymazali správu.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Pre koho by ste chceli túto správu vymazať?";
@@ -3607,8 +3607,8 @@
 /* Label for button to open a link. */
 "MESSAGE_ACTION_LINK_OPEN_LINK" = "Otvoriť odkaz";
 
-/* Label for button to open a signal proxy. */
-"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Otvoriť Signal Proxy";
+/* Label for button to open a Kahf proxy. */
+"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Otvoriť Kahf Proxy";
 
 /* Label for button to open a sticker pack. */
 "MESSAGE_ACTION_LINK_OPEN_STICKER_PACK" = "Zobraziť balík nálepiek";
@@ -3752,7 +3752,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Vymazať a opustiť skupinu?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Pozorne si prezrite žiadosti. Signal našiel ďalší kontakt s rovnakým názvom.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Pozorne si prezrite žiadosti. Kahf našiel ďalší kontakt s rovnakým názvom.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Váš kontakt";
@@ -3847,7 +3847,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Prečítaná";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Kahf account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Preskočená";
 
 /* Label indicating that a message failed to send. */
@@ -3893,19 +3893,19 @@
 "MISSING_CAMERA_PERMISSION_MESSAGE" = "V aplikácii Nastavenia iOS môžete povoliť prístup ku kamere, aby ste v Signale mohli uskutočňovať videohovory.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal potrebuje prístup k Vašej kamere.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Kahf potrebuje prístup k Vašej kamere.";
 
 /* Alert body indicating the user has denied location permissions */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Toto povolenie môžete povoliť v aplikácii Nastavenia iOS.";
 
 /* Alert title indicating the user has denied location permissions */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal vyžaduje pre túto funkciu prístup k vašej polohe.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Kahf vyžaduje pre túto funkciu prístup k vašej polohe.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Toto povolenie môžete povoliť v aplikácii Nastavenia iOS.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Signal vyžaduje pre túto funkciu prístup k vašim fotkám.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Kahf vyžaduje pre túto funkciu prístup k vašim fotkám.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Žiadny";
@@ -3926,7 +3926,7 @@
 "MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_EXCEPT_TITLE" = "Všetci okrem…";
 
 /* Title for the visibility option */
-"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Všetky Signal spojenia";
+"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Všetky Kahf spojenia";
 
 /* Title for the visibility option */
 "MY_STORIES_SETTINGS_VISIBILITY_ONLY_SHARE_WITH_TITLE" = "Zdieľať iba s…";
@@ -4105,7 +4105,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Bez mena a obsahu";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Kahf will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Prehrať keď je aplikácia otvorená";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -4160,7 +4160,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Prepojiť iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Ťuknutím na  “Registrovať iPad” budete môcť vytvoriť čisto nový Signal účet, alebo presunúť existujúci účet na tento iPad. Toto vypne Signal na akomkoľvek inom zariadení, ktoré je momentálne registrované prostredníctvom tohto istého telefónneho čísla.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Ťuknutím na  “Registrovať iPad” budete môcť vytvoriť čisto nový Kahf účet, alebo presunúť existujúci účet na tento iPad. Toto vypne Kahf na akomkoľvek inom zariadení, ktoré je momentálne registrované prostredníctvom tohto istého telefónneho čísla.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Ťuknutím na “Prepojiť iPhone” budete môcť spojiť váš telefón s existujúcim účtom. Vo všeobecnosti sa to neodporúča a obmedzí to niektoré funkcie, ako uskutočňovanie hovorov.";
@@ -4172,7 +4172,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Prepojiť tento iPhone";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Registrácia tohto iPadu vypne Signal na akomkoľvek inom zariadení, ktoré je momentálne registrované prostredníctvom tohto istého telefónneho čísla.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Registrácia tohto iPadu vypne Kahf na akomkoľvek inom zariadení, ktoré je momentálne registrované prostredníctvom tohto istého telefónneho čísla.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Prepojenie vášho iPhonu sa neodporúča a obmedzí to základnú funkcionalitu.";
@@ -4181,13 +4181,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Povoliť povolenia";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Povolenie hlásení a kontaktov vám umožní  vidieť prichádzajúce správy a nájsť osoby, ktoré poznáte. Kontakty sú zašifrované, a tak ich služba Signal nevidí.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Povolenie hlásení a kontaktov vám umožní  vidieť prichádzajúce správy a nájsť osoby, ktoré poznáte. Kontakty sú zašifrované, a tak ich služba Kahf nevidí.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Povoliť povolenia";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Zvoľte, kto vás môže nájsť v službe Signal podľa vášho telefónneho čísla %1$@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Zvoľte, kto vás môže nájsť v službe Kahf podľa vášho telefónneho čísla %1$@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Kto vás môže nájsť podľa vášho telefónneho čísla?";
@@ -4205,7 +4205,7 @@
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Neplatné telefónne číslo. Pre registráciu zadajte, prosím, platné telefónne číslo.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Pokusy na uhádnutie PIN kódu ste si vyčerpali, ale ešte stále môžete získať prístup k vášmu účtu Signal, ak si vytvoríte nový PIN. Kvôli vášmu súkromiu a vašej bezpečnosti sa váš účet obnoví bez akýchkoľvek uložených informácií o profile či nastavení.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Pokusy na uhádnutie PIN kódu ste si vyčerpali, ale ešte stále môžete získať prístup k vášmu účtu Kahf, ak si vytvoríte nový PIN. Kvôli vášmu súkromiu a vašej bezpečnosti sa váš účet obnoví bez akýchkoľvek uložených informácií o profile či nastavení.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Dozvedieť sa viac o PINoch";
@@ -4279,14 +4279,14 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%1$@ nastavil(a) časovač miznúcich správ na %2$@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal má technické ťažkosti. Pracujeme na tom, aby sme čo najskôr obnovili našu službu.";
+/* Label warning the user that the Kahf service may be down. */
+"OUTAGE_WARNING" = "Kahf má technické ťažkosti. Pracujeme na tom, aby sme čo najskôr obnovili našu službu.";
 
 /* Label for action link when the user has an outdated payment client */
 "OUTDATED_PAYMENT_CLIENT_ACTION_TITLE" = "Aktualizovať teraz";
 
-/* Label warning the user that they should update Signal to continue using payments. */
-"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Aktualizujte Signal, aby ste mohli naďalej používať platby. Je možné, že váš zostatok nie je aktuálny.";
+/* Label warning the user that they should update Kahf to continue using payments. */
+"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Aktualizujte Kahf, aby ste mohli naďalej používať platby. Je možné, že váš zostatok nie je aktuálny.";
 
 /* info message text in conversation view */
 "OUTGOING_AUDIO_CALL" = "Odchádzajúci hlasový hovor";
@@ -4396,7 +4396,7 @@
 /* Title for action sheet shown when unlocking with biometrics like Face ID or TouchID fails because it is disabled at a system level. */
 "PAYMENTS_LOCK_LOCAL_BIOMETRY_AUTH_DISABLED_TITLE" = "Biometrické overenie zlyhalo";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
 "PAYMENTS_LOCK_REASON_UNLOCK_PAYMENTS_LOCK" = "Na potvrdenie platby je potrebné overenie.";
 
 /* Label for the 'add memo' ui in the 'send payment' UI. */
@@ -4427,7 +4427,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Neplatná transakcia";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Aktualizujte Signal, aby ste mohli používať platby.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Aktualizujte Kahf, aby ste mohli používať platby.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Platba ešte nie je overená";
@@ -4649,13 +4649,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Všetci";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Signal. Others will be able to reach you with your phone number when they start a new chat or group.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Kahf. Others will be able to reach you with your phone number when they start a new chat or group.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Nikto";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Signal will be able to reach you with your phone number.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Kahf will be able to reach you with your phone number.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Príklad: %1$@";
@@ -4664,19 +4664,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Moje kontakty";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Len vaše kontakty budú vidieť vaše telefónne číslo v službe Signal.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Len vaše kontakty budú vidieť vaše telefónne číslo v službe Kahf.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Všetci";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Vaše telefónne číslo sa zobrazí ľuďom a skupinám, ktorým pošlete správu. Ľudia, čo majú vaše telefónne číslo vo svojich kontaktoch, ho v službe Signal budú vidieť tiež.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Vaše telefónne číslo sa zobrazí ľuďom a skupinám, ktorým pošlete správu. Ľudia, čo majú vaše telefónne číslo vo svojich kontaktoch, ho v službe Kahf budú vidieť tiež.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Nikto";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Nikto nebude vidieť vaše telefónne číslo v službe Signal.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Nikto nebude vidieť vaše telefónne číslo v službe Kahf.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%1$@ %2$@";
@@ -4820,7 +4820,7 @@
 "PIN_CREATION_WEAK_ERROR" = "Zvoľte si silnejší PIN";
 
 /* If your attempted PIN is too weak, you'll see an error message. This is the text on the error dialog. */
-"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Signal encrypted so only you can access it. Choose a stronger PIN to protect your account.";
+"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Kahf encrypted so only you can access it. Choose a stronger PIN to protect your account.";
 
 /* Error body indicating that the attempt to disable a PIN failed. */
 "PIN_DISABLE_ERROR_MESSAGE" = "Váš PIN sa nepodarilo vypnúť. Upozorníme vás neskôr.";
@@ -4850,7 +4850,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "O tri dni vám to pripomenieme znovu.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Overte svoj PIN pre Signal";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Overte svoj PIN pre Kahf";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Zajtra vám to pripomenieme znovu.";
@@ -4865,7 +4865,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Nesprávny PIN, skúste znovu.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Zadajte svoj PIN pre Signal";
+"PIN_REMINDER_TITLE" = "Zadajte svoj PIN pre Kahf";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN musí mať aspoň 4 číslice.";
@@ -4880,7 +4880,7 @@
 "PINS_MEGAPHONE_ACTION" = "Vytvoriť PIN";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Dokončite vytváranie Signal PIN kódu.";
+"PINS_MEGAPHONE_BODY" = "Dokončite vytváranie Kahf PIN kódu.";
 
 /* Title for PIN megaphone when user doesn't have a PIN */
 "PINS_MEGAPHONE_TITLE" = "Vytvoriť si PIN";
@@ -4913,10 +4913,10 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Číslo vo vašej schránke nevyzerá ako správne bezpečnostné číslo pre tento chat.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal nenašiel v schránke žiadne bezpečnostné číslo. Okopírovali ste ho správne?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Kahf nenašiel v schránke žiadne bezpečnostné číslo. Okopírovali ste ho správne?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Každá dvojica Signal používateľov spolu zdieľa jedinečné bezpečnostné číslo. Dobre si overte, že %1$@ zobrazuje *vaše* jedinečné bezpečnostné číslo.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Každá dvojica Kahf používateľov spolu zdieľa jedinečné bezpečnostné číslo. Dobre si overte, že %1$@ zobrazuje *vaše* jedinečné bezpečnostné číslo.";
 
 /* alert body */
 "PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Používate starú verziu Signalu. Pred overením musíte aplikáciu aktualizovať.";
@@ -5032,7 +5032,7 @@
 /* Title for the profile view. */
 "PROFILE_VIEW_TITLE" = "Profil";
 
-/* The title for the address of the signal proxy */
+/* The title for the address of the Kahf proxy */
 "PROXY_ADDRESS" = "Proxy adresa";
 
 /* The provided proxy connected successfully */
@@ -5041,10 +5041,10 @@
 /* The provided proxy couldn't connect */
 "PROXY_FAILED_TO_CONNECT" = "Nepodarilo sa pripojiť ku proxy. Skontrolujte proxy adresu a skúste to znova.";
 
-/* Placeholder text for signal proxy host */
+/* Placeholder text for Kahf proxy host */
 "PROXY_PLACEHOLDER" = "Zadajte adresu proxy servera";
 
-/* Title for the signal proxy settings */
+/* Title for the Kahf proxy settings */
 "PROXY_SETTINGS_TITLE" = "Proxy";
 
 /* Notification action button title */
@@ -5144,18 +5144,18 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Nie je možné vybrať používateľa.";
 
 /* Alert text. Shown after selecting a phone number that isn't valid. */
-"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "%1$@ nepoužíva Signal. Skúste to znovu s platným telefónnym číslom.";
+"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "%1$@ nepoužíva Kahf. Skúste to znovu s platným telefónnym číslom.";
 
 /* Alert title. Shown after selecting a phone number that isn't valid. */
 "RECIPIENT_PICKER_INVALID_NUMBER_TITLE" = "Neplatné telefónne číslo";
 
-/* Button. Shown after selecting a phone number that isn't a Signal user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
+/* Button. Shown after selecting a phone number that isn't a Kahf user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
 "RECIPIENT_PICKER_INVITE_ACTION" = "Správa";
 
-/* Alert text. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ nepoužíva Signal. Chceli by ste pozvať toto číslo?";
+/* Alert text. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ nepoužíva Kahf. Chceli by ste pozvať toto číslo?";
 
-/* Alert title. Shown after selecting a phone number that isn't a Signal user. */
+/* Alert title. Shown after selecting a phone number that isn't a Kahf user. */
 "RECIPIENT_PICKER_INVITE_TITLE" = "Pozvať do Signalu";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
@@ -5194,10 +5194,10 @@
 /* Label for the country code field */
 "REGISTRATION_DEFAULT_COUNTRY_NAME" = "Kód krajiny";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
-"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Signal on other devices currently registered with the same phone number.";
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
+"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Kahf on other devices currently registered with the same phone number.";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
 "REGISTRATION_DEVICE_TRANSFER_CHOICE_TITLE" = "Transfer Account & Messages";
 
 /* Placeholder text for the phone number textfield */
@@ -5234,13 +5234,13 @@
 "REGISTRATION_PIN_CONFIRM_TITLE" = "Confirm your PIN";
 
 /* During registration, users are asked to create a PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During registration, users are asked to create a PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_CREATE_TITLE" = "Create your PIN";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_ENTER_EXISTING_TITLE" = "Enter your PIN";
@@ -5348,7 +5348,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Zobraziť";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Naše Signal bezpečnostné číslo:\n%1$@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Naše Kahf bezpečnostné číslo:\n%1$@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Vaše bezpečnostné číslo s %1$@ sa zmenilo. Mohli by ste si to chcieť overiť.";
@@ -5380,14 +5380,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Pre používanie zámku obrazovky, zapnite kódový zámok v nastaveniach iOS.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
 "SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Pre otvorenie Signalu sa autentifikujte.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Autentifikácia Zlyhala";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Odomknúť Signal";
+/* Label for button on lock screen that lets users unlock Kahf. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Odomknúť Kahf";
 
 /* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
 "SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT" = "Meno, používateľské meno alebo číslo";
@@ -5423,7 +5423,7 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Účet sa nezhoduje";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Na prepojenie Signalu s vašim telefónom, aktualizujte Signal na tomto zariadení.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Na prepojenie Signalu s vašim telefónom, aktualizujte Kahf na tomto zariadení.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Nepodporovaná verzia";
@@ -5450,19 +5450,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Dokončiť prepájanie";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Pre prepojenie tohto iPadu k vášmu účtu spustite Signal na vašom telefóne.";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Pre prepojenie tohto iPadu k vášmu účtu spustite Kahf na vašom telefóne.";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Nemám Signal na svojom telefóne…";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Nemám Kahf na svojom telefóne…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Choďte do App Store na vašom telefóne, nainštalujte Signal, dokončite proces registrácie a potom budete môcť prepojiť váš iPad s tým istým účtom.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Choďte do App Store na vašom telefóne, nainštalujte Kahf, dokončite proces registrácie a potom budete môcť prepojiť váš iPad s tým istým účtom.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Inštalovať Signal na váš telefón";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Inštalovať Kahf na váš telefón";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Ťuknite na váš profilový obrázok pre otvorenie Nastavení Signal vo vašom telefóne. Potom na \"Prepojené zariadenia\" a \"Prepojiť nové zariadenie\" pre naskenovanie tohto kódu pomocou vášho telefónu:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Ťuknite na váš profilový obrázok pre otvorenie Nastavení Kahf vo vašom telefóne. Potom na \"Prepojené zariadenia\" a \"Prepojiť nové zariadenie\" pre naskenovanie tohto kódu pomocou vášho telefónu:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Získajte tu pomoc s prepojením vášho iPadu";
@@ -5471,7 +5471,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Zoskenujte QR kód pomocou vášho telefónu";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Na prenos vášho účtu, spustite Signal na vašom starom iPade";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Na prenos vášho účtu, spustite Kahf na vašom starom iPade";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Bezpečná relácia bola obnovená.";
@@ -5513,7 +5513,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Štandardná";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal používa koncové šifrovanie a občas môže potrebovať obnoviť vašu chatovú reláciu. Toto nemá vplyv na bezpečnosť vášho chatu, ale mohla by vám uniknúť správa od tohto kontaktu a môžete používateľa požiadať, aby vám ju poslal znovu.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Kahf používa koncové šifrovanie a občas môže potrebovať obnoviť vašu chatovú reláciu. Toto nemá vplyv na bezpečnosť vášho chatu, ale mohla by vám uniknúť správa od tohto kontaktu a môžete používateľa požiadať, aby vám ju poslal znovu.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Chatové stretnutie obnovené";
@@ -5540,7 +5540,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Poloha";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Keď je povolené, Signal sa pokúsi obísť cenzúru. Nepovoľujte v umiestneniach, kde Signal nie je cenzurovaný.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Keď je povolené, Kahf sa pokúsi obísť cenzúru. Nepovoľujte v umiestneniach, kde Kahf nie je cenzurovaný.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Obchádzanie cenzúry bolo zapnuté na základe telefónneho čísla vašeho účtu.";
@@ -5551,8 +5551,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Obchádzanie cenzúry je možné zapnúť len s prístupom na internet.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Obchádzanie cenzúry nie je nutné; už ste pripojený k službe Signal.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Kahf service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Obchádzanie cenzúry nie je nutné; už ste pripojený k službe Kahf.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Povoliť denník ladenia";
@@ -5593,7 +5593,7 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Pridať blokovaného používateľa";
 
-/* A label that indicates the user has no Signal contacts that they haven't blocked. */
+/* A label that indicates the user has no Kahf contacts that they haven't blocked. */
 "SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nemáte žiadne kontakty v Signale.";
 
 /* A label that indicates the user's search has no matching results. */
@@ -5606,7 +5606,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Vždy presmerovať hovory";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Smerovať všetky hovory cez server Signal pre zabránenie, aby váš kontakt odhalil vašu IP adresu. Zapnutie zníži kvalitu hovoru.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Smerovať všetky hovory cez server Kahf pre zabránenie, aby váš kontakt odhalil vašu IP adresu. Zapnutie zníži kvalitu hovoru.";
 
 /* Label for the 'edit phone number' button in the 'change phone number' views. */
 "SETTINGS_CHANGE_PHONE_NUMBER_BACK_TO_EDIT_BUTTON" = "Upraviť číslo";
@@ -5660,7 +5660,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Vymazať históriu četov";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Autorské práva Signal Messenger\nLicencované pod GPLv3";
+"SETTINGS_COPYRIGHT" = "Autorské práva Kahf Messenger\nLicencované pod GPLv3";
 
 /* Label for the 'data' section of the app settings. */
 "SETTINGS_DATA" = "Využitie dát";
@@ -5725,8 +5725,8 @@
 /* Explanation for the 'disappearing messages' privacy settings. */
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Nastavte predvolený časovač miznutia správ pre všetky nové správy ktoré odošlete.";
 
-/* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Prispieť na Signal";
+/* Title for the 'donate to Kahf' link in settings. */
+"SETTINGS_DONATE" = "Prispieť na Kahf";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Pomocník";
@@ -5794,8 +5794,8 @@
 /* table section header */
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Obsah hlásení";
 
-/* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt sa pripojí k Signal";
+/* When the local device discovers a contact has recently installed Kahf, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt sa pripojí k Kahf";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Upozorniť, keď…";
@@ -5807,7 +5807,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Aktivovať";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Signal môžete používať na posielanie a prijímanie MobileCoinu. Všetky platby podliehajú podmienkam používania MobileCoinov a peňaženky MobileCoin. Toto je beta funkcia, a tak by ste mohli naraziť na nejaké problémy. Ďalej, platby či zostatky, o ktoré by ste mohli prísť, nie je možné obnoviť.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Kahf môžete používať na posielanie a prijímanie MobileCoinu. Všetky platby podliehajú podmienkam používania MobileCoinov a peňaženky MobileCoin. Toto je beta funkcia, a tak by ste mohli naraziť na nejaké problémy. Ďalej, platby či zostatky, o ktoré by ste mohli prísť, nie je možné obnoviť.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Aktivovať";
@@ -5831,7 +5831,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ z %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Platby v službe Signal už nie sú k dispozícii. Stále môžete prevádzať prostriedky na burzu, ale už nemôžete posielať a prijímať platby ani pridávať prostriedky.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Platby v službe Kahf už nie sú k dispozícii. Stále môžete prevádzať prostriedky na burzu, ale už nemôžete posielať a prijímať platby ani pridávať prostriedky.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Nepodarilo sa deaktivovať platby, pretože váš zostatok nie je dostupný. Skontrolujte vaše pripojenie a skúste to znovu.";
@@ -5840,10 +5840,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Nepodarilo sa dokončiť platbu, pretože váš zostatok nie je dostupný. Skontrolujte vaše pripojenie a skúste to znovu.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Platby v službe Signal už nie sú k dispozícii. Stále môžete prevádzať prostriedky na burzu, ale už nemôžete posielať a prijímať platby ani pridávať prostriedky.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Platby v službe Kahf už nie sú k dispozícii. Stále môžete prevádzať prostriedky na burzu, ale už nemôžete posielať a prijímať platby ani pridávať prostriedky.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Platby v službe Signal už nie sú k dispozícii. Stále môžete prevádzať prostriedky na burzu, ale už nemôžete posielať a prijímať platby ani pridávať prostriedky.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Platby v službe Kahf už nie sú k dispozícii. Stále môžete prevádzať prostriedky na burzu, ale už nemôžete posielať a prijímať platby ani pridávať prostriedky.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Prepočty sú len odhadmi a nemusia byť presné.";
@@ -5873,7 +5873,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Odporúčame, aby ste pred deaktiváciou platieb vaše prostriedky previedli na adresu inej peňaženky. Ak sa rozhodnete, že vaše prostriedky neprevediete teraz, zostanú v peňaženke prepojenej so Signalom, ak platby reaktivujete.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "V prípade, že  sa rozhodnete opätovne aktivovať platby, váš zostatok zostane vo vašej peňaženke prepojenej so službou Signal.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "V prípade, že  sa rozhodnete opätovne aktivovať platby, váš zostatok zostane vo vašej peňaženke prepojenej so službou Kahf.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Deaktivovať bez prevodu?";
@@ -5900,7 +5900,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "Čo je to MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Prostriedky na použitie v službe Signal môžete pridať poslaním MobileCoinov na adresu vašej peňaženky.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Prostriedky na použitie v službe Kahf môžete pridať poslaním MobileCoinov na adresu vašej peňaženky.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Pridávanie prostriedkov";
@@ -5957,7 +5957,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Platby sú aktivované.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Pomocou Signal môžete odosielať a prijímať MobileCoin, novú digitálnu menu zameranú na súkromie. Ak chcete začať, aktivujte.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Pomocou Kahf môžete odosielať a prijímať MobileCoin, novú digitálnu menu zameranú na súkromie. Ak chcete začať, aktivujte.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Reaktivovať platby";
@@ -5975,7 +5975,7 @@
 "SETTINGS_PAYMENTS_PASSPHRASE_DISCARD_CONFIRMATION_TITLE" = "Pokračovať bez uloženia?";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Váš zostatok sa automaticky obnoví, keď si Signal preinštalujete, ak potvrdíte váš PIN pre Signal. Váš zostatok môžete taktiež obnoviť pomocou frázy na obnovenie, čo je fráza pozostávajúca z 24 slov, ktorú máte len vy. Zapíšte si ju a uložte na bezpečné miesto.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Váš zostatok sa automaticky obnoví, keď si Kahf preinštalujete, ak potvrdíte váš PIN pre Kahf. Váš zostatok môžete taktiež obnoviť pomocou frázy na obnovenie, čo je fráza pozostávajúca z 24 slov, ktorú máte len vy. Zapíšte si ju a uložte na bezpečné miesto.";
 
 /* Explanation of the 'payments passphrase' when there is a balance. */
 "SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION_FROM_BALANCE" = "Máte zostatok! Je čas uložiť si frázu na obnovenie—24-slovný kľúč, ktorý môžete použiť na obnovenie vášho zostatku.";
@@ -6065,7 +6065,7 @@
 "SETTINGS_PAYMENTS_PAYMENTS_LOCK_PROMPT_EXPLANATION_TOUCHID" = "Zabráňte osobe, ktorá používa váš telefón, pristupovať k vašim finančným prostriedkom povolením funkcie Touch ID. Túto možnosť môžete vypnúť v Nastaveniach.";
 
 /* Button for payments outdated sheet. */
-"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Aktualizovať Signal";
+"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Aktualizovať Kahf";
 
 /* Message for payments outdated sheet. */
 "SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_MESSAGE" = "Ak si želáte naďalej odosielať a prijímať platby a mať prehľad o aktuálnom zostatku platieb, aktualizujte si aplikáciu.";
@@ -6197,7 +6197,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Platby";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Nemôžete vykonať prevod na adresu vašej Signal peňaženky. Zadajte adresu peňaženky z vášho účtu v podporovanej zmenárni.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Nemôžete vykonať prevod na adresu vašej Kahf peňaženky. Zadajte adresu peňaženky z vášho účtu v podporovanej zmenárni.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "MobileCoin môžete previesť vykonaním prevodu na adresu peňaženky poskytnutú zmenárňou. Adresa peňaženky je reťazec pozostávajúci z číslic a písmen a najčastejšie sa nachádza pod QR kódom.";
@@ -6281,7 +6281,7 @@
 "SETTINGS_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Who Can Find Me By Number";
 
 /* Description label for Phone Number Privacy */
-"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Signal with it.";
+"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Kahf with it.";
 
 /* The title for phone number privacy settings. */
 "SETTINGS_PHONE_NUMBER_PRIVACY_TITLE" = "Phone Number";
@@ -6293,16 +6293,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Vypnúť upomienky";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Uistite sa, že si svoj PIN pamätáte, alebo že ho máte bezpečne uložený, pretože ho nie je možné obnoviť. Ak váš PIN zabudnete, mohli by ste stratiť dáta pri opätovnej registrácii vášho Signal účtu.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Uistite sa, že si svoj PIN pamätáte, alebo že ho máte bezpečne uložený, pretože ho nie je možné obnoviť. Ak váš PIN zabudnete, mohli by ste stratiť dáta pri opätovnej registrácii vášho Kahf účtu.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Overte svoj PIN pre Signal";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Overte svoj PIN pre Kahf";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN upomienky";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PINy uchovávajú informácie uložené pomocou šifrovania Signal, takže k nim máte prístup iba vy. Váš PIN nie je možné obnoviť. Po opätovnej inštalácii Signal sa váš profil, nastavenia a kontakty obnovia.";
+"SETTINGS_PINS_FOOTER" = "PINy uchovávajú informácie uložené pomocou šifrovania Kahf, takže k nim máte prístup iba vy. Váš PIN nie je možné obnoviť. Po opätovnej inštalácii Kahf sa váš profil, nastavenia a kontakty obnovia.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Zmente si PIN";
@@ -6311,7 +6311,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Vytvoriť PIN";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "PIN kód Signal";
+"SETTINGS_PINS_TITLE" = "PIN kód Kahf";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Obchádzanie cenzúry, proxy, presmerované hovory a nastavenia šifrovaného odosielateľa.";
@@ -6368,16 +6368,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Uskutočňovanie hovorov";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Na odblokovanie Signal použite Touch ID, Face ID alebo prístupový kód zariadenia so systémom iOS.";
+"SETTINGS_SECURITY_DETAIL" = "Na odblokovanie Kahf použite Touch ID, Face ID alebo prístupový kód zariadenia so systémom iOS.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Na odblokovanie Signal použite Face ID.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Na odblokovanie Kahf použite Face ID.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Na odblokovanie Signal použite prístupový kód zariadenia.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Na odblokovanie Kahf použite prístupový kód zariadenia.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Na odblokovanie Signal použite Touch ID.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Na odblokovanie Kahf použite Touch ID.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Zabezpečenie aplikácie";
@@ -6392,16 +6392,16 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Zdieľajte kontakty so systémom iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Povoľte systému iOS prístup ku kontaktom a rozhovorom so Signal pre funkcie, ako sú napríklad návrhy na zdieľanie.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Povoľte systému iOS prístup ku kontaktom a rozhovorom so Kahf pre funkcie, ako sú napríklad návrhy na zdieľanie.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Povoľte systému iOS prístup ku kontaktom a rozhovorom Signal pre funkcie, ako sú návrhy na zdieľanie a upozornenia.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Povoľte systému iOS prístup ku kontaktom a rozhovorom Kahf pre funkcie, ako sú návrhy na zdieľanie a upozornenia.";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Registračný zámok";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Na opätovné zaregistrovanie telefónneho čísla v aplikácii Signal vyžadujte svoj Signal PIN.";
+/* Footer for the 'two factor auth' section of the privacy settings when Kahf PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Na opätovné zaregistrovanie telefónneho čísla v aplikácii Kahf vyžadujte svoj Kahf PIN.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Indikátory písania";
@@ -6434,13 +6434,13 @@
 "SHARE_EXTENSION_LOADING" = "Načítava sa…";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Pre registráciu spustite aplikáciu Signal.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Pre registráciu spustite aplikáciu Kahf.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Neregistrovaný/á";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Pre aktualizáciu alebo registráciu spustite aplikáciu Signal.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Pre aktualizáciu alebo registráciu spustite aplikáciu Kahf.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Nepripravené";
@@ -6454,11 +6454,11 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Nahrávanie…";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Kahf user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Prílohu sa nepodarilo pripraviť";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Zdieľať v aplikácii Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Zdieľať v aplikácii Kahf";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Návrhy pri zdieľaní sa nepodarilo vypnúť.";
@@ -6469,8 +6469,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Zobraziť chat";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Pozývam Vás, aby ste si nainštalovali Signal! Tu je odkaz:";
+/* body sent to contacts when inviting to Install Kahf */
+"SMS_INVITE_BODY" = "Pozývam Vás, aby ste si nainštalovali Kahf! Tu je odkaz:";
 
 /* An error message generically indicating that something went wrong. */
 "SOMETHING_WENT_WRONG_ERROR" = "Niekde sa stala chyba.";
@@ -6494,7 +6494,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Pokračovať bez overenia?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Ak chcete zabrániť spamu v Signal, dokončite overenie.\n\nPo overení môžete pokračovať v zasielaní správ. Pozastavené správy sa automaticky odošlú.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Ak chcete zabrániť spamu v Kahf, dokončite overenie.\n\nPo overení môžete pokračovať v zasielaní správ. Pozastavené správy sa automaticky odošlú.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Overte, či chcete pokračovať v zasielaní správ";
@@ -6772,32 +6772,32 @@
 /* Text indicating that the story is currently sending */
 "STORY_SENDING" = "Odosiela sa…";
 
-/* First bullet point for the explainer sheet for signal connections */
+/* First bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_1" = "Začali ste konverzáciu";
 
-/* Second bullet point for the explainer sheet for signal connections */
+/* Second bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_2" = "Prijali ste žiadosť o správu";
 
-/* Third bullet point for the explainer sheet for signal connections */
+/* Third bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_3" = "Pridali ste si ich do svojich kontaktoch";
 
-/* Footer for the explainer sheet for signal connections */
+/* Footer for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_FOOTER" = "Vaše spojenia môžu vidieť vaše meno a fotografiu a tiež obsah, ktorý posielate do sekcie „Môj príbeh“, pokiaľ ho pred nimi neskryjete.";
 
-/* Header for the explainer sheet for signal connections */
-"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Signal spojenia</bold> sú ľudia, ktorým ste sa rozhodli dôverovať jedným z nasledujúcich spôsobov:";
+/* Header for the explainer sheet for Kahf connections */
+"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Kahf spojenia</bold> sú ľudia, ktorým ste sa rozhodli dôverovať jedným z nasledujúcich spôsobov:";
 
 /* Label for the stories section of the settings view */
 "STORY_SETTINGS_TITLE" = "Príbehy";
 
 /* Section footer for the 'viewers' section on the 'story settings' view */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Vyberte, ktoré Signal spojenia si môžu pozrieť váš príbeh. Zmeny neovplyvnia príbehy, ktoré ste už odoslali.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Vyberte, ktoré Kahf spojenia si môžu pozrieť váš príbeh. Zmeny neovplyvnia príbehy, ktoré ste už odoslali.";
 
 /* Section header for the 'viewers' section on the 'story settings' view */
 "STORY_SETTINGS_WHO_CAN_VIEW_THIS_HEADER" = "Kto si môže pozrieť tento príbeh";
 
 /* Header for the 'viewers' section on the 'story settings' bottom sheet */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Vyberte, ktoré Signal spojenia si môžu pozrieť váš príbeh. Výber môžete kedykoľvek zmeniť v nastaveniach súkromia.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Vyberte, ktoré Kahf spojenia si môžu pozrieť váš príbeh. Výber môžete kedykoľvek zmeniť v nastaveniach súkromia.";
 
 /* Tooltip text shown when the user selects a story as a destination for a long duration video that will be split into shorter segments. Embeds {{ segment duration in seconds }} */
 "STORY_VIDEO_SEGMENTATION_TOOLTIP_FORMAT" = "Videá odoslané do príbehov budú zostrihané na %1$d-sekundové klipy a odoslané vo forme viacerých príbehov.";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Povedzte nám, aký máte problém: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Prosím, pošlite vašu žiadosť o technickú podporu E-mailom na support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Prosím, pošlite vašu žiadosť o technickú podporu E-mailom na support@Kahf.org";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filter: %1$@";
@@ -6859,16 +6859,16 @@
 /* Localized label for support request email debug log URL. Embeds {{debug log url}}. */
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "URL logu: %1$@";
 
-/* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal verzia: %1$@";
+/* Localized label for support request email Kahf version string. Embeds {{Kahf version}}. */
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Kahf verzia: %1$@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS žiadosť o technickú podporu";
+"SUPPORT_EMAIL_SUBJECT" = "Kahf iOS žiadosť o technickú podporu";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Ako sa cítite? (voliteľné)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Kahf FAQ */
 "SUPPORT_FAQ_PROMPT" = "Prečítali ste si už našu sekciu FAQ?";
 
 /* Label describing support switch to attach debug logs */
@@ -6944,7 +6944,7 @@
 "SWITCH_ON" = "Zapnuté";
 
 /* Name to display for the 'system' sender, e.g. for release notes and the onboarding story */
-"SYSTEM_ADDRESS_NAME" = "Signal";
+"SYSTEM_ADDRESS_NAME" = "Kahf";
 
 /* Label for button to verify a user's safety number. */
 "SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER" = "Overiť";
@@ -7049,7 +7049,7 @@
 "UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Dostali ste správu, ktorú nie je možné zobraziť alebo spracovať, pretože používa novú funkciu Signalu.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Aktualizujte Signal teraz";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Aktualizujte Kahf teraz";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
 "UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Aktualizované na najnovšiu verziu Signalu. Teraz môžete prijať tento typ správy na vašom zariadení.";
@@ -7082,10 +7082,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Odpojiť \"%1$@\"?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Zariadenie už nie je prepojené. Pre pokračovanie znovu prepojte Signal s vašim telefónom.";
+"UNLINKED_WARNING" = "Zariadenie už nie je prepojené. Pre pokračovanie znovu prepojte Kahf s vašim telefónom.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal nedokázal odpojiť vaše zariadenie.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Kahf nedokázal odpojiť vaše zariadenie.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Nepomenované zariadenie";
@@ -7102,7 +7102,7 @@
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Bol prijatý nepodporovaný typ prílohy.";
 
-/* When inviting contacts to use Signal, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
+/* When inviting contacts to use Kahf, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
 "UNSUPPORTED_FEATURE_ERROR" = "Vaše zariadenie nepodporuje túto funkciu.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
@@ -7120,10 +7120,10 @@
 /* Error indicating that a group could not be updated due to network connectivity problems. */
 "UPDATE_GROUP_FAILED_DUE_TO_NETWORK" = "Skupinu nebolo možné aktualizovať. Skontrolujte vaše pripojenie na internet a skúste to znovu.";
 
-/* Button to activate the signal proxy */
+/* Button to activate the Kahf proxy */
 "USE_PROXY_BUTTON" = "Použiť proxy";
 
-/* Explanation of when you should use a signal proxy */
+/* Explanation of when you should use a Kahf proxy */
 "USE_PROXY_EXPLANATION" = "Proxy používajte iba v prípade, že sa nemôžete pripojiť k Signalu cez mobilné dáta alebo Wi-Fi.";
 
 /* Description of how to update discovery */
@@ -7132,8 +7132,8 @@
 /* Description of username discriminator digits */
 "USERNAME_DISCRIMINATOR_DESCRIPTION" = "Používateľské mená sú spárované so súpravou číslic a nezdieľajú sa vo vašom profile";
 
-/* Title to set up signal username */
-"USERNAME_EDUCATION_TITLE" = "Nastavte si používateľské meno Signal";
+/* Title to set up Kahf username */
+"USERNAME_EDUCATION_TITLE" = "Nastavte si používateľské meno Kahf";
 
 /* Description of username link */
 "USERNAME_LINK_DESCRIPTION" = "Každé používateľské meno má jedinečný odkaz, ktorý môžete zdieľať so svojimi priateľmi, aby ste mohli začať četovať";
@@ -7147,10 +7147,10 @@
 /* Title for an action sheet indicating that a user-entered username value is not a valid username. */
 "USERNAME_LOOKUP_INVALID_USERNAME_TITLE" = "Neplatné používateľské meno";
 
-/* A message indicating that the given username is not associated with a registered Signal account. Embeds {{ a username }}. */
-"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ nepoužíva Signal. Uistite sa, že ste zadali celé používateľské meno.";
+/* A message indicating that the given username is not associated with a registered Kahf account. Embeds {{ a username }}. */
+"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ nepoužíva Kahf. Uistite sa, že ste zadali celé používateľské meno.";
 
-/* Title for an action sheet indicating that the given username is not associated with a registered Signal account. */
+/* Title for an action sheet indicating that the given username is not associated with a registered Kahf account. */
 "USERNAME_LOOKUP_NOT_FOUND_TITLE" = "Používateľ sa nenašiel";
 
 /* A prefix appended to all usernames when displayed */
@@ -7250,7 +7250,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Stlačením a podržaním spustíte nahrávanie.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Dokončite prípravu Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Dokončite prípravu Kahf Desktop.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Názov kontaktu";

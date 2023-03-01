@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "અત્યારે નહીં";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Signal વિશે";
+"ABOUT_SECTION_TITLE" = "Kahf વિશે";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "નવો સલામતી નંબર સ્વીકારો";
@@ -29,10 +29,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO" = "વૉઈસ મેસેજ";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal કૉલ";
+"ACTION_AUDIO_CALL" = "Kahf કૉલ";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Signal માટે આમંત્રણ આપો";
+"ACTION_INVITE" = "Kahf માટે આમંત્રણ આપો";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "મેસેજ મોકલો";
@@ -118,7 +118,7 @@
 /* Label shown over thumbnails of GIFs in the All Media view */
 "ALL_MEDIA_THUMBNAIL_LABEL_GIF" = "GIF";
 
-/* Title for the view of all your signal connections */
+/* Title for the view of all your Kahf connections */
 "ALL_SIGNAL_CONNECTIONS_TITLE" = "બધા કનેક્શન";
 
 /* notification action */
@@ -128,37 +128,37 @@
 "APN_Message" = "તમારી માટે કદાચ નવા મેસેજ હોઈ શકે છે";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal લોન્ચ કરી શકાતું નથી. કૃપા કરીને support@signal.org પર ડિબગ લૉગ મોકલો જેથી અમે આ સમસ્યાને નિવારણ કરી શકીએ.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf લોન્ચ કરી શકાતું નથી. કૃપા કરીને support@Kahf.org પર ડિબગ લૉગ મોકલો જેથી અમે આ સમસ્યાને નિવારણ કરી શકીએ.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "ભૂલ";
 
 /* Button to try launching the app even though the last launch failed */
-"APP_LAUNCH_FAILURE_CONTINUE" = "તેના બદલે Signal ઓપન કરો";
+"APP_LAUNCH_FAILURE_CONTINUE" = "તેના બદલે Kahf ઓપન કરો";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "ડેટાબેસ લોડ કરી શકાયું નથી";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "કૃપા કરીને Signal ના નવીનતમ વર્ઝન પર અપગ્રેડ કરો.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "કૃપા કરીને Kahf ના નવીનતમ વર્ઝન પર અપગ્રેડ કરો.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "અજાણ ડેટાબેઝ વર્ઝન.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signal ઓપન કરવાનો પ્રયાસ કરતી વખતે એક સમસ્યા આવી હતી. આ સમસ્યાનું નિવારણ કરવામાં સહાયતા માટે કૃપા કરીને support@signal.orgને એક ડીબગ લૉગ મોકલો.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf ઓપન કરવાનો પ્રયાસ કરતી વખતે એક સમસ્યા આવી હતી. આ સમસ્યાનું નિવારણ કરવામાં સહાયતા માટે કૃપા કરીને support@Kahf.orgને એક ડીબગ લૉગ મોકલો.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Signal ઓપન ન કરી શક્યા";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Kahf ઓપન ન કરી શક્યા";
 
 /* Error description indicating that the app crashed because there was low storage space available on the device. */
-"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Signal ઓપન ન થઈ શકી કારણ કે તમારા ડિવાઇસ પર સ્ટોરેજ ઓછું છે. Signalનો ઉપયોગ કરવા માટે, સેટિંગ્સમાં તમારા સ્ટોરેજને મેનેજ કરીને સ્પેસ ખાલી કરો.";
+"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Kahf ઓપન ન થઈ શકી કારણ કે તમારા ડિવાઇસ પર સ્ટોરેજ ઓછું છે. Signalનો ઉપયોગ કરવા માટે, સેટિંગ્સમાં તમારા સ્ટોરેજને મેનેજ કરીને સ્પેસ ખાલી કરો.";
 
 /* Error title indicating that the app crashed because there was low storage space available on the device. */
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "સ્ટોરેજ સ્પેસ ઓછી છે";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "તમારા જૂના ડિવાઇસમાંથી ટ્રાન્સફર કરેલ ડેટા રિસ્ટોર કરી શકાયો નહીં. કૃપા કરીને support@signal.org પર ડિબગ લૉગ મોકલો જેથી અમે આ સમસ્યાનું નિવારણ કરી શકીએ. જો તમે Signal ને ફરીથી ઇન્સ્ટોલ કરો છો તો તમે તમારી મેસેજ હિસ્ટ્રી ગુમાવી શકો છો";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "તમારા જૂના ડિવાઇસમાંથી ટ્રાન્સફર કરેલ ડેટા રિસ્ટોર કરી શકાયો નહીં. કૃપા કરીને support@Kahf.org પર ડિબગ લૉગ મોકલો જેથી અમે આ સમસ્યાનું નિવારણ કરી શકીએ. જો તમે Kahf ને ફરીથી ઇન્સ્ટોલ કરો છો તો તમે તમારી મેસેજ હિસ્ટ્રી ગુમાવી શકો છો";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "ટ્રાન્સફર પૂર્ણ કરી શકાયું નથી";
@@ -173,7 +173,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "વર્ઝન %1$@ હવે App Store પર ઉપલબ્ધ છે.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Signal નું નવું વર્ઝન ઉપલબ્ધ છે";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Kahf નું નવું વર્ઝન ઉપલબ્ધ છે";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "અપડેટ";
@@ -227,9 +227,9 @@
 "APPLE_PAY_DONATION_ERROR_PAYMENT_CANNOT_BE_AUTHORIZED" = "તમારી ચુકવણી પદ્ધતિ Apple Payમાં અદ્યતન છે કે કેમ તે જોવા તપાસો. જો અદ્યતન ન હોય તો તેને અપડેટ કરો અને ફરી પ્રયાસ કરો.";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Kahf";
 
-/* On the iOS home screen, if you tap and hold the Signal icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
+/* On the iOS home screen, if you tap and hold the Kahf icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
 "APPLICATION_SHORTCUT_NEW_MESSAGE" = "નવો મેસેજ";
 
 /* Label for the archive button for conversations list view */
@@ -247,7 +247,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "જોડાણ નિકાસ કરવામાં નિષ્ફળ થયું.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Kahf was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "સેવ કરવામાં નિષ્ફળ";
 
 /* Format string for file extension label in call interstitial view */
@@ -316,7 +316,7 @@
 /* A button to select a GIF from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_GIF" = "GIF";
 
-/* A message on a button prompting the user to go settings to grant Signal photos access. */
+/* A message on a button prompting the user to go settings to grant Kahf photos access. */
 "ATTACHMENT_KEYBOARD_GIVE_PHOTOS_ACCESS" = "ઍક્સેસ આપો";
 
 /* A button to select a location from the Attachment Keyboard */
@@ -406,7 +406,7 @@
 /* The title for the badge configuration page */
 "BADGE_CONFIGURATION_TITLE" = "બૅજ";
 
-/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Signal\" button will be shown. This is the text in that button. */
+/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Kahf\" button will be shown. This is the text in that button. */
 "BADGE_DETAILS_DONATE_TO_SIGNAL" = "હમણાં દાન કરો";
 
 /* When viewing someone else's donor badge, you'll see a sheet. This is the title on that sheet. Embeds {badge owner's short name} */
@@ -436,8 +436,8 @@
 /* Body of the sheet shown when your subscription is canceled due to inactivity */
 "BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "તમારું પુનરાવર્તિત માસિક દાન આપમેળે રદ થઈ ગયું હતું કારણ કે તમે ઘણા લાંબા સમયથી નિષ્ક્રિય હતા. તમારું %1$@ બૅજ હવે તમારી પ્રોફાઇલ પર દેખાશે નહીં.\n\nતમે Signalનો ઉપયોગ કરવાનું ચાલુ રાખી શકો છો પરંતુ એપ્લિકેશનને સહયોગ આપવા અને તમારા બૅજને ફરીથી સક્રિય કરવા, હમણાં જ દાન આપો.";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
-"BADGE_THANKS_BODY" = "તમે Signal તરફથી દાતાનો બૅજ મેળવ્યો છે! તમારો સપોર્ટ બતાવવા માટે તેને તમારી પ્રોફાઇલ પર પ્રદર્શિત કરો.";
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
+"BADGE_THANKS_BODY" = "તમે Kahf તરફથી દાતાનો બૅજ મેળવ્યો છે! તમારો સપોર્ટ બતાવવા માટે તેને તમારી પ્રોફાઇલ પર પ્રદર્શિત કરો.";
 
 /* Label prompting the user to display the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_DISPLAY_ON_PROFILE_LABEL" = "પ્રોફાઇલ પર દર્શાવો";
@@ -445,7 +445,7 @@
 /* Label prompting the user to feature the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_MAKE_FEATURED" = "ફીચર્ડ બૅજ બનાવો";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
 "BADGE_THANKS_TITLE" = "આપના સહયોગ બદલ આભાર!";
 
 /* Footer explaining that only one badge can be featured at a time on the thank you sheet. */
@@ -608,7 +608,7 @@
 "CALL_AUDIO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📞 %1$@ના રોજ ઓડિયો કૉલ ચૂકી ગયા";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "તમે Signal માં કૉલ કરવા અને વૉઈસ મેસેજ રેકોર્ડ કરવા માટે iOS સેટિંગ્સ એપ્લિકેશનમાં માઇક્રોફોન એક્સેસને સક્ષમ કરી શકો છો.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "તમે Kahf માં કૉલ કરવા અને વૉઈસ મેસેજ રેકોર્ડ કરવા માટે iOS સેટિંગ્સ એપ્લિકેશનમાં માઇક્રોફોન એક્સેસને સક્ષમ કરી શકો છો.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "માઇક્રોફોન એક્સેસ આવશ્યક છે";
@@ -638,7 +638,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "કોઇ જવાબ નથી";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %1$@";
+"CALL_STATUS_FORMAT" = "Kahf %1$@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "કૉલ";
@@ -701,10 +701,10 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "તમારો કૅમેરા બંધ છે";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal વપરાશકર્તા";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Kahf વપરાશકર્તા";
 
 /* The generic name used for group calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_GROUP_NAME" = "Signal ગ્રુપ";
+"CALLKIT_ANONYMOUS_GROUP_NAME" = "Kahf ગ્રુપ";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "એક ફોટો લો અને પછી તેને મોકલો";
@@ -778,38 +778,38 @@
 /* Title for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_TITLE" = "ભૂલ";
 
-/* Users can donate to Signal with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CARD_NUMBER_GENERIC_ERROR" = "અમાન્ય કાર્ડ નંબર";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card number field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card number field on that screen. */
 "CARD_DONATION_CARD_NUMBER_LABEL" = "કાર્ડ નંબર";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_GENERIC_ERROR" = "અમાન્ય CVV";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
 "CARD_DONATION_CVV_LABEL" = "CVV";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_TOO_LONG_ERROR" = "કોડ બહુ લાંબો છે";
 
-/* Users can donate to Signal with a credit or debit card. This is the text on the \"Donate\" button. */
+/* Users can donate to Kahf with a credit or debit card. This is the text on the \"Donate\" button. */
 "CARD_DONATION_DONATE_BUTTON" = "દાન કરો";
 
-/* Users can donate to Signal with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_EXPIRATION_DATE_GENERIC_ERROR" = "અમાન્ય સમાપ્તિ. તારીખ";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
 "CARD_DONATION_EXPIRATION_DATE_LABEL" = "સમાપ્તિ તારીખ";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card expiration date field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card expiration date field on that screen. */
 "CARD_DONATION_EXPIRATION_DATE_PLACEHOLDER" = "MM/YY";
 
-/* Users can donate to Signal with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
+/* Users can donate to Kahf with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
 "CARD_DONATION_HEADER" = "દાનની રકમ: %1$@";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the body text of that sheet. */
-"CARD_DONATION_READ_MORE_SHEET_BODY" = "તમે દાન કરો છો ત્યારે Signal તમારી કોઈ પણ અંગત માહિતી એકત્રિત કે સંગ્રહિત કરતું નથી.\n\nઅમે તમારા દાન મેળવવા માટે અમારા પેમેન્ટ પ્રોસેસર તરીકે Stripeનો ઉપયોગ કરીએ છીએ. તમે તેમને પ્રદાન કરો છો તે કોઈ પણ માહિતી અમે એક્સેસ, સંગ્રહ અથવા સેવ કરતાં નથી.\n\nSignal તમારા દાનને તમારા Signal એકાઉન્ટ સાથે કનેક્ટ કરતું નથી અને કરી શકતું નથી.તમારા સપોર્ટ બદલ તમારો આભાર!";
+"CARD_DONATION_READ_MORE_SHEET_BODY" = "તમે દાન કરો છો ત્યારે Kahf તમારી કોઈ પણ અંગત માહિતી એકત્રિત કે સંગ્રહિત કરતું નથી.\n\nઅમે તમારા દાન મેળવવા માટે અમારા પેમેન્ટ પ્રોસેસર તરીકે Stripeનો ઉપયોગ કરીએ છીએ. તમે તેમને પ્રદાન કરો છો તે કોઈ પણ માહિતી અમે એક્સેસ, સંગ્રહ અથવા સેવ કરતાં નથી.\n\nSignal તમારા દાનને તમારા Kahf એકાઉન્ટ સાથે કનેક્ટ કરતું નથી અને કરી શકતું નથી.તમારા સપોર્ટ બદલ તમારો આભાર!";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the title of that sheet. */
 "CARD_DONATION_READ_MORE_SHEET_TITLE" = "તમારી માહિતી ખાનગી છે";
@@ -817,8 +817,8 @@
 /* On the credit/debit card donation screen, a small amount of information text is shown. Users can click this link to learn more information. */
 "CARD_DONATION_SUBHEADER_LEARN_MORE" = "વધુ શીખો.";
 
-/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Signal does not collect or store their personal information. */
-"CARD_DONATION_SUBHEADER_TEXT" = "તમારા કાર્ડની વિગતો દાખલ કરો. Signal તમારી અંગત માહિતી એકત્રિત અથવા સંગ્રહિત કરતું નથી.";
+/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Kahf does not collect or store their personal information. */
+"CARD_DONATION_SUBHEADER_TEXT" = "તમારા કાર્ડની વિગતો દાખલ કરો. Kahf તમારી અંગત માહિતી એકત્રિત અથવા સંગ્રહિત કરતું નથી.";
 
 /* Title for the 'censorship circumvention country' view. */
 "CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE" = "દેશ પસંદ કરો";
@@ -884,7 +884,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "ક્લિપબોર્ડ સાથે સરખામણી કરો";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Signal ના ઉપયોગકર્તા સાથે ચેટ શરૂ કરવા માટે તેને પસંદ કરો અથવા શોધો.";
+"COMPOSE_BUTTON_HINT" = "Kahf ના ઉપયોગકર્તા સાથે ચેટ શરૂ કરવા માટે તેને પસંદ કરો અથવા શોધો.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "કંપોઝ";
@@ -902,7 +902,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "ઉપયોગકર્તા નામ દ્વારા શોધો";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "તમારા કયા સંપર્કો Signal વપરાશકર્તાઓ છે તે જોવા માટે તમે iOS સેટિંગ્સ એપ્લિકેશનમાં સંપર્કોને એક્સેસ સક્ષમ કરી શકો છો.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "તમારા કયા સંપર્કો Kahf વપરાશકર્તાઓ છે તે જોવા માટે તમે iOS સેટિંગ્સ એપ્લિકેશનમાં સંપર્કોને એક્સેસ સક્ષમ કરી શકો છો.";
 
 /* Configure reactions title text */
 "CONFIGURE_REACTIONS" = "પ્રતિક્રિયાઓ કન્ફિગર કરો";
@@ -1033,7 +1033,7 @@
 /* Error indicating that at least one contact field must be selected before sharing a contact. */
 "CONTACT_SHARE_NO_FIELDS_SELECTED" = "કોઈ સંપર્ક ક્ષેત્રો પસંદ નથી.";
 
-/* Button text to initiate an email to signal support staff */
+/* Button text to initiate an email to Kahf support staff */
 "CONTACT_SUPPORT" = "સંપર્ક સપોર્ટ";
 
 /* The localized representation of the 'Donations & Badges' support filter. */
@@ -1082,7 +1082,7 @@
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "કંઈક કામ કરી રહ્યું નથી";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal તમારી સપોર્ટ વિનંતિ પૂર્ણ કરવામાં અસમર્થ હતું.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Kahf તમારી સપોર્ટ વિનંતિ પૂર્ણ કરવામાં અસમર્થ હતું.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "ફરીથી પ્રયત્ન કરો";
@@ -1396,14 +1396,14 @@
 /* No comment provided by engineer. */
 "COUNTRYCODE_SELECT_TITLE" = "દેશ કોડ પસંદ કરો";
 
-/* Body text for an interactive in-app prompt to set up a Signal username. */
+/* Body text for an interactive in-app prompt to set up a Kahf username. */
 "CREATE_USERNAME_MEGAPHONE_BODY" = "Usernames let others message you without needing your phone number.";
 
-/* Title for a button in an interactive in-app prompt to set up a Signal username, which will start a create-username flow. */
+/* Title for a button in an interactive in-app prompt to set up a Kahf username, which will start a create-username flow. */
 "CREATE_USERNAME_MEGAPHONE_SET_UP_BUTTON_TITLE" = "Set Up";
 
-/* Title for an interactive in-app prompt to set up a Signal username. */
-"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Signal username";
+/* Title for an interactive in-app prompt to set up a Kahf username. */
+"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Kahf username";
 
 /* Credit/debit card donation error for decline failures where the card has expired. */
 "CREDIT_OR_DEBIT_CARD_DONATION_ERROR_EXPIRED_CARD" = "તમારા કાર્ડની સમયસીમા સમાપ્ત થઈ ગઈ છે. તમારી કાર્ડની વિગતો સાચી છે તેની ખાતરી કરો અને ફરી પ્રયત્ન કરો.";
@@ -1454,7 +1454,7 @@
 "DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "ચલાવો";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "આ અમને તમારી સમસ્યા ઉકેલવામાં મદદ કરશે અને પૂર્ણ થવામાં થોડી મિનિટો લાગી શકે છે. આ તપાસ ચાલે ત્યાં સુધી તમે Signal બંધ કરી શકો છો, પરંતુ કૃપા કરીને તમારા લૉગ સબમિટ કરવા પાછા આવજો.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "આ અમને તમારી સમસ્યા ઉકેલવામાં મદદ કરશે અને પૂર્ણ થવામાં થોડી મિનિટો લાગી શકે છે. આ તપાસ ચાલે ત્યાં સુધી તમે Kahf બંધ કરી શકો છો, પરંતુ કૃપા કરીને તમારા લૉગ સબમિટ કરવા પાછા આવજો.";
 
 /* Button to skip database integrity check step */
 "DATABASE_INTEGRITY_CHECK_SKIP" = "સ્કિપ";
@@ -1468,20 +1468,20 @@
 /* In some cases, the user's message history can become corrupted, and a recovery interface is shown. The user has not been hacked and may be confused by this interface, so try to avoid using terms like \"database\" or \"corrupted\"—terms like \"message history\" are better. This is the title on the first screen of this interface, which gives them some information and asks them to continue. */
 "DATABASE_RECOVERY_AWAITING_USER_CONFIRMATION_TITLE" = "ડેટા પાછા મેળવવામાં સમસ્યા";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_CONTINUE_ANYWAY" = "કોઈપણ રીતે ચાલુ રાખો";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_DESCRIPTION" = "ડેટા રિકવરી પૂર્ણ કરવા માટે, અમે ભલામણ કરીએ છીએ કે તમે તમારા ડિવાઇસ પર સ્ટોરેજ સ્પેસમાંથી ઓછામાં ઓછી %1$@ ખાલી રાખો.";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_TITLE" = "વધુ સ્ટોરેજ સ્પેસની જરૂર છે";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This is the description on the screen where we show an error message. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "તમારી મેસેજ હિસ્ટ્રી રિકવર થઈ શકી નહીં. તમે Signalને ફરીથી ઇન્સ્ટોલ કર્યા પછી તેનો ઉપયોગ ચાલુ રાખી શકો છો. ડીબગ લોગ સબમિટ કરો જેથી અમે વધુ સારી રીતે સમજી શકીએ કે શું ખોટું થયું છે.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This button lets them delete all of their data. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Signal રીસેટ કરો";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Kahf રીસેટ કરો";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the final button they will press before their data is reset. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_CONFIRM" = "ફરીથી સેટ કરો";
@@ -1490,7 +1490,7 @@
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_DESCRIPTION" = "તમારા અકાઉન્ટની માહિતી, પ્રોફાઇલ અને તમારા બધા મેસેજ સાફ થઈ જશે. આ પ્રક્રિયા પૂર્ણ થયા પછી ઍપ બંધ થઈ જશે.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the title of that dialog. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Signal રીસેટ કરો";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Kahf રીસેટ કરો";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) They were asked to submit a debug log. This is the button that submits this log. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_SUBMIT_DEBUG_LOG_BUTTON" = "ડીબગ લૉગ સબમિટ કરો";
@@ -1589,7 +1589,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "ફોન નંબર";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "તમારા Signal નંબરની પુષ્ટિ કરો";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "તમારા Kahf નંબરની પુષ્ટિ કરો";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "એકાઉન્ટ ડિલીટ કરો";
@@ -1610,9 +1610,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "આ ફોન નંબરને ફરીથી રજીસ્ટર કરો";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "ડિવાઇસ હવે રજીસ્ટર નથી. તમારો ફોન નંબર Signal સાથે કોઈ બીજા ડિવાઇસ પર રજીસ્ટર હોઈ શકે છે. ફરીથી રજીસ્ટર કરવા માટે ટેપ કરો.";
+"DEREGISTRATION_WARNING" = "ડિવાઇસ હવે રજીસ્ટર નથી. તમારો ફોન નંબર Kahf સાથે કોઈ બીજા ડિવાઇસ પર રજીસ્ટર હોઈ શકે છે. ફરીથી રજીસ્ટર કરવા માટે ટેપ કરો.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Kahf Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "છેલ્લે સક્રિય %1$@";
 
 /* {{Short Date}} when device was linked. */
@@ -1634,7 +1634,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "જો તમારી પાસે તમારું જૂનું iOS ડિવાઇસ છે, તો તમે સુરક્ષિત રીતે તમારું એકાઉન્ટ અને મેસેજ આ ડિવાઇસ પર સ્થાનાંતરિત કરી શકો છો.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "જો તમે પહેલાં કડી થયેલ આઈપેડ પર Signal નો ઉપયોગ કરતા હો, તો તમે સુરક્ષિત રીતે તમારું એકાઉન્ટ અને મેસેજ આ ડિવાઇસ પર ટ્રાન્સફર કરી શકો છો.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "જો તમે પહેલાં કડી થયેલ આઈપેડ પર Kahf નો ઉપયોગ કરતા હો, તો તમે સુરક્ષિત રીતે તમારું એકાઉન્ટ અને મેસેજ આ ડિવાઇસ પર ટ્રાન્સફર કરી શકો છો.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "તમારા એકાઉન્ટ અને મેસેજને ટ્રાન્સફર કર્યા વિના ચાલુ રાખો";
@@ -1664,7 +1664,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "iOS ડિવાઇસથી ટ્રાન્સફર કરો";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "ચાલુ રાખવું એ જ ફોન નંબર સાથે હાલમાં રજીસ્ટર થયેલ અન્ય ઉપકરણો પર Signal ને અક્ષમ કરશે.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "ચાલુ રાખવું એ જ ફોન નંબર સાથે હાલમાં રજીસ્ટર થયેલ અન્ય ઉપકરણો પર Kahf ને અક્ષમ કરશે.";
 
 /* An error indicating that we were unable to verify the identity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "તમારા નવા ડિવાઇસને ચકાસવામાં અસમર્થ, કૃપા કરીને ફરીથી પ્રયાસ કરો";
@@ -1682,16 +1682,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "ટ્રાન્સફર પૂર્ણ કરવા માટે પૂરતી ખાલી જગ્યા નથી";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Signal ના નવીનતમ વર્ઝન પર અપડેટ કરો અને ફરીથી પ્રયાસ કરો";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Kahf ના નવીનતમ વર્ઝન પર અપડેટ કરો અને ફરીથી પ્રયાસ કરો";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "તમારા Signal એકાઉન્ટને નવા iOS ડિવાઇસ પર ટ્રાન્સફર કરો. ખાતરી કરો કે તમારું નવું ડિવાઇસ નજીકમાં છે અને ચાલુ છે.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "તમારા Kahf એકાઉન્ટને નવા iOS ડિવાઇસ પર ટ્રાન્સફર કરો. ખાતરી કરો કે તમારું નવું ડિવાઇસ નજીકમાં છે અને ચાલુ છે.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "ટ્રાન્સફર એકાઉન્ટ";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "તમારા જૂના ડિવાઇસ પર Signal ખોલો, તેને નજીકમાં લાવો, અને ખાતરી કરો કે Wi-Fi અને બ્લુટુથ બંને ડિવાઇસ પર સક્ષમ છે.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "તમારા જૂના ડિવાઇસ પર Kahf ખોલો, તેને નજીકમાં લાવો, અને ખાતરી કરો કે Wi-Fi અને બ્લુટુથ બંને ડિવાઇસ પર સક્ષમ છે.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "તમારા અન્ય ડિવાઇસની ફ્રેમમાં આ QR કોડને સ્થાન આપો.";
@@ -1703,7 +1703,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "અન્ય ડિવાઇસની પ્રતીક્ષા છે…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "બંને ડિવાઇસને એકબીજાની નજીક રાખો. બંને ડિવાઇસ બંધ ન કરો અને Signal ને ખુલ્લા રાખો. ટ્રાન્સફર એન્ડ-ટુ-એન્ડ એન્ક્રિપ્ટ થયેલ છે.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "બંને ડિવાઇસને એકબીજાની નજીક રાખો. બંને ડિવાઇસ બંધ ન કરો અને Kahf ને ખુલ્લા રાખો. ટ્રાન્સફર એન્ડ-ટુ-એન્ડ એન્ક્રિપ્ટ થયેલ છે.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "ડેટા પ્રાપ્ત કરવો";
@@ -1718,7 +1718,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "તમારા નવા ડિવાઇસને કૅમેરા સુધી રાખો";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "બંને ડિવાઇસને એકબીજાની નજીક રાખો. બંને ડિવાઇસ બંધ ન કરો અને Signal ને ખુલ્લા રાખો.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "બંને ડિવાઇસને એકબીજાની નજીક રાખો. બંને ડિવાઇસ બંધ ન કરો અને Kahf ને ખુલ્લા રાખો.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "ડેટા ટ્રાન્સફર કરી રહ્યું છે";
@@ -1787,13 +1787,13 @@
 "DONATE_CHOOSE_PAYMENT_METHOD_SHEET_SUBTITLE_FOR_ONE_TIME_DONATION" = "એક મહિના માટે %1$@ બેજ કમાઓ";
 
 /* When users make donations on a friend's behalf, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "%1$@ Signal માટે દાન";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "%1$@ Kahf માટે દાન";
 
 /* When users make monthly donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money per month}}, such as \"$5/month\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Signal માટે %1$@ નું દાન કરો";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Kahf માટે %1$@ નું દાન કરો";
 
 /* When users make one-time donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Signal માટે %1$@ નું દાન કરો";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Kahf માટે %1$@ નું દાન કરો";
 
 /* Users can donate on a friend's behalf and can optionally add a message. This is tells users about that optional message. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_ADDITIONAL_MESSAGE_INFO" = "પ્રાપ્તકર્તાને 1-1 કરીને મેસેજમાં દાનની જાણ કરવામાં આવશે. નીચે તમારો પોતાનો મેસેજ ઉમેરો.";
@@ -1804,10 +1804,10 @@
 /* If a donation badge has been sent, indicates that it's expired and can no longer be redeemed. This is shown in the chat. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_CHAT_EXPIRED" = "સમયસીમા સમાપ્ત";
 
-/* If the user tries to donate to Signal but no amount is selected, this error message is shown. */
+/* If the user tries to donate to Kahf but no amount is selected, this error message is shown. */
 "DONATE_SCREEN_ERROR_NO_AMOUNT_SELECTED" = "દાન આપવા માટે રકમ પસંદ કરો";
 
-/* If the user tries to donate to Signal but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
+/* If the user tries to donate to Kahf but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
 "DONATE_SCREEN_ERROR_SELECT_A_LARGER_AMOUNT_FORMAT" = "તમે જે ઓછામાં ઓછી રકમ દાન કરી શકો છો તે છે %1$@.";
 
 /* On the donation screen, you can choose between one-time and monthly donations. This is the text on the picker for one-time donations. */
@@ -1880,7 +1880,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_FAILED_ERROR_TITLE" = "ચુકવણી નિષ્ફળ";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "તમારી ચુકવણીની પ્રક્રિયા કરવામાં આવી હતી પરંતુ Signal તમારો દાનનો મેસેજ મોકલી શક્યું નથી. કૃપા કરીને સપોર્ટનો સંપર્ક કરો.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "તમારી ચુકવણીની પ્રક્રિયા કરવામાં આવી હતી પરંતુ Kahf તમારો દાનનો મેસેજ મોકલી શક્યું નથી. કૃપા કરીને સપોર્ટનો સંપર્ક કરો.";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, an error dialog will be shown. This is the title of that dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_TITLE" = "દાન આપવાનું નિષ્ફળ";
@@ -1931,19 +1931,19 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_VIEW" = "જુઓ";
 
 /* A friend has donated on your behalf and you received a badge. This text says that you received a badge, and from whom. Embeds {{contact's short name, such as a first name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "%1$@એ તમારા વતી Signalને દાન આપ્યું! તમારી પ્રોફાઇલ પર Signal માટે તમારો સપોર્ટ બતાવો.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "%1$@એ તમારા વતી Signalને દાન આપ્યું! તમારી પ્રોફાઇલ પર Kahf માટે તમારો સપોર્ટ બતાવો.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 1st paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 1st paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_1" = "ખાનગી મેસેજિંગ. કોઈ જાહેરાતો નહીં, કોઈ પગેરું નહીં, કોઈ દેખરેખ નહીં.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 2nd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Signal દાન દ્વારા સમર્થિત છે, એટલે કે તમારી ગોપનીયતા અમારા દરેક કાર્યોના કેન્દ્ર સ્થાને છે. Signal તમારા માટે નિર્મિત કરેલ છે; નહીં કે તમારા ડેટા માટે કે પછી નફા માટે.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 2nd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Kahf દાન દ્વારા સમર્થિત છે, એટલે કે તમારી ગોપનીયતા અમારા દરેક કાર્યોના કેન્દ્ર સ્થાને છે. Kahf તમારા માટે નિર્મિત કરેલ છે; નહીં કે તમારા ડેટા માટે કે પછી નફા માટે.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 3rd paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 3rd paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Signalને મનોરંજક, ભરોસાપાત્ર અને દરેક માટે ઉપલબ્ધ રાખવા માટે જો શક્ય હોય તો કૃપા કરીને આજે જ દાન કરો.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the title of that screen. */
-"DONATION_READ_MORE_SCREEN_TITLE" = "Signal અલગ છે.";
+/* There is a screen where users can read more about their donation to Kahf. This is the title of that screen. */
+"DONATION_READ_MORE_SCREEN_TITLE" = "Kahf અલગ છે.";
 
 /* Section title for donation amount on receipts */
 "DONATION_RECEIPT_AMOUNT" = "રકમ";
@@ -1958,7 +1958,7 @@
 "DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "રસીદ શેર કરો";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Signalને સમર્થન આપવા બદલ આપનો આભાર. તમારું યોગદાન ઓપન સોર્સ પ્રાઇવસી ટેક્નોલોજી વિકસિત કરવાના મિશનને વેગ આપવામાં મદદ કરે છે જે મુક્ત અભિવ્યક્તિનું રક્ષણ કરે છે અને વિશ્વના લાખો લોકો માટે સુરક્ષિત વૈશ્વિક સંચારને સક્રિય કરે છે. જો તમે યુનાઇટેડ સ્ટેટ્સના રહેવાસી હો, તો કૃપા કરીને તમારા ટેક્સ રેકોર્ડ માટે આ રસીદને સાચવી રાખો. Signal Technology Foundation એ યુનાઇટેડ સ્ટેટ્સમાં Internal Revenue Code (આંતરિક મહેસૂલ સંહિતા)ની કલમ 501c3 હેઠળ એક કરવેરા-મુક્ત બિનલાભકારી સંસ્થા છે. અમારું સંઘીય ટેક્સ ID છે 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "Signalને સમર્થન આપવા બદલ આપનો આભાર. તમારું યોગદાન ઓપન સોર્સ પ્રાઇવસી ટેક્નોલોજી વિકસિત કરવાના મિશનને વેગ આપવામાં મદદ કરે છે જે મુક્ત અભિવ્યક્તિનું રક્ષણ કરે છે અને વિશ્વના લાખો લોકો માટે સુરક્ષિત વૈશ્વિક સંચારને સક્રિય કરે છે. જો તમે યુનાઇટેડ સ્ટેટ્સના રહેવાસી હો, તો કૃપા કરીને તમારા ટેક્સ રેકોર્ડ માટે આ રસીદને સાચવી રાખો. Kahf Technology Foundation એ યુનાઇટેડ સ્ટેટ્સમાં Internal Revenue Code (આંતરિક મહેસૂલ સંહિતા)ની કલમ 501c3 હેઠળ એક કરવેરા-મુક્ત બિનલાભકારી સંસ્થા છે. અમારું સંઘીય ટેક્સ ID છે 82-4506840.";
 
 /* Title for receipts for donations given on a friend's behalf */
 "DONATION_RECEIPT_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "મિત્ર માટે દાન";
@@ -1996,8 +1996,8 @@
 /* Title for the \"donate for a friend\" button on the donation view. */
 "DONATION_VIEW_DONATE_ON_BEHALF_OF_A_FRIEND" = "મિત્ર માટે દાન આપો";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Signal માટે ફાળો";
+/* Text describing to the user that they're going to pay a donation to Kahf */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Kahf માટે ફાળો";
 
 /* Text that's shown when the donation view fails to load data, probably due to network failure */
 "DONATION_VIEW_LOAD_FAILED" = "નેટવર્ક ત્રુટિ. તમારું કનેક્શન તપાસો અને ફરી પ્રયાસ કરો.";
@@ -2008,8 +2008,8 @@
 /* Title for the 'Manage Subscription' button on the donation screen */
 "DONATION_VIEW_MANAGE_SUBSCRIPTION" = "સબ્સ્ક્રિપ્શન મેનેજ કરો";
 
-/* Text describing to the user that they're going to pay a monthly donation to Signal */
-"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Signal માટે માસિક દાન";
+/* Text describing to the user that they're going to pay a monthly donation to Kahf */
+"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Kahf માટે માસિક દાન";
 
 /* Title for the 'more' section on the donation screen */
 "DONATION_VIEW_MORE_SECTION_TITLE" = "વધુ";
@@ -2023,23 +2023,23 @@
 /* Title for the 'Subscription FAQ' button on the donation screen */
 "DONATION_VIEW_SUBSCRIPTION_FAQ" = "સબ્સ્ક્રિપ્શન અંગેની પ્રશ્નોત્તરી";
 
-/* Title on the 'Donate to Signal' screen */
-"DONATION_VIEW_TITLE" = "Signal ને દાન આપો";
+/* Title on the 'Donate to Kahf' screen */
+"DONATION_VIEW_TITLE" = "Kahf ને દાન આપો";
 
 /* Label for the currency picker button in donation views */
 "DONATIONS_CURRENCY_PICKER_LABEL" = "ચલણ";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "તમે iOS સેટિંગ્સ એપ્લિકેશનમાં એક્સેસને સક્ષમ કરી શકો છો.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal ને સંપર્ક માહિતીને સંપાદિત કરવાની સંપર્કની જરૂર છે";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Kahf ને સંપર્ક માહિતીને સંપાદિત કરવાની સંપર્કની જરૂર છે";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "ગ્રુપ સંપાદિત કરો";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "જ્યાં સુધી તેઓ Signal અપગ્રેડ નહીં કરે ત્યાં સુધી આ વપરાશકર્તાને ગ્રુપમાં ઉમેરી શકાશે નહીં.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "જ્યાં સુધી તેઓ Kahf અપગ્રેડ નહીં કરે ત્યાં સુધી આ વપરાશકર્તાને ગ્રુપમાં ઉમેરી શકાશે નહીં.";
 
 /* Error message indicating that an avatar image is invalid and cannot be used. */
 "EDIT_GROUP_ERROR_INVALID_AVATAR" = "અમાન્ય ફોટો.";
@@ -2056,14 +2056,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "કૉપિ";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "હેય\n\nતાજેતરમાં હું મારા iPhone પર ચેટને ખાનગી રાખવા માટે Signal નો ઉપયોગ કરી રહ્યો છું. હું ઇચ્છું છું કે તમે પણ તેને ઇન્સ્ટોલ કરો, તેથી આપણે આપણા મેસેજ વાંચી શકીએ છીએ અથવા આપણા કૉલ્સ સાંભળી શકીએ છીએ.\n\nSignal iPhones અને Android માટે ઉપલબ્ધ છે. તેને અહીં મેળવો:%1$@ \n\nSignal તમારી હાલની મેસેજિંગ એપ્લિકેશનની જેમ કામ કરે છે. આપણે ઇમેજ અને વિડિયો મોકલી શકીએ છીએ, કૉલ્સ કરી શકીએ છીએ અને ગ્રુપ ચેટ શરૂ કરી શકીએ છીએ. સૌથી સારી વાત એ છે કે, તેમાનું કઇં કોઈ જોઈ શકતું નથી, Signal બનાવનારા લોકો પણ નહીં!\n\nતમે ઓપન વ્હિસ્પર સિસ્ટમ્સ વિશે વધુ વાંચી શકો છો, જે લોકો Signal બનાવે છે, અહીં: %2$@";
+/* body of email sent to contacts when inviting to install Kahf. Embeds {{link to install Kahf}} and {{link to the Kahf home page}} */
+"EMAIL_INVITE_BODY" = "હેય\n\nતાજેતરમાં હું મારા iPhone પર ચેટને ખાનગી રાખવા માટે Kahf નો ઉપયોગ કરી રહ્યો છું. હું ઇચ્છું છું કે તમે પણ તેને ઇન્સ્ટોલ કરો, તેથી આપણે આપણા મેસેજ વાંચી શકીએ છીએ અથવા આપણા કૉલ્સ સાંભળી શકીએ છીએ.\n\nSignal iPhones અને Android માટે ઉપલબ્ધ છે. તેને અહીં મેળવો:%1$@ \n\nSignal તમારી હાલની મેસેજિંગ એપ્લિકેશનની જેમ કામ કરે છે. આપણે ઇમેજ અને વિડિયો મોકલી શકીએ છીએ, કૉલ્સ કરી શકીએ છીએ અને ગ્રુપ ચેટ શરૂ કરી શકીએ છીએ. સૌથી સારી વાત એ છે કે, તેમાનું કઇં કોઈ જોઈ શકતું નથી, Kahf બનાવનારા લોકો પણ નહીં!\n\nતમે ઓપન વ્હિસ્પર સિસ્ટમ્સ વિશે વધુ વાંચી શકો છો, જે લોકો Kahf બનાવે છે, અહીં: %2$@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "ચાલો Signal પર સ્વિચ કરીએ";
+/* subject of email sent to contacts when inviting to install Kahf */
+"EMAIL_INVITE_SUBJECT" = "ચાલો Kahf પર સ્વિચ કરીએ";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "તમારું ડિવાઇસ ઇમેઇલ મોકલવા માટે કન્ફિગર કરેલ નથી. સપોર્ટ વિનંતી મોકલવા માટે, તમારા ડિવાઇસ પર ઇમેઇલ સેટ કરો અથવા support@signal.orgને ઇમેઇલ કરો";
+"EMAIL_SIGNAL_MESSAGE" = "તમારું ડિવાઇસ ઇમેઇલ મોકલવા માટે કન્ફિગર કરેલ નથી. સપોર્ટ વિનંતી મોકલવા માટે, તમારા ડિવાઇસ પર ઇમેઇલ સેટ કરો અથવા support@Kahf.orgને ઇમેઇલ કરો";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "ઇમેઇલ અનુપલબ્ધ છે";
@@ -2096,7 +2096,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "મુસાફરી અને સ્થળો";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "તમારા કોઈપણ સંપર્કોમાં Signal નથી.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "તમારા કોઈપણ સંપર્કોમાં Kahf નથી.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "તમે કેમ કોઈને આમંત્રણ આપતા નથી?";
@@ -2150,7 +2150,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "સર્વિસનો અમાન્ય પ્રતિસાદ.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "આ ડિવાઇસ હવે તમારા ફોન નંબર સાથે નોંધાયેલ નથી. કૃપા કરીને Signal ફરીથી ઇન્સ્ટોલ કરો.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "આ ડિવાઇસ હવે તમારા ફોન નંબર સાથે નોંધાયેલ નથી. કૃપા કરીને Kahf ફરીથી ઇન્સ્ટોલ કરો.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "સર્વર એરર. પછીથી ફરી પ્રયત્ન કરો.";
@@ -2162,7 +2162,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "એક અજાણ એરર આવી.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "સંપર્ક એ Signal વપરાશકર્તા નથી.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "સંપર્ક એ Kahf વપરાશકર્તા નથી.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "જોડાણ ડાઉનલોડ નિષ્ફળ થયું.";
@@ -2188,10 +2188,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "સંપર્ક માટે સત્ર ઉપલબ્ધ નથી.";
 
-/* Shown when signal users safety numbers changed */
+/* Shown when Kahf users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "સલામતી નંબર બદલ્યો છે.";
 
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Kahf users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "%1$@ સાથેનો તમારો સલામતી નંબર બદલાયો છે.";
 
 /* Text notifying the user that their secure session has been reset */
@@ -2207,10 +2207,10 @@
 "ERROR_NETWORK_FAILURE" = "નેટવર્ક એરર";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "કૃપા કરીને આ ત્રુટિને ડીબગ લૉગ સાથે તમારા ડિવાઇસ પરથી support@signal.orgને રિપોર્ટ કરીને Signalને બહેતર બનાવવામાં મદદ કરો; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "કૃપા કરીને આ ત્રુટિને ડીબગ લૉગ સાથે તમારા ડિવાઇસ પરથી support@Kahf.orgને રિપોર્ટ કરીને Signalને બહેતર બનાવવામાં મદદ કરો; %1$@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal બીટા: એક ત્રુટિ આવી";
+"ERROR_NOTIFICATION_TITLE" = "Kahf બીટા: એક ત્રુટિ આવી";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "તમારું ડિવાઇસ હવે લિંક થયેલ નથી. કૃપા કરીને વધુ મેસેજ મોકલવા માટે ફરીથી લિંક કરો.";
@@ -2219,16 +2219,16 @@
 "ERROR_SENDING_DEREGISTERED" = "તમારું ડિવાઇસ હવે રજીસ્ટર નથી. કૃપા કરીને વધુ મેસેજ મોકલવા માટે ફરીથી રજીસ્ટર કરો.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "તમારું Signal નું વર્ઝન સમાપ્ત થઈ ગયું છે. કૃપા કરીને વધુ મેસેજ મોકલવા માટે અપડેટ કરો.";
+"ERROR_SENDING_EXPIRED" = "તમારું Kahf નું વર્ઝન સમાપ્ત થઈ ગયું છે. કૃપા કરીને વધુ મેસેજ મોકલવા માટે અપડેટ કરો.";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Kahf id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "નોંધાયેલ વપરાશકર્તા: %1$@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "તમારા Signal ના વર્ઝનની સમયસીમા સમાપ્ત થઈ ગઈ છે! સૌથી તાજેતરનું વર્ઝન અપડેટ કરવા માટે ટેપ કરો.";
+"EXPIRATION_ERROR" = "તમારા Kahf ના વર્ઝનની સમયસીમા સમાપ્ત થઈ ગઈ છે! સૌથી તાજેતરનું વર્ઝન અપડેટ કરવા માટે ટેપ કરો.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "તમારું Signal નું વર્ઝન આજે સમાપ્ત થશે. સૌથી તાજેતરના વર્ઝન પર અપડેટ કરવા માટે ટેપ કરો.";
+"EXPIRATION_WARNING_TODAY" = "તમારું Kahf નું વર્ઝન આજે સમાપ્ત થશે. સૌથી તાજેતરના વર્ઝન પર અપડેટ કરવા માટે ટેપ કરો.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "આ સંપર્કમાં ઘણી બધી નિષ્ફળતા. પછીથી ફરી પ્રયત્ન કરો.";
@@ -2501,10 +2501,10 @@
 "GROUP_CALL_WILL_NOTIFY_TWO_PEOPLE_FORMAT" = "%1$@ અને %2$@ને સૂચિત કરવામાં આવશે";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there is one other person in the group. Embeds {member name} */
-"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Signal %1$@ને રિંગ આપશે";
+"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Kahf %1$@ને રિંગ આપશે";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there are two other people in the group. Embeds {{ %1$@ participant1, %2$@ participant2 }} */
-"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Signal %1$@ અને %2$@ને રિંગ આપશે";
+"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Kahf %1$@ અને %2$@ને રિંગ આપશે";
 
 /* Text explaining that you are in the group call. */
 "GROUP_CALL_YOU_ARE_HERE" = "તમે ગ્રુપ કૉલમાં છો";
@@ -2687,7 +2687,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "અમાન્ય લિંક";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "આ ગ્રુપમાં જોડાવા માટે આ ડિવાઇસ પર Signal અપડેટ કરો.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "આ ગ્રુપમાં જોડાવા માટે આ ડિવાઇસ પર Kahf અપડેટ કરો.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "ગ્રુપ લિંક મારફતે જોડાનારા નવા સભ્યોને મંજૂરી આપવા માટે એડમિનની આવશ્યકતા છે.";
@@ -2746,8 +2746,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR કોડ";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Signal દ્વારા શેર કરો";
+/* Label for the 'share group link via Kahf' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Kahf દ્વારા શેર કરો";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "આ લિંક ધરાવતી કોઈપણ વ્યક્તિ આ ગ્રુપનું નામ અને સભ્યો જોઈ શકે છે અને જોડાવાની વિનંતી કરી શકે છે. તમે જે લોકો પર વિશ્વાસ કરો છો તેમની સાથે તેને શેર કરો.";
@@ -3083,13 +3083,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "જૂના ગ્રુપ શું હોય છે?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "જૂના ગ્રુપને હજી નવા ગ્રુપમાં અપગ્રેડ કરી શકાતા નથી, પરંતુ જો તેઓ Signal ના નવીનતમ વર્ઝન પર હોય તો તમે તે જ સભ્યો સાથે નવું ગ્રુપ બનાવી શકો છો.\n\nSignal ભવિષ્યમાં જૂના ગ્રુપને અપગ્રેડ કરવાનો માર્ગ પ્રદાન કરશે.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "જૂના ગ્રુપને હજી નવા ગ્રુપમાં અપગ્રેડ કરી શકાતા નથી, પરંતુ જો તેઓ Kahf ના નવીનતમ વર્ઝન પર હોય તો તમે તે જ સભ્યો સાથે નવું ગ્રુપ બનાવી શકો છો.\n\nSignal ભવિષ્યમાં જૂના ગ્રુપને અપગ્રેડ કરવાનો માર્ગ પ્રદાન કરશે.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "શું હું જૂના ગ્રુપને અપગ્રેડ કરી શકું?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "નવું ગ્રુપ બનાવવા માટે, તમામ સભ્યોએ Signal ના નવીનતમ વર્ઝનમાં અપડેટ કરવું જોઈએ.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "નવું ગ્રુપ બનાવવા માટે, તમામ સભ્યોએ Kahf ના નવીનતમ વર્ઝનમાં અપડેટ કરવું જોઈએ.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "લિગેસી બનામ નવા ગ્રુપ";
@@ -3104,7 +3104,7 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "આ ગ્રુપને નવા ગ્રુપમાં અપગ્રેડ કરી શકાતું નથી કારણ કે તેમાં ઘણા બધા સભ્યો છે. ગ્રુપનું મહત્તમ કદ કે જેને અપગ્રેડ કરી શકાય છે તે %1$@ છે.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "જ્યારે વર્તમાન ગ્રુપના તમામ સભ્યો નવા ગ્રુપમાં જોડાવા માટે સક્ષમ Signal ના વર્ઝનનો ઉપયોગ કરી રહ્યા હશે ત્યારે આ ગ્રુપને અપગ્રેડ કરવામાં આવશે.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "જ્યારે વર્તમાન ગ્રુપના તમામ સભ્યો નવા ગ્રુપમાં જોડાવા માટે સક્ષમ Kahf ના વર્ઝનનો ઉપયોગ કરી રહ્યા હશે ત્યારે આ ગ્રુપને અપગ્રેડ કરવામાં આવશે.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "અપગ્રેડ પહેલાના તમામ મેસેજ હિસ્ટ્રી અને મીડિયા રાખવામાં આવશે.";
@@ -3223,7 +3223,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "અમારો સંપર્ક કરો";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Kahf support website */
 "HELP_SUPPORT_CENTER" = "સપોર્ટ સેન્ટર";
 
 /* Label for 'archived conversations' button. */
@@ -3238,16 +3238,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "ડ્રાફ્ટ ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "તમારા કેટલાક સંપર્કો પહેલેથી જ Signal પર છે, %1$@સહિત";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Kahf contact.  Embeds {{The name of 1 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "તમારા કેટલાક સંપર્કો પહેલેથી જ Kahf પર છે, %1$@સહિત";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Kahf contacts.  Embeds {{The names of 2 of your Kahf contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "તમારા કેટલાક સંપર્કો પહેલાથી જ સિગ્નલ પર છે, જેમાં %1$@અને %2$@નો સમાવેશ થાય છે";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "તમારા કેટલાક સંપર્કો પહેલેથી જ Signal પર છે, જેમાં %1$@, %2$@અને %3$@શામેલ છે";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Kahf contacts.  Embeds {{The names of 3 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "તમારા કેટલાક સંપર્કો પહેલેથી જ Kahf પર છે, જેમાં %1$@, %2$@અને %3$@શામેલ છે";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Kahf contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "અહીં તમારી પ્રથમ ચેટ શરૂ કરો.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -3280,11 +3280,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "તમે %1$@આઇટમ્સ કરતાં વધુ શેર કરી શકતા નથી.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Kahf has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "ફોટા બદલો";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "સેટિંગ્સમાં સંપૂર્ણ ઍક્સેસ મંજૂર કરો અથવા કયા ફોટાને Signal ઍક્સેસ કરી શકે છે તે બદલો.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "સેટિંગ્સમાં સંપૂર્ણ ઍક્સેસ મંજૂર કરો અથવા કયા ફોટાને Kahf ઍક્સેસ કરી શકે છે તે બદલો.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "શું તમારા ફોટા જોઈ રહ્યા નથી?";
@@ -3343,8 +3343,8 @@
 /* Indicates that another user has changed their phone number. Embeds: {{ the user's name}} */
 "INFO_MESSAGE_USER_CHANGED_PHONE_NUMBER_FORMAT" = "%1$@એ તેમનો ફોન નંબર બદલ્યો.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ Signal પર છે!";
+/* Shown in inbox and conversation when a user joins Kahf, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ Kahf પર છે!";
 
 /* accessibility label for the button which shows the regular keyboard instead of sticker picker */
 "INPUT_TOOLBAR_KEYBOARD_BUTTON_ACCESSIBILITY_LABEL" = "કીબોર્ડ";
@@ -3367,14 +3367,14 @@
 /* The provided proxy host address is not valid */
 "INVALID_PROXY_HOST_ERROR" = "તમે દાખલ કરેલ પ્રૉક્સી એડ્રેસ અમાન્ય છે, કૃપા કરીને એડ્રેસ તપાસો અને ફરી પ્રયાસ કરો.";
 
-/* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Signal માં જોડાવા માટે તમારા મિત્રોને આમંત્રણ આપવા માટે તમે iOS સેટિંગ્સ એપ્લિકેશનમાં સંપર્કોની એક્સેસને સક્ષમ કરી શકો છો.";
+/* Alert body when contacts disabled while trying to invite contacts to Kahf */
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Kahf માં જોડાવા માટે તમારા મિત્રોને આમંત્રણ આપવા માટે તમે iOS સેટિંગ્સ એપ્લિકેશનમાં સંપર્કોની એક્સેસને સક્ષમ કરી શકો છો.";
 
-/* Alert title when contacts disabled while trying to invite contacts to signal */
+/* Alert title when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "સંપર્કના એક્સેસની મંજૂરી આપો";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "મિત્રોને Signal માટે આમંત્રિત કરો";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "મિત્રોને Kahf માટે આમંત્રિત કરો";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "શોધો";
@@ -3473,7 +3473,7 @@
 "LINK_PREVIEW_UNKNOWN_DOMAIN" = "લિંક પ્રિવ્યુ";
 
 /* Shown in an alert when trying to edit a contact. */
-"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "સિસ્ટમ સંપર્કો મેનેજ કરવાનું હવે iPad પર ઉપલબ્ધ નથી. તમારા સિસ્ટમ સંપર્કોમાં Signal કનેક્શન ઉમેરવા માટે તમારા ફોન પર Signal ખોલો.";
+"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "સિસ્ટમ સંપર્કો મેનેજ કરવાનું હવે iPad પર ઉપલબ્ધ નથી. તમારા સિસ્ટમ સંપર્કોમાં Kahf કનેક્શન ઉમેરવા માટે તમારા ફોન પર Kahf ખોલો.";
 
 /* Shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. */
 "LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "સિસ્ટમ સંપર્કો મેનેજ કરવાનું હવે iPad પર સમર્થિત નથી. આ ડિવાઇસ તમારા ફોન પર Signalથી તમારી સંપર્ક સૂચિમાં કોઈપણ ફેરફારોને સિંક કરવાનું ચાલુ રાખશે.";
@@ -3497,7 +3497,7 @@
 "LINKING_DEVICE_FAILED_TITLE" = "ડિવાઇસને જોડવાનું નિષ્ફળ થયું";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "તમારા Signal એકાઉન્ટને સ્થાનાંતરિત કરવા માટે, તમારે બંને ડિવાઇસ પર સ્થાનિક નેટવર્ક ઍક્સેસને સક્ષમ કરવાની જરૂર છે.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "તમારા Kahf એકાઉન્ટને સ્થાનાંતરિત કરવા માટે, તમારે બંને ડિવાઇસ પર સ્થાનિક નેટવર્ક ઍક્સેસને સક્ષમ કરવાની જરૂર છે.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "મદદ જોઈએ છે?";
@@ -3509,7 +3509,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "“સ્થાનિક નેટવર્ક” ચાલુ કરો";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Signal પર નેવિગેટ કરો";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Kahf પર નેવિગેટ કરો";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "સ્થાનિક નેટવર્કની ઍક્સેસ ચાલુ કરો";
@@ -3524,7 +3524,7 @@
 "LOGGING_SECTION" = "લોગિંગ";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "ડિબગ લૉગ Signal ને સમસ્યાઓ અને ક્રેશને ફિક્સ કરવામાં મદદ કરી શકે છે.";
+"LOGGING_SECTION_FOOTER" = "ડિબગ લૉગ Kahf ને સમસ્યાઓ અને ક્રેશને ફિક્સ કરવામાં મદદ કરી શકે છે.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "મેસેજ";
@@ -3607,8 +3607,8 @@
 /* Label for button to open a link. */
 "MESSAGE_ACTION_LINK_OPEN_LINK" = "લિંક ઓપન કરો";
 
-/* Label for button to open a signal proxy. */
-"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Signal પ્રૉક્સી ઓપન કરો";
+/* Label for button to open a Kahf proxy. */
+"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Kahf પ્રૉક્સી ઓપન કરો";
 
 /* Label for button to open a sticker pack. */
 "MESSAGE_ACTION_LINK_OPEN_STICKER_PACK" = "સ્ટીકર પેક જુઓ";
@@ -3752,7 +3752,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "ડિલીટ કરી અને ગ્રુપ છોડવું છે?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "વિનંતીઓની કાળજીપૂર્વક સમીક્ષા કરો. Signal ને આ જ નામ સાથે બીજો સંપર્ક મળ્યો.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "વિનંતીઓની કાળજીપૂર્વક સમીક્ષા કરો. Kahf ને આ જ નામ સાથે બીજો સંપર્ક મળ્યો.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "તમારા સંપર્ક";
@@ -3847,7 +3847,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "વાંચો";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Kahf account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "સ્કિપ";
 
 /* Label indicating that a message failed to send. */
@@ -3890,10 +3890,10 @@
 "MISSED_VIDEO_CALL" = "મિસ્ડ વિડિયો કૉલ";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "તમે Signal માં વિડિયો કૉલ કરવા માટે iOS સેટિંગ્સ એપ્લિકેશનમાં કૅમેરાના એક્સેસને સક્ષમ કરી શકો છો.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "તમે Kahf માં વિડિયો કૉલ કરવા માટે iOS સેટિંગ્સ એપ્લિકેશનમાં કૅમેરાના એક્સેસને સક્ષમ કરી શકો છો.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal ને તમારા કૅમેરાને એક્સેસ કરવાની જરૂર છે.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Kahf ને તમારા કૅમેરાને એક્સેસ કરવાની જરૂર છે.";
 
 /* Alert body indicating the user has denied location permissions */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "તમે iOS સેટિંગ્સ એપ્લિકેશનમાં આ પરવાનગીને સક્ષમ કરી શકો છો.";
@@ -3905,7 +3905,7 @@
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "તમે iOS સેટિંગ્સ એપ્લિકેશનમાં આ પરવાનગીને સક્ષમ કરી શકો છો.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "આ સુવિધા માટે Signal ને તમારા ફોટાઓની એક્સેસની જરૂર છે.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "આ સુવિધા માટે Kahf ને તમારા ફોટાઓની એક્સેસની જરૂર છે.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "કંઈ નહીં";
@@ -3926,7 +3926,7 @@
 "MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_EXCEPT_TITLE" = "આમના સિવાય બધા…";
 
 /* Title for the visibility option */
-"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "બધા Signal કનેક્શન";
+"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "બધા Kahf કનેક્શન";
 
 /* Title for the visibility option */
 "MY_STORIES_SETTINGS_VISIBILITY_ONLY_SHARE_WITH_TITLE" = "ફક્ત આમની સાથે શેર કરો…";
@@ -4105,7 +4105,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "નામ અથવા કન્ટેન્ટ નથી";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Kahf will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "જ્યારે એપ્લિકેશન ખુલ્લી હોય ત્યારે રમો";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -4160,7 +4160,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "iPhone લિંક";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "\"રજીસ્ટર iPad\" ને ટેપ કરવાથી તમે એક નવું Signal એકાઉન્ટ બનાવી શકો છો અથવા હાલના એકાઉન્ટને આ iPad પર ખસેડી શકો છો. આ સમાન ફોન નંબર સાથે હાલમાં રજીસ્ટર થયેલ અન્ય કોઈપણ ડિવાઇસ પરના Signal ને અક્ષમ કરશે.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "\"રજીસ્ટર iPad\" ને ટેપ કરવાથી તમે એક નવું Kahf એકાઉન્ટ બનાવી શકો છો અથવા હાલના એકાઉન્ટને આ iPad પર ખસેડી શકો છો. આ સમાન ફોન નંબર સાથે હાલમાં રજીસ્ટર થયેલ અન્ય કોઈપણ ડિવાઇસ પરના Kahf ને અક્ષમ કરશે.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "\"લિંક iPhone\" ને ટેપ કરવાથી તમે તમારા ફોનને હાલના એકાઉન્ટથી કનેક્ટ કરી શકો છો. સામાન્ય રીતે તમારા ફોનને જોડવાની ભલામણ કરવામાં આવતી નથી અને કૉલ કરવા જેવી કેટલીક કાર્યક્ષમતાને મર્યાદિત કરશે.";
@@ -4172,7 +4172,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "આ iPhone લિંક";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "આ iPad રજીસ્ટર એ જ ફોન નંબર સાથે હાલમાં નોંધાયેલા અન્ય કોઈપણ ડિવાઇસ પર Signal ને અક્ષમ કરશે.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "આ iPad રજીસ્ટર એ જ ફોન નંબર સાથે હાલમાં નોંધાયેલા અન્ય કોઈપણ ડિવાઇસ પર Kahf ને અક્ષમ કરશે.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "તમારા iPhone ને લિંક કરવાની ભલામણ કરવામાં આવતી નથી અને તે મૂળ કાર્યક્ષમતાને મર્યાદિત કરશે.";
@@ -4181,13 +4181,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "પરવાનગીઓને મંજૂરી આપો";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "સૂચનાઓ અને સંપર્કોને મંજૂરી આપવાથી તમે મેસેજ ક્યારે આવે છે તે જોવા દે છે અને તમે ઓળખો છો તે લોકોને શોધવામાં મદદ કરે છે. સંપર્કો એનક્રિપ્ટ થયેલ છે જેથી Signal સર્વિસ તેમને જોઈ શકતી નથી.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "સૂચનાઓ અને સંપર્કોને મંજૂરી આપવાથી તમે મેસેજ ક્યારે આવે છે તે જોવા દે છે અને તમે ઓળખો છો તે લોકોને શોધવામાં મદદ કરે છે. સંપર્કો એનક્રિપ્ટ થયેલ છે જેથી Kahf સર્વિસ તેમને જોઈ શકતી નથી.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "પરવાનગીઓને મંજૂરી આપો";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "તમારા ફોન નંબર %1$@ સાથે Signal પર તમને કોણ શોધી શકે છે તે પસંદ કરો";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "તમારા ફોન નંબર %1$@ સાથે Kahf પર તમને કોણ શોધી શકે છે તે પસંદ કરો";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "તમારા નંબર દ્વારા તમને કોણ શોધી શકે છે?";
@@ -4205,7 +4205,7 @@
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "અમાન્ય ફોન નંબર. રજીસ્ટર કરવા માટે કૃપા કરીને માન્ય ફોન નંબર દાખલ કરો.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "તમે પિન અનુમાનમાંથી બહાર નીકળી ગયા છો, પરંતુ તમે હજી પણ નવો પિન બનાવીને તમારા Signal એકાઉન્ટને એક્સેસ કરી શકો છો. તમારી ગોપનીયતા અને સુરક્ષા માટે તમારું એકાઉન્ટ કોઈપણ સેવ કરેલી પ્રોફાઇલ માહિતી અથવા સેટિંગ્સ વિના રિસ્ટોર કરવામાં આવશે.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "તમે પિન અનુમાનમાંથી બહાર નીકળી ગયા છો, પરંતુ તમે હજી પણ નવો પિન બનાવીને તમારા Kahf એકાઉન્ટને એક્સેસ કરી શકો છો. તમારી ગોપનીયતા અને સુરક્ષા માટે તમારું એકાઉન્ટ કોઈપણ સેવ કરેલી પ્રોફાઇલ માહિતી અથવા સેટિંગ્સ વિના રિસ્ટોર કરવામાં આવશે.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "PIN વિશે વધુ જાણો";
@@ -4279,13 +4279,13 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%1$@ સેટ અદ્રશ્ય મેસેજ સમય %2$@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal તકનીકી મુશ્કેલીઓ અનુભવી રહ્યું છે. અમે શક્ય તેટલી ઝડપથી સેવાને પુન:સ્થાપિત કરવા માટે સખત મહેનત કરી રહ્યા છીએ.";
+/* Label warning the user that the Kahf service may be down. */
+"OUTAGE_WARNING" = "Kahf તકનીકી મુશ્કેલીઓ અનુભવી રહ્યું છે. અમે શક્ય તેટલી ઝડપથી સેવાને પુન:સ્થાપિત કરવા માટે સખત મહેનત કરી રહ્યા છીએ.";
 
 /* Label for action link when the user has an outdated payment client */
 "OUTDATED_PAYMENT_CLIENT_ACTION_TITLE" = "અત્યારે અપડેટ કરો";
 
-/* Label warning the user that they should update Signal to continue using payments. */
+/* Label warning the user that they should update Kahf to continue using payments. */
 "OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "ચુકવણીઓનો ઉપયોગ કરતાં રહેવા માટે Signalને અપડેટ કરો. તમારું બેલેન્સ અપ-ટૂ-ડેટ ન પણ હોઈ શકે.";
 
 /* info message text in conversation view */
@@ -4396,7 +4396,7 @@
 /* Title for action sheet shown when unlocking with biometrics like Face ID or TouchID fails because it is disabled at a system level. */
 "PAYMENTS_LOCK_LOCAL_BIOMETRY_AUTH_DISABLED_TITLE" = "બાયોમેટ્રિક પ્રમાણીકરણ નિષ્ફળ થયું";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
 "PAYMENTS_LOCK_REASON_UNLOCK_PAYMENTS_LOCK" = "ચુકવણી કન્ફર્મ કરવા પ્રમાણીકરણ કરો.";
 
 /* Label for the 'add memo' ui in the 'send payment' UI. */
@@ -4427,7 +4427,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "અમાન્ય ટ્રાન્ઝેક્શન";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "પેમેન્ટનો ઉપયોગ કરવા માટે Signal અપડેટ કરો.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "પેમેન્ટનો ઉપયોગ કરવા માટે Kahf અપડેટ કરો.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "પેમેન્ટની હજી સુધી ચકાસણી થયેલ નથી";
@@ -4649,13 +4649,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "પ્રત્યેક";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Signal. Others will be able to reach you with your phone number when they start a new chat or group.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Kahf. Others will be able to reach you with your phone number when they start a new chat or group.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "કોઈ નથી";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Signal will be able to reach you with your phone number.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Kahf will be able to reach you with your phone number.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "ઉદાહરણ: %1$@";
@@ -4664,19 +4664,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "મારા સંપર્કો";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "ફક્ત તમારા સંપર્કો Signal પર તમારો ફોન નંબર જોશે.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "ફક્ત તમારા સંપર્કો Kahf પર તમારો ફોન નંબર જોશે.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "પ્રત્યેક";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "તમારો ફોન નંબર લોકો અને ગ્રુપને દેખાશે જે તમે મેસેજ કરો છો. જે લોકો તેમના ફોન સંપર્કોમાં તમારો નંબર ધરાવે છે તેઓ પણ તેને Signal પર જોશે.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "તમારો ફોન નંબર લોકો અને ગ્રુપને દેખાશે જે તમે મેસેજ કરો છો. જે લોકો તેમના ફોન સંપર્કોમાં તમારો નંબર ધરાવે છે તેઓ પણ તેને Kahf પર જોશે.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "કોઈ નથી";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Signal પર તમારો ફોન નંબર કોઈ જોશે નહીં.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Kahf પર તમારો ફોન નંબર કોઈ જોશે નહીં.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%1$@%2$@";
@@ -4757,7 +4757,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "PIN ને અક્ષમ કરો";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "જો તમે PIN ને અક્ષમ કરો છો, તો જ્યારે તમે Signal ને ફરીથી રજીસ્ટર કરશો ત્યારે તમે તમામ ડેટા ગુમાવશો જ્યાં સુધી તમે તેને અન્ય iOS ડિવાઇસમાંથી સ્થાનાંતરિત ન કરો. જ્યારે PIN અક્ષમ હોય ત્યારે તમે રજીસ્ટ્રેશન લૉક ચાલુ કરી શકતા નથી.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "જો તમે PIN ને અક્ષમ કરો છો, તો જ્યારે તમે Kahf ને ફરીથી રજીસ્ટર કરશો ત્યારે તમે તમામ ડેટા ગુમાવશો જ્યાં સુધી તમે તેને અન્ય iOS ડિવાઇસમાંથી સ્થાનાંતરિત ન કરો. જ્યારે PIN અક્ષમ હોય ત્યારે તમે રજીસ્ટ્રેશન લૉક ચાલુ કરી શકતા નથી.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "ચેતવણી";
@@ -4769,7 +4769,7 @@
 "PIN_CREATION_ERROR_TITLE" = "PIN બનાવવાનું નિષ્ફળ થયું";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN એન્ક્રિપ્ટ થયેલ Signal સાથે માહિતીને સંગ્રહિત રાખે છે જેથી ફક્ત તમે જ તેને ઍક્સેસ કરી શકો. જ્યારે તમે ફરીથી ઇન્સ્ટોલ કરો ત્યારે તમારી પ્રોફાઇલ, સેટિંગ્સ અને સંપર્કો રિસ્ટોર થશે. એપ્લિકેશન ઓપન કરવા માટે તમારે તમારા PIN ની જરૂર નહીં પડે.";
+"PIN_CREATION_EXPLANATION" = "PIN એન્ક્રિપ્ટ થયેલ Kahf સાથે માહિતીને સંગ્રહિત રાખે છે જેથી ફક્ત તમે જ તેને ઍક્સેસ કરી શકો. જ્યારે તમે ફરીથી ઇન્સ્ટોલ કરો ત્યારે તમારી પ્રોફાઇલ, સેટિંગ્સ અને સંપર્કો રિસ્ટોર થશે. એપ્લિકેશન ઓપન કરવા માટે તમારે તમારા PIN ની જરૂર નહીં પડે.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "PIN વિશે વધુ જાણો";
@@ -4820,7 +4820,7 @@
 "PIN_CREATION_WEAK_ERROR" = "એક મજબૂત PIN પસંદ કરો";
 
 /* If your attempted PIN is too weak, you'll see an error message. This is the text on the error dialog. */
-"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Signal encrypted so only you can access it. Choose a stronger PIN to protect your account.";
+"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Kahf encrypted so only you can access it. Choose a stronger PIN to protect your account.";
 
 /* Error body indicating that the attempt to disable a PIN failed. */
 "PIN_DISABLE_ERROR_MESSAGE" = "તમારો PIN અક્ષમ થઈ શક્યો નહીં. અમે તમને ફરીથી પછીથી પ્રેરિત કરીશું.";
@@ -4850,7 +4850,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "અમે તમને થોડા દિવસોમાં ફરીથી યાદ કરાવીશું.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "તમારા Signal PIN ને ચકાસો";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "તમારા Kahf PIN ને ચકાસો";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "અમે તમને આવતી કાલે ફરીથી યાદ કરાવીશું.";
@@ -4865,7 +4865,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "અમાન્ય PIN, ફરીથી પ્રયાસ કરો.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "તમારો Signal પિન દાખલ કરો";
+"PIN_REMINDER_TITLE" = "તમારો Kahf પિન દાખલ કરો";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN ઓછામાં ઓછો 4 અંકનો હોવો જોઈએ.";
@@ -4880,7 +4880,7 @@
 "PINS_MEGAPHONE_ACTION" = "PIN બનાવો";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "તમારો Signal પિન બનાવવાનું પૂર્ણ કરો.";
+"PINS_MEGAPHONE_BODY" = "તમારો Kahf પિન બનાવવાનું પૂર્ણ કરો.";
 
 /* Title for PIN megaphone when user doesn't have a PIN */
 "PINS_MEGAPHONE_TITLE" = "એક PIN બનાવો";
@@ -4913,19 +4913,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "તમારા ક્લિપબોર્ડમાં રહેલો નંબર આ ચેટ માટે યોગ્ય સલામતી નંબર જેવો લાગતો નથી.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal ને તમારા ક્લિપબોર્ડમાં કોઈ સલામતી નંબર મળ્યો નથી. તમે તેની યોગ્ય નકલ કરી છે?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Kahf ને તમારા ક્લિપબોર્ડમાં કોઈ સલામતી નંબર મળ્યો નથી. તમે તેની યોગ્ય નકલ કરી છે?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Signal વપરાશકર્તાઓની દરેક જોડી એક અલગ સલામતી નંબર શેર કરે છે. બે વાર તપાસો કે %1$@ *તમારો* વિશિષ્ટ સલામતી નંબર પ્રદર્શિત કરે છે.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Kahf વપરાશકર્તાઓની દરેક જોડી એક અલગ સલામતી નંબર શેર કરે છે. બે વાર તપાસો કે %1$@ *તમારો* વિશિષ્ટ સલામતી નંબર પ્રદર્શિત કરે છે.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "તમે Signal નું જૂનું વર્ઝન ચલાવી રહ્યાં છો. તમે ચકાસી શકો તે પહેલાં તમારે અપડેટ કરવાની જરૂર છે.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "તમે Kahf નું જૂનું વર્ઝન ચલાવી રહ્યાં છો. તમે ચકાસી શકો તે પહેલાં તમારે અપડેટ કરવાની જરૂર છે.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "તમારો સાથી Signal નું જૂનું વર્ઝન ચલાવી રહ્યું છે. તમે ચકાસી શકો તે પહેલાં તેમને અપડેટ કરવાની જરૂર છે.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "તમારો સાથી Kahf નું જૂનું વર્ઝન ચલાવી રહ્યું છે. તમે ચકાસી શકો તે પહેલાં તેમને અપડેટ કરવાની જરૂર છે.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "સ્કેન થયેલ કોડ સલામતી નંબર જેવો લાગતો નથી. શું તમે બંને Signal ના અદ્યતન વર્ઝન પર છો?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "સ્કેન થયેલ કોડ સલામતી નંબર જેવો લાગતો નથી. શું તમે બંને Kahf ના અદ્યતન વર્ઝન પર છો?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "જો તમે %1$@ સાથે તમારા એન્ડ-ટુ-એન્ડ એન્ક્રિપ્શનની સુરક્ષાને ચકાસવા માંગો છો, તો ઉપરના નંબરોને તેમના ડિવાઇસ પરની સંખ્યા સાથે સરખાવો.\n\nવૈકલ્પિક રીતે, તમે તેમના ફોન પર કોડને સ્કેન કરી શકો છો અથવા તમારો કોડ સ્કેન કરવા માટે કહી શકો છો.";
@@ -5032,7 +5032,7 @@
 /* Title for the profile view. */
 "PROFILE_VIEW_TITLE" = "પ્રોફાઇલ";
 
-/* The title for the address of the signal proxy */
+/* The title for the address of the Kahf proxy */
 "PROXY_ADDRESS" = "પ્રોક્સી એડ્રેસ";
 
 /* The provided proxy connected successfully */
@@ -5041,10 +5041,10 @@
 /* The provided proxy couldn't connect */
 "PROXY_FAILED_TO_CONNECT" = "પ્રૉક્સી સાથે કનેક્ટ કરી ન શકાયું. પ્રૉક્સી એડ્રેસ તપાસો અને ફરી પ્રયાસ કરો.";
 
-/* Placeholder text for signal proxy host */
+/* Placeholder text for Kahf proxy host */
 "PROXY_PLACEHOLDER" = "પ્રોક્સી એડ્રેસ ઉમેરો";
 
-/* Title for the signal proxy settings */
+/* Title for the Kahf proxy settings */
 "PROXY_SETTINGS_TITLE" = "પ્રોક્સી";
 
 /* Notification action button title */
@@ -5144,19 +5144,19 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "વપરાશકર્તા પસંદ કરી શકાતા નથી.";
 
 /* Alert text. Shown after selecting a phone number that isn't valid. */
-"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "%1$@ એ Signal ઉપયોગકર્તા નથી. માન્ય ફોન નંબર સાથે ફરી પ્રયાસ કરો.";
+"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "%1$@ એ Kahf ઉપયોગકર્તા નથી. માન્ય ફોન નંબર સાથે ફરી પ્રયાસ કરો.";
 
 /* Alert title. Shown after selecting a phone number that isn't valid. */
 "RECIPIENT_PICKER_INVALID_NUMBER_TITLE" = "અમાન્ય ફોન નંબર";
 
-/* Button. Shown after selecting a phone number that isn't a Signal user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
+/* Button. Shown after selecting a phone number that isn't a Kahf user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
 "RECIPIENT_PICKER_INVITE_ACTION" = "મેસેજ";
 
-/* Alert text. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ એ Signal ઉપયોગકર્તા નથી. શું તમે આ નંબરને આમંત્રિત કરવા માંગો છો?";
+/* Alert text. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ એ Kahf ઉપયોગકર્તા નથી. શું તમે આ નંબરને આમંત્રિત કરવા માંગો છો?";
 
-/* Alert title. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_TITLE" = "Signal માટે આમંત્રણ આપો";
+/* Alert title. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_TITLE" = "Kahf માટે આમંત્રણ આપો";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
 "REGISTER_2FA_FORGOT_PIN_ALERT_TITLE" = "મદદ જોઈએ છે?";
@@ -5194,10 +5194,10 @@
 /* Label for the country code field */
 "REGISTRATION_DEFAULT_COUNTRY_NAME" = "દેશનો કોડ";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
-"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Signal on other devices currently registered with the same phone number.";
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
+"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Kahf on other devices currently registered with the same phone number.";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
 "REGISTRATION_DEVICE_TRANSFER_CHOICE_TITLE" = "Transfer Account & Messages";
 
 /* Placeholder text for the phone number textfield */
@@ -5234,13 +5234,13 @@
 "REGISTRATION_PIN_CONFIRM_TITLE" = "Confirm your PIN";
 
 /* During registration, users are asked to create a PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During registration, users are asked to create a PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_CREATE_TITLE" = "Create your PIN";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_ENTER_EXISTING_TITLE" = "Enter your PIN";
@@ -5348,7 +5348,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "વ્યૂ";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "અમારો Signal સલામતી નંબર:\n%1$@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "અમારો Kahf સલામતી નંબર:\n%1$@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "%1$@ સાથેનો તમારો સલામતી નંબર બદલાયો છે. તમે તેને ચકાસી શકો છો.";
@@ -5380,14 +5380,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "સ્ક્રીન લૉકનો ઉપયોગ કરવા માટે તમારે તમારી iOS સેટિંગ્સમાં પાસકોડ સક્ષમ કરવું આવશ્યક છે.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Signal ખોલવા માટે પ્રમાણિત કરો.";
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Kahf ખોલવા માટે પ્રમાણિત કરો.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "પ્રમાણીકરણ નિષ્ફળ થયું";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Signal અનલૉક કરો";
+/* Label for button on lock screen that lets users unlock Kahf. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Kahf અનલૉક કરો";
 
 /* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
 "SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT" = "નામ, વપરાશકર્તા નામ અથવા નંબર";
@@ -5423,13 +5423,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "એકાઉન્ટ મેળ ખાતું નથી";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "આ ડિવાઇસ પરના Signal ને તમારા ફોન સાથે લિંક કરવા માટે અપડેટ કરો.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "આ ડિવાઇસ પરના Kahf ને તમારા ફોન સાથે લિંક કરવા માટે અપડેટ કરો.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "સપોર્ટ ન કરનારું વર્ઝન";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "તમારું અન્ય ડિવાઇસ Signal નું જૂનું વર્ઝન ચલાવી રહ્યું છે જે iPad QR કોડ્સને સ્કેન કરવાનું સમર્થન આપતું નથી. કૃપા કરીને નવીનતમ Signal ને ઇન્સ્ટોલ કરો અને ફરીથી પ્રયાસ કરો.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "તમારું અન્ય ડિવાઇસ Kahf નું જૂનું વર્ઝન ચલાવી રહ્યું છે જે iPad QR કોડ્સને સ્કેન કરવાનું સમર્થન આપતું નથી. કૃપા કરીને નવીનતમ Kahf ને ઇન્સ્ટોલ કરો અને ફરીથી પ્રયાસ કરો.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "સ્કેનીંગ ડિવાઇસને અપડેટ કરો";
@@ -5450,19 +5450,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "લિંક કરવાનું સમાપ્ત કરો";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "આ iPad ને તમારા એકાઉન્ટથી લિંક કરવા તમારા ફોન પર Signal લોંચ કરો";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "આ iPad ને તમારા એકાઉન્ટથી લિંક કરવા તમારા ફોન પર Kahf લોંચ કરો";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "મારી પાસે મારા ફોનમાં Signal નથી…";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "મારી પાસે મારા ફોનમાં Kahf નથી…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "તમારા ફોન પર એપ સ્ટોર પર જાઓ, Signal ઇન્સ્ટોલ કરો, રજીસ્ટ્રેશન પ્રક્રિયા પૂર્ણ કરો અને પછી તમે તમારા iPad ને તે જ એકાઉન્ટ સાથે લિંક કરી શકો છો.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "તમારા ફોન પર એપ સ્ટોર પર જાઓ, Kahf ઇન્સ્ટોલ કરો, રજીસ્ટ્રેશન પ્રક્રિયા પૂર્ણ કરો અને પછી તમે તમારા iPad ને તે જ એકાઉન્ટ સાથે લિંક કરી શકો છો.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "તમારા ફોન પર Signal ઇન્સ્ટોલ કરો";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "તમારા ફોન પર Kahf ઇન્સ્ટોલ કરો";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "તમારા ફોન પર Signal સેટિંગ્સ ખોલવા માટે તમારા પ્રોફાઇલ ફોટો પર ટેપ કરો. પછી તમારા ફોનથી આ કોડને સ્કેન કરવા માટે \"લિંક્ડ ડિવાઇસ\" અને \"નવું ડિવાઇસ જોડો\":";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "તમારા ફોન પર Kahf સેટિંગ્સ ખોલવા માટે તમારા પ્રોફાઇલ ફોટો પર ટેપ કરો. પછી તમારા ફોનથી આ કોડને સ્કેન કરવા માટે \"લિંક્ડ ડિવાઇસ\" અને \"નવું ડિવાઇસ જોડો\":";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "અહીં તમારા iPad ને જોડવામાં સહાય મેળવો";
@@ -5471,7 +5471,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "તમારા ફોનથી QR કોડ સ્કેન કરો";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "તમારા એકાઉન્ટને ટ્રાન્સફર કરવા માટે તમારા જૂના iPad પર Signal લોંચ કરો";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "તમારા એકાઉન્ટને ટ્રાન્સફર કરવા માટે તમારા જૂના iPad પર Kahf લોંચ કરો";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "સુરક્ષિત સત્ર ફરીથી ગોઠવવામાં આવ્યું હતું.";
@@ -5513,7 +5513,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "સ્ટાન્ડર્ડ";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal એન્ડ-ટુ-એન્ડ એન્ક્રિપ્શનનો ઉપયોગ કરે છે અને તેને ક્યારેક તમારા ચેટ સેશનને રિફ્રેશ કરવાની જરૂર પડી શકે છે. આ તમારી ચેટની સલામતીને અસર કરતું નથી પરંતુ તમે આ સંપર્કમાંથી કોઈ મેસેજ ચૂકી ગયા છો અને તમે તેને ફરીથી મોકલવા માટે કહી શકો છો.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Kahf એન્ડ-ટુ-એન્ડ એન્ક્રિપ્શનનો ઉપયોગ કરે છે અને તેને ક્યારેક તમારા ચેટ સેશનને રિફ્રેશ કરવાની જરૂર પડી શકે છે. આ તમારી ચેટની સલામતીને અસર કરતું નથી પરંતુ તમે આ સંપર્કમાંથી કોઈ મેસેજ ચૂકી ગયા છો અને તમે તેને ફરીથી મોકલવા માટે કહી શકો છો.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "ચેટ સેશન રિફ્રેશ થયું";
@@ -5540,7 +5540,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "સ્થળ";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "જો સક્ષમ હોય, તો Signal સેન્સરશીપને અવળું કરવાનો પ્રયાસ કરશે. જ્યાં સુધી તમે Signal સેન્સર કરેલ નથી ત્યાં સુધી આ સુવિધાને સક્ષમ કરશો નહીં.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "જો સક્ષમ હોય, તો Kahf સેન્સરશીપને અવળું કરવાનો પ્રયાસ કરશે. જ્યાં સુધી તમે Kahf સેન્સર કરેલ નથી ત્યાં સુધી આ સુવિધાને સક્ષમ કરશો નહીં.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "તમારા એકાઉન્ટ ના ફોન નંબરના આધારે સેન્સરશીપ છેતરપિંડી સક્રિય કરવામાં આવી છે.";
@@ -5551,8 +5551,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "જ્યારે ઇન્ટરનેટથી કનેક્ટેડ હોય ત્યારે જ સેન્સરશિપ છેતરપિંડી સક્રિય કરી શકાય છે.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "સેન્સરશિપ છેતરપિંડી જરૂરી નથી; તમે પહેલેથી જ Signal સેવા સાથે જોડાયેલા છો.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Kahf service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "સેન્સરશિપ છેતરપિંડી જરૂરી નથી; તમે પહેલેથી જ Kahf સેવા સાથે જોડાયેલા છો.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "ડિબગ લૉગને સક્ષમ કરો";
@@ -5593,8 +5593,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "બ્લૉક કરેલો ઉપયોગકર્તા ઉમેરો";
 
-/* A label that indicates the user has no Signal contacts that they haven't blocked. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "તમારી પાસે Signal પર કોઈ સંપર્કો નથી.";
+/* A label that indicates the user has no Kahf contacts that they haven't blocked. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "તમારી પાસે Kahf પર કોઈ સંપર્કો નથી.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "કોઈ શોધ પરિણામ નથી";
@@ -5606,7 +5606,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "હંમેશા રિલે કૉલ";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "તમારા સંપર્કમાં તમારું IP એડ્રેસ જણાવવાનું ટાળવા માટે Signal સર્વર દ્વારા બધા કૉલ રિલે કરો. સક્ષમ કરવાથી કૉલની ગુણવત્તામાં ઘટાડો થશે.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "તમારા સંપર્કમાં તમારું IP એડ્રેસ જણાવવાનું ટાળવા માટે Kahf સર્વર દ્વારા બધા કૉલ રિલે કરો. સક્ષમ કરવાથી કૉલની ગુણવત્તામાં ઘટાડો થશે.";
 
 /* Label for the 'edit phone number' button in the 'change phone number' views. */
 "SETTINGS_CHANGE_PHONE_NUMBER_BACK_TO_EDIT_BUTTON" = "નંબર સંપાદિત કરો";
@@ -5660,7 +5660,7 @@
 "SETTINGS_CLEAR_HISTORY" = "ચેટ હિસ્ટ્રી દૂર કરો";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "કૉપિરાઇટ Signal મેસેન્જર\nGPLv3 હેઠળ લાઇસન્સ પ્રાપ્ત";
+"SETTINGS_COPYRIGHT" = "કૉપિરાઇટ Kahf મેસેન્જર\nGPLv3 હેઠળ લાઇસન્સ પ્રાપ્ત";
 
 /* Label for the 'data' section of the app settings. */
 "SETTINGS_DATA" = "ડેટાનો વપરાશ";
@@ -5725,8 +5725,8 @@
 /* Explanation for the 'disappearing messages' privacy settings. */
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "તમે શરૂ કરેલી બધી નવી ચેટ માટે ડિફોલ્ટ અદ્રશ્ય મેસેજ ટાઈમર સેટ કરો.";
 
-/* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Signal ને દાન આપો";
+/* Title for the 'donate to Kahf' link in settings. */
+"SETTINGS_DONATE" = "Kahf ને દાન આપો";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "મદદ";
@@ -5794,8 +5794,8 @@
 /* table section header */
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "સૂચના કન્ટેન્ટ";
 
-/* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "સંપર્ક Signal સાથે જોડાય છે";
+/* When the local device discovers a contact has recently installed Kahf, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "સંપર્ક Kahf સાથે જોડાય છે";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "આ સમયે સૂચિત કરો…";
@@ -5807,7 +5807,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "સક્રિય કરો";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "તમે MobileCoin મોકલવા અને પ્રાપ્ત કરવા માટે Signal નો ઉપયોગ કરી શકો છો. તમામ પેમેન્ટ  MobileCoin અને MobileCoin વૉલેટ માટે ઉપયોગની શરતોને આધિન છે. આ બીટા સુવિધા છે તેથી તમે કેટલીક સમસ્યાઓ અને પેમેન્ટ અથવા બેલેન્સનો સામનો કરી શકો છો જે તમે ગુમાવી શકો છો તે રિસ્ટોર કરી શકાતું નથી.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "તમે MobileCoin મોકલવા અને પ્રાપ્ત કરવા માટે Kahf નો ઉપયોગ કરી શકો છો. તમામ પેમેન્ટ  MobileCoin અને MobileCoin વૉલેટ માટે ઉપયોગની શરતોને આધિન છે. આ બીટા સુવિધા છે તેથી તમે કેટલીક સમસ્યાઓ અને પેમેન્ટ અથવા બેલેન્સનો સામનો કરી શકો છો જે તમે ગુમાવી શકો છો તે રિસ્ટોર કરી શકાતું નથી.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "સક્રિય કરો";
@@ -5831,7 +5831,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%3$@ પર %1$@%2$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Signal પર પેમેન્ટ્સ હવે ઉપલબ્ધ નથી. તમે હજી પણ એક્સચેન્જમાં ફંડ સ્થાનાંતરિત કરી શકો છો પરંતુ તમે હવે પેમેન્ટ મોકલી શકતા નથી અને મેળવી શકતા નથી અથવા ફંડ ઉમેરી શકતા નથી.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Kahf પર પેમેન્ટ્સ હવે ઉપલબ્ધ નથી. તમે હજી પણ એક્સચેન્જમાં ફંડ સ્થાનાંતરિત કરી શકો છો પરંતુ તમે હવે પેમેન્ટ મોકલી શકતા નથી અને મેળવી શકતા નથી અથવા ફંડ ઉમેરી શકતા નથી.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "પેમેન્ટ નિષ્ક્રિય કરી શકતા નથી કારણ કે તમારું બેલેન્સ ઉપલબ્ધ નથી. તમારું કનેક્શન તપાસો અને ફરીથી પ્રયાસ કરો.";
@@ -5840,10 +5840,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "પેમેન્ટ પૂર્ણ કરી શક્યા નહીં કારણ કે તમારું બેલેન્સ ઉપલબ્ધ નથી. તમારું કનેક્શન તપાસો અને ફરીથી પ્રયાસ કરો.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Signal પર પેમેન્ટ્સ હવે ઉપલબ્ધ નથી. તમે હજી પણ એક્સચેન્જમાં ફંડ સ્થાનાંતરિત કરી શકો છો પરંતુ તમે હવે પેમેન્ટ મોકલી શકતા નથી અને મેળવી શકતા નથી અથવા ફંડ ઉમેરી શકતા નથી.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Kahf પર પેમેન્ટ્સ હવે ઉપલબ્ધ નથી. તમે હજી પણ એક્સચેન્જમાં ફંડ સ્થાનાંતરિત કરી શકો છો પરંતુ તમે હવે પેમેન્ટ મોકલી શકતા નથી અને મેળવી શકતા નથી અથવા ફંડ ઉમેરી શકતા નથી.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Signal પર પેમેન્ટ્સ હવે ઉપલબ્ધ નથી. તમે હજી પણ એક્સચેન્જમાં ફંડ સ્થાનાંતરિત કરી શકો છો પરંતુ તમે હવે પેમેન્ટ મોકલી શકતા નથી અને મેળવી શકતા નથી અથવા ફંડ ઉમેરી શકતા નથી.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Kahf પર પેમેન્ટ્સ હવે ઉપલબ્ધ નથી. તમે હજી પણ એક્સચેન્જમાં ફંડ સ્થાનાંતરિત કરી શકો છો પરંતુ તમે હવે પેમેન્ટ મોકલી શકતા નથી અને મેળવી શકતા નથી અથવા ફંડ ઉમેરી શકતા નથી.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "રૂપાંતરણ એ ફક્ત અંદાજો છે અને સચોટ ન હોઈ શકે.";
@@ -5861,7 +5861,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "પેમેન્ટ્સને નિષ્ક્રિય કરો";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "જો તમે પેમેન્ટ્સ નિષ્ક્રિય કરો છો તો તમે Signal માં Mobilecoin મોકલી શકશો નહીં અથવા પ્રાપ્ત કરી શકશો નહીં.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "જો તમે પેમેન્ટ્સ નિષ્ક્રિય કરો છો તો તમે Kahf માં Mobilecoin મોકલી શકશો નહીં અથવા પ્રાપ્ત કરી શકશો નહીં.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "પેમેન્ટ્સને નિષ્ક્રિય કરવું છે?";
@@ -5870,10 +5870,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "પેમેન્ટ્સને નિષ્ક્રિય કરો";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "એવી ભલામણ કરવામાં આવે છે કે તમે પેમેન્ટ્સને નિષ્ક્રિય કરતા પહેલા તમારા ફંડને બીજા વૉલેટ એડ્રેસ પર સ્થાનાંતરિત કરો. જો તમે હવે તમારા ફંડને સ્થાનાંતરિત ન કરવાનું પસંદ કરો છો, તો જો તમે પેમેન્ટ્સને ફરીથી સક્રિય કરો છો તો તે Signal સાથે લિંક થયેલા તમારા વૉલેટમાં રહેશે.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "એવી ભલામણ કરવામાં આવે છે કે તમે પેમેન્ટ્સને નિષ્ક્રિય કરતા પહેલા તમારા ફંડને બીજા વૉલેટ એડ્રેસ પર સ્થાનાંતરિત કરો. જો તમે હવે તમારા ફંડને સ્થાનાંતરિત ન કરવાનું પસંદ કરો છો, તો જો તમે પેમેન્ટ્સને ફરીથી સક્રિય કરો છો તો તે Kahf સાથે લિંક થયેલા તમારા વૉલેટમાં રહેશે.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "જો તમે પેમેન્ટને ફરીથી સક્રિય કરવાનું પસંદ કરો છો તો તમારું બેલેન્સ Signal સાથે લિંક થયેલા તમારા વૉલેટમાં રહેશે.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "જો તમે પેમેન્ટને ફરીથી સક્રિય કરવાનું પસંદ કરો છો તો તમારું બેલેન્સ Kahf સાથે લિંક થયેલા તમારા વૉલેટમાં રહેશે.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "સ્થાનાંતરિત કર્યા વિના નિષ્ક્રિય કરવું છે?";
@@ -5900,7 +5900,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "MobileCoin વિશે";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "તમે તમારા વૉલેટ એડ્રેસ પર MobileCoin મોકલીને Signal માં ઉપયોગ માટે ફંડ ઉમેરી શકો છો.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "તમે તમારા વૉલેટ એડ્રેસ પર MobileCoin મોકલીને Kahf માં ઉપયોગ માટે ફંડ ઉમેરી શકો છો.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "ફંડ ઉમેરી રહ્યા છીએ";
@@ -5957,7 +5957,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "પેમેન્ટ્સને સક્રિય કર્યું.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "MobileCoin મોકલવા અને પ્રાપ્ત કરવા માટે Signal નો ઉપયોગ કરો, જે એક નવી ગોપનીયતા કેન્દ્રિત ડિજિટલ ચલણ છે. શરૂ કરવા માટે સક્રિય કરો.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "MobileCoin મોકલવા અને પ્રાપ્ત કરવા માટે Kahf નો ઉપયોગ કરો, જે એક નવી ગોપનીયતા કેન્દ્રિત ડિજિટલ ચલણ છે. શરૂ કરવા માટે સક્રિય કરો.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "પેમેન્ટ્સને ફરીથી સક્રિય કરો";
@@ -5975,7 +5975,7 @@
 "SETTINGS_PAYMENTS_PASSPHRASE_DISCARD_CONFIRMATION_TITLE" = "સેવ કર્યા વિના ચાલુ રાખવું છે?";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "જો તમે તમારા Signal પિનની પુષ્ટિ કરો છો તો તમે Signal ને ફરીથી ઇન્સ્ટોલ કરો ત્યારે તમારું બેલેન્સ આપોઆપ રિસ્ટોર થશે. તમે રિકવરી ફ્રેઝનો ઉપયોગ કરીને તમારું બેલેન્સ પણ રિસ્ટોર કરી શકો છો, જે તમારા માટે અનન્ય 24 શબ્દોનો ફ્રેઝ છે. તેને લખી ને સલામત સ્થળે સંગ્રહિત કરો.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "જો તમે તમારા Kahf પિનની પુષ્ટિ કરો છો તો તમે Kahf ને ફરીથી ઇન્સ્ટોલ કરો ત્યારે તમારું બેલેન્સ આપોઆપ રિસ્ટોર થશે. તમે રિકવરી ફ્રેઝનો ઉપયોગ કરીને તમારું બેલેન્સ પણ રિસ્ટોર કરી શકો છો, જે તમારા માટે અનન્ય 24 શબ્દોનો ફ્રેઝ છે. તેને લખી ને સલામત સ્થળે સંગ્રહિત કરો.";
 
 /* Explanation of the 'payments passphrase' when there is a balance. */
 "SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION_FROM_BALANCE" = "તમને બેલેન્સ મળ્યું છે! સમય છે તમારા રિકવરી ફ્રેઝને સેવ કરવાનો જે એક 24-શબ્દની કી છે અને તેનો ઉપયોગ તમે તમારું બેલેન્સ રિસ્ટોર કરવા માટે કરી શકો છો.";
@@ -6065,7 +6065,7 @@
 "SETTINGS_PAYMENTS_PAYMENTS_LOCK_PROMPT_EXPLANATION_TOUCHID" = "ટચ ID ને સક્ષમ કરીને તમારા ફોન ધરાવતી વ્યક્તિને તમારા ફંડને ઍક્સેસ કરતા રોકવામાં સહાય કરો. તમે આને સેટિંગ્સમાંથી બદલી શકો છો.";
 
 /* Button for payments outdated sheet. */
-"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Signal ને અપડેટ કરો";
+"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Kahf ને અપડેટ કરો";
 
 /* Message for payments outdated sheet. */
 "SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_MESSAGE" = "ચુકવણીઓ મોકલવાનું અને પ્રાપ્ત કરવાનું ચાલુ રાખવા અને તમારું અપ-ટુ-ડેટ ચુકવણી બેલેન્સ જોવા માટે અપડેટ જરૂરી છે.";
@@ -6197,7 +6197,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "પેમેન્ટ્સ";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "તમે તમારા Signal વૉલેટ એડ્રેસ પર સ્થાનાંતરિત કરી શકતા નથી. આધારભૂત એક્સચેન્જ પર તમારા એકાઉન્ટમાંથી વૉલેટ એડ્રેસ દાખલ કરો.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "તમે તમારા Kahf વૉલેટ એડ્રેસ પર સ્થાનાંતરિત કરી શકતા નથી. આધારભૂત એક્સચેન્જ પર તમારા એકાઉન્ટમાંથી વૉલેટ એડ્રેસ દાખલ કરો.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "તમે એક્સચેન્જ દ્વારા પૂરા પાડવામાં આવેલા વૉલેટ એડ્રેસમાં સ્થાનાંતરણ પૂર્ણ કરીને MobileCoin ને સ્થાનાંતરિત કરી શકો છો. વૉલેટ એડ્રેસ એ સામાન્ય રીતે QR કોડની નીચે સંખ્યાઓ અને અક્ષરોની string છે.";
@@ -6281,7 +6281,7 @@
 "SETTINGS_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Who Can Find Me By Number";
 
 /* Description label for Phone Number Privacy */
-"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Signal with it.";
+"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Kahf with it.";
 
 /* The title for phone number privacy settings. */
 "SETTINGS_PHONE_NUMBER_PRIVACY_TITLE" = "Phone Number";
@@ -6293,16 +6293,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "રિમાઇન્ડર્સ બંધ કરો";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "ખાતરી કરો કે તમે યાદ રાખો અથવા સુરક્ષિત રીતે તમારો PIN સંગ્રહિત કરો કારણ કે તે પુન:પ્રાપ્ત થઈ શકશે નહીં. જો તમે તમારો PIN ભૂલી જાઓ છો, તો તમારા Signal એકાઉન્ટને ફરીથી રજીસ્ટર કરતી વખતે તમે ડેટા ગુમાવી શકો છો.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "ખાતરી કરો કે તમે યાદ રાખો અથવા સુરક્ષિત રીતે તમારો PIN સંગ્રહિત કરો કારણ કે તે પુન:પ્રાપ્ત થઈ શકશે નહીં. જો તમે તમારો PIN ભૂલી જાઓ છો, તો તમારા Kahf એકાઉન્ટને ફરીથી રજીસ્ટર કરતી વખતે તમે ડેટા ગુમાવી શકો છો.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "તમારા Signal PIN ની પુષ્ટિ કરો";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "તમારા Kahf PIN ની પુષ્ટિ કરો";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN રિમાઇન્ડર્સ";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PIN એન્ક્રિપ્ટ થયેલ Signal સાથે માહિતીને સંગ્રહિત રાખે છે જેથી ફક્ત તમે જ તેને ઍક્સેસ કરી શકો. તમારો PIN રિકવર કરી શકાતો નથી. જ્યારે તમે Signal ને ફરીથી ઇન્સ્ટોલ કરો ત્યારે તમારી પ્રોફાઇલ, સેટિંગ્સ અને સંપર્કો રિસ્ટોર થશે.";
+"SETTINGS_PINS_FOOTER" = "PIN એન્ક્રિપ્ટ થયેલ Kahf સાથે માહિતીને સંગ્રહિત રાખે છે જેથી ફક્ત તમે જ તેને ઍક્સેસ કરી શકો. તમારો PIN રિકવર કરી શકાતો નથી. જ્યારે તમે Kahf ને ફરીથી ઇન્સ્ટોલ કરો ત્યારે તમારી પ્રોફાઇલ, સેટિંગ્સ અને સંપર્કો રિસ્ટોર થશે.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "તમારો PIN બદલો";
@@ -6311,7 +6311,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "એક PIN બનાવો";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN";
+"SETTINGS_PINS_TITLE" = "Kahf PIN";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "સેન્સરશીપ ઉપાય, પ્રૉક્સી, રિલે કૉલ્સ અને ગુપ્ત પ્રેષકના સેટિંગ્સ.";
@@ -6338,7 +6338,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "ચાલુ કરો";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "જો ફરીથી Signal સાથે રજીસ્ટર કરાવતી વખતે તમે તમારો Signal PIN ભૂલી જાઓ છો, તો તમને તમારા એકાઉન્ટમાંથી 7 દિવસ માટે લૉક આઉટ કરવામાં આવશે.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "જો ફરીથી Kahf સાથે રજીસ્ટર કરાવતી વખતે તમે તમારો Kahf PIN ભૂલી જાઓ છો, તો તમને તમારા એકાઉન્ટમાંથી 7 દિવસ માટે લૉક આઉટ કરવામાં આવશે.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "રજીસ્ટ્રેશન લૉક ચાલુ કરીએ?";
@@ -6368,16 +6368,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "કૉલ થઈ રહ્યો છે";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Signal ને અનલૉક કરવા માટે ટચ ID , ફેસ ID અથવા તમારા iOS ડિવાઇસ પાસકોડનો ઉપયોગ કરો.";
+"SETTINGS_SECURITY_DETAIL" = "Kahf ને અનલૉક કરવા માટે ટચ ID , ફેસ ID અથવા તમારા iOS ડિવાઇસ પાસકોડનો ઉપયોગ કરો.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Signal ને અનલૉક કરવા માટે, ફેસ ID નો ઉપયોગ કરો.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Kahf ને અનલૉક કરવા માટે, ફેસ ID નો ઉપયોગ કરો.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Signal ને અનલૉક કરવા માટે તમારા ડિવાઇસના પાસકોડનો ઉપયોગ કરો.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Kahf ને અનલૉક કરવા માટે તમારા ડિવાઇસના પાસકોડનો ઉપયોગ કરો.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Signal ને અનલૉક કરવા માટે ટચ ID નો ઉપયોગ કરો.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Kahf ને અનલૉક કરવા માટે ટચ ID નો ઉપયોગ કરો.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "એપ્લિકેશનની સુરક્ષા";
@@ -6392,16 +6392,16 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "iOS સાથે સંપર્કો શેર કરો";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "શેરિંગ સૂચનો જેવી સુવિધાઓ માટે iOSને Signal સંપર્કો અમે ચેટ પર ઍક્સેસ આપો.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "શેરિંગ સૂચનો જેવી સુવિધાઓ માટે iOSને Kahf સંપર્કો અમે ચેટ પર ઍક્સેસ આપો.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "શેરિંગ સૂચનો અને નોટિફિકેશન જેવી સુવિધાઓ માટે iOSને Signal સંપર્કો અમે ચેટ પર ઍક્સેસ આપો.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "શેરિંગ સૂચનો અને નોટિફિકેશન જેવી સુવિધાઓ માટે iOSને Kahf સંપર્કો અમે ચેટ પર ઍક્સેસ આપો.";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "રજીસ્ટ્રેશન લૉક";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Signal સાથે તમારો ફોન નંબર ફરીથી રજીસ્ટર કરવા માટે તમારા Signal PIN ની આવશ્યકતા છે.";
+/* Footer for the 'two factor auth' section of the privacy settings when Kahf PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Kahf સાથે તમારો ફોન નંબર ફરીથી રજીસ્ટર કરવા માટે તમારા Kahf PIN ની આવશ્યકતા છે.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "ટાઇપિંગ સૂચકો";
@@ -6434,13 +6434,13 @@
 "SHARE_EXTENSION_LOADING" = "લોડ કરી રહ્યું છે";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "રજીસ્ટર કરવા માટે Signal એપ્લિકેશન લોંચ કરો.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "રજીસ્ટર કરવા માટે Kahf એપ્લિકેશન લોંચ કરો.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "રજીસ્ટર નથી";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "અપડેટ અથવા રજીસ્ટર કરવા માટે Signal એપ્લિકેશન લોંચ કરો.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "અપડેટ અથવા રજીસ્ટર કરવા માટે Kahf એપ્લિકેશન લોંચ કરો.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "તૈયાર નથી";
@@ -6454,11 +6454,11 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "અપલોડ થઈ રહ્યુ છે…";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Kahf user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "જોડાણ તૈયાર કરવામાં અસમર્થ";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Signal પર શેર કરો";
+"SHARE_EXTENSION_VIEW_TITLE" = "Kahf પર શેર કરો";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "શેરિંગ સંબંધી સૂચનોને અક્ષમ કરવામાં નિષ્ફળ ગયા.";
@@ -6469,8 +6469,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "ચેટ બતાવો";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "હું તમને Signal ઇન્સ્ટોલ કરવા માટે આમંત્રિત કરું છું! અહીં લિંક છે:";
+/* body sent to contacts when inviting to Install Kahf */
+"SMS_INVITE_BODY" = "હું તમને Kahf ઇન્સ્ટોલ કરવા માટે આમંત્રિત કરું છું! અહીં લિંક છે:";
 
 /* An error message generically indicating that something went wrong. */
 "SOMETHING_WENT_WRONG_ERROR" = "કંઈક ખોટું થયું.";
@@ -6494,7 +6494,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "ચકાસણી કર્યા વિના ચાલુ રાખવું છે?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Signal પર સ્પામને રોકવામાં મદદ કરવા માટે, કૃપા કરીને સંપૂર્ણ ચકાસણી કરો.\n\nચકાસણી કર્યા પછી, તમે મેસેજિંગ ચાલુ રાખી શકો છો. કોઈપણ અટકેલા મેસેજ આપોઆપ મોકલવામાં આવશે.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Kahf પર સ્પામને રોકવામાં મદદ કરવા માટે, કૃપા કરીને સંપૂર્ણ ચકાસણી કરો.\n\nચકાસણી કર્યા પછી, તમે મેસેજિંગ ચાલુ રાખી શકો છો. કોઈપણ અટકેલા મેસેજ આપોઆપ મોકલવામાં આવશે.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "મેસેજિંગ ચાલુ રાખવા માટે ચકાસો";
@@ -6512,7 +6512,7 @@
 "STICKERS_INSTALL_BUTTON" = "ઇન્સ્ટોલ";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signal આર્ટિસ્ટ સિરીઝ";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Kahf આર્ટિસ્ટ સિરીઝ";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "તમે પ્રાપ્ત કરેલ સ્ટીકરો";
@@ -6772,32 +6772,32 @@
 /* Text indicating that the story is currently sending */
 "STORY_SENDING" = "મોકલાઈ રહ્યું છે…";
 
-/* First bullet point for the explainer sheet for signal connections */
+/* First bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_1" = "વાતચીત શરૂ કરીને";
 
-/* Second bullet point for the explainer sheet for signal connections */
+/* Second bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_2" = "મેસેજની વિનંતી સ્વીકારીને";
 
-/* Third bullet point for the explainer sheet for signal connections */
+/* Third bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_3" = "તેઓને તમારા સિસ્ટમ સંપર્કોમાં રાખીને";
 
-/* Footer for the explainer sheet for signal connections */
+/* Footer for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_FOOTER" = "તમારા કનેક્શન તમારું નામ અને ફોટો જોઈ શકે છે, અને તમે તેમનાથી છુપાવો નહીં ત્યાં સુધી \"મારી સ્ટોરી\" પરની પોસ્ટ જોઈ શકે છે.";
 
-/* Header for the explainer sheet for signal connections */
-"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<strong>Signal કનેક્શન</strong> એ લોકો છે જેમના પર તમે વિશ્વાસ કરવાનું પસંદ કર્યું છે, ક્યાં તો:";
+/* Header for the explainer sheet for Kahf connections */
+"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<strong>Kahf કનેક્શન</strong> એ લોકો છે જેમના પર તમે વિશ્વાસ કરવાનું પસંદ કર્યું છે, ક્યાં તો:";
 
 /* Label for the stories section of the settings view */
 "STORY_SETTINGS_TITLE" = "સ્ટોરી";
 
 /* Section footer for the 'viewers' section on the 'story settings' view */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "કયા Signal કનેકશન તમારી સ્ટોરી જોઈ શકશે તે પસંદ કરો. ફેરફારો પહેલાથી જ મોકલાઈ ચૂકેલ સ્ટોરીને અસર કરશે નહીં.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "કયા Kahf કનેકશન તમારી સ્ટોરી જોઈ શકશે તે પસંદ કરો. ફેરફારો પહેલાથી જ મોકલાઈ ચૂકેલ સ્ટોરીને અસર કરશે નહીં.";
 
 /* Section header for the 'viewers' section on the 'story settings' view */
 "STORY_SETTINGS_WHO_CAN_VIEW_THIS_HEADER" = "આ સ્ટોરી કોણ જોઈ શકે";
 
 /* Header for the 'viewers' section on the 'story settings' bottom sheet */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "તમારી સ્ટોરી કયા Signal કનેક્શન જોઈ શકે તે પસંદ કરો. તમે ગોપનીયતા સેટિંગ્સમાંથી ગમે ત્યારે આ બદલી શકો છો.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "તમારી સ્ટોરી કયા Kahf કનેક્શન જોઈ શકે તે પસંદ કરો. તમે ગોપનીયતા સેટિંગ્સમાંથી ગમે ત્યારે આ બદલી શકો છો.";
 
 /* Tooltip text shown when the user selects a story as a destination for a long duration video that will be split into shorter segments. Embeds {{ segment duration in seconds }} */
 "STORY_VIDEO_SEGMENTATION_TOOLTIP_FORMAT" = "સ્ટોરીમાં મોકલેલા વીડિયોને %1$d સેકન્ડની ક્લિપમાં કાપવામાં આવશે અને મલ્ટિપલ સ્ટોરી તરીકે મોકલવામાં આવશે.";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "અમને સમસ્યા વિશે કહો: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "કૃપા કરીને support@signal.orgને તમારી સપોર્ટ સંબંધી વિનંતી ઇમેઇલ કરો";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "કૃપા કરીને support@Kahf.orgને તમારી સપોર્ટ સંબંધી વિનંતી ઇમેઇલ કરો";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "ફિલ્ટર: %1$@";
@@ -6859,16 +6859,16 @@
 /* Localized label for support request email debug log URL. Embeds {{debug log url}}. */
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "લૉગ URL: %1$@";
 
-/* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal વર્ઝન: %1$@";
+/* Localized label for support request email Kahf version string. Embeds {{Kahf version}}. */
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Kahf વર્ઝન: %1$@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS સપોર્ટ વિનંતી";
+"SUPPORT_EMAIL_SUBJECT" = "Kahf iOS સપોર્ટ વિનંતી";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "તમને કેવું લાગે છે? (વૈકલ્પિક)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Kahf FAQ */
 "SUPPORT_FAQ_PROMPT" = "શું તમે હજી સુધી અમારા  FAQ વાંચ્યા છે?";
 
 /* Label describing support switch to attach debug logs */
@@ -6944,7 +6944,7 @@
 "SWITCH_ON" = "ચાલુ";
 
 /* Name to display for the 'system' sender, e.g. for release notes and the onboarding story */
-"SYSTEM_ADDRESS_NAME" = "Signal";
+"SYSTEM_ADDRESS_NAME" = "Kahf";
 
 /* Label for button to verify a user's safety number. */
 "SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER" = "ચકાસો";
@@ -7040,25 +7040,25 @@
 "UNKNOWN_CONTACT_NAME" = "અજાણ્યો સંપર્ક";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "તમારા ડિવાઇસમાંથી એકએ એક મેસેજ મોકલ્યો હતો જેની પ્રક્રિયા અથવા પ્રદર્શિત કરી શકાતા નથી કારણ કે તે નવી Signal સુવિધાનો ઉપયોગ કરે છે.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "તમારા ડિવાઇસમાંથી એકએ એક મેસેજ મોકલ્યો હતો જેની પ્રક્રિયા અથવા પ્રદર્શિત કરી શકાતા નથી કારણ કે તે નવી Kahf સુવિધાનો ઉપયોગ કરે છે.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@ એ તમને એક મેસેજ મોકલ્યો છે જેની પ્રક્રિયા અથવા પ્રદર્શિત કરી શકાતી નથી કારણ કે તે નવી Signal સુવિધાનો ઉપયોગ કરે છે.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@ એ તમને એક મેસેજ મોકલ્યો છે જેની પ્રક્રિયા અથવા પ્રદર્શિત કરી શકાતી નથી કારણ કે તે નવી Kahf સુવિધાનો ઉપયોગ કરે છે.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "તમને એક મેસેજ મળ્યો જેની પ્રક્રિયા અથવા પ્રદર્શિત કરી શકાતા નથી કારણ કે તે નવી Signal સુવિધાનો ઉપયોગ કરે છે.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "તમને એક મેસેજ મળ્યો જેની પ્રક્રિયા અથવા પ્રદર્શિત કરી શકાતા નથી કારણ કે તે નવી Kahf સુવિધાનો ઉપયોગ કરે છે.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "હવે Signal અપડેટ કરો";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "હવે Kahf અપડેટ કરો";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Signal ના નવીનતમ વર્ઝન પર અપડેટ કર્યું. તમે હવે તમારા ડિવાઇસ પર આ મેસેજ પ્રકાર પ્રાપ્ત કરી શકો છો.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Kahf ના નવીનતમ વર્ઝન પર અપડેટ કર્યું. તમે હવે તમારા ડિવાઇસ પર આ મેસેજ પ્રકાર પ્રાપ્ત કરી શકો છો.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "તમે %1$@ ને હવે આ મેસેજને ફરીથી મોકલવા માટે કહી શકો છો કે તમે Signal નું અદ્યતન વર્ઝન વાપરી રહ્યા છો.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "તમે %1$@ ને હવે આ મેસેજને ફરીથી મોકલવા માટે કહી શકો છો કે તમે Kahf નું અદ્યતન વર્ઝન વાપરી રહ્યા છો.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "તમે પ્રેષકને આ મેસેજ હવે ફરીથી મોકલવા માટે કહી શકો છો કે તમે Signal નું અદ્યતન વર્ઝન વાપરી રહ્યા છો.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "તમે પ્રેષકને આ મેસેજ હવે ફરીથી મોકલવા માટે કહી શકો છો કે તમે Kahf નું અદ્યતન વર્ઝન વાપરી રહ્યા છો.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "અજાણ્યું";
@@ -7082,10 +7082,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "અનલિંક \"%1$@\"?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "ડિવાઇસ હવે લિંક થયેલ નથી. મેસેજિંગ ચાલુ રાખવા માટે તમારા ફોનથી ફરીથી લિંક કરો Signal.";
+"UNLINKED_WARNING" = "ડિવાઇસ હવે લિંક થયેલ નથી. મેસેજિંગ ચાલુ રાખવા માટે તમારા ફોનથી ફરીથી લિંક કરો Kahf.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal તમારા ડિવાઇસને અનલિંક કરવામાં અસમર્થ હતું.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Kahf તમારા ડિવાઇસને અનલિંક કરવામાં અસમર્થ હતું.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "અનામી ઉપકરણ";
@@ -7102,11 +7102,11 @@
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "અસમર્થિત જોડાણ પ્રકાર પ્રાપ્ત થયો.";
 
-/* When inviting contacts to use Signal, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
+/* When inviting contacts to use Kahf, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
 "UNSUPPORTED_FEATURE_ERROR" = "તમારું ડિવાઇસ આ સુવિધાને સર્પોટ આપતું નથી.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "તમારો %1$@ સાથેનો સલામતી નંબર બદલાયો છે કારણ કે તેઓએ Signal અથવા બદલાયેલા ડિવાઇસને ફરીથી ઇન્સ્ટોલ કર્યા છે. નવા સલામતી નંબરની પુષ્ટિ કરવા માટે 'ચકાસણી કરો' પર ટેપ કરો. આ વૈકલ્પિક છે.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "તમારો %1$@ સાથેનો સલામતી નંબર બદલાયો છે કારણ કે તેઓએ Kahf અથવા બદલાયેલા ડિવાઇસને ફરીથી ઇન્સ્ટોલ કર્યા છે. નવા સલામતી નંબરની પુષ્ટિ કરવા માટે 'ચકાસણી કરો' પર ટેપ કરો. આ વૈકલ્પિક છે.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "ચકાસો";
@@ -7120,11 +7120,11 @@
 /* Error indicating that a group could not be updated due to network connectivity problems. */
 "UPDATE_GROUP_FAILED_DUE_TO_NETWORK" = "ગ્રુપ અપડેટ કરી શકાયું નથી. તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને ફરીથી પ્રયાસ કરો.";
 
-/* Button to activate the signal proxy */
+/* Button to activate the Kahf proxy */
 "USE_PROXY_BUTTON" = "પ્રોક્સીનો ઉપયોગ કરો";
 
-/* Explanation of when you should use a signal proxy */
-"USE_PROXY_EXPLANATION" = "જો તમે મોબાઇલ ડેટા અથવા વાઇ-ફાઇ દ્વારા Signal સાથે કનેક્ટ ન કરી શકતા હો તો જ પ્રૉક્સીનો ઉપયોગ કરો.";
+/* Explanation of when you should use a Kahf proxy */
+"USE_PROXY_EXPLANATION" = "જો તમે મોબાઇલ ડેટા અથવા વાઇ-ફાઇ દ્વારા Kahf સાથે કનેક્ટ ન કરી શકતા હો તો જ પ્રૉક્સીનો ઉપયોગ કરો.";
 
 /* Description of how to update discovery */
 "USERNAME_DISCOVERY_DESCRIPTION" = "અન્ય લોકો તમારો સંપર્ક કરી શકે તેની પ્રાથમિક રીત તરીકે તમારા યુઝરનેમનો ઉપયોગ કરવા માટે સેટિંગ્સ > ગોપનીયતા > ફોન નંબર > મારો નંબર કોણ શોધી શકે છે પર જઈને ફોન નંબરની શોધ બંધ કરો.";
@@ -7132,8 +7132,8 @@
 /* Description of username discriminator digits */
 "USERNAME_DISCRIMINATOR_DESCRIPTION" = "યુઝરનેમને અંકોના સમૂહ સાથે જોડવામાં આવે છે અને તમારી પ્રોફાઇલ પર શેર કરવામાં આવતાં નથી";
 
-/* Title to set up signal username */
-"USERNAME_EDUCATION_TITLE" = "તમારું Signal યુઝરનેમ સેટ કરો";
+/* Title to set up Kahf username */
+"USERNAME_EDUCATION_TITLE" = "તમારું Kahf યુઝરનેમ સેટ કરો";
 
 /* Description of username link */
 "USERNAME_LINK_DESCRIPTION" = "દરેક યુઝરનેમમાં એક અનન્ય લિંક હોય છે જે તમે તમારા મિત્રો તમારી સાથે ચેટ શરૂ કરી શકે તે માટે તેમની સાથે શેર કરી શકો છો";
@@ -7147,10 +7147,10 @@
 /* Title for an action sheet indicating that a user-entered username value is not a valid username. */
 "USERNAME_LOOKUP_INVALID_USERNAME_TITLE" = "અમાન્ય યુઝરનેમ";
 
-/* A message indicating that the given username is not associated with a registered Signal account. Embeds {{ a username }}. */
-"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ એ Signal વપરાશકર્તા નથી. ખાતરી કરો કે તમે સંપૂર્ણ વપરાશકર્તાનામ દાખલ કર્યું છે.";
+/* A message indicating that the given username is not associated with a registered Kahf account. Embeds {{ a username }}. */
+"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ એ Kahf વપરાશકર્તા નથી. ખાતરી કરો કે તમે સંપૂર્ણ વપરાશકર્તાનામ દાખલ કર્યું છે.";
 
-/* Title for an action sheet indicating that the given username is not associated with a registered Signal account. */
+/* Title for an action sheet indicating that the given username is not associated with a registered Kahf account. */
 "USERNAME_LOOKUP_NOT_FOUND_TITLE" = "ઉપયોગકર્તા મળ્યો નહીં";
 
 /* A prefix appended to all usernames when displayed */
@@ -7250,7 +7250,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "રેકોર્ડ કરવા માટે દબાવો અને હોલ્ડ કરો.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Signal ડેસ્કટોપ પર પૂર્ણ સેટઅપ.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Kahf ડેસ્કટોપ પર પૂર્ણ સેટઅપ.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "સંપર્ક નામ";

@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Ná bac leis anois";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Maidir le Signal";
+"ABOUT_SECTION_TITLE" = "Maidir le Kahf";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Glac leis an uimhir shábháilteachta nua";
@@ -29,10 +29,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO" = "Teachtaireacht bhéil";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Glao Signal";
+"ACTION_AUDIO_CALL" = "Glao Kahf";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Tabhair cuireadh chuig Signal";
+"ACTION_INVITE" = "Tabhair cuireadh chuig Kahf";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Seol Teachtaireacht";
@@ -118,7 +118,7 @@
 /* Label shown over thumbnails of GIFs in the All Media view */
 "ALL_MEDIA_THUMBNAIL_LABEL_GIF" = "GIF";
 
-/* Title for the view of all your signal connections */
+/* Title for the view of all your Kahf connections */
 "ALL_SIGNAL_CONNECTIONS_TITLE" = "Na Teagmhálaithe Uile";
 
 /* notification action */
@@ -128,37 +128,37 @@
 "APN_Message" = "B'fhéidir go bhfuil teachtaireachtaí nua agat";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Theip ar thosú Signal. Seol an logchomhad dífhabhtaithe chuig support@signal.org sa chaoi go mbeimis in ann an fhadhb seo a réiteach.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Theip ar thosú Kahf. Seol an logchomhad dífhabhtaithe chuig support@Kahf.org sa chaoi go mbeimis in ann an fhadhb seo a réiteach.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Earráid";
 
 /* Button to try launching the app even though the last launch failed */
-"APP_LAUNCH_FAILURE_CONTINUE" = "Open Signal Instead";
+"APP_LAUNCH_FAILURE_CONTINUE" = "Open Kahf Instead";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Níorbh fhéidir an bunachar sonraí a lódáil";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Ní mór duit an leagan is déanaí de Signal a shuiteáil.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Ní mór duit an leagan is déanaí de Kahf a shuiteáil.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Leagan Anaithnid den Bhunachar Sonraí.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signal had a problem while trying to open. Please send a debug log to support@signal.org to help troubleshoot this issue.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf had a problem while trying to open. Please send a debug log to support@Kahf.org to help troubleshoot this issue.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Couldn’t Open Signal";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Couldn’t Open Kahf";
 
 /* Error description indicating that the app crashed because there was low storage space available on the device. */
-"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Signal couldn’t open because your device is low on storage space. To use Signal, free up space by managing your storage in Settings.";
+"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Kahf couldn’t open because your device is low on storage space. To use Kahf, free up space by managing your storage in Settings.";
 
 /* Error title indicating that the app crashed because there was low storage space available on the device. */
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Storage Space Low";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Níorbh fhéidir na sonraí ó do sheanghléas a aischur. Seol an loga dífhabhtaithe chuig support@signal.org sa chaoi go mbeimis in ann an fhadhb seo a réiteach. Má athshuiteálann tú Signal, is féidir go gcaillfidh tú do stair teachtaireachtaí.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Níorbh fhéidir na sonraí ó do sheanghléas a aischur. Seol an loga dífhabhtaithe chuig support@Kahf.org sa chaoi go mbeimis in ann an fhadhb seo a réiteach. Má athshuiteálann tú Kahf, is féidir go gcaillfidh tú do stair teachtaireachtaí.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Níorbh fhéidir an t-aistriú a chur i gcrích";
@@ -173,7 +173,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Tá leagan %1$@ ar fáil san App Store anois.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Tá leagan nua de Signal ar fáil";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Tá leagan nua de Kahf ar fáil";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Nuashonraigh";
@@ -227,9 +227,9 @@
 "APPLE_PAY_DONATION_ERROR_PAYMENT_CANNOT_BE_AUTHORIZED" = "Check to see if your payment method is up to date in Apple Pay. If it isn’t, update it and try again.";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Kahf";
 
-/* On the iOS home screen, if you tap and hold the Signal icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
+/* On the iOS home screen, if you tap and hold the Kahf icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
 "APPLICATION_SHORTCUT_NEW_MESSAGE" = "Teachtaireacht Nua";
 
 /* Label for the archive button for conversations list view */
@@ -247,7 +247,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Níorbh fhéidir an ceangaltán a easpórtáil.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Kahf was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Theip ar Shábháil";
 
 /* Format string for file extension label in call interstitial view */
@@ -316,14 +316,14 @@
 /* A button to select a GIF from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_GIF" = "GIF";
 
-/* A message on a button prompting the user to go settings to grant Signal photos access. */
+/* A message on a button prompting the user to go settings to grant Kahf photos access. */
 "ATTACHMENT_KEYBOARD_GIVE_PHOTOS_ACCESS" = "Ceadaigh Rochtain";
 
 /* A button to select a location from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_LOCATION" = "Suíomh";
 
 /* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
-"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Teastaíonn cead ó Signal chun do ghrianghraif agus fiseáin a thaispeáint.";
+"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Teastaíonn cead ó Kahf chun do ghrianghraif agus fiseáin a thaispeáint.";
 
 /* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
 "ATTACHMENT_KEYBOARD_NO_PHOTOS" = "Tar éis duit pictiúir a ghlacadh, beidh tú in ann na cinn is déanaí a sheoladh anseo.";
@@ -406,14 +406,14 @@
 /* The title for the badge configuration page */
 "BADGE_CONFIGURATION_TITLE" = "Suaitheantais";
 
-/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Signal\" button will be shown. This is the text in that button. */
+/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Kahf\" button will be shown. This is the text in that button. */
 "BADGE_DETAILS_DONATE_TO_SIGNAL" = "Tabhair Airgead Anois";
 
 /* When viewing someone else's donor badge, you'll see a sheet. This is the title on that sheet. Embeds {badge owner's short name} */
-"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "Tacaíonn %1$@ le Signal";
+"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "Tacaíonn %1$@ le Kahf";
 
 /* String explaining to the user that their boost badge has expired on the badge expiry sheet. */
-"BADGE_EXPIRED_BOOST_BODY" = "Tá do shuaitheantas Spreagtha imithe as feidhm agus níl sé infheicthe ar do phróifíl a thuilleadh.\n\nIs féidir leat leanúint le húsáid Signal ach chun tacú leis an teicneolaíocht atá á tógáil duitse, smaoinigh faoi thabhartas uair sa mhí mar dheontóir.";
+"BADGE_EXPIRED_BOOST_BODY" = "Tá do shuaitheantas Spreagtha imithe as feidhm agus níl sé infheicthe ar do phróifíl a thuilleadh.\n\nIs féidir leat leanúint le húsáid Kahf ach chun tacú leis an teicneolaíocht atá á tógáil duitse, smaoinigh faoi thabhartas uair sa mhí mar dheontóir.";
 
 /* String explaining to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheet. */
 "BADGE_EXPIRED_BOOST_CURRENT_SUSTAINER_BODY" = "Tá do shuaitheantas Spreagtha imithe as feidhm agus níl sé infheicthe ar do phróifíl a thuilleadh.\n\nIs féidir leat do shuaitheantas Spreagtha a athghníomhachtú ar feadh 30 lá eile le tabhartas aonuaire.";
@@ -431,13 +431,13 @@
 "BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Tabhartas míosúil curtha ar ceal";
 
 /* String explaining to the user that their subscription badge has expired on the badge expiry sheet. Embeds {failure-specific sentence(s)}. */
-"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_CHARGE_FAILURE_BODY_FORMAT" = "Cuireadh do thabhartas míosúil athfhillteach ar ceal. Níl an suaitheantas deonaithe %1$@ infheicthe ar do phróifíl a thuilleadh.\n\nChun leanúint le tacú le Signal agus do shuaitheantas a athghníomhachtú, nuashonraigh do shonraí íocaíochta agus tabhair airgead arís.";
+"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_CHARGE_FAILURE_BODY_FORMAT" = "Cuireadh do thabhartas míosúil athfhillteach ar ceal. Níl an suaitheantas deonaithe %1$@ infheicthe ar do phróifíl a thuilleadh.\n\nChun leanúint le tacú le Kahf agus do shuaitheantas a athghníomhachtú, nuashonraigh do shonraí íocaíochta agus tabhair airgead arís.";
 
 /* Body of the sheet shown when your subscription is canceled due to inactivity */
-"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "Cuireadh do thabhartas míosúil athfhillteach ar ceal go huathoibríoch toisc go raibh tú neamhghníomhach tamall ró-fhada. Níl do shuaitheantas %1$@ infheicthe ar do phróifíl a thuilleadh.\n\nIs féidir leanúint le húsáid Signal ach chun tacú leis an aip agus do shuaitheantas a athghníomhachtú, tabhair airgead anois.";
+"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "Cuireadh do thabhartas míosúil athfhillteach ar ceal go huathoibríoch toisc go raibh tú neamhghníomhach tamall ró-fhada. Níl do shuaitheantas %1$@ infheicthe ar do phróifíl a thuilleadh.\n\nIs féidir leanúint le húsáid Kahf ach chun tacú leis an aip agus do shuaitheantas a athghníomhachtú, tabhair airgead anois.";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
-"BADGE_THANKS_BODY" = "Thuill tú suaitheantas bronntóra ó Signal! Taispeáin ar do phróifíl é le do thacaíocht a léiriú.";
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
+"BADGE_THANKS_BODY" = "Thuill tú suaitheantas bronntóra ó Kahf! Taispeáin ar do phróifíl é le do thacaíocht a léiriú.";
 
 /* Label prompting the user to display the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_DISPLAY_ON_PROFILE_LABEL" = "Display on Profile";
@@ -445,7 +445,7 @@
 /* Label prompting the user to feature the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_MAKE_FEATURED" = "Cruthaigh Suaitheantas Faoi Thrácht";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
 "BADGE_THANKS_TITLE" = "Go raibh maith agat as do thacaíocht!";
 
 /* Footer explaining that only one badge can be featured at a time on the thank you sheet. */
@@ -608,7 +608,7 @@
 "CALL_AUDIO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📞 Missed audio call on %1$@";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Is féidir leat cead a thabhairt don aip an micreafón a úsáid sna Socruithe iOS, sa chaoi go mbeidh tú in ann glaonna a chur agus teachtaireachtaí a thaifeadadh in Signal.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Is féidir leat cead a thabhairt don aip an micreafón a úsáid sna Socruithe iOS, sa chaoi go mbeidh tú in ann glaonna a chur agus teachtaireachtaí a thaifeadadh in Kahf.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Rochtain ar an Micreafón ag Teastáil";
@@ -638,7 +638,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Gan Freagra";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %1$@";
+"CALL_STATUS_FORMAT" = "Kahf %1$@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Glaoigh";
@@ -701,10 +701,10 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Your camera is off";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Úsáideoir Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Úsáideoir Kahf";
 
 /* The generic name used for group calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_GROUP_NAME" = "Grúpa Signal";
+"CALLKIT_ANONYMOUS_GROUP_NAME" = "Grúpa Kahf";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Glac pictiúr ansin seol é";
@@ -778,38 +778,38 @@
 /* Title for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_TITLE" = "Earráid";
 
-/* Users can donate to Signal with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CARD_NUMBER_GENERIC_ERROR" = "Uimhir chárta neamhbhailí";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card number field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card number field on that screen. */
 "CARD_DONATION_CARD_NUMBER_LABEL" = "Uimhir an chárta";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_GENERIC_ERROR" = "CVV neamhbhailí";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
 "CARD_DONATION_CVV_LABEL" = "CVV";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_TOO_LONG_ERROR" = "Cód ró-fhada";
 
-/* Users can donate to Signal with a credit or debit card. This is the text on the \"Donate\" button. */
+/* Users can donate to Kahf with a credit or debit card. This is the text on the \"Donate\" button. */
 "CARD_DONATION_DONATE_BUTTON" = "Tabhair airgead";
 
-/* Users can donate to Signal with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_EXPIRATION_DATE_GENERIC_ERROR" = "Dáta as feidhm neamhbhailí";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
 "CARD_DONATION_EXPIRATION_DATE_LABEL" = "Dáta as Feidhm";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card expiration date field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card expiration date field on that screen. */
 "CARD_DONATION_EXPIRATION_DATE_PLACEHOLDER" = "MM/BB";
 
-/* Users can donate to Signal with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
+/* Users can donate to Kahf with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
 "CARD_DONATION_HEADER" = "Méid airgid le tabhairt: %1$@";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the body text of that sheet. */
-"CARD_DONATION_READ_MORE_SHEET_BODY" = "Ní dhéanann Signal d'fhaisnéis phearsanta a bhailiú ná a stóráil nuair a thugann tú tabhartas.\n\nÚsáidimid Stripe mar ár bpróiseálaí íocaíochtaí chun do thabhartais a fháil. Ní dhéanaimid aon fhaisnéis a thugann tú dóibh a rochtain, a stóráil ná a shábháil.\n\nNí dhéanann Signal agus ní féidir leis do thabhartas a nascadh le do chuntas Signal.\n\nGo raibh maith agat as do thacaíocht!";
+"CARD_DONATION_READ_MORE_SHEET_BODY" = "Ní dhéanann Kahf d'fhaisnéis phearsanta a bhailiú ná a stóráil nuair a thugann tú tabhartas.\n\nÚsáidimid Stripe mar ár bpróiseálaí íocaíochtaí chun do thabhartais a fháil. Ní dhéanaimid aon fhaisnéis a thugann tú dóibh a rochtain, a stóráil ná a shábháil.\n\nNí dhéanann Kahf agus ní féidir leis do thabhartas a nascadh le do chuntas Kahf.\n\nGo raibh maith agat as do thacaíocht!";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the title of that sheet. */
 "CARD_DONATION_READ_MORE_SHEET_TITLE" = "Tá d'fhaisnéis príobháideach";
@@ -817,8 +817,8 @@
 /* On the credit/debit card donation screen, a small amount of information text is shown. Users can click this link to learn more information. */
 "CARD_DONATION_SUBHEADER_LEARN_MORE" = "Learn more.";
 
-/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Signal does not collect or store their personal information. */
-"CARD_DONATION_SUBHEADER_TEXT" = "Cuir isteach sonraí do chárta. Ní dhéanann Signal d'fhaisnéis phearsanta a bhailiú ná a stóráil.";
+/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Kahf does not collect or store their personal information. */
+"CARD_DONATION_SUBHEADER_TEXT" = "Cuir isteach sonraí do chárta. Ní dhéanann Kahf d'fhaisnéis phearsanta a bhailiú ná a stóráil.";
 
 /* Title for the 'censorship circumvention country' view. */
 "CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE" = "Roghnaigh Tír";
@@ -884,7 +884,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Cuir i gComparáid leis an nGearrthaisce";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Select or search for a Signal user to start a chat with.";
+"COMPOSE_BUTTON_HINT" = "Select or search for a Kahf user to start a chat with.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Cum";
@@ -902,7 +902,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Aimsigh de réir Ainm Úsáideora";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Is féidir leat rochtain ar do chuid teagmhálaithe a thabhairt do Signal sna Socruithe iOS le fáil amach cé acu atá ag úsáid Signal.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Is féidir leat rochtain ar do chuid teagmhálaithe a thabhairt do Kahf sna Socruithe iOS le fáil amach cé acu atá ag úsáid Kahf.";
 
 /* Configure reactions title text */
 "CONFIGURE_REACTIONS" = "Configure Reactions";
@@ -1033,8 +1033,8 @@
 /* Error indicating that at least one contact field must be selected before sharing a contact. */
 "CONTACT_SHARE_NO_FIELDS_SELECTED" = "Níl aon réimse roghnaithe.";
 
-/* Button text to initiate an email to signal support staff */
-"CONTACT_SUPPORT" = "Déan Teagmháil le Foireann Tacaíochta Signal";
+/* Button text to initiate an email to Kahf support staff */
+"CONTACT_SUPPORT" = "Déan Teagmháil le Foireann Tacaíochta Kahf";
 
 /* The localized representation of the 'Donations & Badges' support filter. */
 "CONTACT_SUPPORT_FILTER_DONATIONS_AND_BADGES" = "Donations & Badges";
@@ -1082,7 +1082,7 @@
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Something Not Working";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Níorbh fhéidir le Signal d'iarratas ar thacaíocht a chur i gcrích.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Níorbh fhéidir le Kahf d'iarratas ar thacaíocht a chur i gcrích.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Bain Triail Eile As";
@@ -1211,7 +1211,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "audio";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Signal. Tap a badge to learn more.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Get badges for your profile by supporting Kahf. Tap a badge to learn more.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Suaitheantais";
@@ -1396,14 +1396,14 @@
 /* No comment provided by engineer. */
 "COUNTRYCODE_SELECT_TITLE" = "Roghnaigh Cód Tíre";
 
-/* Body text for an interactive in-app prompt to set up a Signal username. */
+/* Body text for an interactive in-app prompt to set up a Kahf username. */
 "CREATE_USERNAME_MEGAPHONE_BODY" = "Usernames let others message you without needing your phone number.";
 
-/* Title for a button in an interactive in-app prompt to set up a Signal username, which will start a create-username flow. */
+/* Title for a button in an interactive in-app prompt to set up a Kahf username, which will start a create-username flow. */
 "CREATE_USERNAME_MEGAPHONE_SET_UP_BUTTON_TITLE" = "Set Up";
 
-/* Title for an interactive in-app prompt to set up a Signal username. */
-"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Signal username";
+/* Title for an interactive in-app prompt to set up a Kahf username. */
+"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Kahf username";
 
 /* Credit/debit card donation error for decline failures where the card has expired. */
 "CREDIT_OR_DEBIT_CARD_DONATION_ERROR_EXPIRED_CARD" = "Tá do chárta as feidhm. Fíoraigh go bhfuil sonraí do chárta ceart agus triail arís.";
@@ -1454,7 +1454,7 @@
 "DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Run";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Cabhróidh sé sin linn d'fhadhb a réiteach agus is féidir go mbeidh cúpla nóiméad de dhíth lena chur i gcrích. Is féidir leat Signal a dhúnadh le linn seiceáil, ach tar ar ais le do logaí a chur isteach.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Cabhróidh sé sin linn d'fhadhb a réiteach agus is féidir go mbeidh cúpla nóiméad de dhíth lena chur i gcrích. Is féidir leat Kahf a dhúnadh le linn seiceáil, ach tar ar ais le do logaí a chur isteach.";
 
 /* Button to skip database integrity check step */
 "DATABASE_INTEGRITY_CHECK_SKIP" = "Léim thairis seo";
@@ -1468,20 +1468,20 @@
 /* In some cases, the user's message history can become corrupted, and a recovery interface is shown. The user has not been hacked and may be confused by this interface, so try to avoid using terms like \"database\" or \"corrupted\"—terms like \"message history\" are better. This is the title on the first screen of this interface, which gives them some information and asks them to continue. */
 "DATABASE_RECOVERY_AWAITING_USER_CONFIRMATION_TITLE" = "Bhí fadhb le haisghabháil na sonraí";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_CONTINUE_ANYWAY" = "Lean ar aghaidh ar aon nós";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_DESCRIPTION" = "Chun athshlánú na sonraí a chur i gcrích, molaimid duit %1$@ de shaorspás stórála ar a laghad a bheith agat ar do ghléas.";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_TITLE" = "Tá tuilleadh spáis stórála ag teastáil";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This is the description on the screen where we show an error message. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Níorbh fhéidir stair do theachtaireachtaí a athshlánú. Is féidir leat leanúint le Signal a úsáid i ndiaidh athshuiteáil a dhéanamh. Cuir isteach loga dífhabhtaithe ionas gur féidir linn tuiscint níos fearr a fháil ar an méid a tharla.";
+"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Níorbh fhéidir stair do theachtaireachtaí a athshlánú. Is féidir leat leanúint le Kahf a úsáid i ndiaidh athshuiteáil a dhéanamh. Cuir isteach loga dífhabhtaithe ionas gur féidir linn tuiscint níos fearr a fháil ar an méid a tharla.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This button lets them delete all of their data. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Athshocraigh Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Athshocraigh Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the final button they will press before their data is reset. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_CONFIRM" = "Athshocraigh";
@@ -1490,7 +1490,7 @@
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_DESCRIPTION" = "Glanfar d'fhaisnéis chuntais, do phróifíl agus do theachtaireachtaí go léir. Dúnfaidh an app nuair a bheidh an próiseas seo críochnaithe.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the title of that dialog. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Athshocraigh Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Athshocraigh Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) They were asked to submit a debug log. This is the button that submits this log. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_SUBMIT_DEBUG_LOG_BUTTON" = "Seol an Logchomhad Dífhabhtaithe";
@@ -1565,7 +1565,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Scrios Cuntas";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Scriosfar do chuntas Signal agus athshocrófar an aip leis sin. Dúnfar an aip nuair a bheidh an próiseas críochnaithe.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Scriosfar do chuntas Kahf agus athshocrófar an aip leis sin. Dúnfar an aip nuair a bheidh an próiseas críochnaithe.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "An bhfuil tú cinnte gur mhaith leat do chuntas a scriosadh?";
@@ -1589,7 +1589,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Uimhir Ghutháin";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Confirm Your Signal Number";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Confirm Your Kahf Number";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Scrios Cuntas";
@@ -1604,15 +1604,15 @@
 "DELETE_ALL_MESSAGES_IN_CONVERSATION_BUTTON" = "Scrios Gach Teachtaireacht";
 
 /* Notification warning the user that they have been de-registered. */
-"DEREGISTRATION_NOTIFICATION" = "Logáladh amach as Signal thú ar an ngléas seo.";
+"DEREGISTRATION_NOTIFICATION" = "Logáladh amach as Kahf thú ar an ngléas seo.";
 
 /* Label for button that lets users re-register using the same phone number. */
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Cláraigh an uimhir ghutháin seo arís";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Níl an gléas seo cláraithe a thuilleadh. Seans go bhfuil d'uimhir ghutháin cláraithe le Signal ar ghléas eile. Tapáil chun clárú arís.";
+"DEREGISTRATION_WARNING" = "Níl an gléas seo cláraithe a thuilleadh. Seans go bhfuil d'uimhir ghutháin cláraithe le Kahf ar ghléas eile. Tapáil chun clárú arís.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Kahf Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Last active %1$@";
 
 /* {{Short Date}} when device was linked. */
@@ -1634,7 +1634,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Má tá do sheanghléas iOS agat fós, is féidir leat do chuntas agus do chuid teachtaireachtaí a aistriú go dtí an gléas seo go slán.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Má bhí tú ag úsáid Signal ar iPad nasctha, is féidir leat do chuntas agus do chuid teachtaireachtaí a aistriú go dtí an gléas seo go slán.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Má bhí tú ag úsáid Kahf ar iPad nasctha, is féidir leat do chuntas agus do chuid teachtaireachtaí a aistriú go dtí an gléas seo go slán.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Lean ar aghaidh gan cuntas ná teachtaireachtaí a aistriú";
@@ -1664,7 +1664,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Aistrigh ó Ghléas iOS";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Má leanann tú ar aghaidh, díchumasófar Signal ar ghléasanna eile a cláraíodh leis an uimhir ghutháin chéanna.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Má leanann tú ar aghaidh, díchumasófar Kahf ar ghléasanna eile a cláraíodh leis an uimhir ghutháin chéanna.";
 
 /* An error indicating that we were unable to verify the identity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Níorbh fhéidir do ghléas nua a dheimhniú. Bain triail eile as.";
@@ -1682,16 +1682,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Níl go leor spáis ann chun an t-aistriú a chur i gcrích";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Suiteáil an leagan is déanaí de Signal agus bain triail eile as";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Suiteáil an leagan is déanaí de Kahf agus bain triail eile as";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Aistrigh do chuntas Signal go dtí gléas nua iOS. Deimhnigh go bhfuil an gléas nua in aice láimhe agus go bhfuil sé ar siúl.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Aistrigh do chuntas Kahf go dtí gléas nua iOS. Deimhnigh go bhfuil an gléas nua in aice láimhe agus go bhfuil sé ar siúl.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Cuntas a Aistriú";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Oscail Signal ar do sheanghléas, tabhair in aice láimhe é, agus deimhnigh go bhfuil Wi-Fi agus Bluetooth cumasaithe ar an dá ghléas.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Oscail Kahf ar do sheanghléas, tabhair in aice láimhe é, agus deimhnigh go bhfuil Wi-Fi agus Bluetooth cumasaithe ar an dá ghléas.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Cuir an cód QR seo sa fhráma ar an ngléas eile.";
@@ -1703,7 +1703,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Ag Feitheamh leis an nGléas Eile…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Coinnigh an dá ghléas i ngar dá chéile. Ná múch ceachtar acu, agus coinnigh Signal oscailte orthu. Tá an t-aistriú criptithe ó cheann go ceann.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Coinnigh an dá ghléas i ngar dá chéile. Ná múch ceachtar acu, agus coinnigh Kahf oscailte orthu. Tá an t-aistriú criptithe ó cheann go ceann.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Sonraí á bhFáil";
@@ -1718,7 +1718,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Cuir do ghléas nua os comhair an cheamara";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Coinnigh an dá ghléas i ngar dá chéile. Ná múch ceachtar acu, agus coinnigh Signal oscailte orthu.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Coinnigh an dá ghléas i ngar dá chéile. Ná múch ceachtar acu, agus coinnigh Kahf oscailte orthu.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Sonraí á nAistriú";
@@ -1787,13 +1787,13 @@
 "DONATE_CHOOSE_PAYMENT_METHOD_SHEET_SUBTITLE_FOR_ONE_TIME_DONATION" = "Tuill an suaitheantas %1$@ ar feadh míosa";
 
 /* When users make donations on a friend's behalf, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Tabhartas %1$@ do Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Tabhartas %1$@ do Kahf";
 
 /* When users make monthly donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money per month}}, such as \"$5/month\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Tabhair %1$@ do Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Tabhair %1$@ do Kahf";
 
 /* When users make one-time donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Tabhair %1$@ do Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Tabhair %1$@ do Kahf";
 
 /* Users can donate on a friend's behalf and can optionally add a message. This is tells users about that optional message. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_ADDITIONAL_MESSAGE_INFO" = "Cuirfear an tabhartas in iúl don fhaighteoir i dteachtaireacht 1 le 1. Cuir do theachtaireacht féin leis thíos.";
@@ -1804,10 +1804,10 @@
 /* If a donation badge has been sent, indicates that it's expired and can no longer be redeemed. This is shown in the chat. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_CHAT_EXPIRED" = "Imithe as feidhm";
 
-/* If the user tries to donate to Signal but no amount is selected, this error message is shown. */
+/* If the user tries to donate to Kahf but no amount is selected, this error message is shown. */
 "DONATE_SCREEN_ERROR_NO_AMOUNT_SELECTED" = "Roghnaigh méid le tabhairt.";
 
-/* If the user tries to donate to Signal but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
+/* If the user tries to donate to Kahf but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
 "DONATE_SCREEN_ERROR_SELECT_A_LARGER_AMOUNT_FORMAT" = "Is é %1$@ an t-íosmhéid airgid is féidir leat a thabhairt.";
 
 /* On the donation screen, you can choose between one-time and monthly donations. This is the text on the picker for one-time donations. */
@@ -1850,7 +1850,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_BADGE_REDEEMED" = "Fuascailte";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is a short paragraph on the screen where users choose the badge their friend will receive. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "Tacaigh le Signal trí thabhartas a thabhairt ar son cara nó duine den teaghlach a úsáideann Signal. Gheobhaidh an duine sin rogha chun tacaíocht a léiriú ar an bpróifíl.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "Tacaigh le Kahf trí thabhartas a thabhairt ar son cara nó duine den teaghlach a úsáideann Kahf. Gheobhaidh an duine sin rogha chun tacaíocht a léiriú ar an bpróifíl.";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is the title on the screen where users choose the badge their friend will receive. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_TITLE" = "Tabhair airgead ar son Cara";
@@ -1880,7 +1880,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_FAILED_ERROR_TITLE" = "Theip ar an Íocaíocht";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "Rinneadh d'íocaíocht a phróiseáil ach ní raibh Signal in ann do theachtaireacht faoin tabhartas a sheoladh. Déan teagmháil leis an bhfoireann tacaíochta.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "Rinneadh d'íocaíocht a phróiseáil ach ní raibh Kahf in ann do theachtaireacht faoin tabhartas a sheoladh. Déan teagmháil leis an bhfoireann tacaíochta.";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, an error dialog will be shown. This is the title of that dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_TITLE" = "Theip ar an Tabhartas";
@@ -1892,10 +1892,10 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PREVIEW_OUTGOING" = "✨ Thug tú tabhartas ar shon %1$@";
 
 /* You received a donation from a friend. This is the title of that message in the chat. Embeds {{short contact name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "Thug %1$@ tabhartas do Signal ar do shon";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "Thug %1$@ tabhartas do Kahf ar do shon";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Ní féidir leat tabhartas a thabhairt ar son an úsáideora seo go dtí go bhfuil Signal uasghrádaithe aige/aici.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Ní féidir leat tabhartas a thabhairt ar son an úsáideora seo go dtí go bhfuil Kahf uasghrádaithe aige/aici.";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, an error dialog will be shown. This is the title of that error dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_TITLE" = "Ní Féidir Tabhartas a Thabhairt";
@@ -1922,7 +1922,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_SENT_TITLE_FORMAT" = "Tabhartas do %1$@";
 
 /* When you donate on behalf of a friend, a thank-you sheet will appear. This is the text on that sheet. Embeds {{recipient name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_BODY_FORMAT" = "Thug tú tabhartas do Signal ar son %1$@. Gheobhaidh an duine sin rogha chun tacaíocht a léiriú ar an bpróifíl.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_BODY_FORMAT" = "Thug tú tabhartas do Kahf ar son %1$@. Gheobhaidh an duine sin rogha chun tacaíocht a léiriú ar an bpróifíl.";
 
 /* When you donate on behalf of a friend, a thank-you sheet will appear. This is the title on that sheet. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_TITLE" = "Go raibh maith agat as do thacaíocht!";
@@ -1931,19 +1931,19 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_VIEW" = "Amharc ar";
 
 /* A friend has donated on your behalf and you received a badge. This text says that you received a badge, and from whom. Embeds {{contact's short name, such as a first name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "Thug %1$@ tabhartas do Signal ar do shon! Léirigh do thacaíocht do Signal ar do phróifíl.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "Thug %1$@ tabhartas do Kahf ar do shon! Léirigh do thacaíocht do Kahf ar do phróifíl.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 1st paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 1st paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_1" = "Teachtaireachtaí príobháideacha. Gan aon fhógraí, gan aon rianairí, gan aon fhaireachas.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 2nd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Tacaíonn síntiúis le Signal, rud a chiallaíonn go mbíonn do phríobháideachas i gcroílár gach a ndéanaimid. Tógadh Signal duitse; ní do do shonraí agus ní ar mhaithe le brabús.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 2nd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Tacaíonn síntiúis le Kahf, rud a chiallaíonn go mbíonn do phríobháideachas i gcroílár gach a ndéanaimid. Tógadh Kahf duitse; ní do do shonraí agus ní ar mhaithe le brabús.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 3rd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Más féidir leat, Bronn airgead ar Signal inniu ionas go leanfaidh sé de bheith spraíúil, iontaofa agus infhaighte ag cách.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 3rd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Más féidir leat, Bronn airgead ar Kahf inniu ionas go leanfaidh sé de bheith spraíúil, iontaofa agus infhaighte ag cách.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the title of that screen. */
-"DONATION_READ_MORE_SCREEN_TITLE" = "Tá Signal difriúil.";
+/* There is a screen where users can read more about their donation to Kahf. This is the title of that screen. */
+"DONATION_READ_MORE_SCREEN_TITLE" = "Tá Kahf difriúil.";
 
 /* Section title for donation amount on receipts */
 "DONATION_RECEIPT_AMOUNT" = "Amount";
@@ -1958,7 +1958,7 @@
 "DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Share Receipt";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Thank you for supporting Signal. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. If you’re a resident of the United States, please retain this receipt for your tax records. Signal Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "Thank you for supporting Kahf. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. If you’re a resident of the United States, please retain this receipt for your tax records. Kahf Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840.";
 
 /* Title for receipts for donations given on a friend's behalf */
 "DONATION_RECEIPT_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Tabhartas ar son Cara";
@@ -1979,13 +1979,13 @@
 "DONATION_RECEIPTS" = "Donation Receipts";
 
 /* Text at the bottom of the donation receipts list, telling users that receipts might not be available */
-"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "If you have reinstalled Signal, receipts from previous donations will not be available.";
+"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "If you have reinstalled Kahf, receipts from previous donations will not be available.";
 
 /* On the donation settings screen, tapping this button will take the user to a screen where they can donate. */
 "DONATION_SCREEN_DONATE_BUTTON" = "Tabhair airgead";
 
 /* On donation screens, a small amount of information text is shown. This is the subtitle for that text. */
-"DONATION_SCREENS_HEADER_DESCRIPTION" = "Teachtaireachtaí príobháideacha, maoinithe agatsa. Gan aon fhógraí, gan aon rianairí, gan aon chomhghéilleadh. Bronn airgead ar Signal anois chun tacú leis.";
+"DONATION_SCREENS_HEADER_DESCRIPTION" = "Teachtaireachtaí príobháideacha, maoinithe agatsa. Gan aon fhógraí, gan aon rianairí, gan aon chomhghéilleadh. Bronn airgead ar Kahf anois chun tacú leis.";
 
 /* On donation screens, a small amount of information text is shown. Users can click this link to learn more information. */
 "DONATION_SCREENS_HEADER_READ_MORE" = "Léigh tuilleadh";
@@ -1996,8 +1996,8 @@
 /* Title for the \"donate for a friend\" button on the donation view. */
 "DONATION_VIEW_DONATE_ON_BEHALF_OF_A_FRIEND" = "Tabhair airgead ar son Cara";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Donation to Signal";
+/* Text describing to the user that they're going to pay a donation to Kahf */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Donation to Kahf";
 
 /* Text that's shown when the donation view fails to load data, probably due to network failure */
 "DONATION_VIEW_LOAD_FAILED" = "Network error. Check your connection and try again.";
@@ -2008,8 +2008,8 @@
 /* Title for the 'Manage Subscription' button on the donation screen */
 "DONATION_VIEW_MANAGE_SUBSCRIPTION" = "Manage Subscription";
 
-/* Text describing to the user that they're going to pay a monthly donation to Signal */
-"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Deontas Míosúil le Signal";
+/* Text describing to the user that they're going to pay a monthly donation to Kahf */
+"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Deontas Míosúil le Kahf";
 
 /* Title for the 'more' section on the donation screen */
 "DONATION_VIEW_MORE_SECTION_TITLE" = "Tuilleadh";
@@ -2023,23 +2023,23 @@
 /* Title for the 'Subscription FAQ' button on the donation screen */
 "DONATION_VIEW_SUBSCRIPTION_FAQ" = "Subscription FAQ";
 
-/* Title on the 'Donate to Signal' screen */
-"DONATION_VIEW_TITLE" = "Bronn airgead ar Signal";
+/* Title on the 'Donate to Kahf' screen */
+"DONATION_VIEW_TITLE" = "Bronn airgead ar Kahf";
 
 /* Label for the currency picker button in donation views */
 "DONATIONS_CURRENCY_PICKER_LABEL" = "Airgeadra";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Is féidir leat cead a thabhairt do Signal sna Socruithe iOS.";
+/* Alert body for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Is féidir leat cead a thabhairt do Kahf sna Socruithe iOS.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Teastaíonn rochtain ar do chuid teagmhálaithe ó Signal chun iad a chur in eagar";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Teastaíonn rochtain ar do chuid teagmhálaithe ó Kahf chun iad a chur in eagar";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Cuir an Grúpa in Eagar";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Ní féidir an t-úsáideoir seo a chur leis an ngrúpa go dtí go nuashonróidh sé/sí Signal.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Ní féidir an t-úsáideoir seo a chur leis an ngrúpa go dtí go nuashonróidh sé/sí Kahf.";
 
 /* Error message indicating that an avatar image is invalid and cannot be used. */
 "EDIT_GROUP_ERROR_INVALID_AVATAR" = "Pictiúr neamhbhailí.";
@@ -2056,14 +2056,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Cóipeáil";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Hey,\n\nLately I've been using Signal to keep the chats on my iPhone private. I'd like you to install it too, so we can be confident that only you and I can read our messages or hear our calls.\n\nSignal is available for iPhones and Android. Get it here: %1$@\n\nSignal works like your existing messaging app. We can send pictures and video, make calls, and start group chats. The best part is, no one else can see any of it, not even the people who make Signal!\n\nYou can read more about Open Whisper Systems, the people who make Signal, here: %2$@";
+/* body of email sent to contacts when inviting to install Kahf. Embeds {{link to install Kahf}} and {{link to the Kahf home page}} */
+"EMAIL_INVITE_BODY" = "Hey,\n\nLately I've been using Kahf to keep the chats on my iPhone private. I'd like you to install it too, so we can be confident that only you and I can read our messages or hear our calls.\n\nSignal is available for iPhones and Android. Get it here: %1$@\n\nSignal works like your existing messaging app. We can send pictures and video, make calls, and start group chats. The best part is, no one else can see any of it, not even the people who make Kahf!\n\nYou can read more about Open Whisper Systems, the people who make Kahf, here: %2$@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Bainimis úsáid as Signal";
+/* subject of email sent to contacts when inviting to install Kahf */
+"EMAIL_INVITE_SUBJECT" = "Bainimis úsáid as Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Ní féidir ríomhphost a sheoladh ó do ghléas. Caithfidh tú ríomhphost a shocrú ar do ghléas nó teachtaireacht a sheoladh chuig support@signal.org chun tacaíocht a fháil";
+"EMAIL_SIGNAL_MESSAGE" = "Ní féidir ríomhphost a sheoladh ó do ghléas. Caithfidh tú ríomhphost a shocrú ar do ghléas nó teachtaireacht a sheoladh chuig support@Kahf.org chun tacaíocht a fháil";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Níl ríomhphost ar fáil";
@@ -2096,7 +2096,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Taisteal ⁊ Áiteanna";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Níl fiú is teagmhálaí amháin de do chuid ag úsáid Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Níl fiú is teagmhálaí amháin de do chuid ag úsáid Kahf.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Cén fáth nach dtugann tú cuireadh do dhuine éigin?";
@@ -2150,7 +2150,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Freagra neamhbhailí ó sheirbhís líonra.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Níl an gléas seo cláraithe le d'uimhir ghutháin a thuilleadh. Ba chóir duit Signal a shuiteáil arís.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Níl an gléas seo cláraithe le d'uimhir ghutháin a thuilleadh. Ba chóir duit Kahf a shuiteáil arís.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Earráid Fhreastalaí. Bain triail eile as ar ball.";
@@ -2162,7 +2162,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Tharla earráid anaithnid.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Ní úsáideann an teagmhálaí seo Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Ní úsáideann an teagmhálaí seo Kahf.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Níorbh fhéidir an ceangaltán a íoslódáil.";
@@ -2188,10 +2188,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Níl aon seisiún ar fáil don teagmhálaí seo.";
 
-/* Shown when signal users safety numbers changed */
+/* Shown when Kahf users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "Athraíodh an uimhir shábháilteachta.";
 
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Kahf users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "Athraíodh an uimhir shábháilteachta le %1$@.";
 
 /* Text notifying the user that their secure session has been reset */
@@ -2207,10 +2207,10 @@
 "ERROR_NETWORK_FAILURE" = "Earráid Líonra";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Please help us improve Signal by reporting this error along with debug logs from your device to support@signal.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Please help us improve Kahf by reporting this error along with debug logs from your device to support@Kahf.org; %1$@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: An error occurred";
+"ERROR_NOTIFICATION_TITLE" = "Kahf Beta: An error occurred";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Níl do ghléas nasctha a thuilleadh. Caithfidh tú é a nascadh arís chun teachtaireachtaí a sheoladh.";
@@ -2219,16 +2219,16 @@
 "ERROR_SENDING_DEREGISTERED" = "Níl do ghléas cláraithe a thuilleadh. Caithfidh tú clárú arís chun teachtaireachtaí a sheoladh.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Chuaigh an leagan seo de Signal i léig. Nuashonraigh é chun tuilleadh teachtaireachtaí a sheoladh.";
+"ERROR_SENDING_EXPIRED" = "Chuaigh an leagan seo de Kahf i léig. Nuashonraigh é chun tuilleadh teachtaireachtaí a sheoladh.";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Kahf id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Úsáideoir Gan Chlárú: %1$@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Your version of Signal has expired! Tap to update to the most recent version.";
+"EXPIRATION_ERROR" = "Your version of Kahf has expired! Tap to update to the most recent version.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Rachaidh an leagan seo de Signal i léig inniu. Tapáil chun an leagan is déanaí a shuiteáil.";
+"EXPIRATION_WARNING_TODAY" = "Rachaidh an leagan seo de Kahf i léig inniu. Tapáil chun an leagan is déanaí a shuiteáil.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "An iomarca teachtaireachtaí teipthe leis an teagmhálaí seo. Bain triail eile as ar ball.";
@@ -2501,10 +2501,10 @@
 "GROUP_CALL_WILL_NOTIFY_TWO_PEOPLE_FORMAT" = "Cuirfear %1$@ agus %2$@ ar an eolas";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there is one other person in the group. Embeds {member name} */
-"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Cuirfidh Signal glao ar %1$@";
+"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Cuirfidh Kahf glao ar %1$@";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there are two other people in the group. Embeds {{ %1$@ participant1, %2$@ participant2 }} */
-"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Cuirfidh Signal glao ar %1$@ agus ar %2$@";
+"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Cuirfidh Kahf glao ar %1$@ agus ar %2$@";
 
 /* Text explaining that you are in the group call. */
 "GROUP_CALL_YOU_ARE_HERE" = "You are in the group call";
@@ -2687,7 +2687,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Invalid Link";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Update Signal on this device to join this group.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Update Kahf on this device to join this group.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Require an admin to approve new members joining via the group link.";
@@ -2746,8 +2746,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "Tagairt QR";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Comhroinn trí Signal";
+/* Label for the 'share group link via Kahf' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Comhroinn trí Kahf";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Anyone with this link can view this group’s name and members and request to join.  Share it with people you trust.";
@@ -3083,13 +3083,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Cad is Grúpa Oidhreachta ann?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Legacy Groups can't yet be upgraded to New Groups, but you can create a New Group with the same members if they're on the latest version of Signal.\n\nSignal will offer a way to upgrade Legacy Groups in the future.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Legacy Groups can't yet be upgraded to New Groups, but you can create a New Group with the same members if they're on the latest version of Kahf.\n\nSignal will offer a way to upgrade Legacy Groups in the future.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Can I upgrade a Legacy Group?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Chun grúpa den chineál nua a chruthú, ba chóir do na baill go léir an leagan is déanaí de Signal a shuiteáil.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Chun grúpa den chineál nua a chruthú, ba chóir do na baill go léir an leagan is déanaí de Kahf a shuiteáil.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Grúpaí Oidhreachta vs. Grúpaí Nua";
@@ -3104,7 +3104,7 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "This group can’t be upgraded to a New Group because it has too many members. The maximum group size that can be upgraded is %1$@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "When all current group members are using a version of Signal capable of joining a New Group, this group will be upgraded.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "When all current group members are using a version of Kahf capable of joining a New Group, this group will be upgraded.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Coinneofar stair na dteachtaireachtaí agus na meáin go léir a bhí ann roimh an uasghrádú.";
@@ -3223,7 +3223,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Déan teagmháil linn";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Kahf support website */
 "HELP_SUPPORT_CENTER" = "Lárionad Tacaíochta";
 
 /* Label for 'archived conversations' button. */
@@ -3238,16 +3238,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Dréacht: ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Tá teagmhálaithe de do chuid ar Signal cheana, %1$@ ina measc.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Kahf contact.  Embeds {{The name of 1 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Tá teagmhálaithe de do chuid ar Kahf cheana, %1$@ ina measc.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Tá teagmhálaithe de do chuid ar Signal cheana, %1$@ agus %2$@ ina measc";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Kahf contacts.  Embeds {{The names of 2 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Tá teagmhálaithe de do chuid ar Kahf cheana, %1$@ agus %2$@ ina measc";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Tá teagmhálaithe de do chuid ar Signal cheana, %1$@, %2$@, agus %3$@ ina measc";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Kahf contacts.  Embeds {{The names of 3 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Tá teagmhálaithe de do chuid ar Kahf cheana, %1$@, %2$@, agus %3$@ ina measc";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Kahf contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Start your first chat here.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -3280,11 +3280,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Ní féidir leat níos mó ná %1$@ comhad a chomhroinnt.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Kahf has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Change Photos";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Grant full access in Settings or change which photos Signal can access.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Grant full access in Settings or change which photos Kahf can access.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Not seeing your photos?";
@@ -3343,8 +3343,8 @@
 /* Indicates that another user has changed their phone number. Embeds: {{ the user's name}} */
 "INFO_MESSAGE_USER_CHANGED_PHONE_NUMBER_FORMAT" = "%1$@ changed their phone number.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "Úsáideann %1$@ Signal!";
+/* Shown in inbox and conversation when a user joins Kahf, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "Úsáideann %1$@ Kahf!";
 
 /* accessibility label for the button which shows the regular keyboard instead of sticker picker */
 "INPUT_TOOLBAR_KEYBOARD_BUTTON_ACCESSIBILITY_LABEL" = "An méarchlár";
@@ -3367,14 +3367,14 @@
 /* The provided proxy host address is not valid */
 "INVALID_PROXY_HOST_ERROR" = "Tá an seoladh seachfhreastalaí a chuir tú isteach neamhbhailí, seiceáil an seoladh agus triail arís.";
 
-/* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Is féidir leat rochtain ar do chuid teagmhálaithe a thabhairt do Signal sna Socruithe iOS chun cuireadh a thabhairt do chairde Signal a úsáid.";
+/* Alert body when contacts disabled while trying to invite contacts to Kahf */
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Is féidir leat rochtain ar do chuid teagmhálaithe a thabhairt do Kahf sna Socruithe iOS chun cuireadh a thabhairt do chairde Kahf a úsáid.";
 
-/* Alert title when contacts disabled while trying to invite contacts to signal */
+/* Alert title when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Rochtain ar Theagmhálaithe ag Teastáil";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Tabhair Cuireadh do Chairde chun Signal a Úsáid";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Tabhair Cuireadh do Chairde chun Kahf a Úsáid";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Cuardaigh";
@@ -3473,10 +3473,10 @@
 "LINK_PREVIEW_UNKNOWN_DOMAIN" = "Réamhamharc ar Nasc";
 
 /* Shown in an alert when trying to edit a contact. */
-"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Níl fáil ar bhainistíocht teagmhálaithe córais ar iPad a thuilleadh. Le teagmhálaithe Signal a chur le do theagmhálaithe córais, oscail Signal ar do ghuthán.";
+"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Níl fáil ar bhainistíocht teagmhálaithe córais ar iPad a thuilleadh. Le teagmhálaithe Kahf a chur le do theagmhálaithe córais, oscail Kahf ar do ghuthán.";
 
 /* Shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. */
-"LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Níl fáil ar bhainistíocht teagmhálaithe córais ar iPad a thuilleadh. Leanfaidh an gléas seo le haon athrú ar do liosta teagmhálaithe a shioncronú ó Signal ar do ghuthán.";
+"LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Níl fáil ar bhainistíocht teagmhálaithe córais ar iPad a thuilleadh. Leanfaidh an gléas seo le haon athrú ar do liosta teagmhálaithe a shioncronú ó Kahf ar do ghuthán.";
 
 /* A button shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. Tapping it opens a website with more details. */
 "LINKED_DEVICE_MANAGE_CONTACTS_LEARN_MORE" = "Tuilleadh faisnéise";
@@ -3497,7 +3497,7 @@
 "LINKING_DEVICE_FAILED_TITLE" = "Theip ar Nascadh";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "In order to transfer your Signal account, you need to enable local network access on both devices.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "In order to transfer your Kahf account, you need to enable local network access on both devices.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "An bhfuil cúnamh uait?";
@@ -3509,7 +3509,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Turn on “Local Network”";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Navigate to Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Navigate to Kahf";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Turn on Local Network Access";
@@ -3524,7 +3524,7 @@
 "LOGGING_SECTION" = "Logáil";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Debug logs can help Signal fix issues and crashes.";
+"LOGGING_SECTION_FOOTER" = "Debug logs can help Kahf fix issues and crashes.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Teachtaireacht";
@@ -3572,7 +3572,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Scrios do Chách";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Scriosfar an teachtaireacht seo do chách sa chomhrá má tá leagan le déanaí de Signal acu. Feicfidh siad gur scrios tú teachtaireacht.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Scriosfar an teachtaireacht seo do chách sa chomhrá má tá leagan le déanaí de Kahf acu. Feicfidh siad gur scrios tú teachtaireacht.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Cé dóibh ar mhaith leat an teachtaireacht seo a scriosadh?";
@@ -3607,8 +3607,8 @@
 /* Label for button to open a link. */
 "MESSAGE_ACTION_LINK_OPEN_LINK" = "Open Link";
 
-/* Label for button to open a signal proxy. */
-"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Oscail Seachfhreastalaí Signal";
+/* Label for button to open a Kahf proxy. */
+"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Oscail Seachfhreastalaí Kahf";
 
 /* Label for button to open a sticker pack. */
 "MESSAGE_ACTION_LINK_OPEN_STICKER_PACK" = "View Sticker Pack";
@@ -3752,7 +3752,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Scrios agus Imigh as an nGrúpa?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Review requests carefully. Signal found another contact with the same name.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Review requests carefully. Kahf found another contact with the same name.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Do theagmhálaí";
@@ -3847,7 +3847,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Léite";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Kahf account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Léimeadh thairis";
 
 /* Label indicating that a message failed to send. */
@@ -3890,22 +3890,22 @@
 "MISSED_VIDEO_CALL" = "Físghlao caillte";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Is féidir leat rochtain ar an gceamara a thabhairt don aip sna Socruithe iOS chun físghlaonna a chur in Signal.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Is féidir leat rochtain ar an gceamara a thabhairt don aip sna Socruithe iOS chun físghlaonna a chur in Kahf.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Teastaíonn rochtain ar do cheamara ó Signal.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Teastaíonn rochtain ar do cheamara ó Kahf.";
 
 /* Alert body indicating the user has denied location permissions */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Is féidir leat cead a thabhairt don aip sna Socruithe iOS.";
 
 /* Alert title indicating the user has denied location permissions */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Ní mór duit an áit ina bhfuil tú a nochtadh do Signal chun an ghné seo a úsáid.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Ní mór duit an áit ina bhfuil tú a nochtadh do Kahf chun an ghné seo a úsáid.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Is féidir leat cead a thabhairt don aip sna Socruithe iOS.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Teastaíonn rochtain ar do chuid grianghraf ó Signal chun é seo a dhéanamh.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Teastaíonn rochtain ar do chuid grianghraf ó Kahf chun é seo a dhéanamh.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Gan Fuaim";
@@ -3926,7 +3926,7 @@
 "MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_EXCEPT_TITLE" = "Gach Duine Ach Amháin…";
 
 /* Title for the visibility option */
-"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Gach Teagmhálaí Signal";
+"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Gach Teagmhálaí Kahf";
 
 /* Title for the visibility option */
 "MY_STORIES_SETTINGS_VISIBILITY_ONLY_SHARE_WITH_TITLE" = "Ná Comhroinn Ach Le…";
@@ -4105,7 +4105,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Gan Ainm Gan Ábhar";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Kahf will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Seinn nuair a bhíonn an aip oscailte";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -4160,7 +4160,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Nasc iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Tapáil “Cláraigh iPad” chun cuntas nua Signal a chruthú, nó cuntas atá ann cheana a nascadh leis an iPad seo. Díchumasófar Signal ar aon ghléas eile atá cláraithe leis an uimhir ghutháin chéanna.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Tapáil “Cláraigh iPad” chun cuntas nua Kahf a chruthú, nó cuntas atá ann cheana a nascadh leis an iPad seo. Díchumasófar Kahf ar aon ghléas eile atá cláraithe leis an uimhir ghutháin chéanna.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Tapáil “Nasc iPhone” chun do ghuthán a nascadh le cuntas atá ann cheana. Ní mholaimid do dhaoine guthán a nascadh go ginearálta toisc go gcuireann sé srian ar fheidhmíocht áirithe, mar shampla glaonna a chur.";
@@ -4172,7 +4172,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Nasc an iPhone seo";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Má chláraíonn tú an iPad seo, díchumasófar Signal ar aon ghléas eile atá cláraithe leis an uimhir ghutháin chéanna.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Má chláraíonn tú an iPad seo, díchumasófar Kahf ar aon ghléas eile atá cláraithe leis an uimhir ghutháin chéanna.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Ní mholaimid duit d'iPhone a nascadh toisc go gcuireann sé srian ar fheidhmíocht bhunúsach an ghutháin.";
@@ -4181,13 +4181,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Allow Permissions";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Allowing notifications and contacts lets you see when messages arrive and helps you find people you know. Contacts are encrypted so the Signal service can't see them.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Allowing notifications and contacts lets you see when messages arrive and helps you find people you know. Contacts are encrypted so the Kahf service can't see them.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Allow Permissions";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Choose who can find you on Signal with your phone number %1$@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Choose who can find you on Kahf with your phone number %1$@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Who can find you with your number?";
@@ -4205,7 +4205,7 @@
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Invalid phone number. Please enter a valid phone number to register.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Níl aon deiseanna fágtha agat an UAP a thomhas, ach beidh tú fós in ann teacht ar do chuntas Signal trí UAP nua a chruthú. Mar gheall ar chúrsaí slándála agus príobháideachais, athshocrófar do chuntas gan aon fhaisnéis phearsanta ná socruithe.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Níl aon deiseanna fágtha agat an UAP a thomhas, ach beidh tú fós in ann teacht ar do chuntas Kahf trí UAP nua a chruthú. Mar gheall ar chúrsaí slándála agus príobháideachais, athshocrófar do chuntas gan aon fhaisnéis phearsanta ná socruithe.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Tuilleadh eolais faoi UAPanna";
@@ -4279,14 +4279,14 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Shocraigh %1$@ an tréimhse a mhaireann teachtaireachtaí gearrshaolacha go %2$@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Tá Signal buailte le deacrachtaí teicniúla faoi láthair. Táimid ag déanamh ár ndíchill an fhadhb a réiteach chomh luath agus is féidir.";
+/* Label warning the user that the Kahf service may be down. */
+"OUTAGE_WARNING" = "Tá Kahf buailte le deacrachtaí teicniúla faoi láthair. Táimid ag déanamh ár ndíchill an fhadhb a réiteach chomh luath agus is féidir.";
 
 /* Label for action link when the user has an outdated payment client */
 "OUTDATED_PAYMENT_CLIENT_ACTION_TITLE" = "Nuashonraigh anois é";
 
-/* Label warning the user that they should update Signal to continue using payments. */
-"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Nuashonraigh Signal chun leanúint le húsáid íocaíochtaí. Seans nach bhfuil d’iarmhéid cothrom le dáta.";
+/* Label warning the user that they should update Kahf to continue using payments. */
+"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Nuashonraigh Kahf chun leanúint le húsáid íocaíochtaí. Seans nach bhfuil d’iarmhéid cothrom le dáta.";
 
 /* info message text in conversation view */
 "OUTGOING_AUDIO_CALL" = "Guthghlao amach";
@@ -4396,7 +4396,7 @@
 /* Title for action sheet shown when unlocking with biometrics like Face ID or TouchID fails because it is disabled at a system level. */
 "PAYMENTS_LOCK_LOCAL_BIOMETRY_AUTH_DISABLED_TITLE" = "Theip ar Fhíordheimhniú Bithmhéadrachta";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
 "PAYMENTS_LOCK_REASON_UNLOCK_PAYMENTS_LOCK" = "Fíordheimhnigh chun an íocaíocht a dheimhniú.";
 
 /* Label for the 'add memo' ui in the 'send payment' UI. */
@@ -4427,7 +4427,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Invalid transaction";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Update Signal to use payments.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Update Kahf to use payments.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Payment not yet verified";
@@ -4649,13 +4649,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Everybody";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Signal. Others will be able to reach you with your phone number when they start a new chat or group.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Kahf. Others will be able to reach you with your phone number when they start a new chat or group.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Duine ar bith";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Signal will be able to reach you with your phone number.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Kahf will be able to reach you with your phone number.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Sampla: %1$@";
@@ -4664,19 +4664,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "My Contacts";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Only your contacts will see your phone number on Signal.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Only your contacts will see your phone number on Kahf.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Everybody";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Your phone number will be visible to people and groups you message. People who have your number in their phone contacts will also see it on Signal.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Your phone number will be visible to people and groups you message. People who have your number in their phone contacts will also see it on Kahf.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Duine ar bith";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Nobody will see your phone number on Signal.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Nobody will see your phone number on Kahf.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%1$@ %2$@";
@@ -4757,7 +4757,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Díchumasaigh an UAP";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Má dhíchumasaíonn tú an UAP, caillfidh tú do chuid sonraí go léir nuair a athchláróidh tú Signal, mura bhfuil siad ar fáil le haistriú ó ghléas iOS eile. Ní féidir leat Glas Clárúcháin a chur ar siúl agus an UAP díchumasaithe.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Má dhíchumasaíonn tú an UAP, caillfidh tú do chuid sonraí go léir nuair a athchláróidh tú Kahf, mura bhfuil siad ar fáil le haistriú ó ghléas iOS eile. Ní féidir leat Glas Clárúcháin a chur ar siúl agus an UAP díchumasaithe.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Rabhadh";
@@ -4769,7 +4769,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Níorbh fhéidir an UAP a chruthú";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "Úsáidtear UAPanna chun an fhaisnéis a stórálann tú le Signal a chriptiú, ionas nach mbeidh aon duine eile in ann í a fheiceáil.  Déanfar athchóiriú ar do phróifíl agus do chuid socruithe agus teagmhálaithe nuair a shuiteálfaidh tú Signal arís. Ní bheidh an UAP ag teastáil chun an aip a oscailt.";
+"PIN_CREATION_EXPLANATION" = "Úsáidtear UAPanna chun an fhaisnéis a stórálann tú le Kahf a chriptiú, ionas nach mbeidh aon duine eile in ann í a fheiceáil.  Déanfar athchóiriú ar do phróifíl agus do chuid socruithe agus teagmhálaithe nuair a shuiteálfaidh tú Kahf arís. Ní bheidh an UAP ag teastáil chun an aip a oscailt.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Tuilleadh eolais faoi UAPanna";
@@ -4820,7 +4820,7 @@
 "PIN_CREATION_WEAK_ERROR" = "Ba chóir duit UAP níos láidre a roghnú";
 
 /* If your attempted PIN is too weak, you'll see an error message. This is the text on the error dialog. */
-"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Signal encrypted so only you can access it. Choose a stronger PIN to protect your account.";
+"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Kahf encrypted so only you can access it. Choose a stronger PIN to protect your account.";
 
 /* Error body indicating that the attempt to disable a PIN failed. */
 "PIN_DISABLE_ERROR_MESSAGE" = "Níorbh fhéidir an UAP a dhíchumasú. Iarrfaimid ort ar ball.";
@@ -4850,7 +4850,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Meabhróimid duit arís i gceann cúpla lá.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Deimhnigh d'UAP Signal";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Deimhnigh d'UAP Kahf";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Meabhróimid duit arís amárach.";
@@ -4865,7 +4865,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "UAP neamhbhailí. Bain triail eile as.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Cuir isteach d'UAP Signal";
+"PIN_REMINDER_TITLE" = "Cuir isteach d'UAP Kahf";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "Ní cheadaítear UAP atá níos giorra ná 4 dhigit.";
@@ -4880,7 +4880,7 @@
 "PINS_MEGAPHONE_ACTION" = "Cruthaigh UAP";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Finish creating your Signal PIN.";
+"PINS_MEGAPHONE_BODY" = "Finish creating your Kahf PIN.";
 
 /* Title for PIN megaphone when user doesn't have a PIN */
 "PINS_MEGAPHONE_TITLE" = "Cruthaigh UAP";
@@ -4913,19 +4913,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "The number in your clipboard doesn't look like the correct safety number for this chat.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Níor aimsigh Signal uimhir shábháilteachta sa ghearrthaisce. Ar chóipeáil tú í mar is ceart?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Níor aimsigh Kahf uimhir shábháilteachta sa ghearrthaisce. Ar chóipeáil tú í mar is ceart?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Tá uimhir shábháilteachta ar leith ag gach beirt úsáideoirí Signal. Deimhnigh gurb í *bhur n-uimhirse* atá ar taispeáint ag %1$@.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Tá uimhir shábháilteachta ar leith ag gach beirt úsáideoirí Kahf. Deimhnigh gurb í *bhur n-uimhirse* atá ar taispeáint ag %1$@.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Tá seanleagan de Signal agat. Caithfidh tú é a nuashonrú sula mbeidh tú in ann deimhniú.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Tá seanleagan de Kahf agat. Caithfidh tú é a nuashonrú sula mbeidh tú in ann deimhniú.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Tá seanleagan de Signal ag do chéile comhrá. Caithfidh sé/sí é a nuashonrú sula mbeidh sibh in ann deimhniú.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Tá seanleagan de Kahf ag do chéile comhrá. Caithfidh sé/sí é a nuashonrú sula mbeidh sibh in ann deimhniú.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Ní uimhir shábháilteachta í an cód a scanadh. An bhfuil sibh beirt ag baint úsáide as an leagan is déanaí de Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Ní uimhir shábháilteachta í an cód a scanadh. An bhfuil sibh beirt ag baint úsáide as an leagan is déanaí de Kahf?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Más mian leat slándáil an chriptiúcháin ó cheann go ceann le %1$@ a dheimhniú, cuir na huimhreacha thuas i gcomparáid leis na huimhreacha ar an ngléas atá aige/aici.\n\nNó, is féidir le duine agaibh an cód ar ghuthán an duine eile a scanadh.";
@@ -5032,7 +5032,7 @@
 /* Title for the profile view. */
 "PROFILE_VIEW_TITLE" = "Próifíl";
 
-/* The title for the address of the signal proxy */
+/* The title for the address of the Kahf proxy */
 "PROXY_ADDRESS" = "Seoladh Seachfhreastalaí";
 
 /* The provided proxy connected successfully */
@@ -5041,10 +5041,10 @@
 /* The provided proxy couldn't connect */
 "PROXY_FAILED_TO_CONNECT" = "Níorbh fhéidir nascadh leis an seachfhreastalaí. Seiceáil seoladh an tseachfhreastalaí agus triail arís.";
 
-/* Placeholder text for signal proxy host */
+/* Placeholder text for Kahf proxy host */
 "PROXY_PLACEHOLDER" = "Iontráil Seoladh Seachfhreastalaí";
 
-/* Title for the signal proxy settings */
+/* Title for the Kahf proxy settings */
 "PROXY_SETTINGS_TITLE" = "Seachfhreastalaí";
 
 /* Notification action button title */
@@ -5144,19 +5144,19 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Ní féidir an t-úsáideoir seo a roghnú.";
 
 /* Alert text. Shown after selecting a phone number that isn't valid. */
-"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "Ní úsáideoir Signal é/í %1$@. Bain triail eile as le huimhir ghutháin atá bailí.";
+"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "Ní úsáideoir Kahf é/í %1$@. Bain triail eile as le huimhir ghutháin atá bailí.";
 
 /* Alert title. Shown after selecting a phone number that isn't valid. */
 "RECIPIENT_PICKER_INVALID_NUMBER_TITLE" = "Uimhir Ghutháin Neamhbhailí";
 
-/* Button. Shown after selecting a phone number that isn't a Signal user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
+/* Button. Shown after selecting a phone number that isn't a Kahf user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
 "RECIPIENT_PICKER_INVITE_ACTION" = "Seol Tcht";
 
-/* Alert text. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_MESSAGE" = "Ní úsáideoir Signal é/í %1$@. Ar mhaith leat cuireadh a thabhairt don uimhir seo?";
+/* Alert text. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_MESSAGE" = "Ní úsáideoir Kahf é/í %1$@. Ar mhaith leat cuireadh a thabhairt don uimhir seo?";
 
-/* Alert title. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_TITLE" = "Tabhair cuireadh chuig Signal";
+/* Alert title. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_TITLE" = "Tabhair cuireadh chuig Kahf";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
 "REGISTER_2FA_FORGOT_PIN_ALERT_TITLE" = "An bhfuil cúnamh uait?";
@@ -5194,10 +5194,10 @@
 /* Label for the country code field */
 "REGISTRATION_DEFAULT_COUNTRY_NAME" = "Cód Tíre";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
-"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Signal on other devices currently registered with the same phone number.";
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
+"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Kahf on other devices currently registered with the same phone number.";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
 "REGISTRATION_DEVICE_TRANSFER_CHOICE_TITLE" = "Transfer Account & Messages";
 
 /* Placeholder text for the phone number textfield */
@@ -5234,13 +5234,13 @@
 "REGISTRATION_PIN_CONFIRM_TITLE" = "Confirm your PIN";
 
 /* During registration, users are asked to create a PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During registration, users are asked to create a PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_CREATE_TITLE" = "Create your PIN";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_ENTER_EXISTING_TITLE" = "Enter your PIN";
@@ -5348,7 +5348,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Amharc";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Ár nUimhir Shábháilteachta Signal:\n%1$@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Ár nUimhir Shábháilteachta Kahf:\n%1$@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Athraíodh d'uimhir shábháilteachta le %1$@. Ba chóir duit í a dheimhniú.";
@@ -5380,14 +5380,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Ní mór duit cód faire a chumasú sna Socruithe iOS chun Glasáil Scáileáin a chur i bhfeidhm.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Fíordheimhnigh chun Signal a oscailt.";
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Fíordheimhnigh chun Kahf a oscailt.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Theip ar Fhíordheimhniú";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Díghlasáil Signal";
+/* Label for button on lock screen that lets users unlock Kahf. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Díghlasáil Kahf";
 
 /* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
 "SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT" = "Ainm, ainm úsáideora, nó uimhir";
@@ -5423,13 +5423,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Account Does Not Match";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Nuashonraigh Signal ar an ngléas seo chun é a nascadh le do ghuthán.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Nuashonraigh Kahf ar an ngléas seo chun é a nascadh le do ghuthán.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Leagan Gan Tacaíocht";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Tá seanleagan de Signal ar an ngléas eile agus ní thacaíonn sé le cóid QR ar iPadanna. Suiteáil an leagan is déanaí de Signal agus bain triail eile as.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Tá seanleagan de Kahf ar an ngléas eile agus ní thacaíonn sé le cóid QR ar iPadanna. Suiteáil an leagan is déanaí de Kahf agus bain triail eile as.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Nuashonraigh an Gléas Scanta";
@@ -5450,19 +5450,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Cuir an Nascadh i gcrích";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Tosaigh Signal ar do ghuthán chun an iPad seo a nascadh le do chuntas";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Tosaigh Kahf ar do ghuthán chun an iPad seo a nascadh le do chuntas";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Níl Signal ar mo ghuthán…";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Níl Kahf ar mo ghuthán…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Oscail an App Store ar do ghuthán, suiteáil Signal, cláraigh, ansin beidh tú in ann an iPad a nascadh leis an gcuntas céanna.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Oscail an App Store ar do ghuthán, suiteáil Kahf, cláraigh, ansin beidh tú in ann an iPad a nascadh leis an gcuntas céanna.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Suiteáil Signal ar do ghuthán";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Suiteáil Kahf ar do ghuthán";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Tapáil do phictiúr próifíle chun Socruithe Signal a oscailt ar do ghuthán. Ansin roghnaigh “Gléasanna Nasctha” agus “Nasc Gléas Nua” chun an cód seo a scanadh le do ghuthán:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Tapáil do phictiúr próifíle chun Socruithe Kahf a oscailt ar do ghuthán. Ansin roghnaigh “Gléasanna Nasctha” agus “Nasc Gléas Nua” chun an cód seo a scanadh le do ghuthán:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Cúnamh le iPad a nascadh ar fáil anseo";
@@ -5471,7 +5471,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Scan an Cód QR le do ghuthán";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Tosaigh Signal ar do shean-iPad chun do chuntas a aistriú";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Tosaigh Kahf ar do shean-iPad chun do chuntas a aistriú";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Athshocraíodh an seisiún slán.";
@@ -5513,7 +5513,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Caighdeánach";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal uses end-to-end encryption and it may need to refresh your chat session sometimes. This doesn’t affect your chat’s security but you may have missed a message from this contact and you can ask them to resend it.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Kahf uses end-to-end encryption and it may need to refresh your chat session sometimes. This doesn’t affect your chat’s security but you may have missed a message from this contact and you can ask them to resend it.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Chat session refreshed";
@@ -5540,7 +5540,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Suíomh";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Leis an rogha seo, déanfaidh Signal iarracht an chinsireacht a shárú. Ná húsáid an rogha seo mura bhfuil tú i dtír a dhéanann cinsireacht ar Signal.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Leis an rogha seo, déanfaidh Kahf iarracht an chinsireacht a shárú. Ná húsáid an rogha seo mura bhfuil tú i dtír a dhéanann cinsireacht ar Kahf.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Cuireadh sárú na cinsireachta i bhfeidhm bunaithe ar an uimhir ghutháin atá agat.";
@@ -5551,8 +5551,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Ní féidir sárú na cinsireachta a chur i bhfeidhm nuair nach bhfuil tú ceangailte leis an Idirlíon.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Ní gá duit sárú na cinsireachta a chur i bhfeidhm; tá tú ceangailte le seirbhís Signal cheana féin.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Kahf service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Ní gá duit sárú na cinsireachta a chur i bhfeidhm; tá tú ceangailte le seirbhís Kahf cheana féin.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Cumasaigh an Logchomhad Dífhabhtaithe";
@@ -5593,8 +5593,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Cuir Úsáideoir Bactha Leis";
 
-/* A label that indicates the user has no Signal contacts that they haven't blocked. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Níl fiú is teagmhálaí amháin de do chuid ag úsáid Signal.";
+/* A label that indicates the user has no Kahf contacts that they haven't blocked. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Níl fiú is teagmhálaí amháin de do chuid ag úsáid Kahf.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Gan Torthaí";
@@ -5606,7 +5606,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Cuir Glaonna trí Athsheachadán i gCónaí";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Cuir gach glao trí fhreastalaí Signal ionas nach mbeidh an teagmhálaí a fhaigheann an glao in ann do sheoladh IP a fheiceáil. Imríonn seo drochthionchar ar cháilíocht an ghlao.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Cuir gach glao trí fhreastalaí Kahf ionas nach mbeidh an teagmhálaí a fhaigheann an glao in ann do sheoladh IP a fheiceáil. Imríonn seo drochthionchar ar cháilíocht an ghlao.";
 
 /* Label for the 'edit phone number' button in the 'change phone number' views. */
 "SETTINGS_CHANGE_PHONE_NUMBER_BACK_TO_EDIT_BUTTON" = "Edit Number";
@@ -5660,7 +5660,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Glan Stair na gComhráite";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Cóipcheart Signal Messenger\nCeadúnaithe faoi GPLv3";
+"SETTINGS_COPYRIGHT" = "Cóipcheart Kahf Messenger\nCeadúnaithe faoi GPLv3";
 
 /* Label for the 'data' section of the app settings. */
 "SETTINGS_DATA" = "Data Usage";
@@ -5725,8 +5725,8 @@
 /* Explanation for the 'disappearing messages' privacy settings. */
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Set a default disappearing message timer for all new chats started by you.";
 
-/* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Bronn airgead ar Signal";
+/* Title for the 'donate to Kahf' link in settings. */
+"SETTINGS_DONATE" = "Bronn airgead ar Kahf";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Cabhair";
@@ -5794,8 +5794,8 @@
 /* table section header */
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Ábhar i bhFógraí";
 
-/* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Contact Joins Signal";
+/* When the local device discovers a contact has recently installed Kahf, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Contact Joins Kahf";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Cuir in iúl nuair a…";
@@ -5807,7 +5807,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Cuir i ngníomh é";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "You can use Signal to send and receive MobileCoin. All payments are subject to the Terms of Use for MobileCoins and the MobileCoin Wallet. This is a beta feature so you may encounter some issues and payments or balances you may lose can’t be recovered.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "You can use Kahf to send and receive MobileCoin. All payments are subject to the Terms of Use for MobileCoins and the MobileCoin Wallet. This is a beta feature so you may encounter some issues and payments or balances you may lose can’t be recovered.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Cuir i ngníomh é";
@@ -5831,7 +5831,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ at %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Payments in Signal is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Payments in Kahf is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Can't deactivate payments because your balance is not available. Check your connection and try again.";
@@ -5840,10 +5840,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Couldn't complete payment because your balance is not available. Check your connection and try again.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Payments in Signal is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Payments in Kahf is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Payments in Signal is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Payments in Kahf is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Conversions are just estimates and may not be accurate.";
@@ -5861,7 +5861,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Deactivate Payments";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "You will not be able to send or receive Mobilecoin in Signal if you deactivate payments.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "You will not be able to send or receive Mobilecoin in Kahf if you deactivate payments.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Deactivate Payments?";
@@ -5870,10 +5870,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Deactivate Payments";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "It’s recommended that you transfer your funds to another wallet address before deactivating payments. If you choose not to transfer your funds now, they will remain in your wallet linked to Signal if you reactivate payments.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "It’s recommended that you transfer your funds to another wallet address before deactivating payments. If you choose not to transfer your funds now, they will remain in your wallet linked to Kahf if you reactivate payments.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Your balance will remain in your wallet linked to Signal if you choose to reactivate payments.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Your balance will remain in your wallet linked to Kahf if you choose to reactivate payments.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Deactivate Without Transferring?";
@@ -5900,7 +5900,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "Maidir le MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "You can add funds for use in Signal by sending MobileCoin to your wallet address.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "You can add funds for use in Kahf by sending MobileCoin to your wallet address.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Adding Funds";
@@ -5957,7 +5957,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Payments activated.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Use Signal to send and receive MobileCoin, a new privacy focused digital currency. Activate to get started.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Use Kahf to send and receive MobileCoin, a new privacy focused digital currency. Activate to get started.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Reactivate Payments";
@@ -5975,7 +5975,7 @@
 "SETTINGS_PAYMENTS_PASSPHRASE_DISCARD_CONFIRMATION_TITLE" = "Lean ar Aghaidh gan Sábháil?";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Your balance will automatically restore when you reinstall Signal if you confirm your Signal PIN. You can also restore your balance using a recovery phrase, which is a 24-word phrase unique to you. Write it down and store it in a safe place.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Your balance will automatically restore when you reinstall Kahf if you confirm your Kahf PIN. You can also restore your balance using a recovery phrase, which is a 24-word phrase unique to you. Write it down and store it in a safe place.";
 
 /* Explanation of the 'payments passphrase' when there is a balance. */
 "SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION_FROM_BALANCE" = "Tá iarmhéid agat! Tá sé in am duit do fhrása athshlánaithe a shábháil, sin eochair 24 focal is féidir leat a úsáid chun d'iarmhéid a aischur.";
@@ -6065,7 +6065,7 @@
 "SETTINGS_PAYMENTS_PAYMENTS_LOCK_PROMPT_EXPLANATION_TOUCHID" = "Cabhraigh le srian a chur ar dhuine a bhfuil do ghuthán aige nó aici rochtain a fháil ar do chuid airgid trí ID Tadhaill a chumasú. Is féidir leat an rogha seo a dhíchumasú i Socruithe.";
 
 /* Button for payments outdated sheet. */
-"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Nuashonraigh Signal";
+"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Nuashonraigh Kahf";
 
 /* Message for payments outdated sheet. */
 "SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_MESSAGE" = "Tá nuashonrú ag teastáil chun leanúint le híocaíochtaí a sheoladh agus a fháil, agus chun féachaint ar d'iarmhéid íocaíochta atá cothrom le dáta.";
@@ -6197,7 +6197,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Íocaíochtaí";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "You can’t transfer to your Signal wallet address. Enter the wallet address from your account at a supported exchange.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "You can’t transfer to your Kahf wallet address. Enter the wallet address from your account at a supported exchange.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "You can transfer MobileCoin by completing a transfer to the wallet address provided by the exchange. The wallet address is the string of numbers and letters most commonly below the QR code.";
@@ -6281,7 +6281,7 @@
 "SETTINGS_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Who Can Find Me By Number";
 
 /* Description label for Phone Number Privacy */
-"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Signal with it.";
+"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Kahf with it.";
 
 /* The title for phone number privacy settings. */
 "SETTINGS_PHONE_NUMBER_PRIVACY_TITLE" = "Phone Number";
@@ -6293,16 +6293,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Múch Meabhrúcháin";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Ní mór duit d'UAP a chur de ghlanmheabhair nó a shábháil in áit shlán toisc nach féidir í a fháil ar ais. Dá ligfeá i ndearmad í, chaillfeá sonraí tar éis duit do chuntas Signal a chlárú arís.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Ní mór duit d'UAP a chur de ghlanmheabhair nó a shábháil in áit shlán toisc nach féidir í a fháil ar ais. Dá ligfeá i ndearmad í, chaillfeá sonraí tar éis duit do chuntas Kahf a chlárú arís.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "UAP Signal a Dheimhniú";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "UAP Kahf a Dheimhniú";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "Meabhrúcháin UAP";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PINs keep information stored with Signal encrypted so only you can access it. Your PIN cannot be recovered. Your profile, settings, and contacts will restore when you reinstall Signal.";
+"SETTINGS_PINS_FOOTER" = "PINs keep information stored with Kahf encrypted so only you can access it. Your PIN cannot be recovered. Your profile, settings, and contacts will restore when you reinstall Kahf.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Athraigh d'UAP";
@@ -6311,7 +6311,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Cruthaigh UAP";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "UAP Signal";
+"SETTINGS_PINS_TITLE" = "UAP Kahf";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Sárú cinsireachta, seachfhreastalaí, glaonna athsheolta, agus socruithe seoltóra séalaithe.";
@@ -6338,7 +6338,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Cuir ar siúl";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Má ligeann tú d'UAP Signal i ndearmad nuair a chláróidh tú le Signal arís, cuirfear do chuntas faoi ghlas ar feadh 7 lá.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Má ligeann tú d'UAP Kahf i ndearmad nuair a chláróidh tú le Kahf arís, cuirfear do chuntas faoi ghlas ar feadh 7 lá.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "An bhfuil fonn ort Glas Clárúcháin a chur ar siúl?";
@@ -6368,16 +6368,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Glaonna";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Use Touch ID, Face ID, or your iOS device passcode to unlock Signal.";
+"SETTINGS_SECURITY_DETAIL" = "Use Touch ID, Face ID, or your iOS device passcode to unlock Kahf.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Use Face ID to unlock Signal.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Use Face ID to unlock Kahf.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Use your device passcode to unlock Signal.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Use your device passcode to unlock Kahf.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Use Touch ID to unlock Signal.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Use Touch ID to unlock Kahf.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "App Security";
@@ -6392,16 +6392,16 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Share Contacts with iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Allow iOS access to Signal contacts and chats for features such as sharing suggestions.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Allow iOS access to Kahf contacts and chats for features such as sharing suggestions.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Allow iOS access to Signal contacts and chats for features such as sharing suggestions and notifications.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Allow iOS access to Kahf contacts and chats for features such as sharing suggestions and notifications.";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Glas Clárúcháin";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Require your Signal PIN to register your phone number again with Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Kahf PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Require your Kahf PIN to register your phone number again with Kahf.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Táscairí Clóscríbhneoireachta";
@@ -6434,13 +6434,13 @@
 "SHARE_EXTENSION_LOADING" = "Lódáil…";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Tosaigh aip Signal le clárú.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Tosaigh aip Kahf le clárú.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Níl tú cláraithe";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Tosaigh an aip Signal chun nuashonrú nó clárú.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Tosaigh an aip Kahf chun nuashonrú nó clárú.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Níl Sé Réidh";
@@ -6454,11 +6454,11 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Uaslódáil…";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Kahf user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Níorbh fhéidir an ceangaltán a ullmhú";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Comhroinn le Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Comhroinn le Kahf";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Failed to disable sharing suggestions.";
@@ -6469,8 +6469,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Show Chat";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Tá mé ag úsáid Signal agus sílim go dtaitneodh sé leatsa freisin! Seo é an nasc:";
+/* body sent to contacts when inviting to Install Kahf */
+"SMS_INVITE_BODY" = "Tá mé ag úsáid Kahf agus sílim go dtaitneodh sé leatsa freisin! Seo é an nasc:";
 
 /* An error message generically indicating that something went wrong. */
 "SOMETHING_WENT_WRONG_ERROR" = "Chuaigh rud éigin mícheart.";
@@ -6494,7 +6494,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Continue Without Verifying?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "To help prevent spam on Signal, please complete verification.\n\nAfter verifying, you can continue messaging. Any paused messages will automatically be sent.";
+"SPAM_CAPTCHA_SHEET_BODY" = "To help prevent spam on Kahf, please complete verification.\n\nAfter verifying, you can continue messaging. Any paused messages will automatically be sent.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Verify to Continue Messaging";
@@ -6512,7 +6512,7 @@
 "STICKERS_INSTALL_BUTTON" = "Suiteáil";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Sraith Ealaíontóirí Signal";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Sraith Ealaíontóirí Kahf";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Greamáin a bhFuair Tú";
@@ -6772,32 +6772,32 @@
 /* Text indicating that the story is currently sending */
 "STORY_SENDING" = "Seoladh…";
 
-/* First bullet point for the explainer sheet for signal connections */
+/* First bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_1" = "Trí chomhrá a thosú leo";
 
-/* Second bullet point for the explainer sheet for signal connections */
+/* Second bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_2" = "Trí iarratas teachtaireachta a ghlacadh";
 
-/* Third bullet point for the explainer sheet for signal connections */
+/* Third bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_3" = "Trína gcur le do theagmhálaithe córais";
 
-/* Footer for the explainer sheet for signal connections */
+/* Footer for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_FOOTER" = "Is féidir le do theagmhálaithe d'ainm, do ghrianghraf agus an méid a sheolann tú chuig \"Mo Scéal\" a fheiceáil, mura gcuireann tú na rudaí sin i bhfolach orthu.";
 
-/* Header for the explainer sheet for signal connections */
-"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "Is iad <bold>Teagmhálaithe Signal</bold> na daoine a bhfuil muinín agat iontu, rud a léirigh tú ar cheann de na bealaí seo:";
+/* Header for the explainer sheet for Kahf connections */
+"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "Is iad <bold>Teagmhálaithe Kahf</bold> na daoine a bhfuil muinín agat iontu, rud a léirigh tú ar cheann de na bealaí seo:";
 
 /* Label for the stories section of the settings view */
 "STORY_SETTINGS_TITLE" = "Scéalta";
 
 /* Section footer for the 'viewers' section on the 'story settings' view */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Roghnaigh na Teagmhálaithe Signal ar féidir leo féachaint ar do scéal. Ní bheidh tionchar ag athruithe ar scéalta a sheol tú cheana.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Roghnaigh na Teagmhálaithe Kahf ar féidir leo féachaint ar do scéal. Ní bheidh tionchar ag athruithe ar scéalta a sheol tú cheana.";
 
 /* Section header for the 'viewers' section on the 'story settings' view */
 "STORY_SETTINGS_WHO_CAN_VIEW_THIS_HEADER" = "Na Daoine ar Féidir Leo Féachaint ar an Scéal Seo";
 
 /* Header for the 'viewers' section on the 'story settings' bottom sheet */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Roghnaigh na Teagmhálaithe Signal ar féidir leo féachaint ar do scéal. Is féidir leat é seo a athrú am ar bith i socruithe príobháideachais.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Roghnaigh na Teagmhálaithe Kahf ar féidir leo féachaint ar do scéal. Is féidir leat é seo a athrú am ar bith i socruithe príobháideachais.";
 
 /* Tooltip text shown when the user selects a story as a destination for a long duration video that will be split into shorter segments. Embeds {{ segment duration in seconds }} */
 "STORY_VIDEO_SEGMENTATION_TOOLTIP_FORMAT" = "Gearrfar físeáin a sheoltar chuig Scéalta chuig gearrthóga %1$ds agus seolfar iad mar scéalta iolracha.";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Inis dúinn faoin bhfadhb: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Seol d'iarratas chuig support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Seol d'iarratas chuig support@Kahf.org";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Scagaire: %1$@";
@@ -6859,16 +6859,16 @@
 /* Localized label for support request email debug log URL. Embeds {{debug log url}}. */
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "Log URL: %1$@";
 
-/* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Leagan Signal: %1$@";
+/* Localized label for support request email Kahf version string. Embeds {{Kahf version}}. */
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Leagan Kahf: %1$@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Iarratas Tacaíocht Signal iOS";
+"SUPPORT_EMAIL_SUBJECT" = "Iarratas Tacaíocht Kahf iOS";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Cén chaoi a bhfuil tú? (Roghnach)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Kahf FAQ */
 "SUPPORT_FAQ_PROMPT" = "An bhfuil ár gCeisteanna Coitianta léite agat fós?";
 
 /* Label describing support switch to attach debug logs */
@@ -6944,7 +6944,7 @@
 "SWITCH_ON" = "Ar siúl";
 
 /* Name to display for the 'system' sender, e.g. for release notes and the onboarding story */
-"SYSTEM_ADDRESS_NAME" = "Signal";
+"SYSTEM_ADDRESS_NAME" = "Kahf";
 
 /* Label for button to verify a user's safety number. */
 "SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER" = "Deimhnigh";
@@ -7040,25 +7040,25 @@
 "UNKNOWN_CONTACT_NAME" = "Teagmhálaí Anaithnid";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Seoladh teachtaireacht ó ghléas de do chuid nach féidir próiseáil ná taispeáint anseo toisc go mbaineann sí úsáid as gné nua in Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Seoladh teachtaireacht ó ghléas de do chuid nach féidir próiseáil ná taispeáint anseo toisc go mbaineann sí úsáid as gné nua in Kahf.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "Sheol %1$@ teachtaireacht chugat nach féidir próiseáil ná taispeáint anseo toisc go mbaineann sí úsáid as gné nua in Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "Sheol %1$@ teachtaireacht chugat nach féidir próiseáil ná taispeáint anseo toisc go mbaineann sí úsáid as gné nua in Kahf.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Fuair tú teachtaireacht nach féidir próiseáil ná taispeáint anseo toisc go mbaineann sí úsáid as gné nua in Signal.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Fuair tú teachtaireacht nach féidir próiseáil ná taispeáint anseo toisc go mbaineann sí úsáid as gné nua in Kahf.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Nuashonraigh Signal Anois";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Nuashonraigh Kahf Anois";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Tá tú tar éis an leagan is déanaí de Signal a shuiteáil. Tá tú in ann glacadh le teachtaireachtaí den sórt seo ar do ghléas anois.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Tá tú tar éis an leagan is déanaí de Kahf a shuiteáil. Tá tú in ann glacadh le teachtaireachtaí den sórt seo ar do ghléas anois.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "D'fhéadfá iarraidh ar %1$@ an teachtaireacht seo a sheoladh arís anois ó tá leagan cothrom le dáta de Signal agat.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "D'fhéadfá iarraidh ar %1$@ an teachtaireacht seo a sheoladh arís anois ó tá leagan cothrom le dáta de Kahf agat.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "D'fhéadfá iarraidh ar an seoltóir an teachtaireacht seo a sheoladh arís anois ó tá leagan cothrom le dáta de Signal agat.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "D'fhéadfá iarraidh ar an seoltóir an teachtaireacht seo a sheoladh arís anois ó tá leagan cothrom le dáta de Kahf agat.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Anaithnid";
@@ -7082,10 +7082,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "An bhfuil fonn ort “%1$@” a dhínascadh?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Níl an gléas nasctha a thuilleadh. Ní mór duit athnascadh le Signal chun dul ar aghaidh ag cur teachtaireachtaí.";
+"UNLINKED_WARNING" = "Níl an gléas nasctha a thuilleadh. Ní mór duit athnascadh le Kahf chun dul ar aghaidh ag cur teachtaireachtaí.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Níorbh fhéidir le Signal an gléas a dhínascadh.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Níorbh fhéidir le Kahf an gléas a dhínascadh.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Gléas Gan Ainm";
@@ -7102,11 +7102,11 @@
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Fuarthas ceangaltán de chineál nach dtacaímid leis.";
 
-/* When inviting contacts to use Signal, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
+/* When inviting contacts to use Kahf, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
 "UNSUPPORTED_FEATURE_ERROR" = "Ní thacaíonn do ghléas leis seo.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Your Safety Number with %1$@ changed likely because they reinstalled Signal or changed devices. Tap Verify to confirm the new safety number. This is optional.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Your Safety Number with %1$@ changed likely because they reinstalled Kahf or changed devices. Tap Verify to confirm the new safety number. This is optional.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Deimhnigh";
@@ -7120,11 +7120,11 @@
 /* Error indicating that a group could not be updated due to network connectivity problems. */
 "UPDATE_GROUP_FAILED_DUE_TO_NETWORK" = "Níorbh fhéidir an grúpa a nuashonrú. Deimhnigh go bhfuil tú ceangailte leis an Idirlíon agus bain triail eile as.";
 
-/* Button to activate the signal proxy */
+/* Button to activate the Kahf proxy */
 "USE_PROXY_BUTTON" = "Úsáid Seachfhreastalaí";
 
-/* Explanation of when you should use a signal proxy */
-"USE_PROXY_EXPLANATION" = "Ná húsáid seachfhreastalaí ach amháin mura bhfuil tú in ann nascadh le Signal ar shonraí móibíleacha nó Wi-Fi.";
+/* Explanation of when you should use a Kahf proxy */
+"USE_PROXY_EXPLANATION" = "Ná húsáid seachfhreastalaí ach amháin mura bhfuil tú in ann nascadh le Kahf ar shonraí móibíleacha nó Wi-Fi.";
 
 /* Description of how to update discovery */
 "USERNAME_DISCOVERY_DESCRIPTION" = "Cas as aimsiú uimhreacha gutháin faoi Shocruithe >Uimhir Ghutháin > Na daoine ar féidir leo m'uimhir a aimsiú, chun d'ainm úsáideora a úsáid mar an príomhbhealach ag daoine teagmháil a dhéanamh leat.";
@@ -7132,8 +7132,8 @@
 /* Description of username discriminator digits */
 "USERNAME_DISCRIMINATOR_DESCRIPTION" = "Péireáiltear ainmneacha úsáideora le tacar digití agus ní chomhroinntear ar do phróifíl iad";
 
-/* Title to set up signal username */
-"USERNAME_EDUCATION_TITLE" = "Socraigh d'ainm úsáideora Signal";
+/* Title to set up Kahf username */
+"USERNAME_EDUCATION_TITLE" = "Socraigh d'ainm úsáideora Kahf";
 
 /* Description of username link */
 "USERNAME_LINK_DESCRIPTION" = "Tá nasc uathúil ag gach ainm úsáideora is féidir leat a chomhroinnt le do chairde chun tosú ar chomhrá leat";
@@ -7147,10 +7147,10 @@
 /* Title for an action sheet indicating that a user-entered username value is not a valid username. */
 "USERNAME_LOOKUP_INVALID_USERNAME_TITLE" = "Ainm Úsáideora Neamhbhailí";
 
-/* A message indicating that the given username is not associated with a registered Signal account. Embeds {{ a username }}. */
-"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "Ní úsáideann %1$@ Signal. Deimhnigh gur chuir tú an t-ainm úsáideora iomlán isteach.";
+/* A message indicating that the given username is not associated with a registered Kahf account. Embeds {{ a username }}. */
+"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "Ní úsáideann %1$@ Kahf. Deimhnigh gur chuir tú an t-ainm úsáideora iomlán isteach.";
 
-/* Title for an action sheet indicating that the given username is not associated with a registered Signal account. */
+/* Title for an action sheet indicating that the given username is not associated with a registered Kahf account. */
 "USERNAME_LOOKUP_NOT_FOUND_TITLE" = "Úsáideoir Gan Aimsiú";
 
 /* A prefix appended to all usernames when displayed */
@@ -7250,7 +7250,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Press and hold to record.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Cuir an chumraíocht i gcríoch in Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Cuir an chumraíocht i gcríoch in Kahf Desktop.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Contact Name";

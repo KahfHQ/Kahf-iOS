@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "現在不要";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "有關 Signal";
+"ABOUT_SECTION_TITLE" = "有關 Kahf";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "接受新的安全碼";
@@ -29,10 +29,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO" = "語音訊息";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal 語音通話";
+"ACTION_AUDIO_CALL" = "Kahf 語音通話";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "邀請至 Signal";
+"ACTION_INVITE" = "邀請至 Kahf";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "傳送訊息";
@@ -118,7 +118,7 @@
 /* Label shown over thumbnails of GIFs in the All Media view */
 "ALL_MEDIA_THUMBNAIL_LABEL_GIF" = "GIF";
 
-/* Title for the view of all your signal connections */
+/* Title for the view of all your Kahf connections */
 "ALL_SIGNAL_CONNECTIONS_TITLE" = "所有聯絡人";
 
 /* notification action */
@@ -128,7 +128,7 @@
 "APN_Message" = "你有新訊息";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal 無法啟動。請將除錯日誌傳送到 support@signal.org ，以便我們解決這個問題。";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf 無法啟動。請將除錯日誌傳送到 support@Kahf.org ，以便我們解決這個問題。";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "錯誤";
@@ -140,25 +140,25 @@
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "無法讀取資料庫";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "請升級到最新版的 Signal。";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "請升級到最新版的 Kahf。";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "未知的資料庫版本。";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signal 在嘗試開啟時出現問題。 請傳送偵錯日誌到 support@signal.org 以協助解決此問題。";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf 在嘗試開啟時出現問題。 請傳送偵錯日誌到 support@Kahf.org 以協助解決此問題。";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "無法開啟 Signal";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "無法開啟 Kahf";
 
 /* Error description indicating that the app crashed because there was low storage space available on the device. */
-"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "由於你裝置的儲存空間不足，因此系統無法開啟 Signal。如要正常使用 Signal，請至「設定」管理儲存空間以便騰出多餘的容量。";
+"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "由於你裝置的儲存空間不足，因此系統無法開啟 Kahf。如要正常使用 Kahf，請至「設定」管理儲存空間以便騰出多餘的容量。";
 
 /* Error title indicating that the app crashed because there was low storage space available on the device. */
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "儲存空間不足";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "從舊裝置轉移的資料無法還原。 請將除錯日誌傳送至support@signal.org，以便我們解決此問題。 如果重新安裝Signal，則你的訊息歷史記錄可能會遺失。";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "從舊裝置轉移的資料無法還原。 請將除錯日誌傳送至support@Kahf.org，以便我們解決此問題。 如果重新安裝Signal，則你的訊息歷史記錄可能會遺失。";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "無法完成轉移";
@@ -173,7 +173,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "第%1$@版已經在 App Store 上架。";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "有新版本的 Signal 提供下載";
+"APP_UPDATE_NAG_ALERT_TITLE" = "有新版本的 Kahf 提供下載";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "更新";
@@ -227,9 +227,9 @@
 "APPLE_PAY_DONATION_ERROR_PAYMENT_CANNOT_BE_AUTHORIZED" = "請到 Apple Pay 查看您的付款方法是否仍然有效。若已過時，請先更新資料，然後再試一次。";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Kahf";
 
-/* On the iOS home screen, if you tap and hold the Signal icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
+/* On the iOS home screen, if you tap and hold the Kahf icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
 "APPLICATION_SHORTCUT_NEW_MESSAGE" = "新訊息";
 
 /* Label for the archive button for conversations list view */
@@ -247,7 +247,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "附檔匯出失敗。";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Kahf was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "儲存失敗";
 
 /* Format string for file extension label in call interstitial view */
@@ -316,14 +316,14 @@
 /* A button to select a GIF from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_GIF" = "動態圖檔";
 
-/* A message on a button prompting the user to go settings to grant Signal photos access. */
+/* A message on a button prompting the user to go settings to grant Kahf photos access. */
 "ATTACHMENT_KEYBOARD_GIVE_PHOTOS_ACCESS" = "允許存取";
 
 /* A button to select a location from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_LOCATION" = "位置";
 
 /* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
-"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Signal 需要權限以顯示你的照片及影片。";
+"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Kahf 需要權限以顯示你的照片及影片。";
 
 /* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
 "ATTACHMENT_KEYBOARD_NO_PHOTOS" = "拍完照片後，你可以在這裡傳送你的最近的照片。";
@@ -406,14 +406,14 @@
 /* The title for the badge configuration page */
 "BADGE_CONFIGURATION_TITLE" = "徽章";
 
-/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Signal\" button will be shown. This is the text in that button. */
+/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Kahf\" button will be shown. This is the text in that button. */
 "BADGE_DETAILS_DONATE_TO_SIGNAL" = "立即捐款";
 
 /* When viewing someone else's donor badge, you'll see a sheet. This is the title on that sheet. Embeds {badge owner's short name} */
-"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ 支持 Signal";
+"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ 支持 Kahf";
 
 /* String explaining to the user that their boost badge has expired on the badge expiry sheet. */
-"BADGE_EXPIRED_BOOST_BODY" = "你的捐款徽章已過期，且不會再顯示在你的個人檔案中。\n\n你可如常使用 Signal，但也可以考慮透過每月捐款定期贊助，支持這項為你打造的技術。";
+"BADGE_EXPIRED_BOOST_BODY" = "你的捐款徽章已過期，且不會再顯示在你的個人檔案中。\n\n你可如常使用 Kahf，但也可以考慮透過每月捐款定期贊助，支持這項為你打造的技術。";
 
 /* String explaining to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheet. */
 "BADGE_EXPIRED_BOOST_CURRENT_SUSTAINER_BODY" = "你的捐款徽章已過期，且不會再顯示在你的個人檔案中。\n\n你可憑單次捐款重新啟動你的捐款徽章，並延期 30 天。";
@@ -431,13 +431,13 @@
 "BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "已取消每月捐款";
 
 /* String explaining to the user that their subscription badge has expired on the badge expiry sheet. Embeds {failure-specific sentence(s)}. */
-"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_CHARGE_FAILURE_BODY_FORMAT" = "你的每月定期捐款已取消。%1$@ 捐款徽章不再在你的個人檔案中顯示。\n\n如要繼續支持 Signal 並重新啟動徽章，請更新你的付款詳情並再次捐款。";
+"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_CHARGE_FAILURE_BODY_FORMAT" = "你的每月定期捐款已取消。%1$@ 捐款徽章不再在你的個人檔案中顯示。\n\n如要繼續支持 Kahf 並重新啟動徽章，請更新你的付款詳情並再次捐款。";
 
 /* Body of the sheet shown when your subscription is canceled due to inactivity */
-"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "由於你太長時間沒有使用，因此你的每月定期捐款已被自動取消。你的 %1$@ 徽章不會再顯示在你的個人檔案中。\n\n你可如常使用 Signal，但如果想支持應用程式並重新啟動你的徽章，請立即捐款贊助。";
+"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "由於你太長時間沒有使用，因此你的每月定期捐款已被自動取消。你的 %1$@ 徽章不會再顯示在你的個人檔案中。\n\n你可如常使用 Kahf，但如果想支持應用程式並重新啟動你的徽章，請立即捐款贊助。";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
-"BADGE_THANKS_BODY" = "你已獲取 Signal 的捐款者徽章！在你的個人檔案中展示徽章，秀出你對我們的支持。";
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
+"BADGE_THANKS_BODY" = "你已獲取 Kahf 的捐款者徽章！在你的個人檔案中展示徽章，秀出你對我們的支持。";
 
 /* Label prompting the user to display the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_DISPLAY_ON_PROFILE_LABEL" = "在個人資訊中展示";
@@ -445,7 +445,7 @@
 /* Label prompting the user to feature the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_MAKE_FEATURED" = "製作具特色的徽章";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
 "BADGE_THANKS_TITLE" = "謝謝您的支持！";
 
 /* Footer explaining that only one badge can be featured at a time on the thank you sheet. */
@@ -608,7 +608,7 @@
 "CALL_AUDIO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📞 %1$@有未接語音電話";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "你可以在iOS 設定中允許取用麥克風，以便在 Signal 中撥打電話及錄製語音訊息。";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "你可以在iOS 設定中允許取用麥克風，以便在 Kahf 中撥打電話及錄製語音訊息。";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "需要麥克風的存取權";
@@ -638,7 +638,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "沒有回應";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %1$@";
+"CALL_STATUS_FORMAT" = "Kahf %1$@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "通話";
@@ -701,10 +701,10 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "你的相機已關閉";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal 使用者";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Kahf 使用者";
 
 /* The generic name used for group calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_GROUP_NAME" = "Signal 群組";
+"CALLKIT_ANONYMOUS_GROUP_NAME" = "Kahf 群組";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "拍一張照片然後傳送出去";
@@ -778,38 +778,38 @@
 /* Title for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_TITLE" = "錯誤";
 
-/* Users can donate to Signal with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CARD_NUMBER_GENERIC_ERROR" = "付款卡號碼無效";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card number field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card number field on that screen. */
 "CARD_DONATION_CARD_NUMBER_LABEL" = "付款卡號碼";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_GENERIC_ERROR" = "無效的 CVV";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
 "CARD_DONATION_CVV_LABEL" = "CVV";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_TOO_LONG_ERROR" = "代碼太長";
 
-/* Users can donate to Signal with a credit or debit card. This is the text on the \"Donate\" button. */
+/* Users can donate to Kahf with a credit or debit card. This is the text on the \"Donate\" button. */
 "CARD_DONATION_DONATE_BUTTON" = "贊助";
 
-/* Users can donate to Signal with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_EXPIRATION_DATE_GENERIC_ERROR" = "無效的有效日期";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
 "CARD_DONATION_EXPIRATION_DATE_LABEL" = "有效日期";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card expiration date field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card expiration date field on that screen. */
 "CARD_DONATION_EXPIRATION_DATE_PLACEHOLDER" = "MM/YY";
 
-/* Users can donate to Signal with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
+/* Users can donate to Kahf with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
 "CARD_DONATION_HEADER" = "捐款金額：%1$@";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the body text of that sheet. */
-"CARD_DONATION_READ_MORE_SHEET_BODY" = "當您捐款時，Signal 不會收集或儲存任何個人資料。\n\n我們使用 Stripe 作為接收捐款的付款處理商。我們不會存取、保存或儲存您向他們提供的任何資料。\n\nSignal 不會也無法將您的捐款連結到您的 Signal 帳戶。\n\n感謝您的支持！";
+"CARD_DONATION_READ_MORE_SHEET_BODY" = "當您捐款時，Kahf 不會收集或儲存任何個人資料。\n\n我們使用 Stripe 作為接收捐款的付款處理商。我們不會存取、保存或儲存您向他們提供的任何資料。\n\nSignal 不會也無法將您的捐款連結到您的 Kahf 帳戶。\n\n感謝您的支持！";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the title of that sheet. */
 "CARD_DONATION_READ_MORE_SHEET_TITLE" = "你的資料已保密";
@@ -817,8 +817,8 @@
 /* On the credit/debit card donation screen, a small amount of information text is shown. Users can click this link to learn more information. */
 "CARD_DONATION_SUBHEADER_LEARN_MORE" = "學習更多。";
 
-/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Signal does not collect or store their personal information. */
-"CARD_DONATION_SUBHEADER_TEXT" = "請輸入付款卡詳情。Signal 不會收集或保存你的個人資料。";
+/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Kahf does not collect or store their personal information. */
+"CARD_DONATION_SUBHEADER_TEXT" = "請輸入付款卡詳情。Kahf 不會收集或保存你的個人資料。";
 
 /* Title for the 'censorship circumvention country' view. */
 "CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE" = "選擇國家";
@@ -902,7 +902,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "以使用者名稱搜尋";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "你可以在 iOS 設定中允許取用聯絡資訊，以確認哪位聯絡人是 Signal 的使用者。";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "你可以在 iOS 設定中允許取用聯絡資訊，以確認哪位聯絡人是 Kahf 的使用者。";
 
 /* Configure reactions title text */
 "CONFIGURE_REACTIONS" = "設定回應";
@@ -1033,7 +1033,7 @@
 /* Error indicating that at least one contact field must be selected before sharing a contact. */
 "CONTACT_SHARE_NO_FIELDS_SELECTED" = "未選擇連絡人欄位。";
 
-/* Button text to initiate an email to signal support staff */
+/* Button text to initiate an email to Kahf support staff */
 "CONTACT_SUPPORT" = "聯絡支援";
 
 /* The localized representation of the 'Donations & Badges' support filter. */
@@ -1082,7 +1082,7 @@
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "操作異常";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal 無法完成你的支援請求。";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Kahf 無法完成你的支援請求。";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "再試一次";
@@ -1211,7 +1211,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "聲音";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "透過支持 Signal 為你的個人資料得到徽章。點擊徽章以了解更多資訊。";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "透過支持 Kahf 為你的個人資料得到徽章。點擊徽章以了解更多資訊。";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "徽章";
@@ -1396,14 +1396,14 @@
 /* No comment provided by engineer. */
 "COUNTRYCODE_SELECT_TITLE" = "選擇國碼";
 
-/* Body text for an interactive in-app prompt to set up a Signal username. */
+/* Body text for an interactive in-app prompt to set up a Kahf username. */
 "CREATE_USERNAME_MEGAPHONE_BODY" = "Usernames let others message you without needing your phone number.";
 
-/* Title for a button in an interactive in-app prompt to set up a Signal username, which will start a create-username flow. */
+/* Title for a button in an interactive in-app prompt to set up a Kahf username, which will start a create-username flow. */
 "CREATE_USERNAME_MEGAPHONE_SET_UP_BUTTON_TITLE" = "Set Up";
 
-/* Title for an interactive in-app prompt to set up a Signal username. */
-"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Signal username";
+/* Title for an interactive in-app prompt to set up a Kahf username. */
+"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Kahf username";
 
 /* Credit/debit card donation error for decline failures where the card has expired. */
 "CREDIT_OR_DEBIT_CARD_DONATION_ERROR_EXPIRED_CARD" = "您的信用卡已過期。驗證您的信用卡資料是否正確，然後重試。";
@@ -1454,7 +1454,7 @@
 "DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "執行";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "這將協助我們解決你的問題；本程序可能需要幾分鐘才會完成。檢查步驟執行期間可以關閉 Signal，但請記得回來提交報告結果。";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "這將協助我們解決你的問題；本程序可能需要幾分鐘才會完成。檢查步驟執行期間可以關閉 Kahf，但請記得回來提交報告結果。";
 
 /* Button to skip database integrity check step */
 "DATABASE_INTEGRITY_CHECK_SKIP" = "略過";
@@ -1468,20 +1468,20 @@
 /* In some cases, the user's message history can become corrupted, and a recovery interface is shown. The user has not been hacked and may be confused by this interface, so try to avoid using terms like \"database\" or \"corrupted\"—terms like \"message history\" are better. This is the title on the first screen of this interface, which gives them some information and asks them to continue. */
 "DATABASE_RECOVERY_AWAITING_USER_CONFIRMATION_TITLE" = "擷取資料時出現問題";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_CONTINUE_ANYWAY" = "仍要繼續";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_DESCRIPTION" = "為了完成資料恢復，我們建議你的裝置最少要有 %1$@ 的可用儲存空間。";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_TITLE" = "需要更多儲存空間";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This is the description on the screen where we show an error message. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "無法恢復你的訊息紀錄。重新安裝後，你可以繼續使用 Signal。請提交除錯紀錄，幫助我們更了解問題所在。";
+"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "無法恢復你的訊息紀錄。重新安裝後，你可以繼續使用 Kahf。請提交除錯紀錄，幫助我們更了解問題所在。";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This button lets them delete all of their data. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "重設 Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "重設 Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the final button they will press before their data is reset. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_CONFIRM" = "重設";
@@ -1490,7 +1490,7 @@
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_DESCRIPTION" = "你的帳戶資料、個人檔案和所有訊息將會被清除。完成處理後，應用程式將會關閉。";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the title of that dialog. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "重設 Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "重設 Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) They were asked to submit a debug log. This is the button that submits this log. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_SUBMIT_DEBUG_LOG_BUTTON" = "提交除錯日誌";
@@ -1604,7 +1604,7 @@
 "DELETE_ALL_MESSAGES_IN_CONVERSATION_BUTTON" = "刪除所有訊息";
 
 /* Notification warning the user that they have been de-registered. */
-"DEREGISTRATION_NOTIFICATION" = "你已登出此裝置的 Signal 應用程式。";
+"DEREGISTRATION_NOTIFICATION" = "你已登出此裝置的 Kahf 應用程式。";
 
 /* Label for button that lets users re-register using the same phone number. */
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "重新註冊此電話號碼";
@@ -1612,7 +1612,7 @@
 /* Label warning the user that they have been de-registered. */
 "DEREGISTRATION_WARNING" = "本裝置不再被註冊。你的電話號碼可能被註冊於不同的裝置。點取來重新註冊。";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Kahf Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "最後活躍 %1$@";
 
 /* {{Short Date}} when device was linked. */
@@ -1685,13 +1685,13 @@
 "DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "更新到最新版本的 Signal並再試一次";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "轉移您的 Signal 帳號到新的 iOS 裝置。請確定你的新裝置在附近並已打開。";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "轉移您的 Kahf 帳號到新的 iOS 裝置。請確定你的新裝置在附近並已打開。";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "轉移帳號";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "在舊裝置上開啟 Signal，將其移至附近，並確保兩個裝置上均已開啟 Wi-Fi 和藍牙。";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "在舊裝置上開啟 Kahf，將其移至附近，並確保兩個裝置上均已開啟 Wi-Fi 和藍牙。";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "將此QR碼放在其他裝置的框框中。";
@@ -1703,7 +1703,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "等待其他的裝置…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "讓兩個裝置彼此接近。 請勿關閉任何一台裝置並使 Signal 保持開啟的狀態。 轉移是點對點加密的。";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "讓兩個裝置彼此接近。 請勿關閉任何一台裝置並使 Kahf 保持開啟的狀態。 轉移是點對點加密的。";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "接收資料中";
@@ -1718,7 +1718,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "將新裝置的相機握好";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "讓兩個裝置彼此接近。 請勿關閉任何一台裝置並使 Signal 保持開啟的狀態。";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "讓兩個裝置彼此接近。 請勿關閉任何一台裝置並使 Kahf 保持開啟的狀態。";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "轉移資料中";
@@ -1787,13 +1787,13 @@
 "DONATE_CHOOSE_PAYMENT_METHOD_SHEET_SUBTITLE_FOR_ONE_TIME_DONATION" = "獲得為期一個月的 %1$@ 徽章";
 
 /* When users make donations on a friend's behalf, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "%1$@ 捐款給 Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "%1$@ 捐款給 Kahf";
 
 /* When users make monthly donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money per month}}, such as \"$5/month\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "捐款 %1$@ 給 Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "捐款 %1$@ 給 Kahf";
 
 /* When users make one-time donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "捐款 %1$@ 給 Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "捐款 %1$@ 給 Kahf";
 
 /* Users can donate on a friend's behalf and can optionally add a message. This is tells users about that optional message. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_ADDITIONAL_MESSAGE_INFO" = "接收者將收到有關捐款的一對一訊息通知。在下方加入你的訊息。";
@@ -1804,10 +1804,10 @@
 /* If a donation badge has been sent, indicates that it's expired and can no longer be redeemed. This is shown in the chat. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_CHAT_EXPIRED" = "已過期";
 
-/* If the user tries to donate to Signal but no amount is selected, this error message is shown. */
+/* If the user tries to donate to Kahf but no amount is selected, this error message is shown. */
 "DONATE_SCREEN_ERROR_NO_AMOUNT_SELECTED" = "請選擇要捐贈的金額。";
 
-/* If the user tries to donate to Signal but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
+/* If the user tries to donate to Kahf but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
 "DONATE_SCREEN_ERROR_SELECT_A_LARGER_AMOUNT_FORMAT" = "你可以捐款的最低金額為 %1$@。";
 
 /* On the donation screen, you can choose between one-time and monthly donations. This is the text on the picker for one-time donations. */
@@ -1850,7 +1850,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_BADGE_REDEEMED" = "已兌換";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is a short paragraph on the screen where users choose the badge their friend will receive. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "透過為使用 Signal 的朋友或家人捐款來支持 Signal。他們可以選擇在個人檔案上展現支持。";
+"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "透過為使用 Kahf 的朋友或家人捐款來支持 Kahf。他們可以選擇在個人檔案上展現支持。";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is the title on the screen where users choose the badge their friend will receive. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_TITLE" = "為朋友捐款";
@@ -1880,7 +1880,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_FAILED_ERROR_TITLE" = "付款失敗";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "系統已經處理你的付款，但 Signal 無法傳送你的捐款訊息。請聯絡支援團隊。";
+"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "系統已經處理你的付款，但 Kahf 無法傳送你的捐款訊息。請聯絡支援團隊。";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, an error dialog will be shown. This is the title of that dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_TITLE" = "捐款失敗";
@@ -1892,10 +1892,10 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PREVIEW_OUTGOING" = "✨ 你已為 %1$@ 捐款";
 
 /* You received a donation from a friend. This is the title of that message in the chat. Embeds {{short contact name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "%1$@ 已代表你捐款給 Signal";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "%1$@ 已代表你捐款給 Kahf";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "在此用戶升級 Signal 之前，你無法為其進行捐款。";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "在此用戶升級 Kahf 之前，你無法為其進行捐款。";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, an error dialog will be shown. This is the title of that error dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_TITLE" = "無法捐款";
@@ -1922,7 +1922,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_SENT_TITLE_FORMAT" = "捐款給 %1$@";
 
 /* When you donate on behalf of a friend, a thank-you sheet will appear. This is the text on that sheet. Embeds {{recipient name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_BODY_FORMAT" = "你已代表 %1$@ 向 Signal 捐款。他們可以選擇在個人檔案上展現支持。";
+"DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_BODY_FORMAT" = "你已代表 %1$@ 向 Kahf 捐款。他們可以選擇在個人檔案上展現支持。";
 
 /* When you donate on behalf of a friend, a thank-you sheet will appear. This is the title on that sheet. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_TITLE" = "謝謝您的支持！";
@@ -1931,19 +1931,19 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_VIEW" = "檢視";
 
 /* A friend has donated on your behalf and you received a badge. This text says that you received a badge, and from whom. Embeds {{contact's short name, such as a first name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "%1$@ 已代表你向 Signal 捐款！在你的個人檔案上展現你對 Signal 的支持。";
+"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "%1$@ 已代表你向 Kahf 捐款！在你的個人檔案上展現你對 Kahf 的支持。";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 1st paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 1st paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_1" = "私密通訊。無廣告、無追蹤、無監控。";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 2nd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Signal 全靠捐款支持運作，這意味著保護你的私隱就是我們的主要工作。Signal 是為你而打造的，不是為了你的資料，也不是為了盈利。";
+/* There is a screen where users can read more about their donation to Kahf. This is the 2nd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Kahf 全靠捐款支持運作，這意味著保護你的私隱就是我們的主要工作。Kahf 是為你而打造的，不是為了你的資料，也不是為了盈利。";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 3rd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "如果你願意的話，請即捐款支持，讓 Signal 繼續為大家帶來有趣且可靠的應用程式。";
+/* There is a screen where users can read more about their donation to Kahf. This is the 3rd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "如果你願意的話，請即捐款支持，讓 Kahf 繼續為大家帶來有趣且可靠的應用程式。";
 
-/* There is a screen where users can read more about their donation to Signal. This is the title of that screen. */
-"DONATION_READ_MORE_SCREEN_TITLE" = "Signal 有別於其他通訊軟件。";
+/* There is a screen where users can read more about their donation to Kahf. This is the title of that screen. */
+"DONATION_READ_MORE_SCREEN_TITLE" = "Kahf 有別於其他通訊軟件。";
 
 /* Section title for donation amount on receipts */
 "DONATION_RECEIPT_AMOUNT" = "金額";
@@ -1958,7 +1958,7 @@
 "DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "分享收據";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "感謝你對Signal的支持。你的貢獻有助於推動開發開源隱私技術的使命，保護言論自由並為全球數百萬人提供安全的全球通訊。 如果你是美國居民，請保留此收據作為你的稅務記錄。 Signal Technology Foundation 是美國國內稅收法第 501c3 條規定的免稅非營利組織。 我們的聯邦稅號是 82-4506840。";
+"DONATION_RECEIPT_FOOTER" = "感謝你對Signal的支持。你的貢獻有助於推動開發開源隱私技術的使命，保護言論自由並為全球數百萬人提供安全的全球通訊。 如果你是美國居民，請保留此收據作為你的稅務記錄。 Kahf Technology Foundation 是美國國內稅收法第 501c3 條規定的免稅非營利組織。 我們的聯邦稅號是 82-4506840。";
 
 /* Title for receipts for donations given on a friend's behalf */
 "DONATION_RECEIPT_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "為朋友捐款";
@@ -1979,13 +1979,13 @@
 "DONATION_RECEIPTS" = "捐款收據";
 
 /* Text at the bottom of the donation receipts list, telling users that receipts might not be available */
-"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "若你已重新安裝 Signal，先前捐款的收據恕無法提供。";
+"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "若你已重新安裝 Kahf，先前捐款的收據恕無法提供。";
 
 /* On the donation settings screen, tapping this button will take the user to a screen where they can donate. */
 "DONATION_SCREEN_DONATE_BUTTON" = "贊助";
 
 /* On donation screens, a small amount of information text is shown. This is the subtitle for that text. */
-"DONATION_SCREENS_HEADER_DESCRIPTION" = "我們是由你贊助的私密通訊軟件。無廣告、無追蹤、而且絕不妥協。請即捐款支持 Signal。";
+"DONATION_SCREENS_HEADER_DESCRIPTION" = "我們是由你贊助的私密通訊軟件。無廣告、無追蹤、而且絕不妥協。請即捐款支持 Kahf。";
 
 /* On donation screens, a small amount of information text is shown. Users can click this link to learn more information. */
 "DONATION_SCREENS_HEADER_READ_MORE" = "閱讀更多";
@@ -1996,7 +1996,7 @@
 /* Title for the \"donate for a friend\" button on the donation view. */
 "DONATION_VIEW_DONATE_ON_BEHALF_OF_A_FRIEND" = "為朋友捐款";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
+/* Text describing to the user that they're going to pay a donation to Kahf */
 "DONATION_VIEW_DONATION_TO_SIGNAL" = "捐款給Signal";
 
 /* Text that's shown when the donation view fails to load data, probably due to network failure */
@@ -2008,8 +2008,8 @@
 /* Title for the 'Manage Subscription' button on the donation screen */
 "DONATION_VIEW_MANAGE_SUBSCRIPTION" = "管理定期贊助";
 
-/* Text describing to the user that they're going to pay a monthly donation to Signal */
-"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "每月向 Signal 捐款";
+/* Text describing to the user that they're going to pay a monthly donation to Kahf */
+"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "每月向 Kahf 捐款";
 
 /* Title for the 'more' section on the donation screen */
 "DONATION_VIEW_MORE_SECTION_TITLE" = "更多";
@@ -2023,23 +2023,23 @@
 /* Title for the 'Subscription FAQ' button on the donation screen */
 "DONATION_VIEW_SUBSCRIPTION_FAQ" = "定期贊助 問與答";
 
-/* Title on the 'Donate to Signal' screen */
-"DONATION_VIEW_TITLE" = "贊助 Signal";
+/* Title on the 'Donate to Kahf' screen */
+"DONATION_VIEW_TITLE" = "贊助 Kahf";
 
 /* Label for the currency picker button in donation views */
 "DONATIONS_CURRENCY_PICKER_LABEL" = "貨幣";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "你可以在 iOS 設定中允許取用。";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal 須要存取聯絡資訊以編輯聯絡人資訊";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Kahf 須要存取聯絡資訊以編輯聯絡人資訊";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "編輯群組";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "這個使用者無法被新增到此群組直到他們升級 Signal。";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "這個使用者無法被新增到此群組直到他們升級 Kahf。";
 
 /* Error message indicating that an avatar image is invalid and cannot be used. */
 "EDIT_GROUP_ERROR_INVALID_AVATAR" = "無效的照片。";
@@ -2056,14 +2056,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "複製";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
+/* body of email sent to contacts when inviting to install Kahf. Embeds {{link to install Kahf}} and {{link to the Kahf home page}} */
 "EMAIL_INVITE_BODY" = "嘿，\n\n最近，我一直在使用Signal將iPhone上的進行私密聊天。 我也希望你也安裝它，因此我們可以確信只有你和我才能閱讀我們的訊息或聽到我們的電話。\n\nSignal適用於iPhone和Android。 在這裡下載：%1$@\n\nSignal的工作方式類似於你現有的訊息收發應用程式。 我們可以傳送圖片和影片，撥打電話並開始群組聊天。 最棒的是，沒有人能看到其中的任何一個，甚至連製作Signal的人也看不到！\n\n你可以在這裡閱讀有關製作Signal的組織 Open Whisper Systems的更多資訊：%2$@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "我們一起改用 Signal";
+/* subject of email sent to contacts when inviting to install Kahf */
+"EMAIL_INVITE_SUBJECT" = "我們一起改用 Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "你的裝置未設定為傳送電子郵件。 要傳送支援要求，請在你的裝置上設定電子郵件或傳送電子郵件至 support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "你的裝置未設定為傳送電子郵件。 要傳送支援要求，請在你的裝置上設定電子郵件或傳送電子郵件至 support@Kahf.org";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "電子郵件無法使用";
@@ -2096,7 +2096,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "旅行 & 地點";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "你的聯絡資訊中沒有人使用 Signal。";
+"EMPTY_CONTACTS_LABEL_LINE1" = "你的聯絡資訊中沒有人使用 Kahf。";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "何不邀請一些人呢？";
@@ -2150,7 +2150,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "服務的無效回應。";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "你的電話號碼不再註冊於本裝置。請重新安裝 Signal。";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "你的電話號碼不再註冊於本裝置。請重新安裝 Kahf。";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "伺服器錯誤，請稍候再試";
@@ -2162,7 +2162,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "發生未知錯誤";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "此聯絡人不是 Signal 使用者";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "此聯絡人不是 Kahf 使用者";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "附檔下載失敗。";
@@ -2188,10 +2188,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "此聯絡人沒有可用的連線";
 
-/* Shown when signal users safety numbers changed */
+/* Shown when Kahf users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "安全碼已改變";
 
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Kahf users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "您與 %1$@ 的安全碼已改變";
 
 /* Text notifying the user that their secure session has been reset */
@@ -2207,10 +2207,10 @@
 "ERROR_NETWORK_FAILURE" = "網路錯誤";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "請透過你裝置中的偵錯日誌將此錯誤通報至 support@signal.org以協助我們改進 Signal；%1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "請透過你裝置中的偵錯日誌將此錯誤通報至 support@Kahf.org以協助我們改進 Kahf；%1$@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal 測試版：發生錯誤";
+"ERROR_NOTIFICATION_TITLE" = "Kahf 測試版：發生錯誤";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "你的裝置已不再與其他裝置連結。請重新連結以發送更多訊息。";
@@ -2219,16 +2219,16 @@
 "ERROR_SENDING_DEREGISTERED" = "你的裝置不再被註冊。請重新註冊以傳送更堆訊息。";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "你的 Signal 版本已過期。請更新以傳送訊息。";
+"ERROR_SENDING_EXPIRED" = "你的 Kahf 版本已過期。請更新以傳送訊息。";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Kahf id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "未註冊的使用者: %1$@";
 
 /* Label notifying the user that the app has expired. */
 "EXPIRATION_ERROR" = "你的Signal版本已過期！ 點擊以更新到最新版本。";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "您的 Signal 版本今日到期，請更新至最新版本。";
+"EXPIRATION_WARNING_TODAY" = "您的 Kahf 版本今日到期，請更新至最新版本。";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "此聯繫人失敗太多次，請稍後再試。";
@@ -2501,10 +2501,10 @@
 "GROUP_CALL_WILL_NOTIFY_TWO_PEOPLE_FORMAT" = "%1$@ 和 %2$@ 將收到通知";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there is one other person in the group. Embeds {member name} */
-"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Signal 將撥號給 %1$@";
+"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Kahf 將撥號給 %1$@";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there are two other people in the group. Embeds {{ %1$@ participant1, %2$@ participant2 }} */
-"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Signal 將撥號給 %1$@ 和 %2$@";
+"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Kahf 將撥號給 %1$@ 和 %2$@";
 
 /* Text explaining that you are in the group call. */
 "GROUP_CALL_YOU_ARE_HERE" = "你正在群組通話中";
@@ -2687,7 +2687,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "無效的連結";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "在此裝置上更新 Signal 以加入該群組。";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "在此裝置上更新 Kahf 以加入該群組。";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "需要管理員批准通過群組連結加入新成員。";
@@ -2746,8 +2746,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR Code";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "透過 Signal 分享";
+/* Label for the 'share group link via Kahf' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "透過 Kahf 分享";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "知道此連結的任何人都可以查看該群組的名稱和成員，並請求加入。 與你信任的人分享。";
@@ -3223,7 +3223,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "聯絡我們";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Kahf support website */
 "HELP_SUPPORT_CENTER" = "支援中心";
 
 /* Label for 'archived conversations' button. */
@@ -3238,16 +3238,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "草稿: ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Kahf contact.  Embeds {{The name of 1 of your Kahf contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "有些你的聯絡人已經在使用 Signal了，包括%1$@。";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Kahf contacts.  Embeds {{The names of 2 of your Kahf contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "有些你的聯絡人已經在使用Signal 了，包括 %1$@ 及%2$@。";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "有些你的聯絡人已經在使用 Signal 了，包括 %1$@、%2$@及%3$@。";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Kahf contacts.  Embeds {{The names of 3 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "有些你的聯絡人已經在使用 Kahf 了，包括 %1$@、%2$@及%3$@。";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Kahf contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "在這裡開始你的第一次聊天。";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -3280,7 +3280,7 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "你無法分享超過%1$@個項目。";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Kahf has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "變更照片";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
@@ -3343,8 +3343,8 @@
 /* Indicates that another user has changed their phone number. Embeds: {{ the user's name}} */
 "INFO_MESSAGE_USER_CHANGED_PHONE_NUMBER_FORMAT" = "%1$@ 變更了他們的電話號碼。";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@在 Signal 上!";
+/* Shown in inbox and conversation when a user joins Kahf, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@在 Kahf 上!";
 
 /* accessibility label for the button which shows the regular keyboard instead of sticker picker */
 "INPUT_TOOLBAR_KEYBOARD_BUTTON_ACCESSIBILITY_LABEL" = "鍵盤";
@@ -3367,14 +3367,14 @@
 /* The provided proxy host address is not valid */
 "INVALID_PROXY_HOST_ERROR" = "你輸入的代理伺服器位址無效，請檢查位址，然後再試一次。";
 
-/* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "你可以在 iOS設定中允許取用聯絡資訊來邀請你的朋友加入 Signal。";
+/* Alert body when contacts disabled while trying to invite contacts to Kahf */
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "你可以在 iOS設定中允許取用聯絡資訊來邀請你的朋友加入 Kahf。";
 
-/* Alert title when contacts disabled while trying to invite contacts to signal */
+/* Alert title when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "允許聯絡資訊存取";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "邀請朋友使用 Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "邀請朋友使用 Kahf";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "搜尋";
@@ -3473,10 +3473,10 @@
 "LINK_PREVIEW_UNKNOWN_DOMAIN" = "連結預覽";
 
 /* Shown in an alert when trying to edit a contact. */
-"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "無法再使用 iPad 管理系統聯絡人。如要將 Signal 聯絡人新增至系統聯絡人，請在您的手機上打開 Signal。";
+"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "無法再使用 iPad 管理系統聯絡人。如要將 Kahf 聯絡人新增至系統聯絡人，請在您的手機上打開 Kahf。";
 
 /* Shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. */
-"LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "iPad 不再支援管理系統聯絡人。此裝置將繼續從您手機上的 Signal 同步聯絡清單的任何變更。";
+"LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "iPad 不再支援管理系統聯絡人。此裝置將繼續從您手機上的 Kahf 同步聯絡清單的任何變更。";
 
 /* A button shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. Tapping it opens a website with more details. */
 "LINKED_DEVICE_MANAGE_CONTACTS_LEARN_MORE" = "了解更多";
@@ -3607,8 +3607,8 @@
 /* Label for button to open a link. */
 "MESSAGE_ACTION_LINK_OPEN_LINK" = "開啟連結";
 
-/* Label for button to open a signal proxy. */
-"MESSAGE_ACTION_LINK_OPEN_PROXY" = "開啟 Signal 代理伺服器";
+/* Label for button to open a Kahf proxy. */
+"MESSAGE_ACTION_LINK_OPEN_PROXY" = "開啟 Kahf 代理伺服器";
 
 /* Label for button to open a sticker pack. */
 "MESSAGE_ACTION_LINK_OPEN_STICKER_PACK" = "查看貼圖包";
@@ -3847,7 +3847,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "已讀";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Kahf account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "略過";
 
 /* Label indicating that a message failed to send. */
@@ -3890,22 +3890,22 @@
 "MISSED_VIDEO_CALL" = "錯過視訊電話";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "你可以在 iOS 設定中允許取用相機以在 Signal 中使用影像電話。";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "你可以在 iOS 設定中允許取用相機以在 Kahf 中使用影像電話。";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal 需要存取相機";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Kahf 需要存取相機";
 
 /* Alert body indicating the user has denied location permissions */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "你可以在 iOS 設定中允許此權限。";
 
 /* Alert title indicating the user has denied location permissions */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal 在此功能上要求存取你的位置。";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Kahf 在此功能上要求存取你的位置。";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "你可以在 iOS 設定中允許此權限。";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Signal 要求取用你的照片才能使用此功能。";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Kahf 要求取用你的照片才能使用此功能。";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "無";
@@ -3926,7 +3926,7 @@
 "MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_EXCEPT_TITLE" = "所有人，除了…";
 
 /* Title for the visibility option */
-"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "所有 Signal 聯絡人";
+"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "所有 Kahf 聯絡人";
 
 /* Title for the visibility option */
 "MY_STORIES_SETTINGS_VISIBILITY_ONLY_SHARE_WITH_TITLE" = "僅和這些人分享…";
@@ -4105,7 +4105,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "不顯示名字或內容";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Kahf will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "在程式開啟時播放";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -4160,7 +4160,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "連結 iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "點擊“註冊iPad”將使你可以建立一個全新的Signal帳號或將現有帳號移至此iPad。 這將在現有使用相同電話號碼註冊的任何其他裝置上禁用 Signal。";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "點擊“註冊iPad”將使你可以建立一個全新的Signal帳號或將現有帳號移至此iPad。 這將在現有使用相同電話號碼註冊的任何其他裝置上禁用 Kahf。";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "點擊“連結iPhone”將使你將手機連結到現有帳號。 通常不建議連結手機，這會限制某些功能，例如通話。";
@@ -4279,14 +4279,14 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%1$@設定訊息銷毀時間為%2$@";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal 正面臨技術上的問題。我們正在盡力的盡快地恢復服務。";
+/* Label warning the user that the Kahf service may be down. */
+"OUTAGE_WARNING" = "Kahf 正面臨技術上的問題。我們正在盡力的盡快地恢復服務。";
 
 /* Label for action link when the user has an outdated payment client */
 "OUTDATED_PAYMENT_CLIENT_ACTION_TITLE" = "立即更新";
 
-/* Label warning the user that they should update Signal to continue using payments. */
-"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "請更新 Signal 以繼續使用付款功能。你的餘額可能沒有更新。";
+/* Label warning the user that they should update Kahf to continue using payments. */
+"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "請更新 Kahf 以繼續使用付款功能。你的餘額可能沒有更新。";
 
 /* info message text in conversation view */
 "OUTGOING_AUDIO_CALL" = "撥打語音通話";
@@ -4396,7 +4396,7 @@
 /* Title for action sheet shown when unlocking with biometrics like Face ID or TouchID fails because it is disabled at a system level. */
 "PAYMENTS_LOCK_LOCAL_BIOMETRY_AUTH_DISABLED_TITLE" = "生物識別驗證失敗";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
 "PAYMENTS_LOCK_REASON_UNLOCK_PAYMENTS_LOCK" = "驗證以確認付款。";
 
 /* Label for the 'add memo' ui in the 'send payment' UI. */
@@ -4649,13 +4649,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "每個人";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Signal. Others will be able to reach you with your phone number when they start a new chat or group.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Kahf. Others will be able to reach you with your phone number when they start a new chat or group.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "無人";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Signal will be able to reach you with your phone number.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Kahf will be able to reach you with your phone number.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "範例：%1$@";
@@ -4757,7 +4757,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "停用PIN碼";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "如果你停用PIN碼功能，你將失去所有的資料當重新註冊 Signal 的時候，除非你是從其他的 iOS 裝置轉移過來。 你停用PIN碼功能時無法啟用註冊鎖。";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "如果你停用PIN碼功能，你將失去所有的資料當重新註冊 Kahf 的時候，除非你是從其他的 iOS 裝置轉移過來。 你停用PIN碼功能時無法啟用註冊鎖。";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "警告";
@@ -4769,7 +4769,7 @@
 "PIN_CREATION_ERROR_TITLE" = "PIN碼建立失敗";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN 碼可以加密 Signal 伺服器上面關於您帳號的資訊，因此只有您可以存取。重新安裝時，您的個人資訊、設定和聯絡人將從 Signal 伺服器上回復。啟動 Signal 應用程式時不需要 PIN。";
+"PIN_CREATION_EXPLANATION" = "PIN 碼可以加密 Kahf 伺服器上面關於您帳號的資訊，因此只有您可以存取。重新安裝時，您的個人資訊、設定和聯絡人將從 Kahf 伺服器上回復。啟動 Kahf 應用程式時不需要 PIN。";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "了解更多有關PIN碼";
@@ -4820,7 +4820,7 @@
 "PIN_CREATION_WEAK_ERROR" = "請選擇強度較強的PIN碼";
 
 /* If your attempted PIN is too weak, you'll see an error message. This is the text on the error dialog. */
-"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Signal encrypted so only you can access it. Choose a stronger PIN to protect your account.";
+"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Kahf encrypted so only you can access it. Choose a stronger PIN to protect your account.";
 
 /* Error body indicating that the attempt to disable a PIN failed. */
 "PIN_DISABLE_ERROR_MESSAGE" = "你的PIN碼無法被停用。 我們稍後會再次提示你。";
@@ -4850,7 +4850,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "我們會在幾天後再次提醒你。";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "驗證你的 Signal PIN碼";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "驗證你的 Kahf PIN碼";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "我們明天會再次提醒你。";
@@ -4865,7 +4865,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "無效的 PIN 碼，請再嘗試一次。";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "輸入你的 Signal PIN 碼";
+"PIN_REMINDER_TITLE" = "輸入你的 Kahf PIN 碼";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN 碼必須至少 4 個字元。";
@@ -4913,13 +4913,13 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "剪貼簿中的電話號碼與該聊天的密碼不正確。";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal 無法在剪貼簿中找到任何安全碼。你確定複製對了嗎？";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Kahf 無法在剪貼簿中找到任何安全碼。你確定複製對了嗎？";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "每一對 Signal 使用者共享一個獨特的安全碼。再次檢查%1$@顯示的是\"你的\"安全碼。";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "每一對 Kahf 使用者共享一個獨特的安全碼。再次檢查%1$@顯示的是\"你的\"安全碼。";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "您使用的 Signal 版本太舊，請先更新再驗證";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "您使用的 Kahf 版本太舊，請先更新再驗證";
 
 /* alert body */
 "PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "你朋友使用的Signal版本太舊，必須升級後才能驗證。";
@@ -5032,7 +5032,7 @@
 /* Title for the profile view. */
 "PROFILE_VIEW_TITLE" = "個人資訊";
 
-/* The title for the address of the signal proxy */
+/* The title for the address of the Kahf proxy */
 "PROXY_ADDRESS" = "代理伺服器位址";
 
 /* The provided proxy connected successfully */
@@ -5041,10 +5041,10 @@
 /* The provided proxy couldn't connect */
 "PROXY_FAILED_TO_CONNECT" = "無法連接代理伺服器。請檢查代理伺服器位址，然後再試一次。";
 
-/* Placeholder text for signal proxy host */
+/* Placeholder text for Kahf proxy host */
 "PROXY_PLACEHOLDER" = "輸入代理伺服器位址";
 
-/* Title for the signal proxy settings */
+/* Title for the Kahf proxy settings */
 "PROXY_SETTINGS_TITLE" = "代理伺服器";
 
 /* Notification action button title */
@@ -5144,19 +5144,19 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "使用者無法被選擇。";
 
 /* Alert text. Shown after selecting a phone number that isn't valid. */
-"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "%1$@ 不是 Signal 用戶。請使用有效的電話號碼重試。";
+"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "%1$@ 不是 Kahf 用戶。請使用有效的電話號碼重試。";
 
 /* Alert title. Shown after selecting a phone number that isn't valid. */
 "RECIPIENT_PICKER_INVALID_NUMBER_TITLE" = "無效的電話號碼";
 
-/* Button. Shown after selecting a phone number that isn't a Signal user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
+/* Button. Shown after selecting a phone number that isn't a Kahf user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
 "RECIPIENT_PICKER_INVITE_ACTION" = "訊息";
 
-/* Alert text. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ 不是 Signal 用戶。你想向此號碼發出邀請嗎？";
+/* Alert text. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ 不是 Kahf 用戶。你想向此號碼發出邀請嗎？";
 
-/* Alert title. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_TITLE" = "邀請至 Signal";
+/* Alert title. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_TITLE" = "邀請至 Kahf";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
 "REGISTER_2FA_FORGOT_PIN_ALERT_TITLE" = "需要幫助嗎？";
@@ -5194,10 +5194,10 @@
 /* Label for the country code field */
 "REGISTRATION_DEFAULT_COUNTRY_NAME" = "國碼";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
-"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Signal on other devices currently registered with the same phone number.";
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
+"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Kahf on other devices currently registered with the same phone number.";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
 "REGISTRATION_DEVICE_TRANSFER_CHOICE_TITLE" = "Transfer Account & Messages";
 
 /* Placeholder text for the phone number textfield */
@@ -5234,13 +5234,13 @@
 "REGISTRATION_PIN_CONFIRM_TITLE" = "Confirm your PIN";
 
 /* During registration, users are asked to create a PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During registration, users are asked to create a PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_CREATE_TITLE" = "Create your PIN";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_ENTER_EXISTING_TITLE" = "Enter your PIN";
@@ -5348,7 +5348,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "檢視";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "我們的 Signal 安全碼：\n%1$@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "我們的 Kahf 安全碼：\n%1$@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "您與 %1$@ 的安全碼已改變，可能需要重新驗證";
@@ -5380,14 +5380,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "你必須在 iOS 設定中啟動密碼功能以使用螢幕鎖定。";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "認證以開啟 Signal。";
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "認證以開啟 Kahf。";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "身份認證失敗";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "解鎖 Signal";
+/* Label for button on lock screen that lets users unlock Kahf. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "解鎖 Kahf";
 
 /* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
 "SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT" = "姓名、使用者名稱與電話號碼";
@@ -5423,13 +5423,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "帳號不符合";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "在此裝置上更新 Signal 以將其與手機連結。";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "在此裝置上更新 Kahf 以將其與手機連結。";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "不支援的版本";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "你的其他裝置執行的是舊版Signal，該版本不支援掃描iPad QR CODE。 請安裝最新版本的 Signal，然後重試。你的其他裝置執行的是舊版 Signal，該版本不支援掃描iPad QR code。 請安裝最新的Signal版本，然後重試。";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "你的其他裝置執行的是舊版Signal，該版本不支援掃描iPad QR CODE。 請安裝最新版本的 Kahf，然後重試。你的其他裝置執行的是舊版 Kahf，該版本不支援掃描iPad QR code。 請安裝最新的Signal版本，然後重試。";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "升級掃描裝置";
@@ -5453,16 +5453,16 @@
 "SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "在手機上啟動Signal，以將此 iPad 連結到你的帳戶";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "我手機上沒有 Signal…";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "我手機上沒有 Kahf…";
 
 /* alert body */
 "SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "前往手機上的 App Store，安裝Signal，完成註冊過程，然後可以將 iPad 連結到同一帳戶。";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "在你的手機上安裝 Signal";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "在你的手機上安裝 Kahf";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "在您的手機版 Signal 點選個人資訊圖片來打開設定，然後點選「已連結的裝置」，再點選「連結新裝置」，即可使用手機掃描這個 QR code";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "在您的手機版 Kahf 點選個人資訊圖片來打開設定，然後點選「已連結的裝置」，再點選「連結新裝置」，即可使用手機掃描這個 QR code";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "在這裡取得有關將 iPad連結的協助";
@@ -5471,7 +5471,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "用你的手機掃描 QR Code";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "在舊iPad上執行 Signal 來轉移你的帳號";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "在舊iPad上執行 Kahf 來轉移你的帳號";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "安全會話已重設";
@@ -5540,7 +5540,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "位置";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "若啟用，Signal 將嘗試繞過網路審查，除非您所在的區域會封鎖 Signal，否則不要使用這項功能";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "若啟用，Kahf 將嘗試繞過網路審查，除非您所在的區域會封鎖 Kahf，否則不要使用這項功能";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "根據您的電話號碼，我們已自動啟用網路審查規避";
@@ -5551,7 +5551,7 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "審查規避只能在連上網路時啟動。";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Kahf service. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "你已經連接上 Signal服務，所以不需要啟動審查規避。";
 
 /* No comment provided by engineer. */
@@ -5593,8 +5593,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "新增封鎖的聯絡人";
 
-/* A label that indicates the user has no Signal contacts that they haven't blocked. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "您沒有任何 Signal 上的聯絡人";
+/* A label that indicates the user has no Kahf contacts that they haven't blocked. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "您沒有任何 Kahf 上的聯絡人";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "查無結果";
@@ -5606,7 +5606,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "永遠轉發通話";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "透過 Signal 伺服器轉發通話，來避免透露你的 IP 位址給你的聯絡人。啟用時，會降低通話品質。";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "透過 Kahf 伺服器轉發通話，來避免透露你的 IP 位址給你的聯絡人。啟用時，會降低通話品質。";
 
 /* Label for the 'edit phone number' button in the 'change phone number' views. */
 "SETTINGS_CHANGE_PHONE_NUMBER_BACK_TO_EDIT_BUTTON" = "編輯電話號碼";
@@ -5660,7 +5660,7 @@
 "SETTINGS_CLEAR_HISTORY" = "清除聊天歷史紀錄";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Signal Messenger 版權所有\n根據 AGPLv3 授權";
+"SETTINGS_COPYRIGHT" = "Kahf Messenger 版權所有\n根據 AGPLv3 授權";
 
 /* Label for the 'data' section of the app settings. */
 "SETTINGS_DATA" = "數據使用量";
@@ -5725,8 +5725,8 @@
 /* Explanation for the 'disappearing messages' privacy settings. */
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "為你發起的所有新聊天設定預設的訊息銷毀計時器。";
 
-/* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "贊助 Signal";
+/* Title for the 'donate to Kahf' link in settings. */
+"SETTINGS_DONATE" = "贊助 Kahf";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "幫助";
@@ -5794,8 +5794,8 @@
 /* table section header */
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "通知欄內容";
 
-/* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "聯絡人上線 Signal 通知";
+/* When the local device discovers a contact has recently installed Kahf, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "聯絡人上線 Kahf 通知";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "在…時通知";
@@ -6065,7 +6065,7 @@
 "SETTINGS_PAYMENTS_PAYMENTS_LOCK_PROMPT_EXPLANATION_TOUCHID" = "啟用 Touch ID 以防止有人利用您的手機存取您的資金。您可以在「設定」中停用此選項。";
 
 /* Button for payments outdated sheet. */
-"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "更新 Signal";
+"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "更新 Kahf";
 
 /* Message for payments outdated sheet. */
 "SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_MESSAGE" = "你必須進行更新方可繼續傳送及接收付款，並查看最新的付款餘額。";
@@ -6281,7 +6281,7 @@
 "SETTINGS_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Who Can Find Me By Number";
 
 /* Description label for Phone Number Privacy */
-"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Signal with it.";
+"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Kahf with it.";
 
 /* The title for phone number privacy settings. */
 "SETTINGS_PHONE_NUMBER_PRIVACY_TITLE" = "Phone Number";
@@ -6296,13 +6296,13 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "請務必記住或安全存儲你的PIN碼，因為它無法回復。 如果你忘記了PIN碼，則在重新註冊Signal帳號時可能會遺失資料。";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "確認你的 Signal PIN碼";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "確認你的 Kahf PIN碼";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN碼提醒";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "您儲存在 Signal 伺服器上的訊息將使用 PIN 碼加密，因此只有您可以存取。重新安裝 Signal 時，您的個人資訊、設定和聯絡人將從伺服器回復。PIN 碼若遺失將無法取回。";
+"SETTINGS_PINS_FOOTER" = "您儲存在 Kahf 伺服器上的訊息將使用 PIN 碼加密，因此只有您可以存取。重新安裝 Kahf 時，您的個人資訊、設定和聯絡人將從伺服器回復。PIN 碼若遺失將無法取回。";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "變更你的 PIN 碼";
@@ -6311,7 +6311,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "建立一個PIN碼";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN 碼";
+"SETTINGS_PINS_TITLE" = "Kahf PIN 碼";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "審查規避、代理伺服器、轉送通話及加密傳送者設定。";
@@ -6392,15 +6392,15 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "與iOS共享聯絡人";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "允許 iOS 連結 Signal 聯絡人和聊天以獲得共享建議等功能。";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "允許 iOS 連結 Kahf 聯絡人和聊天以獲得共享建議等功能。";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "允許 iOS 連結 Signal 聯絡人和聊天以獲取共享建議和通知等功能。";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "允許 iOS 連結 Kahf 聯絡人和聊天以獲取共享建議和通知等功能。";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "註冊鎖";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
+/* Footer for the 'two factor auth' section of the privacy settings when Kahf PINs are available. */
 "SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "需要你的Signal PIN碼才能再次使用Signal註冊你的電話號碼。";
 
 /* Label for the 'typing indicators' setting. */
@@ -6434,13 +6434,13 @@
 "SHARE_EXTENSION_LOADING" = "讀取中…";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "啟動 Signal 應用程式來註冊。";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "啟動 Kahf 應用程式來註冊。";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "尚未註冊";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "啟動 Signal 來更新或註冊。";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "啟動 Kahf 來更新或註冊。";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "還沒準備好";
@@ -6454,11 +6454,11 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "上傳中…";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Kahf user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "無法準備附檔";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "分享至 Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "分享至 Kahf";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "無法關閉共享建議。";
@@ -6469,8 +6469,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "顯示聊天";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "邀請您安裝 Signal！這裡是連結：";
+/* body sent to contacts when inviting to Install Kahf */
+"SMS_INVITE_BODY" = "邀請您安裝 Kahf！這裡是連結：";
 
 /* An error message generically indicating that something went wrong. */
 "SOMETHING_WENT_WRONG_ERROR" = "發生一些錯誤。";
@@ -6512,7 +6512,7 @@
 "STICKERS_INSTALL_BUTTON" = "安裝";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signal 藝術家系列";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Kahf 藝術家系列";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "你收到的貼圖";
@@ -6772,32 +6772,32 @@
 /* Text indicating that the story is currently sending */
 "STORY_SENDING" = "正在傳送…";
 
-/* First bullet point for the explainer sheet for signal connections */
+/* First bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_1" = "展開一個對話";
 
-/* Second bullet point for the explainer sheet for signal connections */
+/* Second bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_2" = "接受一則訊息要求";
 
-/* Third bullet point for the explainer sheet for signal connections */
+/* Third bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_3" = "系統聯絡人中存在對方";
 
-/* Footer for the explainer sheet for signal connections */
+/* Footer for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_FOOTER" = "你的人脈可以看到你的名字和相片。除非你對他們隱藏限時動態，否則他們也可以看到你發送的「我的限時動態」。";
 
-/* Header for the explainer sheet for signal connections */
-"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Signal 人脈</bold>是你透過以下方式選擇而值得信任的人：";
+/* Header for the explainer sheet for Kahf connections */
+"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Kahf 人脈</bold>是你透過以下方式選擇而值得信任的人：";
 
 /* Label for the stories section of the settings view */
 "STORY_SETTINGS_TITLE" = "限時動態";
 
 /* Section footer for the 'viewers' section on the 'story settings' view */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "選擇哪個 Signal 人脈可以瀏覽你的限時動態。這不會影響你在更改前發送的限時動態。";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "選擇哪個 Kahf 人脈可以瀏覽你的限時動態。這不會影響你在更改前發送的限時動態。";
 
 /* Section header for the 'viewers' section on the 'story settings' view */
 "STORY_SETTINGS_WHO_CAN_VIEW_THIS_HEADER" = "誰可以瀏覽此限時動態";
 
 /* Header for the 'viewers' section on the 'story settings' bottom sheet */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "選擇哪些 Signal 人脈可以瀏覽你的限時動態。你可以隨時在隱私設定中進行更改。";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "選擇哪些 Kahf 人脈可以瀏覽你的限時動態。你可以隨時在隱私設定中進行更改。";
 
 /* Tooltip text shown when the user selects a story as a destination for a long duration video that will be split into shorter segments. Embeds {{ segment duration in seconds }} */
 "STORY_VIDEO_SEGMENTATION_TOOLTIP_FORMAT" = "發布至限時動態的影片將被剪輯成 %1$d 秒的短片，並以多則限動發佈。";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "告訴我們這個問題： ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "請透過傳電子郵件將你的支援請求到 support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "請透過傳電子郵件將你的支援請求到 support@Kahf.org";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "過濾：%1$@";
@@ -6859,16 +6859,16 @@
 /* Localized label for support request email debug log URL. Embeds {{debug log url}}. */
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "記錄網址：%1$@";
 
-/* Localized label for support request email signal version string. Embeds {{signal version}}. */
+/* Localized label for support request email Kahf version string. Embeds {{Kahf version}}. */
 "SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal版本：%1$@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS支援請求";
+"SUPPORT_EMAIL_SUBJECT" = "Kahf iOS支援請求";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "你覺得如何?(可選項目)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Kahf FAQ */
 "SUPPORT_FAQ_PROMPT" = "你閱讀過我們的問與答嗎?";
 
 /* Label describing support switch to attach debug logs */
@@ -6944,7 +6944,7 @@
 "SWITCH_ON" = "開";
 
 /* Name to display for the 'system' sender, e.g. for release notes and the onboarding story */
-"SYSTEM_ADDRESS_NAME" = "Signal";
+"SYSTEM_ADDRESS_NAME" = "Kahf";
 
 /* Label for button to verify a user's safety number. */
 "SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER" = "驗證";
@@ -7040,25 +7040,25 @@
 "UNKNOWN_CONTACT_NAME" = "未知的聯絡人";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "你的某個裝置傳送了一則無法處理或顯示的訊息，因為它使用了新的 Signal 功能。";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "你的某個裝置傳送了一則無法處理或顯示的訊息，因為它使用了新的 Kahf 功能。";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
 "UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@ 發送了一條無法處理或顯示的訊息，因為它使用了新的Signal 功能。";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "您收到一條無法處理或顯示的消息，因為它使用了新的 Signal 功能。";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "您收到一條無法處理或顯示的消息，因為它使用了新的 Kahf 功能。";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "請立即更新 Signal";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "請立即更新 Kahf";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
 "UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "已更新至最新版本的Signal。你現在可以在裝置上接收此訊息類型。";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "你現在可以要求 %1$@ 重新傳送這個訊息因你已經使用最新版本的 Signal。";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "你現在可以要求 %1$@ 重新傳送這個訊息因你已經使用最新版本的 Kahf。";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "你現在可以要求對方重新傳送這個訊息因你已經使用最新版本的 Signal。";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "你現在可以要求對方重新傳送這個訊息因你已經使用最新版本的 Kahf。";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "未知";
@@ -7082,10 +7082,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "解除和「%1$@」的連結？";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "本裝置的 Signal 連結失效，請重新與您的手機連結";
+"UNLINKED_WARNING" = "本裝置的 Kahf 連結失效，請重新與您的手機連結";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal 無法解除裝置連結";
+"UNLINKING_FAILED_ALERT_TITLE" = "Kahf 無法解除裝置連結";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "未命名的裝置";
@@ -7102,11 +7102,11 @@
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "接收到不支援的附檔類型。";
 
-/* When inviting contacts to use Signal, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
+/* When inviting contacts to use Kahf, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
 "UNSUPPORTED_FEATURE_ERROR" = "你的裝置不支援這項功能。";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "你與 %1$@ 的安全碼已變更，可能是因為對方重新安裝了 Signal 或更換了裝置。輕觸「驗證」以確認新的安全碼。這是可選的。";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "你與 %1$@ 的安全碼已變更，可能是因為對方重新安裝了 Kahf 或更換了裝置。輕觸「驗證」以確認新的安全碼。這是可選的。";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "驗證";
@@ -7120,11 +7120,11 @@
 /* Error indicating that a group could not be updated due to network connectivity problems. */
 "UPDATE_GROUP_FAILED_DUE_TO_NETWORK" = "群組無法更新。 檢查你的網路連接，然後重試。";
 
-/* Button to activate the signal proxy */
+/* Button to activate the Kahf proxy */
 "USE_PROXY_BUTTON" = "使用代理伺服器";
 
-/* Explanation of when you should use a signal proxy */
-"USE_PROXY_EXPLANATION" = "僅在無法透過行動數據或 Wi-Fi 連接 Signal 時才使用代理伺服器。";
+/* Explanation of when you should use a Kahf proxy */
+"USE_PROXY_EXPLANATION" = "僅在無法透過行動數據或 Wi-Fi 連接 Kahf 時才使用代理伺服器。";
 
 /* Description of how to update discovery */
 "USERNAME_DISCOVERY_DESCRIPTION" = "要關閉電話號碼搜索功能，請前往「設定」>「隱私」>「電話號碼」>「誰可以找到我的電話號碼」，以使用你的用戶名稱作為其他人聯絡你的主要方式。";
@@ -7132,8 +7132,8 @@
 /* Description of username discriminator digits */
 "USERNAME_DISCRIMINATOR_DESCRIPTION" = "用戶名稱與一組數字配對，並且不會在你的個人檔案上公開";
 
-/* Title to set up signal username */
-"USERNAME_EDUCATION_TITLE" = "設定你的 Signal 用戶名稱";
+/* Title to set up Kahf username */
+"USERNAME_EDUCATION_TITLE" = "設定你的 Kahf 用戶名稱";
 
 /* Description of username link */
 "USERNAME_LINK_DESCRIPTION" = "每個用戶名稱都擁有獨一無二的連結，你可以與好友分享該連結以開始聊天";
@@ -7147,10 +7147,10 @@
 /* Title for an action sheet indicating that a user-entered username value is not a valid username. */
 "USERNAME_LOOKUP_INVALID_USERNAME_TITLE" = "用戶名稱無效";
 
-/* A message indicating that the given username is not associated with a registered Signal account. Embeds {{ a username }}. */
-"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@不是 Signal 使用者。請確認你輸入完整的使用者名稱。";
+/* A message indicating that the given username is not associated with a registered Kahf account. Embeds {{ a username }}. */
+"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@不是 Kahf 使用者。請確認你輸入完整的使用者名稱。";
 
-/* Title for an action sheet indicating that the given username is not associated with a registered Signal account. */
+/* Title for an action sheet indicating that the given username is not associated with a registered Kahf account. */
 "USERNAME_LOOKUP_NOT_FOUND_TITLE" = "找不到使用者";
 
 /* A prefix appended to all usernames when displayed */
@@ -7250,7 +7250,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "按住以進行記錄。";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "請至 Signal 桌面版完成設定";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "請至 Kahf 桌面版完成設定";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "聯絡人姓名";

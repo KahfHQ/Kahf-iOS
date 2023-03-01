@@ -29,7 +29,7 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO" = "Ääniviesti";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal-puhelu";
+"ACTION_AUDIO_CALL" = "Kahf-puhelu";
 
 /* Label for 'invite' button in contact view. */
 "ACTION_INVITE" = "Kutsu Signaliin";
@@ -118,7 +118,7 @@
 /* Label shown over thumbnails of GIFs in the All Media view */
 "ALL_MEDIA_THUMBNAIL_LABEL_GIF" = "GIF";
 
-/* Title for the view of all your signal connections */
+/* Title for the view of all your Kahf connections */
 "ALL_SIGNAL_CONNECTIONS_TITLE" = "Kaikki kontaktit";
 
 /* notification action */
@@ -128,7 +128,7 @@
 "APN_Message" = "Olet saattanut saada uusia viestejä";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal ei avaudu. Lähetä virheenkorjausloki osoitteeseen support@signal.org, jotta voimme selvittää ongelman.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf ei avaudu. Lähetä virheenkorjausloki osoitteeseen support@Kahf.org, jotta voimme selvittää ongelman.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Virhe";
@@ -146,10 +146,10 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Tuntematon tietokantaversio.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signal havaitsi ongelman käynnistyessään. Lähetä virheenkorjausloki osoitteeseen support@signal.org – tämä auttaa meitä virheen selvittämisessä.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf havaitsi ongelman käynnistyessään. Lähetä virheenkorjausloki osoitteeseen support@Kahf.org – tämä auttaa meitä virheen selvittämisessä.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Signal ei avaudu";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Kahf ei avaudu";
 
 /* Error description indicating that the app crashed because there was low storage space available on the device. */
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Signalia ei voitu avata, koska laitteen tallennustila on vähissä. Jos haluat käyttää Signalia, vapauta tallennustilaa laitteen asetuksissa.";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Tallennustila vähissä";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Aiemmasta laitteesta siirrettyjä tietoja ei voitu palauttaa. Lähetä virheenkorjausloki osoitteeseen support@signal.org, jotta voimme selvittää ongelman. Jos asennat Signalin uudelleen, viestihistoriasi saatetaan menettää.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Aiemmasta laitteesta siirrettyjä tietoja ei voitu palauttaa. Lähetä virheenkorjausloki osoitteeseen support@Kahf.org, jotta voimme selvittää ongelman. Jos asennat Signalin uudelleen, viestihistoriasi saatetaan menettää.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Siirtoa ei voitu suorittaa loppuun";
@@ -227,9 +227,9 @@
 "APPLE_PAY_DONATION_ERROR_PAYMENT_CANNOT_BE_AUTHORIZED" = "Tarkista, onko Apple Pay -palvelussa toimiva luottokortti. Jos ei ole, päivitä luottokorttitiedot ja yritä uudelleen.";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Kahf";
 
-/* On the iOS home screen, if you tap and hold the Signal icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
+/* On the iOS home screen, if you tap and hold the Kahf icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
 "APPLICATION_SHORTCUT_NEW_MESSAGE" = "Kirjoita viesti";
 
 /* Label for the archive button for conversations list view */
@@ -247,7 +247,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Liitteen vieminen epäonnistui.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Kahf was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Tallennus epäonnistui";
 
 /* Format string for file extension label in call interstitial view */
@@ -316,14 +316,14 @@
 /* A button to select a GIF from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_GIF" = "GIF";
 
-/* A message on a button prompting the user to go settings to grant Signal photos access. */
+/* A message on a button prompting the user to go settings to grant Kahf photos access. */
 "ATTACHMENT_KEYBOARD_GIVE_PHOTOS_ACCESS" = "Myönnä käyttöoikeus";
 
 /* A button to select a location from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_LOCATION" = "Sijainti";
 
 /* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
-"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Signal tarvitsee käyttöoikeuden kuvien ja videoiden näyttämiseksi.";
+"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Kahf tarvitsee käyttöoikeuden kuvien ja videoiden näyttämiseksi.";
 
 /* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
 "ATTACHMENT_KEYBOARD_NO_PHOTOS" = "Voit lähettää äskettäisiä kuvia tästä näkymästä, kun olet ensin ottanut kuvia.";
@@ -406,7 +406,7 @@
 /* The title for the badge configuration page */
 "BADGE_CONFIGURATION_TITLE" = "Merkit";
 
-/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Signal\" button will be shown. This is the text in that button. */
+/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Kahf\" button will be shown. This is the text in that button. */
 "BADGE_DETAILS_DONATE_TO_SIGNAL" = "Lahjoita nyt";
 
 /* When viewing someone else's donor badge, you'll see a sheet. This is the title on that sheet. Embeds {badge owner's short name} */
@@ -436,7 +436,7 @@
 /* Body of the sheet shown when your subscription is canceled due to inactivity */
 "BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "Toistuva kuukausilahjoituksesi peruutettiin automaattisesti, koska et ole ollut aktiivinen pitkään aikaan. Merkki %1$@ ei näy enää profiilissasi.\n\nVoit jatkaa Signalin käyttöä, mutta jos haluat tukea sovellusta ja aktivoida merkin uudelleen, lahjoita nyt.";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
 "BADGE_THANKS_BODY" = "Olet ansainnut lahjoittajamerkin Signalilta! Näytä se profiilissasi osoittaaksesi, että tuet Signalia.";
 
 /* Label prompting the user to display the new badge on their profile on the badge thank you sheet. */
@@ -445,7 +445,7 @@
 /* Label prompting the user to feature the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_MAKE_FEATURED" = "Aseta esiteltäväksi merkiksi";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
 "BADGE_THANKS_TITLE" = "Kiitos tuestasi!";
 
 /* Footer explaining that only one badge can be featured at a time on the thank you sheet. */
@@ -638,7 +638,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Ei vastausta";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %1$@";
+"CALL_STATUS_FORMAT" = "Kahf %1$@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Soita";
@@ -701,10 +701,10 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Kamera on pois päältä";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal-käyttäjä";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Kahf-käyttäjä";
 
 /* The generic name used for group calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_GROUP_NAME" = "Signal-ryhmä";
+"CALLKIT_ANONYMOUS_GROUP_NAME" = "Kahf-ryhmä";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Ota kuva ja lähetä se";
@@ -778,38 +778,38 @@
 /* Title for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_TITLE" = "Virhe";
 
-/* Users can donate to Signal with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CARD_NUMBER_GENERIC_ERROR" = "Virheellinen kortin numero";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card number field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card number field on that screen. */
 "CARD_DONATION_CARD_NUMBER_LABEL" = "Kortin numero";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_GENERIC_ERROR" = "Virheellinen CVV";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
 "CARD_DONATION_CVV_LABEL" = "CVV";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_TOO_LONG_ERROR" = "Koodi liian pitkä";
 
-/* Users can donate to Signal with a credit or debit card. This is the text on the \"Donate\" button. */
+/* Users can donate to Kahf with a credit or debit card. This is the text on the \"Donate\" button. */
 "CARD_DONATION_DONATE_BUTTON" = "Lahjoita";
 
-/* Users can donate to Signal with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_EXPIRATION_DATE_GENERIC_ERROR" = "Virheellinen vanhent.pvm";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
 "CARD_DONATION_EXPIRATION_DATE_LABEL" = "Vanhent.pvm";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card expiration date field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card expiration date field on that screen. */
 "CARD_DONATION_EXPIRATION_DATE_PLACEHOLDER" = "KK/VV";
 
-/* Users can donate to Signal with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
+/* Users can donate to Kahf with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
 "CARD_DONATION_HEADER" = "Lahjoitussumma: %1$@";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the body text of that sheet. */
-"CARD_DONATION_READ_MORE_SHEET_BODY" = "Signal ei kerää tai tallenna mitään henkilötietoja, kun teet lahjoituksen.\n\nKäytämme Stripea maksujen käsittelijänä lahjoitusten vastaanottamiseksi. Emme käytä, säilytä tai tallenna mitään heille antamistasi tiedoista.\n\nSignal ei yhdistä eikä voi yhdistää lahjoitustasi Signal-tiliisi.\n\nKiitos tuestasi!";
+"CARD_DONATION_READ_MORE_SHEET_BODY" = "Kahf ei kerää tai tallenna mitään henkilötietoja, kun teet lahjoituksen.\n\nKäytämme Stripea maksujen käsittelijänä lahjoitusten vastaanottamiseksi. Emme käytä, säilytä tai tallenna mitään heille antamistasi tiedoista.\n\nSignal ei yhdistä eikä voi yhdistää lahjoitustasi Kahf-tiliisi.\n\nKiitos tuestasi!";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the title of that sheet. */
 "CARD_DONATION_READ_MORE_SHEET_TITLE" = "Tietosi ovat yksityisiä";
@@ -817,8 +817,8 @@
 /* On the credit/debit card donation screen, a small amount of information text is shown. Users can click this link to learn more information. */
 "CARD_DONATION_SUBHEADER_LEARN_MORE" = "Lue lisää";
 
-/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Signal does not collect or store their personal information. */
-"CARD_DONATION_SUBHEADER_TEXT" = "Anna kortin tiedot. Signal ei kerää tai tallenna henkilötietojasi.";
+/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Kahf does not collect or store their personal information. */
+"CARD_DONATION_SUBHEADER_TEXT" = "Anna kortin tiedot. Kahf ei kerää tai tallenna henkilötietojasi.";
 
 /* Title for the 'censorship circumvention country' view. */
 "CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE" = "Valitse maa";
@@ -884,7 +884,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Vertaa leikepöytään";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Aloita keskustelu valitsemalla tai etsimällä Signal-käyttäjä.";
+"COMPOSE_BUTTON_HINT" = "Aloita keskustelu valitsemalla tai etsimällä Kahf-käyttäjä.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Syötä";
@@ -1033,7 +1033,7 @@
 /* Error indicating that at least one contact field must be selected before sharing a contact. */
 "CONTACT_SHARE_NO_FIELDS_SELECTED" = "Yhtäkään yhteystietokenttää ei valittuna";
 
-/* Button text to initiate an email to signal support staff */
+/* Button text to initiate an email to Kahf support staff */
 "CONTACT_SUPPORT" = "Ota yhteyttä tukeen";
 
 /* The localized representation of the 'Donations & Badges' support filter. */
@@ -1082,7 +1082,7 @@
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Jokin ei toimi";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal ei voinut ratkaista tukipyyntöäsi.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Kahf ei voinut ratkaista tukipyyntöäsi.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Yritä uudelleen";
@@ -1396,14 +1396,14 @@
 /* No comment provided by engineer. */
 "COUNTRYCODE_SELECT_TITLE" = "Valitse maatunnus";
 
-/* Body text for an interactive in-app prompt to set up a Signal username. */
+/* Body text for an interactive in-app prompt to set up a Kahf username. */
 "CREATE_USERNAME_MEGAPHONE_BODY" = "Usernames let others message you without needing your phone number.";
 
-/* Title for a button in an interactive in-app prompt to set up a Signal username, which will start a create-username flow. */
+/* Title for a button in an interactive in-app prompt to set up a Kahf username, which will start a create-username flow. */
 "CREATE_USERNAME_MEGAPHONE_SET_UP_BUTTON_TITLE" = "Set Up";
 
-/* Title for an interactive in-app prompt to set up a Signal username. */
-"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Signal username";
+/* Title for an interactive in-app prompt to set up a Kahf username. */
+"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Kahf username";
 
 /* Credit/debit card donation error for decline failures where the card has expired. */
 "CREDIT_OR_DEBIT_CARD_DONATION_ERROR_EXPIRED_CARD" = "Korttisi on vanhentunut. Tarkista, että kortin tiedot ovat oikein, ja yritä uudelleen.";
@@ -1468,20 +1468,20 @@
 /* In some cases, the user's message history can become corrupted, and a recovery interface is shown. The user has not been hacked and may be confused by this interface, so try to avoid using terms like \"database\" or \"corrupted\"—terms like \"message history\" are better. This is the title on the first screen of this interface, which gives them some information and asks them to continue. */
 "DATABASE_RECOVERY_AWAITING_USER_CONFIRMATION_TITLE" = "Tietojen noutamisessa ilmeni ongelma";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_CONTINUE_ANYWAY" = "Jatka silti";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_DESCRIPTION" = "Jotta tietojen palauttaminen voidaan suorittaa loppuun, suosittelemme, että laitteessasi on vähintään %1$@ vapaata tallennustilaa.";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_TITLE" = "Tallennustila ei riitä";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This is the description on the screen where we show an error message. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Viestihistoriaa ei voitu palauttaa. Voit jatkaa Signalin käyttöä asennettuasi sen uudelleen. Lähetä virheenkorjausloki, jotta voimme paremmin ymmärtää, mikä meni vikaan.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This button lets them delete all of their data. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Palauta Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Palauta Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the final button they will press before their data is reset. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_CONFIRM" = "Palauta alkuasetuksiin";
@@ -1490,7 +1490,7 @@
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_DESCRIPTION" = "Tilin tiedot, profiili ja kaikki viestit poistetaan. Sovellus sulkeutuu, kun prosessi on valmis.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the title of that dialog. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Palauta Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Palauta Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) They were asked to submit a debug log. This is the button that submits this log. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_SUBMIT_DEBUG_LOG_BUTTON" = "Lähetä virheenkorjausloki";
@@ -1565,7 +1565,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Poista tili";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Signal-tili poistetaan ja sovellus palautetaan alkuasetuksiin. Sovellus sulkeutuu prosessin päätteeksi.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Kahf-tili poistetaan ja sovellus palautetaan alkuasetuksiin. Sovellus sulkeutuu prosessin päätteeksi.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Haluatko varmasti poistaa tilisi?";
@@ -1589,7 +1589,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Puhelinnumero";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Varmenna Signal-tilin puhelinnumero";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Varmenna Kahf-tilin puhelinnumero";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Poista tili";
@@ -1612,7 +1612,7 @@
 /* Label warning the user that they have been de-registered. */
 "DEREGISTRATION_WARNING" = "Tämä laite ei ole enää rekisteröity. Puhelinnumerosi saataa olla rekisteröity Signaliin jollain toisella laitteella. Napauta rekisteröityäksesi uudelleen.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Kahf Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Viimeksi aktiivisena %1$@";
 
 /* {{Short Date}} when device was linked. */
@@ -1682,16 +1682,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Ei tarpeeksi tallennustilaa. Siirtoa ei voi tehdä";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Päivitä Signal uusimpaan versioon ja yritä uudelleen";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Päivitä Kahf uusimpaan versioon ja yritä uudelleen";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Siirtää Signal-tili uuteen iOS-laitteeseen. Varmista, että uusi laite on lähettyvillä ja päällä.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Siirtää Kahf-tili uuteen iOS-laitteeseen. Varmista, että uusi laite on lähettyvillä ja päällä.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Siirrä tili";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Avaa Signal aiemmalla laitteella, pidä se lähellä, ja varmista, että WiFi ja Bluetooth ovat käytössä molemmissa laitteissa.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Avaa Kahf aiemmalla laitteella, pidä se lähellä, ja varmista, että WiFi ja Bluetooth ovat käytössä molemmissa laitteissa.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Sijoita tämä QR-koodi toisen laitteen kehykseen.";
@@ -1703,7 +1703,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Odotetaan toista laitetta…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Pidä laitteet lähellä toisiaan. Älä sammuta niitä ja pidä Signal avoinna. Siirrot salataan täysin.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Pidä laitteet lähellä toisiaan. Älä sammuta niitä ja pidä Kahf avoinna. Siirrot salataan täysin.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Tietoja vastaanotetaan";
@@ -1718,7 +1718,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Näytä uuden laitteen koodi kameralle";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Pidä laitteet lähellä toisiaan. Älä sammuta niitä ja pidä Signal avoinna.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Pidä laitteet lähellä toisiaan. Älä sammuta niitä ja pidä Kahf avoinna.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Tietoja siirretään";
@@ -1804,10 +1804,10 @@
 /* If a donation badge has been sent, indicates that it's expired and can no longer be redeemed. This is shown in the chat. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_CHAT_EXPIRED" = "Vanhentunut";
 
-/* If the user tries to donate to Signal but no amount is selected, this error message is shown. */
+/* If the user tries to donate to Kahf but no amount is selected, this error message is shown. */
 "DONATE_SCREEN_ERROR_NO_AMOUNT_SELECTED" = "Valitse lahjoitussumma.";
 
-/* If the user tries to donate to Signal but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
+/* If the user tries to donate to Kahf but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
 "DONATE_SCREEN_ERROR_SELECT_A_LARGER_AMOUNT_FORMAT" = "Lahjoituksen vähimmäissumma on %1$@.";
 
 /* On the donation screen, you can choose between one-time and monthly donations. This is the text on the picker for one-time donations. */
@@ -1880,7 +1880,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_FAILED_ERROR_TITLE" = "Maksu epäonnistui";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "Maksusi käsiteltiin, mutta Signal ei voinut lähettää lahjoitusviestiäsi. Ota yhteys tukeen.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "Maksusi käsiteltiin, mutta Kahf ei voinut lähettää lahjoitusviestiäsi. Ota yhteys tukeen.";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, an error dialog will be shown. This is the title of that dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_TITLE" = "Lahjoitus epäonnistui";
@@ -1933,17 +1933,17 @@
 /* A friend has donated on your behalf and you received a badge. This text says that you received a badge, and from whom. Embeds {{contact's short name, such as a first name}}. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "%1$@ teki lahjoituksen Signalille puolestasi! Näytä profiilissasi, että tuet Signalia.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 1st paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 1st paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_1" = "Yksityistä viestintää. Ei mainoksia, seurantaevästeitä tai valvontaa.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 2nd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Signalia tuetaan lahjoituksilla. Tämä tarkoittaa, että yksityisyytesi on koko toimintamme keskiössä. Signal on luotu sinua varten, ei datan tarpeisiin tai voiton tavoittelemiseksi.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 2nd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Signalia tuetaan lahjoituksilla. Tämä tarkoittaa, että yksityisyytesi on koko toimintamme keskiössä. Kahf on luotu sinua varten, ei datan tarpeisiin tai voiton tavoittelemiseksi.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 3rd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Jos mahdollista, lahjoita Signalille jo tänään varmistaaksesi, että Signal pysyy jatkossakin hauskana, luotettavana ja kaikkien käytettävissä.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 3rd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Jos mahdollista, lahjoita Signalille jo tänään varmistaaksesi, että Kahf pysyy jatkossakin hauskana, luotettavana ja kaikkien käytettävissä.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the title of that screen. */
-"DONATION_READ_MORE_SCREEN_TITLE" = "Signal on erilainen.";
+/* There is a screen where users can read more about their donation to Kahf. This is the title of that screen. */
+"DONATION_READ_MORE_SCREEN_TITLE" = "Kahf on erilainen.";
 
 /* Section title for donation amount on receipts */
 "DONATION_RECEIPT_AMOUNT" = "Summa";
@@ -1958,7 +1958,7 @@
 "DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Jaa kuitti";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Kiitos Signalin tukemisesta. Lahjoituksesi auttaa edistämään avoimen lähdekoodin tietosuojateknologian kehittämistä, joka suojaa sananvapautta ja mahdollistaa turvallisen maailmanlaajuisen viestinnän miljoonille käyttäjille ympäri maailmaa. Jos asut Yhdysvalloissa, säilytä tämä kuitti verotusta varten. Signal Technology Foundation on verovapaa voittoa tavoittelematon organisaatio Yhdysvaltojen Internal Revenue Code -pykälän 501c3 mukaisesti. Liittovaltion verotunnuksemme on 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "Kiitos Signalin tukemisesta. Lahjoituksesi auttaa edistämään avoimen lähdekoodin tietosuojateknologian kehittämistä, joka suojaa sananvapautta ja mahdollistaa turvallisen maailmanlaajuisen viestinnän miljoonille käyttäjille ympäri maailmaa. Jos asut Yhdysvalloissa, säilytä tämä kuitti verotusta varten. Kahf Technology Foundation on verovapaa voittoa tavoittelematon organisaatio Yhdysvaltojen Internal Revenue Code -pykälän 501c3 mukaisesti. Liittovaltion verotunnuksemme on 82-4506840.";
 
 /* Title for receipts for donations given on a friend's behalf */
 "DONATION_RECEIPT_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Lahjoitus ystävän puolesta";
@@ -1996,7 +1996,7 @@
 /* Title for the \"donate for a friend\" button on the donation view. */
 "DONATION_VIEW_DONATE_ON_BEHALF_OF_A_FRIEND" = "Lahjoita ystävän puolesta";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
+/* Text describing to the user that they're going to pay a donation to Kahf */
 "DONATION_VIEW_DONATION_TO_SIGNAL" = "Lahjoitus Signalille";
 
 /* Text that's shown when the donation view fails to load data, probably due to network failure */
@@ -2008,7 +2008,7 @@
 /* Title for the 'Manage Subscription' button on the donation screen */
 "DONATION_VIEW_MANAGE_SUBSCRIPTION" = "Muokkaa tilausta";
 
-/* Text describing to the user that they're going to pay a monthly donation to Signal */
+/* Text describing to the user that they're going to pay a monthly donation to Kahf */
 "DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Kuukausilahjoitus Signalille";
 
 /* Title for the 'more' section on the donation screen */
@@ -2023,17 +2023,17 @@
 /* Title for the 'Subscription FAQ' button on the donation screen */
 "DONATION_VIEW_SUBSCRIPTION_FAQ" = "Tilausten yleiset kysymykset";
 
-/* Title on the 'Donate to Signal' screen */
+/* Title on the 'Donate to Kahf' screen */
 "DONATION_VIEW_TITLE" = "Lahjoita Signalille";
 
 /* Label for the currency picker button in donation views */
 "DONATIONS_CURRENCY_PICKER_LABEL" = "Valuutta";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Voit antaa käyttöoikeuden iOS-asetuksissa.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal tarvitsee oikeuden käyttää yhteystietojasi, jotta se voi muokata niitä";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Kahf tarvitsee oikeuden käyttää yhteystietojasi, jotta se voi muokata niitä";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Muokkaa ryhmää";
@@ -2056,14 +2056,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Kopioi";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
+/* body of email sent to contacts when inviting to install Kahf. Embeds {{link to install Kahf}} and {{link to the Kahf home page}} */
 "EMAIL_INVITE_BODY" = "Hei!\n\nOlen siirtynyt käyttämään Signalia iPhonella tietosuojattuun viestintään. Toivoisin myös sinun asentavan sen, jotta voimme olla varmoja, ettei kukaan muu lue viestejämme tai kuuntele puheluitamme.\n\nSignal on saatavilla sekä iPhonelle että Androidille. Lataa se täältä: %1$@\n\nSignal toimii kuten muutkin viestintäsovellukset. Sillä voi lähettää kuvia ja videoita, soittaa puheluita ja käydä ryhmäkeskusteluja. Ja mikä parasta, kukaan ulkopuolinen ei pääse käsiksi viesteihin, eivät edes Signalin kehittäjät!\n\nVoit lukea lisää Open Whisper Systemsistä, eli Signalin kehittäjistä, täältä: %2$@";
 
-/* subject of email sent to contacts when inviting to install Signal */
+/* subject of email sent to contacts when inviting to install Kahf */
 "EMAIL_INVITE_SUBJECT" = "Vaihdetaan Signaliin";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Laitteesi ei tue sähköpostien lähetystä. Lähettääksesi tukipyynnön, määritä laitteesi sähköpostiasetukset tai lähetä sähköposti osoitteeseen support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Laitteesi ei tue sähköpostien lähetystä. Lähettääksesi tukipyynnön, määritä laitteesi sähköpostiasetukset tai lähetä sähköposti osoitteeseen support@Kahf.org";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Sähköposti ei käytettävissä";
@@ -2150,7 +2150,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Virheelinen vastaus palvelimelta.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Tämä laite ei ole enää rekisteröity puhelinnumerollesi. Asenna Signal uudelleen.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Tämä laite ei ole enää rekisteröity puhelinnumerollesi. Asenna Kahf uudelleen.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Palvelinvirhe. Yritä myöhemmin uudelleen.";
@@ -2188,10 +2188,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Istunnon määrittäminen yhteyttä varten epäonnistui.";
 
-/* Shown when signal users safety numbers changed */
+/* Shown when Kahf users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "Turvanumero on vaihtunut.";
 
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Kahf users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "Turvanumerosi yhteystiedon %1$@ kanssa on vaihtunut.";
 
 /* Text notifying the user that their secure session has been reset */
@@ -2207,10 +2207,10 @@
 "ERROR_NETWORK_FAILURE" = "Verkkovirhe";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Ole hyvä ja auta meitä parantamaan Signalia lähettämällä tämä virheilmoitus laitteesi virheenkorjauslokien kanssa osoitteeseen support@signal.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Ole hyvä ja auta meitä parantamaan Signalia lähettämällä tämä virheilmoitus laitteesi virheenkorjauslokien kanssa osoitteeseen support@Kahf.org; %1$@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: Tapahtui virhe";
+"ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Tapahtui virhe";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Laitteesi ei ole enää yhdistetty. Yhdistä uudelleen jatkaaksesi viestintää.";
@@ -2221,7 +2221,7 @@
 /* Error indicating a send failure due to an expired application. */
 "ERROR_SENDING_EXPIRED" = "Käyttämäsi Signalin versio on vanhentunut. Napsauta päivittääksesi uudempaan versioon, jotta voit jatkaa viestintää.";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Kahf id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Rekisteröimätön käyttäjä: %1$@";
 
 /* Label notifying the user that the app has expired. */
@@ -2501,10 +2501,10 @@
 "GROUP_CALL_WILL_NOTIFY_TWO_PEOPLE_FORMAT" = "Käyttäjille %1$@ ja %2$@ ilmoitetaan";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there is one other person in the group. Embeds {member name} */
-"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Signal soittaa käyttäjälle %1$@";
+"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Kahf soittaa käyttäjälle %1$@";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there are two other people in the group. Embeds {{ %1$@ participant1, %2$@ participant2 }} */
-"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Signal soittaa käyttäjille %1$@ ja %2$@";
+"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Kahf soittaa käyttäjille %1$@ ja %2$@";
 
 /* Text explaining that you are in the group call. */
 "GROUP_CALL_YOU_ARE_HERE" = "Olet ryhmäpuhelussa";
@@ -2687,7 +2687,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Virheellinen linkki";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Päivitä Signal tällä laitteella liittyäksesi ryhmään.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Päivitä Kahf tällä laitteella liittyäksesi ryhmään.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Ylläpitäjän on hyväksyttävä ryhmälinkin kautta liittyvät uudet jäsenet.";
@@ -2746,7 +2746,7 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR-koodi";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
+/* Label for the 'share group link via Kahf' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Jaa Signalilla";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
@@ -3223,7 +3223,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Ota yhteyttä";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Kahf support website */
 "HELP_SUPPORT_CENTER" = "Tukikeskus";
 
 /* Label for 'archived conversations' button. */
@@ -3238,16 +3238,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Luonnos: ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Kahf contact.  Embeds {{The name of 1 of your Kahf contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Osa yhteystiedoistasi käyttää jo Signalia, esimerkiksi %1$@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Kahf contacts.  Embeds {{The names of 2 of your Kahf contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Osa yhteystiedoistasi käyttää jo Signalia, esimerkiksi %1$@ ja %2$@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Kahf contacts.  Embeds {{The names of 3 of your Kahf contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Osa yhteystiedoistasi käyttää jo Signalia, esimerkiksi %1$@, %2$@ ja %3$@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Kahf contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Aloita ensimmäinen keskustelu.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -3280,11 +3280,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Voit jakaa enintään %1$@ kohdetta.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Kahf has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Vaihda kuvat";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Anna Signalille täydet käyttöoikeudet Asetuksissa tai vaihda, mitä kuvia Signal voi käyttää.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Anna Signalille täydet käyttöoikeudet Asetuksissa tai vaihda, mitä kuvia Kahf voi käyttää.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Etkö näe kuviasi?";
@@ -3343,7 +3343,7 @@
 /* Indicates that another user has changed their phone number. Embeds: {{ the user's name}} */
 "INFO_MESSAGE_USER_CHANGED_PHONE_NUMBER_FORMAT" = "%1$@ vaihtoi puhelinnumeroaan.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
+/* Shown in inbox and conversation when a user joins Kahf, embeds the new user's {{contact name}} */
 "INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ käyttää Signalia!";
 
 /* accessibility label for the button which shows the regular keyboard instead of sticker picker */
@@ -3367,10 +3367,10 @@
 /* The provided proxy host address is not valid */
 "INVALID_PROXY_HOST_ERROR" = "Antamasi välityspalvelinosoite on virheellinen. Tarkista osoite ja yritä uudelleen.";
 
-/* Alert body when contacts disabled while trying to invite contacts to signal */
+/* Alert body when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Kutsu kavereita Signaliin sallimalla yhteystietojen käyttö iOS:n asetuksissa.";
 
-/* Alert title when contacts disabled while trying to invite contacts to signal */
+/* Alert title when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Salli yhteystietojen käyttö";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
@@ -3473,7 +3473,7 @@
 "LINK_PREVIEW_UNKNOWN_DOMAIN" = "Linkin esikatselukuva";
 
 /* Shown in an alert when trying to edit a contact. */
-"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Järjestelmän yhteystietojen hallinta ei ole enää käytettävissä iPadilla. Avaa Signal puhelimessasi, jos haluat lisätä Signal-kontakteja järjestelmän yhteystietoihin.";
+"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Järjestelmän yhteystietojen hallinta ei ole enää käytettävissä iPadilla. Avaa Kahf puhelimessasi, jos haluat lisätä Kahf-kontakteja järjestelmän yhteystietoihin.";
 
 /* Shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. */
 "LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Järjestelmän yhteystietojen hallintaa ei enää tueta iPadilla. Tämä laite synkronoi edelleen yhteystietoluetteloon tehdyt muutokset puhelimen Signalista.";
@@ -3497,7 +3497,7 @@
 "LINKING_DEVICE_FAILED_TITLE" = "Laitteen yhdistäminen epäonnistui";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Signal-tilisi siirtämiseksi sinun on sallittava paikallisen verkon käyttö molemmissa laitteissa.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Kahf-tilisi siirtämiseksi sinun on sallittava paikallisen verkon käyttö molemmissa laitteissa.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Tarvitsetko apua?";
@@ -3509,7 +3509,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Ota käyttöön Paikallinen verkko";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Siirry kohtaan Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Siirry kohtaan Kahf";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Ota käyttöön paikallinen verkko";
@@ -3607,7 +3607,7 @@
 /* Label for button to open a link. */
 "MESSAGE_ACTION_LINK_OPEN_LINK" = "Avaa linkki";
 
-/* Label for button to open a signal proxy. */
+/* Label for button to open a Kahf proxy. */
 "MESSAGE_ACTION_LINK_OPEN_PROXY" = "Avaa Signalin välityspalvelin";
 
 /* Label for button to open a sticker pack. */
@@ -3752,7 +3752,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Poistetaanko ja poistutaanko ryhmästä?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Tarkista pyynnöt huolellisesti. Signal löysi toisen saman nimisen yhteystiedon.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Tarkista pyynnöt huolellisesti. Kahf löysi toisen saman nimisen yhteystiedon.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Yhteystietosi";
@@ -3847,7 +3847,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Luettu";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Kahf account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Ohitettu";
 
 /* Label indicating that a message failed to send. */
@@ -3893,19 +3893,19 @@
 "MISSING_CAMERA_PERMISSION_MESSAGE" = "Soita videopuheluita Signalilla sallimalla kameran käyttö iOS:n asetuksissa.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal tarvitsee oikeuden käyttää kameraa.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Kahf tarvitsee oikeuden käyttää kameraa.";
 
 /* Alert body indicating the user has denied location permissions */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Voit antaa tämän käyttöoikeuden laitteesi Asetuksista.";
 
 /* Alert title indicating the user has denied location permissions */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Tämän toiminnon käyttämiseksi Signal tarvitsee luvan käyttää laitteesi sijaintitietoa.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Tämän toiminnon käyttämiseksi Kahf tarvitsee luvan käyttää laitteesi sijaintitietoa.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Voit antaa käyttöoikeuden iOS-asetuksissa.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Tämän toiminnon käyttämiseksi Signal tarvitsee luvan käyttää laitteesi mediakirjastoa.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Tämän toiminnon käyttämiseksi Kahf tarvitsee luvan käyttää laitteesi mediakirjastoa.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Ei mitään";
@@ -3926,7 +3926,7 @@
 "MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_EXCEPT_TITLE" = "Kaikki, paitsi…";
 
 /* Title for the visibility option */
-"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Kaikki Signal-kontaktit";
+"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Kaikki Kahf-kontaktit";
 
 /* Title for the visibility option */
 "MY_STORIES_SETTINGS_VISIBILITY_ONLY_SHARE_WITH_TITLE" = "Jaa vain seuraaville…";
@@ -4105,7 +4105,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Ei nimeä eikä sisältöä";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Kahf will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Toista, kun sovellus on auki";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -4160,7 +4160,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Yhdistä iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Napauttamalla Rekisteröi iPad voit luoda uuden Signal-tilin tai siirtää olemassa olevan tilin tähän iPadiin. Tämä poistaa Signalin käytöstä muissa samalla puhelinnumerolla rekisteröidyissä laitteissa.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Napauttamalla Rekisteröi iPad voit luoda uuden Kahf-tilin tai siirtää olemassa olevan tilin tähän iPadiin. Tämä poistaa Signalin käytöstä muissa samalla puhelinnumerolla rekisteröidyissä laitteissa.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Napauttamalla Yhdistä iPhone voit yhdistää puhelimesi olemassa olevaan tiliin. Puhelimen yhdistämistä ei yleensä suositella, ja se rajoittaa joitain toimintoja, kuten soittamista.";
@@ -4181,7 +4181,7 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Myönnä käyttöoikeudet";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Ilmoitusten ja yhteystietojen salliminen mahdollistaa uusista viesteistä ilmoittamisen ja tuntemiesi ihmisten löytämisen. Yhteystiedot salataan, eikä Signal-sovellus käsittele niitä.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Ilmoitusten ja yhteystietojen salliminen mahdollistaa uusista viesteistä ilmoittamisen ja tuntemiesi ihmisten löytämisen. Yhteystiedot salataan, eikä Kahf-sovellus käsittele niitä.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Myönnä käyttöoikeudet";
@@ -4205,7 +4205,7 @@
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Virheellinen puhelinnumero. Syötä kelvollinen puhelinnumero vaihtaaksesi numeroa.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Tunnuslukuyritykset ovat loppuneet, mutta voit silti käyttää Signal-tiliäsi luomalla uuden tunnusluvun. Yksityisyys- ja tietoturvasyistä tili palautetaan ilman tallennettuja profiilitietoja tai asetuksia.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Tunnuslukuyritykset ovat loppuneet, mutta voit silti käyttää Kahf-tiliäsi luomalla uuden tunnusluvun. Yksityisyys- ja tietoturvasyistä tili palautetaan ilman tallennettuja profiilitietoja tai asetuksia.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Lisätietoa tunnusluvuista";
@@ -4279,13 +4279,13 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%1$@ asetti viestien katoamisajaksi %2$@.";
 
-/* Label warning the user that the Signal service may be down. */
+/* Label warning the user that the Kahf service may be down. */
 "OUTAGE_WARNING" = "Signalissa ilmenee tällä hetkellä teknisiä ongelmia. Työskentelemme parhaillaan palvelun palauttamiseksi.";
 
 /* Label for action link when the user has an outdated payment client */
 "OUTDATED_PAYMENT_CLIENT_ACTION_TITLE" = "Päivitä nyt";
 
-/* Label warning the user that they should update Signal to continue using payments. */
+/* Label warning the user that they should update Kahf to continue using payments. */
 "OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Maksut-toiminto edellyttää Signalin uusinta versiota. Saldosi ei ehkä ole ajan tasalla.";
 
 /* info message text in conversation view */
@@ -4396,7 +4396,7 @@
 /* Title for action sheet shown when unlocking with biometrics like Face ID or TouchID fails because it is disabled at a system level. */
 "PAYMENTS_LOCK_LOCAL_BIOMETRY_AUTH_DISABLED_TITLE" = "Biometrinen tunnistautuminen epäonnistui";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
 "PAYMENTS_LOCK_REASON_UNLOCK_PAYMENTS_LOCK" = "Vahvista maksu tunnistautumalla.";
 
 /* Label for the 'add memo' ui in the 'send payment' UI. */
@@ -4649,13 +4649,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Kaikki";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Signal. Others will be able to reach you with your phone number when they start a new chat or group.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Kahf. Others will be able to reach you with your phone number when they start a new chat or group.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Ei kukaan";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Signal will be able to reach you with your phone number.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Kahf will be able to reach you with your phone number.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Esimerkki: %1$@";
@@ -4820,7 +4820,7 @@
 "PIN_CREATION_WEAK_ERROR" = "Valitse vahvempi tunnusluku";
 
 /* If your attempted PIN is too weak, you'll see an error message. This is the text on the error dialog. */
-"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Signal encrypted so only you can access it. Choose a stronger PIN to protect your account.";
+"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Kahf encrypted so only you can access it. Choose a stronger PIN to protect your account.";
 
 /* Error body indicating that the attempt to disable a PIN failed. */
 "PIN_DISABLE_ERROR_MESSAGE" = "Tunnuslukua ei voitu poistaa käytöstä. Muistutamme sinua myöhemmin uudelleen.";
@@ -4850,7 +4850,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Muistutamme sinua jälleen muutaman päivän päästä.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Varmenna Signal-tunnuslukusi";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Varmenna Kahf-tunnuslukusi";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Muistutamme sinua jälleen huomenna.";
@@ -4865,7 +4865,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Väärä tunnusluku, yritä uudelleen.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Syötä Signal-tunnuslukusi";
+"PIN_REMINDER_TITLE" = "Syötä Kahf-tunnuslukusi";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "Tunnusluvussa on oltava vähintään 4 numeroa.";
@@ -4880,7 +4880,7 @@
 "PINS_MEGAPHONE_ACTION" = "Luo tunnusluku";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Viimeistele Signal-tunnusluvun luonti.";
+"PINS_MEGAPHONE_BODY" = "Viimeistele Kahf-tunnusluvun luonti.";
 
 /* Title for PIN megaphone when user doesn't have a PIN */
 "PINS_MEGAPHONE_TITLE" = "Luo tunnusluku";
@@ -4913,13 +4913,13 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Leikepöydällä oleva numero ei ole oikea turvanumero tälle keskustelulle.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal ei löytänyt turvanumeroa leikepöydältä. Oletko varmasti kopioinut sen oikein?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Kahf ei löytänyt turvanumeroa leikepöydältä. Oletko varmasti kopioinut sen oikein?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Turvanumero on yksilöllinen aina kahden Signal-käyttäjän välillä. Tarkista vielä, että käyttäjän %1$@ laitteessa näkyy juuri tämä turvanumero.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Turvanumero on yksilöllinen aina kahden Kahf-käyttäjän välillä. Tarkista vielä, että käyttäjän %1$@ laitteessa näkyy juuri tämä turvanumero.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Käytössäsi on vanha Signal-versio Signalista. Päivitä sovellus, jotta voit varmentaa.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Käytössäsi on vanha Kahf-versio Signalista. Päivitä sovellus, jotta voit varmentaa.";
 
 /* alert body */
 "PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Vastapuolella on käytössä vanha versio Signalista. Hänen tulee ensin päivittää, jotta voitte varmentaa.";
@@ -5032,7 +5032,7 @@
 /* Title for the profile view. */
 "PROFILE_VIEW_TITLE" = "Profiili";
 
-/* The title for the address of the signal proxy */
+/* The title for the address of the Kahf proxy */
 "PROXY_ADDRESS" = "Välityspalvelimen osoite";
 
 /* The provided proxy connected successfully */
@@ -5041,10 +5041,10 @@
 /* The provided proxy couldn't connect */
 "PROXY_FAILED_TO_CONNECT" = "Yhteyden muodostaminen välityspalvelimeen ei onnistunut. Tarkista välityspalvelimen osoite ja yritä uudelleen.";
 
-/* Placeholder text for signal proxy host */
+/* Placeholder text for Kahf proxy host */
 "PROXY_PLACEHOLDER" = "Syötä välityspalvelimen osoite";
 
-/* Title for the signal proxy settings */
+/* Title for the Kahf proxy settings */
 "PROXY_SETTINGS_TITLE" = "Välityspalvelin";
 
 /* Notification action button title */
@@ -5149,13 +5149,13 @@
 /* Alert title. Shown after selecting a phone number that isn't valid. */
 "RECIPIENT_PICKER_INVALID_NUMBER_TITLE" = "Virheellinen puhelinnumero";
 
-/* Button. Shown after selecting a phone number that isn't a Signal user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
+/* Button. Shown after selecting a phone number that isn't a Kahf user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
 "RECIPIENT_PICKER_INVITE_ACTION" = "Viesti";
 
-/* Alert text. Shown after selecting a phone number that isn't a Signal user. */
+/* Alert text. Shown after selecting a phone number that isn't a Kahf user. */
 "RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ ei ole Signalin käyttäjä. Haluatko kutsua tämän numeron?";
 
-/* Alert title. Shown after selecting a phone number that isn't a Signal user. */
+/* Alert title. Shown after selecting a phone number that isn't a Kahf user. */
 "RECIPIENT_PICKER_INVITE_TITLE" = "Kutsu Signaliin";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
@@ -5194,10 +5194,10 @@
 /* Label for the country code field */
 "REGISTRATION_DEFAULT_COUNTRY_NAME" = "Maatunnus";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
-"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Signal on other devices currently registered with the same phone number.";
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
+"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Kahf on other devices currently registered with the same phone number.";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
 "REGISTRATION_DEVICE_TRANSFER_CHOICE_TITLE" = "Transfer Account & Messages";
 
 /* Placeholder text for the phone number textfield */
@@ -5234,13 +5234,13 @@
 "REGISTRATION_PIN_CONFIRM_TITLE" = "Confirm your PIN";
 
 /* During registration, users are asked to create a PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During registration, users are asked to create a PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_CREATE_TITLE" = "Create your PIN";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_ENTER_EXISTING_TITLE" = "Enter your PIN";
@@ -5348,7 +5348,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Näytä";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Keskustelumme Signal-turvanumero:\n%1$@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Keskustelumme Kahf-turvanumero:\n%1$@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Turvanumerosi käyttäjän %1$@ kanssa on vaihtunut. Saatat halua varmentaa sen.";
@@ -5380,13 +5380,13 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Aseta pääsykoodi puhelimesi asetuksista, jotta voit käyttää näytön lukitusta.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Avaa Signal tunnistautumalla";
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Avaa Kahf tunnistautumalla";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Tunnistautuminen epäonnistui";
 
-/* Label for button on lock screen that lets users unlock Signal. */
+/* Label for button on lock screen that lets users unlock Kahf. */
 "SCREEN_LOCK_UNLOCK_SIGNAL" = "Avaa Signalin lukitus";
 
 /* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
@@ -5423,7 +5423,7 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Tili ei täsmää";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Tämän laitteen Signal on päivitettävä ennen puhelimen yhdistämistä.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Tämän laitteen Kahf on päivitettävä ennen puhelimen yhdistämistä.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Ei-tuettu versio";
@@ -5450,19 +5450,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Viimeistele yhdistäminen";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Aloita tämän iPadin yhdistäminen avaamalla Signal puhelimessasi";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Aloita tämän iPadin yhdistäminen avaamalla Kahf puhelimessasi";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
 "SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Minulla ei ole Signalia puhelimessa…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Siirry puhelimesi App Store -sovellukseen, asenna Signal, viimeistele rekisteröintiprosessi ja yhdistä sitten iPad samaan tiliin.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Siirry puhelimesi App Store -sovellukseen, asenna Kahf, viimeistele rekisteröintiprosessi ja yhdistä sitten iPad samaan tiliin.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Asenna Signal puhelimeesi";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Asenna Kahf puhelimeesi";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Avaa Signal-asetukset napauttamalla profiilikuvaasi. Napauta Yhdistetyt laitteet, sitten Yhdistä uusi laite ja skannaa sitten tämä koodi puhelimellasi:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Avaa Kahf-asetukset napauttamalla profiilikuvaasi. Napauta Yhdistetyt laitteet, sitten Yhdistä uusi laite ja skannaa sitten tämä koodi puhelimellasi:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Saa apua iPadin yhdistämiseen täältä";
@@ -5471,7 +5471,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Skannaa QR-koodi puhelimellasi";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Avaa Signal vanhalla iPadillasi tilisi siirtämiseksi";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Avaa Kahf vanhalla iPadillasi tilisi siirtämiseksi";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Suojattu istunto alustettu.";
@@ -5540,7 +5540,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Sijainti";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Signal yrittää kiertää sensuuria toiminnon ollessa käytössä. Käytä toimintoa vain paikassa, jossa Signal on sensuroitu.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Kahf yrittää kiertää sensuuria toiminnon ollessa käytössä. Käytä toimintoa vain paikassa, jossa Kahf on sensuroitu.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Puhelinnumerosi sijaintiin perustuva sensuurin kiertäminen otettu käyttöön.";
@@ -5551,8 +5551,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Sensuurin kiertäminen toimii ainoastaan laitteen ollessa Internet-yhteydessä.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Sensuurin kiertäminen ei ole tarpeellista, sillä laite on jo yhdistetty Signal-palvelimeen.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Kahf service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Sensuurin kiertäminen ei ole tarpeellista, sillä laite on jo yhdistetty Kahf-palvelimeen.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Virheenkorjausloki";
@@ -5593,7 +5593,7 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Lisää estetty käyttäjä";
 
-/* A label that indicates the user has no Signal contacts that they haven't blocked. */
+/* A label that indicates the user has no Kahf contacts that they haven't blocked. */
 "SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Sinulla ei ole yhteystietoja Signalissa.";
 
 /* A label that indicates the user's search has no matching results. */
@@ -5660,7 +5660,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Tyhjennä keskusteluhistoria";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Copyright Signal Messenger\nLisensoitu AGPLv3-lisenssillä";
+"SETTINGS_COPYRIGHT" = "Copyright Kahf Messenger\nLisensoitu AGPLv3-lisenssillä";
 
 /* Label for the 'data' section of the app settings. */
 "SETTINGS_DATA" = "Datankäyttö";
@@ -5725,7 +5725,7 @@
 /* Explanation for the 'disappearing messages' privacy settings. */
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Valitse oletusajastin katoaville viesteille kaikissa uusissa aloittamissasi keskusteluissa.";
 
-/* Title for the 'donate to signal' link in settings. */
+/* Title for the 'donate to Kahf' link in settings. */
 "SETTINGS_DONATE" = "Lahjoita Signalille";
 
 /* Title for help button and help pages in app settings. */
@@ -5794,7 +5794,7 @@
 /* table section header */
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Ilmoitusten sisältö";
 
-/* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
+/* When the local device discovers a contact has recently installed Kahf, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
 "SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Yhteystieto liittyy Signaliin";
 
 /* table section header */
@@ -5870,10 +5870,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Poista maksut käytöstä";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Varat kannattaa siirtää toiseen lompakko-osoitteeseen ennen maksujen ottamista pois käytöstä. Jos varoja ei siirretä nyt, ne säilyvät Signal-tiliin liitetyssä lompakossa siltä varalta jos maksut otetaan uudestaan käyttöön.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Varat kannattaa siirtää toiseen lompakko-osoitteeseen ennen maksujen ottamista pois käytöstä. Jos varoja ei siirretä nyt, ne säilyvät Kahf-tiliin liitetyssä lompakossa siltä varalta jos maksut otetaan uudestaan käyttöön.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Varat säilytetään Signal-tiliin liitetyssä lompakossa siltä varalta jos maksut otetaan uudestaan käyttöön.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Varat säilytetään Kahf-tiliin liitetyssä lompakossa siltä varalta jos maksut otetaan uudestaan käyttöön.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Poistetaanko käytöstä siirtämättä varoja?";
@@ -6065,7 +6065,7 @@
 "SETTINGS_PAYMENTS_PAYMENTS_LOCK_PROMPT_EXPLANATION_TOUCHID" = "Ota käyttöön Touch ID, jonka avulla voit estää puhelintasi käyttävää henkilöä käyttämästä varojasi. Voit poistaa tämän asetuksen käytöstä asetuksissa.";
 
 /* Button for payments outdated sheet. */
-"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Päivitä Signal";
+"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Päivitä Kahf";
 
 /* Message for payments outdated sheet. */
 "SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_MESSAGE" = "Sovellus on päivitettävä, jotta voit jatkossakin lähettää ja vastaanottaa maksuja ja nähdä ajantasaiset saldotiedot.";
@@ -6281,7 +6281,7 @@
 "SETTINGS_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Who Can Find Me By Number";
 
 /* Description label for Phone Number Privacy */
-"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Signal with it.";
+"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Kahf with it.";
 
 /* The title for phone number privacy settings. */
 "SETTINGS_PHONE_NUMBER_PRIVACY_TITLE" = "Phone Number";
@@ -6293,16 +6293,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Poista muistutukset käytöstä";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Opettele tunnusluku ulkoa tai tallenna se turvallisesti, sillä sitä ei voi palauttaa. Jos tunnusluku unohtuu ja Signal rekisteröidään uudelleen, tietoja voi kadota.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Opettele tunnusluku ulkoa tai tallenna se turvallisesti, sillä sitä ei voi palauttaa. Jos tunnusluku unohtuu ja Kahf rekisteröidään uudelleen, tietoja voi kadota.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Vahvista Signal-tunnuslukusi";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Vahvista Kahf-tunnuslukusi";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "Tunnuslukumuistutukset";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "Tunnusluvulla salataan Signaliin tallennetut tiedot, jotta vain sinä pääset niihin käsiksi. Profiili, asetukset ja yhteystiedot palautetaan, jos Signal asennetaan uudelleen.";
+"SETTINGS_PINS_FOOTER" = "Tunnusluvulla salataan Signaliin tallennetut tiedot, jotta vain sinä pääset niihin käsiksi. Profiili, asetukset ja yhteystiedot palautetaan, jos Kahf asennetaan uudelleen.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Vaihda tunnusluku";
@@ -6311,7 +6311,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Luo tunnusluku";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal-tunnusluku";
+"SETTINGS_PINS_TITLE" = "Kahf-tunnusluku";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Sensuurin kierron, välityspalvelimen, puheluiden välityksen ja lähettäjäsinetin asetukset.";
@@ -6338,7 +6338,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Ota käyttöön";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Jos et muista Signal-tunnuslukua, kun rekisteröit Signalin uudelleen, tili lukitaan 7 päiväksi.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Jos et muista Kahf-tunnuslukua, kun rekisteröit Signalin uudelleen, tili lukitaan 7 päiväksi.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Otetaanko rekisteröintiesto käyttöön?";
@@ -6392,16 +6392,16 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Jaa yhteystiedot iOS:n kanssa";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Salli iOS:lle käyttöoikeus Signal-yhteystietoihin ja keskusteluihin, jotta tietyt ominaisuudet toimivat, mm. jakamisehdotukset";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Salli iOS:lle käyttöoikeus Kahf-yhteystietoihin ja keskusteluihin, jotta tietyt ominaisuudet toimivat, mm. jakamisehdotukset";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Salli iOS:lle käyttöoikeus Signal-yhteystietoihin ja keskusteluihin, jotta tietyt ominaisuudet toimivat, mm. jakamisehdotukset";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Salli iOS:lle käyttöoikeus Kahf-yhteystietoihin ja keskusteluihin, jotta tietyt ominaisuudet toimivat, mm. jakamisehdotukset";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Rekisteröintiesto";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Vaadi Signal-tunnuslukua aina, kun tällä puhelinnumerolla rekisteröidytään Signaliin.";
+/* Footer for the 'two factor auth' section of the privacy settings when Kahf PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Vaadi Kahf-tunnuslukua aina, kun tällä puhelinnumerolla rekisteröidytään Signaliin.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Kirjoittamisen ilmaisin";
@@ -6434,13 +6434,13 @@
 "SHARE_EXTENSION_LOADING" = "Ladataan…";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Rekisteröidy avaamalla Signal";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Rekisteröidy avaamalla Kahf";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Ei rekisteröity";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Rekisteröidy tai päivitä avaamalla Signal";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Rekisteröidy tai päivitä avaamalla Kahf";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Ei valmis";
@@ -6454,7 +6454,7 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Ladataan…";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Kahf user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Liitteen valmistelu epäonnistui";
 
 /* Title for the 'share extension' view. */
@@ -6469,7 +6469,7 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Näytä keskustelu";
 
-/* body sent to contacts when inviting to Install Signal */
+/* body sent to contacts when inviting to Install Kahf */
 "SMS_INVITE_BODY" = "Tule käyttämään Signalia! Tässä linkki:";
 
 /* An error message generically indicating that something went wrong. */
@@ -6494,7 +6494,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Jatketaanko vahvistamatta?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Suorita varmennus, jotta SIgnal pystyy vähentämään roskapostia.\n\nViestin lähettämistä ja vastaanottamista voi jatkaa, kun olet viimeistellyt varmennuksen. Kaikki pysäytetyt viestit lähtevät automaattisesti.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Suorita varmennus, jotta Kahf pystyy vähentämään roskapostia.\n\nViestin lähettämistä ja vastaanottamista voi jatkaa, kun olet viimeistellyt varmennuksen. Kaikki pysäytetyt viestit lähtevät automaattisesti.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Varmenna jatkaaksesi viestintää Signalissa.";
@@ -6512,7 +6512,7 @@
 "STICKERS_INSTALL_BUTTON" = "Asenna";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signal Artist -sarja";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Kahf Artist -sarja";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Vastaanotetut tarrat";
@@ -6772,32 +6772,32 @@
 /* Text indicating that the story is currently sending */
 "STORY_SENDING" = "Lähetetään…";
 
-/* First bullet point for the explainer sheet for signal connections */
+/* First bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_1" = "Aloittamalla keskustelun";
 
-/* Second bullet point for the explainer sheet for signal connections */
+/* Second bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_2" = "Hyväksymällä viestipyynnön";
 
-/* Third bullet point for the explainer sheet for signal connections */
+/* Third bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_3" = "Lisäämällä heidät puhelimen järjestelmän yhteystietoihin";
 
-/* Footer for the explainer sheet for signal connections */
+/* Footer for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_FOOTER" = "Kontaktisi näkevät nimesi ja valokuvasi sekä Omaan tarinaan tekemäsi julkaisut, ellet piilota sitä heiltä.";
 
-/* Header for the explainer sheet for signal connections */
-"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Signal-kontaktit</bold> ovat käyttäjiä, jotka olet valinnut luotetuiksi jollakin seuraavista tavoista:";
+/* Header for the explainer sheet for Kahf connections */
+"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Kahf-kontaktit</bold> ovat käyttäjiä, jotka olet valinnut luotetuiksi jollakin seuraavista tavoista:";
 
 /* Label for the stories section of the settings view */
 "STORY_SETTINGS_TITLE" = "Tarinat";
 
 /* Section footer for the 'viewers' section on the 'story settings' view */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Valitse Signal-kontaktit, jotka voivat nähdä tarinasi. Muutokset eivät vaikuta jo lähettämiisi tarinoihin.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Valitse Kahf-kontaktit, jotka voivat nähdä tarinasi. Muutokset eivät vaikuta jo lähettämiisi tarinoihin.";
 
 /* Section header for the 'viewers' section on the 'story settings' view */
 "STORY_SETTINGS_WHO_CAN_VIEW_THIS_HEADER" = "Kuka voi nähdä tämän tarinan";
 
 /* Header for the 'viewers' section on the 'story settings' bottom sheet */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Valitse Signal-kontaktit, jotka voivat nähdä tarinasi. Voit muuttaa tätä valintaa milloin tahansa yksityisyysasetuksissa.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Valitse Kahf-kontaktit, jotka voivat nähdä tarinasi. Voit muuttaa tätä valintaa milloin tahansa yksityisyysasetuksissa.";
 
 /* Tooltip text shown when the user selects a story as a destination for a long duration video that will be split into shorter segments. Embeds {{ segment duration in seconds }} */
 "STORY_VIDEO_SEGMENTATION_TOOLTIP_FORMAT" = "Tarinoihin lähetetyt videot lyhennetään %1$d sekunnin leikkeiksi ja lähetetään useina tarinoina.";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Kuvaile ongelmaa: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Lähetä tukipyyntösi sähköpostitse osoitteeseen support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Lähetä tukipyyntösi sähköpostitse osoitteeseen support@Kahf.org";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Suodatin: %1$@";
@@ -6859,16 +6859,16 @@
 /* Localized label for support request email debug log URL. Embeds {{debug log url}}. */
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "Lokin osoite: %1$@";
 
-/* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal-versio: %1$@";
+/* Localized label for support request email Kahf version string. Embeds {{Kahf version}}. */
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Kahf-versio: %1$@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS -tukipyyntö";
+"SUPPORT_EMAIL_SUBJECT" = "Kahf iOS -tukipyyntö";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Mitä mieltä olet? (valinnainen)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Kahf FAQ */
 "SUPPORT_FAQ_PROMPT" = "Oletko tutustunut usein kysyttyihin kysymyksiin?";
 
 /* Label describing support switch to attach debug logs */
@@ -6944,7 +6944,7 @@
 "SWITCH_ON" = "Käytössä";
 
 /* Name to display for the 'system' sender, e.g. for release notes and the onboarding story */
-"SYSTEM_ADDRESS_NAME" = "Signal";
+"SYSTEM_ADDRESS_NAME" = "Kahf";
 
 /* Label for button to verify a user's safety number. */
 "SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER" = "Varmenna";
@@ -7040,25 +7040,25 @@
 "UNKNOWN_CONTACT_NAME" = "Tuntematon yhteystieto";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Yksi laitteistasi lähetti viestin, jota ei voida käsitellä tai näyttää, koska se käyttää uutta Signal-ominaisuutta.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Yksi laitteistasi lähetti viestin, jota ei voida käsitellä tai näyttää, koska se käyttää uutta Kahf-ominaisuutta.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@ lähetti sinulle viestin, jota ei voida käsitellä tai näyttää, koska se käyttää uutta Signal-ominaisuutta.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@ lähetti sinulle viestin, jota ei voida käsitellä tai näyttää, koska se käyttää uutta Kahf-ominaisuutta.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Sait viestin, jota ei voida käsitellä tai näyttää, koska se käyttää uutta Signal-ominaisuutta.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Sait viestin, jota ei voida käsitellä tai näyttää, koska se käyttää uutta Kahf-ominaisuutta.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Päivitä Signal nyt";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Päivitä Kahf nyt";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Signal on päivitetty uusimpaan versioon. Voit nyt vastaanottaa tämän viestityypin laitteellasi.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Kahf on päivitetty uusimpaan versioon. Voit nyt vastaanottaa tämän viestityypin laitteellasi.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Voit pyytää käyttäjää %1$@ lähettämään tämän viestin uudelleen, nyt kun käytät ajantasaista Signal-versiota.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Voit pyytää käyttäjää %1$@ lähettämään tämän viestin uudelleen, nyt kun käytät ajantasaista Kahf-versiota.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Voit pyytää lähettäjää lähettämään tämän viestin uudelleen, nyt kun käytät ajan tasalla olevaa Signal-versiota.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Voit pyytää lähettäjää lähettämään tämän viestin uudelleen, nyt kun käytät ajan tasalla olevaa Kahf-versiota.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Tuntematon";
@@ -7082,10 +7082,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Poistetaanko %1$@?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Laite ei ole enää yhdistetty. Yhdistä Signal uudelleen puhelimeesi jatkaaksesi viestintää.";
+"UNLINKED_WARNING" = "Laite ei ole enää yhdistetty. Yhdistä Kahf uudelleen puhelimeesi jatkaaksesi viestintää.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal ei onnistunut poistamaan laitteesi yhdistämistä.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Kahf ei onnistunut poistamaan laitteesi yhdistämistä.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Nimeämätön laite";
@@ -7102,7 +7102,7 @@
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Vastaanotettiin liite, jota ei tueta.";
 
-/* When inviting contacts to use Signal, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
+/* When inviting contacts to use Kahf, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
 "UNSUPPORTED_FEATURE_ERROR" = "Laitteesi ei tue tätä ominaisuutta.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
@@ -7120,10 +7120,10 @@
 /* Error indicating that a group could not be updated due to network connectivity problems. */
 "UPDATE_GROUP_FAILED_DUE_TO_NETWORK" = "Ryhmän päivittäminen ei onnistunut. Tarkista verkkoyhteytesi ja yritä uudelleen.";
 
-/* Button to activate the signal proxy */
+/* Button to activate the Kahf proxy */
 "USE_PROXY_BUTTON" = "Käytä välityspalvelinta";
 
-/* Explanation of when you should use a signal proxy */
+/* Explanation of when you should use a Kahf proxy */
 "USE_PROXY_EXPLANATION" = "Käytä välityspalvelinta vain, jos et saa yhteyttä Signaliin mobiiliverkolla tai Wi-Fi:llä.";
 
 /* Description of how to update discovery */
@@ -7132,8 +7132,8 @@
 /* Description of username discriminator digits */
 "USERNAME_DISCRIMINATOR_DESCRIPTION" = "Käyttäjänimi liitetään numerosarjaan, eikä sitä näytetä profiilissasi";
 
-/* Title to set up signal username */
-"USERNAME_EDUCATION_TITLE" = "Määritä Signal-käyttäjänimesi";
+/* Title to set up Kahf username */
+"USERNAME_EDUCATION_TITLE" = "Määritä Kahf-käyttäjänimesi";
 
 /* Description of username link */
 "USERNAME_LINK_DESCRIPTION" = "Jokaisella käyttäjänimellä on yksilöllinen linkki, jonka voit jakaa ystävillesi, jotta he voivat aloittaa keskustelun kanssasi";
@@ -7147,10 +7147,10 @@
 /* Title for an action sheet indicating that a user-entered username value is not a valid username. */
 "USERNAME_LOOKUP_INVALID_USERNAME_TITLE" = "Virheellinen käyttäjänimi";
 
-/* A message indicating that the given username is not associated with a registered Signal account. Embeds {{ a username }}. */
+/* A message indicating that the given username is not associated with a registered Kahf account. Embeds {{ a username }}. */
 "USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ ei ole Signalin käyttäjä. Varmista, että olet syöttänyt koko käyttäjätunnuksen.";
 
-/* Title for an action sheet indicating that the given username is not associated with a registered Signal account. */
+/* Title for an action sheet indicating that the given username is not associated with a registered Kahf account. */
 "USERNAME_LOOKUP_NOT_FOUND_TITLE" = "Käyttäjää ei löydy";
 
 /* A prefix appended to all usernames when displayed */

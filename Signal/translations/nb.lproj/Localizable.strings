@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Ikke nå";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Om Signal";
+"ABOUT_SECTION_TITLE" = "Om Kahf";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Godkjenn nytt sikkerhetsnummer";
@@ -29,10 +29,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO" = "Talemelding";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal samtale";
+"ACTION_AUDIO_CALL" = "Kahf samtale";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Inviter til Signal";
+"ACTION_INVITE" = "Inviter til Kahf";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Send melding";
@@ -118,7 +118,7 @@
 /* Label shown over thumbnails of GIFs in the All Media view */
 "ALL_MEDIA_THUMBNAIL_LABEL_GIF" = "GIF";
 
-/* Title for the view of all your signal connections */
+/* Title for the view of all your Kahf connections */
 "ALL_SIGNAL_CONNECTIONS_TITLE" = "Alle kontakter";
 
 /* notification action */
@@ -128,37 +128,37 @@
 "APN_Message" = "Du kan ha nye meldinger";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal kan ikke starte. Send en feilsøkingslogg til support@signal.org slik at vi kan feilsøke dette problemet.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf kan ikke starte. Send en feilsøkingslogg til support@Kahf.org slik at vi kan feilsøke dette problemet.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Feil";
 
 /* Button to try launching the app even though the last launch failed */
-"APP_LAUNCH_FAILURE_CONTINUE" = "Åpne Signal i stedet";
+"APP_LAUNCH_FAILURE_CONTINUE" = "Åpne Kahf i stedet";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Kunne ikke laste inn databasen";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Vennligst oppgrader til den nyeste versjonen av Signal.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Vennligst oppgrader til den nyeste versjonen av Kahf.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Ukjent databaseversjon.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signal møtte på et problem og kunne ikke åpnes. Send en feilsøkingslogg til support@signal.org for å hjelpe oss med å finne ut av problemet.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf møtte på et problem og kunne ikke åpnes. Send en feilsøkingslogg til support@Kahf.org for å hjelpe oss med å finne ut av problemet.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Kunne ikke åpne Signal";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Kunne ikke åpne Kahf";
 
 /* Error description indicating that the app crashed because there was low storage space available on the device. */
-"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Signal kunne ikke åpnes fordi du har for lite tilgjengelig lagringsplass på enheten. Gå til innstillingene dine og slett noen elementer for å åpne Signal.";
+"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Kahf kunne ikke åpnes fordi du har for lite tilgjengelig lagringsplass på enheten. Gå til innstillingene dine og slett noen elementer for å åpne Kahf.";
 
 /* Error title indicating that the app crashed because there was low storage space available on the device. */
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Lite lagringsplass";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Dataene som ble overført fra den gamle enheten, kunne ikke gjenopprettes. Send en feilsøkingslogg til support@signal.org slik at vi kan feilsøke dette problemet. Du risikerer at meldingsloggen går tapt hvis du installerer Signal på nytt.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Dataene som ble overført fra den gamle enheten, kunne ikke gjenopprettes. Send en feilsøkingslogg til support@Kahf.org slik at vi kan feilsøke dette problemet. Du risikerer at meldingsloggen går tapt hvis du installerer Kahf på nytt.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Overføringen kunne ikke fullføres";
@@ -173,7 +173,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Versjon %1$@ er nå tilgjengelig i App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "En ny versjon av Signal er tilgjengelig";
+"APP_UPDATE_NAG_ALERT_TITLE" = "En ny versjon av Kahf er tilgjengelig";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Oppdater";
@@ -227,9 +227,9 @@
 "APPLE_PAY_DONATION_ERROR_PAYMENT_CANNOT_BE_AUTHORIZED" = "Dobbeltsjekk at betalingsinformasjonen din er oppdatert i Apple Pay. Hvis den ikke er det, må du oppdatere den og prøve på nytt.";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Kahf";
 
-/* On the iOS home screen, if you tap and hold the Signal icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
+/* On the iOS home screen, if you tap and hold the Kahf icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
 "APPLICATION_SHORTCUT_NEW_MESSAGE" = "Ny melding";
 
 /* Label for the archive button for conversations list view */
@@ -247,7 +247,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Vedlegg kunne ikke eksporteres.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Kahf was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Kunne ikke lagre";
 
 /* Format string for file extension label in call interstitial view */
@@ -316,14 +316,14 @@
 /* A button to select a GIF from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_GIF" = "GIF";
 
-/* A message on a button prompting the user to go settings to grant Signal photos access. */
+/* A message on a button prompting the user to go settings to grant Kahf photos access. */
 "ATTACHMENT_KEYBOARD_GIVE_PHOTOS_ACCESS" = "Gi tilgang";
 
 /* A button to select a location from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_LOCATION" = "Posisjon";
 
 /* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
-"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Signal trenger tillatelse til å vise bildene og videoene dine.";
+"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Kahf trenger tillatelse til å vise bildene og videoene dine.";
 
 /* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
 "ATTACHMENT_KEYBOARD_NO_PHOTOS" = "Når du har tatt bilder, vil du kunne sende dine nylige hit.";
@@ -406,17 +406,17 @@
 /* The title for the badge configuration page */
 "BADGE_CONFIGURATION_TITLE" = "Merker";
 
-/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Signal\" button will be shown. This is the text in that button. */
+/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Kahf\" button will be shown. This is the text in that button. */
 "BADGE_DETAILS_DONATE_TO_SIGNAL" = "Gi penger nå";
 
 /* When viewing someone else's donor badge, you'll see a sheet. This is the title on that sheet. Embeds {badge owner's short name} */
-"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ støtter Signal";
+"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ støtter Kahf";
 
 /* String explaining to the user that their boost badge has expired on the badge expiry sheet. */
-"BADGE_EXPIRED_BOOST_BODY" = "Boost-merket ditt er utløpt og vises ikke lenger på profilen din.\n\nDu kan likevel fortsette å bruke Signal. Hvis du ønsker å støtte teknologi som er utviklet med deg i tankene, kan du velge å bli en av våre støttespillere og gi et månedlig pengebeløp.";
+"BADGE_EXPIRED_BOOST_BODY" = "Boost-merket ditt er utløpt og vises ikke lenger på profilen din.\n\nDu kan likevel fortsette å bruke Kahf. Hvis du ønsker å støtte teknologi som er utviklet med deg i tankene, kan du velge å bli en av våre støttespillere og gi et månedlig pengebeløp.";
 
 /* String explaining to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheet. */
-"BADGE_EXPIRED_BOOST_CURRENT_SUSTAINER_BODY" = "Boost-merket ditt er utløpt og vises ikke lenger på profilen din.\n\nDu kan aktivere Boost-merket på nytt i 30 dager ved å gi et engangsbeløp til Signal.";
+"BADGE_EXPIRED_BOOST_CURRENT_SUSTAINER_BODY" = "Boost-merket ditt er utløpt og vises ikke lenger på profilen din.\n\nDu kan aktivere Boost-merket på nytt i 30 dager ved å gi et engangsbeløp til Kahf.";
 
 /* Title for boost on the badge expiration sheet. */
 "BADGE_EXPIRED_BOOST_TITLE" = "Merket er utløpt";
@@ -431,13 +431,13 @@
 "BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Det månedlige pengebeløpet er stoppet";
 
 /* String explaining to the user that their subscription badge has expired on the badge expiry sheet. Embeds {failure-specific sentence(s)}. */
-"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_CHARGE_FAILURE_BODY_FORMAT" = "Den månedlige pengegaven har blitt stoppet. %1$@-merket vises ikke lenger på profilen din.\n\nOppdater betalingsinformasjonen din for å fortsette å støtte Signal og aktivere merket ditt på nytt.";
+"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_CHARGE_FAILURE_BODY_FORMAT" = "Den månedlige pengegaven har blitt stoppet. %1$@-merket vises ikke lenger på profilen din.\n\nOppdater betalingsinformasjonen din for å fortsette å støtte Kahf og aktivere merket ditt på nytt.";
 
 /* Body of the sheet shown when your subscription is canceled due to inactivity */
-"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "Det månedlige pengebeløpet ble stoppet automatisk fordi du har vært inaktiv for lenge. %1$@-merket ditt er ikke lenger synlig på profilen din.\n\nDu kan fortsatt bruke Signal, men hvis du vil støtte appen og beholde merket ditt, må du gi et pengebeløp nå.";
+"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "Det månedlige pengebeløpet ble stoppet automatisk fordi du har vært inaktiv for lenge. %1$@-merket ditt er ikke lenger synlig på profilen din.\n\nDu kan fortsatt bruke Kahf, men hvis du vil støtte appen og beholde merket ditt, må du gi et pengebeløp nå.";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
-"BADGE_THANKS_BODY" = "Du har fått et merke fra Signal! Vis det frem i profilen din for å vise at du støtter Signal.";
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
+"BADGE_THANKS_BODY" = "Du har fått et merke fra Kahf! Vis det frem i profilen din for å vise at du støtter Kahf.";
 
 /* Label prompting the user to display the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_DISPLAY_ON_PROFILE_LABEL" = "Vis på profilen";
@@ -445,7 +445,7 @@
 /* Label prompting the user to feature the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_MAKE_FEATURED" = "Vis frem som utvalgt merke";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
 "BADGE_THANKS_TITLE" = "Takk for støtten!";
 
 /* Footer explaining that only one badge can be featured at a time on the thank you sheet. */
@@ -608,7 +608,7 @@
 "CALL_AUDIO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📞 Tapt anrop på %1$@";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Du kan slå på mikrofontilgang i iOS-innstillingene for å ringe eller lage lydmeldinger i Signal.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Du kan slå på mikrofontilgang i iOS-innstillingene for å ringe eller lage lydmeldinger i Kahf.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Krever tilgang til mikrofon";
@@ -638,7 +638,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Ingen svar";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %1$@";
+"CALL_STATUS_FORMAT" = "Kahf %1$@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Ring";
@@ -701,10 +701,10 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Kameraet er skrudd av";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal-bruker";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Kahf-bruker";
 
 /* The generic name used for group calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_GROUP_NAME" = "Signal-gruppe";
+"CALLKIT_ANONYMOUS_GROUP_NAME" = "Kahf-gruppe";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Ta et bilde og send det";
@@ -778,38 +778,38 @@
 /* Title for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_TITLE" = "Problem";
 
-/* Users can donate to Signal with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CARD_NUMBER_GENERIC_ERROR" = "Ugyldig kortnummer";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card number field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card number field on that screen. */
 "CARD_DONATION_CARD_NUMBER_LABEL" = "Kortnummer";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_GENERIC_ERROR" = "Ugyldig CVC";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
 "CARD_DONATION_CVV_LABEL" = "CVC-kode";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_TOO_LONG_ERROR" = "Koden er for lang";
 
-/* Users can donate to Signal with a credit or debit card. This is the text on the \"Donate\" button. */
+/* Users can donate to Kahf with a credit or debit card. This is the text on the \"Donate\" button. */
 "CARD_DONATION_DONATE_BUTTON" = "Gi penger";
 
-/* Users can donate to Signal with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_EXPIRATION_DATE_GENERIC_ERROR" = "Ugyldig utløpsdato";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
 "CARD_DONATION_EXPIRATION_DATE_LABEL" = "Utløpsdato";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card expiration date field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card expiration date field on that screen. */
 "CARD_DONATION_EXPIRATION_DATE_PLACEHOLDER" = "MM/ÅÅ";
 
-/* Users can donate to Signal with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
+/* Users can donate to Kahf with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
 "CARD_DONATION_HEADER" = "Pengebeløp: %1$@";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the body text of that sheet. */
-"CARD_DONATION_READ_MORE_SHEET_BODY" = "Signal lagrer ikke personopplysningene dine når du gir et pengebeløp.\n\nBetalingstjenesten Stripe behandler pengebeløpet du gir oss. Vi får ikke tilgang til og lagrer eller oppbevarer ikke noen av opplysningene du gir til Stripe.\n\nSignal vil ikke, og kan ikke, knytte pengebeløpet til Signal-kontoen din.\n\nTakk for støtten!";
+"CARD_DONATION_READ_MORE_SHEET_BODY" = "Kahf lagrer ikke personopplysningene dine når du gir et pengebeløp.\n\nBetalingstjenesten Stripe behandler pengebeløpet du gir oss. Vi får ikke tilgang til og lagrer eller oppbevarer ikke noen av opplysningene du gir til Stripe.\n\nSignal vil ikke, og kan ikke, knytte pengebeløpet til Kahf-kontoen din.\n\nTakk for støtten!";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the title of that sheet. */
 "CARD_DONATION_READ_MORE_SHEET_TITLE" = "Informasjonen din holdes privat";
@@ -817,8 +817,8 @@
 /* On the credit/debit card donation screen, a small amount of information text is shown. Users can click this link to learn more information. */
 "CARD_DONATION_SUBHEADER_LEARN_MORE" = "Lær mer.";
 
-/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Signal does not collect or store their personal information. */
-"CARD_DONATION_SUBHEADER_TEXT" = "Skriv inn kortinformasjonen din. Signal samler ikke inn eller lagrer personopplysningene dine.";
+/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Kahf does not collect or store their personal information. */
+"CARD_DONATION_SUBHEADER_TEXT" = "Skriv inn kortinformasjonen din. Kahf samler ikke inn eller lagrer personopplysningene dine.";
 
 /* Title for the 'censorship circumvention country' view. */
 "CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE" = "Velg land";
@@ -884,7 +884,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Sammenlign med utklippstavlen";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Velg eller søk etter en Signal-bruker å starte en samtale med.";
+"COMPOSE_BUTTON_HINT" = "Velg eller søk etter en Kahf-bruker å starte en samtale med.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Skriv";
@@ -902,7 +902,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Søk etter brukernavn";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Du kan slå på kontakttilgang i iOS-innstillingene for å se hvilke av kontaktene dine som er Signal-brukere.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Du kan slå på kontakttilgang i iOS-innstillingene for å se hvilke av kontaktene dine som er Kahf-brukere.";
 
 /* Configure reactions title text */
 "CONFIGURE_REACTIONS" = "Konfigurer reaksjoner";
@@ -1033,7 +1033,7 @@
 /* Error indicating that at least one contact field must be selected before sharing a contact. */
 "CONTACT_SHARE_NO_FIELDS_SELECTED" = "Ingen kontaktfelter valgt.";
 
-/* Button text to initiate an email to signal support staff */
+/* Button text to initiate an email to Kahf support staff */
 "CONTACT_SUPPORT" = "Kontakt brukerstøtte";
 
 /* The localized representation of the 'Donations & Badges' support filter. */
@@ -1082,7 +1082,7 @@
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Noe som ikke virker";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal kunne ikke fullføre supportforespørselen din.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Kahf kunne ikke fullføre supportforespørselen din.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Prøv igjen";
@@ -1211,7 +1211,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "audio";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Få merker til profilen din ved å gi en gave til Signal. Trykk på et merke for å lese mer.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Få merker til profilen din ved å gi en gave til Kahf. Trykk på et merke for å lese mer.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Merker";
@@ -1396,14 +1396,14 @@
 /* No comment provided by engineer. */
 "COUNTRYCODE_SELECT_TITLE" = "Velg landskode";
 
-/* Body text for an interactive in-app prompt to set up a Signal username. */
+/* Body text for an interactive in-app prompt to set up a Kahf username. */
 "CREATE_USERNAME_MEGAPHONE_BODY" = "Usernames let others message you without needing your phone number.";
 
-/* Title for a button in an interactive in-app prompt to set up a Signal username, which will start a create-username flow. */
+/* Title for a button in an interactive in-app prompt to set up a Kahf username, which will start a create-username flow. */
 "CREATE_USERNAME_MEGAPHONE_SET_UP_BUTTON_TITLE" = "Set Up";
 
-/* Title for an interactive in-app prompt to set up a Signal username. */
-"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Signal username";
+/* Title for an interactive in-app prompt to set up a Kahf username. */
+"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Kahf username";
 
 /* Credit/debit card donation error for decline failures where the card has expired. */
 "CREDIT_OR_DEBIT_CARD_DONATION_ERROR_EXPIRED_CARD" = "Kortet er utløpt. Sjekk om kortinformasjonen stemmer og prøv igjen.";
@@ -1454,7 +1454,7 @@
 "DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Kjør";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Denne sjekken tar et par minutter og vil gjøre det lettere for oss å løse problemet. Du kan lukke Signal mens sjekken pågår, men husk å logge på igjen for å sende inn loggen.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Denne sjekken tar et par minutter og vil gjøre det lettere for oss å løse problemet. Du kan lukke Kahf mens sjekken pågår, men husk å logge på igjen for å sende inn loggen.";
 
 /* Button to skip database integrity check step */
 "DATABASE_INTEGRITY_CHECK_SKIP" = "Hopp over";
@@ -1468,20 +1468,20 @@
 /* In some cases, the user's message history can become corrupted, and a recovery interface is shown. The user has not been hacked and may be confused by this interface, so try to avoid using terms like \"database\" or \"corrupted\"—terms like \"message history\" are better. This is the title on the first screen of this interface, which gives them some information and asks them to continue. */
 "DATABASE_RECOVERY_AWAITING_USER_CONFIRMATION_TITLE" = "Kunne ikke hente data";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_CONTINUE_ANYWAY" = "Fortsett likevel";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_DESCRIPTION" = "For å gjenopprette all data anbefaler vi at du har minst %1$@ ledig lagringsplass på enheten.";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_TITLE" = "For lite lagringsplass";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This is the description on the screen where we show an error message. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Meldingsloggen din kunne ikke gjenopprettes. Du må installere appen på nytt for å fortsette å bruke Signal. Send inn en feilsøkingslogg slik at vi kan forstå hva som gikk galt.";
+"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Meldingsloggen din kunne ikke gjenopprettes. Du må installere appen på nytt for å fortsette å bruke Kahf. Send inn en feilsøkingslogg slik at vi kan forstå hva som gikk galt.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This button lets them delete all of their data. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Tilbakestill Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Tilbakestill Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the final button they will press before their data is reset. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_CONFIRM" = "Tilbakestill";
@@ -1490,7 +1490,7 @@
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_DESCRIPTION" = "Dette sletter kontoinformasjonen din, profilen din og alle meldingene dine. Appen lukkes når prosessen er fullført.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the title of that dialog. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Tilbakestill Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Tilbakestill Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) They were asked to submit a debug log. This is the button that submits this log. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_SUBMIT_DEBUG_LOG_BUTTON" = "Send inn feilsøkingslogg";
@@ -1565,7 +1565,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Slett kontoen";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Dette sletter Signal-kontoen og tilbakestiller applikasjonen. Appen lukkes etter prosessen er fullført.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Dette sletter Kahf-kontoen og tilbakestiller applikasjonen. Appen lukkes etter prosessen er fullført.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Er du sikker på at du vil slette kontoen din?";
@@ -1589,7 +1589,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Telefonnummer";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Bekreft Signal-nummeret ditt.";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Bekreft Kahf-nummeret ditt.";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Slett kontoen";
@@ -1604,7 +1604,7 @@
 "DELETE_ALL_MESSAGES_IN_CONVERSATION_BUTTON" = "Slett alle meldingene";
 
 /* Notification warning the user that they have been de-registered. */
-"DEREGISTRATION_NOTIFICATION" = "Du har blitt logget av Signal på denne enheten.";
+"DEREGISTRATION_NOTIFICATION" = "Du har blitt logget av Kahf på denne enheten.";
 
 /* Label for button that lets users re-register using the same phone number. */
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Registrer dette telefonnummeret på nytt";
@@ -1612,7 +1612,7 @@
 /* Label warning the user that they have been de-registered. */
 "DEREGISTRATION_WARNING" = "Enheten er avregistrert. Telefonnummeret kan nå registreres på en annen enhet. Trykk for å registrere på nytt.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Kahf Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Sist aktiv %1$@";
 
 /* {{Short Date}} when device was linked. */
@@ -1634,7 +1634,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Hvis du har den gamle iOS-enheten tilgjengelig, kan du overføre kontoen din og meldingene til denne enheten på en trygg måte.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Hvis du tidligere brukte Signal på en koblet iPad, kan du overføre kontoen din og meldingene til denne enheten på en sikker måte.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Hvis du tidligere brukte Kahf på en koblet iPad, kan du overføre kontoen din og meldingene til denne enheten på en sikker måte.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Fortsett uten å overføre kontoen og meldingene";
@@ -1664,7 +1664,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Overfør fra en iOS-enhet";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Hvis du fortsetter, blir Signal deaktivert på andre enheter som for øyeblikket er registrert med samme telefonnummer.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Hvis du fortsetter, blir Kahf deaktivert på andre enheter som for øyeblikket er registrert med samme telefonnummer.";
 
 /* An error indicating that we were unable to verify the identity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Den nye enheten kunne ikke bekreftes. Prøv igjen";
@@ -1682,16 +1682,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Det er ikke nok ledig plass til å fullføre overføringen";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Oppdater til siste versjon av Signal, og prøv igjen";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Oppdater til siste versjon av Kahf, og prøv igjen";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Overfør Signal-kontoen til en ny iOS-enhet. Pass på at den nye enheten er i nærheten, og at den er slått på.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Overfør Kahf-kontoen til en ny iOS-enhet. Pass på at den nye enheten er i nærheten, og at den er slått på.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Overfør konto";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Åpne Signal på den gamle enheten og bring den i nærheten. Pass på at Wi-Fi og Bluetooth er aktivert på begge enhetene.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Åpne Kahf på den gamle enheten og bring den i nærheten. Pass på at Wi-Fi og Bluetooth er aktivert på begge enhetene.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Plasser denne QR-koden i rammen på den andre enheten.";
@@ -1703,7 +1703,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Venter på andre enheter …";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Hold enhetene i nærheten av hverandre. Ikke slå av noen av enhetene, og la Signal være åpen. Overføringer er kryptert fra ende til ende.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Hold enhetene i nærheten av hverandre. Ikke slå av noen av enhetene, og la Kahf være åpen. Overføringer er kryptert fra ende til ende.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Mottak av data";
@@ -1718,7 +1718,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Hold den nye enheten opp til kameraet";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Hold enhetene i nærheten av hverandre. Ikke slå av noen av enhetene, og la Signal være åpen.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Hold enhetene i nærheten av hverandre. Ikke slå av noen av enhetene, og la Kahf være åpen.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Data overføres";
@@ -1787,13 +1787,13 @@
 "DONATE_CHOOSE_PAYMENT_METHOD_SHEET_SUBTITLE_FOR_ONE_TIME_DONATION" = "Få %1$@-merket i en måned";
 
 /* When users make donations on a friend's behalf, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Pengegave på %1$@ til Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Pengegave på %1$@ til Kahf";
 
 /* When users make monthly donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money per month}}, such as \"$5/month\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Gi %1$@ til Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Gi %1$@ til Kahf";
 
 /* When users make one-time donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Gi %1$@ til Signal";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Gi %1$@ til Kahf";
 
 /* Users can donate on a friend's behalf and can optionally add a message. This is tells users about that optional message. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_ADDITIONAL_MESSAGE_INFO" = "Mottakeren vil få beskjed om pengegaven i en direktemelding. Skriv en melding fra deg nedenfor.";
@@ -1804,10 +1804,10 @@
 /* If a donation badge has been sent, indicates that it's expired and can no longer be redeemed. This is shown in the chat. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_CHAT_EXPIRED" = "Utløpt";
 
-/* If the user tries to donate to Signal but no amount is selected, this error message is shown. */
+/* If the user tries to donate to Kahf but no amount is selected, this error message is shown. */
 "DONATE_SCREEN_ERROR_NO_AMOUNT_SELECTED" = "Velg hvilket beløp du vil gi.";
 
-/* If the user tries to donate to Signal but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
+/* If the user tries to donate to Kahf but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
 "DONATE_SCREEN_ERROR_SELECT_A_LARGER_AMOUNT_FORMAT" = "Minimumsbeløpet du kan gi, er %1$@.";
 
 /* On the donation screen, you can choose between one-time and monthly donations. This is the text on the picker for one-time donations. */
@@ -1850,7 +1850,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_BADGE_REDEEMED" = "Innløst";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is a short paragraph on the screen where users choose the badge their friend will receive. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "Støtt Signal ved å gi en pengegave for venner og familie som bruker Signal. Vedkommende vil få muligheten til å vise frem støtten på profilen sin.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "Støtt Kahf ved å gi en pengegave for venner og familie som bruker Kahf. Vedkommende vil få muligheten til å vise frem støtten på profilen sin.";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is the title on the screen where users choose the badge their friend will receive. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_TITLE" = "Gi penger for en venn";
@@ -1880,7 +1880,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_FAILED_ERROR_TITLE" = "Betalingen mislyktes";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "Betalingen gikk gjennom, men Signal kunne ikke sende den tilhørende meldingen. Ta kontakt med brukerstøtten vår.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "Betalingen gikk gjennom, men Kahf kunne ikke sende den tilhørende meldingen. Ta kontakt med brukerstøtten vår.";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, an error dialog will be shown. This is the title of that dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_TITLE" = "Pengegaven mislyktes";
@@ -1892,10 +1892,10 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PREVIEW_OUTGOING" = "✨ Du ga en pengegave for %1$@";
 
 /* You received a donation from a friend. This is the title of that message in the chat. Embeds {{short contact name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "%1$@ ga penger til Signal på dine vegne";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "%1$@ ga penger til Kahf på dine vegne";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Denne brukeren må oppgradere Signal før du kan gi en pengegave på deres vegne.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Denne brukeren må oppgradere Kahf før du kan gi en pengegave på deres vegne.";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, an error dialog will be shown. This is the title of that error dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_TITLE" = "Kan ikke gi pengegave";
@@ -1922,7 +1922,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_SENT_TITLE_FORMAT" = "Pengegave til %1$@";
 
 /* When you donate on behalf of a friend, a thank-you sheet will appear. This is the text on that sheet. Embeds {{recipient name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_BODY_FORMAT" = "Du har gitt en pengegave til Signal på vegne av %1$@. Vedkommende vil få muligheten til å vise frem støtten på profilen sin.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_BODY_FORMAT" = "Du har gitt en pengegave til Kahf på vegne av %1$@. Vedkommende vil få muligheten til å vise frem støtten på profilen sin.";
 
 /* When you donate on behalf of a friend, a thank-you sheet will appear. This is the title on that sheet. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_TITLE" = "Takk for støtten!";
@@ -1931,19 +1931,19 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_VIEW" = "Vis";
 
 /* A friend has donated on your behalf and you received a badge. This text says that you received a badge, and from whom. Embeds {{contact's short name, such as a first name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "%1$@ ga penger til Signal på dine vegne! Vis frem at du støtter Signal på profilen din.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "%1$@ ga penger til Kahf på dine vegne! Vis frem at du støtter Kahf på profilen din.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 1st paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 1st paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_1" = "Private meldinger. Ingen annonser, ingen sporing, ingen overvåking.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 2nd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Signal drives av pengebeløp fra brukerne, noe som betyr at personvernet ditt alltid står i fokus. Signal er utviklet for deg – ikke for opplysningene dine, og ikke for profitt.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 2nd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Kahf drives av pengebeløp fra brukerne, noe som betyr at personvernet ditt alltid står i fokus. Kahf er utviklet for deg – ikke for opplysningene dine, og ikke for profitt.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 3rd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Hvis du har mulighet er det flott om du vil gi et pengebeløp. Dette bidrar til å holde Signal gøy, pålitelig og tilgjengelig for alle.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 3rd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Hvis du har mulighet er det flott om du vil gi et pengebeløp. Dette bidrar til å holde Kahf gøy, pålitelig og tilgjengelig for alle.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the title of that screen. */
-"DONATION_READ_MORE_SCREEN_TITLE" = "Signal er annerledes.";
+/* There is a screen where users can read more about their donation to Kahf. This is the title of that screen. */
+"DONATION_READ_MORE_SCREEN_TITLE" = "Kahf er annerledes.";
 
 /* Section title for donation amount on receipts */
 "DONATION_RECEIPT_AMOUNT" = "Beløp";
@@ -1958,7 +1958,7 @@
 "DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Del kvitteringen";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Takk for at du støtter Signal. Bidraget ditt hjelper oss i kampen for å utvikle personvernsteknologi med åpen kilde som gjør det mulig å kommunisere fritt og trygt for millioner av mennesker over hele verden. Ta vare på denne kvitteringen for skatteoppgjøret ditt hvis du har adresse i USA. Signal Technology Foundation er en ideell organisasjon som er fritatt skatt i USA under avsnitt 501c3 i den amerikanske skatteloven. Vårt nasjonale skattenummer er 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "Takk for at du støtter Kahf. Bidraget ditt hjelper oss i kampen for å utvikle personvernsteknologi med åpen kilde som gjør det mulig å kommunisere fritt og trygt for millioner av mennesker over hele verden. Ta vare på denne kvitteringen for skatteoppgjøret ditt hvis du har adresse i USA. Kahf Technology Foundation er en ideell organisasjon som er fritatt skatt i USA under avsnitt 501c3 i den amerikanske skatteloven. Vårt nasjonale skattenummer er 82-4506840.";
 
 /* Title for receipts for donations given on a friend's behalf */
 "DONATION_RECEIPT_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Pengegave for en venn";
@@ -1979,13 +1979,13 @@
 "DONATION_RECEIPTS" = "Kvitteringer for pengebeløp";
 
 /* Text at the bottom of the donation receipts list, telling users that receipts might not be available */
-"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Kvitteringer for tidligere pengebeløp vil ikke være tilgjengelig hvis du har lastet ned Signal-appen på nytt.";
+"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Kvitteringer for tidligere pengebeløp vil ikke være tilgjengelig hvis du har lastet ned Kahf-appen på nytt.";
 
 /* On the donation settings screen, tapping this button will take the user to a screen where they can donate. */
 "DONATION_SCREEN_DONATE_BUTTON" = "Gi penger";
 
 /* On donation screens, a small amount of information text is shown. This is the subtitle for that text. */
-"DONATION_SCREENS_HEADER_DESCRIPTION" = "Private meldinger, finansiert av brukerne. Ingen annonser, ingen sporing, ingen kompromiss. Støtt Signal med et pengebeløp nå.";
+"DONATION_SCREENS_HEADER_DESCRIPTION" = "Private meldinger, finansiert av brukerne. Ingen annonser, ingen sporing, ingen kompromiss. Støtt Kahf med et pengebeløp nå.";
 
 /* On donation screens, a small amount of information text is shown. Users can click this link to learn more information. */
 "DONATION_SCREENS_HEADER_READ_MORE" = "Les mer";
@@ -1996,8 +1996,8 @@
 /* Title for the \"donate for a friend\" button on the donation view. */
 "DONATION_VIEW_DONATE_ON_BEHALF_OF_A_FRIEND" = "Gi penger for en venn";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Donasjon til Signal";
+/* Text describing to the user that they're going to pay a donation to Kahf */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Donasjon til Kahf";
 
 /* Text that's shown when the donation view fails to load data, probably due to network failure */
 "DONATION_VIEW_LOAD_FAILED" = "Nettverksfeil. Sjekk internettilkoblingen din og prøv igjen.";
@@ -2008,8 +2008,8 @@
 /* Title for the 'Manage Subscription' button on the donation screen */
 "DONATION_VIEW_MANAGE_SUBSCRIPTION" = "Administrer abonnementet";
 
-/* Text describing to the user that they're going to pay a monthly donation to Signal */
-"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Månedlig pengebeløp til Signal";
+/* Text describing to the user that they're going to pay a monthly donation to Kahf */
+"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Månedlig pengebeløp til Kahf";
 
 /* Title for the 'more' section on the donation screen */
 "DONATION_VIEW_MORE_SECTION_TITLE" = "Mer";
@@ -2023,23 +2023,23 @@
 /* Title for the 'Subscription FAQ' button on the donation screen */
 "DONATION_VIEW_SUBSCRIPTION_FAQ" = "Vanlige spørsmål om abonnement";
 
-/* Title on the 'Donate to Signal' screen */
-"DONATION_VIEW_TITLE" = "Gi penger til Signal";
+/* Title on the 'Donate to Kahf' screen */
+"DONATION_VIEW_TITLE" = "Gi penger til Kahf";
 
 /* Label for the currency picker button in donation views */
 "DONATIONS_CURRENCY_PICKER_LABEL" = "Valuta";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Du kan tillate tilgang i iOS-innstillingene.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal trenger tilgang til kontakter for å redigere kontaktinformasjon";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Kahf trenger tilgang til kontakter for å redigere kontaktinformasjon";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Rediger gruppe";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Denne brukeren kan ikke bli lagt til i gruppen før de oppgraderer sin Signal versjon.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Denne brukeren kan ikke bli lagt til i gruppen før de oppgraderer sin Kahf versjon.";
 
 /* Error message indicating that an avatar image is invalid and cannot be used. */
 "EDIT_GROUP_ERROR_INVALID_AVATAR" = "Ugyldig bilde.";
@@ -2056,14 +2056,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Kopier";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Hei,\n\nI det siste har jeg brukt Signal for å holde iPhone-samtalene mine private. Jeg vil at du skal installere det også, så vi kan være sikre på at bare du og jeg kan lese våre meldinger eller høre våre samtaler.\n\nSignal er tilgjengelig for iPhone og Android. Få den her: %1$@\n\nSignal fungerer som din eksisterende meldingsapplikasjon. Vi kan sende bilder og video, ringe, og begynne gruppesamtaler. Det beste er: ingen andre kan se noe av det, selv ikke de som laget Signal!\n\nDu kan lese mer om Open Whisper Systems, og menneskene bak Signal, her: %2$@";
+/* body of email sent to contacts when inviting to install Kahf. Embeds {{link to install Kahf}} and {{link to the Kahf home page}} */
+"EMAIL_INVITE_BODY" = "Hei,\n\nI det siste har jeg brukt Kahf for å holde iPhone-samtalene mine private. Jeg vil at du skal installere det også, så vi kan være sikre på at bare du og jeg kan lese våre meldinger eller høre våre samtaler.\n\nSignal er tilgjengelig for iPhone og Android. Få den her: %1$@\n\nSignal fungerer som din eksisterende meldingsapplikasjon. Vi kan sende bilder og video, ringe, og begynne gruppesamtaler. Det beste er: ingen andre kan se noe av det, selv ikke de som laget Kahf!\n\nDu kan lese mer om Open Whisper Systems, og menneskene bak Kahf, her: %2$@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "La oss bytte til Signal";
+/* subject of email sent to contacts when inviting to install Kahf */
+"EMAIL_INVITE_SUBJECT" = "La oss bytte til Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Enheten din er ikke konfigurert til å sende e-post. For å sende en brukerstøtteforespørsel, konfigurer enheten din eller send en e-post til support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Enheten din er ikke konfigurert til å sende e-post. For å sende en brukerstøtteforespørsel, konfigurer enheten din eller send en e-post til support@Kahf.org";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-post utilgjengelig";
@@ -2096,7 +2096,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Reise og steder";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Ingen av kontaktene dine har Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Ingen av kontaktene dine har Kahf.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Hva med å invitere noen?";
@@ -2150,7 +2150,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Ugyldig svar fra tjenesten.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Denne enheten er ikke lengre registrert med ditt telefonnummer. Reinstaller Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Denne enheten er ikke lengre registrert med ditt telefonnummer. Reinstaller Kahf.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Serverfeil. Vennligst forsøk igjen senere.";
@@ -2162,7 +2162,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "En ukjent feil oppstod.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakten er ikke bruker av Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakten er ikke bruker av Kahf.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Nedlasting av vedlegg mislyktes.";
@@ -2188,10 +2188,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Ingen tilgjengelig sesjon for kontakt.";
 
-/* Shown when signal users safety numbers changed */
+/* Shown when Kahf users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "Sikkerhetsnummeret er endret.";
 
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Kahf users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "Sikkerhetsnummeret for %1$@ har endret seg.";
 
 /* Text notifying the user that their secure session has been reset */
@@ -2207,10 +2207,10 @@
 "ERROR_NETWORK_FAILURE" = "Nettverksfeil";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Hjelp oss med å forbedre Signal ved å rapportere denne feilen og sende feilsøkingslogg fra enheten din til support@signal.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Hjelp oss med å forbedre Kahf ved å rapportere denne feilen og sende feilsøkingslogg fra enheten din til support@Kahf.org; %1$@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: En feil oppstod";
+"ERROR_NOTIFICATION_TITLE" = "Kahf Beta: En feil oppstod";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Enheten din er ikke lenger tilkoblet. Vennligst koble til på nytt for å sende flere meldinger.";
@@ -2219,16 +2219,16 @@
 "ERROR_SENDING_DEREGISTERED" = "Enheten din er ikke lenger registrert. Registrer deg på nytt for å sende flere meldinger.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Din versjon av Signal er utløpt. Vennligst oppdater for å sende ytterligere meldinger.";
+"ERROR_SENDING_EXPIRED" = "Din versjon av Kahf er utløpt. Vennligst oppdater for å sende ytterligere meldinger.";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Kahf id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Uregistrert bruker: %1$@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Din versjon av Signal er utløpt! Trykk for å oppdatere til den nyeste versjonen.";
+"EXPIRATION_ERROR" = "Din versjon av Kahf er utløpt! Trykk for å oppdatere til den nyeste versjonen.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Denne versjonen av Signal utgår i dag. Trykk for å oppdatere til nyeste versjon.";
+"EXPIRATION_WARNING_TODAY" = "Denne versjonen av Kahf utgår i dag. Trykk for å oppdatere til nyeste versjon.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "For mange feil med denne kontakten. Forsøk igjen senere.";
@@ -2501,10 +2501,10 @@
 "GROUP_CALL_WILL_NOTIFY_TWO_PEOPLE_FORMAT" = "%1$@ og %2$@ vil bli varslet";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there is one other person in the group. Embeds {member name} */
-"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Signal kommer til å ringe %1$@";
+"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "Kahf kommer til å ringe %1$@";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there are two other people in the group. Embeds {{ %1$@ participant1, %2$@ participant2 }} */
-"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Signal kommer til å ringe %1$@ og %2$@";
+"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "Kahf kommer til å ringe %1$@ og %2$@";
 
 /* Text explaining that you are in the group call. */
 "GROUP_CALL_YOU_ARE_HERE" = "Du er med i gruppesamtalen";
@@ -2687,7 +2687,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Ugyldig lenke";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Oppdater Signal på denne enheten for å bli med i denne gruppen.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Oppdater Kahf på denne enheten for å bli med i denne gruppen.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Krev administratorgodkjenning for nye medlemmer som blir med via gruppelenken.";
@@ -2746,8 +2746,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR-kode";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Del via Signal";
+/* Label for the 'share group link via Kahf' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Del via Kahf";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Alle med denne lenken kan se gruppens navn og medlemmer, og be om å få bli med. Del den med folk du stoler på.";
@@ -3083,13 +3083,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Hva er \"legacy\"-grupper?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "\"Legacy\"-grupper kan ikke oppgraderes til \"nye\" grupper ennå, men du kan opprette en \"ny\" gruppe med de samme medlemmene dersom alle bruker siste versjon av Signal.\n\nSignal vil tilby en måte å oppgradere \"legacy\" grupper i fremtiden.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "\"Legacy\"-grupper kan ikke oppgraderes til \"nye\" grupper ennå, men du kan opprette en \"ny\" gruppe med de samme medlemmene dersom alle bruker siste versjon av Kahf.\n\nSignal vil tilby en måte å oppgradere \"legacy\" grupper i fremtiden.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Kan jeg oppgradere en \"Legacy\"-gruppe?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "For å lage en ny gruppe, burde alle medlemmer oppdatere til den nyeste versjonen av Signal.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "For å lage en ny gruppe, burde alle medlemmer oppdatere til den nyeste versjonen av Kahf.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Legacy vs nye grupper";
@@ -3104,7 +3104,7 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Denne gruppen kan ikke oppgraderes fordi den har for mange medlemmer. Maksimal gruppestørrelse som kan oppgraderes er %1$@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Når alle gruppemedlemmer bruker en versjon av Signal som støtter nye grupper blir denne gruppen oppgradert.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Når alle gruppemedlemmer bruker en versjon av Kahf som støtter nye grupper blir denne gruppen oppgradert.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Alle meldingslogger og mediefiler fra før oppgraderingen, blir tatt vare på.";
@@ -3161,10 +3161,10 @@
 "GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_2_BODY" = "Alle meldingslogger og mediefiler fra før oppgraderingen, blir tatt vare på.";
 
 /* Body text for the 'dropped member' section of the 'upgrade legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_1" = "Dette medlemmet ble fjernet fra gruppen og kan ikke bli med igjen før vedkommende oppgraderer Signal-versjonen:";
+"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_1" = "Dette medlemmet ble fjernet fra gruppen og kan ikke bli med igjen før vedkommende oppgraderer Kahf-versjonen:";
 
 /* Body text for the 'dropped members' section of the 'upgrade legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_N" = "Disse medlemmene ble fjernet fra gruppen og kan ikke bli med igjen før de oppgraderer Signal-versjonen:";
+"GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_DROPPED_MEMBERS_N" = "Disse medlemmene ble fjernet fra gruppen og kan ikke bli med igjen før de oppgraderer Kahf-versjonen:";
 
 /* Body text for the 'invites member' section of the 'upgrade legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_UPGRADE_ALERT_SECTION_INVITED_MEMBERS_1" = "Dette medlemmet må akseptere en invitasjon for å bli med i gruppen igjen, og vil ikke få gruppemeldinger før de har akseptert:";
@@ -3223,7 +3223,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Kontakt oss";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Kahf support website */
 "HELP_SUPPORT_CENTER" = "Supportsenter";
 
 /* Label for 'archived conversations' button. */
@@ -3238,16 +3238,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Utkast: ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Noen av dine kontakter er allerede på Signal, inkludert %1$@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Kahf contact.  Embeds {{The name of 1 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Noen av dine kontakter er allerede på Kahf, inkludert %1$@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Noen av dine kontakter er allerede på Signal, inkludert %1$@ og %2$@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Kahf contacts.  Embeds {{The names of 2 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Noen av dine kontakter er allerede på Kahf, inkludert %1$@ og %2$@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Noen av dine kontakter er allerede på Signal, inkludert %1$@, %2$@og %3$@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Kahf contacts.  Embeds {{The names of 3 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Noen av dine kontakter er allerede på Kahf, inkludert %1$@, %2$@og %3$@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Kahf contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Start din første samtale her.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -3280,11 +3280,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Du kan ikke dele mer enn %1$@ gjenstander.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Kahf has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Endre bilder";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Gi full tilgang i Innstillinger eller endre hvilke bilder Signal kan få tilgang til.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Gi full tilgang i Innstillinger eller endre hvilke bilder Kahf kan få tilgang til.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Ser du ikke bildene dine?";
@@ -3343,8 +3343,8 @@
 /* Indicates that another user has changed their phone number. Embeds: {{ the user's name}} */
 "INFO_MESSAGE_USER_CHANGED_PHONE_NUMBER_FORMAT" = "%1$@ har byttet telefonnummer.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ er på Signal!";
+/* Shown in inbox and conversation when a user joins Kahf, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ er på Kahf!";
 
 /* accessibility label for the button which shows the regular keyboard instead of sticker picker */
 "INPUT_TOOLBAR_KEYBOARD_BUTTON_ACCESSIBILITY_LABEL" = "Tastatur";
@@ -3367,14 +3367,14 @@
 /* The provided proxy host address is not valid */
 "INVALID_PROXY_HOST_ERROR" = "Proxy-adressen du har oppgitt, er ugyldig. Sjekk adressen og prøv igjen.";
 
-/* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Du kan slå på tilgang til kontakter i iOS-innstillingene for å invitere venner til å bruke Signal.";
+/* Alert body when contacts disabled while trying to invite contacts to Kahf */
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Du kan slå på tilgang til kontakter i iOS-innstillingene for å invitere venner til å bruke Kahf.";
 
-/* Alert title when contacts disabled while trying to invite contacts to signal */
+/* Alert title when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Tillat kontakttilgang";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Inviter venner til Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Inviter venner til Kahf";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Søk";
@@ -3473,10 +3473,10 @@
 "LINK_PREVIEW_UNKNOWN_DOMAIN" = "Lenkeforhåndsvisning";
 
 /* Shown in an alert when trying to edit a contact. */
-"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Det er ikke lenger mulig å administrere systemkontakter på iPad. Åpne Signal på en telefon for å legge Signal-kontakter til i systemkontaktene dine.";
+"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Det er ikke lenger mulig å administrere systemkontakter på iPad. Åpne Kahf på en telefon for å legge Kahf-kontakter til i systemkontaktene dine.";
 
 /* Shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. */
-"LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Det er ikke lenger mulig å administrere systemkontakter på iPad. Denne enheten vil fortsette å synkronisere alle endringene i kontaktlisten din fra Signal-appen på telefonen din.";
+"LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Det er ikke lenger mulig å administrere systemkontakter på iPad. Denne enheten vil fortsette å synkronisere alle endringene i kontaktlisten din fra Kahf-appen på telefonen din.";
 
 /* A button shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. Tapping it opens a website with more details. */
 "LINKED_DEVICE_MANAGE_CONTACTS_LEARN_MORE" = "Les mer";
@@ -3497,7 +3497,7 @@
 "LINKING_DEVICE_FAILED_TITLE" = "Kobling av enhet mislyktes";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "For å overføre Signal-kontoen må du gi tilgang til lokalt nett på begge enheter.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "For å overføre Kahf-kontoen må du gi tilgang til lokalt nett på begge enheter.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Ønsker du hjelp?";
@@ -3509,7 +3509,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Gå til \"Lokalt Nettverk\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Gå til Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Gå til Kahf";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Skru på \"Lokalt Nettverk\"";
@@ -3524,7 +3524,7 @@
 "LOGGING_SECTION" = "Logger";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Feilsøkingslogger kan hjelpe Signal å fikse problemer og krasj.";
+"LOGGING_SECTION_FOOTER" = "Feilsøkingslogger kan hjelpe Kahf å fikse problemer og krasj.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "Melding";
@@ -3572,7 +3572,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Slett for alle";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Denne meldingen slettes for alle i samtalen dersom de er på en nylig versjon av Signal. De vil kunne se at du har slettet en melding.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Denne meldingen slettes for alle i samtalen dersom de er på en nylig versjon av Kahf. De vil kunne se at du har slettet en melding.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Hvem vil du slette denne meldingen for?";
@@ -3607,8 +3607,8 @@
 /* Label for button to open a link. */
 "MESSAGE_ACTION_LINK_OPEN_LINK" = "Åpne lenke";
 
-/* Label for button to open a signal proxy. */
-"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Åpne Signal-proxy";
+/* Label for button to open a Kahf proxy. */
+"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Åpne Kahf-proxy";
 
 /* Label for button to open a sticker pack. */
 "MESSAGE_ACTION_LINK_OPEN_STICKER_PACK" = "Se klistremerkepakken";
@@ -3752,7 +3752,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Vil du slette og forlate gruppen?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Se gjennom forespørslene nøye. Signal fant en annen kontakt med samme navn.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Se gjennom forespørslene nøye. Kahf fant en annen kontakt med samme navn.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Din kontakt";
@@ -3847,7 +3847,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Lest";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Kahf account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Hoppet over";
 
 /* Label indicating that a message failed to send. */
@@ -3890,22 +3890,22 @@
 "MISSED_VIDEO_CALL" = "Tapt videoanrop";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Du kan slå på kameratilgang i iOS-innstillingene for å gjøre videosamtaler i Signal.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Du kan slå på kameratilgang i iOS-innstillingene for å gjøre videosamtaler i Kahf.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal trenger tilgang til ditt kamera.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Kahf trenger tilgang til ditt kamera.";
 
 /* Alert body indicating the user has denied location permissions */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Du kan endre denne tilgangen i iOS-innstillingene.";
 
 /* Alert title indicating the user has denied location permissions */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal krever tilgang til posisjonen din for denne funksjonen.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Kahf krever tilgang til posisjonen din for denne funksjonen.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Du kan endre denne tilgangen i iOS-innstillingene.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Signal trenger tilgang til bildene dine for denne funksjonen.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Kahf trenger tilgang til bildene dine for denne funksjonen.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Ingen";
@@ -3926,7 +3926,7 @@
 "MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_EXCEPT_TITLE" = "Alle unntatt …";
 
 /* Title for the visibility option */
-"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Alle Signal-kontaktene";
+"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Alle Kahf-kontaktene";
 
 /* Title for the visibility option */
 "MY_STORIES_SETTINGS_VISIBILITY_ONLY_SHARE_WITH_TITLE" = "Del kun med …";
@@ -4105,7 +4105,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Verken navn eller innhold";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Kahf will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Spill av mens appen er åpen";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -4160,7 +4160,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Koble til iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Trykk på \"Registrer iPad\" vil la deg lage en helt ny Signal konto eller flytte en eksisterende konto til denne iPaden. Dette vil stanse Signal på alle andre enheter som for øyeblikket er registrert på samme telefonnummer.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Trykk på \"Registrer iPad\" vil la deg lage en helt ny Kahf konto eller flytte en eksisterende konto til denne iPaden. Dette vil stanse Kahf på alle andre enheter som for øyeblikket er registrert på samme telefonnummer.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Trykk \"Koble iPhone\" for å koble din telefon til en eksisterende konto. Å koble en telefon er normalt ikke anbefalt, og vil begrense en del funksjonalitet, som f.eks. samtaler.";
@@ -4172,7 +4172,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Koble til denne iPhone";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Registrering av denne iPad vil deaktivere Signal på andre enheter som for øyeblikket er registrert med samme telefonnummer.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Registrering av denne iPad vil deaktivere Kahf på andre enheter som for øyeblikket er registrert med samme telefonnummer.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Det anbefales ikke å koble din iPhone og vil begrense kjernefunksjonaliteten.";
@@ -4181,13 +4181,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Godta tillatelser";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Hvis du tillater varsler og kontakter, kan du se når meldinger kommer og hjelper deg med å finne folk du kjenner. Kontakter er kryptert slik at Signal-tjenesten ikke kan se dem.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Hvis du tillater varsler og kontakter, kan du se når meldinger kommer og hjelper deg med å finne folk du kjenner. Kontakter er kryptert slik at Kahf-tjenesten ikke kan se dem.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Godta tillatelser";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Velg hvem som kan finne deg på Signal med telefonnummeret ditt %1$@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Velg hvem som kan finne deg på Kahf med telefonnummeret ditt %1$@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Hvem kan finne deg med ditt telefonnummer?";
@@ -4205,7 +4205,7 @@
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Ugyldig telefonnummer. Vennligst skriv inn et gyldig telefonnummer for å registrere deg.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Du har brukt opp alle PIN forsøk, men du kan fortsatt få tilgang til din Signal konto ved å opprette ny PIN-kode. For din sikkerhet og ditt personvern vil kontoen bli gjenopprettet uten lagret profilinformasjon og innstillinger.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Du har brukt opp alle PIN forsøk, men du kan fortsatt få tilgang til din Kahf konto ved å opprette ny PIN-kode. For din sikkerhet og ditt personvern vil kontoen bli gjenopprettet uten lagret profilinformasjon og innstillinger.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Lær mer om PIN-koder";
@@ -4279,14 +4279,14 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%1$@ satte utløpstiden for meldinger til %2$@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal opplever tekniske problemer. Vi jobber for å løse problemet.";
+/* Label warning the user that the Kahf service may be down. */
+"OUTAGE_WARNING" = "Kahf opplever tekniske problemer. Vi jobber for å løse problemet.";
 
 /* Label for action link when the user has an outdated payment client */
 "OUTDATED_PAYMENT_CLIENT_ACTION_TITLE" = "Oppdater nå";
 
-/* Label warning the user that they should update Signal to continue using payments. */
-"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Oppdater Signal for å fortsette å bruke betalingsfunksjonen. Det kan hende at saldoen din ikke er oppdatert.";
+/* Label warning the user that they should update Kahf to continue using payments. */
+"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Oppdater Kahf for å fortsette å bruke betalingsfunksjonen. Det kan hende at saldoen din ikke er oppdatert.";
 
 /* info message text in conversation view */
 "OUTGOING_AUDIO_CALL" = "Utgående taleanrop";
@@ -4396,7 +4396,7 @@
 /* Title for action sheet shown when unlocking with biometrics like Face ID or TouchID fails because it is disabled at a system level. */
 "PAYMENTS_LOCK_LOCAL_BIOMETRY_AUTH_DISABLED_TITLE" = "Biometrisk autentisering mislyktes";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
 "PAYMENTS_LOCK_REASON_UNLOCK_PAYMENTS_LOCK" = "Bekreft betalingen med autentisering.";
 
 /* Label for the 'add memo' ui in the 'send payment' UI. */
@@ -4427,7 +4427,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Ugyldig transaksjon";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Oppdater Signal for å bruke betalinger.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Oppdater Kahf for å bruke betalinger.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Betalingen er ikke verifisert";
@@ -4649,13 +4649,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Alle";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Signal. Others will be able to reach you with your phone number when they start a new chat or group.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Kahf. Others will be able to reach you with your phone number when they start a new chat or group.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Ingen";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Signal will be able to reach you with your phone number.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Kahf will be able to reach you with your phone number.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Eksempel: %1$@";
@@ -4664,19 +4664,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Mine kontakter";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Bare kontaktene dine vil se telefonnummeret ditt på Signal.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Bare kontaktene dine vil se telefonnummeret ditt på Kahf.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Alle";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Telefonnummeret ditt vil være synlig for personer og grupper du sender meldinger til. Folk som har nummeret ditt i telefonkontaktene vil også se det på Signal.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Telefonnummeret ditt vil være synlig for personer og grupper du sender meldinger til. Folk som har nummeret ditt i telefonkontaktene vil også se det på Kahf.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Ingen";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Ingen vil se telefonnummeret ditt på Signal.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Ingen vil se telefonnummeret ditt på Kahf.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%1$@ %2$@";
@@ -4757,7 +4757,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Deaktiver PIN-kode";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Hvis du deaktiverer PIN-koden vil du miste all informasjon når du gjennomfører Signal-registrering på nytt, med mindre du manuelt tar en sikkerhetskopi og gjenoppretter innholdet. Du kan ikke skru på registreringslås mens PIN-koden er deaktivert.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Hvis du deaktiverer PIN-koden vil du miste all informasjon når du gjennomfører Kahf-registrering på nytt, med mindre du manuelt tar en sikkerhetskopi og gjenoppretter innholdet. Du kan ikke skru på registreringslås mens PIN-koden er deaktivert.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Advarsel";
@@ -4769,7 +4769,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Oppretting av PIN-kode mislyktes";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN-koder holder informasjon lagret i Signal kryptert slik at bare du kan få tilgang til den. Profilen, innstillingene og kontaktene dine vil gjenopprettes når du installerer Signal på nytt. Du vil ikke trenge PIN-koden for å åpne appen.";
+"PIN_CREATION_EXPLANATION" = "PIN-koder holder informasjon lagret i Kahf kryptert slik at bare du kan få tilgang til den. Profilen, innstillingene og kontaktene dine vil gjenopprettes når du installerer Kahf på nytt. Du vil ikke trenge PIN-koden for å åpne appen.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "Lær mer om PIN-koder";
@@ -4820,7 +4820,7 @@
 "PIN_CREATION_WEAK_ERROR" = "Velg en sterkere PIN-kode";
 
 /* If your attempted PIN is too weak, you'll see an error message. This is the text on the error dialog. */
-"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Signal encrypted so only you can access it. Choose a stronger PIN to protect your account.";
+"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Kahf encrypted so only you can access it. Choose a stronger PIN to protect your account.";
 
 /* Error body indicating that the attempt to disable a PIN failed. */
 "PIN_DISABLE_ERROR_MESSAGE" = "PIN-koden din kunne ikke deaktiveres. Vi vil spørre deg igjen senere.";
@@ -4850,7 +4850,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Vi minner deg igjen om noen dager.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Bekreft Signal-PIN-kode";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Bekreft Kahf-PIN-kode";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Vi minner deg igjen i morgen.";
@@ -4865,7 +4865,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Ugyldig PIN-kode, prøv igjen.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Skriv inn Signal-PIN";
+"PIN_REMINDER_TITLE" = "Skriv inn Kahf-PIN";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN-koden må være minst 4 sifre.";
@@ -4880,7 +4880,7 @@
 "PINS_MEGAPHONE_ACTION" = "Lag PIN";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Lag ferdig din Signal-PIN.";
+"PINS_MEGAPHONE_BODY" = "Lag ferdig din Kahf-PIN.";
 
 /* Title for PIN megaphone when user doesn't have a PIN */
 "PINS_MEGAPHONE_TITLE" = "Lag en PIN";
@@ -4913,19 +4913,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Nummeret på utklippstavlen ser ikke ut som riktig sikkerhetsnummer for denne chatten.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal kunne ikke finne noe sikkerhetsnummer på utklippstavlen. Har du kopiert tallene riktig?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Kahf kunne ikke finne noe sikkerhetsnummer på utklippstavlen. Har du kopiert tallene riktig?";
 
 /* Alert body when verifying with {{contact name}} */
 "PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Du deler et unikt sikkerhetsnummer med hver av kontaktene dine. Dobbelsjekk at %1$@ viser akkurat *ditt* unike sikkerhetsnummer.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Du bruker en gammel versjon av Signal. Du må oppdatere før du kan verifisere.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Du bruker en gammel versjon av Kahf. Du må oppdatere før du kan verifisere.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Din samtalepartner bruker en gammel versjon av Signal. Vedkommende må oppdatere før du kan verifisere.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Din samtalepartner bruker en gammel versjon av Kahf. Vedkommende må oppdatere før du kan verifisere.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Den skannede koden ser ikke ut som et sikkerhetsnummer. Bruker du en oppdatert utgave av Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Den skannede koden ser ikke ut som et sikkerhetsnummer. Bruker du en oppdatert utgave av Kahf?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Dersom du ønsker å verifisere sikkerheten i din krypterte kommunikasjon med %1$@, sammenlign tallene over med tallene på deres enhet.\n\nAlternativt kan du skanne koden på vedkommendes telefon, eller be vedkommende om å skanne din kode.";
@@ -5032,7 +5032,7 @@
 /* Title for the profile view. */
 "PROFILE_VIEW_TITLE" = "Profil";
 
-/* The title for the address of the signal proxy */
+/* The title for the address of the Kahf proxy */
 "PROXY_ADDRESS" = "Proxy-adresse";
 
 /* The provided proxy connected successfully */
@@ -5041,10 +5041,10 @@
 /* The provided proxy couldn't connect */
 "PROXY_FAILED_TO_CONNECT" = "Kunne ikke koble til proxyen. Sjekk proxy-adressen og prøv igjen.";
 
-/* Placeholder text for signal proxy host */
+/* Placeholder text for Kahf proxy host */
 "PROXY_PLACEHOLDER" = "Skriv inn proxy-adressen";
 
-/* Title for the signal proxy settings */
+/* Title for the Kahf proxy settings */
 "PROXY_SETTINGS_TITLE" = "Proxy";
 
 /* Notification action button title */
@@ -5144,19 +5144,19 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Brukeren kan ikke velges.";
 
 /* Alert text. Shown after selecting a phone number that isn't valid. */
-"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "%1$@ er ikke en Signal-bruker. Prøv igjen med et gyldig telefonnummer.";
+"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "%1$@ er ikke en Kahf-bruker. Prøv igjen med et gyldig telefonnummer.";
 
 /* Alert title. Shown after selecting a phone number that isn't valid. */
 "RECIPIENT_PICKER_INVALID_NUMBER_TITLE" = "Ugyldig telefonnummer";
 
-/* Button. Shown after selecting a phone number that isn't a Signal user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
+/* Button. Shown after selecting a phone number that isn't a Kahf user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
 "RECIPIENT_PICKER_INVITE_ACTION" = "Melding";
 
-/* Alert text. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ er ikke en Signal-bruker. Vil du invitere dette telefonnummeret?";
+/* Alert text. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ er ikke en Kahf-bruker. Vil du invitere dette telefonnummeret?";
 
-/* Alert title. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_TITLE" = "Inviter til Signal";
+/* Alert title. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_TITLE" = "Inviter til Kahf";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
 "REGISTER_2FA_FORGOT_PIN_ALERT_TITLE" = "Ønsker du hjelp?";
@@ -5194,10 +5194,10 @@
 /* Label for the country code field */
 "REGISTRATION_DEFAULT_COUNTRY_NAME" = "Landskode";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
-"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Signal on other devices currently registered with the same phone number.";
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
+"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Kahf on other devices currently registered with the same phone number.";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
 "REGISTRATION_DEVICE_TRANSFER_CHOICE_TITLE" = "Transfer Account & Messages";
 
 /* Placeholder text for the phone number textfield */
@@ -5234,13 +5234,13 @@
 "REGISTRATION_PIN_CONFIRM_TITLE" = "Confirm your PIN";
 
 /* During registration, users are asked to create a PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During registration, users are asked to create a PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_CREATE_TITLE" = "Create your PIN";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_ENTER_EXISTING_TITLE" = "Enter your PIN";
@@ -5348,7 +5348,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Vis";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Vårt Signal sikkerhetsnummer:\n%1$@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Vårt Kahf sikkerhetsnummer:\n%1$@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Ditt sikkerhetsnummer med %1$@ har endret seg. Det kan være lurt å verifisere dem.";
@@ -5380,14 +5380,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Du må skru på låsekode i iOS under Innstillinger på enheten for å kunne bruke skjermlås.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Autentiser for å åpne Signal.";
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Autentiser for å åpne Kahf.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Opplåsing mislyktes";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Lås opp Signal";
+/* Label for button on lock screen that lets users unlock Kahf. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Lås opp Kahf";
 
 /* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
 "SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT" = "Navn, brukernavn, eller nummer";
@@ -5423,13 +5423,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Kontoen stemmer ikke";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Oppdater Signal på denne enheten for å koble den til din telefon.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Oppdater Kahf på denne enheten for å koble den til din telefon.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Ustøttet versjon";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Den andre enheten din kjører en gammel versjon av Signal som ikke støtter skanning av iPad QR-koder. Installer den siste utgaven av Signal og prøv igjen.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Den andre enheten din kjører en gammel versjon av Kahf som ikke støtter skanning av iPad QR-koder. Installer den siste utgaven av Kahf og prøv igjen.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Oppdater skannings enhet";
@@ -5450,19 +5450,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Fullfør kobling";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Start Signal på telefonen din for å koble denne iPad til kontoen din";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Start Kahf på telefonen din for å koble denne iPad til kontoen din";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Jeg har ikke Signal på min telefon…";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Jeg har ikke Kahf på min telefon…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Gå til App Store på telefonen, installer Signal, fullfør registreringsprosessen, og så kan du koble iPad til samme konto.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Gå til App Store på telefonen, installer Kahf, fullfør registreringsprosessen, og så kan du koble iPad til samme konto.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Installer Signal på din telefon";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Installer Kahf på din telefon";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Trykk på ditt profilbilde for å åpne Signal innstillingene på din telefon. Deretter \"Koblede enheter\" og \"koble ny enhet\" for å scanne denne koden med telefonen din:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Trykk på ditt profilbilde for å åpne Kahf innstillingene på din telefon. Deretter \"Koblede enheter\" og \"koble ny enhet\" for å scanne denne koden med telefonen din:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "Få hjelp til å koble iPaden din her";
@@ -5471,7 +5471,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Skann QR-koden med telefonen din";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Start Signal på den gamle iPad-en for å overføre kontoen";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Start Kahf på den gamle iPad-en for å overføre kontoen";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Sikker sesjon ble tilbakestilt.";
@@ -5513,7 +5513,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Standard";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal benytter seg av ende-til-ende-kryptering og det kan av og til være nødvendig å laste inn samtaleøkten din på nytt. Dette påvirker ikke din samtales sikkerhet, men du kan ha gått glipp av en melding fra din samtalepartner og må be dem om å sende den på nytt.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Kahf benytter seg av ende-til-ende-kryptering og det kan av og til være nødvendig å laste inn samtaleøkten din på nytt. Dette påvirker ikke din samtales sikkerhet, men du kan ha gått glipp av en melding fra din samtalepartner og må be dem om å sende den på nytt.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Samtaleøkt lastet inn på nytt";
@@ -5540,7 +5540,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Lokasjon";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Når slått på, vil Signal forsøke å unngå sensurforsøk. Ikke skru på denne funksjonen om du ikke er i et område hvor Signal blir forsøkt sensurert.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Når slått på, vil Kahf forsøke å unngå sensurforsøk. Ikke skru på denne funksjonen om du ikke er i et område hvor Kahf blir forsøkt sensurert.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Sensur-omgåelse har blitt aktivert basert på telefonnummeret som kontoen er registrert med.";
@@ -5551,8 +5551,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Sensur-omgåelse kan bare bli skrudd på når telefonen er koblet til internett.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Omgåelse av sensur er ikke nødvendig; du er allerede koblet til Signal tjenesten.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Kahf service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Omgåelse av sensur er ikke nødvendig; du er allerede koblet til Kahf tjenesten.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Skru på feilsøkingslogging";
@@ -5593,8 +5593,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Legg til blokkert bruker";
 
-/* A label that indicates the user has no Signal contacts that they haven't blocked. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Du har ingen kontakter på Signal.";
+/* A label that indicates the user has no Kahf contacts that they haven't blocked. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Du har ingen kontakter på Kahf.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Ingen treff";
@@ -5606,7 +5606,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Omdiriger alltid samtaler";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Omdiriger alle samtaler via Signal-tjenesten for å unngå å avsløre IP-adressen din til kontakten din. Aktivering vil reduserer samtalekvaliteten.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Omdiriger alle samtaler via Kahf-tjenesten for å unngå å avsløre IP-adressen din til kontakten din. Aktivering vil reduserer samtalekvaliteten.";
 
 /* Label for the 'edit phone number' button in the 'change phone number' views. */
 "SETTINGS_CHANGE_PHONE_NUMBER_BACK_TO_EDIT_BUTTON" = "Endre nummer";
@@ -5660,7 +5660,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Slett samtalelogg";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Opphavsrett: Signal Messenger\nLisensiert under AGPLv3";
+"SETTINGS_COPYRIGHT" = "Opphavsrett: Kahf Messenger\nLisensiert under AGPLv3";
 
 /* Label for the 'data' section of the app settings. */
 "SETTINGS_DATA" = "Dataforbruk";
@@ -5725,8 +5725,8 @@
 /* Explanation for the 'disappearing messages' privacy settings. */
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Sett standard utløpstid for tidsavgrensede meldinger, for nye samtaler startet av deg.";
 
-/* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Gi penger til Signal";
+/* Title for the 'donate to Kahf' link in settings. */
+"SETTINGS_DONATE" = "Gi penger til Kahf";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Hjelp";
@@ -5794,8 +5794,8 @@
 /* table section header */
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Innhold i varsel";
 
-/* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt blir med på Signal";
+/* When the local device discovers a contact has recently installed Kahf, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt blir med på Kahf";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Varsle når …";
@@ -5807,7 +5807,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Aktiver";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Du kan både sende og motta MobileCoin på Signal. Alle betalingene følger bruksvilkårene til MobileCoin og MobileCoin-lommeboken. Dette er en betafunksjon, så det kan oppstå enkelte feil, og betalinger/overføringer som du mister kan ikke alltid gjenopprettes.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Du kan både sende og motta MobileCoin på Kahf. Alle betalingene følger bruksvilkårene til MobileCoin og MobileCoin-lommeboken. Dette er en betafunksjon, så det kan oppstå enkelte feil, og betalinger/overføringer som du mister kan ikke alltid gjenopprettes.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Aktiver";
@@ -5831,7 +5831,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ den %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Betalinger i Signal er ikke lenger tilgjengelige. Du kan fortsatt overføre midler til en veksler, men du kan ikke lenger sende eller motta betalinger eller legge til midler.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Betalinger i Kahf er ikke lenger tilgjengelige. Du kan fortsatt overføre midler til en veksler, men du kan ikke lenger sende eller motta betalinger eller legge til midler.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Betalingene kan ikke stoppes fordi saldoen din ikke er tilgjengelig. Sørg for at du er koblet til internett, og prøv igjen.";
@@ -5840,10 +5840,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Betalingen kunne ikke gjennomføres fordi saldoen din ikke er tilgjengelig. Sørg for at du er koblet til internett, og prøv igjen.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Betalinger i Signal er ikke lenger tilgjengelige. Du kan fortsatt overføre midler til en veksler, men du kan ikke lenger sende eller motta betalinger eller legge til midler.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Betalinger i Kahf er ikke lenger tilgjengelige. Du kan fortsatt overføre midler til en veksler, men du kan ikke lenger sende eller motta betalinger eller legge til midler.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Betalinger i Signal er ikke lenger tilgjengelige. Du kan fortsatt overføre midler til en veksler, men du kan ikke lenger sende eller motta betalinger eller legge til midler.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Betalinger i Kahf er ikke lenger tilgjengelige. Du kan fortsatt overføre midler til en veksler, men du kan ikke lenger sende eller motta betalinger eller legge til midler.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Vekslingskursen er kun et estimat og kan være unøyaktig.";
@@ -5861,7 +5861,7 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS" = "Deaktiver betalinger";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Du vil ikke kunne sende eller motta MobileCoin i Signal hvis du deaktiverer betalinger.";
+"SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Du vil ikke kunne sende eller motta MobileCoin i Kahf hvis du deaktiverer betalinger.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Deaktivere betalinger?";
@@ -5870,10 +5870,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Deaktiver betalinger";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Det anbefales at du overfører pengene til en annen lommebokadresse før du deaktiverer betalinger. Hvis du velger å ikke overføre pengene dine nå, vil de forbli i lommeboken som er knyttet til Signal hvis du aktiverer betalinger på nytt.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Det anbefales at du overfører pengene til en annen lommebokadresse før du deaktiverer betalinger. Hvis du velger å ikke overføre pengene dine nå, vil de forbli i lommeboken som er knyttet til Kahf hvis du aktiverer betalinger på nytt.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Kontosaldoen din vil holde seg i lommeboken du har koblet til Signal, hvis du ønsker å reaktivere betalingene.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Kontosaldoen din vil holde seg i lommeboken du har koblet til Kahf, hvis du ønsker å reaktivere betalingene.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Deaktiver uten å overføre den gjenstående balansen?";
@@ -5900,7 +5900,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "Om MobileCoin";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Du kan legge til penger til bruk i Signal ved å sende MobileCoin til lommebokadressen din.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Du kan legge til penger til bruk i Kahf ved å sende MobileCoin til lommebokadressen din.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Overføre penger";
@@ -5957,7 +5957,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Betalinger er aktivert.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Bruk Signal til å sende og motta MobileCoin, en ny personvernorientert digital valuta. Aktiver for å komme i gang.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Bruk Kahf til å sende og motta MobileCoin, en ny personvernorientert digital valuta. Aktiver for å komme i gang.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Reaktiver betalingene";
@@ -5975,7 +5975,7 @@
 "SETTINGS_PAYMENTS_PASSPHRASE_DISCARD_CONFIRMATION_TITLE" = "Vil du fortsette uten å lagre?";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Saldoen din gjenopprettes automatisk når du installerer Signal igjen, hvis du bekrefter Signal-PIN-koden din. Du kan også gjenopprette saldoen din med et gjenopprettingspassord, som er en setning på 24 ord som du velger selv. Skriv den ned og oppbevar den på et trygt sted.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Saldoen din gjenopprettes automatisk når du installerer Kahf igjen, hvis du bekrefter Kahf-PIN-koden din. Du kan også gjenopprette saldoen din med et gjenopprettingspassord, som er en setning på 24 ord som du velger selv. Skriv den ned og oppbevar den på et trygt sted.";
 
 /* Explanation of the 'payments passphrase' when there is a balance. */
 "SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION_FROM_BALANCE" = "Du har penger på kontoen din! Det er på tide å lagre en gjenopprettingsfrase på 24 ord som du kan bruke til å gjenopprette saldoen din.";
@@ -6065,7 +6065,7 @@
 "SETTINGS_PAYMENTS_PAYMENTS_LOCK_PROMPT_EXPLANATION_TOUCHID" = "Aktiver Touch ID for å forhindre at uvedkommende som får tak i telefonen din, får tilgang til pengene dine. Du kan slå dette av i innstillingene.";
 
 /* Button for payments outdated sheet. */
-"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Oppdater Signal";
+"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Oppdater Kahf";
 
 /* Message for payments outdated sheet. */
 "SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_MESSAGE" = "Du må oppdatere appen for å forsette å kunne sende og motta betalinger, og for å se den nyeste saldoen din.";
@@ -6197,7 +6197,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Betalinger";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Det er ikke mulig å overføre til Signal-lommebokadressen du oppga. Skriv inn lommebokadressen fra kontoen din og en gyldig valuta.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Det er ikke mulig å overføre til Kahf-lommebokadressen du oppga. Skriv inn lommebokadressen fra kontoen din og en gyldig valuta.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "Du kan overføre MobileCoin ved å fullføre en overføring til lommebokadressen oppgitt av veksleren. Lommebokadressen er rekken av siffer og bokstaver, som regel passert under QR-koden.";
@@ -6281,7 +6281,7 @@
 "SETTINGS_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Who Can Find Me By Number";
 
 /* Description label for Phone Number Privacy */
-"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Signal with it.";
+"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Kahf with it.";
 
 /* The title for phone number privacy settings. */
 "SETTINGS_PHONE_NUMBER_PRIVACY_TITLE" = "Phone Number";
@@ -6293,16 +6293,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Slå av påminnelser";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Pass på at du husker eller lagrer PIN-koden sikkert, da den ikke kan gjenopprettes. Hvis du glemmer PIN-koden, risikerer du å miste data når du registrerer en ny Signal-konto.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Pass på at du husker eller lagrer PIN-koden sikkert, da den ikke kan gjenopprettes. Hvis du glemmer PIN-koden, risikerer du å miste data når du registrerer en ny Kahf-konto.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Skriv inn Signal-PIN";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Skriv inn Kahf-PIN";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN-påminnelser";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PIN-koder holder informasjon lagret med Signal kryptert slik at bare du kan få tilgang til den. PIN-koden din kan ikke gjenopprettes. Profilen, innstillingene og kontaktene dine vil gjenopprettes når du installerer Signal på nytt.";
+"SETTINGS_PINS_FOOTER" = "PIN-koder holder informasjon lagret med Kahf kryptert slik at bare du kan få tilgang til den. PIN-koden din kan ikke gjenopprettes. Profilen, innstillingene og kontaktene dine vil gjenopprettes når du installerer Kahf på nytt.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Endre PIN-koden";
@@ -6311,7 +6311,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Lag en PIN";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal-PIN";
+"SETTINGS_PINS_TITLE" = "Kahf-PIN";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Innstillinger for sensur-omgåelse, proxy, omdirigering og forseglede avsendere.";
@@ -6338,7 +6338,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Aktiver";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Hvis du glemmer din PIN-kode når du registrerer deg hos Signal igjen, blir du låst ute av kontoen din i 7 dager.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Hvis du glemmer din PIN-kode når du registrerer deg hos Kahf igjen, blir du låst ute av kontoen din i 7 dager.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Aktiver registreringslås?";
@@ -6368,16 +6368,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Oppringing";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Bruk Touch ID, Face ID eller koden for iOS-enheten for å låse opp Signal.";
+"SETTINGS_SECURITY_DETAIL" = "Bruk Touch ID, Face ID eller koden for iOS-enheten for å låse opp Kahf.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Bruk Face ID for å låse opp Signal.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Bruk Face ID for å låse opp Kahf.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Bruk koden for iOS-enheten for å låse opp Signal.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Bruk koden for iOS-enheten for å låse opp Kahf.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Bruk Touch ID for å låse opp Signal.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Bruk Touch ID for å låse opp Kahf.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "App-sikkerhet";
@@ -6392,16 +6392,16 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Del kontaktene med iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Gi iOS tilgang til kontaktene og samtalene dine i Signal for å benytte deg av funksjoner som delingsforslag.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Gi iOS tilgang til kontaktene og samtalene dine i Kahf for å benytte deg av funksjoner som delingsforslag.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Gi iOS tilgang til kontaktene og samtalene dine på Signal for å se funksjoner som delingsforslag og varsler.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Gi iOS tilgang til kontaktene og samtalene dine på Kahf for å se funksjoner som delingsforslag og varsler.";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Registreringslås";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Krev Signal-PIN for å registrere telefonnummeret på nytt hos Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Kahf PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Krev Kahf-PIN for å registrere telefonnummeret på nytt hos Kahf.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Skriveindikatorer";
@@ -6434,13 +6434,13 @@
 "SHARE_EXTENSION_LOADING" = "Laster…";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Åpne Signal-appen for å registrere.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Åpne Kahf-appen for å registrere.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Ikke registrert";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Åpne Signal-appen for å oppdatere eller registrere.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Åpne Kahf-appen for å oppdatere eller registrere.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Ikke klar";
@@ -6454,11 +6454,11 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Laster opp…";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Kahf user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Klarte ikke klargjøre vedlegg";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Del til Signal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Del til Kahf";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Kunne ikke slå av delingsforslag.";
@@ -6469,8 +6469,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Vis samtale";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Jeg inviterer deg til å installere Signal! Her er lenken:";
+/* body sent to contacts when inviting to Install Kahf */
+"SMS_INVITE_BODY" = "Jeg inviterer deg til å installere Kahf! Her er lenken:";
 
 /* An error message generically indicating that something went wrong. */
 "SOMETHING_WENT_WRONG_ERROR" = "Noe gikk galt.";
@@ -6494,7 +6494,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Fortsett uten å verifisere?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "For å hindre søppelpost på Signal ber vi deg fullføre verifiseringen.\n\nEtter verifisering kan du fortsette med meldingene. Meldinger satt på pause vil automatisk bli sendt.";
+"SPAM_CAPTCHA_SHEET_BODY" = "For å hindre søppelpost på Kahf ber vi deg fullføre verifiseringen.\n\nEtter verifisering kan du fortsette med meldingene. Meldinger satt på pause vil automatisk bli sendt.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "Verifiser for å fortsette å sende meldinger";
@@ -6512,7 +6512,7 @@
 "STICKERS_INSTALL_BUTTON" = "Installer";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signal-kunstnerserier";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Kahf-kunstnerserier";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Klistremerker du mottok";
@@ -6772,32 +6772,32 @@
 /* Text indicating that the story is currently sending */
 "STORY_SENDING" = "Sender …";
 
-/* First bullet point for the explainer sheet for signal connections */
+/* First bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_1" = "starte en samtale";
 
-/* Second bullet point for the explainer sheet for signal connections */
+/* Second bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_2" = "godta en meldingsforespørsel";
 
-/* Third bullet point for the explainer sheet for signal connections */
+/* Third bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_3" = "ha dem i kontaktlisten på enheten din";
 
-/* Footer for the explainer sheet for signal connections */
+/* Footer for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_FOOTER" = "Kontaktene dine kan se navnet og profilbildet ditt, i tillegg til det du deler på Min story, med mindre du skjuler det for dem.";
 
-/* Header for the explainer sheet for signal connections */
-"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Signal-kontaktene dine</bold> er personer som du stoler på, enten ved å:";
+/* Header for the explainer sheet for Kahf connections */
+"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Kahf-kontaktene dine</bold> er personer som du stoler på, enten ved å:";
 
 /* Label for the stories section of the settings view */
 "STORY_SETTINGS_TITLE" = "Storyer";
 
 /* Section footer for the 'viewers' section on the 'story settings' view */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Velg hvilke Signal-kontakter som kan se storyen din. Storyer som allerede er sendt ut, blir ikke påvirket.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Velg hvilke Kahf-kontakter som kan se storyen din. Storyer som allerede er sendt ut, blir ikke påvirket.";
 
 /* Section header for the 'viewers' section on the 'story settings' view */
 "STORY_SETTINGS_WHO_CAN_VIEW_THIS_HEADER" = "Disse kan se denne storyen";
 
 /* Header for the 'viewers' section on the 'story settings' bottom sheet */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Velg hvilke Signal-kontakter som kan se storyen din. Du kan endre dette når som helst via personverninnstillingene.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Velg hvilke Kahf-kontakter som kan se storyen din. Du kan endre dette når som helst via personverninnstillingene.";
 
 /* Tooltip text shown when the user selects a story as a destination for a long duration video that will be split into shorter segments. Embeds {{ segment duration in seconds }} */
 "STORY_VIDEO_SEGMENTATION_TOOLTIP_FORMAT" = "Videoer sendt til storyer trimmes ned til klipp på %1$d sek og sendes som flere storyer.";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Fortell oss om problemet: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Vær vennlig å sende din brukerstøtteforespørsel til support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Vær vennlig å sende din brukerstøtteforespørsel til support@Kahf.org";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filter: %1$@";
@@ -6859,16 +6859,16 @@
 /* Localized label for support request email debug log URL. Embeds {{debug log url}}. */
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "Logg URL: %1$@";
 
-/* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal versjon: %1$@";
+/* Localized label for support request email Kahf version string. Embeds {{Kahf version}}. */
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Kahf versjon: %1$@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS Support Request";
+"SUPPORT_EMAIL_SUBJECT" = "Kahf iOS Support Request";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Hvordan føler du deg? (Valgfri)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Kahf FAQ */
 "SUPPORT_FAQ_PROMPT" = "Har du lest våre vanlige spørsmål ennå?";
 
 /* Label describing support switch to attach debug logs */
@@ -6944,7 +6944,7 @@
 "SWITCH_ON" = "På";
 
 /* Name to display for the 'system' sender, e.g. for release notes and the onboarding story */
-"SYSTEM_ADDRESS_NAME" = "Signal";
+"SYSTEM_ADDRESS_NAME" = "Kahf";
 
 /* Label for button to verify a user's safety number. */
 "SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER" = "Bekreft";
@@ -7040,25 +7040,25 @@
 "UNKNOWN_CONTACT_NAME" = "Ukjent kontakt";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "En av enhetene dine sendte en melding som ikke kan behandles eller vises her fordi den bruker en ny Signal-funksjon.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "En av enhetene dine sendte en melding som ikke kan behandles eller vises her fordi den bruker en ny Kahf-funksjon.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@ sendte deg en melding som ikke kan behandles eller vises fordi den bruker en ny Signal-funksjon.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@ sendte deg en melding som ikke kan behandles eller vises fordi den bruker en ny Kahf-funksjon.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Du har mottatt en melding som ikke kan behandles eller vises fordi den bruker en ny Signal-funksjon.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Du har mottatt en melding som ikke kan behandles eller vises fordi den bruker en ny Kahf-funksjon.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Oppdater Signal Nå";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Oppdater Kahf Nå";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Oppdatert til siste versjon av Signal. Du kan nå motta denne typen melding på enheten.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Oppdatert til siste versjon av Kahf. Du kan nå motta denne typen melding på enheten.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Du kan be %1$@ om å sende denne meldingen nå, siden du bruker en oppdatert versjon av Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Du kan be %1$@ om å sende denne meldingen nå, siden du bruker en oppdatert versjon av Kahf.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Du kan be avsenderen om å sende denne meldingen nå, siden du bruker en oppdatert versjon av Signal.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Du kan be avsenderen om å sende denne meldingen nå, siden du bruker en oppdatert versjon av Kahf.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Ukjent";
@@ -7082,10 +7082,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Koble fra \"%1$@\"?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Enhet ikke lengre koblet. Koble Signal med telefonen din for å fortsette med meldinger.";
+"UNLINKED_WARNING" = "Enhet ikke lengre koblet. Koble Kahf med telefonen din for å fortsette med meldinger.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal kunne ikke koble fra din enhet.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Kahf kunne ikke koble fra din enhet.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Ikke navngitt enhet";
@@ -7102,11 +7102,11 @@
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Mottok ustøttet vedleggstype.";
 
-/* When inviting contacts to use Signal, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
+/* When inviting contacts to use Kahf, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
 "UNSUPPORTED_FEATURE_ERROR" = "Enheten din støtter ikke denne funksjonen.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Sikkerhetsnummeret for %1$@ har endret seg, sannsynligvis fordi de har installert Signal på nytt eller byttet enhet. Trykk Bekreft for å bekrefte det nye sikkerhetsnummeret. Dette er valgfritt.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Sikkerhetsnummeret for %1$@ har endret seg, sannsynligvis fordi de har installert Kahf på nytt eller byttet enhet. Trykk Bekreft for å bekrefte det nye sikkerhetsnummeret. Dette er valgfritt.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Bekreft";
@@ -7120,11 +7120,11 @@
 /* Error indicating that a group could not be updated due to network connectivity problems. */
 "UPDATE_GROUP_FAILED_DUE_TO_NETWORK" = "Gruppen kunne ikke oppdateres. Sjekk internetforbindelsen din og forsøk igjen.";
 
-/* Button to activate the signal proxy */
+/* Button to activate the Kahf proxy */
 "USE_PROXY_BUTTON" = "Bruk proxy";
 
-/* Explanation of when you should use a signal proxy */
-"USE_PROXY_EXPLANATION" = "Bruk en proxy kun hvis du ikke kan koble til Signal med mobildata eller Wi-Fi.";
+/* Explanation of when you should use a Kahf proxy */
+"USE_PROXY_EXPLANATION" = "Bruk en proxy kun hvis du ikke kan koble til Kahf med mobildata eller Wi-Fi.";
 
 /* Description of how to update discovery */
 "USERNAME_DISCOVERY_DESCRIPTION" = "Hvis du ønsker at andre bare skal kunne finne deg etter brukernavnet ditt, går du til Innstillinger > Personvern > Telefonnummer > Hvem kan finne meg med telefonnummer og slår av oppdagelse av telefonnummer.";
@@ -7132,8 +7132,8 @@
 /* Description of username discriminator digits */
 "USERNAME_DISCRIMINATOR_DESCRIPTION" = "Brukernavnet er knyttet til en tallrekke og deles ikke i profilen din";
 
-/* Title to set up signal username */
-"USERNAME_EDUCATION_TITLE" = "Velg et brukernavn på Signal";
+/* Title to set up Kahf username */
+"USERNAME_EDUCATION_TITLE" = "Velg et brukernavn på Kahf";
 
 /* Description of username link */
 "USERNAME_LINK_DESCRIPTION" = "Alle brukernavn har en unik lenke som du kan dele med venner slik at de kan starte en samtale med deg";
@@ -7147,10 +7147,10 @@
 /* Title for an action sheet indicating that a user-entered username value is not a valid username. */
 "USERNAME_LOOKUP_INVALID_USERNAME_TITLE" = "Ugyldig brukernavn";
 
-/* A message indicating that the given username is not associated with a registered Signal account. Embeds {{ a username }}. */
-"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ er ikke en Signal-bruker. Forsikre deg om at du har skrevet inn det fullstendige brukernavnet.";
+/* A message indicating that the given username is not associated with a registered Kahf account. Embeds {{ a username }}. */
+"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ er ikke en Kahf-bruker. Forsikre deg om at du har skrevet inn det fullstendige brukernavnet.";
 
-/* Title for an action sheet indicating that the given username is not associated with a registered Signal account. */
+/* Title for an action sheet indicating that the given username is not associated with a registered Kahf account. */
 "USERNAME_LOOKUP_NOT_FOUND_TITLE" = "Bruker ikke funnet";
 
 /* A prefix appended to all usernames when displayed */
@@ -7250,7 +7250,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Trykk og hold for å spille inn.";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Fullfør installeringen i Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Fullfør installeringen i Kahf Desktop.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Kontakt Navn";

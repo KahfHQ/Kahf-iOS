@@ -2,7 +2,7 @@
 "AB_PERMISSION_MISSING_ACTION_NOT_NOW" = "Şimdi Değil";
 
 /* Title for the 'about' help section */
-"ABOUT_SECTION_TITLE" = "Signal Hakkında";
+"ABOUT_SECTION_TITLE" = "Kahf Hakkında";
 
 /* Action sheet item */
 "ACCEPT_NEW_IDENTITY_ACTION" = "Yeni Güvenlik Numarasını Kabul et";
@@ -29,10 +29,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO" = "Sesli ileti";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal Araması";
+"ACTION_AUDIO_CALL" = "Kahf Araması";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Signal'e davet et";
+"ACTION_INVITE" = "Kahf'e davet et";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "İleti Gönder";
@@ -118,7 +118,7 @@
 /* Label shown over thumbnails of GIFs in the All Media view */
 "ALL_MEDIA_THUMBNAIL_LABEL_GIF" = "GIF";
 
-/* Title for the view of all your signal connections */
+/* Title for the view of all your Kahf connections */
 "ALL_SIGNAL_CONNECTIONS_TITLE" = "Tüm Bağlantılar";
 
 /* notification action */
@@ -128,37 +128,37 @@
 "APN_Message" = "Yeni iletileriniz olabilir";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal başlatılamıyor. Lütfen bu sorunu çözmemiz için hata ayıklama günlüğünüzü support@signal.org adresine gönderin.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf başlatılamıyor. Lütfen bu sorunu çözmemiz için hata ayıklama günlüğünüzü support@Kahf.org adresine gönderin.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Hata";
 
 /* Button to try launching the app even though the last launch failed */
-"APP_LAUNCH_FAILURE_CONTINUE" = "Bunun yerine Signal'i açın";
+"APP_LAUNCH_FAILURE_CONTINUE" = "Bunun yerine Kahf'i açın";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Veritabanı Yüklenemedi";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Lütfen Signal'in son sürümüne yükseltin.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Lütfen Kahf'in son sürümüne yükseltin.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Bilinmeyen Veritabanı Sürümü";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signal açılmaya çalışırken bir sorun yaşadı. Bu sorunu gidermeye yardımcı olması için lütfen support@signal.org'e bir hata ayıklama günlüğü gönderin.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf açılmaya çalışırken bir sorun yaşadı. Bu sorunu gidermeye yardımcı olması için lütfen support@Kahf.org'e bir hata ayıklama günlüğü gönderin.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Signal Açılamadı";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Kahf Açılamadı";
 
 /* Error description indicating that the app crashed because there was low storage space available on the device. */
-"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Cihazında depolama alanı düşük olduğundan Signal açılamadı. Signal'ı kullanmak için Ayarlar'da depolama alanını yönet ve yer aç.\n ";
+"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Cihazında depolama alanı düşük olduğundan Kahf açılamadı. Kahf'ı kullanmak için Ayarlar'da depolama alanını yönet ve yer aç.\n ";
 
 /* Error title indicating that the app crashed because there was low storage space available on the device. */
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Depolama Alanı Düşük";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Eski cihazından aktarılan veri geri yüklenemiyor. Lütfen bu sorunu çözmemiz için support@signal.org adresine hata günlüğünü gönder. Eğer Signal'ı geri yüklersen, ileti geçmişin kaybolabilir.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Eski cihazından aktarılan veri geri yüklenemiyor. Lütfen bu sorunu çözmemiz için support@Kahf.org adresine hata günlüğünü gönder. Eğer Kahf'ı geri yüklersen, ileti geçmişin kaybolabilir.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Aktarım Tamamlanamadı";
@@ -173,7 +173,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Sürüm %1$@ şimdi App Store'dan edinilebilir.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Signal'in Yeni Bir Sürümü Mevcut";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Kahf'in Yeni Bir Sürümü Mevcut";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Güncelle";
@@ -227,9 +227,9 @@
 "APPLE_PAY_DONATION_ERROR_PAYMENT_CANNOT_BE_AUTHORIZED" = "Apple Pay'de ödeme yönteminizin güncel olup olmadığını kontrol edin. Değilse, güncelleyin ve tekrar deneyin.";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Kahf";
 
-/* On the iOS home screen, if you tap and hold the Signal icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
+/* On the iOS home screen, if you tap and hold the Kahf icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
 "APPLICATION_SHORTCUT_NEW_MESSAGE" = "Yeni İleti";
 
 /* Label for the archive button for conversations list view */
@@ -247,7 +247,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Eklenti dışarı aktarılamadı.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Kahf was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Kaydedilemedi";
 
 /* Format string for file extension label in call interstitial view */
@@ -316,14 +316,14 @@
 /* A button to select a GIF from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_GIF" = "GIF";
 
-/* A message on a button prompting the user to go settings to grant Signal photos access. */
+/* A message on a button prompting the user to go settings to grant Kahf photos access. */
 "ATTACHMENT_KEYBOARD_GIVE_PHOTOS_ACCESS" = "İzin Ver";
 
 /* A button to select a location from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_LOCATION" = "Konum";
 
 /* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
-"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Signal'in fotoğraf ve videolarını göstermek için erişim iznine ihtiyacı var.";
+"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Kahf'in fotoğraf ve videolarını göstermek için erişim iznine ihtiyacı var.";
 
 /* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
 "ATTACHMENT_KEYBOARD_NO_PHOTOS" = "Fotoğraf çektikten sonra buradan son görüşmelerinize gönderebileceksiniz.";
@@ -406,11 +406,11 @@
 /* The title for the badge configuration page */
 "BADGE_CONFIGURATION_TITLE" = "Rozetler";
 
-/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Signal\" button will be shown. This is the text in that button. */
+/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Kahf\" button will be shown. This is the text in that button. */
 "BADGE_DETAILS_DONATE_TO_SIGNAL" = "Şimdi bağış yap";
 
 /* When viewing someone else's donor badge, you'll see a sheet. This is the title on that sheet. Embeds {badge owner's short name} */
-"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ Signal'i destekliyor";
+"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ Kahf'i destekliyor";
 
 /* String explaining to the user that their boost badge has expired on the badge expiry sheet. */
 "BADGE_EXPIRED_BOOST_BODY" = "Boost rozetinin süresi doldu ve artık profilinde görünmüyor.\n\nSignal'i kullanmaya devam edebilirsin ancak senin için geliştirilen teknolojiyi desteklemek için lütfen aylık bağışçı olmayı düşün.";
@@ -436,8 +436,8 @@
 /* Body of the sheet shown when your subscription is canceled due to inactivity */
 "BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "Çok uzun süre hareketsiz kaldığın için yinelenen aylık bağışın otomatik olarak iptal edildi. %1$@ rozetin artık profilinde görünmüyor.\n\nSignal'i kullanmaya devam edebilirsin ama uygulamaya destek olmak ve rozetini tekrar etkinleştirmek için şimdi bağış yap.";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
-"BADGE_THANKS_BODY" = "Signal'den bir bağışçı rozeti kazandın! Desteğini göstermek için rozeti profilinde sergile.";
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
+"BADGE_THANKS_BODY" = "Kahf'den bir bağışçı rozeti kazandın! Desteğini göstermek için rozeti profilinde sergile.";
 
 /* Label prompting the user to display the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_DISPLAY_ON_PROFILE_LABEL" = "Profilde Göster";
@@ -445,7 +445,7 @@
 /* Label prompting the user to feature the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_MAKE_FEATURED" = "Rozeti Öne Çıkar";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
 "BADGE_THANKS_TITLE" = "Desteğin için teşekkürler!";
 
 /* Footer explaining that only one badge can be featured at a time on the thank you sheet. */
@@ -608,7 +608,7 @@
 "CALL_AUDIO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📞 %1$@'da cevapsız sesli arama";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Signal'de sesli iletiler kaydetmek ve aramalar yapmak için iOS Ayarlar uygulamasından mikrofon erişimini etkinleştirebilirsiniz.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Kahf'de sesli iletiler kaydetmek ve aramalar yapmak için iOS Ayarlar uygulamasından mikrofon erişimini etkinleştirebilirsiniz.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Mikrofon Erişimi Gerekiyor";
@@ -638,7 +638,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Yanıt Yok";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %1$@";
+"CALL_STATUS_FORMAT" = "Kahf %1$@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Ara";
@@ -701,10 +701,10 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Kameranız kapalı";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal Kullanıcısı";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Kahf Kullanıcısı";
 
 /* The generic name used for group calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_GROUP_NAME" = "Signal Grubu";
+"CALLKIT_ANONYMOUS_GROUP_NAME" = "Kahf Grubu";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Bir fotoğraf çekin ve gönderin";
@@ -778,38 +778,38 @@
 /* Title for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_TITLE" = "Hata";
 
-/* Users can donate to Signal with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CARD_NUMBER_GENERIC_ERROR" = "Geçersiz kart numarası";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card number field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card number field on that screen. */
 "CARD_DONATION_CARD_NUMBER_LABEL" = "Kart numarası";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_GENERIC_ERROR" = "Geçersiz CVV";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
 "CARD_DONATION_CVV_LABEL" = "CVV";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_TOO_LONG_ERROR" = "Kod çok uzun";
 
-/* Users can donate to Signal with a credit or debit card. This is the text on the \"Donate\" button. */
+/* Users can donate to Kahf with a credit or debit card. This is the text on the \"Donate\" button. */
 "CARD_DONATION_DONATE_BUTTON" = "Bağış yap";
 
-/* Users can donate to Signal with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_EXPIRATION_DATE_GENERIC_ERROR" = "Geçersiz son kullanma tarihi";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
 "CARD_DONATION_EXPIRATION_DATE_LABEL" = "Son Kullanma Tarihi";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card expiration date field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card expiration date field on that screen. */
 "CARD_DONATION_EXPIRATION_DATE_PLACEHOLDER" = "AA/YY";
 
-/* Users can donate to Signal with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
+/* Users can donate to Kahf with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
 "CARD_DONATION_HEADER" = "Bağış miktarı: %1$@";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the body text of that sheet. */
-"CARD_DONATION_READ_MORE_SHEET_BODY" = "Bağış yaptığında Signal kişisel bilgilerini toplamaz veya saklamaz.\n\nBağışlarını almak için ödeme işlemcimiz olarak Stripe'ı kullanıyoruz. Onlara sağladığın bilgilerin hiçbirine erişmiyoruz. Bilgilerini saklamıyor veya kaydetmiyoruz.\n\nSignal, yaptığın bağışı ve buna dair bilgileri Signal hesabın ile bağlamaz, bağlayamaz.\n\nDesteğin için teşekkürler!";
+"CARD_DONATION_READ_MORE_SHEET_BODY" = "Bağış yaptığında Kahf kişisel bilgilerini toplamaz veya saklamaz.\n\nBağışlarını almak için ödeme işlemcimiz olarak Stripe'ı kullanıyoruz. Onlara sağladığın bilgilerin hiçbirine erişmiyoruz. Bilgilerini saklamıyor veya kaydetmiyoruz.\n\nSignal, yaptığın bağışı ve buna dair bilgileri Kahf hesabın ile bağlamaz, bağlayamaz.\n\nDesteğin için teşekkürler!";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the title of that sheet. */
 "CARD_DONATION_READ_MORE_SHEET_TITLE" = "Bilgilerin gizlidir";
@@ -817,8 +817,8 @@
 /* On the credit/debit card donation screen, a small amount of information text is shown. Users can click this link to learn more information. */
 "CARD_DONATION_SUBHEADER_LEARN_MORE" = "Dahasını öğrenin";
 
-/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Signal does not collect or store their personal information. */
-"CARD_DONATION_SUBHEADER_TEXT" = "Kart bilgilerini gir. Signal, kişisel bilgilerini toplamaz veya saklamaz.";
+/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Kahf does not collect or store their personal information. */
+"CARD_DONATION_SUBHEADER_TEXT" = "Kart bilgilerini gir. Kahf, kişisel bilgilerini toplamaz veya saklamaz.";
 
 /* Title for the 'censorship circumvention country' view. */
 "CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE" = "Ülke Seçin";
@@ -884,7 +884,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Panodaki ile Karşılaştır";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Konuşma başlatmak için Signal kullanıcısını seçin veya arayın.";
+"COMPOSE_BUTTON_HINT" = "Konuşma başlatmak için Kahf kullanıcısını seçin veya arayın.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "İleti oluştur";
@@ -902,7 +902,7 @@
 "COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE" = "Kullanıcı adına göre bul";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Hangi kişilerinizin Signal kullandığını görmek için iOS Ayarlar uygulamasından kişiler erişimini etkinleştirebilirsiniz.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Hangi kişilerinizin Kahf kullandığını görmek için iOS Ayarlar uygulamasından kişiler erişimini etkinleştirebilirsiniz.";
 
 /* Configure reactions title text */
 "CONFIGURE_REACTIONS" = "Reaksiyonları Yapılandır";
@@ -1033,7 +1033,7 @@
 /* Error indicating that at least one contact field must be selected before sharing a contact. */
 "CONTACT_SHARE_NO_FIELDS_SELECTED" = "İletişim alanı seçilmedi.";
 
-/* Button text to initiate an email to signal support staff */
+/* Button text to initiate an email to Kahf support staff */
 "CONTACT_SUPPORT" = "Destekle İletişime Geçin";
 
 /* The localized representation of the 'Donations & Badges' support filter. */
@@ -1082,7 +1082,7 @@
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Bir Şey Çalışmıyor";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal destek isteğinizi tamamlayamadı.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Kahf destek isteğinizi tamamlayamadı.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Yeniden Dene";
@@ -1211,7 +1211,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "sesli";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Signal'ı destekleyerek profilin için rozet kazan. Daha fazlasını öğrenmek için bir rozete dokun.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Kahf'ı destekleyerek profilin için rozet kazan. Daha fazlasını öğrenmek için bir rozete dokun.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Rozetler";
@@ -1396,14 +1396,14 @@
 /* No comment provided by engineer. */
 "COUNTRYCODE_SELECT_TITLE" = "Ülke Kodu Seç";
 
-/* Body text for an interactive in-app prompt to set up a Signal username. */
+/* Body text for an interactive in-app prompt to set up a Kahf username. */
 "CREATE_USERNAME_MEGAPHONE_BODY" = "Usernames let others message you without needing your phone number.";
 
-/* Title for a button in an interactive in-app prompt to set up a Signal username, which will start a create-username flow. */
+/* Title for a button in an interactive in-app prompt to set up a Kahf username, which will start a create-username flow. */
 "CREATE_USERNAME_MEGAPHONE_SET_UP_BUTTON_TITLE" = "Set Up";
 
-/* Title for an interactive in-app prompt to set up a Signal username. */
-"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Signal username";
+/* Title for an interactive in-app prompt to set up a Kahf username. */
+"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Kahf username";
 
 /* Credit/debit card donation error for decline failures where the card has expired. */
 "CREDIT_OR_DEBIT_CARD_DONATION_ERROR_EXPIRED_CARD" = "Kartının süresi doldu. Kart bilgilerini kontrol et ve tekrar dene.";
@@ -1454,7 +1454,7 @@
 "DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Çalıştır";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Bu işlem, sorunu çözmemize yardımcı oluyor ve işlemin tamamlanması birkaç dakika sürebilir. Bu kontrol işlemi yapılırken Signal'i kapatabilirsin, fakat lütfen geçmiş bilgilerini girmek için burayı yeniden ziyaret et.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Bu işlem, sorunu çözmemize yardımcı oluyor ve işlemin tamamlanması birkaç dakika sürebilir. Bu kontrol işlemi yapılırken Kahf'i kapatabilirsin, fakat lütfen geçmiş bilgilerini girmek için burayı yeniden ziyaret et.";
 
 /* Button to skip database integrity check step */
 "DATABASE_INTEGRITY_CHECK_SKIP" = "Atla";
@@ -1468,20 +1468,20 @@
 /* In some cases, the user's message history can become corrupted, and a recovery interface is shown. The user has not been hacked and may be confused by this interface, so try to avoid using terms like \"database\" or \"corrupted\"—terms like \"message history\" are better. This is the title on the first screen of this interface, which gives them some information and asks them to continue. */
 "DATABASE_RECOVERY_AWAITING_USER_CONFIRMATION_TITLE" = "Veri Alma Sorunu";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_CONTINUE_ANYWAY" = "Yine De Devam Et";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_DESCRIPTION" = "Veri kurtarma işlemini tamamlamak için cihazında en az %1$@ boş depolama alanı olmasını öneriyoruz.";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_TITLE" = "Daha Fazla Depolama Alanı Gerekiyor";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This is the description on the screen where we show an error message. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Mesaj geçmişin kurtarılamadı. Yeniden yükleme yaptıktan sonra Signal'ı kullanmaya devam edebilirsin. Problemi daha iyi anlayabilmemiz için bize bir hata günlüğü gönder.";
+"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Mesaj geçmişin kurtarılamadı. Yeniden yükleme yaptıktan sonra Kahf'ı kullanmaya devam edebilirsin. Problemi daha iyi anlayabilmemiz için bize bir hata günlüğü gönder.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This button lets them delete all of their data. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Signal'ı Sıfırla";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Kahf'ı Sıfırla";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the final button they will press before their data is reset. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_CONFIRM" = "Sıfırla";
@@ -1490,7 +1490,7 @@
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_DESCRIPTION" = "Hesap bilgilerin, profilin ve tüm mesajların silinecek. Bu işlem tamamlandıktan sonra uygulama kapanacaktır.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the title of that dialog. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Signal'ı Sıfırla";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Kahf'ı Sıfırla";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) They were asked to submit a debug log. This is the button that submits this log. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_SUBMIT_DEBUG_LOG_BUTTON" = "Hata Ayıklama Günlüğünü gönder";
@@ -1565,7 +1565,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Hesabı Sil";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Bu işlem Signal hesabını silecek ve uygulamayı sıfırlayacaktır. Bu işlem tamamlandıktan sonra uygulama kapanır.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Bu işlem Kahf hesabını silecek ve uygulamayı sıfırlayacaktır. Bu işlem tamamlandıktan sonra uygulama kapanır.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Hesabını silmek istediğinden emin misin?";
@@ -1589,7 +1589,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Telefon Numarası";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Signal Numaranızı Doğrulayın";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Kahf Numaranızı Doğrulayın";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Hesabı Sil";
@@ -1604,15 +1604,15 @@
 "DELETE_ALL_MESSAGES_IN_CONVERSATION_BUTTON" = "Tüm İletileri Sil";
 
 /* Notification warning the user that they have been de-registered. */
-"DEREGISTRATION_NOTIFICATION" = "Bu cihazdaki Signal oturumun kapatıldı.";
+"DEREGISTRATION_NOTIFICATION" = "Bu cihazdaki Kahf oturumun kapatıldı.";
 
 /* Label for button that lets users re-register using the same phone number. */
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Bu telefon numarasını tekrar kaydet";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Cihazınız artık kayıtlı değil. Telefon numaranız farklı bir cihazdaki Signal uygulamasına kaydedilmiş olabilir. Tekrar kaydetmek için dokunun.";
+"DEREGISTRATION_WARNING" = "Cihazınız artık kayıtlı değil. Telefon numaranız farklı bir cihazdaki Kahf uygulamasına kaydedilmiş olabilir. Tekrar kaydetmek için dokunun.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Kahf Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Son görülme %1$@";
 
 /* {{Short Date}} when device was linked. */
@@ -1634,7 +1634,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Eğer eski bir iOS cihazınız varsa, hesabınızı ve iletilerinizi bu cihaza güvenle aktarabilirsiniz.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Eğer önceden iPad'e bağlı Signal kullandıysanız, hesabınızı ve iletilerinizi bu cihaza güvenle aktarabilirsiniz.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Eğer önceden iPad'e bağlı Kahf kullandıysanız, hesabınızı ve iletilerinizi bu cihaza güvenle aktarabilirsiniz.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Hesap ve iletilerinizi aktarmadan devam edin";
@@ -1664,7 +1664,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "iOS Cihazından aktar";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Devam etmek aynı telefon numarası ile kaydolmuş diğer cihazlardaki Signal'i devre dışı bırakacaktır.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Devam etmek aynı telefon numarası ile kaydolmuş diğer cihazlardaki Kahf'i devre dışı bırakacaktır.";
 
 /* An error indicating that we were unable to verify the identity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Yeni cihazınız doğrulanamadı, lütfen tekrar deneyin";
@@ -1682,16 +1682,16 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Aktarımı tamamlamak için depolama alanı yetersiz";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Signal'in son sürümüne güncelleyin ve tekrar deneyin";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Kahf'in son sürümüne güncelleyin ve tekrar deneyin";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Signal hesabınızı yeni bir iOS cihazına aktarın. Yeni cihazınızın yanınızda ve açık olduğundan emin olun.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Kahf hesabınızı yeni bir iOS cihazına aktarın. Yeni cihazınızın yanınızda ve açık olduğundan emin olun.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Hesabı Aktar";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Signal'i eski cihazınızda açın, yanınızda bulundurun ve her iki cihazda da Wi-Fi ve Bluetooth'un açık olduğundan emin olun.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Kahf'i eski cihazınızda açın, yanınızda bulundurun ve her iki cihazda da Wi-Fi ve Bluetooth'un açık olduğundan emin olun.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Diğer cihazdaki çerçeve ile bu karekodu hizalayın.";
@@ -1703,7 +1703,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Diğer Cihaz Bekleniyor…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "İki cihazı da yakında bulundurun. Cihazları veya Signal'i kapatmayın. Aktarımlar uçtan uca şifrelidir.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "İki cihazı da yakında bulundurun. Cihazları veya Kahf'i kapatmayın. Aktarımlar uçtan uca şifrelidir.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Veri Alınıyor";
@@ -1718,7 +1718,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Yeni Cihazınızı Kameraya Doğrultun";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "İki cihazı da birbirlerinin yakınında bulundurun. Cihazları veya Signal'i kapatmayın.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "İki cihazı da birbirlerinin yakınında bulundurun. Cihazları veya Kahf'i kapatmayın.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Veri Aktarılıyor";
@@ -1787,13 +1787,13 @@
 "DONATE_CHOOSE_PAYMENT_METHOD_SHEET_SUBTITLE_FOR_ONE_TIME_DONATION" = "%1$@ rozetini bir aylığına kazan";
 
 /* When users make donations on a friend's behalf, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Signal'a %1$@ Bağış";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Kahf'a %1$@ Bağış";
 
 /* When users make monthly donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money per month}}, such as \"$5/month\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Signal'e %1$@ bağış yap";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Kahf'e %1$@ bağış yap";
 
 /* When users make one-time donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Signal'e %1$@ bağış yap";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Kahf'e %1$@ bağış yap";
 
 /* Users can donate on a friend's behalf and can optionally add a message. This is tells users about that optional message. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_ADDITIONAL_MESSAGE_INFO" = "Alıcı, bağıştan mesajla haberdar edilecektir. Kendi mesajını aşağıya ekle.";
@@ -1804,10 +1804,10 @@
 /* If a donation badge has been sent, indicates that it's expired and can no longer be redeemed. This is shown in the chat. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_CHAT_EXPIRED" = "Süresi doldu";
 
-/* If the user tries to donate to Signal but no amount is selected, this error message is shown. */
+/* If the user tries to donate to Kahf but no amount is selected, this error message is shown. */
 "DONATE_SCREEN_ERROR_NO_AMOUNT_SELECTED" = "Bağış yapmak istediğin tutarı seç.";
 
-/* If the user tries to donate to Signal but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
+/* If the user tries to donate to Kahf but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
 "DONATE_SCREEN_ERROR_SELECT_A_LARGER_AMOUNT_FORMAT" = "En az %1$@ tutarında bir bağış yapabilirsin.";
 
 /* On the donation screen, you can choose between one-time and monthly donations. This is the text on the picker for one-time donations. */
@@ -1850,7 +1850,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_BADGE_REDEEMED" = "Kullanıldı";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is a short paragraph on the screen where users choose the badge their friend will receive. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "Signal kullanan bir arkadaşın veya aile üyesi için bağış yaparak Signal'ı destekle. Böylece Signal'a olan desteklerini profillerinde gösterebilecekler.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "Kahf kullanan bir arkadaşın veya aile üyesi için bağış yaparak Kahf'ı destekle. Böylece Kahf'a olan desteklerini profillerinde gösterebilecekler.";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is the title on the screen where users choose the badge their friend will receive. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_TITLE" = "Arkadaşın için bağış yap";
@@ -1880,7 +1880,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_FAILED_ERROR_TITLE" = "Ödeme Başarısız";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "Ödemen işleme alındı fakat Signal bağış mesajını gönderemedi. Lütfen destek ekibiyle iletişime geç.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "Ödemen işleme alındı fakat Kahf bağış mesajını gönderemedi. Lütfen destek ekibiyle iletişime geç.";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, an error dialog will be shown. This is the title of that dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_TITLE" = "Bağış Başarısız Oldu";
@@ -1892,10 +1892,10 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PREVIEW_OUTGOING" = "✨ %1$@ için bağış yaptın";
 
 /* You received a donation from a friend. This is the title of that message in the chat. Embeds {{short contact name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "%1$@ senin adına Signal'e bağış yaptı";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "%1$@ senin adına Kahf'e bağış yaptı";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Bu kullanıcı Signal'ı güncelleyene kadar onun için bağış yapamazsın.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Bu kullanıcı Kahf'ı güncelleyene kadar onun için bağış yapamazsın.";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, an error dialog will be shown. This is the title of that error dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_TITLE" = "Bağış Yapılamıyor";
@@ -1922,7 +1922,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_SENT_TITLE_FORMAT" = "%1$@ için bağış";
 
 /* When you donate on behalf of a friend, a thank-you sheet will appear. This is the text on that sheet. Embeds {{recipient name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_BODY_FORMAT" = "%1$@ adına Signal'a bağışta bulundun. Böylece Signal'a olan desteklerini profillerinde gösterebilecekler.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_BODY_FORMAT" = "%1$@ adına Kahf'a bağışta bulundun. Böylece Kahf'a olan desteklerini profillerinde gösterebilecekler.";
 
 /* When you donate on behalf of a friend, a thank-you sheet will appear. This is the title on that sheet. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_THANKS_TITLE" = "Desteğin için teşekkürler!";
@@ -1931,19 +1931,19 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_VIEW" = "Görüntüle";
 
 /* A friend has donated on your behalf and you received a badge. This text says that you received a badge, and from whom. Embeds {{contact's short name, such as a first name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "%1$@ senin adına Signal'a bağış yaptı! Signal'a desteğini profilinde göster.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "%1$@ senin adına Kahf'a bağış yaptı! Kahf'a desteğini profilinde göster.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 1st paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 1st paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_1" = "Gizli mesajlaşma. Reklam yok, takip yok, gözetleme yok.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 2nd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Signal bağışlarla destekleniyor, yani gizliliğin yaptığımız her şeyin merkezinde. Sinyal senin için üretildi; kişisel bilgilerini kullanmak ve kâr etmek için değil.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 2nd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Kahf bağışlarla destekleniyor, yani gizliliğin yaptığımız her şeyin merkezinde. Sinyal senin için üretildi; kişisel bilgilerini kullanmak ve kâr etmek için değil.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 3rd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Mümkünse, lütfen Signal'ı eğlenceli, güvenilir ve herkes için erişilebilir hâle getirmek için bugün bağış yap.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 3rd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Mümkünse, lütfen Kahf'ı eğlenceli, güvenilir ve herkes için erişilebilir hâle getirmek için bugün bağış yap.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the title of that screen. */
-"DONATION_READ_MORE_SCREEN_TITLE" = "Signal diğer uygulamalardan farklıdır.";
+/* There is a screen where users can read more about their donation to Kahf. This is the title of that screen. */
+"DONATION_READ_MORE_SCREEN_TITLE" = "Kahf diğer uygulamalardan farklıdır.";
 
 /* Section title for donation amount on receipts */
 "DONATION_RECEIPT_AMOUNT" = "Tutar";
@@ -1958,7 +1958,7 @@
 "DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Makbuzu Paylaş";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Signal'i desteklediğiniz için teşekkür ederiz. Katkınız, ifade özgürlüğünü koruyan ve dünya çapında milyonlarca kişi için güvenli küresel iletişim sağlayan açık kaynaklı gizlilik teknolojisi geliştirme misyonunu desteklemeye yardımcı olur. Amerika Birleşik Devletleri'nde ikamet ediyorsanız, lütfen bu makbuzu vergi kayıtlarınız için saklayın. Signal Technology Foundation, Amerika Birleşik Devletleri'nde İç Gelir Yasası'nın 501c3 bölümü kapsamında vergiden muaf, kâr amacı gütmeyen bir kuruluştur. Federal Vergi Kimliğimiz 82-4506840'tır.";
+"DONATION_RECEIPT_FOOTER" = "Kahf'i desteklediğiniz için teşekkür ederiz. Katkınız, ifade özgürlüğünü koruyan ve dünya çapında milyonlarca kişi için güvenli küresel iletişim sağlayan açık kaynaklı gizlilik teknolojisi geliştirme misyonunu desteklemeye yardımcı olur. Amerika Birleşik Devletleri'nde ikamet ediyorsanız, lütfen bu makbuzu vergi kayıtlarınız için saklayın. Kahf Technology Foundation, Amerika Birleşik Devletleri'nde İç Gelir Yasası'nın 501c3 bölümü kapsamında vergiden muaf, kâr amacı gütmeyen bir kuruluştur. Federal Vergi Kimliğimiz 82-4506840'tır.";
 
 /* Title for receipts for donations given on a friend's behalf */
 "DONATION_RECEIPT_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Arkadaşın için bağış";
@@ -1979,13 +1979,13 @@
 "DONATION_RECEIPTS" = "Bağış Makbuzları";
 
 /* Text at the bottom of the donation receipts list, telling users that receipts might not be available */
-"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Signal'i yeniden yüklediyseniz, önceki bağışların makbuzları mevcut olmayacaktır.";
+"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Kahf'i yeniden yüklediyseniz, önceki bağışların makbuzları mevcut olmayacaktır.";
 
 /* On the donation settings screen, tapping this button will take the user to a screen where they can donate. */
 "DONATION_SCREEN_DONATE_BUTTON" = "Bağış yap";
 
 /* On donation screens, a small amount of information text is shown. This is the subtitle for that text. */
-"DONATION_SCREENS_HEADER_DESCRIPTION" = "Senin tarafından desteklenen, gizli mesajlaşma. Reklam yok, takip yok, taviz yok. Signal'ı desteklemek için şimdi bağış yap.";
+"DONATION_SCREENS_HEADER_DESCRIPTION" = "Senin tarafından desteklenen, gizli mesajlaşma. Reklam yok, takip yok, taviz yok. Kahf'ı desteklemek için şimdi bağış yap.";
 
 /* On donation screens, a small amount of information text is shown. Users can click this link to learn more information. */
 "DONATION_SCREENS_HEADER_READ_MORE" = "Devamını oku";
@@ -1996,8 +1996,8 @@
 /* Title for the \"donate for a friend\" button on the donation view. */
 "DONATION_VIEW_DONATE_ON_BEHALF_OF_A_FRIEND" = "Arkadaşın için bağış yap";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Signal'e Bağış";
+/* Text describing to the user that they're going to pay a donation to Kahf */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Kahf'e Bağış";
 
 /* Text that's shown when the donation view fails to load data, probably due to network failure */
 "DONATION_VIEW_LOAD_FAILED" = "Ağ hatası. Bağlantınızı kontrol edip tekrar deneyin.";
@@ -2008,8 +2008,8 @@
 /* Title for the 'Manage Subscription' button on the donation screen */
 "DONATION_VIEW_MANAGE_SUBSCRIPTION" = "Aboneliği Yönet";
 
-/* Text describing to the user that they're going to pay a monthly donation to Signal */
-"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Signal'a Aylık Bağış";
+/* Text describing to the user that they're going to pay a monthly donation to Kahf */
+"DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Kahf'a Aylık Bağış";
 
 /* Title for the 'more' section on the donation screen */
 "DONATION_VIEW_MORE_SECTION_TITLE" = "Daha fazla";
@@ -2023,23 +2023,23 @@
 /* Title for the 'Subscription FAQ' button on the donation screen */
 "DONATION_VIEW_SUBSCRIPTION_FAQ" = "Abonelik SSS";
 
-/* Title on the 'Donate to Signal' screen */
-"DONATION_VIEW_TITLE" = "Signal'e Bağış Yap";
+/* Title on the 'Donate to Kahf' screen */
+"DONATION_VIEW_TITLE" = "Kahf'e Bağış Yap";
 
 /* Label for the currency picker button in donation views */
 "DONATIONS_CURRENCY_PICKER_LABEL" = "Para birimi";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "iOS Ayarlar uygulamasından erişimini etkinleştirebilirsiniz.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal Kişi Bilgilerini Düzenlemek İçin Kişi Erişimine İhtiyacı Var";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Kahf Kişi Bilgilerini Düzenlemek İçin Kişi Erişimine İhtiyacı Var";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Grubu düzenle";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Bu kullanıcı Signal'i güncelleyene kadar gruba eklenemez.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Bu kullanıcı Kahf'i güncelleyene kadar gruba eklenemez.";
 
 /* Error message indicating that an avatar image is invalid and cannot be used. */
 "EDIT_GROUP_ERROR_INVALID_AVATAR" = "Geçersiz fotoğraf.";
@@ -2056,14 +2056,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Kopyala";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Merhaba,\n\nSon zamanlarda iPhone'umdaki konuşmalarımı gizli tutmak için Signal kullanıyorum. Size de kurmanızı öneririm, böylelikle iletilerimizin ve aramalarımızın aramızda kaldığından emin olabiliriz.\n\nSignal, iPhone ve Android için kullanılabilir. Şu adresten edinebilirsiniz: %1$@ \n\nSignal mevcut ileti uygulaması gibi çalışır. Görüntü ve video gönderebilir, arama yapabilir ve grup konuşmalarına başlayabiliriz. En iyi yanı ise yapımcıları dahil hiç kimsenin göremeyecek olması!\n\nSignal'i yapan Open Whisper Systems hakkında daha fazla bilgi için şu adresi ziyaret edebilirsin: %2$@";
+/* body of email sent to contacts when inviting to install Kahf. Embeds {{link to install Kahf}} and {{link to the Kahf home page}} */
+"EMAIL_INVITE_BODY" = "Merhaba,\n\nSon zamanlarda iPhone'umdaki konuşmalarımı gizli tutmak için Kahf kullanıyorum. Size de kurmanızı öneririm, böylelikle iletilerimizin ve aramalarımızın aramızda kaldığından emin olabiliriz.\n\nSignal, iPhone ve Android için kullanılabilir. Şu adresten edinebilirsiniz: %1$@ \n\nSignal mevcut ileti uygulaması gibi çalışır. Görüntü ve video gönderebilir, arama yapabilir ve grup konuşmalarına başlayabiliriz. En iyi yanı ise yapımcıları dahil hiç kimsenin göremeyecek olması!\n\nSignal'i yapan Open Whisper Systems hakkında daha fazla bilgi için şu adresi ziyaret edebilirsin: %2$@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Haydi Signal'e geçelim";
+/* subject of email sent to contacts when inviting to install Kahf */
+"EMAIL_INVITE_SUBJECT" = "Haydi Kahf'e geçelim";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Cihazınız eposta gönderebilecek şekilde yapılandırılmamış. Yardım talep etmek için support@signal.org adresine e-posta gönderebilir veya cihazınıza eposta kurabilirsiniz.";
+"EMAIL_SIGNAL_MESSAGE" = "Cihazınız eposta gönderebilecek şekilde yapılandırılmamış. Yardım talep etmek için support@Kahf.org adresine e-posta gönderebilir veya cihazınıza eposta kurabilirsiniz.";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-posta kullanılamıyor";
@@ -2096,7 +2096,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Seyahat & Mekanlar";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Kişilerinizin hiçbirinde Signal yok.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Kişilerinizin hiçbirinde Kahf yok.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Neden birisini davet etmiyorsunuz?";
@@ -2150,7 +2150,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Hizmetten geçersiz yanıt alındı.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Bu cihaz artık telefon numaranıza kayıtlı değil. Lütfen Signal'i yeniden başlatın.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Bu cihaz artık telefon numaranıza kayıtlı değil. Lütfen Kahf'i yeniden başlatın.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Sunucu hatası. Lütfen daha sonra tekrar deneyiniz.";
@@ -2162,7 +2162,7 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Bilinmeyen bir hata oluştu.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kişi bir Signal kullanıcısı değil.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kişi bir Kahf kullanıcısı değil.";
 
 /* Error message indicating that attachment download(s) failed. */
 "ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED" = "Eklenti indirmesi başarısız oldu.";
@@ -2188,10 +2188,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Kişi için oturum mevcut değil.";
 
-/* Shown when signal users safety numbers changed */
+/* Shown when Kahf users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "Güvenlik numarası değişti.";
 
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Kahf users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "%1$@ ile olan güvenlik numaranız değişti.";
 
 /* Text notifying the user that their secure session has been reset */
@@ -2207,10 +2207,10 @@
 "ERROR_NETWORK_FAILURE" = "Ağ Hatası";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Lütfen bu hatayı cihazınızdaki hata ayıklama günlükleriyle birlikte support@signal.org adresine bildirerek Signal'i iyileştirmemize yardımcı olun; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Lütfen bu hatayı cihazınızdaki hata ayıklama günlükleriyle birlikte support@Kahf.org adresine bildirerek Kahf'i iyileştirmemize yardımcı olun; %1$@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: Bir hata oluştu";
+"ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Bir hata oluştu";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Cihazınız artık bağlı değil. Lütfen ileti göndermek için tekrar bağlayın.";
@@ -2219,16 +2219,16 @@
 "ERROR_SENDING_DEREGISTERED" = "Cihazınız artık kayıtlı değil. Lütfen ileti göndermek için tekrar kaydedin.";
 
 /* Error indicating a send failure due to an expired application. */
-"ERROR_SENDING_EXPIRED" = "Signal sürümünüz kullanım dışı kaldı. Lütfen ileti gönderebilmek için güncelleyin.";
+"ERROR_SENDING_EXPIRED" = "Kahf sürümünüz kullanım dışı kaldı. Lütfen ileti gönderebilmek için güncelleyin.";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Kahf id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Kayıtlı Olmayan Kullanıcı: %1$@";
 
 /* Label notifying the user that the app has expired. */
-"EXPIRATION_ERROR" = "Signal sürümünüz kullanım dışı kaldı! En son sürüme güncellemek için dokunun.";
+"EXPIRATION_ERROR" = "Kahf sürümünüz kullanım dışı kaldı! En son sürüme güncellemek için dokunun.";
 
 /* Label warning the user that the app will expire today. */
-"EXPIRATION_WARNING_TODAY" = "Signal sürümünüz bugün kullanım dışı kalacak. En yeni sürüme güncellemek için dokunun.";
+"EXPIRATION_WARNING_TODAY" = "Kahf sürümünüz bugün kullanım dışı kalacak. En yeni sürüme güncellemek için dokunun.";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
 "FAILED_SENDING_BECAUSE_RATE_LIMIT" = "Bu kullanıcıya çok fazla hatalı deneme yaptınız. Lütfen daha sonra tekrar deneyin.";
@@ -2501,10 +2501,10 @@
 "GROUP_CALL_WILL_NOTIFY_TWO_PEOPLE_FORMAT" = "%1$@ ve %2$@ bildirim alacak";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there is one other person in the group. Embeds {member name} */
-"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "%1$@ Signal tarafından aranacak";
+"GROUP_CALL_WILL_RING_ONE_PERSON_FORMAT" = "%1$@ Kahf tarafından aranacak";
 
 /* Text shown before the user starts a group call if the user has enabled ringing and there are two other people in the group. Embeds {{ %1$@ participant1, %2$@ participant2 }} */
-"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "%1$@ ve %2$@ Signal tarafından aranacak";
+"GROUP_CALL_WILL_RING_TWO_PEOPLE_FORMAT" = "%1$@ ve %2$@ Kahf tarafından aranacak";
 
 /* Text explaining that you are in the group call. */
 "GROUP_CALL_YOU_ARE_HERE" = "Grup görüşmesindesiniz";
@@ -2687,7 +2687,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Geçersiz Bağlantı";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Bu gruba katılmak için bu cihazdaki Signal'i güncelleyin.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Bu gruba katılmak için bu cihazdaki Kahf'i güncelleyin.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Grup bağlantısı üzerinden katılan yeni üyelerin yönetici tarafından onaylanması gereksin.";
@@ -2746,8 +2746,8 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "Karekod";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
-"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Signal ile Paylaş";
+/* Label for the 'share group link via Kahf' button in the 'group link' view. */
+"GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Kahf ile Paylaş";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_SHEET_MESSAGE" = "Bu bağlantıya sahip olan herkes grubun adını ve üyelerini görebilir ve katılma isteğinde bulunabilir. Güvendiğiniz insanlarla paylaşın.";
@@ -3083,13 +3083,13 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_1_TITLE" = "Eski Gruplar nelerdir?";
 
 /* Body text for the second section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Eski Gruplar henüz yeni gruplara yükseltilemez, ancak üyeler Signal'ın en son sürümündeyse aynı üyelerle yeni bir grup oluşturabilirsiniz.\n\nSignal, gelecekte Eski Grupları yükseltmenin bir yolunu sunacak.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_2_BODY" = "Eski Gruplar henüz yeni gruplara yükseltilemez, ancak üyeler Kahf'ın en son sürümündeyse aynı üyelerle yeni bir grup oluşturabilirsiniz.\n\nSignal, gelecekte Eski Grupları yükseltmenin bir yolunu sunacak.";
 
 /* Title for the second section of the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Eski bir Grubu yükseltebilir miyim?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Yeni bir grup oluşturmak için, tüm üyeler Signal'ın en son sürümüne güncellenmelidir.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Yeni bir grup oluşturmak için, tüm üyeler Kahf'ın en son sürümüne güncellenmelidir.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Eski ve Yeni Grup karşılaştırması";
@@ -3104,7 +3104,7 @@
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_ALERT_TOO_MANY_MEMBERS_FORMAT" = "Bu grup çok fazla üyeye sahip olduğu için Yeni Gruba yükseltilemiyor. Yükseltilebilecek azami grup boyutu %1$@.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
-"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Tüm üyeler Yeni Gruba katılabilen Signal sürümünü kullandığında bu grup yükseltilecektir.";
+"GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_1" = "Tüm üyeler Yeni Gruba katılabilen Kahf sürümünü kullandığında bu grup yükseltilecektir.";
 
 /* Explanation of group migration for groups that can't yet be migrated in the 'legacy group' alert views. */
 "GROUPS_LEGACY_GROUP_CANT_UPGRADE_YET_2" = "Yükseltme öncesi tüm ileti geçmişi ve içerik saklanacak.";
@@ -3223,7 +3223,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Bizimle İletişime Geçin";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Kahf support website */
 "HELP_SUPPORT_CENTER" = "Destek Merkezi";
 
 /* Label for 'archived conversations' button. */
@@ -3238,16 +3238,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Taslak: ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Bazı kişileriniz zaten Signal kullanıyor, örneğin %1$@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Kahf contact.  Embeds {{The name of 1 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Bazı kişileriniz zaten Kahf kullanıyor, örneğin %1$@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Bazı kişileriniz zaten Signal kullanıyor, örneğin %1$@ ve %2$@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Kahf contacts.  Embeds {{The names of 2 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Bazı kişileriniz zaten Kahf kullanıyor, örneğin %1$@ ve %2$@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Bazı kişileriniz zaten Signal kullanıyor, örneğin %1$@, %2$@ ve %3$@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Kahf contacts.  Embeds {{The names of 3 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Bazı kişileriniz zaten Kahf kullanıyor, örneğin %1$@, %2$@ ve %3$@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Kahf contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "İlk konuşmanızı buradan başlatın.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -3280,11 +3280,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "%1$@ öğeden daha fazlasını paylaşamazsınız.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Kahf has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Fotoğrafları Değiştir";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Ayarlarda tam erişim hakkı verin veya Signal'in hangi fotoğraflara erişebileceğini değiştirin.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Ayarlarda tam erişim hakkı verin veya Kahf'in hangi fotoğraflara erişebileceğini değiştirin.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Fotoğraflarınızı göremiyor musunuz?";
@@ -3343,8 +3343,8 @@
 /* Indicates that another user has changed their phone number. Embeds: {{ the user's name}} */
 "INFO_MESSAGE_USER_CHANGED_PHONE_NUMBER_FORMAT" = "%1$@ telefon numarasını değiştirdi.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ Signal'e katıldı!";
+/* Shown in inbox and conversation when a user joins Kahf, embeds the new user's {{contact name}} */
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ Kahf'e katıldı!";
 
 /* accessibility label for the button which shows the regular keyboard instead of sticker picker */
 "INPUT_TOOLBAR_KEYBOARD_BUTTON_ACCESSIBILITY_LABEL" = "Klavye";
@@ -3367,14 +3367,14 @@
 /* The provided proxy host address is not valid */
 "INVALID_PROXY_HOST_ERROR" = "Girdiğin proxy adresi geçersiz, lütfen adresi kontrol edip tekrar dene.";
 
-/* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Arkadaşlarınızı Signal'e davet etmek için iOS Ayarlar uygulamasından kişiler erişimini etkinleştirebilirsiniz.";
+/* Alert body when contacts disabled while trying to invite contacts to Kahf */
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Arkadaşlarınızı Kahf'e davet etmek için iOS Ayarlar uygulamasından kişiler erişimini etkinleştirebilirsiniz.";
 
-/* Alert title when contacts disabled while trying to invite contacts to signal */
+/* Alert title when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Kişi Erişimine İzin Ver";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Arkadaşlarınızı Signal'e Davet Edin";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Arkadaşlarınızı Kahf'e Davet Edin";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Ara";
@@ -3473,10 +3473,10 @@
 "LINK_PREVIEW_UNKNOWN_DOMAIN" = "Bağlantı Ön İzlemesi";
 
 /* Shown in an alert when trying to edit a contact. */
-"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Sistem kişilerinin yönetimi artık iPad'de kullanılamıyor. Sistem kişilerine Signal bağlantıları eklemek için telefonunda Signal'i aç.";
+"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Sistem kişilerinin yönetimi artık iPad'de kullanılamıyor. Sistem kişilerine Kahf bağlantıları eklemek için telefonunda Kahf'i aç.";
 
 /* Shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. */
-"LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Sistem kişilerinin yönetimi artık iPad'de desteklenmemektedir. Bu cihaz, telefonundaki Signal'den kişi listendeki değişiklikleri senkronize etmeye devam edecektir.";
+"LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Sistem kişilerinin yönetimi artık iPad'de desteklenmemektedir. Bu cihaz, telefonundaki Kahf'den kişi listendeki değişiklikleri senkronize etmeye devam edecektir.";
 
 /* A button shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. Tapping it opens a website with more details. */
 "LINKED_DEVICE_MANAGE_CONTACTS_LEARN_MORE" = "Daha fazlasını öğren";
@@ -3497,7 +3497,7 @@
 "LINKING_DEVICE_FAILED_TITLE" = "Cihaz Bağlanması Başarısız Oldu";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Signal hesabınızı aktarabilmek için, her iki aygıtta da yerel ağ erişimini etkinleştirmeniz gerekiyor.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Kahf hesabınızı aktarabilmek için, her iki aygıtta da yerel ağ erişimini etkinleştirmeniz gerekiyor.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Yardıma mı ihtiyacınız var?";
@@ -3509,7 +3509,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "\"Yerel Ağ\" seçeneğini seçin";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Signal'e gidin";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Kahf'e gidin";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Yerel Ağ Erişimini açın";
@@ -3524,7 +3524,7 @@
 "LOGGING_SECTION" = "Günlük";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Hata günlükleri Signal'in sorunları ve göçmeleri çözmesine yardımcı olur.";
+"LOGGING_SECTION_FOOTER" = "Hata günlükleri Kahf'in sorunları ve göçmeleri çözmesine yardımcı olur.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "İleti";
@@ -3572,7 +3572,7 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE" = "Herkesten Sil";
 
 /* A one-time confirmation that you want to delete for everyone */
-"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Bu ileti konuşmadaki güncel bir Signal sürümü kullanan herkesten silinecektir. Üyeler bir ileti sildiğinizi göreceklerdir.";
+"MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Bu ileti konuşmadaki güncel bir Kahf sürümü kullanan herkesten silinecektir. Üyeler bir ileti sildiğinizi göreceklerdir.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
 "MESSAGE_ACTION_DELETE_FOR_TITLE" = "Bu iletiyi kimin cihazından silmek istiyorsun?";
@@ -3607,8 +3607,8 @@
 /* Label for button to open a link. */
 "MESSAGE_ACTION_LINK_OPEN_LINK" = "Bağlantı Aç";
 
-/* Label for button to open a signal proxy. */
-"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Signal Proxy Sunucusunu Aç";
+/* Label for button to open a Kahf proxy. */
+"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Kahf Proxy Sunucusunu Aç";
 
 /* Label for button to open a sticker pack. */
 "MESSAGE_ACTION_LINK_OPEN_STICKER_PACK" = "Çıkartma Paketini Görüntüle";
@@ -3752,7 +3752,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Grubu Sil ve Ayrıl?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "İstekleri dikkatle gözden geçirin. Signal aynı ada sahip başka bir kişi buldu.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "İstekleri dikkatle gözden geçirin. Kahf aynı ada sahip başka bir kişi buldu.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Kişiniz";
@@ -3847,7 +3847,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Okundu";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Kahf account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Atlandı";
 
 /* Label indicating that a message failed to send. */
@@ -3890,22 +3890,22 @@
 "MISSED_VIDEO_CALL" = "Cevapsız görüntülü arama";
 
 /* Alert body */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal'de görüntülü aramalar yapmak için iOS Ayarlar uygulamasından kamera erişimini etkinleştirebilirsiniz.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Kahf'de görüntülü aramalar yapmak için iOS Ayarlar uygulamasından kamera erişimini etkinleştirebilirsiniz.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal'in kamera erişimine ihtiyacı var.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Kahf'in kamera erişimine ihtiyacı var.";
 
 /* Alert body indicating the user has denied location permissions */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Bu izni Ayarlar uygulamasından etkinleştirebilirsiniz.";
 
 /* Alert title indicating the user has denied location permissions */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal bu özellik için konumunuza erişim gerektirir.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Kahf bu özellik için konumunuza erişim gerektirir.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Bu izni Ayarlar uygulamasından etkinleştirebilirsiniz.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Bu özellik için Signal'in fotoğraflarınıza erişmeye ihtiyacı var.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Bu özellik için Kahf'in fotoğraflarınıza erişmeye ihtiyacı var.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Hiçbiri";
@@ -3926,7 +3926,7 @@
 "MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_EXCEPT_TITLE" = "…Hariç Herkes";
 
 /* Title for the visibility option */
-"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Tüm Signal Bağlantıları";
+"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Tüm Kahf Bağlantıları";
 
 /* Title for the visibility option */
 "MY_STORIES_SETTINGS_VISIBILITY_ONLY_SHARE_WITH_TITLE" = "Sadece Bu Kişilerle Paylaş…";
@@ -4105,7 +4105,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "İsim veya İçerik Yok";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Kahf will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Uygulama İçi Bildirimler";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -4160,7 +4160,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "iPhone'u bağla";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "\"iPad'i kaydet\" tuşuna basarak yeni bir Signal hesabı açabilir veya mevcut hesabınızı bu iPad'e aktarabilirsiniz. Bu işlem diğer cihazlarda aynı telefon numarası ile kaydedilmiş Signal'i devre dışı bırakacaktır.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "\"iPad'i kaydet\" tuşuna basarak yeni bir Kahf hesabı açabilir veya mevcut hesabınızı bu iPad'e aktarabilirsiniz. Bu işlem diğer cihazlarda aynı telefon numarası ile kaydedilmiş Kahf'i devre dışı bırakacaktır.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "\"iPhone'u bağla\" tuşuna basarak telefonunuzu mevcut bir hesaba bağlayabilirsiniz. Telefonunuzu bağlamanız genellikle önerilmez, aynı zamanda, arama gibi bazı özellikleri sınırlayacaktır.";
@@ -4172,7 +4172,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Bu iPhone'u bağla";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Bu iPad'i kaydetmek diğer cihazlarda aynı telefon numarası ile kaydedilmiş Signal'i devre dışı bırakacaktır.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Bu iPad'i kaydetmek diğer cihazlarda aynı telefon numarası ile kaydedilmiş Kahf'i devre dışı bırakacaktır.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhone'unuzu bağlamak önerilmez ve bazı temel fonksiyonları sınırlar.";
@@ -4181,13 +4181,13 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "İzinleri Etkinleştir";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Bildirimlere ve kişilere izin verilmesi, iletiler ulaştığında görmenize ve tanıdığınız kişileri bulmanıza yardımcı olur. Kişiler şifrelenmiştir, bu nedenle Signal hizmeti tarafından okunamazlar.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Bildirimlere ve kişilere izin verilmesi, iletiler ulaştığında görmenize ve tanıdığınız kişileri bulmanıza yardımcı olur. Kişiler şifrelenmiştir, bu nedenle Kahf hizmeti tarafından okunamazlar.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "İzinleri Etkinleştir";
 
 /* Explanation of the 'onboarding phone number discoverability' view. Embeds {user phone number} */
-"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Telefon numaranızla sizi Signal'de kimin bulabileceğini seçin %1$@";
+"ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_EXPLANATION_FORMAT" = "Telefon numaranızla sizi Kahf'de kimin bulabileceğini seçin %1$@";
 
 /* Title of the 'onboarding phone number discoverability' view. */
 "ONBOARDING_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Telefon numaranızla sizi kimler bulabilir?";
@@ -4205,7 +4205,7 @@
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Geçersiz telefon numarası. Kaydolmak için lütfen geçerli bir telefon numarası girin.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "PIN tahminleriniz bitti, ancak yeni bir PIN oluşturarak Signal hesabınıza erişebilirsiniz. Gizliliğiniz ve güvenliğiniz için hesabınız kaydedilmiş Profil bilgileri ve ayarları olmadan geri yüklenecektir.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "PIN tahminleriniz bitti, ancak yeni bir PIN oluşturarak Kahf hesabınıza erişebilirsiniz. Gizliliğiniz ve güvenliğiniz için hesabınız kaydedilmiş Profil bilgileri ve ayarları olmadan geri yüklenecektir.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "PIN'ler hakkında dahasını öğrenin";
@@ -4279,14 +4279,14 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%1$@ kaybolan ileti süresini %2$@ olarak ayarladı.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal teknik sorunlar yaşıyor. Hizmeti olabildiğince çabuk düzeltmek için sıkı çalışıyoruz.";
+/* Label warning the user that the Kahf service may be down. */
+"OUTAGE_WARNING" = "Kahf teknik sorunlar yaşıyor. Hizmeti olabildiğince çabuk düzeltmek için sıkı çalışıyoruz.";
 
 /* Label for action link when the user has an outdated payment client */
 "OUTDATED_PAYMENT_CLIENT_ACTION_TITLE" = "Şimdi Güncelle";
 
-/* Label warning the user that they should update Signal to continue using payments. */
-"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Ödemeleri kullanmaya devam etmek için Signal'ı güncelle. Bakiyen güncel olmayabilir.";
+/* Label warning the user that they should update Kahf to continue using payments. */
+"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Ödemeleri kullanmaya devam etmek için Kahf'ı güncelle. Bakiyen güncel olmayabilir.";
 
 /* info message text in conversation view */
 "OUTGOING_AUDIO_CALL" = "Giden sesli arama";
@@ -4396,7 +4396,7 @@
 /* Title for action sheet shown when unlocking with biometrics like Face ID or TouchID fails because it is disabled at a system level. */
 "PAYMENTS_LOCK_LOCAL_BIOMETRY_AUTH_DISABLED_TITLE" = "Biyometrik Kimlik Doğrulama Başarısız";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
 "PAYMENTS_LOCK_REASON_UNLOCK_PAYMENTS_LOCK" = "Ödemeyi onaylamak için kimlik doğrulaması yap.";
 
 /* Label for the 'add memo' ui in the 'send payment' UI. */
@@ -4427,7 +4427,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Geçersiz hareket";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Ödemeleri kullanmak için Signal'i güncelleyin.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Ödemeleri kullanmak için Kahf'i güncelleyin.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Ödeme henüz doğrulanmadı";
@@ -4649,13 +4649,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Herkes";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Signal. Others will be able to reach you with your phone number when they start a new chat or group.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Kahf. Others will be able to reach you with your phone number when they start a new chat or group.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Hiç kimse";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Signal will be able to reach you with your phone number.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Kahf will be able to reach you with your phone number.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Örneğin: %1$@";
@@ -4664,19 +4664,19 @@
 "PHONE_NUMBER_SHARING_CONTACTS_ONLY" = "Kişilerim";
 
 /* A user friendly description of the 'contacts only' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Yalnızca kişileriniz telefon numaranızı Signal'de görebilecek.";
+"PHONE_NUMBER_SHARING_CONTACTS_ONLY_DESCRIPTION" = "Yalnızca kişileriniz telefon numaranızı Kahf'de görebilecek.";
 
 /* A user friendly name for the 'everybody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_EVERYBODY" = "Herkes";
 
 /* A user friendly description of the 'everybody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Telefon numaranız, ileti gönderdiğiniz kişiler ve gruplar tarafından görülecektir. Numaranızı kişilerine ekleyen insanlar da sizi Signal'de görebileceklerdir.";
+"PHONE_NUMBER_SHARING_EVERYBODY_DESCRIPTION" = "Telefon numaranız, ileti gönderdiğiniz kişiler ve gruplar tarafından görülecektir. Numaranızı kişilerine ekleyen insanlar da sizi Kahf'de görebileceklerdir.";
 
 /* A user friendly name for the 'nobody' phone number sharing mode. */
 "PHONE_NUMBER_SHARING_NOBODY" = "Hiç kimse";
 
 /* A user friendly description of the 'nobody' phone number sharing mode. */
-"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Hiç kimse telefon numaranızı Signal'de göremeyecek.";
+"PHONE_NUMBER_SHARING_NOBODY_DESCRIPTION" = "Hiç kimse telefon numaranızı Kahf'de göremeyecek.";
 
 /* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT" = "%1$@ %2$@";
@@ -4757,7 +4757,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "PIN'i devre dışı bırak";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "PIN'i devre dışı bırakırsanız, başka bir iOS cihazından aktarmadığınız sürece Signal'i yeniden kaydettiğinizde tüm verileri kaybedersiniz. PIN devre dışı iken Kayıt Kilidini açamazsınız.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "PIN'i devre dışı bırakırsanız, başka bir iOS cihazından aktarmadığınız sürece Kahf'i yeniden kaydettiğinizde tüm verileri kaybedersiniz. PIN devre dışı iken Kayıt Kilidini açamazsınız.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Uyarı";
@@ -4769,7 +4769,7 @@
 "PIN_CREATION_ERROR_TITLE" = "PIN Oluşturma Başarısız Oldu";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN'ler Signal'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz Signal'i yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN'inize ihtiyacınız yoktur.";
+"PIN_CREATION_EXPLANATION" = "PIN'ler Kahf'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz Kahf'i yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN'inize ihtiyacınız yoktur.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "PIN'ler Hakkında Dahasını Öğrenin";
@@ -4820,7 +4820,7 @@
 "PIN_CREATION_WEAK_ERROR" = "Daha güçlü bir PIN seçin";
 
 /* If your attempted PIN is too weak, you'll see an error message. This is the text on the error dialog. */
-"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Signal encrypted so only you can access it. Choose a stronger PIN to protect your account.";
+"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Kahf encrypted so only you can access it. Choose a stronger PIN to protect your account.";
 
 /* Error body indicating that the attempt to disable a PIN failed. */
 "PIN_DISABLE_ERROR_MESSAGE" = "PIN'iniz devre dışı bırakılamadı. Daha sonra tekrar soracağız.";
@@ -4850,7 +4850,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Size birkaç gün içinde hatırlatacağız.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Signal PIN'inizi doğrulayın";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Kahf PIN'inizi doğrulayın";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Size yarın hatırlatacağız.";
@@ -4865,7 +4865,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Geçersiz PIN, tekrar deneyin.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Signal PIN'inizi girin";
+"PIN_REMINDER_TITLE" = "Kahf PIN'inizi girin";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN en az 4 haneli olmalı";
@@ -4880,7 +4880,7 @@
 "PINS_MEGAPHONE_ACTION" = "PIN oluştur";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Signal PIN'inizi oluşturmayı tamamlayın.";
+"PINS_MEGAPHONE_BODY" = "Kahf PIN'inizi oluşturmayı tamamlayın.";
 
 /* Title for PIN megaphone when user doesn't have a PIN */
 "PINS_MEGAPHONE_TITLE" = "PIN oluştur";
@@ -4913,19 +4913,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Panonuzdaki sayı, bu konuşmanın doğru güvenlik numarasına benzemiyor.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal, panonuzda herhangi bir güvenlik numarası bulamadı. Doğru şekilde kopyaladınız mı?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Kahf, panonuzda herhangi bir güvenlik numarası bulamadı. Doğru şekilde kopyaladınız mı?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Signal kullanıcılarının her çifti ayrı bir güvenlik numarası paylaşır. %1$@ *size* özel olan güvenlik numarasını görüntülüyor olduğunu kontrol edin.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Kahf kullanıcılarının her çifti ayrı bir güvenlik numarası paylaşır. %1$@ *size* özel olan güvenlik numarasını görüntülüyor olduğunu kontrol edin.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Signal'in eski bir sürümünü kullanıyorsunuz. Doğrulamadan önce güncellemeniz gerekiyor.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Kahf'in eski bir sürümünü kullanıyorsunuz. Doğrulamadan önce güncellemeniz gerekiyor.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Karşıdaki kişi Signal'in eski bir sürümünü kullanıyor. Doğrulamadan önce güncelleme yapmaları gerekiyor.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Karşıdaki kişi Kahf'in eski bir sürümünü kullanıyor. Doğrulamadan önce güncelleme yapmaları gerekiyor.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Taranan kod güvenlik numarası gibi gözükmüyor. Signal'in güncel sürümünde olduğunuzdan emin misiniz?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Taranan kod güvenlik numarası gibi gözükmüyor. Kahf'in güncel sürümünde olduğunuzdan emin misiniz?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "%1$@ ile olan uçtan uca şifrelemenizin güvenliğini doğrulamak isterseniz, yukarıdaki numaraları cihazlarındaki numaralarla karşılaştırın.\n\nAlternatif olarak, telefonlarından kodu taratabilir, ya da kodunuzu taratmalarını rica edebilirsiniz.";
@@ -5032,7 +5032,7 @@
 /* Title for the profile view. */
 "PROFILE_VIEW_TITLE" = "Profil";
 
-/* The title for the address of the signal proxy */
+/* The title for the address of the Kahf proxy */
 "PROXY_ADDRESS" = "Vekil adresi";
 
 /* The provided proxy connected successfully */
@@ -5041,10 +5041,10 @@
 /* The provided proxy couldn't connect */
 "PROXY_FAILED_TO_CONNECT" = "Proxy sunucusuna bağlanılamadı. Proxy adresini kontrol et ve tekrar dene.";
 
-/* Placeholder text for signal proxy host */
+/* Placeholder text for Kahf proxy host */
 "PROXY_PLACEHOLDER" = "Vekil sunucu adresi girin";
 
-/* Title for the signal proxy settings */
+/* Title for the Kahf proxy settings */
 "PROXY_SETTINGS_TITLE" = "Vekil sunucu";
 
 /* Notification action button title */
@@ -5144,19 +5144,19 @@
 "RECIPIENT_PICKER_ERROR_USER_CANNOT_BE_SELECTED" = "Kullanıcı seçilemiyor.";
 
 /* Alert text. Shown after selecting a phone number that isn't valid. */
-"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "%1$@ bir Signal kullanıcısı değil. Geçerli bir telefon numarasıyla tekrar dene.";
+"RECIPIENT_PICKER_INVALID_NUMBER_MESSAGE" = "%1$@ bir Kahf kullanıcısı değil. Geçerli bir telefon numarasıyla tekrar dene.";
 
 /* Alert title. Shown after selecting a phone number that isn't valid. */
 "RECIPIENT_PICKER_INVALID_NUMBER_TITLE" = "Geçersiz Telefon Numarası";
 
-/* Button. Shown after selecting a phone number that isn't a Signal user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
+/* Button. Shown after selecting a phone number that isn't a Kahf user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
 "RECIPIENT_PICKER_INVITE_ACTION" = "İleti";
 
-/* Alert text. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ bir Signal kullanıcısı değil. Bu numarayı davet etmek ister misin?";
+/* Alert text. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ bir Kahf kullanıcısı değil. Bu numarayı davet etmek ister misin?";
 
-/* Alert title. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_TITLE" = "Signal'e davet et";
+/* Alert title. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_TITLE" = "Kahf'e davet et";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
 "REGISTER_2FA_FORGOT_PIN_ALERT_TITLE" = "Yardıma mı ihtiyacınız var?";
@@ -5194,10 +5194,10 @@
 /* Label for the country code field */
 "REGISTRATION_DEFAULT_COUNTRY_NAME" = "Ülke Kodu";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
-"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Signal on other devices currently registered with the same phone number.";
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
+"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Kahf on other devices currently registered with the same phone number.";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
 "REGISTRATION_DEVICE_TRANSFER_CHOICE_TITLE" = "Transfer Account & Messages";
 
 /* Placeholder text for the phone number textfield */
@@ -5234,13 +5234,13 @@
 "REGISTRATION_PIN_CONFIRM_TITLE" = "Confirm your PIN";
 
 /* During registration, users are asked to create a PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During registration, users are asked to create a PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_CREATE_TITLE" = "Create your PIN";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_ENTER_EXISTING_TITLE" = "Enter your PIN";
@@ -5348,7 +5348,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Görüntüle";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Signal Güvenlik Numaramız:\n%1$@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Kahf Güvenlik Numaramız:\n%1$@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "%1$@ ile olan güvenlik numaranız değişti. Doğrulamak isteyebilirsiniz.";
@@ -5380,14 +5380,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Ekran Kilidini kullanmak için iOS ayarlarınızdan bir şifre belirlemelisiniz.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Signal'i açmak için kimlik doğrulaması yapın.";
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Kahf'i açmak için kimlik doğrulaması yapın.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Kimlik doğrulama başarısız oldu.";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Signal'in Kilidini Aç";
+/* Label for button on lock screen that lets users unlock Kahf. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Kahf'in Kilidini Aç";
 
 /* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
 "SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT" = "İsim, kullanıcı adı, veya numara";
@@ -5423,13 +5423,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Hesap Uyuşmuyor";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Bu cihazı telefonunuza bağlamak için bu cihazdaki Signal'i güncelleyin.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Bu cihazı telefonunuza bağlamak için bu cihazdaki Kahf'i güncelleyin.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Desteklenmeyen Sürüm";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Diğer cihazınız iPad kare kodlarını taramayı desteklemeyen eski bir Signal sürümü kullanıyor. Lütfen Signal'in son sürümünü yükleyin ve tekrar deneyin.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Diğer cihazınız iPad kare kodlarını taramayı desteklemeyen eski bir Kahf sürümü kullanıyor. Lütfen Kahf'in son sürümünü yükleyin ve tekrar deneyin.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Tarayıcı Cihazı Güncelle";
@@ -5450,19 +5450,19 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Bağlantıyı Tamamla";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Bu iPad'i hesabınıza bağlamak için telefonunuzdan Signal'i açın";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Bu iPad'i hesabınıza bağlamak için telefonunuzdan Kahf'i açın";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Telefonumda Signal uygulaması yok…";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Telefonumda Kahf uygulaması yok…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Telefonunuzdan Uygulama Mağazasına girin, Signal'i yükleyin, kaydolma işlemini tamamlayın, ve daha sonrasında iPad'inizi aynı hesaba bağlayabilirsiniz.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Telefonunuzdan Uygulama Mağazasına girin, Kahf'i yükleyin, kaydolma işlemini tamamlayın, ve daha sonrasında iPad'inizi aynı hesaba bağlayabilirsiniz.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Telefonunuza Signal Yükleyin";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Telefonunuza Kahf Yükleyin";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
-"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Telefonunuzda Signal Ayarlarını açmak için profil resminize dokunun. Sonrasında,  \"Bağlı Cihazlar\" > \"Yeni Cihaz Bağla\" yolunu izleyerek bu kodu telefonunuzla tarayın:";
+"SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Telefonunuzda Kahf Ayarlarını açmak için profil resminize dokunun. Sonrasında,  \"Bağlı Cihazlar\" > \"Yeni Cihaz Bağla\" yolunu izleyerek bu kodu telefonunuzla tarayın:";
 
 /* Link text for page with troubleshooting info shown on the QR scanning screen */
 "SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT" = "iPad'inizi bağlamayla ilgili yardımı buradan alabilirsiniz";
@@ -5471,7 +5471,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Telefonunuzla kare kodu tarayın";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Hesabınızı aktarmak için eski iPad'inizde Signal'i açın";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Hesabınızı aktarmak için eski iPad'inizde Kahf'i açın";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Güvenli oturum sıfırlandı.";
@@ -5513,7 +5513,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Standart";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal uçtan uca şifreleme kullanır ve bazen konuşma oturumunuzu yenilemesi gerekebilir. Bu, konuşmanızın güvenliğini etkilemez, ancak bu kişiden gelen bir iletiyi kaçırmış olabilirsiniz ve ondan tekrar göndermesini isteyebilirsiniz.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Kahf uçtan uca şifreleme kullanır ve bazen konuşma oturumunuzu yenilemesi gerekebilir. Bu, konuşmanızın güvenliğini etkilemez, ancak bu kişiden gelen bir iletiyi kaçırmış olabilirsiniz ve ondan tekrar göndermesini isteyebilirsiniz.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Konuşma oturumu yenilendi";
@@ -5540,7 +5540,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Konum";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Etkinleştirildiğinde, Signal sansürü atlatmaya çalışacaktır. Signal'in sansürlendiği bir konumda olmadığınız sürece bu özelliği etkinleştirmeyin.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Etkinleştirildiğinde, Kahf sansürü atlatmaya çalışacaktır. Kahf'in sansürlendiği bir konumda olmadığınız sürece bu özelliği etkinleştirmeyin.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Sansür atlatma hesabınızın telefon numarasına bağlı olarak etkinleştirildi.";
@@ -5551,8 +5551,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Sansür atlatma sadece internete bağlıyken etkinleştirilebilir.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Sansür atlatma gerekli değil; zaten Signal hizmetine bağlandınız.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Kahf service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Sansür atlatma gerekli değil; zaten Kahf hizmetine bağlandınız.";
 
 /* No comment provided by engineer. */
 "SETTINGS_ADVANCED_DEBUGLOG" = "Hata Ayıklama Günlüğünü etkinleştir";
@@ -5593,8 +5593,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Engelli Kullanıcı Ekle";
 
-/* A label that indicates the user has no Signal contacts that they haven't blocked. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Signal'de kişiniz yok.";
+/* A label that indicates the user has no Kahf contacts that they haven't blocked. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Kahf'de kişiniz yok.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Arama Sonucu Yok";
@@ -5606,7 +5606,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Aramaları Daima Aktar";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "IP adresinizi kişinize göstermekten kaçınmak için tüm aramaları Signal sunucusundan aktarın. Etkinleştirildiğinde arama kalitesi düşecektir.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "IP adresinizi kişinize göstermekten kaçınmak için tüm aramaları Kahf sunucusundan aktarın. Etkinleştirildiğinde arama kalitesi düşecektir.";
 
 /* Label for the 'edit phone number' button in the 'change phone number' views. */
 "SETTINGS_CHANGE_PHONE_NUMBER_BACK_TO_EDIT_BUTTON" = "Numarayı Düzenle";
@@ -5660,7 +5660,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Konuşma Geçmişini Temizle";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Telif Hakkı Signal Messenger\n AGPLv3 altında lisanslanmıştır";
+"SETTINGS_COPYRIGHT" = "Telif Hakkı Kahf Messenger\n AGPLv3 altında lisanslanmıştır";
 
 /* Label for the 'data' section of the app settings. */
 "SETTINGS_DATA" = "Veri kullanımı";
@@ -5725,8 +5725,8 @@
 /* Explanation for the 'disappearing messages' privacy settings. */
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Tarafınızca başlatılan tüm yeni iletiler için varsayılan kaybolan ileti zamanlayıcısı ayarlayın.";
 
-/* Title for the 'donate to signal' link in settings. */
-"SETTINGS_DONATE" = "Signal'e Bağış Yap";
+/* Title for the 'donate to Kahf' link in settings. */
+"SETTINGS_DONATE" = "Kahf'e Bağış Yap";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Yardım";
@@ -5794,8 +5794,8 @@
 /* table section header */
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Bildirim İçeriği";
 
-/* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kişinin Signal'e Katılması";
+/* When the local device discovers a contact has recently installed Kahf, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kişinin Kahf'e Katılması";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Şu durumlarda bildir…";
@@ -5807,7 +5807,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Etkinleştir";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Signal'i MobileCoin alıp göndermek için kullanabilirsiniz. Tüm ödemeler MobileCoin ve MobileCoin Wallet Kullanım Koşullarına tabidir. Bu beta bir özelliktir, bu nedenle kimi sorunlarla karşılabilirsiniz ve kaybettiğiniz ödemeleri veya bakiyeyi kurtaramayabilirsiniz.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Kahf'i MobileCoin alıp göndermek için kullanabilirsiniz. Tüm ödemeler MobileCoin ve MobileCoin Wallet Kullanım Koşullarına tabidir. Bu beta bir özelliktir, bu nedenle kimi sorunlarla karşılabilirsiniz ve kaybettiğiniz ödemeleri veya bakiyeyi kurtaramayabilirsiniz.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Etkinleştir";
@@ -5831,7 +5831,7 @@
 "SETTINGS_PAYMENTS_BALANCE_CONVERSION_FORMAT" = "%1$@ %2$@ - %3$@";
 
 /* Error message indicating that payments could not be activated because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Signal'de Ödemeler artık mevcut değil. Yine de kambiyoya para aktarabilirsiniz ancak ödeme alıp gönderemez veya para ekleyemezsiniz.";
+"SETTINGS_PAYMENTS_CANNOT_ACTIVATE_PAYMENTS_KILL_SWITCH" = "Kahf'de Ödemeler artık mevcut değil. Yine de kambiyoya para aktarabilirsiniz ancak ödeme alıp gönderemez veya para ekleyemezsiniz.";
 
 /* Error message indicating that payments could not be deactivated because the current balance is unavailable. */
 "SETTINGS_PAYMENTS_CANNOT_DEACTIVATE_PAYMENTS_NO_BALANCE" = "Bakiyeniz mevcut olmadığı için ödeme tamamlanamıyor. Bağlantınızı kontrol edin ve tekrar deneyin.";
@@ -5840,10 +5840,10 @@
 "SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENT_NO_BALANCE" = "Bakiyeniz mevcut olmadığı için ödeme tamamlanamadı. Bağlantınızı kontrol edin ve tekrar deneyin.";
 
 /* Error message indicating that payments cannot be sent because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Signal'de Ödemeler artık mevcut değil. Yine de kambiyoya para aktarabilirsiniz ancak ödeme alıp gönderemez veya para ekleyemezsiniz.";
+"SETTINGS_PAYMENTS_CANNOT_SEND_PAYMENTS_KILL_SWITCH" = "Kahf'de Ödemeler artık mevcut değil. Yine de kambiyoya para aktarabilirsiniz ancak ödeme alıp gönderemez veya para ekleyemezsiniz.";
 
 /* Error message indicating that you cannot transfer into your payments wallet because the feature is not currently available. */
-"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Signal'de Ödemeler artık mevcut değil. Yine de kambiyoya para aktarabilirsiniz ancak ödeme alıp gönderemez veya para ekleyemezsiniz.";
+"SETTINGS_PAYMENTS_CANNOT_TRANSFER_IN_KILL_SWITCH" = "Kahf'de Ödemeler artık mevcut değil. Yine de kambiyoya para aktarabilirsiniz ancak ödeme alıp gönderemez veya para ekleyemezsiniz.";
 
 /* Message for the 'currency conversions info' alert. */
 "SETTINGS_PAYMENTS_CURRENCY_CONVERSIONS_INFO_ALERT_MESSAGE" = "Dönüşümler sadece tahmindir ve kesin olmayabilir.";
@@ -5870,10 +5870,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Ödemeleri Devre Dışı Bırak";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Ödemeleri devre dışı bırakmadan önce mevcut bakiyenizi başka bir cüzdana aktarmanızı öneriyoruz. Eğer paranızı şimdi aktarmamayı seçerseniz, ödemeleri devre dışı bıraktığınızda Signal'e bağlı cüzdanınızda kalacaktır.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Ödemeleri devre dışı bırakmadan önce mevcut bakiyenizi başka bir cüzdana aktarmanızı öneriyoruz. Eğer paranızı şimdi aktarmamayı seçerseniz, ödemeleri devre dışı bıraktığınızda Kahf'e bağlı cüzdanınızda kalacaktır.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Ödemeleri tekrar etkinleştirmeyi seçerseniz, bakiyeniz Signal'e bağlı cüzdanınızda kalacaktır.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Ödemeleri tekrar etkinleştirmeyi seçerseniz, bakiyeniz Kahf'e bağlı cüzdanınızda kalacaktır.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Aktarmadan Devre Dışı Bırakılsın mı?";
@@ -5900,7 +5900,7 @@
 "SETTINGS_PAYMENTS_HELP_CARD_ABOUT_MOBILECOIN_TITLE" = "MobileCoin Hakkında";
 
 /* Description for the 'Adding to your wallet' help card in the payments settings. */
-"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Cüzdan adresinize MobileCoin göndererek Signal'de kullanmak için para ekleyebilirsiniz.";
+"SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_DESCRIPTION" = "Cüzdan adresinize MobileCoin göndererek Kahf'de kullanmak için para ekleyebilirsiniz.";
 
 /* Title for the 'Adding to your wallet' help card in the payments settings. */
 "SETTINGS_PAYMENTS_HELP_CARD_ADDING_TO_YOUR_WALLET_TITLE" = "Para Ekleme";
@@ -5957,7 +5957,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Ödemeler etkinleştirildi.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Yeni gizlilik odaklı dijital para MobileCoin alıp göndermek için Signal kullanın. Başlamak için etkinleştirin.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Yeni gizlilik odaklı dijital para MobileCoin alıp göndermek için Kahf kullanın. Başlamak için etkinleştirin.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Ödemeleri Yeniden Etkinleştir";
@@ -5975,7 +5975,7 @@
 "SETTINGS_PAYMENTS_PASSPHRASE_DISCARD_CONFIRMATION_TITLE" = "Kaydetmeden devam etmek istiyor musun?";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Signal'i yeniden kurduğunuzda Signal PIN'ini doğruladığınızda bakiyeniz otomatik olarak kurtarılacaktır. Bakiyenizi ayrıca bir kurtarma parolası ile de geri alabilirsiniz. Kurtarma parolası 24-kelimelik ve size özgü bir ifadedir. Bir yere yazın ve güvenli bir şekilde saklayın.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Kahf'i yeniden kurduğunuzda Kahf PIN'ini doğruladığınızda bakiyeniz otomatik olarak kurtarılacaktır. Bakiyenizi ayrıca bir kurtarma parolası ile de geri alabilirsiniz. Kurtarma parolası 24-kelimelik ve size özgü bir ifadedir. Bir yere yazın ve güvenli bir şekilde saklayın.";
 
 /* Explanation of the 'payments passphrase' when there is a balance. */
 "SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION_FROM_BALANCE" = "Bakiyen var! Kurtarma ifadeni kaydetme zamanı, bu bakiyeni geri yüklemek için kullanabileceğin 24 kelimelik bir anahtardır.";
@@ -6065,7 +6065,7 @@
 "SETTINGS_PAYMENTS_PAYMENTS_LOCK_PROMPT_EXPLANATION_TOUCHID" = "Touch ID'yi etkinleştirerek telefonuna sahip bir kişinin parana erişmesini önlemeye yardımcı ol. Bu seçeneği Ayarlar'dan devre dışı bırakabilirsin.";
 
 /* Button for payments outdated sheet. */
-"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Signal'i Güncelle";
+"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Kahf'i Güncelle";
 
 /* Message for payments outdated sheet. */
 "SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_MESSAGE" = "Ödeme gönderip almaya devam etmek ve güncel ödeme bakiyeni görüntülemek için bir güncelleme gereklidir.";
@@ -6197,7 +6197,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Ödemeler";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Kendi Signal cüzdan adresinize aktarma yapamazsınız. Desteklenen bir kambiyodaki hesabınızdaki cüzdan adresini girin.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Kendi Kahf cüzdan adresinize aktarma yapamazsınız. Desteklenen bir kambiyodaki hesabınızdaki cüzdan adresini girin.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "Kambiyo tarafından sağlanan cüzdan adresine bir aktarım tamamlayarak MobileCoin aktarabilirsiniz. Cüzdan adresi, sıklıkla Karekodun altındaki sayı ve harflerden oluşan bir karakter dizisidir.";
@@ -6281,7 +6281,7 @@
 "SETTINGS_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Who Can Find Me By Number";
 
 /* Description label for Phone Number Privacy */
-"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Signal with it.";
+"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Kahf with it.";
 
 /* The title for phone number privacy settings. */
 "SETTINGS_PHONE_NUMBER_PRIVACY_TITLE" = "Phone Number";
@@ -6293,16 +6293,16 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Hatırlatıcıları Kapat";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "PIN'iniz kurtarılamayacağı için ezberlediğinizden veya güvenli bir şekilde sakladığınızdan emin olun. Eğer PIN'inizi unutursanız, Signal hesabınızı tekrar kaydederken veri kaybı yaşayabilirsiniz.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "PIN'iniz kurtarılamayacağı için ezberlediğinizden veya güvenli bir şekilde sakladığınızdan emin olun. Eğer PIN'inizi unutursanız, Kahf hesabınızı tekrar kaydederken veri kaybı yaşayabilirsiniz.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Signal PIN'inizi onaylayın";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Kahf PIN'inizi onaylayın";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN Hatırlatıcıları";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PIN'ler Signal'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. PIN'iniz kurtarılamaz. Profiliniz, ayarlarınız ve kişileriniz Signal'i yeniden yüklediğinizde geri yüklenecektir.";
+"SETTINGS_PINS_FOOTER" = "PIN'ler Kahf'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. PIN'iniz kurtarılamaz. Profiliniz, ayarlarınız ve kişileriniz Kahf'i yeniden yüklediğinizde geri yüklenecektir.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "PIN'inizi değiştirin";
@@ -6311,7 +6311,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "PIN oluştur";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN'i";
+"SETTINGS_PINS_TITLE" = "Kahf PIN'i";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Sansür atlatma, proxy, arama yönlendirme ve gizli gönderen ayarları.";
@@ -6338,7 +6338,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Aç";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Signal'e tekrar kaydolurken Signal PIN'inizi unutursanız, hesabınıza 7 gün boyunca erişemezsiniz. ";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Kahf'e tekrar kaydolurken Kahf PIN'inizi unutursanız, hesabınıza 7 gün boyunca erişemezsiniz. ";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Kayıt Kilidi Açılsın Mı?";
@@ -6368,16 +6368,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Arama";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Signal'i açmak için Touch ID, Face ID veya iOS cihaz parolası kullan.";
+"SETTINGS_SECURITY_DETAIL" = "Kahf'i açmak için Touch ID, Face ID veya iOS cihaz parolası kullan.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Signal'i açmak için Face ID kullan.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Kahf'i açmak için Face ID kullan.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Signal'i açmak için cihaz parolası kullan.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Kahf'i açmak için cihaz parolası kullan.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Signal'i açmak için Touch ID kullan.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Kahf'i açmak için Touch ID kullan.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Uygulama Güvenliği";
@@ -6392,16 +6392,16 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Kişileri iOS ile paylaş";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Paylaşma önerileri gibi özellikler için iOS'un Signal kişilerine ve konuşmalarına erişmesine izin verin.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Paylaşma önerileri gibi özellikler için iOS'un Kahf kişilerine ve konuşmalarına erişmesine izin verin.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Paylaşma önerileri ve bildirimleri gibi özellikler için iOS'un Signal kişilerine ve konuşmalarına erişmesine izin verin.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Paylaşma önerileri ve bildirimleri gibi özellikler için iOS'un Kahf kişilerine ve konuşmalarına erişmesine izin verin.";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Kayıt Kilidi";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Telefon numaranızı Signal ile tekrar kaydetmek için Signal PIN'i istensin.";
+/* Footer for the 'two factor auth' section of the privacy settings when Kahf PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Telefon numaranızı Kahf ile tekrar kaydetmek için Kahf PIN'i istensin.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Yazma Göstergeleri";
@@ -6434,13 +6434,13 @@
 "SHARE_EXTENSION_LOADING" = "Yükleniyor…";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Kaydolmak için Signal uygulamasını başlatın";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Kaydolmak için Kahf uygulamasını başlatın";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Kayıtlı Değil";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Güncellemek veya kaydolmak için Signal uygulamasını başlatın.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Güncellemek veya kaydolmak için Kahf uygulamasını başlatın.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Hazır Değil";
@@ -6454,11 +6454,11 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Yükleniyor…";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Kahf user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Eklenti Hazırlanamadı";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Signal'de Paylaş";
+"SHARE_EXTENSION_VIEW_TITLE" = "Kahf'de Paylaş";
 
 /* Title of alert indicating sharing suggestions failed to deactivate */
 "SHARING_SUGGESTIONS_DISABLE_ERROR" = "Paylaşım önerileri devre dışı bırakılamadı.";
@@ -6469,8 +6469,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Konuşmayı Göster";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Seni Signal kullanmaya davet ediyorum! İşte link:";
+/* body sent to contacts when inviting to Install Kahf */
+"SMS_INVITE_BODY" = "Seni Kahf kullanmaya davet ediyorum! İşte link:";
 
 /* An error message generically indicating that something went wrong. */
 "SOMETHING_WENT_WRONG_ERROR" = "Bir şeyler ters gitti.";
@@ -6494,7 +6494,7 @@
 "SPAM_CAPTCHA_DISMISS_CONFIRMATION_TITLE" = "Doğrulamadan devam et?";
 
 /* Body for action sheet explaining captcha requirement. */
-"SPAM_CAPTCHA_SHEET_BODY" = "Signal'de istenmeyen iletileri engellemeye yardımcı olmak için, lütfen doğrulamayı tamamlayın.\n\nDoğrulama sonrasında, ileti göndermeye devam edebilirsiniz. Durdurulan tüm iletiler otomatik olarak gönderilecektir.";
+"SPAM_CAPTCHA_SHEET_BODY" = "Kahf'de istenmeyen iletileri engellemeye yardımcı olmak için, lütfen doğrulamayı tamamlayın.\n\nDoğrulama sonrasında, ileti göndermeye devam edebilirsiniz. Durdurulan tüm iletiler otomatik olarak gönderilecektir.";
 
 /* Title for action sheet explaining captcha requirement. */
 "SPAM_CAPTCHA_SHEET_TITLE" = "İleti Göndermeyi Sürdürmek için Doğrulayın";
@@ -6512,7 +6512,7 @@
 "STICKERS_INSTALL_BUTTON" = "Yükle";
 
 /* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
-"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Signal Tarafından";
+"STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE" = "Kahf Tarafından";
 
 /* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE" = "Aldığınız Çıkartmalar";
@@ -6772,32 +6772,32 @@
 /* Text indicating that the story is currently sending */
 "STORY_SENDING" = "Gönderiliyor…";
 
-/* First bullet point for the explainer sheet for signal connections */
+/* First bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_1" = "Bir konuşma başlatmış olman";
 
-/* Second bullet point for the explainer sheet for signal connections */
+/* Second bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_2" = "Bir mesaj isteğini kabul etmiş olman";
 
-/* Third bullet point for the explainer sheet for signal connections */
+/* Third bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_3" = "Bu kişilerin sistemdeki bağlantılarında olması";
 
-/* Footer for the explainer sheet for signal connections */
+/* Footer for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_FOOTER" = "Bağlantıların; adını, fotoğrafını ve onlardan gizlemediğin sürece “Hikayem” kısmında ne paylaştığını görebilir.";
 
-/* Header for the explainer sheet for signal connections */
-"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Signal Bağlantıları</bold> aşağıdaki şekillerde güvenmeyi seçtiğin kişilerdir:";
+/* Header for the explainer sheet for Kahf connections */
+"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Kahf Bağlantıları</bold> aşağıdaki şekillerde güvenmeyi seçtiğin kişilerdir:";
 
 /* Label for the stories section of the settings view */
 "STORY_SETTINGS_TITLE" = "Hikayeler";
 
 /* Section footer for the 'viewers' section on the 'story settings' view */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Hikayeni Signal Bağlantıları'ndan hangilerinin görüntüleyebileceğini seç. Değişiklikler, daha önce gönderdiğin hikayeleri etkilemez.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Hikayeni Kahf Bağlantıları'ndan hangilerinin görüntüleyebileceğini seç. Değişiklikler, daha önce gönderdiğin hikayeleri etkilemez.";
 
 /* Section header for the 'viewers' section on the 'story settings' view */
 "STORY_SETTINGS_WHO_CAN_VIEW_THIS_HEADER" = "Bu Hikayeyi Kimler Görebilir";
 
 /* Header for the 'viewers' section on the 'story settings' bottom sheet */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Hikayeni hangi Signal bağlantılarının görüntüleyebileceğini seç. Seçimini istediğin zaman gizlilik ayarlarından değiştirebilirsin.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Hikayeni hangi Kahf bağlantılarının görüntüleyebileceğini seç. Seçimini istediğin zaman gizlilik ayarlarından değiştirebilirsin.";
 
 /* Tooltip text shown when the user selects a story as a destination for a long duration video that will be split into shorter segments. Embeds {{ segment duration in seconds }} */
 "STORY_VIDEO_SEGMENTATION_TOOLTIP_FORMAT" = "Videolar %1$d saniyelik kliplere bölünür ve birden çok hikaye olarak paylaşılır.";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Bize sorundan bahsedin: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Lütfen yardım talebinizi support@signal.org adresine e-postalayın";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Lütfen yardım talebinizi support@Kahf.org adresine e-postalayın";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filtre: %1$@";
@@ -6859,16 +6859,16 @@
 /* Localized label for support request email debug log URL. Embeds {{debug log url}}. */
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "Günlük URL'si: %1$@";
 
-/* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal Sürümü: %1$@";
+/* Localized label for support request email Kahf version string. Embeds {{Kahf version}}. */
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Kahf Sürümü: %1$@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS Destek İsteği";
+"SUPPORT_EMAIL_SUBJECT" = "Kahf iOS Destek İsteği";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Nasıl hissediyorsunuz? (İsteğe bağlı)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Kahf FAQ */
 "SUPPORT_FAQ_PROMPT" = "SSS sayfamızı okudunuz mu?";
 
 /* Label describing support switch to attach debug logs */
@@ -6944,7 +6944,7 @@
 "SWITCH_ON" = "Açık";
 
 /* Name to display for the 'system' sender, e.g. for release notes and the onboarding story */
-"SYSTEM_ADDRESS_NAME" = "Signal";
+"SYSTEM_ADDRESS_NAME" = "Kahf";
 
 /* Label for button to verify a user's safety number. */
 "SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER" = "Doğrula";
@@ -7040,25 +7040,25 @@
 "UNKNOWN_CONTACT_NAME" = "Bilinmeyen Kişi";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Cihazlarınızdan biri Signal'in yeni özelliğini kullanan bir ileti gönderdiği için burada işlenemiyor veya görüntülenemiyor.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Cihazlarınızdan biri Kahf'in yeni özelliğini kullanan bir ileti gönderdiği için burada işlenemiyor veya görüntülenemiyor.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@, Signal'in yeni özelliğini kullanan bir ileti gönderdiği için ileti işlenemiyor veya görüntülenemiyor.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@, Kahf'in yeni özelliğini kullanan bir ileti gönderdiği için ileti işlenemiyor veya görüntülenemiyor.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Signal'in yeni özelliğini kullanan bir ileti aldığınız için ileti işlenemiyor veya görüntülenemiyor.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Kahf'in yeni özelliğini kullanan bir ileti aldığınız için ileti işlenemiyor veya görüntülenemiyor.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Signal'i Şimdi Güncelleyin";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Kahf'i Şimdi Güncelleyin";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Signal'in son sürümüne güncellendi. Artık bu ileti türünü cihazınızda alabileceksiniz.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Kahf'in son sürümüne güncellendi. Artık bu ileti türünü cihazınızda alabileceksiniz.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Signal'in güncel sürümünü kullandığınıza göre %1$@ kişisinden bu iletiyi tekrar göndermesini isteyebilirsiniz.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Kahf'in güncel sürümünü kullandığınıza göre %1$@ kişisinden bu iletiyi tekrar göndermesini isteyebilirsiniz.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Signal'in güncel sürümünü kullandığınıza göre gönderenden bu iletiyi tekrar göndermesini isteyebilirsiniz.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Kahf'in güncel sürümünü kullandığınıza göre gönderenden bu iletiyi tekrar göndermesini isteyebilirsiniz.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Bilinmeyen";
@@ -7082,10 +7082,10 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "\"%1$@\" bağlantısını kaldır?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Cihaz artık bağlı değil. Yazışmaya devam etmek için Signal'i telefonunuzla yeniden bağlayın.";
+"UNLINKED_WARNING" = "Cihaz artık bağlı değil. Yazışmaya devam etmek için Kahf'i telefonunuzla yeniden bağlayın.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal cihazınızın bağlantısını kaldıramadı.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Kahf cihazınızın bağlantısını kaldıramadı.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "İsimsiz Cihaz";
@@ -7102,11 +7102,11 @@
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Desteklenmeyen eklenti türü alındı.";
 
-/* When inviting contacts to use Signal, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
+/* When inviting contacts to use Kahf, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
 "UNSUPPORTED_FEATURE_ERROR" = "Cihazınız bu özelliği desteklemiyor.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "%1$@ ile olan Güvenlik Numaranız değişti, bunun sebebi Signal'i yeniden yüklemeleri veya cihaz değiştirmeleri olabilir. Yeni güvenlik numarasını onaylamak için Doğrula'ya dokunun. Bu eylem isteğe bağlıdır.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "%1$@ ile olan Güvenlik Numaranız değişti, bunun sebebi Kahf'i yeniden yüklemeleri veya cihaz değiştirmeleri olabilir. Yeni güvenlik numarasını onaylamak için Doğrula'ya dokunun. Bu eylem isteğe bağlıdır.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Doğrula";
@@ -7120,11 +7120,11 @@
 /* Error indicating that a group could not be updated due to network connectivity problems. */
 "UPDATE_GROUP_FAILED_DUE_TO_NETWORK" = "Grup güncelleştirilemedi. İnternet bağlantınızı kontrol edin ve tekrar deneyin.";
 
-/* Button to activate the signal proxy */
+/* Button to activate the Kahf proxy */
 "USE_PROXY_BUTTON" = "Vekil sunucu kullan";
 
-/* Explanation of when you should use a signal proxy */
-"USE_PROXY_EXPLANATION" = "Proxy sunucusunu, yalnızca hücresel veri veya Wi-Fi üzerinden Signal'a bağlanamıyorsan kullan.";
+/* Explanation of when you should use a Kahf proxy */
+"USE_PROXY_EXPLANATION" = "Proxy sunucusunu, yalnızca hücresel veri veya Wi-Fi üzerinden Kahf'a bağlanamıyorsan kullan.";
 
 /* Description of how to update discovery */
 "USERNAME_DISCOVERY_DESCRIPTION" = "Kullanıcı adını başkalarının seninle iletişim kurmasının birincil yolu olarak kullanmak için Ayarlar > Gizlilik > Telefon Numarası > Numaramı kimler bulabilir bölümünden telefon numarası bulmayı kapat.";
@@ -7132,8 +7132,8 @@
 /* Description of username discriminator digits */
 "USERNAME_DISCRIMINATOR_DESCRIPTION" = "Kullanıcı adları bir dizi basamaka eşleştirilir ve profilinde paylaşılmaz";
 
-/* Title to set up signal username */
-"USERNAME_EDUCATION_TITLE" = "Signal kullanıcı adını ayarla";
+/* Title to set up Kahf username */
+"USERNAME_EDUCATION_TITLE" = "Kahf kullanıcı adını ayarla";
 
 /* Description of username link */
 "USERNAME_LINK_DESCRIPTION" = "Her kullanıcı adının seninle sohbete başlamaları için arkadaşlarınla paylaşabileceğin benzersiz bir bağlantısı vardır";
@@ -7147,10 +7147,10 @@
 /* Title for an action sheet indicating that a user-entered username value is not a valid username. */
 "USERNAME_LOOKUP_INVALID_USERNAME_TITLE" = "Geçersiz Kullanıcı Adı";
 
-/* A message indicating that the given username is not associated with a registered Signal account. Embeds {{ a username }}. */
-"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ bir Signal kullanıcısı değil. Lütfen tam kullanıcı adını girdiğinden emin ol.";
+/* A message indicating that the given username is not associated with a registered Kahf account. Embeds {{ a username }}. */
+"USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ bir Kahf kullanıcısı değil. Lütfen tam kullanıcı adını girdiğinden emin ol.";
 
-/* Title for an action sheet indicating that the given username is not associated with a registered Signal account. */
+/* Title for an action sheet indicating that the given username is not associated with a registered Kahf account. */
 "USERNAME_LOOKUP_NOT_FOUND_TITLE" = "Kullanıcı Bulunamadı";
 
 /* A prefix appended to all usernames when displayed */
@@ -7250,7 +7250,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Kaydetmek için tıklayın ve basılı tutun";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Kurulumu Signal'in Masaüstü uygulamasından bitirin.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Kurulumu Kahf'in Masaüstü uygulamasından bitirin.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Kişi Adı";

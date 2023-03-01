@@ -118,7 +118,7 @@
 /* Label shown over thumbnails of GIFs in the All Media view */
 "ALL_MEDIA_THUMBNAIL_LABEL_GIF" = "GIF";
 
-/* Title for the view of all your signal connections */
+/* Title for the view of all your Kahf connections */
 "ALL_SIGNAL_CONNECTIONS_TITLE" = "すべてのコネクション";
 
 /* notification action */
@@ -128,13 +128,13 @@
 "APN_Message" = "新着メッセージがあるかもしれません";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signalを起動できません。解決のため、デバッグログを support@signal.org にお送りください。";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signalを起動できません。解決のため、デバッグログを support@Kahf.org にお送りください。";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "エラー";
 
 /* Button to try launching the app even though the last launch failed */
-"APP_LAUNCH_FAILURE_CONTINUE" = "Open Signal Instead";
+"APP_LAUNCH_FAILURE_CONTINUE" = "Open Kahf Instead";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "データベースを読み込めませんでした";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "データベースのバージョンが不明です。";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signalの起動時に問題が発生しました。解決のためにデバッグログをsupport@signal.orgにお送りください。";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signalの起動時に問題が発生しました。解決のためにデバッグログをsupport@Kahf.orgにお送りください。";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "前回起動時にSignalがクラッシュしました";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "ストレージ容量が不足しています。";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "旧端末から移行したデータを復元できませんでした。原因を調査するため、デバッグログを support@signal.org に送ってください。Signalを再インストールすると、メッセージ履歴が消える可能性があります。";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "旧端末から移行したデータを復元できませんでした。原因を調査するため、デバッグログを support@Kahf.org に送ってください。Signalを再インストールすると、メッセージ履歴が消える可能性があります。";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "移行を完了できませんでした";
@@ -227,9 +227,9 @@
 "APPLE_PAY_DONATION_ERROR_PAYMENT_CANNOT_BE_AUTHORIZED" = "Apple Payで決済方法が最新になっているか確認します。最新の情報に更新されていない場合は、更新してからもう一度お試しください。";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Kahf";
 
-/* On the iOS home screen, if you tap and hold the Signal icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
+/* On the iOS home screen, if you tap and hold the Kahf icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
 "APPLICATION_SHORTCUT_NEW_MESSAGE" = "新規メッセージ";
 
 /* Label for the archive button for conversations list view */
@@ -247,7 +247,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "添付ファイルをエクスポートできませんでした。";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Kahf was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "保存に失敗しました";
 
 /* Format string for file extension label in call interstitial view */
@@ -316,7 +316,7 @@
 /* A button to select a GIF from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_GIF" = "GIF";
 
-/* A message on a button prompting the user to go settings to grant Signal photos access. */
+/* A message on a button prompting the user to go settings to grant Kahf photos access. */
 "ATTACHMENT_KEYBOARD_GIVE_PHOTOS_ACCESS" = "アクセスを許可する";
 
 /* A button to select a location from the Attachment Keyboard */
@@ -406,7 +406,7 @@
 /* The title for the badge configuration page */
 "BADGE_CONFIGURATION_TITLE" = "バッジ";
 
-/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Signal\" button will be shown. This is the text in that button. */
+/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Kahf\" button will be shown. This is the text in that button. */
 "BADGE_DETAILS_DONATE_TO_SIGNAL" = "今すぐ寄付する";
 
 /* When viewing someone else's donor badge, you'll see a sheet. This is the title on that sheet. Embeds {badge owner's short name} */
@@ -436,7 +436,7 @@
 /* Body of the sheet shown when your subscription is canceled due to inactivity */
 "BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "長い間ご利用がなかったため、毎月の定期的な寄付が自動的にキャンセルされました。%1$@ バッジはプロフィールに表示されなくなっています。\n\nSignalは今後もご利用いただけますが、アプリのサポートやバッジを再び有効にするには、今すぐ寄付をお願いします。";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
 "BADGE_THANKS_BODY" = "Signalからバッジを受け取りました！プロフィールに表示してSignalをサポートしていることを示しましょう。";
 
 /* Label prompting the user to display the new badge on their profile on the badge thank you sheet. */
@@ -445,7 +445,7 @@
 /* Label prompting the user to feature the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_MAKE_FEATURED" = "このバッジを表示する";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
 "BADGE_THANKS_TITLE" = "ご支援をありがとうございます！";
 
 /* Footer explaining that only one badge can be featured at a time on the thank you sheet. */
@@ -638,7 +638,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "応答なし";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %1$@";
+"CALL_STATUS_FORMAT" = "Kahf %1$@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "発信する";
@@ -778,34 +778,34 @@
 /* Title for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_TITLE" = "エラー";
 
-/* Users can donate to Signal with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CARD_NUMBER_GENERIC_ERROR" = "無効なカード番号です";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card number field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card number field on that screen. */
 "CARD_DONATION_CARD_NUMBER_LABEL" = "カード番号";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_GENERIC_ERROR" = "無効なセキュリティコードです";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
 "CARD_DONATION_CVV_LABEL" = "CVV";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_TOO_LONG_ERROR" = "セキュリティコードが長すぎます";
 
-/* Users can donate to Signal with a credit or debit card. This is the text on the \"Donate\" button. */
+/* Users can donate to Kahf with a credit or debit card. This is the text on the \"Donate\" button. */
 "CARD_DONATION_DONATE_BUTTON" = "寄付する";
 
-/* Users can donate to Signal with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_EXPIRATION_DATE_GENERIC_ERROR" = "無効な有効期限です";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
 "CARD_DONATION_EXPIRATION_DATE_LABEL" = "有効期限";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card expiration date field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card expiration date field on that screen. */
 "CARD_DONATION_EXPIRATION_DATE_PLACEHOLDER" = "月／年";
 
-/* Users can donate to Signal with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
+/* Users can donate to Kahf with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
 "CARD_DONATION_HEADER" = "寄付金額：%1$@";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the body text of that sheet. */
@@ -817,7 +817,7 @@
 /* On the credit/debit card donation screen, a small amount of information text is shown. Users can click this link to learn more information. */
 "CARD_DONATION_SUBHEADER_LEARN_MORE" = "さらに詳しく";
 
-/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Signal does not collect or store their personal information. */
+/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Kahf does not collect or store their personal information. */
 "CARD_DONATION_SUBHEADER_TEXT" = "以下にカード情報を入力してください。Signalがお客様の個人情報を収集したり保存したりすることはありません。";
 
 /* Title for the 'censorship circumvention country' view. */
@@ -1033,7 +1033,7 @@
 /* Error indicating that at least one contact field must be selected before sharing a contact. */
 "CONTACT_SHARE_NO_FIELDS_SELECTED" = "連絡先の項目が選択されていません。";
 
-/* Button text to initiate an email to signal support staff */
+/* Button text to initiate an email to Kahf support staff */
 "CONTACT_SUPPORT" = "お問い合わせ";
 
 /* The localized representation of the 'Donations & Badges' support filter. */
@@ -1396,14 +1396,14 @@
 /* No comment provided by engineer. */
 "COUNTRYCODE_SELECT_TITLE" = "国番号を選択してください";
 
-/* Body text for an interactive in-app prompt to set up a Signal username. */
+/* Body text for an interactive in-app prompt to set up a Kahf username. */
 "CREATE_USERNAME_MEGAPHONE_BODY" = "Usernames let others message you without needing your phone number.";
 
-/* Title for a button in an interactive in-app prompt to set up a Signal username, which will start a create-username flow. */
+/* Title for a button in an interactive in-app prompt to set up a Kahf username, which will start a create-username flow. */
 "CREATE_USERNAME_MEGAPHONE_SET_UP_BUTTON_TITLE" = "Set Up";
 
-/* Title for an interactive in-app prompt to set up a Signal username. */
-"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Signal username";
+/* Title for an interactive in-app prompt to set up a Kahf username. */
+"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Kahf username";
 
 /* Credit/debit card donation error for decline failures where the card has expired. */
 "CREDIT_OR_DEBIT_CARD_DONATION_ERROR_EXPIRED_CARD" = "カードの有効期限が切れています。カード情報が正しいことを確認し、もう一度お試しください。";
@@ -1468,13 +1468,13 @@
 /* In some cases, the user's message history can become corrupted, and a recovery interface is shown. The user has not been hacked and may be confused by this interface, so try to avoid using terms like \"database\" or \"corrupted\"—terms like \"message history\" are better. This is the title on the first screen of this interface, which gives them some information and asks them to continue. */
 "DATABASE_RECOVERY_AWAITING_USER_CONFIRMATION_TITLE" = "データ取得時の問題";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_CONTINUE_ANYWAY" = "とにかく続ける";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_DESCRIPTION" = "データの復元を完了させるためには、デバイスに少なくとも %1$@ のストレージの空き容量を確保することをお勧めします。";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_TITLE" = "より多くのストレージ容量が必要です";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This is the description on the screen where we show an error message. */
@@ -1612,7 +1612,7 @@
 /* Label warning the user that they have been de-registered. */
 "DEREGISTRATION_WARNING" = "この端末はもう登録されていません。電話番号が別の端末でSignalに登録された可能性があります。タップして再登録します。";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Kahf Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "最終利用: %1$@";
 
 /* {{Short Date}} when device was linked. */
@@ -1804,10 +1804,10 @@
 /* If a donation badge has been sent, indicates that it's expired and can no longer be redeemed. This is shown in the chat. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_CHAT_EXPIRED" = "期限切れ";
 
-/* If the user tries to donate to Signal but no amount is selected, this error message is shown. */
+/* If the user tries to donate to Kahf but no amount is selected, this error message is shown. */
 "DONATE_SCREEN_ERROR_NO_AMOUNT_SELECTED" = "寄付額を選択してください。";
 
-/* If the user tries to donate to Signal but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
+/* If the user tries to donate to Kahf but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
 "DONATE_SCREEN_ERROR_SELECT_A_LARGER_AMOUNT_FORMAT" = "最小の寄付金額は%1$@です。";
 
 /* On the donation screen, you can choose between one-time and monthly donations. This is the text on the picker for one-time donations. */
@@ -1880,7 +1880,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_FAILED_ERROR_TITLE" = "決済に失敗しました";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "お支払いは処理されましたが、Signal は寄付メッセージを送信できませんでした。サポートにお問い合わせください。";
+"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "お支払いは処理されましたが、Kahf は寄付メッセージを送信できませんでした。サポートにお問い合わせください。";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, an error dialog will be shown. This is the title of that dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_TITLE" = "寄付できませんでした";
@@ -1933,16 +1933,16 @@
 /* A friend has donated on your behalf and you received a badge. This text says that you received a badge, and from whom. Embeds {{contact's short name, such as a first name}}. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "%1$@ があなたの代わりにSignalに寄付をしました！プロフィールにSignalをサポートしていることを表示しましょう。";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 1st paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 1st paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_1" = "プライベートメッセージ。広告なし、トラッキングなし、監視なし。";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 2nd paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 2nd paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Signalは寄付によって支えられています。これは、お客様のプライバシーが私たちの活動の最重要事項であることを意味します。Signalは皆様のために作られたものです。皆様のデータや利益のためではありません。";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 3rd paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 3rd paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Signalが誰にとっても楽しめて、信頼性と有用性があり続けるために、皆様の寄付をお願いします。";
 
-/* There is a screen where users can read more about their donation to Signal. This is the title of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the title of that screen. */
 "DONATION_READ_MORE_SCREEN_TITLE" = "Signalは他のアプリとは異なります。";
 
 /* Section title for donation amount on receipts */
@@ -1958,7 +1958,7 @@
 "DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "領収書を共有";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Signalをサポートいただき、ありがとうございます。皆様のご寄付は、表現の自由を守り、世界中の何百万人もの人々に安全なグローバルコミュニケーションを可能にするオープンソースのプライバシー技術の開発というミッションの推進に役立っています。米国にお住まいの方は、この領収書を税務記録のために保管しておいてください。Signal Technology Foundationは、米国内国歳入法第501c3条に基づく非課税の非営利団体です。連邦税IDは82-4506840です。";
+"DONATION_RECEIPT_FOOTER" = "Signalをサポートいただき、ありがとうございます。皆様のご寄付は、表現の自由を守り、世界中の何百万人もの人々に安全なグローバルコミュニケーションを可能にするオープンソースのプライバシー技術の開発というミッションの推進に役立っています。米国にお住まいの方は、この領収書を税務記録のために保管しておいてください。Kahf Technology Foundationは、米国内国歳入法第501c3条に基づく非課税の非営利団体です。連邦税IDは82-4506840です。";
 
 /* Title for receipts for donations given on a friend's behalf */
 "DONATION_RECEIPT_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "友達に代わって寄付";
@@ -1996,7 +1996,7 @@
 /* Title for the \"donate for a friend\" button on the donation view. */
 "DONATION_VIEW_DONATE_ON_BEHALF_OF_A_FRIEND" = "友達に代わって寄付する";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
+/* Text describing to the user that they're going to pay a donation to Kahf */
 "DONATION_VIEW_DONATION_TO_SIGNAL" = "Signalへの寄付";
 
 /* Text that's shown when the donation view fails to load data, probably due to network failure */
@@ -2008,7 +2008,7 @@
 /* Title for the 'Manage Subscription' button on the donation screen */
 "DONATION_VIEW_MANAGE_SUBSCRIPTION" = "サブスクリプションを管理";
 
-/* Text describing to the user that they're going to pay a monthly donation to Signal */
+/* Text describing to the user that they're going to pay a monthly donation to Kahf */
 "DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Signalへの月々の寄付";
 
 /* Title for the 'more' section on the donation screen */
@@ -2023,16 +2023,16 @@
 /* Title for the 'Subscription FAQ' button on the donation screen */
 "DONATION_VIEW_SUBSCRIPTION_FAQ" = "サブスクリプションのよくある質問";
 
-/* Title on the 'Donate to Signal' screen */
+/* Title on the 'Donate to Kahf' screen */
 "DONATION_VIEW_TITLE" = "Signalへの寄付";
 
 /* Label for the currency picker button in donation views */
 "DONATIONS_CURRENCY_PICKER_LABEL" = "通貨";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "iOSの設定でアクセス権限を制御できます。";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert title for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "連絡先を編集するには、Signalに連絡先へのアクセス権限が必要です。";
 
 /* The navbar title for the 'update group' view. */
@@ -2056,14 +2056,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "コピー";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
+/* body of email sent to contacts when inviting to install Kahf. Embeds {{link to install Kahf}} and {{link to the Kahf home page}} */
 "EMAIL_INVITE_BODY" = "こんにちは\n\n最近、私はiPhoneでのチャットにSignalを使っています。このアプリを使うと、会話や通話内容が他人に傍受されません。あなたもインストールしてみませんか？\n\nSignalはiPhoneでもAndroidでも使えます。ここからインストールできます: %1$@\n\nSignalは、普通のメッセージアプリと同じように使えます。写真や動画も送れますし、通話もできますし、グループでのチャットもできます。一番いいところは、Signalの開発者でさえも通信内容を傍受できない仕組みです！\n\nSignalの開発者であるOpen Whisper Systemsについての詳細は、こちらをご覧ください: %2$@";
 
-/* subject of email sent to contacts when inviting to install Signal */
+/* subject of email sent to contacts when inviting to install Kahf */
 "EMAIL_INVITE_SUBJECT" = "メッセージアプリをSignalにしましょう";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "この端末はメールを送信できるようになっていません。サポートリクエストを送るには、この端末でメールを設定するか、support@signal.org にメールしてください。";
+"EMAIL_SIGNAL_MESSAGE" = "この端末はメールを送信できるようになっていません。サポートリクエストを送るには、この端末でメールを設定するか、support@Kahf.org にメールしてください。";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "メール利用不可";
@@ -2188,10 +2188,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "この連絡先とのセッションはありません。";
 
-/* Shown when signal users safety numbers changed */
+/* Shown when Kahf users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "安全番号が変わりました。";
 
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Kahf users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "%1$@ に対する安全番号が変わりました。";
 
 /* Text notifying the user that their secure session has been reset */
@@ -2207,10 +2207,10 @@
 "ERROR_NETWORK_FAILURE" = "ネットワークエラー";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "このエラーとあなたの端末のデバッグログを support@signal.org に報告して、Signalの改善にご協力ください; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "このエラーとあなたの端末のデバッグログを support@Kahf.org に報告して、Signalの改善にご協力ください; %1$@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: エラーが発生しました";
+"ERROR_NOTIFICATION_TITLE" = "Kahf Beta: エラーが発生しました";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "この端末はもうリンクされていません。メッセージを送信するには、リンクし直してください。";
@@ -2221,7 +2221,7 @@
 /* Error indicating a send failure due to an expired application. */
 "ERROR_SENDING_EXPIRED" = "このバージョンのSignalは期限が切れています。メッセージを送信するには、アップデートしてください。";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Kahf id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "未登録ユーザ: %1$@";
 
 /* Label notifying the user that the app has expired. */
@@ -2746,7 +2746,7 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QRコード";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
+/* Label for the 'share group link via Kahf' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Signal経由で共有する";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
@@ -3223,7 +3223,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "お問い合わせ";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Kahf support website */
 "HELP_SUPPORT_CENTER" = "サポートセンター";
 
 /* Label for 'archived conversations' button. */
@@ -3238,16 +3238,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "下書き: ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Kahf contact.  Embeds {{The name of 1 of your Kahf contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "連絡先には、すでにSignalを使用中の人がいます: %1$@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Kahf contacts.  Embeds {{The names of 2 of your Kahf contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "連絡先には、すでにSignalを使用中の人がいます: %1$@, %2$@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Kahf contacts.  Embeds {{The names of 3 of your Kahf contacts}}. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "連絡先には、すでにSignalを使用中の人がいます: %1$@, %2$@, %3$@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Kahf contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "最初のチャットを始めましょう。";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -3280,7 +3280,7 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "画像の共有は%1$@点までです。";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Kahf has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "写真を変更";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
@@ -3343,7 +3343,7 @@
 /* Indicates that another user has changed their phone number. Embeds: {{ the user's name}} */
 "INFO_MESSAGE_USER_CHANGED_PHONE_NUMBER_FORMAT" = "%1$@ が電話番号を変更しました。";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
+/* Shown in inbox and conversation when a user joins Kahf, embeds the new user's {{contact name}} */
 "INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ がSignalに参加！";
 
 /* accessibility label for the button which shows the regular keyboard instead of sticker picker */
@@ -3367,10 +3367,10 @@
 /* The provided proxy host address is not valid */
 "INVALID_PROXY_HOST_ERROR" = "入力したプロキシアドレスは無効です。アドレスを確認して再度試してください。";
 
-/* Alert body when contacts disabled while trying to invite contacts to signal */
+/* Alert body when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "連絡先の友達をSignalに招待するには、iOSの設定で連絡先へのアクセスを有効にしてください。";
 
-/* Alert title when contacts disabled while trying to invite contacts to signal */
+/* Alert title when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "連絡先へのアクセス許可";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
@@ -3607,7 +3607,7 @@
 /* Label for button to open a link. */
 "MESSAGE_ACTION_LINK_OPEN_LINK" = "リンクを開く";
 
-/* Label for button to open a signal proxy. */
+/* Label for button to open a Kahf proxy. */
 "MESSAGE_ACTION_LINK_OPEN_PROXY" = "Signalプロキシを開きます";
 
 /* Label for button to open a sticker pack. */
@@ -3847,7 +3847,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "既読";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Kahf account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "スキップ";
 
 /* Label indicating that a message failed to send. */
@@ -4105,7 +4105,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "名前もメッセージも非表示";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Kahf will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "アプリが開いている場合のみ再生";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -4279,13 +4279,13 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%1$@ が消えるメッセージのタイマーを%2$@に設定しました。";
 
-/* Label warning the user that the Signal service may be down. */
+/* Label warning the user that the Kahf service may be down. */
 "OUTAGE_WARNING" = "Signalは技術的な問題を抱えています。私たちは、これをできるだけ早く解決するよう対応しています。";
 
 /* Label for action link when the user has an outdated payment client */
 "OUTDATED_PAYMENT_CLIENT_ACTION_TITLE" = "アップデートする";
 
-/* Label warning the user that they should update Signal to continue using payments. */
+/* Label warning the user that they should update Kahf to continue using payments. */
 "OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "決済機能を引き続きご利用いただくために、Signalをアップデートしてください。残高が最新の状態ではない可能性があります。";
 
 /* info message text in conversation view */
@@ -4396,7 +4396,7 @@
 /* Title for action sheet shown when unlocking with biometrics like Face ID or TouchID fails because it is disabled at a system level. */
 "PAYMENTS_LOCK_LOCAL_BIOMETRY_AUTH_DISABLED_TITLE" = "生体認証に失敗しました";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
 "PAYMENTS_LOCK_REASON_UNLOCK_PAYMENTS_LOCK" = "支払いを確定するための認証です。";
 
 /* Label for the 'add memo' ui in the 'send payment' UI. */
@@ -4649,13 +4649,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "全員";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Signal. Others will be able to reach you with your phone number when they start a new chat or group.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Kahf. Others will be able to reach you with your phone number when they start a new chat or group.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "なし";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Signal will be able to reach you with your phone number.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Kahf will be able to reach you with your phone number.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "例: %1$@";
@@ -4820,7 +4820,7 @@
 "PIN_CREATION_WEAK_ERROR" = "もっと強力なPINを選択してください";
 
 /* If your attempted PIN is too weak, you'll see an error message. This is the text on the error dialog. */
-"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Signal encrypted so only you can access it. Choose a stronger PIN to protect your account.";
+"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Kahf encrypted so only you can access it. Choose a stronger PIN to protect your account.";
 
 /* Error body indicating that the attempt to disable a PIN failed. */
 "PIN_DISABLE_ERROR_MESSAGE" = "PINを無効にできませんでした。あとでまたお知らせします。";
@@ -4850,7 +4850,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "数日後に再度お知らせします。";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Signal PINを確認";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Kahf PINを確認";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "明日、再度お知らせします。";
@@ -4865,7 +4865,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "PINが違います。再度試してください。";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Signal PINを入力してください";
+"PIN_REMINDER_TITLE" = "Kahf PINを入力してください";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PINは4桁以上の数字にしてください。";
@@ -4880,7 +4880,7 @@
 "PINS_MEGAPHONE_ACTION" = "PINを作成";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Signal PINを作成しましょう。";
+"PINS_MEGAPHONE_BODY" = "Kahf PINを作成しましょう。";
 
 /* Title for PIN megaphone when user doesn't have a PIN */
 "PINS_MEGAPHONE_TITLE" = "PINを作成しましょう";
@@ -5032,7 +5032,7 @@
 /* Title for the profile view. */
 "PROFILE_VIEW_TITLE" = "プロフィール";
 
-/* The title for the address of the signal proxy */
+/* The title for the address of the Kahf proxy */
 "PROXY_ADDRESS" = "プロキシアドレス";
 
 /* The provided proxy connected successfully */
@@ -5041,10 +5041,10 @@
 /* The provided proxy couldn't connect */
 "PROXY_FAILED_TO_CONNECT" = "プロキシに接続できませんでした。プロキシアドレスを確認して再度試してください。";
 
-/* Placeholder text for signal proxy host */
+/* Placeholder text for Kahf proxy host */
 "PROXY_PLACEHOLDER" = "プロキシアドレスを入力してください";
 
-/* Title for the signal proxy settings */
+/* Title for the Kahf proxy settings */
 "PROXY_SETTINGS_TITLE" = "プロキシ";
 
 /* Notification action button title */
@@ -5149,13 +5149,13 @@
 /* Alert title. Shown after selecting a phone number that isn't valid. */
 "RECIPIENT_PICKER_INVALID_NUMBER_TITLE" = "無効な電話番号";
 
-/* Button. Shown after selecting a phone number that isn't a Signal user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
+/* Button. Shown after selecting a phone number that isn't a Kahf user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
 "RECIPIENT_PICKER_INVITE_ACTION" = "メッセージ";
 
-/* Alert text. Shown after selecting a phone number that isn't a Signal user. */
+/* Alert text. Shown after selecting a phone number that isn't a Kahf user. */
 "RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@さんはSignalユーザーではありません。この番号をSignalに招待しますか？";
 
-/* Alert title. Shown after selecting a phone number that isn't a Signal user. */
+/* Alert title. Shown after selecting a phone number that isn't a Kahf user. */
 "RECIPIENT_PICKER_INVITE_TITLE" = "Signalへ招待する";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
@@ -5194,10 +5194,10 @@
 /* Label for the country code field */
 "REGISTRATION_DEFAULT_COUNTRY_NAME" = "国番号";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
-"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Signal on other devices currently registered with the same phone number.";
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
+"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Kahf on other devices currently registered with the same phone number.";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
 "REGISTRATION_DEVICE_TRANSFER_CHOICE_TITLE" = "Transfer Account & Messages";
 
 /* Placeholder text for the phone number textfield */
@@ -5234,13 +5234,13 @@
 "REGISTRATION_PIN_CONFIRM_TITLE" = "Confirm your PIN";
 
 /* During registration, users are asked to create a PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During registration, users are asked to create a PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_CREATE_TITLE" = "Create your PIN";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_ENTER_EXISTING_TITLE" = "Enter your PIN";
@@ -5380,13 +5380,13 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "画面ロックを使用するには、iOSの設定でパスコードを有効にしてください。";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
 "SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Signalを開く際に認証します。";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "認証失敗";
 
-/* Label for button on lock screen that lets users unlock Signal. */
+/* Label for button on lock screen that lets users unlock Kahf. */
 "SCREEN_LOCK_UNLOCK_SIGNAL" = "Signalのロックを解除する";
 
 /* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
@@ -5551,7 +5551,7 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "検閲回避は、インターネットに接続されている場合にのみ有効です。";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Kahf service. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "すでにSignalサービスに接続しているため、検問回避は不要です。";
 
 /* No comment provided by engineer. */
@@ -5593,7 +5593,7 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "ブロックするユーザーを追加";
 
-/* A label that indicates the user has no Signal contacts that they haven't blocked. */
+/* A label that indicates the user has no Kahf contacts that they haven't blocked. */
 "SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Signal上に連絡先がいません。";
 
 /* A label that indicates the user's search has no matching results. */
@@ -5660,7 +5660,7 @@
 "SETTINGS_CLEAR_HISTORY" = "チャット履歴の消去";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Copyright Signal Messenger\nLicensed under the GPLv3";
+"SETTINGS_COPYRIGHT" = "Copyright Kahf Messenger\nLicensed under the GPLv3";
 
 /* Label for the 'data' section of the app settings. */
 "SETTINGS_DATA" = "データ通信量";
@@ -5725,7 +5725,7 @@
 /* Explanation for the 'disappearing messages' privacy settings. */
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "あなたによる新規チャットでの、消えるメッセージの既定タイマーを設定します。";
 
-/* Title for the 'donate to signal' link in settings. */
+/* Title for the 'donate to Kahf' link in settings. */
 "SETTINGS_DONATE" = "Signalへの寄付";
 
 /* Title for help button and help pages in app settings. */
@@ -5794,7 +5794,7 @@
 /* table section header */
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "通知内容";
 
-/* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
+/* When the local device discovers a contact has recently installed Kahf, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
 "SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "連絡先のSignal参加時";
 
 /* table section header */
@@ -6281,7 +6281,7 @@
 "SETTINGS_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Who Can Find Me By Number";
 
 /* Description label for Phone Number Privacy */
-"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Signal with it.";
+"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Kahf with it.";
 
 /* The title for phone number privacy settings. */
 "SETTINGS_PHONE_NUMBER_PRIVACY_TITLE" = "Phone Number";
@@ -6296,7 +6296,7 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "PINは復元できないため、記憶するか安全に保管してください。PINを忘れると、Signalアカウントの再登録時にデータが失われる可能性があります。";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Signal PINの確認";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Kahf PINの確認";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PINリマインダー";
@@ -6311,7 +6311,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "PINを作成";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN";
+"SETTINGS_PINS_TITLE" = "Kahf PIN";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "検閲回避、通話の中継および送信者の保護について設定します。";
@@ -6400,8 +6400,8 @@
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "登録ロック";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "あなたの電話番号をSignalに登録する際、Signal PINを要求します。";
+/* Footer for the 'two factor auth' section of the privacy settings when Kahf PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "あなたの電話番号をSignalに登録する際、Kahf PINを要求します。";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "入力中アイコン";
@@ -6454,7 +6454,7 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "アップロードしています…";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Kahf user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "添付ファイルを準備できません";
 
 /* Title for the 'share extension' view. */
@@ -6469,7 +6469,7 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "チャットを表示";
 
-/* body sent to contacts when inviting to Install Signal */
+/* body sent to contacts when inviting to Install Kahf */
 "SMS_INVITE_BODY" = "Signalのインストールをお勧めします！このリンクから入手してください:";
 
 /* An error message generically indicating that something went wrong. */
@@ -6772,19 +6772,19 @@
 /* Text indicating that the story is currently sending */
 "STORY_SENDING" = "送信中…";
 
-/* First bullet point for the explainer sheet for signal connections */
+/* First bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_1" = "チャットを開始";
 
-/* Second bullet point for the explainer sheet for signal connections */
+/* Second bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_2" = "メッセージ申請を承認";
 
-/* Third bullet point for the explainer sheet for signal connections */
+/* Third bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_3" = "システムの連絡先に入っている";
 
-/* Footer for the explainer sheet for signal connections */
+/* Footer for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_FOOTER" = "あなたのネットワークにいる人たちは、あなたの名前や写真を見ることができ、あなたが非表示にしない限り「マイストーリー」への送信内容を見ることができます。";
 
-/* Header for the explainer sheet for signal connections */
+/* Header for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Signalコネクション</bold>は、次のいずれかによってあなたが信頼できると判断した人達です。";
 
 /* Label for the stories section of the settings view */
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "この問題について教えてください: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "サポートリクエストを support@signal.org へメールしてください。";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "サポートリクエストを support@Kahf.org へメールしてください。";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "フィルタ: %1$@";
@@ -6859,16 +6859,16 @@
 /* Localized label for support request email debug log URL. Embeds {{debug log url}}. */
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "ログURL: %1$@";
 
-/* Localized label for support request email signal version string. Embeds {{signal version}}. */
+/* Localized label for support request email Kahf version string. Embeds {{Kahf version}}. */
 "SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signalバージョン: %1$@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOSサポートリクエスト";
+"SUPPORT_EMAIL_SUBJECT" = "Kahf iOSサポートリクエスト";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "どう感じていますか？ (任意)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Kahf FAQ */
 "SUPPORT_FAQ_PROMPT" = "よくある質問を読まれましたか？";
 
 /* Label describing support switch to attach debug logs */
@@ -6944,7 +6944,7 @@
 "SWITCH_ON" = "オン";
 
 /* Name to display for the 'system' sender, e.g. for release notes and the onboarding story */
-"SYSTEM_ADDRESS_NAME" = "Signal";
+"SYSTEM_ADDRESS_NAME" = "Kahf";
 
 /* Label for button to verify a user's safety number. */
 "SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER" = "検証する";
@@ -7102,7 +7102,7 @@
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "サポートされていない種類の添付ファイルを受信しました。";
 
-/* When inviting contacts to use Signal, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
+/* When inviting contacts to use Kahf, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
 "UNSUPPORTED_FEATURE_ERROR" = "この端末はこの機能に対応していません。";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
@@ -7120,10 +7120,10 @@
 /* Error indicating that a group could not be updated due to network connectivity problems. */
 "UPDATE_GROUP_FAILED_DUE_TO_NETWORK" = "グループを更新できませんでした。インターネット接続を確認して再度試してください。";
 
-/* Button to activate the signal proxy */
+/* Button to activate the Kahf proxy */
 "USE_PROXY_BUTTON" = "プロキシの使用";
 
-/* Explanation of when you should use a signal proxy */
+/* Explanation of when you should use a Kahf proxy */
 "USE_PROXY_EXPLANATION" = "モバイルデータやWi-FiでSignalに接続できない場合にのみ、プロキシを使用してください。";
 
 /* Description of how to update discovery */
@@ -7132,7 +7132,7 @@
 /* Description of username discriminator digits */
 "USERNAME_DISCRIMINATOR_DESCRIPTION" = "ユーザーネームは数字と対になっており、プロフィールで共有されることはありません";
 
-/* Title to set up signal username */
+/* Title to set up Kahf username */
 "USERNAME_EDUCATION_TITLE" = "Signalユーザーネームを設定する";
 
 /* Description of username link */
@@ -7147,10 +7147,10 @@
 /* Title for an action sheet indicating that a user-entered username value is not a valid username. */
 "USERNAME_LOOKUP_INVALID_USERNAME_TITLE" = "無効なユーザーネームです";
 
-/* A message indicating that the given username is not associated with a registered Signal account. Embeds {{ a username }}. */
+/* A message indicating that the given username is not associated with a registered Kahf account. Embeds {{ a username }}. */
 "USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ はSignalユーザーではありません。ユーザーネームを確認してください。";
 
-/* Title for an action sheet indicating that the given username is not associated with a registered Signal account. */
+/* Title for an action sheet indicating that the given username is not associated with a registered Kahf account. */
 "USERNAME_LOOKUP_NOT_FOUND_TITLE" = "ユーザーが見つかりません";
 
 /* A prefix appended to all usernames when displayed */
@@ -7250,7 +7250,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "長押しで録音します。";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Signal Desktopの設定が完了しました。";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Kahf Desktopの設定が完了しました。";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "連絡先名";

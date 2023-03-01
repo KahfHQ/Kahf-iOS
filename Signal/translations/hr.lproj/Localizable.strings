@@ -29,10 +29,10 @@
 "ACCESSIBILITY_LABEL_VOICE_MEMO" = "Glasovna poruka";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Signal poziv";
+"ACTION_AUDIO_CALL" = "Kahf poziv";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Pozovi u Signal";
+"ACTION_INVITE" = "Pozovi u Kahf";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "Pošalji poruku";
@@ -118,7 +118,7 @@
 /* Label shown over thumbnails of GIFs in the All Media view */
 "ALL_MEDIA_THUMBNAIL_LABEL_GIF" = "GIF";
 
-/* Title for the view of all your signal connections */
+/* Title for the view of all your Kahf connections */
 "ALL_SIGNAL_CONNECTIONS_TITLE" = "Svi kontakti";
 
 /* notification action */
@@ -128,37 +128,37 @@
 "APN_Message" = "Možda imate nove poruke";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Signal se ne može pokrenuti. Molimo pošaljite zapisnike o pogrešci na support@signal.org kako bi riješili ovaj problem.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf se ne može pokrenuti. Molimo pošaljite zapisnike o pogrešci na support@Kahf.org kako bi riješili ovaj problem.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Pogreška";
 
 /* Button to try launching the app even though the last launch failed */
-"APP_LAUNCH_FAILURE_CONTINUE" = "Ponovno otvorite Signal";
+"APP_LAUNCH_FAILURE_CONTINUE" = "Ponovno otvorite Kahf";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Učitavanje baze podataka nije uspjelo";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Molimo nadogradite Signal na najnoviju verziju.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Molimo nadogradite Kahf na najnoviju verziju.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Nepoznata verzija baze podataka.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signal je imao problema prilikom pokušaja otvaranja. Kako biste pomogli u rješavanju ovog problema, molimo pošaljite zapisnik otklanjanja pogrešaka na support@signal.org.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf je imao problema prilikom pokušaja otvaranja. Kako biste pomogli u rješavanju ovog problema, molimo pošaljite zapisnik otklanjanja pogrešaka na support@Kahf.org.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Nije moguće otvoriti Signal";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Nije moguće otvoriti Kahf";
 
 /* Error description indicating that the app crashed because there was low storage space available on the device. */
-"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Signal se nije mogao pokrenuti jer na vašem uređaju nema dovoljno prostora za pohranu. Da biste koristili Signal, oslobodite memoriju u Postavkama.";
+"APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_MESSAGE" = "Kahf se nije mogao pokrenuti jer na vašem uređaju nema dovoljno prostora za pohranu. Da biste koristili Kahf, oslobodite memoriju u Postavkama.";
 
 /* Error title indicating that the app crashed because there was low storage space available on the device. */
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Malo prostora za pohranu";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Podaci preneseni s vašeg starog uređaja ne mogu se vratiti. Pošaljite zapisnik o pogrešci na support@signal.org da bismo mogli riješiti problem. Ako ponovo instalirate Signal, možda će se izgubiti povijest poruka.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Podaci preneseni s vašeg starog uređaja ne mogu se vratiti. Pošaljite zapisnik o pogrešci na support@Kahf.org da bismo mogli riješiti problem. Ako ponovo instalirate Kahf, možda će se izgubiti povijest poruka.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Prijenos nije mogao biti dovršen";
@@ -227,9 +227,9 @@
 "APPLE_PAY_DONATION_ERROR_PAYMENT_CANNOT_BE_AUTHORIZED" = "Provjerite je li vaš način plaćanja u Apple Payu ažuriran. U slučaju da nije, ažurirajte ga i pokušajte ponovno.";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Kahf";
 
-/* On the iOS home screen, if you tap and hold the Signal icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
+/* On the iOS home screen, if you tap and hold the Kahf icon, this shortcut will appear. Tapping it will let users send a new message. You may want to refer to similar behavior in other iOS apps, such as Messages, for equivalent strings. */
 "APPLICATION_SHORTCUT_NEW_MESSAGE" = "Nova poruka";
 
 /* Label for the archive button for conversations list view */
@@ -247,7 +247,7 @@
 /* Error that outgoing attachments could not be exported. */
 "ATTACHMENT_APPROVAL_FAILED_TO_EXPORT" = "Izvoz privitka nije uspio.";
 
-/* alert text when Signal was unable to save a copy of the attachment to the system photo library */
+/* alert text when Kahf was unable to save a copy of the attachment to the system photo library */
 "ATTACHMENT_APPROVAL_FAILED_TO_SAVE" = "Spremanje nije uspjelo";
 
 /* Format string for file extension label in call interstitial view */
@@ -316,14 +316,14 @@
 /* A button to select a GIF from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_GIF" = "GIF";
 
-/* A message on a button prompting the user to go settings to grant Signal photos access. */
+/* A message on a button prompting the user to go settings to grant Kahf photos access. */
 "ATTACHMENT_KEYBOARD_GIVE_PHOTOS_ACCESS" = "Omogući pristup";
 
 /* A button to select a location from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_LOCATION" = "Lokacija";
 
 /* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
-"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Signal zahtijeva dopuštenje za prikazivanje vaših fotografija i videozapisa.";
+"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Kahf zahtijeva dopuštenje za prikazivanje vaših fotografija i videozapisa.";
 
 /* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
 "ATTACHMENT_KEYBOARD_NO_PHOTOS" = "Nakon što fotografirate, ovdje ćete moći slati svoje nedavne fotografije.";
@@ -406,14 +406,14 @@
 /* The title for the badge configuration page */
 "BADGE_CONFIGURATION_TITLE" = "Značke";
 
-/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Signal\" button will be shown. This is the text in that button. */
+/* When viewing someone else's badge, you'll see a sheet. If they got the badge by donating, a \"Donate to Kahf\" button will be shown. This is the text in that button. */
 "BADGE_DETAILS_DONATE_TO_SIGNAL" = "Doniraj sada";
 
 /* When viewing someone else's donor badge, you'll see a sheet. This is the title on that sheet. Embeds {badge owner's short name} */
-"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ podržava Signal";
+"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ podržava Kahf";
 
 /* String explaining to the user that their boost badge has expired on the badge expiry sheet. */
-"BADGE_EXPIRED_BOOST_BODY" = "Značka podrške je istekla i ne prikazuje se više na vašem profilu.\n\nMožete nastaviti koristiti Signal, no razmislite o tome da postanete mjesečni pretplatnik kako biste podržali aplikaciju koja je napravljena za vas.";
+"BADGE_EXPIRED_BOOST_BODY" = "Značka podrške je istekla i ne prikazuje se više na vašem profilu.\n\nMožete nastaviti koristiti Kahf, no razmislite o tome da postanete mjesečni pretplatnik kako biste podržali aplikaciju koja je napravljena za vas.";
 
 /* String explaining to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheet. */
 "BADGE_EXPIRED_BOOST_CURRENT_SUSTAINER_BODY" = "Značka podrške je istekla i ne prikazuje se više na vašem profilu.\n\nMožete ponovno aktivirati značku podrške na dodatnih 30 dana jednokratnom donacijom.";
@@ -431,12 +431,12 @@
 "BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Mjesečna donacija je otkazana";
 
 /* String explaining to the user that their subscription badge has expired on the badge expiry sheet. Embeds {failure-specific sentence(s)}. */
-"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_CHARGE_FAILURE_BODY_FORMAT" = "Vaša obnavljajuća mjesečna donacija je otkazana. Vaša značka donacije %1$@ više nije vidljiva na vašem profilu.\n\nDa biste nastavili podržavati Signal i ponovno aktivirali svoju značku, ažurirajte podatke o plaćanju i ponovno donirajte.";
+"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_CHARGE_FAILURE_BODY_FORMAT" = "Vaša obnavljajuća mjesečna donacija je otkazana. Vaša značka donacije %1$@ više nije vidljiva na vašem profilu.\n\nDa biste nastavili podržavati Kahf i ponovno aktivirali svoju značku, ažurirajte podatke o plaćanju i ponovno donirajte.";
 
 /* Body of the sheet shown when your subscription is canceled due to inactivity */
-"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "Vaša pretplata je automatski otkazana zbog toga što ste dugo bili neaktivni. Vaša značka %1$@ više nije vidljiva na vašem profilu.\n\nMožete nastaviti koristiti Signal, ali ako želite podržati aplikaciju i ponovno aktivirati svoju značku, bit će potrebno ponoviti donaciju.";
+"BADGE_SUBSCRIPTION_EXPIRED_BECAUSE_OF_INACTIVITY_BODY_FORMAT" = "Vaša pretplata je automatski otkazana zbog toga što ste dugo bili neaktivni. Vaša značka %1$@ više nije vidljiva na vašem profilu.\n\nMožete nastaviti koristiti Kahf, ali ako želite podržati aplikaciju i ponovno aktivirati svoju značku, bit će potrebno ponoviti donaciju.";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the body text on that sheet. */
 "BADGE_THANKS_BODY" = "Osvojili ste značku donatora! Prikažite je na svom profilu i iskažite svoju podršku Signalu.";
 
 /* Label prompting the user to display the new badge on their profile on the badge thank you sheet. */
@@ -445,7 +445,7 @@
 /* Label prompting the user to feature the new badge on their profile on the badge thank you sheet. */
 "BADGE_THANKS_MAKE_FEATURED" = "Istakni ovu značku";
 
-/* When you make a donation to Signal, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
+/* When you make a donation to Kahf, you will receive a badge. A thank-you sheet appears when this happens. This is the title of that sheet. */
 "BADGE_THANKS_TITLE" = "Hvala vam na podršci!";
 
 /* Footer explaining that only one badge can be featured at a time on the thank you sheet. */
@@ -638,7 +638,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Nema odgovora";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %1$@";
+"CALL_STATUS_FORMAT" = "Kahf %1$@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Nazovi";
@@ -701,10 +701,10 @@
 "CALLING_MEMBER_VIEW_YOUR_CAMERA_IS_OFF" = "Vaša kamera je isključena";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal korisnik";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Kahf korisnik";
 
 /* The generic name used for group calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_GROUP_NAME" = "Signal grupa";
+"CALLKIT_ANONYMOUS_GROUP_NAME" = "Kahf grupa";
 
 /* Accessibility hint describing what you can do with the camera button */
 "CAMERA_BUTTON_HINT" = "Snimite fotografiju te je zatim pošaljite";
@@ -778,38 +778,38 @@
 /* Title for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_TITLE" = "Pogreška";
 
-/* Users can donate to Signal with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card number is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CARD_NUMBER_GENERIC_ERROR" = "Nevažeći broj kartice";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card number field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card number field on that screen. */
 "CARD_DONATION_CARD_NUMBER_LABEL" = "Broj kartice";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is invalid for reasons we cannot determine, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_GENERIC_ERROR" = "Nevažeći CVV kȏd";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card verification code (CVV) field on that screen. */
 "CARD_DONATION_CVV_LABEL" = "CVV";
 
-/* Users can donate to Signal with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their card verification code (CVV) is too long, this error will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_CVV_TOO_LONG_ERROR" = "Predugi kôd";
 
-/* Users can donate to Signal with a credit or debit card. This is the text on the \"Donate\" button. */
+/* Users can donate to Kahf with a credit or debit card. This is the text on the \"Donate\" button. */
 "CARD_DONATION_DONATE_BUTTON" = "Doniraj";
 
-/* Users can donate to Signal with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
+/* Users can donate to Kahf with a credit or debit card. If their expiration date is invalid, this generic error message will be shown. Try to use a short string to make space in the UI. */
 "CARD_DONATION_EXPIRATION_DATE_GENERIC_ERROR" = "Nevažeći datum";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the expiration date field on that screen. Try to use a short string to make space in the UI. (For example, the English text uses \"Exp. Date\" instead of \"Expiration Date\"). */
 "CARD_DONATION_EXPIRATION_DATE_LABEL" = "Datum isteka";
 
-/* Users can donate to Signal with a credit or debit card. This is the label for the card expiration date field on that screen. */
+/* Users can donate to Kahf with a credit or debit card. This is the label for the card expiration date field on that screen. */
 "CARD_DONATION_EXPIRATION_DATE_PLACEHOLDER" = "MM/GG";
 
-/* Users can donate to Signal with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
+/* Users can donate to Kahf with a credit or debit card. This is the heading on that screen, telling them how much they'll donate. Embeds {{formatted amount of money}}, such as \"$20\". */
 "CARD_DONATION_HEADER" = "Iznos donacije: %1$@";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the body text of that sheet. */
-"CARD_DONATION_READ_MORE_SHEET_BODY" = "Signal ne prikuplja niti pohranjuje vaše osobne podatke kada izvršite donaciju.\n\nKao procesor plaćanja za primanje vaših donacija koristimo Stripe. Ne pristupamo informacijama koje dijelite s njima, ne pohranjujemo ih niti spremamo.\n\nSignal ne povezuje i ne može povezati vašu donaciju s vašim Signal računom.\n\nHvala vam na podršci!";
+"CARD_DONATION_READ_MORE_SHEET_BODY" = "Kahf ne prikuplja niti pohranjuje vaše osobne podatke kada izvršite donaciju.\n\nKao procesor plaćanja za primanje vaših donacija koristimo Stripe. Ne pristupamo informacijama koje dijelite s njima, ne pohranjujemo ih niti spremamo.\n\nSignal ne povezuje i ne može povezati vašu donaciju s vašim Kahf računom.\n\nHvala vam na podršci!";
 
 /* Users can choose to learn more about their credit/debit card donations, which will open a sheet with additional information. This is the title of that sheet. */
 "CARD_DONATION_READ_MORE_SHEET_TITLE" = "Vaši podaci su privatni";
@@ -817,8 +817,8 @@
 /* On the credit/debit card donation screen, a small amount of information text is shown. Users can click this link to learn more information. */
 "CARD_DONATION_SUBHEADER_LEARN_MORE" = "Saznaj više.";
 
-/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Signal does not collect or store their personal information. */
-"CARD_DONATION_SUBHEADER_TEXT" = "Unesite podatke o kartici. Signal ne prikuplja niti pohranjuje vaše osobne podatke.";
+/* On the credit/debit card donation screen, a small amount of information text is shown. This is that text. It should (1) instruct users to enter their credit/debit card information (2) tell them that Kahf does not collect or store their personal information. */
+"CARD_DONATION_SUBHEADER_TEXT" = "Unesite podatke o kartici. Kahf ne prikuplja niti pohranjuje vaše osobne podatke.";
 
 /* Title for the 'censorship circumvention country' view. */
 "CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE" = "Odaberi državu";
@@ -884,7 +884,7 @@
 "COMPARE_SAFETY_NUMBER_ACTION" = "Usporedi s međuspremnikom";
 
 /* Accessibility hint describing what you can do with the compose button */
-"COMPOSE_BUTTON_HINT" = "Odaberite ili potražite Signal korisnika kako bi započeli razgovor.";
+"COMPOSE_BUTTON_HINT" = "Odaberite ili potražite Kahf korisnika kako bi započeli razgovor.";
 
 /* Accessibility label from compose button. */
 "COMPOSE_BUTTON_LABEL" = "Sastavi";
@@ -1033,7 +1033,7 @@
 /* Error indicating that at least one contact field must be selected before sharing a contact. */
 "CONTACT_SHARE_NO_FIELDS_SELECTED" = "Nije odabrano polje za kontakt.";
 
-/* Button text to initiate an email to signal support staff */
+/* Button text to initiate an email to Kahf support staff */
 "CONTACT_SUPPORT" = "Kontaktirajte podršku";
 
 /* The localized representation of the 'Donations & Badges' support filter. */
@@ -1082,7 +1082,7 @@
 "CONTACT_SUPPORT_FILTER_SOMETHING_NOT_WORKING_SHORT" = "Nešto ne radi";
 
 /* Alert body */
-"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Signal nije uspio dovršiti vaš zahtjev za podršku.";
+"CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY" = "Kahf nije uspio dovršiti vaš zahtjev za podršku.";
 
 /* button text */
 "CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN" = "Pokušajte ponovo";
@@ -1211,7 +1211,7 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "zvuk";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Podržite Signal i osvojite značke za svoj profil. Dodirnite značku kako bi saznali više.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Podržite Kahf i osvojite značke za svoj profil. Dodirnite značku kako bi saznali više.";
 
 /* Header title for a contact's badges in conversation settings */
 "CONVERSATION_SETTINGS_BADGES_HEADER" = "Značke";
@@ -1396,14 +1396,14 @@
 /* No comment provided by engineer. */
 "COUNTRYCODE_SELECT_TITLE" = "Odaberi kôd države";
 
-/* Body text for an interactive in-app prompt to set up a Signal username. */
+/* Body text for an interactive in-app prompt to set up a Kahf username. */
 "CREATE_USERNAME_MEGAPHONE_BODY" = "Usernames let others message you without needing your phone number.";
 
-/* Title for a button in an interactive in-app prompt to set up a Signal username, which will start a create-username flow. */
+/* Title for a button in an interactive in-app prompt to set up a Kahf username, which will start a create-username flow. */
 "CREATE_USERNAME_MEGAPHONE_SET_UP_BUTTON_TITLE" = "Set Up";
 
-/* Title for an interactive in-app prompt to set up a Signal username. */
-"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Signal username";
+/* Title for an interactive in-app prompt to set up a Kahf username. */
+"CREATE_USERNAME_MEGAPHONE_TITLE" = "Set up your Kahf username";
 
 /* Credit/debit card donation error for decline failures where the card has expired. */
 "CREDIT_OR_DEBIT_CARD_DONATION_ERROR_EXPIRED_CARD" = "Vaša kartica je istekla. Provjerite jesu li podaci o vašoj kartici ispravni i pokušajte ponovno.";
@@ -1454,7 +1454,7 @@
 "DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Pokreni";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "To će nam pomoći u rješavanju vašeg problema, a može potrajati nekoliko minuta. Možete napustiti aplikaciju Signal tijekom provjere, ali molimo vas da se vratite i pošaljete svoje zapisnike.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "To će nam pomoći u rješavanju vašeg problema, a može potrajati nekoliko minuta. Možete napustiti aplikaciju Kahf tijekom provjere, ali molimo vas da se vratite i pošaljete svoje zapisnike.";
 
 /* Button to skip database integrity check step */
 "DATABASE_INTEGRITY_CHECK_SKIP" = "Preskoči";
@@ -1468,20 +1468,20 @@
 /* In some cases, the user's message history can become corrupted, and a recovery interface is shown. The user has not been hacked and may be confused by this interface, so try to avoid using terms like \"database\" or \"corrupted\"—terms like \"message history\" are better. This is the title on the first screen of this interface, which gives them some information and asks them to continue. */
 "DATABASE_RECOVERY_AWAITING_USER_CONFIRMATION_TITLE" = "Problem s dohvaćanjem podataka";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the text on the button to bypass the warning. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_CONTINUE_ANYWAY" = "Svejedno nastavi";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the line of text on that screen. Embeds an amount like \"2GB\". */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_DESCRIPTION" = "Kako bi oporavak podataka bio uspješan, preporučljivo je imati najmanje %1$@ slobodnog prostora za pohranu na svom uređaju.";
 
-/* On the database recovery screen, if the user's device storage is nearly full, Signal will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
+/* On the database recovery screen, if the user's device storage is nearly full, Kahf will not be able to recover the database. A warning screen, which can be bypassed if the user wishes, will be shown. This is the title of that screen. */
 "DATABASE_RECOVERY_MORE_STORAGE_SPACE_NEEDED_TITLE" = "Nedostaje prostora za pohranu";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This is the description on the screen where we show an error message. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Oporavak povijesti vaših poruka nije uspio. Možete nastaviti koristiti Signal nakon što ga ponovno instalirate. Pošaljite zapisnik o pogrešci kako bismo bolje razumjeli što se dogodilo.";
+"DATABASE_RECOVERY_RECOVERY_FAILED_DESCRIPTION" = "Oporavak povijesti vaših poruka nije uspio. Možete nastaviti koristiti Kahf nakon što ga ponovno instalirate. Pošaljite zapisnik o pogrešci kako bismo bolje razumjeli što se dogodilo.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) This button lets them delete all of their data. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Resetiraj Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_BUTTON" = "Resetiraj Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the final button they will press before their data is reset. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_CONFIRM" = "Poništi";
@@ -1490,7 +1490,7 @@
 "DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_DESCRIPTION" = "Podaci o vašem računu, vaš profil i sve vaše poruke bit će izbrisani. Aplikacija će se zatvoriti nakon završetka ovog postupka.";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) If they want to delete the app and restart, they will be presented with a confirmation dialog. This is the title of that dialog. */
-"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Resetiraj Signal";
+"DATABASE_RECOVERY_RECOVERY_FAILED_RESET_APP_CONFIRMATION_TITLE" = "Resetiraj Kahf";
 
 /* The user has tried to recover their data after it was lost due to corruption. (They have not been hacked.) They were asked to submit a debug log. This is the button that submits this log. */
 "DATABASE_RECOVERY_RECOVERY_FAILED_SUBMIT_DEBUG_LOG_BUTTON" = "Pošalji zapisnik pogreške";
@@ -1565,7 +1565,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Izbriši račun";
 
 /* Title for the action sheet message of the 'delete account confirmation' view controller. */
-"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Ovo će izbrisati vaš Signal račun i resetirati aplikaciju. Aplikacija će se zatvoriti nakon završetka postupka.";
+"DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_MESSAGE" = "Ovo će izbrisati vaš Kahf račun i resetirati aplikaciju. Aplikacija će se zatvoriti nakon završetka postupka.";
 
 /* Title for the action sheet confirmation title of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_TITLE" = "Jeste li sigurni da želite izbrisati svoj račun?";
@@ -1589,7 +1589,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_PHONE_NUMBER_TITLE" = "Broj telefona";
 
 /* Section header */
-"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Potvrdite svoj Signal broj telefona";
+"DELETE_ACCOUNT_CONFIRMATION_SECTION_TITLE" = "Potvrdite svoj Kahf broj telefona";
 
 /* Title for the 'delete account' confirmation view. */
 "DELETE_ACCOUNT_CONFIRMATION_TITLE" = "Izbriši račun";
@@ -1610,9 +1610,9 @@
 "DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER" = "Ponovno registriraj ovaj broj telefona";
 
 /* Label warning the user that they have been de-registered. */
-"DEREGISTRATION_WARNING" = "Uređaj više nije registriran. Vaš broj telefona se sada može registrirati na Signal s drugim uređajem. Pritisnite za ponovnu registraciju.";
+"DEREGISTRATION_WARNING" = "Uređaj više nije registriran. Vaš broj telefona se sada može registrirati na Kahf s drugim uređajem. Pritisnite za ponovnu registraciju.";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Kahf Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Zadnje aktivno %1$@";
 
 /* {{Short Date}} when device was linked. */
@@ -1634,7 +1634,7 @@
 "DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Ako imate svoj stari iOS uređaj, svoj račun i poruke možete sigurno prenijeti na ovaj uređaj.";
 
 /* The explanation for the device transfer 'choice' view when linking a device */
-"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Ako ste prethodno koristili Signal na povezanom iPadu, svoj račun i poruke možete sigurno prenijeti na ovaj uređaj.";
+"DEVICE_TRANSFER_CHOICE_LINKED_EXPLANATION" = "Ako ste prethodno koristili Kahf na povezanom iPadu, svoj račun i poruke možete sigurno prenijeti na ovaj uređaj.";
 
 /* The body for the device transfer 'choice' view 'register' option */
 "DEVICE_TRANSFER_CHOICE_REGISTER_BODY" = "Nastavite bez prijenosa vašeg računa i poruka";
@@ -1664,7 +1664,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "Prenesi s iOS uređaja";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Ako nastavite, Signal će biti onemogućen na ostalim uređajima koji su trenutno registrirani s istim brojem telefona.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Ako nastavite, Kahf će biti onemogućen na ostalim uređajima koji su trenutno registrirani s istim brojem telefona.";
 
 /* An error indicating that we were unable to verify the identity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Potvrda vašeg novog uređaja nije uspjela, pokušajte ponovno";
@@ -1685,13 +1685,13 @@
 "DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Ažurirajte na najnoviju verziju Signala i pokušajte ponovno";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
-"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Prenesite svoj Signal račun na novi iOS uređaj. Provjerite je li vaš novi uređaj u blizini i je li uključen.";
+"DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Prenesite svoj Kahf račun na novi iOS uređaj. Provjerite je li vaš novi uređaj u blizini i je li uključen.";
 
 /* The title on the acttion sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Prenesi račun";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Otvorite Signal na svom starom uređaju, približite ga, te upalite Wi-Fi i Bluetooth na oba uređaja.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Otvorite Kahf na svom starom uređaju, približite ga, te upalite Wi-Fi i Bluetooth na oba uređaja.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Postavite ovaj QR kôd unutar okvira drugog uređaja.";
@@ -1703,7 +1703,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Čekanje drugog uređaja…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Držite oba uređaja blizu jedan drugog. Ne isključujte nijedan uređaj i držite Signal otvorenim. Prijenosi su end-to-end šifrirani.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "Držite oba uređaja blizu jedan drugog. Ne isključujte nijedan uređaj i držite Kahf otvorenim. Prijenosi su end-to-end šifrirani.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Primanje podataka";
@@ -1718,7 +1718,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Postavite svoj novi uređaj pred kameru";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Držite oba uređaja blizu jedan drugog. Ne isključujte nijedan uređaj i držite Signal otvorenim.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "Držite oba uređaja blizu jedan drugog. Ne isključujte nijedan uređaj i držite Kahf otvorenim.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Prijenos podataka";
@@ -1804,10 +1804,10 @@
 /* If a donation badge has been sent, indicates that it's expired and can no longer be redeemed. This is shown in the chat. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_CHAT_EXPIRED" = "Istekla";
 
-/* If the user tries to donate to Signal but no amount is selected, this error message is shown. */
+/* If the user tries to donate to Kahf but no amount is selected, this error message is shown. */
 "DONATE_SCREEN_ERROR_NO_AMOUNT_SELECTED" = "Odaberite iznos za donaciju.";
 
-/* If the user tries to donate to Signal but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
+/* If the user tries to donate to Kahf but they've entered an amount that's too small, this error message is shown. Embeds {{currency string}}, such as \"$5\". */
 "DONATE_SCREEN_ERROR_SELECT_A_LARGER_AMOUNT_FORMAT" = "Najmanji iznos koji možete donirati je %1$@.";
 
 /* On the donation screen, you can choose between one-time and monthly donations. This is the text on the picker for one-time donations. */
@@ -1850,7 +1850,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_BADGE_REDEEMED" = "Preuzeta";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is a short paragraph on the screen where users choose the badge their friend will receive. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "Podržite Signal donacijom u ime prijatelja ili člana obitelji koji koristi Signal. Moći će izabrati hoće li iskazati podršku na svom profilu.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_DESCRIPTION" = "Podržite Kahf donacijom u ime prijatelja ili člana obitelji koji koristi Kahf. Moći će izabrati hoće li iskazati podršku na svom profilu.";
 
 /* Users can donate on behalf of a friend, and the friend will receive a badge. This is the title on the screen where users choose the badge their friend will receive. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_CHOOSE_BADGE_TITLE" = "Donirajte u ime prijatelja";
@@ -1880,7 +1880,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_FAILED_ERROR_TITLE" = "Plaćanje nije uspjelo";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "Vaša uplata je obrađena, ali Signal nije mogao poslati vašu poruku uz donaciju. Molimo kontaktirajte podršku.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_BODY" = "Vaša uplata je obrađena, ali Kahf nije mogao poslati vašu poruku uz donaciju. Molimo kontaktirajte podršku.";
 
 /* Users can donate on a friend's behalf. If the payment was processed but the donation failed to send, an error dialog will be shown. This is the title of that dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_PAYMENT_SUCCEEDED_BUT_MESSAGE_FAILED_ERROR_TITLE" = "Donacija nije uspjela";
@@ -1895,7 +1895,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "Korisnik %1$@ donirao je Signalu u vaše ime";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, this error message will be shown. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Ne možete donirati u ime korisnika dok ne nadogradi Signal.";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Ne možete donirati u ime korisnika dok ne nadogradi Kahf.";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, an error dialog will be shown. This is the title of that error dialog. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_TITLE" = "Nije moguće izvršiti donaciju";
@@ -1933,17 +1933,17 @@
 /* A friend has donated on your behalf and you received a badge. This text says that you received a badge, and from whom. Embeds {{contact's short name, such as a first name}}. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_YOU_RECEIVED_A_BADGE_FORMAT" = "Korisnik %1$@ donirao je Signalu u vaše ime! Pokažite svoju podršku Signalu na svom profilu.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 1st paragraph of that screen. */
+/* There is a screen where users can read more about their donation to Kahf. This is the 1st paragraph of that screen. */
 "DONATION_READ_MORE_SCREEN_PARAGRAPH_1" = "Privatna razmjena poruka. Bez oglasa, bez pratitelja i bez nadzora.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 2nd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Signal podržavaju donacije, što znači da je vaša privatnost u središtu svega što radimo. Signal je stvoren za vas; ne za vaše podatke niti radi zarade.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 2nd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_2" = "Kahf podržavaju donacije, što znači da je vaša privatnost u središtu svega što radimo. Kahf je stvoren za vas; ne za vaše podatke niti radi zarade.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the 3rd paragraph of that screen. */
-"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Ako možete, donirajte već danas kako bi Signal ostao zabavan, pouzdan i dostupan svima.";
+/* There is a screen where users can read more about their donation to Kahf. This is the 3rd paragraph of that screen. */
+"DONATION_READ_MORE_SCREEN_PARAGRAPH_3" = "Ako možete, donirajte već danas kako bi Kahf ostao zabavan, pouzdan i dostupan svima.";
 
-/* There is a screen where users can read more about their donation to Signal. This is the title of that screen. */
-"DONATION_READ_MORE_SCREEN_TITLE" = "Signal nije kao ostali.";
+/* There is a screen where users can read more about their donation to Kahf. This is the title of that screen. */
+"DONATION_READ_MORE_SCREEN_TITLE" = "Kahf nije kao ostali.";
 
 /* Section title for donation amount on receipts */
 "DONATION_RECEIPT_AMOUNT" = "Količina";
@@ -1958,7 +1958,7 @@
 "DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Podijeli račun";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Hvala vam što podržavate Signal. Vaš doprinos pomaže potaknuti misiju razvoja tehnologije privatnosti otvorenog koda koja štiti slobodno izražavanje i omogućuje sigurnu globalnu komunikaciju za milijune ljudi diljem svijeta. Ako ste rezident Sjedinjenih Država, zadržite ovu potvrdu za svoju poreznu evidenciju. Signal Technology Foundation je neprofitna organizacija oslobođena poreza u Sjedinjenim Državama prema odjeljku 501c3 Zakona o internim prihodima. Naš savezni porezni broj je 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "Hvala vam što podržavate Kahf. Vaš doprinos pomaže potaknuti misiju razvoja tehnologije privatnosti otvorenog koda koja štiti slobodno izražavanje i omogućuje sigurnu globalnu komunikaciju za milijune ljudi diljem svijeta. Ako ste rezident Sjedinjenih Država, zadržite ovu potvrdu za svoju poreznu evidenciju. Kahf Technology Foundation je neprofitna organizacija oslobođena poreza u Sjedinjenim Državama prema odjeljku 501c3 Zakona o internim prihodima. Naš savezni porezni broj je 82-4506840.";
 
 /* Title for receipts for donations given on a friend's behalf */
 "DONATION_RECEIPT_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Donacija u ime prijatelja";
@@ -1979,13 +1979,13 @@
 "DONATION_RECEIPTS" = "Potvrde o donacijama";
 
 /* Text at the bottom of the donation receipts list, telling users that receipts might not be available */
-"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Ako ste ponovno instalirali Signal, potvrde o prijašnjim donacijama neće biti dostupne.";
+"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Ako ste ponovno instalirali Kahf, potvrde o prijašnjim donacijama neće biti dostupne.";
 
 /* On the donation settings screen, tapping this button will take the user to a screen where they can donate. */
 "DONATION_SCREEN_DONATE_BUTTON" = "Doniraj";
 
 /* On donation screens, a small amount of information text is shown. This is the subtitle for that text. */
-"DONATION_SCREENS_HEADER_DESCRIPTION" = "Privatna razmjena poruka koju financirate vi. Bez oglasa, bez praćenja, bez kompromisa. Donirajte odmah i podržite Signal.";
+"DONATION_SCREENS_HEADER_DESCRIPTION" = "Privatna razmjena poruka koju financirate vi. Bez oglasa, bez praćenja, bez kompromisa. Donirajte odmah i podržite Kahf.";
 
 /* On donation screens, a small amount of information text is shown. Users can click this link to learn more information. */
 "DONATION_SCREENS_HEADER_READ_MORE" = "Pročitaj više";
@@ -1996,8 +1996,8 @@
 /* Title for the \"donate for a friend\" button on the donation view. */
 "DONATION_VIEW_DONATE_ON_BEHALF_OF_A_FRIEND" = "Doniraj u ime prijatelja";
 
-/* Text describing to the user that they're going to pay a donation to Signal */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Donacija za Signal";
+/* Text describing to the user that they're going to pay a donation to Kahf */
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Donacija za Kahf";
 
 /* Text that's shown when the donation view fails to load data, probably due to network failure */
 "DONATION_VIEW_LOAD_FAILED" = "Pogreška mreže. Provjerite vezu i pokušajte ponovno.";
@@ -2008,7 +2008,7 @@
 /* Title for the 'Manage Subscription' button on the donation screen */
 "DONATION_VIEW_MANAGE_SUBSCRIPTION" = "Upravljajte svojom pretplatom";
 
-/* Text describing to the user that they're going to pay a monthly donation to Signal */
+/* Text describing to the user that they're going to pay a monthly donation to Kahf */
 "DONATION_VIEW_MONTHLY_DONATION_TO_SIGNAL" = "Mjesečna donacija Signalu";
 
 /* Title for the 'more' section on the donation screen */
@@ -2023,23 +2023,23 @@
 /* Title for the 'Subscription FAQ' button on the donation screen */
 "DONATION_VIEW_SUBSCRIPTION_FAQ" = "Najčešća pitanja u vezi pretplate";
 
-/* Title on the 'Donate to Signal' screen */
+/* Title on the 'Donate to Kahf' screen */
 "DONATION_VIEW_TITLE" = "Donirajte Signalu";
 
 /* Label for the currency picker button in donation views */
 "DONATIONS_CURRENCY_PICKER_LABEL" = "Valuta";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Možete omogućiti pristup u postavkama iOS-a.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert title for when the user has just tried to edit a contacts after declining to give Kahf contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Za uređivanje informacija o kontaktima, Signalu je potreban pristup kontaktima";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Uredi grupu";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Ovaj se korisnik ne može dodati u grupu dok ne ažurira Signal.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Ovaj se korisnik ne može dodati u grupu dok ne ažurira Kahf.";
 
 /* Error message indicating that an avatar image is invalid and cannot be used. */
 "EDIT_GROUP_ERROR_INVALID_AVATAR" = "Nevažeća slika.";
@@ -2056,14 +2056,14 @@
 /* Short name for edit menu item to copy contents of media message. */
 "EDIT_ITEM_COPY_ACTION" = "Kopiraj";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Hej,\n\nU posljednje vrijeme pomoću Signala održavam svoje razgovore privatnima na svojem iPhoneu. Volio bih da ga i ti instaliraš, tako da možemo biti sigurni da samo ti i ja možemo čitati naše poruke ili čuti naše pozive.\n\nSignal je dostupan za iPhone i Android. Preuzmi ga ovdje: %1$@\n\nSignal funkcionira poput tvoje postojeće aplikacije za razmjenu poruka. Možemo slati slike i video, pozivati i započeti grupne razgovore. Najbolji dio je što nitko drugi ne može vidjeti, pa čak ni osobe koji stvaraju Signal!\n\nViše o Open Whisper Systems i osobama koji stvaraju Signal, možete pročitati ovdje: %2$@";
+/* body of email sent to contacts when inviting to install Kahf. Embeds {{link to install Kahf}} and {{link to the Kahf home page}} */
+"EMAIL_INVITE_BODY" = "Hej,\n\nU posljednje vrijeme pomoću Signala održavam svoje razgovore privatnima na svojem iPhoneu. Volio bih da ga i ti instaliraš, tako da možemo biti sigurni da samo ti i ja možemo čitati naše poruke ili čuti naše pozive.\n\nSignal je dostupan za iPhone i Android. Preuzmi ga ovdje: %1$@\n\nSignal funkcionira poput tvoje postojeće aplikacije za razmjenu poruka. Možemo slati slike i video, pozivati i započeti grupne razgovore. Najbolji dio je što nitko drugi ne može vidjeti, pa čak ni osobe koji stvaraju Kahf!\n\nViše o Open Whisper Systems i osobama koji stvaraju Kahf, možete pročitati ovdje: %2$@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Prebacimo se na Signal";
+/* subject of email sent to contacts when inviting to install Kahf */
+"EMAIL_INVITE_SUBJECT" = "Prebacimo se na Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Vaš uređaj nije postavljen za slanje e-pošte. Kako biste poslali zahtjev za podršku, postavite e-poštu na svom uređaju ili pošaljite e-poštu na support@signal.org";
+"EMAIL_SIGNAL_MESSAGE" = "Vaš uređaj nije postavljen za slanje e-pošte. Kako biste poslali zahtjev za podršku, postavite e-poštu na svom uređaju ili pošaljite e-poštu na support@Kahf.org";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-pošta nije dostupna";
@@ -2096,7 +2096,7 @@
 "EMOJI_CATEGORY_TRAVEL_NAME" = "Putovanja i mjesta";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Nijedan od vaših kontakata ne koristi Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Nijedan od vaših kontakata ne koristi Kahf.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Zašto ne pozovete nekoga?";
@@ -2150,7 +2150,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Nevažeći odgovor usluge..";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Ovaj uređaj više nije registriran s vašim brojem telefona. Ponovo instalirajte Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Ovaj uređaj više nije registriran s vašim brojem telefona. Ponovo instalirajte Kahf.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Pogreška poslužitelja. Molimo pokušajte ponovo kasnije.";
@@ -2188,10 +2188,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Nema dostupne sesije za kontakt.";
 
-/* Shown when signal users safety numbers changed */
+/* Shown when Kahf users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "Sigurnosni broj je promijenjen.";
 
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Kahf users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "Vaš sigurnosni broj s %1$@ je promijenjen.";
 
 /* Text notifying the user that their secure session has been reset */
@@ -2207,10 +2207,10 @@
 "ERROR_NETWORK_FAILURE" = "Mrežna pogreška";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Pomozite nam poboljšati Signal prijavom ove pogreške zajedno s zapisnicima pogrešaka s vašeg uređaja na support@signal.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Pomozite nam poboljšati Kahf prijavom ove pogreške zajedno s zapisnicima pogrešaka s vašeg uređaja na support@Kahf.org; %1$@";
 
 /* Format string for an error alert notification title. */
-"ERROR_NOTIFICATION_TITLE" = "Signal Beta: Došlo je do pogreške";
+"ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Došlo je do pogreške";
 
 /* Error indicating a send failure due to a delinked application. */
 "ERROR_SENDING_DELINKED" = "Vaš uređaj više nije povezan. Ponovno ga povežite kako biste nastavili slati poruke.";
@@ -2221,7 +2221,7 @@
 /* Error indicating a send failure due to an expired application. */
 "ERROR_SENDING_EXPIRED" = "Vaša verzija Signala je istekla. Ažurirajte kako bi nastavili slati poruke.";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Kahf id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Neregistrirani korisnik: %1$@";
 
 /* Label notifying the user that the app has expired. */
@@ -2687,7 +2687,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Nevažeća poveznica";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Ažurirajte Signal na ovom uređaju da biste se pridružili ovoj grupi.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Ažurirajte Kahf na ovom uređaju da biste se pridružili ovoj grupi.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Zahtjeva da administrator odobri pridruživanje novih članova putem poveznice grupe.";
@@ -2746,7 +2746,7 @@
 /* Label for the 'share group link via QR code' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_QR_CODE" = "QR kôd";
 
-/* Label for the 'share group link via Signal' button in the 'group link' view. */
+/* Label for the 'share group link via Kahf' button in the 'group link' view. */
 "GROUP_LINK_VIEW_SHARE_LINK_VIA_SIGNAL" = "Podijeli putem Signala";
 
 /* Message for the 'share group link' action sheet in the 'group link' view. */
@@ -3089,7 +3089,7 @@
 "GROUPS_LEGACY_GROUP_ALERT_SECTION_2_TITLE" = "Mogu li \"nadograditi\" Naslijeđenu grupu?";
 
 /* Body text for the third section of the 'legacy group' alert view. */
-"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Za stvaranje Nove grupe, svi korisnici trebaju ažurirati Signal na najnoviju verziju.";
+"GROUPS_LEGACY_GROUP_ALERT_SECTION_3_BODY" = "Za stvaranje Nove grupe, svi korisnici trebaju ažurirati Kahf na najnoviju verziju.";
 
 /* Title for the 'legacy group' alert view. */
 "GROUPS_LEGACY_GROUP_ALERT_TITLE" = "Naslijeđene i Nove grupe";
@@ -3223,7 +3223,7 @@
 /* Help item allowing the user to file a support request */
 "HELP_CONTACT_US" = "Kontaktirajte nas";
 
-/* Help item that takes the user to the Signal support website */
+/* Help item that takes the user to the Kahf support website */
 "HELP_SUPPORT_CENTER" = "Centar za podršku";
 
 /* Label for 'archived conversations' button. */
@@ -3238,16 +3238,16 @@
 /* A prefix indicating that a message preview is a draft */
 "HOME_VIEW_DRAFT_PREFIX" = "Skica: ";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Neki vaši kontakti već koriste Signal, uključujući %1$@.";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Kahf contact.  Embeds {{The name of 1 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Neki vaši kontakti već koriste Kahf, uključujući %1$@.";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Neki vaši kontakti već koriste Signal, uključujući %1$@ i %2$@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Kahf contacts.  Embeds {{The names of 2 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Neki vaši kontakti već koriste Kahf, uključujući %1$@ i %2$@";
 
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Neki vaši kontakti već koriste Signal, uključujući %1$@, %2$@ i %3$@";
+/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Kahf contacts.  Embeds {{The names of 3 of your Kahf contacts}}. */
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Neki vaši kontakti već koriste Kahf, uključujući %1$@, %2$@ i %3$@";
 
-/* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
+/* A label offering to start a new conversation with your contacts, if you have no Kahf contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Započnite svoj prvi razgovor ovdje.";
 
 /* Table cell subtitle label for a group the user has been added to. {Embeds inviter name} */
@@ -3280,11 +3280,11 @@
 /* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT" = "Ne možete dijeliti više od %1$@ stavki.";
 
-/* Button that will present a view for the user to change the photos Signal has access to. */
+/* Button that will present a view for the user to change the photos Kahf has access to. */
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Promijeni sliku";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Odobrite potpuni pristup u Postavkama ili promijenite kojim fotografijama Signal može pristupiti.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Odobrite potpuni pristup u Postavkama ili promijenite kojim fotografijama Kahf može pristupiti.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Ne vidite vašu sliku?";
@@ -3343,7 +3343,7 @@
 /* Indicates that another user has changed their phone number. Embeds: {{ the user's name}} */
 "INFO_MESSAGE_USER_CHANGED_PHONE_NUMBER_FORMAT" = "%1$@ je promijenio/la svoj broj telefona.";
 
-/* Shown in inbox and conversation when a user joins Signal, embeds the new user's {{contact name}} */
+/* Shown in inbox and conversation when a user joins Kahf, embeds the new user's {{contact name}} */
 "INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ je na Signalu!";
 
 /* accessibility label for the button which shows the regular keyboard instead of sticker picker */
@@ -3367,14 +3367,14 @@
 /* The provided proxy host address is not valid */
 "INVALID_PROXY_HOST_ERROR" = "Proxy adresa koju ste unijeli nije valjana. Provjerite adresu i pokušajte ponovno.";
 
-/* Alert body when contacts disabled while trying to invite contacts to signal */
+/* Alert body when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Možete omogućiti pristup kontaktima u postavkama iOS-a za pozivanje svojih prijatelja da se pridruže Signalu.";
 
-/* Alert title when contacts disabled while trying to invite contacts to signal */
+/* Alert title when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Dozvoli pristup kontaktima";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Pozovite prijatelje na Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Pozovite prijatelje na Kahf";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Pretraži";
@@ -3473,10 +3473,10 @@
 "LINK_PREVIEW_UNKNOWN_DOMAIN" = "Pregled poveznice";
 
 /* Shown in an alert when trying to edit a contact. */
-"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Upravljanje kontaktima iz imenika više nije dostupno na iPadu. Da biste dodali Signal kontakte u imenik uređaja, otvorite Signal na vašem telefonu.";
+"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Upravljanje kontaktima iz imenika više nije dostupno na iPadu. Da biste dodali Kahf kontakte u imenik uređaja, otvorite Kahf na vašem telefonu.";
 
 /* Shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. */
-"LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Upravljanje kontaktima iz imenika na iPadu više nije podržano. Ovaj će uređaj nastaviti sinkronizirati sve promjene na vašem popisu Signal kontakata na vašem telefonu.";
+"LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Upravljanje kontaktima iz imenika na iPadu više nije podržano. Ovaj će uređaj nastaviti sinkronizirati sve promjene na vašem popisu Kahf kontakata na vašem telefonu.";
 
 /* A button shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. Tapping it opens a website with more details. */
 "LINKED_DEVICE_MANAGE_CONTACTS_LEARN_MORE" = "Saznajte više";
@@ -3497,7 +3497,7 @@
 "LINKING_DEVICE_FAILED_TITLE" = "Povezivanje uređaja nije uspjelo";
 
 /* Body for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Da biste prenijeli svoj Signal račun, morate omogućiti pristup lokalnoj mreži na oba uređaja.";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_BODY" = "Da biste prenijeli svoj Kahf račun, morate omogućiti pristup lokalnoj mreži na oba uređaja.";
 
 /* A button asking the user if they need further help getting their transfer working. */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_NEED_HELP" = "Trebate pomoć?";
@@ -3509,7 +3509,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "Uključite \"Lokalna mreža\"";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Idite u Signal";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Idite u Kahf";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Uključite pristup lokalnoj mreži";
@@ -3607,8 +3607,8 @@
 /* Label for button to open a link. */
 "MESSAGE_ACTION_LINK_OPEN_LINK" = "Otvori poveznicu";
 
-/* Label for button to open a signal proxy. */
-"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Otvorite Signal Proxy";
+/* Label for button to open a Kahf proxy. */
+"MESSAGE_ACTION_LINK_OPEN_PROXY" = "Otvorite Kahf Proxy";
 
 /* Label for button to open a sticker pack. */
 "MESSAGE_ACTION_LINK_OPEN_STICKER_PACK" = "Pogledaj paket naljepnica";
@@ -3752,7 +3752,7 @@
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Izbriši i napusti grupu?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
-"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Pažljivo pregledajte zahtjeve. Signal je pronašao drugi kontakt s istim imenom.";
+"MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Pažljivo pregledajte zahtjeve. Kahf je pronašao drugi kontakt s istim imenom.";
 
 /* A header string above a known contact's contact info */
 "MESSAGE_REQUEST_NAME_COLLISON_CONTACT_HEADER" = "Vaš kontakt";
@@ -3847,7 +3847,7 @@
 /* status message for read messages */
 "MESSAGE_STATUS_READ" = "Pročitano";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Kahf account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Preskočeno";
 
 /* Label indicating that a message failed to send. */
@@ -3893,19 +3893,19 @@
 "MISSING_CAMERA_PERMISSION_MESSAGE" = "Za upućivanje video poziva u Signalu, možete omogućiti pristup kameri u postavkama iOS-a.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal treba pristup vašoj kameri.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Kahf treba pristup vašoj kameri.";
 
 /* Alert body indicating the user has denied location permissions */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Možete omogućiti ovu dozvolu u postavkama iOS-a.";
 
 /* Alert title indicating the user has denied location permissions */
-"MISSING_LOCATION_PERMISSION_TITLE" = "Signal zahtijeva pristup vašoj lokaciji za ovu značajku.";
+"MISSING_LOCATION_PERMISSION_TITLE" = "Kahf zahtijeva pristup vašoj lokaciji za ovu značajku.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Možete omogućiti ovu dozvolu u postavkama iOS-a.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Za ovu značajku, Signal treba pristup vašim fotografijama.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Za ovu značajku, Kahf treba pristup vašim fotografijama.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Nijedno";
@@ -3926,7 +3926,7 @@
 "MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_EXCEPT_TITLE" = "Svi osim…";
 
 /* Title for the visibility option */
-"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Svi Signal kontakti";
+"MY_STORIES_SETTINGS_VISIBILITY_ALL_SIGNAL_CONNECTIONS_TITLE" = "Svi Kahf kontakti";
 
 /* Title for the visibility option */
 "MY_STORIES_SETTINGS_VISIBILITY_ONLY_SHARE_WITH_TITLE" = "Podijeli samo s…";
@@ -4105,7 +4105,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Bez imena i sadržaja";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Kahf will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Sviraj dok je aplikacija otvorena";
 
 /* Label for settings UI that allows user to add a new notification sound. */
@@ -4160,7 +4160,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "Poveži iPhone";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Pritiskom na \"Registriraj iPad\" možete stvoriti potpuno novi Signal račun ili prebaciti postojeći račun na ovaj iPad. To će onemogućiti Signal na bilo kojem drugom uređaju koji je trenutno registriran s istim brojem telefona.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "Pritiskom na \"Registriraj iPad\" možete stvoriti potpuno novi Kahf račun ili prebaciti postojeći račun na ovaj iPad. To će onemogućiti Kahf na bilo kojem drugom uređaju koji je trenutno registriran s istim brojem telefona.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "Pritiskom na \"Poveži iPhone\" možete povezati svoj telefon s postojećim računom. Povezivanje telefona uglavnom se ne preporučuje i ograničiti će neke funkcije, poput pozivanja.";
@@ -4172,7 +4172,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Poveži ovaj iPhone";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Registriranjem ovog iPada onemogućiti će se Signal na bilo kojem drugom uređaju koji je trenutno registriran s istim brojem telefona.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Registriranjem ovog iPada onemogućiti će se Kahf na bilo kojem drugom uređaju koji je trenutno registriran s istim brojem telefona.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "Povezivanje vašeg iPhonea se ne preporučuje i ograničiti će osnovne funkcionalnosti.";
@@ -4181,7 +4181,7 @@
 "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON" = "Omogući dozvole";
 
 /* Explanation in the 'onboarding permissions' view. */
-"ONBOARDING_PERMISSIONS_EXPLANATION" = "Omogućavanje obavijesti i kontakata dopušta vam da vidite kada stižu poruke i pomaže vam pronaći osobe koje poznajete. Kontakti su šifrirani, tako da ih Signal ne može vidjeti.";
+"ONBOARDING_PERMISSIONS_EXPLANATION" = "Omogućavanje obavijesti i kontakata dopušta vam da vidite kada stižu poruke i pomaže vam pronaći osobe koje poznajete. Kontakti su šifrirani, tako da ih Kahf ne može vidjeti.";
 
 /* Title of the 'onboarding permissions' view. */
 "ONBOARDING_PERMISSIONS_TITLE" = "Omogući dozvole";
@@ -4205,7 +4205,7 @@
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Nevažeći broj telefona. Unesite valjani broj telefona za registraciju.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Ponestalo vam je pokušaja za unos PIN-a, ali i dalje možete pristupiti svom Signal računu stvaranjem novog PIN-a. Radi vaše privatnosti i sigurnosti, vaš će se račun oporaviti bez ikakvih spremljenih podataka ili postavki profila.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Ponestalo vam je pokušaja za unos PIN-a, ali i dalje možete pristupiti svom Kahf računu stvaranjem novog PIN-a. Radi vaše privatnosti i sigurnosti, vaš će se račun oporaviti bez ikakvih spremljenih podataka ili postavki profila.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "Naučite više o PIN-ovima";
@@ -4279,14 +4279,14 @@
 /* Info Message when another user enabled disappearing messages. Embeds {{name of other user}} and {{time amount}} before messages disappear. See the *_TIME_AMOUNT strings for context. */
 "OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "%1$@ je postavio da poruke nestaju za %2$@.";
 
-/* Label warning the user that the Signal service may be down. */
-"OUTAGE_WARNING" = "Signal ima tehničkih poteškoća. Naporno radimo na što bržem vraćanju usluge.";
+/* Label warning the user that the Kahf service may be down. */
+"OUTAGE_WARNING" = "Kahf ima tehničkih poteškoća. Naporno radimo na što bržem vraćanju usluge.";
 
 /* Label for action link when the user has an outdated payment client */
 "OUTDATED_PAYMENT_CLIENT_ACTION_TITLE" = "Ažuriraj sada";
 
-/* Label warning the user that they should update Signal to continue using payments. */
-"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Ažurirajte Signal da biste nastavili koristiti uslugu plaćanja. Vaše stanje računa možda nije ažurno.";
+/* Label warning the user that they should update Kahf to continue using payments. */
+"OUTDATED_PAYMENT_CLIENT_REMINDER_TEXT" = "Ažurirajte Kahf da biste nastavili koristiti uslugu plaćanja. Vaše stanje računa možda nije ažurno.";
 
 /* info message text in conversation view */
 "OUTGOING_AUDIO_CALL" = "Odlazni glasovni poziv";
@@ -4396,7 +4396,7 @@
 /* Title for action sheet shown when unlocking with biometrics like Face ID or TouchID fails because it is disabled at a system level. */
 "PAYMENTS_LOCK_LOCAL_BIOMETRY_AUTH_DISABLED_TITLE" = "Biometrijska provjera autentičnosti nije uspjela";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'payments lock'. */
 "PAYMENTS_LOCK_REASON_UNLOCK_PAYMENTS_LOCK" = "Provjerite autentičnost za potvrdu plaćanja.";
 
 /* Label for the 'add memo' ui in the 'send payment' UI. */
@@ -4427,7 +4427,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Nevažeća transakcija";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Ažurirajte Signal za korištenje plaćanja.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Ažurirajte Kahf za korištenje plaćanja.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Plaćanje još nije potvrđeno";
@@ -4649,13 +4649,13 @@
 "PHONE_NUMBER_DISCOVERABILITY_EVERYBODY" = "Svi";
 
 /* A user friendly description of the 'everybody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Signal. Others will be able to reach you with your phone number when they start a new chat or group.";
+"PHONE_NUMBER_DISCOVERABILITY_EVERYBODY_DESCRIPTION" = "Anyone who has your phone number in their contacts will see you as a contact on Kahf. Others will be able to reach you with your phone number when they start a new chat or group.";
 
 /* A user friendly name for the 'nobody' phone number discoverability mode. */
 "PHONE_NUMBER_DISCOVERABILITY_NOBODY" = "Nitko";
 
 /* A user friendly description of the 'nobody' phone number discoverability mode. */
-"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Signal will be able to reach you with your phone number.";
+"PHONE_NUMBER_DISCOVERABILITY_NOBODY_DESCRIPTION" = "Nobody on Kahf will be able to reach you with your phone number.";
 
 /* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "PHONE_NUMBER_EXAMPLE_FORMAT" = "Primjer: %1$@";
@@ -4757,7 +4757,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Onemogući PIN";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Ako onemogućite PIN, izgubiti će te sve podatke kada se ponovo registrirate na Signal, osim ako ih ne prenesete s drugog iOS uređaja. Ne možete omogućiti Zaključavanje registracije dokle god je PIN onemogućen.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "Ako onemogućite PIN, izgubiti će te sve podatke kada se ponovo registrirate na Kahf, osim ako ih ne prenesete s drugog iOS uređaja. Ne možete omogućiti Zaključavanje registracije dokle god je PIN onemogućen.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Upozorenje";
@@ -4820,7 +4820,7 @@
 "PIN_CREATION_WEAK_ERROR" = "Odaberite snažniji PIN";
 
 /* If your attempted PIN is too weak, you'll see an error message. This is the text on the error dialog. */
-"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Signal encrypted so only you can access it. Choose a stronger PIN to protect your account.";
+"PIN_CREATION_WEAK_ERROR_MESSAGE" = "PINs keep your information stored with Kahf encrypted so only you can access it. Choose a stronger PIN to protect your account.";
 
 /* Error body indicating that the attempt to disable a PIN failed. */
 "PIN_DISABLE_ERROR_MESSAGE" = "Neuspješno onemogućavanje PIN-a. Obavijestiti ćemo vas ponovno kasnije.";
@@ -4850,7 +4850,7 @@
 "PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST" = "Podsjetiti ćemo vas ponovo za par dana.";
 
 /* Title for PIN reminder megaphone */
-"PIN_REMINDER_MEGAPHONE_TITLE" = "Potvrdite svoj Signal PIN";
+"PIN_REMINDER_MEGAPHONE_TITLE" = "Potvrdite svoj Kahf PIN";
 
 /* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST" = "Podsjetiti ćemo vas ponovo sutra.";
@@ -4865,7 +4865,7 @@
 "PIN_REMINDER_MISMATCH_ERROR" = "Nevažeći PIN, pokušajte ponovno.";
 
 /* The title for the 'pin reminder' dialog. */
-"PIN_REMINDER_TITLE" = "Unesite svoj Signal PIN";
+"PIN_REMINDER_TITLE" = "Unesite svoj Kahf PIN";
 
 /* Label indicating that the attempted PIN is too short */
 "PIN_REMINDER_TOO_SHORT_ERROR" = "PIN mora imati najmanje 4 znamenke.";
@@ -4880,7 +4880,7 @@
 "PINS_MEGAPHONE_ACTION" = "Stvori PIN";
 
 /* Body for PIN megaphone when user doesn't have a PIN */
-"PINS_MEGAPHONE_BODY" = "Završite stvaranje vašeg Signal PIN-a.";
+"PINS_MEGAPHONE_BODY" = "Završite stvaranje vašeg Kahf PIN-a.";
 
 /* Title for PIN megaphone when user doesn't have a PIN */
 "PINS_MEGAPHONE_TITLE" = "Stvorite PIN";
@@ -4913,10 +4913,10 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Broj u vašem međuspremniku ne izgleda kao točan sigurnosni broj za ovaj razgovor.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal nije uspio pronaći nijedan sigurnosni broj u međuspremniku. Jeste li ga ispravno kopirali?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Kahf nije uspio pronaći nijedan sigurnosni broj u međuspremniku. Jeste li ga ispravno kopirali?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Svaki par Signal korisnika ima poseban sigurnosni broj. Dvaput provjerite da %1$@ prikazuje *vaš* jedinstveni sigurnosni broj.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Svaki par Kahf korisnika ima poseban sigurnosni broj. Dvaput provjerite da %1$@ prikazuje *vaš* jedinstveni sigurnosni broj.";
 
 /* alert body */
 "PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Imate staru verziju Signala. Prije potvrde morate ažurirati aplikaciju.";
@@ -5032,7 +5032,7 @@
 /* Title for the profile view. */
 "PROFILE_VIEW_TITLE" = "Profil";
 
-/* The title for the address of the signal proxy */
+/* The title for the address of the Kahf proxy */
 "PROXY_ADDRESS" = "Proxy adresa";
 
 /* The provided proxy connected successfully */
@@ -5041,10 +5041,10 @@
 /* The provided proxy couldn't connect */
 "PROXY_FAILED_TO_CONNECT" = "Spajanje na proxy nije uspjelo. Provjerite proxy adresu i pokušajte ponovno.";
 
-/* Placeholder text for signal proxy host */
+/* Placeholder text for Kahf proxy host */
 "PROXY_PLACEHOLDER" = "Unesite proxy adresu";
 
-/* Title for the signal proxy settings */
+/* Title for the Kahf proxy settings */
 "PROXY_SETTINGS_TITLE" = "Proxy";
 
 /* Notification action button title */
@@ -5149,14 +5149,14 @@
 /* Alert title. Shown after selecting a phone number that isn't valid. */
 "RECIPIENT_PICKER_INVALID_NUMBER_TITLE" = "Nevažeći broj telefona";
 
-/* Button. Shown after selecting a phone number that isn't a Signal user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
+/* Button. Shown after selecting a phone number that isn't a Kahf user. Tapping the button will open a view that allows the user to send an SMS message to specified phone number. */
 "RECIPIENT_PICKER_INVITE_ACTION" = "Poruka";
 
-/* Alert text. Shown after selecting a phone number that isn't a Signal user. */
+/* Alert text. Shown after selecting a phone number that isn't a Kahf user. */
 "RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ nije korisnik Signala. Želite li pozvati sljedeći broj da se pridruži Signalu?";
 
-/* Alert title. Shown after selecting a phone number that isn't a Signal user. */
-"RECIPIENT_PICKER_INVITE_TITLE" = "Pozovi u Signal";
+/* Alert title. Shown after selecting a phone number that isn't a Kahf user. */
+"RECIPIENT_PICKER_INVITE_TITLE" = "Pozovi u Kahf";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
 "REGISTER_2FA_FORGOT_PIN_ALERT_TITLE" = "Trebate pomoć?";
@@ -5194,10 +5194,10 @@
 /* Label for the country code field */
 "REGISTRATION_DEFAULT_COUNTRY_NAME" = "Kôd države";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
-"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Signal on other devices currently registered with the same phone number.";
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is a description on the screen that asks them this question. */
+"REGISTRATION_DEVICE_TRANSFER_CHOICE_EXPLANATION" = "Continuing will disable Kahf on other devices currently registered with the same phone number.";
 
-/* If a user is installing Signal on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
+/* If a user is installing Kahf on a new phone, they may be asked whether they want to transfer their account from their old device. This is the title on the screen that asks them this question. */
 "REGISTRATION_DEVICE_TRANSFER_CHOICE_TITLE" = "Transfer Account & Messages";
 
 /* Placeholder text for the phone number textfield */
@@ -5234,13 +5234,13 @@
 "REGISTRATION_PIN_CONFIRM_TITLE" = "Confirm your PIN";
 
 /* During registration, users are asked to create a PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_CREATE_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During registration, users are asked to create a PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_CREATE_TITLE" = "Create your PIN";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the subtitle on the screen where this happens. A \"learn more\" link will be added to the end of this string. */
-"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Signal.";
+"REGISTRATION_PIN_ENTER_EXISTING_SUBTITLE" = "PINs can help you restore your account and keep your info encrypted with Kahf.";
 
 /* During re-registration, users may be asked to re-enter their PIN code. This is the title on the screen where this happens. */
 "REGISTRATION_PIN_ENTER_EXISTING_TITLE" = "Enter your PIN";
@@ -5348,7 +5348,7 @@
 "SAFETY_NUMBER_CONFIRMATION_VIEW_ACTION" = "Pregled";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Naš Signal sigurnosni broj:\n%1$@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Naš Kahf sigurnosni broj:\n%1$@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Vaš sigurnosni broj s %1$@ je promijenjen. Možda ga želite provjeriti.";
@@ -5380,14 +5380,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Kako biste koristili Zaključavanje zaslona, morate omogućiti lozinku u postavkama iOS-a.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+/* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
 "SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Potvrdite za otvaranje Signala.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Provjera autentičnosti nije uspjela";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Otključajte Signal";
+/* Label for button on lock screen that lets users unlock Kahf. */
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Otključajte Kahf";
 
 /* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
 "SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT" = "Ime, korisničko ime ili broj telefona";
@@ -5423,7 +5423,7 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Račun se ne podudara";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Ažurirajte Signal na ovom uređaju kako biste ga povezali sa svojim telefonom.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Ažurirajte Kahf na ovom uređaju kako biste ga povezali sa svojim telefonom.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Nepodržana verzija";
@@ -5450,16 +5450,16 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Dovršite povezivanje";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Pokrenite Signal na uređaju kako biste povezali ovaj iPad s svojim računom";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Pokrenite Kahf na uređaju kako biste povezali ovaj iPad s svojim računom";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
-"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Nemam Signal na svom telefonu…";
+"SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Nemam Kahf na svom telefonu…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Otvorite App Store na svom telefonu, instalirajte Signal, dovršite postupak registracije i tada možete svoj iPad povezati s istim računom.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Otvorite App Store na svom telefonu, instalirajte Kahf, dovršite postupak registracije i tada možete svoj iPad povezati s istim računom.";
 
 /* alert title */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Instalirajte Signal na svoj telefon";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Instalirajte Kahf na svoj telefon";
 
 /* body text while displaying a QR code which, when scanned, will link this device. */
 "SECONDARY_ONBOARDING_SCAN_CODE_BODY" = "Pritisnite svoju profilnu sliku kako biste otvorili postavke Signala na vašem uređaju. Zatim pritisnite \"Povezani uređaji\" te \"Poveži novi uređaj\" za skeniranje ovog kôda s vašim uređajem:";
@@ -5471,7 +5471,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Skenirajte QR kôd s svojim uređajem";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Pokrenite Signal na svom starom iPadu kako bi prenijeli vaš račun";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Pokrenite Kahf na svom starom iPadu kako bi prenijeli vaš račun";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Sigurna sesija je resetirana.";
@@ -5513,7 +5513,7 @@
 "SENT_MEDIA_QUALITY_STANDARD" = "Standardno";
 
 /* Description for the session refresh alert */
-"SESSION_REFRESH_ALERT_MESSAGE" = "Signal koristi end-to-end šifriranje i možda će ponekad trebati osvježiti sesiju razgovora. To ne utječe na sigurnost vašeg razgovora, ali ste možda propustili poruku od ovog kontakta i možete zatražiti da je ponovno pošalje.";
+"SESSION_REFRESH_ALERT_MESSAGE" = "Kahf koristi end-to-end šifriranje i možda će ponekad trebati osvježiti sesiju razgovora. To ne utječe na sigurnost vašeg razgovora, ali ste možda propustili poruku od ovog kontakta i možete zatražiti da je ponovno pošalje.";
 
 /* Title for the session refresh alert */
 "SESSION_REFRESH_ALERT_TITLE" = "Sesija razgovora je osvježena";
@@ -5540,7 +5540,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Lokacija";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ako je omogućeno, Signal će pokušati zaobići cenzuru. Omogućite ovu značajku samo ako ste u mjestu gdje je Signal cenzuriran.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ako je omogućeno, Kahf će pokušati zaobići cenzuru. Omogućite ovu značajku samo ako ste u mjestu gdje je Kahf cenzuriran.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Zaobilaženje cenzure aktivirano je na temelju broja telefona vašeg računa.";
@@ -5551,7 +5551,7 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Zaobilaženje cenzure se može aktivirati samo ako ste povezani na Internet.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Kahf service. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Zaobilaženje cenzure nije potrebno. Već ste povezani s Signalom.";
 
 /* No comment provided by engineer. */
@@ -5593,7 +5593,7 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Dodaj kontakt na listu blokiranih";
 
-/* A label that indicates the user has no Signal contacts that they haven't blocked. */
+/* A label that indicates the user has no Kahf contacts that they haven't blocked. */
 "SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nemate kontakte na Signalu.";
 
 /* A label that indicates the user's search has no matching results. */
@@ -5660,7 +5660,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Izbriši povijest razgovora";
 
 /* Footer for the 'about' help section */
-"SETTINGS_COPYRIGHT" = "Copyright Signal Messenger\nLicenca AGPLv3";
+"SETTINGS_COPYRIGHT" = "Copyright Kahf Messenger\nLicenca AGPLv3";
 
 /* Label for the 'data' section of the app settings. */
 "SETTINGS_DATA" = "Upotreba podatkovnih podataka";
@@ -5725,7 +5725,7 @@
 /* Explanation for the 'disappearing messages' privacy settings. */
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Postavite zadani vremenski period za poruke koje nestaju za sve nove razgovore koje započnete.";
 
-/* Title for the 'donate to signal' link in settings. */
+/* Title for the 'donate to Kahf' link in settings. */
 "SETTINGS_DONATE" = "Donirajte Signalu";
 
 /* Title for help button and help pages in app settings. */
@@ -5794,7 +5794,7 @@
 /* table section header */
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Sadržaj obavijesti";
 
-/* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
+/* When the local device discovers a contact has recently installed Kahf, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
 "SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kontakt se pridružio/la Signalu";
 
 /* table section header */
@@ -5807,7 +5807,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Omogući";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Signal možete koristiti za slanje i primanje MobileCoina. Sva plaćanja podliježu Uvjetima korištenja za MobileCoins i MobileCoin Wallet. Ovo je beta značajka, tako da možete naići na neke probleme, a plaćanja ili stanje koja možete izgubiti ne mogu se povratiti.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Kahf možete koristiti za slanje i primanje MobileCoina. Sva plaćanja podliježu Uvjetima korištenja za MobileCoins i MobileCoin Wallet. Ovo je beta značajka, tako da možete naići na neke probleme, a plaćanja ili stanje koja možete izgubiti ne mogu se povratiti.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Omogući";
@@ -5957,7 +5957,7 @@
 "SETTINGS_PAYMENTS_OPT_IN_ACTIVATED_TOAST" = "Plaćanja su omogućena.";
 
 /* Message for the 'payments opt-in' view in the app settings. */
-"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Koristite Signal za slanje i primanje MobileCoina, nove digitalne valute usmjerene na privatnost. Omogućite za početak.";
+"SETTINGS_PAYMENTS_OPT_IN_MESSAGE" = "Koristite Kahf za slanje i primanje MobileCoina, nove digitalne valute usmjerene na privatnost. Omogućite za početak.";
 
 /* Label for 'activate' button in the 'payments opt-in' view in the app settings. */
 "SETTINGS_PAYMENTS_OPT_IN_REACTIVATE_BUTTON" = "Ponovno omogući plaćanja";
@@ -5975,7 +5975,7 @@
 "SETTINGS_PAYMENTS_PASSPHRASE_DISCARD_CONFIRMATION_TITLE" = "Nastaviti bez spremanja?";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Račun će se automatski vratiti kada ponovo instalirate Signal ako potvrdite svoj Signal PIN. Stanje možete vratiti i pomoću fraze za oporavak koja je za vas jedinstvena fraza od 24 riječi. Zapišite je i spremite na sigurno mjesto.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Račun će se automatski vratiti kada ponovo instalirate Kahf ako potvrdite svoj Kahf PIN. Stanje možete vratiti i pomoću fraze za oporavak koja je za vas jedinstvena fraza od 24 riječi. Zapišite je i spremite na sigurno mjesto.";
 
 /* Explanation of the 'payments passphrase' when there is a balance. */
 "SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION_FROM_BALANCE" = "Imate nešto na stanju! Vrijeme je da spremite svoju frazu za oporavak—lozinku od 24 riječi koju možete koristiti za vraćanje prethodnog stanja svog računa.";
@@ -6065,7 +6065,7 @@
 "SETTINGS_PAYMENTS_PAYMENTS_LOCK_PROMPT_EXPLANATION_TOUCHID" = "Spriječite pristup vašim sredstvima osobama koje imaju pristup vašem mobilnom uređaju omogućavanjem značajke Touch ID. Ovu opciju možete onemogućiti u Postavkama.";
 
 /* Button for payments outdated sheet. */
-"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Ažuriraj Signal";
+"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Ažuriraj Kahf";
 
 /* Message for payments outdated sheet. */
 "SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_MESSAGE" = "Za nastavak slanja i primanja uplata te za pregled vašeg trenutnog stanja računa potrebno je ažurirati aplikaciju.";
@@ -6197,7 +6197,7 @@
 "SETTINGS_PAYMENTS_TITLE" = "Plaćanja";
 
 /* Error indicating that it is not valid to send yourself a payment. */
-"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Ne možete prenijeti na vašu Signal adresu novčanika. Unesite adresu novčanika od vašeg računa na podržanoj burzi.";
+"SETTINGS_PAYMENTS_TRANSFER_OUT_CANNOT_SEND_TO_SELF" = "Ne možete prenijeti na vašu Kahf adresu novčanika. Unesite adresu novčanika od vašeg računa na podržanoj burzi.";
 
 /* Footer of the 'transfer currency out' view in the payment settings. */
 "SETTINGS_PAYMENTS_TRANSFER_OUT_FOOTER" = "MobileCoin možete prenijeti izvršavanjem prijenosa na adresu novčanika koju pruža burza. Adresa novčanika je niz brojeva i slova koji su najčešće ispod QR kôda.";
@@ -6281,7 +6281,7 @@
 "SETTINGS_PHONE_NUMBER_DISCOVERABILITY_TITLE" = "Who Can Find Me By Number";
 
 /* Description label for Phone Number Privacy */
-"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Signal with it.";
+"SETTINGS_PHONE_NUMBER_PRIVACY_DESCRIPTION_LABEL" = "Choose who can see your phone number and who can contact you on Kahf with it.";
 
 /* The title for phone number privacy settings. */
 "SETTINGS_PHONE_NUMBER_PRIVACY_TITLE" = "Phone Number";
@@ -6293,10 +6293,10 @@
 "SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_ACTION" = "Isključi podsjetnike";
 
 /* The explanation for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Svakako zapamtite ili sigurno pohranite svoj PIN jer ga nije moguće vratiti. Ako zaboravite svoj PIN, možete izgubiti podatke prilikom ponovne registracije vašeg Signal računa.";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_EXPLANATION" = "Svakako zapamtite ili sigurno pohranite svoj PIN jer ga nije moguće vratiti. Ako zaboravite svoj PIN, možete izgubiti podatke prilikom ponovne registracije vašeg Kahf računa.";
 
 /* The title for the dialog asking user to confirm their PIN to disable reminders */
-"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Potvrdite svoj Signal PIN";
+"SETTINGS_PIN_REMINDER_DISABLE_CONFIRMATION_TITLE" = "Potvrdite svoj Kahf PIN";
 
 /* Label for the 'pin reminder' switch of the privacy settings. */
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN podsjetnici";
@@ -6311,7 +6311,7 @@
 "SETTINGS_PINS_ITEM_CREATE" = "Stvorite PIN";
 
 /* Title for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_TITLE" = "Signal PIN";
+"SETTINGS_PINS_TITLE" = "Kahf PIN";
 
 /* Footer for table section */
 "SETTINGS_PRIVACY_ADVANCED_FOOTER" = "Postavke za zaobilaženje cenzure, preusmjeravanje poziva i zaštićene pošiljatelje.";
@@ -6338,7 +6338,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Uključi";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Ako zaboravite svoj PIN za Signal prilikom ponovne registracije na Signalu, biti ćete zaključani iz svog računa na 7 dana.";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Ako zaboravite svoj PIN za Kahf prilikom ponovne registracije na Signalu, biti ćete zaključani iz svog računa na 7 dana.";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Omogući Zaključavanje registracije?";
@@ -6392,16 +6392,16 @@
 "SETTINGS_SHARING_SUGGESTIONS" = "Podijeli kontakte sa iOS";
 
 /* Footer for setting for enabling & disabling contact sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Omogućite iOS-u pristup vašim Signal kontaktima i razgovorima za značajke kao što su prijedlozi za dijeljenje.";
+"SETTINGS_SHARING_SUGGESTIONS_FOOTER" = "Omogućite iOS-u pristup vašim Kahf kontaktima i razgovorima za značajke kao što su prijedlozi za dijeljenje.";
 
 /* Footer for setting for enabling & disabling contact and notification sharing with iOS. */
-"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Omogućite iOS-u pristup vašim Signal kontaktima i razgovorima za značajke kao što su prijedlozi za dijeljenje i obavijesti.";
+"SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Omogućite iOS-u pristup vašim Kahf kontaktima i razgovorima za značajke kao što su prijedlozi za dijeljenje i obavijesti.";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Zaključavanje registracije";
 
-/* Footer for the 'two factor auth' section of the privacy settings when Signal PINs are available. */
-"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Zahtjeva vaš Signal PIN za ponovnu registriraciju vašeg broja telefona na Signal.";
+/* Footer for the 'two factor auth' section of the privacy settings when Kahf PINs are available. */
+"SETTINGS_TWO_FACTOR_PINS_AUTH_FOOTER" = "Zahtjeva vaš Kahf PIN za ponovnu registriraciju vašeg broja telefona na Kahf.";
 
 /* Label for the 'typing indicators' setting. */
 "SETTINGS_TYPING_INDICATORS" = "Prikaži tipkanje";
@@ -6434,13 +6434,13 @@
 "SHARE_EXTENSION_LOADING" = "Učitavanje…";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Pokrenite Signal kako biste se registrirali.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Pokrenite Kahf kako biste se registrirali.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Nije registriran/a";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Pokrenite Signal za ažuriranje ili registraciju.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Pokrenite Kahf za ažuriranje ili registraciju.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Nije spremno";
@@ -6454,7 +6454,7 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Učitavanje…";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Kahf user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Nije moguće pripremiti privitak";
 
 /* Title for the 'share extension' view. */
@@ -6469,8 +6469,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Prikaži razgovor";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Pozivam te da instaliraš Signal! Ovdje je poveznica:";
+/* body sent to contacts when inviting to Install Kahf */
+"SMS_INVITE_BODY" = "Pozivam te da instaliraš Kahf! Ovdje je poveznica:";
 
 /* An error message generically indicating that something went wrong. */
 "SOMETHING_WENT_WRONG_ERROR" = "Došlo je do pogreške.";
@@ -6772,32 +6772,32 @@
 /* Text indicating that the story is currently sending */
 "STORY_SENDING" = "Slanje…";
 
-/* First bullet point for the explainer sheet for signal connections */
+/* First bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_1" = "Započeli razgovor s njima";
 
-/* Second bullet point for the explainer sheet for signal connections */
+/* Second bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_2" = "Prihvatili njihov zahtjev za razgovorom";
 
-/* Third bullet point for the explainer sheet for signal connections */
+/* Third bullet point for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_BULLET_3" = "Spremili ih u kontakte";
 
-/* Footer for the explainer sheet for signal connections */
+/* Footer for the explainer sheet for Kahf connections */
 "STORY_SETTINGS_LEARN_MORE_SHEET_FOOTER" = "Vaši kontakti mogu vidjeti vaše ime i fotografiju te sve što pošaljete u \"Moje priče\", osim ako to od njih ne sakrijete.";
 
-/* Header for the explainer sheet for signal connections */
-"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Signal kontakti</bold> su ljudi kojima ste odlučili iskazati povjerenje, tako što ste:";
+/* Header for the explainer sheet for Kahf connections */
+"STORY_SETTINGS_LEARN_MORE_SHEET_HEADER_FORMAT" = "<bold>Kahf kontakti</bold> su ljudi kojima ste odlučili iskazati povjerenje, tako što ste:";
 
 /* Label for the stories section of the settings view */
 "STORY_SETTINGS_TITLE" = "Priče";
 
 /* Section footer for the 'viewers' section on the 'story settings' view */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Odaberite Signal kontakte koji mogu pogledati vašu priču. Promjene neće utjecati na priče koje ste već poslali.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_FOOTER" = "Odaberite Kahf kontakte koji mogu pogledati vašu priču. Promjene neće utjecati na priče koje ste već poslali.";
 
 /* Section header for the 'viewers' section on the 'story settings' view */
 "STORY_SETTINGS_WHO_CAN_VIEW_THIS_HEADER" = "Tko može pogledati ovu priču";
 
 /* Header for the 'viewers' section on the 'story settings' bottom sheet */
-"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Odaberite Signal kontakte koji mogu pogledati vašu priču. To možete uvijek promijeniti u postavkama privatnosti.";
+"STORY_SETTINGS_WHO_CAN_VIEW_THIS_SHEET_HEADER" = "Odaberite Kahf kontakte koji mogu pogledati vašu priču. To možete uvijek promijeniti u postavkama privatnosti.";
 
 /* Tooltip text shown when the user selects a story as a destination for a long duration video that will be split into shorter segments. Embeds {{ segment duration in seconds }} */
 "STORY_VIDEO_SEGMENTATION_TOOLTIP_FORMAT" = "Videozapisi poslani putem Priča bit će skraćeni na isječke od %1$d sekundi/e i poslani kao više priča.";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Recite nam o problemu: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Pošaljite e-poštu s vašim zahtjevom za podršku na support@signal.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Pošaljite e-poštu s vašim zahtjevom za podršku na support@Kahf.org";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filtar: %1$@";
@@ -6859,16 +6859,16 @@
 /* Localized label for support request email debug log URL. Embeds {{debug log url}}. */
 "SUPPORT_EMAIL_LOG_URL_LABEL_FORMAT" = "URL zapisa: %1$@";
 
-/* Localized label for support request email signal version string. Embeds {{signal version}}. */
-"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Signal verzija: %1$@";
+/* Localized label for support request email Kahf version string. Embeds {{Kahf version}}. */
+"SUPPORT_EMAIL_SIGNAL_VERSION_LABEL_FORMAT" = "Kahf verzija: %1$@";
 
 /* Localized subject for support request emails */
-"SUPPORT_EMAIL_SUBJECT" = "Signal iOS zahtjev za podršku";
+"SUPPORT_EMAIL_SUBJECT" = "Kahf iOS zahtjev za podršku";
 
 /* Header for emoji mood selection */
 "SUPPORT_EMOJI_PROMPT" = "Kako se osjećate? (neobavezno)";
 
-/* Label in support request informing user about Signal FAQ */
+/* Label in support request informing user about Kahf FAQ */
 "SUPPORT_FAQ_PROMPT" = "Jeste li već pročitali naša ČPP?";
 
 /* Label describing support switch to attach debug logs */
@@ -6944,7 +6944,7 @@
 "SWITCH_ON" = "Uključeno";
 
 /* Name to display for the 'system' sender, e.g. for release notes and the onboarding story */
-"SYSTEM_ADDRESS_NAME" = "Signal";
+"SYSTEM_ADDRESS_NAME" = "Kahf";
 
 /* Label for button to verify a user's safety number. */
 "SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER" = "Potvrdi";
@@ -7049,7 +7049,7 @@
 "UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Primili ste poruku koja se ne može obraditi niti prikazati jer koristi novu značajku Signala.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Ažurirajte Signal sada";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Ažurirajte Kahf sada";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
 "UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Ažurirano na najnoviju verziju Signala. Sada možete primati ovu vrstu poruke na svoj uređaj.";
@@ -7085,7 +7085,7 @@
 "UNLINKED_WARNING" = "Uređaj više nije povezan. Ponovno ga povežite s vašim telefonom kako biste nastavili slati poruke.";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal nije uspio poništiti vezu s vašim uređajem.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Kahf nije uspio poništiti vezu s vašim uređajem.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Bezimeni uređaj";
@@ -7102,11 +7102,11 @@
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Primljena je nepodržana vrsta privitka.";
 
-/* When inviting contacts to use Signal, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
+/* When inviting contacts to use Kahf, this error is shown if the device doesn't support SMS or if there aren't any registered email accounts. */
 "UNSUPPORTED_FEATURE_ERROR" = "Vaš uređaj ne podržava ovu značajku.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Vaš sigurnosni broj s %1$@ je promijenjen, vjerojatno zato što su ponovo instalirali Signal ili promijenili uređaje. Pritisnite Potvrdi da biste potvrdili novi sigurnosni broj. Ovo nije obavezno.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "Vaš sigurnosni broj s %1$@ je promijenjen, vjerojatno zato što su ponovo instalirali Kahf ili promijenili uređaje. Pritisnite Potvrdi da biste potvrdili novi sigurnosni broj. Ovo nije obavezno.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Potvrdi";
@@ -7120,11 +7120,11 @@
 /* Error indicating that a group could not be updated due to network connectivity problems. */
 "UPDATE_GROUP_FAILED_DUE_TO_NETWORK" = "Grupa nije bilo moguće ažurirati. Provjerite internetsku vezu i pokušajte ponovo.";
 
-/* Button to activate the signal proxy */
+/* Button to activate the Kahf proxy */
 "USE_PROXY_BUTTON" = "Koristi proxy";
 
-/* Explanation of when you should use a signal proxy */
-"USE_PROXY_EXPLANATION" = "Koristite proxy samo ako niste u mogućnosti povezati se na Signal putem mobilne ili Wi-Fi mreže.";
+/* Explanation of when you should use a Kahf proxy */
+"USE_PROXY_EXPLANATION" = "Koristite proxy samo ako niste u mogućnosti povezati se na Kahf putem mobilne ili Wi-Fi mreže.";
 
 /* Description of how to update discovery */
 "USERNAME_DISCOVERY_DESCRIPTION" = "Da biste koristili svoje korisničko ime kao primarni način na koji vas drugi mogu kontaktirati, isključite otkrivanje telefonskog broja u Postavkama > Privatnost > Broj telefona > Tko može pronaći moj broj.";
@@ -7132,8 +7132,8 @@
 /* Description of username discriminator digits */
 "USERNAME_DISCRIMINATOR_DESCRIPTION" = "Korisnička imena su povezana sa skupom znamenki i ne prikazuju se na vašem profilu";
 
-/* Title to set up signal username */
-"USERNAME_EDUCATION_TITLE" = "Postavite svoje korisničko ime za Signal";
+/* Title to set up Kahf username */
+"USERNAME_EDUCATION_TITLE" = "Postavite svoje korisničko ime za Kahf";
 
 /* Description of username link */
 "USERNAME_LINK_DESCRIPTION" = "Svako korisničko ime ima jedinstvenu poveznicu koju možete podijeliti sa svojim prijateljima kako biste započeli zajednički razgovor";
@@ -7147,10 +7147,10 @@
 /* Title for an action sheet indicating that a user-entered username value is not a valid username. */
 "USERNAME_LOOKUP_INVALID_USERNAME_TITLE" = "Nevažeće korisničko ime";
 
-/* A message indicating that the given username is not associated with a registered Signal account. Embeds {{ a username }}. */
+/* A message indicating that the given username is not associated with a registered Kahf account. Embeds {{ a username }}. */
 "USERNAME_LOOKUP_NOT_FOUND_MESSAGE_FORMAT" = "%1$@ nije korisnik Signala. Provjerite jeste li unijeli potpuno korisničko ime.";
 
-/* Title for an action sheet indicating that the given username is not associated with a registered Signal account. */
+/* Title for an action sheet indicating that the given username is not associated with a registered Kahf account. */
 "USERNAME_LOOKUP_NOT_FOUND_TITLE" = "Korisnik nije pronađen";
 
 /* A prefix appended to all usernames when displayed */
