@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "selected_settings_tab_bar.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

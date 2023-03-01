@@ -16,14 +16,14 @@ class HomeTabBarController: UITabBarController {
     lazy var settingsNavController = AppSettingsViewController.inModalNavigationController()
     lazy var settingsTabBarItem = UITabBarItem(title: NSLocalizedString("SETTINGS_NAV_BAR_TITLE",
         comment: "Title for settings activity"),
-        image: UIImage(named: "chats-tab-bar"),
-        selectedImage: UIImage(named: "chats-tab-bar"))
+        image: UIImage(named: "settings-tab-bar"),
+        selectedImage: UIImage(named: "selected_settings_tab_bar"))
     lazy var chatListViewController = ChatListViewController()
     lazy var chatListNavController = OWSNavigationController(rootViewController: chatListViewController)
     lazy var chatListTabBarItem = UITabBarItem(
         title: NSLocalizedString("CHAT_LIST_TITLE_INBOX", comment: "Title for the chat list's default mode."),
         image: UIImage(named: "chats-tab-bar"),
-        selectedImage: UIImage(named: "chats-tab-bar")
+        selectedImage: UIImage(named: "selected-chats-tab-bar")
     )
 
     lazy var storiesViewController = StoriesViewController()
@@ -92,7 +92,7 @@ class HomeTabBarController: UITabBarController {
 
     @objc
     func applyTheme() {
-        tabBar.tintColor = Theme.primaryTextColor
+        tabBar.tintColor = UIColor(red: 0.173, green: 0.717, blue: 0.423, alpha: 1)
     }
 
     @objc
