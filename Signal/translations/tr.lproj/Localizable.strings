@@ -32,7 +32,7 @@
 "ACTION_AUDIO_CALL" = "Kahf Araması";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Kahf'e davet et";
+"ACTION_INVITE" = "Kahf'a davet et";
 
 /* Label for button that lets you send a message to a contact. */
 "ACTION_SEND_MESSAGE" = "İleti Gönder";
@@ -134,13 +134,13 @@
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Hata";
 
 /* Button to try launching the app even though the last launch failed */
-"APP_LAUNCH_FAILURE_CONTINUE" = "Bunun yerine Kahf'i açın";
+"APP_LAUNCH_FAILURE_CONTINUE" = "Bunun yerine Kahf'ı açın";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Veritabanı Yüklenemedi";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
-"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Lütfen Kahf'in son sürümüne yükseltin.";
+"APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE" = "Lütfen Kahf'ın son sürümüne yükseltin.";
 
 /* Error indicating that the app could not launch without reverting unknown database migrations. */
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Bilinmeyen Veritabanı Sürümü";
@@ -173,7 +173,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Sürüm %1$@ şimdi App Store'dan edinilebilir.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Kahf'in Yeni Bir Sürümü Mevcut";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Kahf'ın Yeni Bir Sürümü Mevcut";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Güncelle";
@@ -323,7 +323,7 @@
 "ATTACHMENT_KEYBOARD_LOCATION" = "Konum";
 
 /* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
-"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Kahf'in fotoğraf ve videolarını göstermek için erişim iznine ihtiyacı var.";
+"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Kahf'ın fotoğraf ve videolarını göstermek için erişim iznine ihtiyacı var.";
 
 /* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
 "ATTACHMENT_KEYBOARD_NO_PHOTOS" = "Fotoğraf çektikten sonra buradan son görüşmelerinize gönderebileceksiniz.";
@@ -410,7 +410,7 @@
 "BADGE_DETAILS_DONATE_TO_SIGNAL" = "Şimdi bağış yap";
 
 /* When viewing someone else's donor badge, you'll see a sheet. This is the title on that sheet. Embeds {badge owner's short name} */
-"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ Kahf'i destekliyor";
+"BADGE_DETAILS_TITLE_FOR_SUPPORTER" = "%1$@ Kahf'ı destekliyor";
 
 /* String explaining to the user that their boost badge has expired on the badge expiry sheet. */
 "BADGE_EXPIRED_BOOST_BODY" = "Boost rozetinin süresi doldu ve artık profilinde görünmüyor.\n\nSignal'i kullanmaya devam edebilirsin ancak senin için geliştirilen teknolojiyi desteklemek için lütfen aylık bağışçı olmayı düşün.";
@@ -1454,7 +1454,7 @@
 "DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Çalıştır";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Bu işlem, sorunu çözmemize yardımcı oluyor ve işlemin tamamlanması birkaç dakika sürebilir. Bu kontrol işlemi yapılırken Kahf'i kapatabilirsin, fakat lütfen geçmiş bilgilerini girmek için burayı yeniden ziyaret et.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Bu işlem, sorunu çözmemize yardımcı oluyor ve işlemin tamamlanması birkaç dakika sürebilir. Bu kontrol işlemi yapılırken Kahf'ı kapatabilirsin, fakat lütfen geçmiş bilgilerini girmek için burayı yeniden ziyaret et.";
 
 /* Button to skip database integrity check step */
 "DATABASE_INTEGRITY_CHECK_SKIP" = "Atla";
@@ -1664,7 +1664,7 @@
 "DEVICE_TRANSFER_CHOICE_TRANSFER_TITLE" = "iOS Cihazından aktar";
 
 /* A warning for the device transfer 'choice' view indicating you can only have one device registered with your number */
-"DEVICE_TRANSFER_CHOICE_WARNING" = "Devam etmek aynı telefon numarası ile kaydolmuş diğer cihazlardaki Kahf'i devre dışı bırakacaktır.";
+"DEVICE_TRANSFER_CHOICE_WARNING" = "Devam etmek aynı telefon numarası ile kaydolmuş diğer cihazlardaki Kahf'ı devre dışı bırakacaktır.";
 
 /* An error indicating that we were unable to verify the identity of the new device to complete the transfer */
 "DEVICE_TRANSFER_ERROR_CERTIFICATE_MISMATCH" = "Yeni cihazınız doğrulanamadı, lütfen tekrar deneyin";
@@ -1682,7 +1682,7 @@
 "DEVICE_TRANSFER_ERROR_NOT_ENOUGH_SPACE" = "Aktarımı tamamlamak için depolama alanı yetersiz";
 
 /* An error indicating the user must update their device before trying to transfer. */
-"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Kahf'in son sürümüne güncelleyin ve tekrar deneyin";
+"DEVICE_TRANSFER_ERROR_UNSUPPORTED_VERSION" = "Kahf'ın son sürümüne güncelleyin ve tekrar deneyin";
 
 /* The explanation on the action sheet prompting the user if they want to transfer their device. */
 "DEVICE_TRANSFER_PROMPT_EXPLANATION" = "Kahf hesabınızı yeni bir iOS cihazına aktarın. Yeni cihazınızın yanınızda ve açık olduğundan emin olun.";
@@ -1691,7 +1691,7 @@
 "DEVICE_TRANSFER_PROMPT_TITLE" = "Hesabı Aktar";
 
 /* The explanation for the device transfer qr code view */
-"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Kahf'i eski cihazınızda açın, yanınızda bulundurun ve her iki cihazda da Wi-Fi ve Bluetooth'un açık olduğundan emin olun.";
+"DEVICE_TRANSFER_QRCODE_EXPLANATION" = "Kahf'ı eski cihazınızda açın, yanınızda bulundurun ve her iki cihazda da Wi-Fi ve Bluetooth'un açık olduğundan emin olun.";
 
 /* The second explanation for the device transfer qr code view */
 "DEVICE_TRANSFER_QRCODE_EXPLANATION2" = "Diğer cihazdaki çerçeve ile bu karekodu hizalayın.";
@@ -1703,7 +1703,7 @@
 "DEVICE_TRANSFER_QRCODE_TITLE" = "Diğer Cihaz Bekleniyor…";
 
 /* The explanation on the view that shows receiving progress */
-"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "İki cihazı da yakında bulundurun. Cihazları veya Kahf'i kapatmayın. Aktarımlar uçtan uca şifrelidir.";
+"DEVICE_TRANSFER_RECEIVING_EXPLANATION" = "İki cihazı da yakında bulundurun. Cihazları veya Kahf'ı kapatmayın. Aktarımlar uçtan uca şifrelidir.";
 
 /* The title on the view that shows receiving progress */
 "DEVICE_TRANSFER_RECEIVING_TITLE" = "Veri Alınıyor";
@@ -1718,7 +1718,7 @@
 "DEVICE_TRANSFER_SCANNING_TITLE" = "Yeni Cihazınızı Kameraya Doğrultun";
 
 /* The explanation on the action sheet that shows transfer progress */
-"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "İki cihazı da birbirlerinin yakınında bulundurun. Cihazları veya Kahf'i kapatmayın.";
+"DEVICE_TRANSFER_TRANSFERRING_EXPLANATION" = "İki cihazı da birbirlerinin yakınında bulundurun. Cihazları veya Kahf'ı kapatmayın.";
 
 /* The title on the action sheet that shows transfer progress */
 "DEVICE_TRANSFER_TRANSFERRING_TITLE" = "Veri Aktarılıyor";
@@ -1790,10 +1790,10 @@
 "DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Kahf'a %1$@ Bağış";
 
 /* When users make monthly donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money per month}}, such as \"$5/month\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Kahf'e %1$@ bağış yap";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_MONTHLY_DONATION" = "Kahf'a %1$@ bağış yap";
 
 /* When users make one-time donations, they see a sheet that lets them pick a payment method. This is the title on that sheet. Embeds {{amount of money}}, such as \"$5\". */
-"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Kahf'e %1$@ bağış yap";
+"DONATE_CHOOSE_PAYMENT_METHOD_SHEET_TITLE_FOR_ONE_TIME_DONATION" = "Kahf'a %1$@ bağış yap";
 
 /* Users can donate on a friend's behalf and can optionally add a message. This is tells users about that optional message. */
 "DONATE_ON_BEHALF_OF_A_FRIEND_ADDITIONAL_MESSAGE_INFO" = "Alıcı, bağıştan mesajla haberdar edilecektir. Kendi mesajını aşağıya ekle.";
@@ -1892,7 +1892,7 @@
 "DONATION_ON_BEHALF_OF_A_FRIEND_PREVIEW_OUTGOING" = "✨ %1$@ için bağış yaptın";
 
 /* You received a donation from a friend. This is the title of that message in the chat. Embeds {{short contact name}}. */
-"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "%1$@ senin adına Kahf'e bağış yaptı";
+"DONATION_ON_BEHALF_OF_A_FRIEND_RECEIVED_TITLE_FORMAT" = "%1$@ senin adına Kahf'a bağış yaptı";
 
 /* Users can donate on a friend's behalf. If the friend cannot receive these donations, this error message will be shown. */
 "DONATION_ON_BEHALF_OF_A_FRIEND_RECIPIENT_CANNOT_RECEIVE_DONATION_ERROR_BODY" = "Bu kullanıcı Kahf'ı güncelleyene kadar onun için bağış yapamazsın.";
@@ -1958,7 +1958,7 @@
 "DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Makbuzu Paylaş";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Kahf'i desteklediğiniz için teşekkür ederiz. Katkınız, ifade özgürlüğünü koruyan ve dünya çapında milyonlarca kişi için güvenli küresel iletişim sağlayan açık kaynaklı gizlilik teknolojisi geliştirme misyonunu desteklemeye yardımcı olur. Amerika Birleşik Devletleri'nde ikamet ediyorsanız, lütfen bu makbuzu vergi kayıtlarınız için saklayın. Kahf Technology Foundation, Amerika Birleşik Devletleri'nde İç Gelir Yasası'nın 501c3 bölümü kapsamında vergiden muaf, kâr amacı gütmeyen bir kuruluştur. Federal Vergi Kimliğimiz 82-4506840'tır.";
+"DONATION_RECEIPT_FOOTER" = "Kahf'ı desteklediğiniz için teşekkür ederiz. Katkınız, ifade özgürlüğünü koruyan ve dünya çapında milyonlarca kişi için güvenli küresel iletişim sağlayan açık kaynaklı gizlilik teknolojisi geliştirme misyonunu desteklemeye yardımcı olur. Amerika Birleşik Devletleri'nde ikamet ediyorsanız, lütfen bu makbuzu vergi kayıtlarınız için saklayın. Kahf Technology Foundation, Amerika Birleşik Devletleri'nde İç Gelir Yasası'nın 501c3 bölümü kapsamında vergiden muaf, kâr amacı gütmeyen bir kuruluştur. Federal Vergi Kimliğimiz 82-4506840'tır.";
 
 /* Title for receipts for donations given on a friend's behalf */
 "DONATION_RECEIPT_FOR_DONATION_ON_BEHALF_OF_A_FRIEND" = "Arkadaşın için bağış";
@@ -1979,7 +1979,7 @@
 "DONATION_RECEIPTS" = "Bağış Makbuzları";
 
 /* Text at the bottom of the donation receipts list, telling users that receipts might not be available */
-"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Kahf'i yeniden yüklediyseniz, önceki bağışların makbuzları mevcut olmayacaktır.";
+"DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Kahf'ı yeniden yüklediyseniz, önceki bağışların makbuzları mevcut olmayacaktır.";
 
 /* On the donation settings screen, tapping this button will take the user to a screen where they can donate. */
 "DONATION_SCREEN_DONATE_BUTTON" = "Bağış yap";
@@ -1997,7 +1997,7 @@
 "DONATION_VIEW_DONATE_ON_BEHALF_OF_A_FRIEND" = "Arkadaşın için bağış yap";
 
 /* Text describing to the user that they're going to pay a donation to Kahf */
-"DONATION_VIEW_DONATION_TO_SIGNAL" = "Kahf'e Bağış";
+"DONATION_VIEW_DONATION_TO_SIGNAL" = "Kahf'a Bağış";
 
 /* Text that's shown when the donation view fails to load data, probably due to network failure */
 "DONATION_VIEW_LOAD_FAILED" = "Ağ hatası. Bağlantınızı kontrol edip tekrar deneyin.";
@@ -2024,7 +2024,7 @@
 "DONATION_VIEW_SUBSCRIPTION_FAQ" = "Abonelik SSS";
 
 /* Title on the 'Donate to Kahf' screen */
-"DONATION_VIEW_TITLE" = "Kahf'e Bağış Yap";
+"DONATION_VIEW_TITLE" = "Kahf'a Bağış Yap";
 
 /* Label for the currency picker button in donation views */
 "DONATIONS_CURRENCY_PICKER_LABEL" = "Para birimi";
@@ -2039,7 +2039,7 @@
 "EDIT_GROUP_DEFAULT_TITLE" = "Grubu düzenle";
 
 /* Error message indicating the a user can't be added to a group. */
-"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Bu kullanıcı Kahf'i güncelleyene kadar gruba eklenemez.";
+"EDIT_GROUP_ERROR_CANNOT_ADD_MEMBER" = "Bu kullanıcı Kahf'ı güncelleyene kadar gruba eklenemez.";
 
 /* Error message indicating that an avatar image is invalid and cannot be used. */
 "EDIT_GROUP_ERROR_INVALID_AVATAR" = "Geçersiz fotoğraf.";
@@ -2060,7 +2060,7 @@
 "EMAIL_INVITE_BODY" = "Merhaba,\n\nSon zamanlarda iPhone'umdaki konuşmalarımı gizli tutmak için Kahf kullanıyorum. Size de kurmanızı öneririm, böylelikle iletilerimizin ve aramalarımızın aramızda kaldığından emin olabiliriz.\n\nSignal, iPhone ve Android için kullanılabilir. Şu adresten edinebilirsiniz: %1$@ \n\nSignal mevcut ileti uygulaması gibi çalışır. Görüntü ve video gönderebilir, arama yapabilir ve grup konuşmalarına başlayabiliriz. En iyi yanı ise yapımcıları dahil hiç kimsenin göremeyecek olması!\n\nSignal'i yapan Open Whisper Systems hakkında daha fazla bilgi için şu adresi ziyaret edebilirsin: %2$@";
 
 /* subject of email sent to contacts when inviting to install Kahf */
-"EMAIL_INVITE_SUBJECT" = "Haydi Kahf'e geçelim";
+"EMAIL_INVITE_SUBJECT" = "Haydi Kahf'a geçelim";
 
 /* Description for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_MESSAGE" = "Cihazınız eposta gönderebilecek şekilde yapılandırılmamış. Yardım talep etmek için support@Kahf.org adresine e-posta gönderebilir veya cihazınıza eposta kurabilirsiniz.";
@@ -2150,7 +2150,7 @@
 "ERROR_DESCRIPTION_RESPONSE_FAILED" = "Hizmetten geçersiz yanıt alındı.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Bu cihaz artık telefon numaranıza kayıtlı değil. Lütfen Kahf'i yeniden başlatın.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Bu cihaz artık telefon numaranıza kayıtlı değil. Lütfen Kahf'ı yeniden başlatın.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Sunucu hatası. Lütfen daha sonra tekrar deneyiniz.";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Ağ Hatası";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Lütfen bu hatayı cihazınızdaki hata ayıklama günlükleriyle birlikte support@Kahf.org adresine bildirerek Kahf'i iyileştirmemize yardımcı olun; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Lütfen bu hatayı cihazınızdaki hata ayıklama günlükleriyle birlikte support@Kahf.org adresine bildirerek Kahf'ı iyileştirmemize yardımcı olun; %1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Bir hata oluştu";
@@ -2687,7 +2687,7 @@
 "GROUP_LINK_INVALID_GROUP_INVITE_LINK_ERROR_TITLE" = "Geçersiz Bağlantı";
 
 /* Error message indicating that the local user does not support groups v2. */
-"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Bu gruba katılmak için bu cihazdaki Kahf'i güncelleyin.";
+"GROUP_LINK_LOCAL_USER_DOES_NOT_SUPPORT_GROUPS_V2_ERROR_MESSAGE" = "Bu gruba katılmak için bu cihazdaki Kahf'ı güncelleyin.";
 
 /* Explanation of the 'approve new group members' switch. */
 "GROUP_LINK_PROMOTION_ALERT_APPROVE_NEW_MEMBERS_EXPLANATION" = "Grup bağlantısı üzerinden katılan yeni üyelerin yönetici tarafından onaylanması gereksin.";
@@ -3284,7 +3284,7 @@
 "IMAGE_PICKER_CHANGE_PHOTOS" = "Fotoğrafları Değiştir";
 
 /* Explanation showing that the user has granted limited access to their photos and can change that in the Settings app. */
-"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Ayarlarda tam erişim hakkı verin veya Kahf'in hangi fotoğraflara erişebileceğini değiştirin.";
+"IMAGE_PICKER_CHANGE_PHOTOS_EXPLANATION" = "Ayarlarda tam erişim hakkı verin veya Kahf'ın hangi fotoğraflara erişebileceğini değiştirin.";
 
 /* Title show that the user has granted limited access to their photos and can change that in the Settings app. */
 "IMAGE_PICKER_CHANGE_PHOTOS_TITLE" = "Fotoğraflarınızı göremiyor musunuz?";
@@ -3344,7 +3344,7 @@
 "INFO_MESSAGE_USER_CHANGED_PHONE_NUMBER_FORMAT" = "%1$@ telefon numarasını değiştirdi.";
 
 /* Shown in inbox and conversation when a user joins Kahf, embeds the new user's {{contact name}} */
-"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ Kahf'e katıldı!";
+"INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT" = "%1$@ Kahf'a katıldı!";
 
 /* accessibility label for the button which shows the regular keyboard instead of sticker picker */
 "INPUT_TOOLBAR_KEYBOARD_BUTTON_ACCESSIBILITY_LABEL" = "Klavye";
@@ -3368,13 +3368,13 @@
 "INVALID_PROXY_HOST_ERROR" = "Girdiğin proxy adresi geçersiz, lütfen adresi kontrol edip tekrar dene.";
 
 /* Alert body when contacts disabled while trying to invite contacts to Kahf */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Arkadaşlarınızı Kahf'e davet etmek için iOS Ayarlar uygulamasından kişiler erişimini etkinleştirebilirsiniz.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Arkadaşlarınızı Kahf'a davet etmek için iOS Ayarlar uygulamasından kişiler erişimini etkinleştirebilirsiniz.";
 
 /* Alert title when contacts disabled while trying to invite contacts to Kahf */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Kişi Erişimine İzin Ver";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Arkadaşlarınızı Kahf'e Davet Edin";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Arkadaşlarınızı Kahf'a Davet Edin";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Ara";
@@ -3473,7 +3473,7 @@
 "LINK_PREVIEW_UNKNOWN_DOMAIN" = "Bağlantı Ön İzlemesi";
 
 /* Shown in an alert when trying to edit a contact. */
-"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Sistem kişilerinin yönetimi artık iPad'de kullanılamıyor. Sistem kişilerine Kahf bağlantıları eklemek için telefonunda Kahf'i aç.";
+"LINKED_DEVICE_CONTACTS_NOT_ALLOWED" = "Sistem kişilerinin yönetimi artık iPad'de kullanılamıyor. Sistem kişilerine Kahf bağlantıları eklemek için telefonunda Kahf'ı aç.";
 
 /* Shown in a banner when you tap the 'New Chat' icon at the top of the list of chats. */
 "LINKED_DEVICE_MANAGE_CONTACTS_BANNER" = "Sistem kişilerinin yönetimi artık iPad'de desteklenmemektedir. Bu cihaz, telefonundaki Kahf'den kişi listendeki değişiklikleri senkronize etmeye devam edecektir.";
@@ -3509,7 +3509,7 @@
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_THREE" = "\"Yerel Ağ\" seçeneğini seçin";
 
 /* Second step for local network permission action sheet */
-"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Kahf'e gidin";
+"LOCAL_NETWORK_PERMISSION_ACTION_SHEET_STEP_TWO" = "Kahf'a gidin";
 
 /* Title for local network permission action sheet */
 "LOCAL_NETWORK_PERMISSION_ACTION_SHEET_TITLE" = "Yerel Ağ Erişimini açın";
@@ -3524,7 +3524,7 @@
 "LOGGING_SECTION" = "Günlük";
 
 /* Footer for the 'logging' help section. */
-"LOGGING_SECTION_FOOTER" = "Hata günlükleri Kahf'in sorunları ve göçmeleri çözmesine yardımcı olur.";
+"LOGGING_SECTION_FOOTER" = "Hata günlükleri Kahf'ın sorunları ve göçmeleri çözmesine yardımcı olur.";
 
 /* Title for the 'long text message' view. */
 "LONG_TEXT_VIEW_TITLE" = "İleti";
@@ -3893,7 +3893,7 @@
 "MISSING_CAMERA_PERMISSION_MESSAGE" = "Kahf'de görüntülü aramalar yapmak için iOS Ayarlar uygulamasından kamera erişimini etkinleştirebilirsiniz.";
 
 /* Alert title */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Kahf'in kamera erişimine ihtiyacı var.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Kahf'ın kamera erişimine ihtiyacı var.";
 
 /* Alert body indicating the user has denied location permissions */
 "MISSING_LOCATION_PERMISSION_MESSAGE" = "Bu izni Ayarlar uygulamasından etkinleştirebilirsiniz.";
@@ -3905,7 +3905,7 @@
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Bu izni Ayarlar uygulamasından etkinleştirebilirsiniz.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Bu özellik için Kahf'in fotoğraflarınıza erişmeye ihtiyacı var.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Bu özellik için Kahf'ın fotoğraflarınıza erişmeye ihtiyacı var.";
 
 /* Generic indicator that no value is available for display */
 "MISSING_VALUE" = "Hiçbiri";
@@ -4160,7 +4160,7 @@
 "ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING" = "iPhone'u bağla";
 
 /* explanation to the user they're switching from linking to registering flow */
-"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "\"iPad'i kaydet\" tuşuna basarak yeni bir Kahf hesabı açabilir veya mevcut hesabınızı bu iPad'e aktarabilirsiniz. Bu işlem diğer cihazlarda aynı telefon numarası ile kaydedilmiş Kahf'i devre dışı bırakacaktır.";
+"ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING" = "\"iPad'i kaydet\" tuşuna basarak yeni bir Kahf hesabı açabilir veya mevcut hesabınızı bu iPad'e aktarabilirsiniz. Bu işlem diğer cihazlarda aynı telefon numarası ile kaydedilmiş Kahf'ı devre dışı bırakacaktır.";
 
 /* explanation to the user they're switching from registering to linking flow */
 "ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING" = "\"iPhone'u bağla\" tuşuna basarak telefonunuzu mevcut bir hesaba bağlayabilirsiniz. Telefonunuzu bağlamanız genellikle önerilmez, aynı zamanda, arama gibi bazı özellikleri sınırlayacaktır.";
@@ -4172,7 +4172,7 @@
 "ONBOARDING_MODE_SWITCH_TITLE_REGISTERING" = "Bu iPhone'u bağla";
 
 /* warning to the user that registering an ipad is not recommended */
-"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Bu iPad'i kaydetmek diğer cihazlarda aynı telefon numarası ile kaydedilmiş Kahf'i devre dışı bırakacaktır.";
+"ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING" = "Bu iPad'i kaydetmek diğer cihazlarda aynı telefon numarası ile kaydedilmiş Kahf'ı devre dışı bırakacaktır.";
 
 /* warning to the user that linking a phone is not recommended */
 "ONBOARDING_MODE_SWITCH_WARNING_REGISTERING" = "iPhone'unuzu bağlamak önerilmez ve bazı temel fonksiyonları sınırlar.";
@@ -4427,7 +4427,7 @@
 "PAYMENTS_NEW_PAYMENT_ERROR_INVALID_TRANSACTION" = "Geçersiz hareket";
 
 /* Indicates that a payment failed due to an outdated client. */
-"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Ödemeleri kullanmak için Kahf'i güncelleyin.";
+"PAYMENTS_NEW_PAYMENT_ERROR_OUTDATED_CLIENT" = "Ödemeleri kullanmak için Kahf'ı güncelleyin.";
 
 /* Indicates that an outgoing payment could not be verified in a timely way. */
 "PAYMENTS_NEW_PAYMENT_ERROR_OUTGOING_VERIFICATION_TAKING_TOO_LONG" = "Ödeme henüz doğrulanmadı";
@@ -4757,7 +4757,7 @@
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "PIN'i devre dışı bırak";
 
 /* Message of the 'pin disable' action sheet. */
-"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "PIN'i devre dışı bırakırsanız, başka bir iOS cihazından aktarmadığınız sürece Kahf'i yeniden kaydettiğinizde tüm verileri kaybedersiniz. PIN devre dışı iken Kayıt Kilidini açamazsınız.";
+"PIN_CREATION_DISABLE_CONFIRMATION_MESSAGE" = "PIN'i devre dışı bırakırsanız, başka bir iOS cihazından aktarmadığınız sürece Kahf'ı yeniden kaydettiğinizde tüm verileri kaybedersiniz. PIN devre dışı iken Kayıt Kilidini açamazsınız.";
 
 /* Title of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_TITLE" = "Uyarı";
@@ -4769,7 +4769,7 @@
 "PIN_CREATION_ERROR_TITLE" = "PIN Oluşturma Başarısız Oldu";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "PIN'ler Kahf'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz Kahf'i yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN'inize ihtiyacınız yoktur.";
+"PIN_CREATION_EXPLANATION" = "PIN'ler Kahf'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz Kahf'ı yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN'inize ihtiyacınız yoktur.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "PIN'ler Hakkında Dahasını Öğrenin";
@@ -4919,13 +4919,13 @@
 "PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Kahf kullanıcılarının her çifti ayrı bir güvenlik numarası paylaşır. %1$@ *size* özel olan güvenlik numarasını görüntülüyor olduğunu kontrol edin.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Kahf'in eski bir sürümünü kullanıyorsunuz. Doğrulamadan önce güncellemeniz gerekiyor.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Kahf'ın eski bir sürümünü kullanıyorsunuz. Doğrulamadan önce güncellemeniz gerekiyor.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Karşıdaki kişi Kahf'in eski bir sürümünü kullanıyor. Doğrulamadan önce güncelleme yapmaları gerekiyor.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Karşıdaki kişi Kahf'ın eski bir sürümünü kullanıyor. Doğrulamadan önce güncelleme yapmaları gerekiyor.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Taranan kod güvenlik numarası gibi gözükmüyor. Kahf'in güncel sürümünde olduğunuzdan emin misiniz?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Taranan kod güvenlik numarası gibi gözükmüyor. Kahf'ın güncel sürümünde olduğunuzdan emin misiniz?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "%1$@ ile olan uçtan uca şifrelemenizin güvenliğini doğrulamak isterseniz, yukarıdaki numaraları cihazlarındaki numaralarla karşılaştırın.\n\nAlternatif olarak, telefonlarından kodu taratabilir, ya da kodunuzu taratmalarını rica edebilirsiniz.";
@@ -5156,7 +5156,7 @@
 "RECIPIENT_PICKER_INVITE_MESSAGE" = "%1$@ bir Kahf kullanıcısı değil. Bu numarayı davet etmek ister misin?";
 
 /* Alert title. Shown after selecting a phone number that isn't a Kahf user. */
-"RECIPIENT_PICKER_INVITE_TITLE" = "Kahf'e davet et";
+"RECIPIENT_PICKER_INVITE_TITLE" = "Kahf'a davet et";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
 "REGISTER_2FA_FORGOT_PIN_ALERT_TITLE" = "Yardıma mı ihtiyacınız var?";
@@ -5381,13 +5381,13 @@
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Ekran Kilidini kullanmak için iOS ayarlarınızdan bir şifre belirlemelisiniz.";
 
 /* Description of how and why Kahf iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Kahf'i açmak için kimlik doğrulaması yapın.";
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Kahf'ı açmak için kimlik doğrulaması yapın.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Kimlik doğrulama başarısız oldu.";
 
 /* Label for button on lock screen that lets users unlock Kahf. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Kahf'in Kilidini Aç";
+"SCREEN_LOCK_UNLOCK_SIGNAL" = "Kahf'ın Kilidini Aç";
 
 /* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
 "SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT" = "İsim, kullanıcı adı, veya numara";
@@ -5423,13 +5423,13 @@
 "SECONDARY_LINKING_ERROR_DIFFERENT_ACCOUNT_TITLE" = "Hesap Uyuşmuyor";
 
 /* Message for error alert indicating that a linked device must be upgraded before it can be linked. */
-"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Bu cihazı telefonunuza bağlamak için bu cihazdaki Kahf'i güncelleyin.";
+"SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_MESSAGE" = "Bu cihazı telefonunuza bağlamak için bu cihazdaki Kahf'ı güncelleyin.";
 
 /* Title for error alert indicating that a linked device must be upgraded before it can be linked. */
 "SECONDARY_LINKING_ERROR_OBSOLETE_LINKED_DEVICE_TITLE" = "Desteklenmeyen Sürüm";
 
 /* alert message for outdated linking device */
-"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Diğer cihazınız iPad kare kodlarını taramayı desteklemeyen eski bir Kahf sürümü kullanıyor. Lütfen Kahf'in son sürümünü yükleyin ve tekrar deneyin.";
+"SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE" = "Diğer cihazınız iPad kare kodlarını taramayı desteklemeyen eski bir Kahf sürümü kullanıyor. Lütfen Kahf'ın son sürümünü yükleyin ve tekrar deneyin.";
 
 /* alert title for outdated linking device */
 "SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE" = "Tarayıcı Cihazı Güncelle";
@@ -5450,13 +5450,13 @@
 "SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS" = "Bağlantıyı Tamamla";
 
 /* header text before the user can link this device */
-"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Bu iPad'i hesabınıza bağlamak için telefonunuzdan Kahf'i açın";
+"SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY" = "Bu iPad'i hesabınıza bağlamak için telefonunuzdan Kahf'ı açın";
 
 /* Link explaining what to do when trying to link a device before having a primary device. */
 "SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY" = "Telefonumda Kahf uygulaması yok…";
 
 /* alert body */
-"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Telefonunuzdan Uygulama Mağazasına girin, Kahf'i yükleyin, kaydolma işlemini tamamlayın, ve daha sonrasında iPad'inizi aynı hesaba bağlayabilirsiniz.";
+"SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY" = "Telefonunuzdan Uygulama Mağazasına girin, Kahf'ı yükleyin, kaydolma işlemini tamamlayın, ve daha sonrasında iPad'inizi aynı hesaba bağlayabilirsiniz.";
 
 /* alert title */
 "SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE" = "Telefonunuza Kahf Yükleyin";
@@ -5471,7 +5471,7 @@
 "SECONDARY_ONBOARDING_SCAN_CODE_TITLE" = "Telefonunuzla kare kodu tarayın";
 
 /* header text before the user can transfer to this device */
-"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Hesabınızı aktarmak için eski iPad'inizde Kahf'i açın";
+"SECONDARY_TRANSFER_GET_STARTED_BY_OPENING_IPAD" = "Hesabınızı aktarmak için eski iPad'inizde Kahf'ı açın";
 
 /* No comment provided by engineer. */
 "SECURE_SESSION_RESET" = "Güvenli oturum sıfırlandı.";
@@ -5540,7 +5540,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY" = "Konum";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Etkinleştirildiğinde, Kahf sansürü atlatmaya çalışacaktır. Kahf'in sansürlendiği bir konumda olmadığınız sürece bu özelliği etkinleştirmeyin.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Etkinleştirildiğinde, Kahf sansürü atlatmaya çalışacaktır. Kahf'ın sansürlendiği bir konumda olmadığınız sürece bu özelliği etkinleştirmeyin.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Sansür atlatma hesabınızın telefon numarasına bağlı olarak etkinleştirildi.";
@@ -5726,7 +5726,7 @@
 "SETTINGS_DISAPPEARING_MESSAGES_FOOTER" = "Tarafınızca başlatılan tüm yeni iletiler için varsayılan kaybolan ileti zamanlayıcısı ayarlayın.";
 
 /* Title for the 'donate to Kahf' link in settings. */
-"SETTINGS_DONATE" = "Kahf'e Bağış Yap";
+"SETTINGS_DONATE" = "Kahf'a Bağış Yap";
 
 /* Title for help button and help pages in app settings. */
 "SETTINGS_HELP" = "Yardım";
@@ -5795,7 +5795,7 @@
 "SETTINGS_NOTIFICATION_CONTENT_TITLE" = "Bildirim İçeriği";
 
 /* When the local device discovers a contact has recently installed Kahf, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
-"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kişinin Kahf'e Katılması";
+"SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL" = "Kişinin Kahf'a Katılması";
 
 /* table section header */
 "SETTINGS_NOTIFICATION_NOTIFY_WHEN_TITLE" = "Şu durumlarda bildir…";
@@ -5807,7 +5807,7 @@
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Etkinleştir";
 
 /* Description for the 'activate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Kahf'i MobileCoin alıp göndermek için kullanabilirsiniz. Tüm ödemeler MobileCoin ve MobileCoin Wallet Kullanım Koşullarına tabidir. Bu beta bir özelliktir, bu nedenle kimi sorunlarla karşılabilirsiniz ve kaybettiğiniz ödemeleri veya bakiyeyi kurtaramayabilirsiniz.";
+"SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_DESCRIPTION" = "Kahf'ı MobileCoin alıp göndermek için kullanabilirsiniz. Tüm ödemeler MobileCoin ve MobileCoin Wallet Kullanım Koşullarına tabidir. Bu beta bir özelliktir, bu nedenle kimi sorunlarla karşılabilirsiniz ve kaybettiğiniz ödemeleri veya bakiyeyi kurtaramayabilirsiniz.";
 
 /* Title for the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_TITLE" = "Etkinleştir";
@@ -5870,10 +5870,10 @@
 "SETTINGS_PAYMENTS_DEACTIVATE_TITLE" = "Ödemeleri Devre Dışı Bırak";
 
 /* Explanation of the 'deactivate payments with balance' process in the 'deactivate payments' settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Ödemeleri devre dışı bırakmadan önce mevcut bakiyenizi başka bir cüzdana aktarmanızı öneriyoruz. Eğer paranızı şimdi aktarmamayı seçerseniz, ödemeleri devre dışı bıraktığınızda Kahf'e bağlı cüzdanınızda kalacaktır.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITH_BALANCE_EXPLANATION" = "Ödemeleri devre dışı bırakmadan önce mevcut bakiyenizi başka bir cüzdana aktarmanızı öneriyoruz. Eğer paranızı şimdi aktarmamayı seçerseniz, ödemeleri devre dışı bıraktığınızda Kahf'a bağlı cüzdanınızda kalacaktır.";
 
 /* Description for the 'deactivate payments confirmation' UI in the payment settings. */
-"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Ödemeleri tekrar etkinleştirmeyi seçerseniz, bakiyeniz Kahf'e bağlı cüzdanınızda kalacaktır.";
+"SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_DESCRIPTION" = "Ödemeleri tekrar etkinleştirmeyi seçerseniz, bakiyeniz Kahf'a bağlı cüzdanınızda kalacaktır.";
 
 /* Title for the 'deactivate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_DEACTIVATE_WITHOUT_TRANSFER_CONFIRM_TITLE" = "Aktarmadan Devre Dışı Bırakılsın mı?";
@@ -5975,7 +5975,7 @@
 "SETTINGS_PAYMENTS_PASSPHRASE_DISCARD_CONFIRMATION_TITLE" = "Kaydetmeden devam etmek istiyor musun?";
 
 /* Explanation of the 'payments passphrase' in the 'view payments passphrase' settings. */
-"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Kahf'i yeniden kurduğunuzda Kahf PIN'ini doğruladığınızda bakiyeniz otomatik olarak kurtarılacaktır. Bakiyenizi ayrıca bir kurtarma parolası ile de geri alabilirsiniz. Kurtarma parolası 24-kelimelik ve size özgü bir ifadedir. Bir yere yazın ve güvenli bir şekilde saklayın.";
+"SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION" = "Kahf'ı yeniden kurduğunuzda Kahf PIN'ini doğruladığınızda bakiyeniz otomatik olarak kurtarılacaktır. Bakiyenizi ayrıca bir kurtarma parolası ile de geri alabilirsiniz. Kurtarma parolası 24-kelimelik ve size özgü bir ifadedir. Bir yere yazın ve güvenli bir şekilde saklayın.";
 
 /* Explanation of the 'payments passphrase' when there is a balance. */
 "SETTINGS_PAYMENTS_PASSPHRASE_EXPLANATION_FROM_BALANCE" = "Bakiyen var! Kurtarma ifadeni kaydetme zamanı, bu bakiyeni geri yüklemek için kullanabileceğin 24 kelimelik bir anahtardır.";
@@ -6065,7 +6065,7 @@
 "SETTINGS_PAYMENTS_PAYMENTS_LOCK_PROMPT_EXPLANATION_TOUCHID" = "Touch ID'yi etkinleştirerek telefonuna sahip bir kişinin parana erişmesini önlemeye yardımcı ol. Bu seçeneği Ayarlar'dan devre dışı bırakabilirsin.";
 
 /* Button for payments outdated sheet. */
-"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Kahf'i Güncelle";
+"SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_BUTTON" = "Kahf'ı Güncelle";
 
 /* Message for payments outdated sheet. */
 "SETTINGS_PAYMENTS_PAYMENTS_OUTDATED_MESSAGE" = "Ödeme gönderip almaya devam etmek ve güncel ödeme bakiyeni görüntülemek için bir güncelleme gereklidir.";
@@ -6302,7 +6302,7 @@
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "PIN Hatırlatıcıları";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "PIN'ler Kahf'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. PIN'iniz kurtarılamaz. Profiliniz, ayarlarınız ve kişileriniz Kahf'i yeniden yüklediğinizde geri yüklenecektir.";
+"SETTINGS_PINS_FOOTER" = "PIN'ler Kahf'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. PIN'iniz kurtarılamaz. Profiliniz, ayarlarınız ve kişileriniz Kahf'ı yeniden yüklediğinizde geri yüklenecektir.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "PIN'inizi değiştirin";
@@ -6338,7 +6338,7 @@
 "SETTINGS_REGISTRATION_LOCK_TURN_ON" = "Aç";
 
 /* Body for the alert confirming that the user wants to turn on registration lock. */
-"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Kahf'e tekrar kaydolurken Kahf PIN'inizi unutursanız, hesabınıza 7 gün boyunca erişemezsiniz. ";
+"SETTINGS_REGISTRATION_LOCK_TURN_ON_MESSAGE" = "Kahf'a tekrar kaydolurken Kahf PIN'inizi unutursanız, hesabınıza 7 gün boyunca erişemezsiniz. ";
 
 /* Title for the alert confirming that the user wants to turn on registration lock. */
 "SETTINGS_REGISTRATION_LOCK_TURN_ON_TITLE" = "Kayıt Kilidi Açılsın Mı?";
@@ -6368,16 +6368,16 @@
 "SETTINGS_SECTION_TITLE_CALLING" = "Arama";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL" = "Kahf'i açmak için Touch ID, Face ID veya iOS cihaz parolası kullan.";
+"SETTINGS_SECURITY_DETAIL" = "Kahf'ı açmak için Touch ID, Face ID veya iOS cihaz parolası kullan.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_FACEID" = "Kahf'i açmak için Face ID kullan.";
+"SETTINGS_SECURITY_DETAIL_FACEID" = "Kahf'ı açmak için Face ID kullan.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Kahf'i açmak için cihaz parolası kullan.";
+"SETTINGS_SECURITY_DETAIL_PASSCODE" = "Kahf'ı açmak için cihaz parolası kullan.";
 
 /* Section footer */
-"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Kahf'i açmak için Touch ID kullan.";
+"SETTINGS_SECURITY_DETAIL_TOUCHID" = "Kahf'ı açmak için Touch ID kullan.";
 
 /* Section header */
 "SETTINGS_SECURITY_TITLE" = "Uygulama Güvenliği";
@@ -7040,25 +7040,25 @@
 "UNKNOWN_CONTACT_NAME" = "Bilinmeyen Kişi";
 
 /* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Cihazlarınızdan biri Kahf'in yeni özelliğini kullanan bir ileti gönderdiği için burada işlenemiyor veya görüntülenemiyor.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE" = "Cihazlarınızdan biri Kahf'ın yeni özelliğini kullanan bir ileti gönderdiği için burada işlenemiyor veya görüntülenemiyor.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@, Kahf'in yeni özelliğini kullanan bir ileti gönderdiği için ileti işlenemiyor veya görüntülenemiyor.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT" = "%1$@, Kahf'ın yeni özelliğini kullanan bir ileti gönderdiği için ileti işlenemiyor veya görüntülenemiyor.";
 
 /* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
-"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Kahf'in yeni özelliğini kullanan bir ileti aldığınız için ileti işlenemiyor veya görüntülenemiyor.";
+"UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME" = "Kahf'ın yeni özelliğini kullanan bir ileti aldığınız için ileti işlenemiyor veya görüntülenemiyor.";
 
 /* Label for button that lets users upgrade the app. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Kahf'i Şimdi Güncelleyin";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON" = "Kahf'ı Şimdi Güncelleyin";
 
 /* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Kahf'in son sürümüne güncellendi. Artık bu ileti türünü cihazınızda alabileceksiniz.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE" = "Kahf'ın son sürümüne güncellendi. Artık bu ileti türünü cihazınızda alabileceksiniz.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Kahf'in güncel sürümünü kullandığınıza göre %1$@ kişisinden bu iletiyi tekrar göndermesini isteyebilirsiniz.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT" = "Kahf'ın güncel sürümünü kullandığınıza göre %1$@ kişisinden bu iletiyi tekrar göndermesini isteyebilirsiniz.";
 
 /* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
-"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Kahf'in güncel sürümünü kullandığınıza göre gönderenden bu iletiyi tekrar göndermesini isteyebilirsiniz.";
+"UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME" = "Kahf'ın güncel sürümünü kullandığınıza göre gönderenden bu iletiyi tekrar göndermesini isteyebilirsiniz.";
 
 /* Label indicating an unknown user. */
 "UNKNOWN_USER" = "Bilinmeyen";
@@ -7082,7 +7082,7 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "\"%1$@\" bağlantısını kaldır?";
 
 /* Label warning the user that they have been unlinked from their primary device. */
-"UNLINKED_WARNING" = "Cihaz artık bağlı değil. Yazışmaya devam etmek için Kahf'i telefonunuzla yeniden bağlayın.";
+"UNLINKED_WARNING" = "Cihaz artık bağlı değil. Yazışmaya devam etmek için Kahf'ı telefonunuzla yeniden bağlayın.";
 
 /* Alert title when unlinking device fails */
 "UNLINKING_FAILED_ALERT_TITLE" = "Kahf cihazınızın bağlantısını kaldıramadı.";
@@ -7106,7 +7106,7 @@
 "UNSUPPORTED_FEATURE_ERROR" = "Cihazınız bu özelliği desteklemiyor.";
 
 /* Description for the unverified safety number change. Embeds {name of contact with identity change} */
-"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "%1$@ ile olan Güvenlik Numaranız değişti, bunun sebebi Kahf'i yeniden yüklemeleri veya cihaz değiştirmeleri olabilir. Yeni güvenlik numarasını onaylamak için Doğrula'ya dokunun. Bu eylem isteğe bağlıdır.";
+"UNVERIFIED_SAFETY_NUMBER_CHANGE_DESCRIPTION_FORMAT" = "%1$@ ile olan Güvenlik Numaranız değişti, bunun sebebi Kahf'ı yeniden yüklemeleri veya cihaz değiştirmeleri olabilir. Yeni güvenlik numarasını onaylamak için Doğrula'ya dokunun. Bu eylem isteğe bağlıdır.";
 
 /* Action to verify a safety number after it has changed */
 "UNVERIFIED_SAFETY_NUMBER_VERIFY_ACTION" = "Doğrula";
@@ -7250,7 +7250,7 @@
 "VOICE_MESSAGE_TOO_SHORT_TOOLTIP" = "Kaydetmek için tıklayın ve basılı tutun";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Kurulumu Kahf'in Masaüstü uygulamasından bitirin.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Kurulumu Kahf'ın Masaüstü uygulamasından bitirin.";
 
 /* Placeholder text for header of the wallpaper mini preview */
 "WALLPAPER_MINI_PREVIEW_CONTACT_NAME" = "Kişi Adı";
