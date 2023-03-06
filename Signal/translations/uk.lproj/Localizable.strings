@@ -128,7 +128,7 @@
 "APN_Message" = "Можливо, у вас є нові повідомлення";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf не запускається. Надішліть лог помилки на support@Kahf.org, щоб ми її виправили.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf не запускається. Надішліть лог помилки на support@kahf.co, щоб ми її виправили.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Помилка";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Невідома версія бази даних.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf зіткнувся з проблемою під час відкриття. Будь ласка, надішліть журнал зневадження на support@Kahf.org, щоб допомогти усунути цю проблему.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf зіткнувся з проблемою під час відкриття. Будь ласка, надішліть журнал зневадження на support@kahf.co, щоб допомогти усунути цю проблему.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Не вдається відкрити Kahf";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Немає місця в сховищі";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Не вдалося відновити дані, перенесені з вашого старого пристрою. Будь ласка, надішліть журнал налагодження на support@Kahf.org, щоб ми могли виправити цю проблему. Якщо ви заново встановите Kahf, історія повідомлень може бути втрачена.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Не вдалося відновити дані, перенесені з вашого старого пристрою. Будь ласка, надішліть журнал налагодження на support@kahf.co, щоб ми могли виправити цю проблему. Якщо ви заново встановите Kahf, історія повідомлень може бути втрачена.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Не вдається завершити перенесення";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "Перейдемо до Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "На вашому пристрої не налаштовано та з нього не можна відправити електронну пошту. Щоб відправити запит на підтримку, налаштуйте електронну пошту на своєму пристрої, або напишіть на support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "На вашому пристрої не налаштовано та з нього не можна відправити електронну пошту. Щоб відправити запит на підтримку, налаштуйте електронну пошту на своєму пристрої, або напишіть на support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Email недоступний";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Помилка мережі";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Будь ласка, допоможіть нам покращити Kahf та відправте цю помилку разом із журналом відладки з вашого пристрою до support@Kahf.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Будь ласка, допоможіть нам покращити Kahf та відправте цю помилку разом із журналом відладки з вашого пристрою до support@kahf.co; %1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Виникла помилка";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Опишіть проблему, що виникла: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Будь ласка, надішліть запит на підтримку до support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Будь ласка, надішліть запит на підтримку до support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Фільтр: %1$@";

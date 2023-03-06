@@ -128,7 +128,7 @@
 "APN_Message" = "Bạn có thể có tin nhắn mới";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Không thể chạy Kahf. Vui lòng gửi nhật kí lỗi đến support@Kahf.org để chúng tôi có thể xử lí vấn đề này.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Không thể chạy Kahf. Vui lòng gửi nhật kí lỗi đến support@kahf.co để chúng tôi có thể xử lí vấn đề này.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Lỗi";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Phiên bản cơ sở dữ liệu không xác định.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf gặp vấn đề khi khởi động. Vui lòng gửi nhật ký gỡ lỗi đến support@Kahf.org để giúp chúng tôi xử lý vấn đề này.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf gặp vấn đề khi khởi động. Vui lòng gửi nhật ký gỡ lỗi đến support@kahf.co để giúp chúng tôi xử lý vấn đề này.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Không thể mở Kahf";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Dung lượng lưu trữ sắp hết";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Dữ liệu từ thiết bị cũ của bạn không thể được khôi phục. Hãy gửi bản ghi chép lỗi đến support@Kahf.org để chúng tôi có thể khắc phục vấn đề. Nếu bạn cài đặt lại Kahf, lịch sử trò chuyện của bạn sẽ không được lưu giữ.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Dữ liệu từ thiết bị cũ của bạn không thể được khôi phục. Hãy gửi bản ghi chép lỗi đến support@kahf.co để chúng tôi có thể khắc phục vấn đề. Nếu bạn cài đặt lại Kahf, lịch sử trò chuyện của bạn sẽ không được lưu giữ.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Không thể Hoàn tất Quá trình chuyển";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "Cùng chuyển sang sử dụng Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Thiết bị của bạn chưa có được thiết lập để gửi email. Để gửi yêu cầu hỗ trợ, thiết lập email trên thiết bị của bạn hoặc email cho support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "Thiết bị của bạn chưa có được thiết lập để gửi email. Để gửi yêu cầu hỗ trợ, thiết lập email trên thiết bị của bạn hoặc email cho support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Không có email";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Lỗi Kết nối mạng";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Vui lòng giúp chúng tôi nâng cập Kahf bằng cách báo cáo lỗi này và lịch sử sửa lỗi từ thiết bị của bạn đến support@Kahf.org;%1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Vui lòng giúp chúng tôi nâng cập Kahf bằng cách báo cáo lỗi này và lịch sử sửa lỗi từ thiết bị của bạn đến support@kahf.co;%1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Đã xảy ra lỗi";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Nói cho chúng tôi biết về vấn đề: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Xin hãy gửi yêu cầu hỗ trợ của bạn cho support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Xin hãy gửi yêu cầu hỗ trợ của bạn cho support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Bộ lọc: %1$@";

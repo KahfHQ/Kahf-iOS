@@ -128,7 +128,7 @@
 "APN_Message" = "Je hebt mogelijk nieuwe berichten";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf kan niet opstarten. Stuur alstublieft een foutopsporingslog naar support@Kahf.org zodat we dit probleem kunnen oplossen.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf kan niet opstarten. Stuur alstublieft een foutopsporingslog naar support@kahf.co zodat we dit probleem kunnen oplossen.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Fout";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Onbekende databank-versie.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Er ging iets mis met Kahf toen je het probeerde te openen. Stuur alsjeblieft een foutopsporingslog naar support@Kahf.org om ons te helpen het probleem te begrijpen en op te lossen.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Er ging iets mis met Kahf toen je het probeerde te openen. Stuur alsjeblieft een foutopsporingslog naar support@kahf.co om ons te helpen het probleem te begrijpen en op te lossen.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Kon Kahf niet openen";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Opslagruimte bijna vol";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "De overgezette gegevens van je oude apparaat konden niet worden hersteld op dit apparaat. Stuur een foutopsporingslog naar support@Kahf.org zodat we we een oplossing kunnen zoeken voor dit probleem. Als je Kahf opnieuw installeert, gaat je gespreksgeschiedenis misschien verloren.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "De overgezette gegevens van je oude apparaat konden niet worden hersteld op dit apparaat. Stuur een foutopsporingslog naar support@kahf.co zodat we we een oplossing kunnen zoeken voor dit probleem. Als je Kahf opnieuw installeert, gaat je gespreksgeschiedenis misschien verloren.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "De overdracht van Kahf-gegevens kon niet succesvol worden afgerond";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "Laten we Kahf gebruiken";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Je apparaat is niet geconfigureerd om e-mails te verzenden. Om een ondersteuningsverzoek te verzenden moet je e-mail instellen op je apparaat of moet je zelf een e-mail opstellen naar support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "Je apparaat is niet geconfigureerd om e-mails te verzenden. Om een ondersteuningsverzoek te verzenden moet je e-mail instellen op je apparaat of moet je zelf een e-mail opstellen naar support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-mail is niet beschikbaar";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Netwerkfout";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Help ons alsjeblieft om Kahf te verbeteren door deze fout te melden via support@Kahf.org en door je foutopsporingslog mee te sturen; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Help ons alsjeblieft om Kahf te verbeteren door deze fout te melden via support@kahf.co en door je foutopsporingslog mee te sturen; %1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf-bèta: er heeft zich een fout voorgedaan";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Omschrijf aan ons wat je probleem is: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "E-mail je ondersteuningsverzoek naar support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "E-mail je ondersteuningsverzoek naar support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filter: %1$@";

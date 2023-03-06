@@ -128,7 +128,7 @@
 "APN_Message" = "Вероватно имате нове поруке";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf не може да се покрене. Молимо вас да пошаљете извештај грешака на support@Kahf.org како бисмо отклонили квар.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf не може да се покрене. Молимо вас да пошаљете извештај грешака на support@kahf.co како бисмо отклонили квар.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Грешка";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Непозната верзија базе података.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf имао проблем при покушају отварања. Послати извештај на support@Kahf.org да помогнете у решавању овог проблема.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf имао проблем при покушају отварања. Послати извештај на support@kahf.co да помогнете у решавању овог проблема.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Нисам успео да отворим Kahf";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Preostalo je malo prostora za skladištenje";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Подаци пренесени са вашег старог уређаја нису опорављени. Пошаљите евиденцију отклањања грешака на support@Kahf.org како бисмо решили тај проблем. Ако поново инсталирате Kahf, ваша историја порука може бити изгубљена.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Подаци пренесени са вашег старог уређаја нису опорављени. Пошаљите евиденцију отклањања грешака на support@kahf.co како бисмо решили тај проблем. Ако поново инсталирате Kahf, ваша историја порука може бити изгубљена.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Неуспешан пренос података";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "Пређимо на Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Уређај није конфигурисан за слање имејла. Да бисте послали захтев за подршку, подесите имејл на уређају или пишите support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "Уређај није конфигурисан за слање имејла. Да бисте послали захтев за подршку, подесите имејл на уређају или пишите support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Имејл није доступан";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Грешка мреже";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Молимо вас помозите нам да побољшамо Kahf пријављивањем ове грешке заједно са записима за уклањање погрешака са вашег уређаја на support@Kahf.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Молимо вас помозите нам да побољшамо Kahf пријављивањем ове грешке заједно са записима за уклањање погрешака са вашег уређаја на support@kahf.co; %1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Догодила се грешка";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Објасните нам проблем: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Молимо пошаљите свој захтев за подршку на support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Молимо пошаљите свој захтев за подршку на support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Филтер: %1$@";

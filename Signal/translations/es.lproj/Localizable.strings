@@ -128,7 +128,7 @@
 "APN_Message" = "Puedes tener nuevos mensajes";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf no puede iniciarse. Envía un registro de depuración a support@Kahf.org para que nos podamos ocupar del problema.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf no puede iniciarse. Envía un registro de depuración a support@kahf.co para que nos podamos ocupar del problema.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Fallo";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Versión de base de datos desconocida.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf ha encontrado un fallo al abrirse. Por favor, envía el registro de depuración a support@Kahf.org para ayudarnos a resolver este problema.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf ha encontrado un fallo al abrirse. Por favor, envía el registro de depuración a support@kahf.co para ayudarnos a resolver este problema.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Fallo al abrir Kahf";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Hay poco espacio de almacenamiento";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "No se han podido restablecer los datos transferidos desde tu dispositivo antiguo. Envía un registro de depuración a support@Kahf.org para que nos podamos ocupar del problema. Si reinstalas Kahf, tus mensajes podrían perderse.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "No se han podido restablecer los datos transferidos desde tu dispositivo antiguo. Envía un registro de depuración a support@kahf.co para que nos podamos ocupar del problema. Si reinstalas Kahf, tus mensajes podrían perderse.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Fallo al completar transferencia";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "¿Usamos Kahf para chatear de forma segura?";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Tu dispositivo no está configurado para enviar correos. Para enviar una solicitud de soporte, configura una cuenta de email en tu dispositivo o envía uno a support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "Tu dispositivo no está configurado para enviar correos. Para enviar una solicitud de soporte, configura una cuenta de email en tu dispositivo o envía uno a support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Correo no disponible";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Fallo de red";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Ayúdanos a mejorar Kahf explicándonos el fallo ocurrido junto con el registro de depuración de tu dispositivo a support@Kahf.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Ayúdanos a mejorar Kahf explicándonos el fallo ocurrido junto con el registro de depuración de tu dispositivo a support@kahf.co; %1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Ha ocurrido un fallo";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Cuéntanos cuál es el problema: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Por favor, envía una solicitud de soporte a support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Por favor, envía una solicitud de soporte a support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filtro: %1$@";

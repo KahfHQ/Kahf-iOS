@@ -128,7 +128,7 @@
 "APN_Message" = "Du kanske har nya meddelanden";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf kan inte startas. Skicka en felsökningslogg till support@Kahf.org så att vi kan felsöka problemet.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf kan inte startas. Skicka en felsökningslogg till support@kahf.co så att vi kan felsöka problemet.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Fel";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Okänd databasversion.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf hade ett problem när den försökte öppna. Skicka en felsökningslogg till support@Kahf.orgför att hjälpa dig att felsöka det här problemet.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf hade ett problem när den försökte öppna. Skicka en felsökningslogg till support@kahf.coför att hjälpa dig att felsöka det här problemet.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Kan ej öppna Kahf";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Lågt lagringsutrymme";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data som överförts från din gamla enhet kunde inte återställas. Skicka en felsökningslogg till support@Kahf.org så att vi kan felsöka problemet. Om du installerar om Kahf kan din meddelandehistorik försvinna.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data som överförts från din gamla enhet kunde inte återställas. Skicka en felsökningslogg till support@kahf.co så att vi kan felsöka problemet. Om du installerar om Kahf kan din meddelandehistorik försvinna.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Det gick inte att slutföra överföringen";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "Låt oss använda Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Din enhet är inte konfigurerad för att skicka e-post. Om du vill skicka en supportförfrågan ställer du in e-post på din enhet eller mejlar support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "Din enhet är inte konfigurerad för att skicka e-post. Om du vill skicka en supportförfrågan ställer du in e-post på din enhet eller mejlar support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-posten är inte tillgänglig";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Nätverksfel";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Hjälp oss att förbättra Kahf genom att rapportera detta fel tillsammans med felsökningsloggar från din enhet till support@Kahf.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Hjälp oss att förbättra Kahf genom att rapportera detta fel tillsammans med felsökningsloggar från din enhet till support@kahf.co; %1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Ett fel uppstod";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Beskriv problemet för oss: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Skicka din supportförfrågan via e-post till support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Skicka din supportförfrågan via e-post till support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filter: %1$@";

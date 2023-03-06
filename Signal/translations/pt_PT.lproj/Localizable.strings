@@ -128,7 +128,7 @@
 "APN_Message" = "Você poderá ter novas mensagens";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Não foi possível iniciar o Kahf. Por favor, envie o relatório de depuração para support@Kahf.org de forma a  que a nossa equipa consiga resolver este problema.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Não foi possível iniciar o Kahf. Por favor, envie o relatório de depuração para support@kahf.co de forma a  que a nossa equipa consiga resolver este problema.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Erro";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Versão desconhecida da base de dados.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "O Kahf teve um problema ao tentar abrir. Por favor, envie um registo de depuração para support@Kahf.org de forma a ajudar a solucionar este problema.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "O Kahf teve um problema ao tentar abrir. Por favor, envie um registo de depuração para support@kahf.co de forma a ajudar a solucionar este problema.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Não foi possível abrir o Kahf";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Pouco espaço de armazenamento";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Os dados transferidos do seu dispositivo antigo não puderam ser restaurados. Envie um registo de depuração para support@Kahf.org para que possamos solucionar esse problema. Se você reinstalar o Kahf, o seu histórico de mensagens poderá perder-se.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Os dados transferidos do seu dispositivo antigo não puderam ser restaurados. Envie um registo de depuração para support@kahf.co para que possamos solucionar esse problema. Se você reinstalar o Kahf, o seu histórico de mensagens poderá perder-se.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Não foi possível terminar a transferência";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "Vamos mudar para o Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "O seu dispositivo não está configurado para enviar um e-mail. Para enviar um pedido de apoio, defina um e-mail no seu dispositivo ou envie um e-mail para support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "O seu dispositivo não está configurado para enviar um e-mail. Para enviar um pedido de apoio, defina um e-mail no seu dispositivo ou envie um e-mail para support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "E-mail indisponível";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Erro de rede";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Ajude-nos a melhorar o Kahf, por favor. Relate esse erro e envie o registo de depuração do seu dispositivo para support@Kahf.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Ajude-nos a melhorar o Kahf, por favor. Relate esse erro e envie o registo de depuração do seu dispositivo para support@kahf.co; %1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Ocorreu um erro";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Fale-nos acerca do problema: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Por favor, envie o seu pedido de apoio para support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Por favor, envie o seu pedido de apoio para support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filtro: %1$@";

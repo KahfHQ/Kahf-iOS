@@ -128,7 +128,7 @@
 "APN_Message" = "У вас могут быть новые сообщения";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf не может запуститься. Пожалуйста, отправьте журнал отладки на support@Kahf.org, чтобы мы смогли исправить эту проблему.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf не может запуститься. Пожалуйста, отправьте журнал отладки на support@kahf.co, чтобы мы смогли исправить эту проблему.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Ошибка";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Неизвестная версия базы данных.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "У приложения Kahf возникла проблема при попытке запуска. Пожалуйста, отправьте журнал отладки по адресу support@Kahf.org, чтобы помочь решить эту проблему.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "У приложения Kahf возникла проблема при попытке запуска. Пожалуйста, отправьте журнал отладки по адресу support@kahf.co, чтобы помочь решить эту проблему.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Не удалось открыть Kahf";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Недостаточно места в хранилище";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Данные, перенесённые с вашего старого устройства, не удалось восстановить. Пожалуйста, отправьте журнал отладки на support@Kahf.org, чтобы мы смогли исправить эту проблему. Если вы переустановите Kahf, ваша история сообщений может быть утеряна.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Данные, перенесённые с вашего старого устройства, не удалось восстановить. Пожалуйста, отправьте журнал отладки на support@kahf.co, чтобы мы смогли исправить эту проблему. Если вы переустановите Kahf, ваша история сообщений может быть утеряна.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Не удалось завершить перенос";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "Давай перейдем на Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Ваше устройство не настроено для отправки электронной почты. Чтобы отправить запрос в поддержку, настройте электронную почту на своём устройстве или отправьте электронное письмо на адрес support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "Ваше устройство не настроено для отправки электронной почты. Чтобы отправить запрос в поддержку, настройте электронную почту на своём устройстве или отправьте электронное письмо на адрес support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Электронная почта недоступна";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Ошибка сети";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Пожалуйста, помогите нам улучшить Kahf, сообщив об этой ошибке по адресу support@Kahf.org вместе с журналом отладки с вашего устройства: %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Пожалуйста, помогите нам улучшить Kahf, сообщив об этой ошибке по адресу support@kahf.co вместе с журналом отладки с вашего устройства: %1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Бета-версия Kahf: произошла ошибка";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Расскажите нам о проблеме: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Пожалуйста, отправьте ваш запрос в поддержку на адрес support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Пожалуйста, отправьте ваш запрос в поддержку на адрес support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Фильтр: %1$@";

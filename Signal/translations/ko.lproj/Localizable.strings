@@ -128,7 +128,7 @@
 "APN_Message" = "새 메시지가 있을 수 있음";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf 시작에 실패했습니다. 문제 해결을 위해 디버그 로그를 support@Kahf.org로 보내주세요.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf 시작에 실패했습니다. 문제 해결을 위해 디버그 로그를 support@kahf.co로 보내주세요.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "오류";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "데이터베이스 버전을 알 수 없습니다.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signal을 여는 도중 오류가 발생했습니다. 문제 해결을 위해 support@Kahf.org에 디버그 로그를 보내주세요.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Signal을 여는 도중 오류가 발생했습니다. 문제 해결을 위해 support@kahf.co에 디버그 로그를 보내주세요.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Signal을 열 수 없음";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "저장공간 부족";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "이전 기기에서 전송한 데이터를 복구할 수 없습니다. 문제를 해결할 수 있도록 support@Kahf.org로 디버그 로그를 보내 주세요. Signal을 다시 설치하면 메시지 기록이 손실될 수 있습니다.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "이전 기기에서 전송한 데이터를 복구할 수 없습니다. 문제를 해결할 수 있도록 support@kahf.co로 디버그 로그를 보내 주세요. Signal을 다시 설치하면 메시지 기록이 손실될 수 있습니다.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "전송을 완료할 수 없음";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "Signal로 옮깁시다";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "이 기기에서는 이메일을 보낼 수 있도록 설정되어 있지 않습니다. 지원 요청을 보내려면 이 기기에서 이메일을 보낼 수 있도록 설정하거나, support@Kahf.org 주소로 이메일을 보내주세요.";
+"EMAIL_SIGNAL_MESSAGE" = "이 기기에서는 이메일을 보낼 수 있도록 설정되어 있지 않습니다. 지원 요청을 보내려면 이 기기에서 이메일을 보낼 수 있도록 설정하거나, support@kahf.co 주소로 이메일을 보내주세요.";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "이메일 이용 불가";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "네트워크 오류";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "장치의 디버그 로그와 함께 support@Kahf.org에 이 오류(%1$@)를 보고하여 Kahf 서비스를 개선할 수 있도록 도와주세요.";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "장치의 디버그 로그와 함께 support@kahf.co에 이 오류(%1$@)를 보고하여 Kahf 서비스를 개선할 수 있도록 도와주세요.";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf 베타: 오류 발생";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "문제에 대해 알려주세요. ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "support@Kahf.org 이메일 주소로 지원 요청을 보내주세요.";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "support@kahf.co 이메일 주소로 지원 요청을 보내주세요.";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "필터: %1$@";

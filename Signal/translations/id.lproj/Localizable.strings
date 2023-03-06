@@ -128,7 +128,7 @@
 "APN_Message" = "Anda mungkin memiliki pesan baru";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf tidak dapat dibuka. Mohon kirimkan catatan awakutu ke support@Kahf.org sehingga kami bisa memecahkan masalah ini.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf tidak dapat dibuka. Mohon kirimkan catatan awakutu ke support@kahf.co sehingga kami bisa memecahkan masalah ini.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Galat";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Versi Basis Data Tidak Diketahui.";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf mengalami masalah saat mencoba membuka. Mohon kirimkan catatan awakutu ke support@Kahf.org untuk membantu menyelesaikan masalah ini.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf mengalami masalah saat mencoba membuka. Mohon kirimkan catatan awakutu ke support@kahf.co untuk membantu menyelesaikan masalah ini.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Tidak Dapat Membuka Kahf";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Ruang Penyimpanan Hampir Habis";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data yang ditransfer dari perangkat lama tidak dapat dipulihkan. Mohon kirimkan log debug ke support@Kahf.org sehingga kami dapat menyelesaikan masalah ini. Jika Anda menginstal ulang Kahf, riwayat pesan mungkin hilang.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Data yang ditransfer dari perangkat lama tidak dapat dipulihkan. Mohon kirimkan log debug ke support@kahf.co sehingga kami dapat menyelesaikan masalah ini. Jika Anda menginstal ulang Kahf, riwayat pesan mungkin hilang.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Tidak Dapat Menyelesaikan Transfer";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "Pindah ke Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Perangkat Anda tidak dikonfigurasikan untuk mengirim surel. Untuk mengirimkan permintaan dukungan, pasang surel di perangkat Anda atau kirimkan surel ke support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "Perangkat Anda tidak dikonfigurasikan untuk mengirim surel. Untuk mengirimkan permintaan dukungan, pasang surel di perangkat Anda atau kirimkan surel ke support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Surel tidak tersedia";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Jaringan Gagal";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Bantu kami meningkatkan Kahf dengan melaporkan eror ini beserta log debug dari perangkat Anda ke support@Kahf.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Bantu kami meningkatkan Kahf dengan melaporkan eror ini beserta log debug dari perangkat Anda ke support@kahf.co; %1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Terjadi eror";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Beritahu kami tentang masalahnya: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Mohon kirimkan surel permintaan dukungan Anda ke support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Mohon kirimkan surel permintaan dukungan Anda ke support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Filter: %1$@";

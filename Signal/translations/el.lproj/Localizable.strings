@@ -128,7 +128,7 @@
 "APN_Message" = "Ίσως έχεις νέα μηνύματα";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Το Kahf δεν μπορεί να ανοίξει. Παρακαλώ στείλε ένα αρχείο καταγραφής σφαλμάτων στη διεύθυνση support@Kahf.org για να μπορέσουμε να λύσουμε το πρόβλημα.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Το Kahf δεν μπορεί να ανοίξει. Παρακαλώ στείλε ένα αρχείο καταγραφής σφαλμάτων στη διεύθυνση support@kahf.co για να μπορέσουμε να λύσουμε το πρόβλημα.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Σφάλμα";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Άγνωστη έκδοση βάσης δεδομένων";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Το Kahf αντιμετώπισε ένα πρόβλημα καθώς προσπαθούσε να ανοίξει. Παρακαλούμε στείλε ένα αρχείο καταγραφής αποσφαλμάτωσης στο support@Kahf.org για να βοηθήσεις με την αποσφαλμάτωση του προβλήματος.";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Το Kahf αντιμετώπισε ένα πρόβλημα καθώς προσπαθούσε να ανοίξει. Παρακαλούμε στείλε ένα αρχείο καταγραφής αποσφαλμάτωσης στο support@kahf.co για να βοηθήσεις με την αποσφαλμάτωση του προβλήματος.";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "Αδυναμία ανοίγματος του Kahf";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "Περιορισμένος αποθηκευτικός χώρος";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Η επαναφορά των δεδομένων που μεταφέρθηκαν από την παλιά σου συσκευή ήταν αδύνατη. Στείλε το αρχείο καταγραφής στο support@Kahf.org, για να επιλύσουμε το πρόβλημα. Εάν επανεγκαταστήσεις το Kahf, πιθανόν να χαθεί το ιστορικό μηνυμάτων σου.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Η επαναφορά των δεδομένων που μεταφέρθηκαν από την παλιά σου συσκευή ήταν αδύνατη. Στείλε το αρχείο καταγραφής στο support@kahf.co, για να επιλύσουμε το πρόβλημα. Εάν επανεγκαταστήσεις το Kahf, πιθανόν να χαθεί το ιστορικό μηνυμάτων σου.";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Δεν ήταν δυνατή η ολοκλήρωση της μεταφοράς";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "Έλα να χρησιμοποιήσουμε το Kahf";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "Η συσκευή σου δεν είναι παραμετροποιημένη για να στέλνει email. Για να στείλεις ένα αίτημα υποστήριξης, ρύθμισε το email στη συσκευή σου ή στείλε email στο support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "Η συσκευή σου δεν είναι παραμετροποιημένη για να στέλνει email. Για να στείλεις ένα αίτημα υποστήριξης, ρύθμισε το email στη συσκευή σου ή στείλε email στο support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "Το email δεν είναι διαθέσιμο";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "Σφάλμα δικτύου";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Παρακαλούμε βοήθησέ μας να βελτιώσουμε το Kahf αναφέροντας αυτό το σφάλμα μαζί με τα αρχεία καταγραφής αποσφαλμάτωσης της συσκευής σου στο support@Kahf.org; %1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "Παρακαλούμε βοήθησέ μας να βελτιώσουμε το Kahf αναφέροντας αυτό το σφάλμα μαζί με τα αρχεία καταγραφής αποσφαλμάτωσης της συσκευής σου στο support@kahf.co; %1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf Beta: Παρουσιάστηκς κάποιο σφάλμα";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "Πες μας για το θέμα σου: ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Παρακαλώ στείλε το αίτημα υποστήριξής σου με email στο support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "Παρακαλώ στείλε το αίτημα υποστήριξής σου με email στο support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "Φίλτρο: %1$@";

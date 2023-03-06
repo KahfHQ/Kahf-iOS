@@ -128,7 +128,7 @@
 "APN_Message" = "您可能有新訊息";
 
 /* Default message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf 無法正常啟動。請將除錯日誌傳送至 support@Kahf.org 以讓我們解決問題。";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Kahf 無法正常啟動。請將除錯日誌傳送至 support@kahf.co 以讓我們解決問題。";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "錯誤";
@@ -146,7 +146,7 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "未知資料庫版本";
 
 /* Error indicating that the app crashed during the previous launch. */
-"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf 先前嘗試開啟的時候發生問題。請將除錯記錄檔傳送至 support@Kahf.org 協助解決此問題。";
+"APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_MESSAGE" = "Kahf 先前嘗試開啟的時候發生問題。請將除錯記錄檔傳送至 support@kahf.co 協助解決此問題。";
 
 /* Error indicating that the app crashed during the previous launch. */
 "APP_LAUNCH_FAILURE_LAST_LAUNCH_CRASHED_TITLE" = "先前未能開啟 Kahf";
@@ -158,7 +158,7 @@
 "APP_LAUNCH_FAILURE_LOW_STORAGE_SPACE_AVAILABLE_TITLE" = "儲存空間不足";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "無法還原從舊裝置轉移的資料。請將除錯日誌傳送至 support@Kahf.org 以便我們修正問題。重新安裝 Kahf 可能會導致訊息紀錄遺失。";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "無法還原從舊裝置轉移的資料。請將除錯日誌傳送至 support@kahf.co 以便我們修正問題。重新安裝 Kahf 可能會導致訊息紀錄遺失。";
 
 /* Error indicating that the app could not restore transferred data. */
 "APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "無法完成傳送資料";
@@ -2063,7 +2063,7 @@
 "EMAIL_INVITE_SUBJECT" = "我們不如改用 Kahf 吧";
 
 /* Description for the fallback support sheet if user cannot send email */
-"EMAIL_SIGNAL_MESSAGE" = "您的裝置尚未設定為傳送電郵。如欲傳送支援請求，請在您的裝置內設定電郵或傳送確認電郵 support@Kahf.org";
+"EMAIL_SIGNAL_MESSAGE" = "您的裝置尚未設定為傳送電郵。如欲傳送支援請求，請在您的裝置內設定電郵或傳送確認電郵 support@kahf.co";
 
 /* Title for the fallback support sheet if user cannot send email */
 "EMAIL_SIGNAL_TITLE" = "電郵不可用";
@@ -2207,7 +2207,7 @@
 "ERROR_NETWORK_FAILURE" = "網路出錯。";
 
 /* Format string for an error alert notification message. Embeds {{ error string }} */
-"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "為協助我們改進 Kahf，敬請附上由您的裝置產生的除錯記錄檔，並將此錯誤報告給 support@Kahf.org；%1$@";
+"ERROR_NOTIFICATION_MESSAGE_FORMAT" = "為協助我們改進 Kahf，敬請附上由您的裝置產生的除錯記錄檔，並將此錯誤報告給 support@kahf.co；%1$@";
 
 /* Format string for an error alert notification title. */
 "ERROR_NOTIFICATION_TITLE" = "Kahf 測試版：發生錯誤";
@@ -6836,7 +6836,7 @@
 "SUPPORT_EMAIL_DEFAULT_DESCRIPTION" = "請告訴我們該問題的詳情： ";
 
 /* Message for alert dialog presented when a support email failed to send */
-"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "請將您的支援請求傳送至 support@Kahf.org";
+"SUPPORT_EMAIL_ERROR_ALERT_DESCRIPTION" = "請將您的支援請求傳送至 support@kahf.co";
 
 /* Localized label for support request email filter string. Embeds {{filter text}}. */
 "SUPPORT_EMAIL_FILTER_LABEL_FORMAT" = "篩選：%1$@";
