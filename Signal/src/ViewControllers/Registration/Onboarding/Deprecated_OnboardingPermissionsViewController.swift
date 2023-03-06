@@ -85,7 +85,7 @@ public class Deprecated_OnboardingPermissionsViewController: Deprecated_Onboardi
             UIView.spacer(withHeight: 20),
             explanationLabel,
             UIView.spacer(withHeight: 60),
-            animationView,
+            //animationView,
             UIView.vStretchingSpacer(minHeight: 80),
             Deprecated_OnboardingBaseViewController.horizontallyWrap(primaryButton: giveAccessButton)
         ])
