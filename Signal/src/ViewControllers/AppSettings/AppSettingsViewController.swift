@@ -143,7 +143,7 @@ class AppSettingsViewController: OWSTableViewController2 {
                 }
             ))
         }
-        section1.add(.init(customCellBlock: { [weak self] in
+        /*section1.add(.init(customCellBlock: { [weak self] in
             guard let self = self else { return UITableViewCell() }
             let accessoryView: UIView?
             if self.hasExpiredGiftBadge {
@@ -163,7 +163,7 @@ class AppSettingsViewController: OWSTableViewController2 {
             )
         }, actionBlock: { [weak self] in
             self?.didTapDonate()
-        }))
+        }))*/
         contents.addSection(section1)
 
         let section2 = OWSTableSection()
@@ -228,7 +228,7 @@ class AppSettingsViewController: OWSTableViewController2 {
         ))
         contents.addSection(section2)
 
-        if payments.shouldShowPaymentsUI {
+        /*if payments.shouldShowPaymentsUI {
             let paymentsSection = OWSTableSection()
             paymentsSection.add(.init(
                 customCellBlock: {
@@ -305,7 +305,7 @@ class AppSettingsViewController: OWSTableViewController2 {
                 }
             ))
             contents.addSection(paymentsSection)
-        }
+        }*/
 
         let section3 = OWSTableSection()
         section3.add(.disclosureItem(
