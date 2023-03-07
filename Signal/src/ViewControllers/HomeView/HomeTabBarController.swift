@@ -10,8 +10,8 @@ import SignalUI
 
 class HomeTabBarController: UITabBarController {
     enum Tabs: Int {
-        case chatList = 0
-        case stories = 1
+        case stories = 0
+        case chatList = 1
     }
     lazy var settingsNavController = AppSettingsViewController.inModalNavigationController()
     lazy var settingsTabBarItem = UITabBarItem(title: NSLocalizedString("SETTINGS_NAV_BAR_TITLE",

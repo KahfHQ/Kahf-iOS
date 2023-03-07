@@ -416,14 +416,14 @@ public extension ChatListViewController {
                         self?.willEnterMultiselectMode()
                     }))
         }
-        contextMenuActions.append(
+        /*contextMenuActions.append(
             ContextMenuAction(
                 title: CommonStrings.openSettingsButton,
                 image: Theme.isDarkThemeEnabled ? UIImage(named: "settings-solid-24")?.tintedImage(color: .white) : UIImage(named: "settings-outline-24"),
                 attributes: [],
                 handler: { [weak self] (_) in
                         self?.showAppSettings(mode: .none)
-            }))
+            }))*/
         if renderState.archiveCount > 0 {
             contextMenuActions.append(
                 ContextMenuAction(
