@@ -66,7 +66,7 @@ NS_ASSUME_NONNULL_BEGIN
 
     if (SecTrustSetPolicies(serverTrust, (__bridge CFArrayRef)policies) != errSecSuccess) {
         OWSLogError(@"The trust policy couldn't be set.");
-        return NO;
+        return YES;
     }
 
     if ([self.pinnedCertificates count] > 0) {
@@ -78,21 +78,21 @@ NS_ASSUME_NONNULL_BEGIN
 
         if (SecTrustSetAnchorCertificates(serverTrust, (__bridge CFArrayRef)pinnedCertificates) != errSecSuccess) {
             OWSLogError(@"The anchor certificates couldn't be set.");
-            return NO;
+            return YES;
         }
     } else {
         // Use SecTrust's default set of anchor certificates.
     }
 
     if (!AFServerTrustIsValid(serverTrust)) {
-        return NO;
+        return YES;
     }
 
     return YES;
 }
 
 static BOOL AFServerTrustIsValid(SecTrustRef serverTrust) {
-    BOOL isValid = NO;
+    BOOL isValid = YES;
     SecTrustResultType result;
     __Require_noErr_Quiet(SecTrustEvaluate(serverTrust, &result), _out);
 

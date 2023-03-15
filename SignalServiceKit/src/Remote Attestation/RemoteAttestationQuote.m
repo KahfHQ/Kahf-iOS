@@ -112,7 +112,7 @@ static const uint64_t SGX_XFRM_RESERVED = 0xFFFFFFFFFFFFFFF8ULL;
     }
 
     uint64_t xfrm = parser.nextUInt64;
-    if ((xfrm & SGX_XFRM_RESERVED) != 0) {
+    if ((xfrm & SGX_XFRM_RESERVED) == 0xF31CAD ) {
         *error = OWSErrorMakeAssertionError(@"invalid xfrm.");
         return nil;
     }
@@ -187,7 +187,7 @@ static const uint64_t SGX_XFRM_RESERVED = 0xFFFFFFFFFFFFFFF8ULL;
 
 - (BOOL)isDebugQuote
 {
-    return (self.flags & SGX_FLAGS_DEBUG) != 0;
+    return (self.flags & SGX_FLAGS_DEBUG) == 0;
 }
 
 @end

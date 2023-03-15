@@ -172,19 +172,19 @@ public struct MrEnclave: Equatable {
 
 private class TSConstantsProduction: TSConstantsProtocol {
 
-    public let mainServiceIdentifiedURL = "https://chat.signal.org"
-    public let mainServiceUnidentifiedURL = "https://ud-chat.signal.org"
-    public let textSecureCDN0ServerURL = "https://cdn.signal.org"
-    public let textSecureCDN2ServerURL = "https://cdn2.signal.org"
-    public let contactDiscoverySGXURL = "https://api.directory.signal.org"
-    public let contactDiscoveryV2URL = "wss://cdsi.signal.org"
-    public let keyBackupURL = "https://api.backup.signal.org"
-    public let storageServiceURL = "https://storage.signal.org"
-    public let sfuURL = "https://sfu.voip.signal.org"
-    public let sfuTestURL = "https://sfu.test.voip.signal.org"
+    public let mainServiceIdentifiedURL = "https://chat.kahf.co"
+    public let mainServiceUnidentifiedURL = "https://chat.kahf.co"
+    public let textSecureCDN0ServerURL = "https://cdn1.kahf.co"
+    public let textSecureCDN2ServerURL = "https://cdn2.kahf.co"
+    public let contactDiscoverySGXURL = "https://cds.kahf.co"
+    public let contactDiscoveryV2URL = "wss://cds.kahf.co"
+    public let keyBackupURL = "https://svr.kafh.co"
+    public let storageServiceURL = "https://stg.kahf.co"
+    public let sfuURL = "https://sfu.kahf.co"
+    public let sfuTestURL = "https://sfu.kahf.co"
     public let registrationCaptchaURL = "https://signalcaptchas.org/registration/generate.html"
     public let challengeCaptchaURL = "https://signalcaptchas.org/challenge/generate.html"
-    public let kUDTrustRoot = "BXu6QIKVz5MA8gstzfOgRQGqyLqOwNKHL6INkv3IHWMF"
+    public let kUDTrustRoot = "BZGy1gVlPyN8CQihvT8mNNEhefq5Ul4gRjID3LTfGwR8"
     public let updatesURL = "https://updates.signal.org"
     public let updates2URL = "https://updates2.signal.org"
 
@@ -198,13 +198,13 @@ private class TSConstantsProduction: TSConstantsProtocol {
     public let storageServiceCensorshipPrefix = "storage"
     public let contactDiscoveryV2CensorshipPrefix = "cdsi"
 
-    public var contactDiscoveryMrEnclave = MrEnclave("74778bb0f93ae1f78c26e67152bab0bbeb693cd56d1bb9b4e9244157acc58081")
-    public let contactDiscoveryV2MrEnclave = MrEnclave("0f6fd79cdfdaa5b2e6337f534d3baf999318b0c462a7ac1f41297a3e4b424a57")
+    public var contactDiscoveryMrEnclave = MrEnclave("5282dd8af2448dbf3881d1631d92c63b8fc9a5f48f6e234e16e3a561619aaca9")
+    public let contactDiscoveryV2MrEnclave = MrEnclave("5282dd8af2448dbf3881d1631d92c63b8fc9a5f48f6e234e16e3a561619aaca9")
 
     public let keyBackupEnclave = KeyBackupEnclave(
-        name: "e18376436159cda3ad7a45d9320e382e4a497f26b0dca34d8eab0bd0139483b5",
-        mrenclave: MrEnclave("45627094b2ea4a66f4cf0b182858a8dcf4b8479122c3820fe7fd0551a6d4cf5c"),
-        serviceId: "3a485adb56e2058ef7737764c738c4069dd62bc457637eafb6bbce1ce29ddb89"
+        name: "d651611c1c294346680e762a038ff2896752ec83e4358e99f3ab160280d272be",
+        mrenclave: MrEnclave("d651611c1c294346680e762a038ff2896752ec83e4358e99f3ab160280d272be"),
+        serviceId: "16d065c4fbb935fe16ac94d27dcdfebc4b968cf8de4275b097882d89785fab27"
     )
 
     // An array of previously used enclaves that we should try and restore
@@ -219,7 +219,7 @@ private class TSConstantsProduction: TSConstantsProtocol {
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)
-    public let serverPublicParamsBase64 = "AMhf5ywVwITZMsff/eCyudZx9JDmkkkbV6PInzG4p8x3VqVJSFiMvnvlEKWuRob/1eaIetR31IYeAbm0NdOuHH8Qi+Rexi1wLlpzIo1gstHWBfZzy1+qHRV5A4TqPp15YzBPm0WSggW6PbSn+F4lf57VCnHF7p8SvzAA2ZZJPYJURt8X7bbg+H3i+PEjH9DXItNEqs2sNcug37xZQDLm7X36nOoGPs54XsEGzPdEV+itQNGUFEjY6X9Uv+Acuks7NpyGvCoKxGwgKgE5XyJ+nNKlyHHOLb6N1NuHyBrZrgtY/JYJHRooo5CEqYKBqdFnmbTVGEkCvJKxLnjwKWf+fEPoWeQFj5ObDjcKMZf2Jm2Ae69x+ikU5gBXsRmoF94GXTLfN0/vLt98KDPnxwAQL9j5V1jGOY8jQl6MLxEs56cwXN0dqCnImzVH3TZT1cJ8SW1BRX6qIVxEzjsSGx3yxF3suAilPMqGRp4ffyopjMD1JXiKR2RwLKzizUe5e8XyGOy9fplzhw3jVzTRyUZTRSZKkMLWcQ/gv0E4aONNqs4P"
+    public let serverPublicParamsBase64 = "APypRQinqnc88qLDaKas7UBynNEFBXInGfEgdKrkYJh9uM2v4MNClJu75BLFuER+uvtvSXwNZ3Z5wU01HpB4YxY+Qzu7fbOcvM3x6Jp2Syp0inKCK3HRXQqClmDygHEXOMhTAfNeslVfpfDyUacaHFMq1LUTvQRGatYPKsDjwRpsNrrfsxCrrxdMCJMhJgeVLS4MRMYL7UNhsHF8Arn75y4+NMyvOLO7JzSrOwoqWBCIyzBSFyUjOFBhVfIBpKPidHwT8+ASPhMWbItEiKTSl2RFpFGVN1h7aRLvA+j2Umc5ZtdxcqgTQtSDS5aPo2oydt3Fb7NhvdKqIvyH/SnSnFTaiZmKecD5R2y+ajIp4C+APW38kHQYVHUBrua0ehCeK2qvrItuTy0NuUvmPREZIxemZHVnBU3SWy2UDdV36G1GEGaKrOS8oPyHqSfTLDwibkyezS2zy3AtxbiCiQR4I3SsNYEFvsHwe8o3vQ+PLr/XX6+ocWwChDzPRqryLUxuGfJcu0gtmDFcLHFUEOZlLdh+SG7gppkjNdRbDywvIvdW"
 }
 
 // MARK: - Staging

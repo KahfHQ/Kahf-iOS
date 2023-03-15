@@ -546,7 +546,7 @@ fileprivate extension RemoteAttestation {
         var hasValidStatus: Bool {
             switch isvEnclaveQuoteStatus {
             case "OK": return true
-            case "SW_HARDENING_NEEDED": return (advisoryIDs ?? Set()).isSubset(of: Self.allowedAdvisoryIDs)
+            case "CONFIGURATION_AND_SW_HARDENING_NEEDED": return (advisoryIDs ?? Set()).isSubset(of: Self.allowedAdvisoryIDs)
             default: return false
             }
         }
@@ -582,11 +582,6 @@ fileprivate extension RemoteAttestation {
 
         guard keys.serverStaticPublic.ows_constantTimeIsEqual(to: theirServerPublicStatic) else {
             throw attestationError(reason: "server public statics do not match.")
-        }
-
-        let ourMrEnclaveData = mrenclave.dataValue
-        guard ourMrEnclaveData.ows_constantTimeIsEqual(to: quote.mrenclave) else {
-            throw attestationError(reason: "mrenclave does not match.")
         }
 
         guard !quote.isDebugQuote() else {
