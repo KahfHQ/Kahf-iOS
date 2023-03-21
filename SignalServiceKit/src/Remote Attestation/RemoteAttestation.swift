@@ -541,12 +541,12 @@ fileprivate extension RemoteAttestation {
         let advisoryURL: String?
         let advisoryIDs: Set<String>?
 
-        private static let allowedAdvisoryIDs = ["INTEL-SA-00334", "INTEL-SA-00615"]
+        private static let allowedAdvisoryIDs = ["INTEL-SA-00334", "INTEL-SA-00615", "INTEL-SA-00289", "INTEL-SA-00161", "INTEL-SA-00219"]
 
         var hasValidStatus: Bool {
             switch isvEnclaveQuoteStatus {
             case "OK": return true
-            case "CONFIGURATION_AND_SW_HARDENING_NEEDED": return (advisoryIDs ?? Set()).isSubset(of: Self.allowedAdvisoryIDs)
+            case "SW_HARDENING_NEEDED": return (advisoryIDs ?? Set()).isSubset(of: Self.allowedAdvisoryIDs)
             default: return false
             }
         }
