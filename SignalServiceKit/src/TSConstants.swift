@@ -178,7 +178,7 @@ private class TSConstantsProduction: TSConstantsProtocol {
     public let textSecureCDN2ServerURL = "https://cdn2.kahf.co"
     public let contactDiscoverySGXURL = "https://cds.kahf.co"
     public let contactDiscoveryV2URL = "wss://cds.kahf.co"
-    public let keyBackupURL = "https://svr.kafh.co"
+    public let keyBackupURL = "https://svr.kahf.co"
     public let storageServiceURL = "https://stg.kahf.co"
     public let sfuURL = "https://sfu.kahf.co"
     public let sfuTestURL = "https://sfu.kahf.co"
