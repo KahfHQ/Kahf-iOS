@@ -546,7 +546,7 @@ fileprivate extension RemoteAttestation {
         var hasValidStatus: Bool {
             switch isvEnclaveQuoteStatus {
             case "OK": return true
-            case "SW_HARDENING_NEEDED": return (advisoryIDs ?? Set()).isSubset(of: Self.allowedAdvisoryIDs)
+            case "CONFIGURATION_AND_SW_HARDENING_NEEDED": return (advisoryIDs ?? Set()).isSubset(of: Self.allowedAdvisoryIDs)
             default: return false
             }
         }
