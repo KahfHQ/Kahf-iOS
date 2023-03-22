@@ -62,7 +62,7 @@ public class FeatureFlags: BaseFlags {
     public static let phoneNumberDiscoverability = build.includes(.internal)
 
     @objc
-    public static let usernames = build.includes(.internal)
+    public static let usernames = false
 
     @objc
     public static let linkedPhones = build.includes(.internal)
@@ -94,7 +94,7 @@ public class FeatureFlags: BaseFlags {
     public static let isPrerelease = build.includes(.beta)
 
     @objc
-    public static let contactDiscoveryV2 = true
+    public static let contactDiscoveryV2 = false
 
     @objc
     public static var notificationServiceExtension: Bool {
