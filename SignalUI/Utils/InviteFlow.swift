@@ -33,8 +33,8 @@ public class InviteFlow: NSObject, MFMessageComposeViewControllerDelegate, MFMai
         }
     }
 
-    private let installUrl = "https://signal.org/install/"
-    private let homepageUrl = "https://signal.org"
+    private let installUrl = "https://Kahf.co/install/"
+    private let homepageUrl = "https://Kahf.co"
 
     private weak var presentingViewController: UIViewController?
     private var modalPresentationViewController: UIViewController?
