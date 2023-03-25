@@ -65,7 +65,7 @@ public class Deprecated_SecondaryLinkingPrepViewController: Deprecated_Onboardin
         let stackView = UIStackView(arrangedSubviews: [
             titleLabel,
             UIView.spacer(withHeight: 12),
-            animationView,
+            //animationView,
             dontHaveSignalButton,
             UIView.vStretchingSpacer(minHeight: 12),
             primaryButtonView

@@ -632,6 +632,7 @@ private class NoSelectedConversationViewController: OWSViewController {
         logoImageView.image = #imageLiteral(resourceName: "signal-logo-128").withRenderingMode(.alwaysTemplate)
         logoImageView.contentMode = .scaleAspectFit
         logoImageView.autoSetDimension(.height, toSize: 112)
+        logoImageView.isHidden = true
         view.addSubview(logoImageView)
 
         logoImageView.autoCenterInSuperview()
