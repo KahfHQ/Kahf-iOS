@@ -559,7 +559,12 @@ extension StoriesViewController: UITableViewDataSource {
     func model(for indexPath: IndexPath) -> StoryViewModel? {
         switch Section(rawValue: indexPath.section) {
         case .visibleStories:
-            return dataSource.visibleStories[safe: indexPath.row]
+            if dataSource.visibleStories[safe: indexPath.row]?.latestMessageName == "Kahf" {
+                return nil
+            }
+            else {
+                return dataSource.visibleStories[safe: indexPath.row]
+            }
         case .hiddenStories:
             // Offset by 1 to account for the header cell.
             let headerOffset = dataSource.shouldDisplayHiddenStoriesHeader ? 1 : 0

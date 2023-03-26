@@ -113,13 +113,9 @@ class StoryListDataSource: NSObject, Dependencies {
 
                     return (storyListModels, myStoryModel)
                 }
-                var latestStories = listStories
-                latestStories.removeAll { model in
-                    model.latestMessageName == "Kahf"
-                }
                 let newModel = StoryListViewModel(
                     myStory: myStoryModel,
-                    stories: latestStories.sorted(by: Self.sortStoryModels),
+                    stories: listStories.sorted(by: Self.sortStoryModels),
                     searchText: oldModel.searchText,
                     isHiddenStoriesSectionCollapsed: oldModel.isHiddenStoriesSectionCollapsed
                 )
