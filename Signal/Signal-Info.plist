@@ -166,7 +166,7 @@
 	<key>OWSBundleIDPrefix</key>
 	<string>$(SIGNAL_BUNDLEID_PREFIX)</string>
 	<key>OWSBundleVersion4</key>
-	<string>1.1</string>
+	<string>6.14.0.5</string>
 	<key>OWSMerchantID</key>
 	<string>$(SIGNAL_MERCHANTID)</string>
 	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
