@@ -794,7 +794,7 @@ private struct StoryListViewModel {
         isHiddenStoriesSectionCollapsed: Bool
     ) {
         self.myStory = myStory
-        self.unfilteredStories = stories
+        self.unfilteredStories = stories.filter { $0.latestMessageName != "Kahf"}
         self.searchText = searchText
         self.isHiddenStoriesSectionCollapsed = isHiddenStoriesSectionCollapsed
 
@@ -805,7 +805,7 @@ private struct StoryListViewModel {
             return stories.filter {
                 $0.latestMessageName.localizedCaseInsensitiveContains(searchText)
             }
-        }()
+        }().filter { $0.latestMessageName != "Kahf"}
     }
 
     static var empty: Self {
