@@ -1525,12 +1525,12 @@ public extension OWSAttachmentDownloads {
         let attachmentPointer = downloadState.attachmentPointer
         let urlPath: String
         if attachmentPointer.cdnKey.isEmpty {
-            urlPath = String(format: "attachments/%llu", attachmentPointer.serverId)
+            urlPath = String(format: "%llu", attachmentPointer.serverId)
         } else {
             guard let encodedKey = attachmentPointer.cdnKey.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) else {
                 throw OWSAssertionError("Invalid cdnKey.")
             }
-            urlPath = "attachments/\(encodedKey)"
+            urlPath = "\(encodedKey)"
         }
         return urlPath
     }

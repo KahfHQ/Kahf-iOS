@@ -113,13 +113,9 @@ class StoryListDataSource: NSObject, Dependencies {
 
                     return (storyListModels, myStoryModel)
                 }
-                var latestStories = listStories
-                latestStories.removeAll { model in
-                    model.latestMessageName == "Kahf"
-                }
                 let newModel = StoryListViewModel(
                     myStory: myStoryModel,
-                    stories: latestStories.sorted(by: Self.sortStoryModels),
+                    stories: listStories.sorted(by: Self.sortStoryModels),
                     searchText: oldModel.searchText,
                     isHiddenStoriesSectionCollapsed: oldModel.isHiddenStoriesSectionCollapsed
                 )
@@ -798,7 +794,7 @@ private struct StoryListViewModel {
         isHiddenStoriesSectionCollapsed: Bool
     ) {
         self.myStory = myStory
-        self.unfilteredStories = stories
+        self.unfilteredStories = stories.filter { $0.latestMessageName != "Kahf"}
         self.searchText = searchText
         self.isHiddenStoriesSectionCollapsed = isHiddenStoriesSectionCollapsed
 
@@ -809,7 +805,7 @@ private struct StoryListViewModel {
             return stories.filter {
                 $0.latestMessageName.localizedCaseInsensitiveContains(searchText)
             }
-        }()
+        }().filter { $0.latestMessageName != "Kahf"}
     }
 
     static var empty: Self {
