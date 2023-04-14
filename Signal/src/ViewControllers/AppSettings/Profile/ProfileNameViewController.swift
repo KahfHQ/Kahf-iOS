@@ -124,17 +124,6 @@ class ProfileNameViewController: OWSTableViewController2 {
         givenNameTextField.delegate = self
         givenNameTextField.accessibilityIdentifier = "given_name_textfield"
         givenNameTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
-
-        familyNameTextField.returnKeyType = .done
-        familyNameTextField.autocorrectionType = .no
-        familyNameTextField.spellCheckingType = .no
-        familyNameTextField.placeholder = NSLocalizedString(
-            "PROFILE_VIEW_FAMILY_NAME_DEFAULT_TEXT",
-            comment: "Default text for the family name field of the profile view."
-        )
-        familyNameTextField.delegate = self
-        familyNameTextField.accessibilityIdentifier = "family_name_textfield"
-        familyNameTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
     }
 
     private static let bioButtonHeight: CGFloat = 28
@@ -143,7 +132,6 @@ class ProfileNameViewController: OWSTableViewController2 {
         let contents = OWSTableContents()
 
         let givenNameTextField = self.givenNameTextField
-        let familyNameTextField = self.familyNameTextField
 
         let namesSection = OWSTableSection()
         func addTextField(_ textField: UITextField) {
@@ -157,17 +145,7 @@ class ProfileNameViewController: OWSTableViewController2 {
             ))
         }
 
-        // For CJKV locales, display family name field first.
-        if NSLocale.current.isCJKV {
-            addTextField(familyNameTextField)
-            addTextField(givenNameTextField)
-
-        // Otherwise, display given name field first.
-        } else {
-            addTextField(givenNameTextField)
-            addTextField(familyNameTextField)
-        }
-
+        addTextField(givenNameTextField)
         contents.addSection(namesSection)
 
         self.contents = contents
@@ -234,13 +212,7 @@ class ProfileNameViewController: OWSTableViewController2 {
 
 extension ProfileNameViewController: UITextFieldDelegate {
 
-    private var firstTextField: UITextField {
-        NSLocale.current.isCJKV ? familyNameTextField : givenNameTextField
-    }
-
-    private var secondTextField: UITextField {
-        NSLocale.current.isCJKV ? givenNameTextField : familyNameTextField
-    }
+    private var firstTextField: UITextField { givenNameTextField }
 
     public func textField(_ textField: UITextField,
                           shouldChangeCharactersIn range: NSRange,
@@ -254,11 +226,7 @@ extension ProfileNameViewController: UITextFieldDelegate {
     }
 
     public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        if textField == firstTextField {
-            secondTextField.becomeFirstResponder()
-        } else {
-            didTapDone()
-        }
+        didTapDone()
         return false
     }
 

@@ -40,7 +40,7 @@ public class Mention: NSObject {
     }
 
     public convenience init(address: SignalServiceAddress, style: Style, transaction: GRDBReadTransaction) {
-        let displayName = Self.contactsManager.displayName(
+        let displayName = Self.contactsManager.shortDisplayName(
             for: address,
             transaction: transaction.asAnyRead
         )

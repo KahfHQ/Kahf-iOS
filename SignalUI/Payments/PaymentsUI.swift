@@ -22,7 +22,7 @@ public extension PaymentsUI {
         let userName = databaseStorage.write { transaction -> String in
             let contactThread = TSContactThread.getOrCreateThread(withContactAddress: paymentRequestModel.address,
                                                                         transaction: transaction)
-            return Self.contactsManager.displayName(for: contactThread.contactAddress,
+            return Self.contactsManager.shortDisplayName(for: contactThread.contactAddress,
                                                     transaction: transaction)
 
         }

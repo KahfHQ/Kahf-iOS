@@ -633,7 +633,7 @@ NSString *const OWSContactsManagerKeyNextFullIntersectionDate = @"OWSContactsMan
     __block NSString *displayName;
     
     [self.databaseStorage readWithBlock:^(SDSAnyReadTransaction *transaction) {
-        displayName = [self displayNameForAddress:address transaction:transaction];
+        displayName = [self shortDisplayNameForAddress:address transaction:transaction];
     }];
     
     return displayName;

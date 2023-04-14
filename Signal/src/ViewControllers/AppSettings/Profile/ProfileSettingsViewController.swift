@@ -10,7 +10,6 @@ import SignalUI
 
 @objc
 class ProfileSettingsViewController: OWSTableViewController2 {
-
     private let context: ViewControllerContext = .shared
 
     private var hasUnsavedChanges = false {
@@ -106,7 +105,7 @@ class ProfileSettingsViewController: OWSTableViewController2 {
         )
         mainSection.add(.disclosureItem(
             icon: .settingsProfile,
-            name: fullName ?? NSLocalizedString(
+            name: givenName ?? NSLocalizedString(
                 "PROFILE_SETTINGS_NAME_PLACEHOLDER",
                 comment: "Placeholder when the user doesn't have a 'name' defined for profile settings screen."
             ),
@@ -117,7 +116,7 @@ class ProfileSettingsViewController: OWSTableViewController2 {
                 self.presentFormSheet(OWSNavigationController(rootViewController: vc), animated: true)
             }
         ))
-
+        
         if FeatureFlags.usernames, let localAci {
             mainSection.add(.init(
                 customCellBlock: { [weak self] in
@@ -169,6 +168,21 @@ class ProfileSettingsViewController: OWSTableViewController2 {
             ))
         }
         contents.addSection(mainSection)
+
+        mainSection.add(OWSTableItem.disclosureItem(
+            withText: NSLocalizedString(
+                "PROFILE_GENDER_TITLE",
+                comment: "Gender text"
+            ),
+            detailText: normalizedFamilyName,
+            accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "theme")
+        ) { [weak self] in
+            guard let self = self else { return }
+            let vc = GenderSettingsTableViewController(familyName: self.familyName, genderSettingsDelegate: self)
+            vc.profileVC = self
+            vc.normalizedFamilyName = self.normalizedFamilyName
+            self.navigationController?.pushViewController(vc, animated: true)
+        })
 
         self.contents = contents
     }
@@ -625,6 +639,14 @@ extension ProfileSettingsViewController: UsernameSelectionDelegate {
     func usernameDidChange(to newValue: String?) {
         username = newValue
 
+        updateTableContents()
+    }
+}
+
+extension ProfileSettingsViewController: GenderSettingsTableViewControllerDelegate {
+    func genderDidChange(gender: String) {
+        self.familyName = gender
+        self.hasUnsavedChanges = true
         updateTableContents()
     }
 }

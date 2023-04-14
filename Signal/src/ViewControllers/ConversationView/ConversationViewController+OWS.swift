@@ -184,7 +184,7 @@ extension ConversationViewController {
 
     public func showDeliveryIssueWarningAlert(from senderAddress: SignalServiceAddress, isKnownThread: Bool) {
         let senderName = databaseStorage.read { transaction in
-            Self.contactsManager.displayName(for: senderAddress, transaction: transaction)
+            Self.contactsManager.shortDisplayName(for: senderAddress, transaction: transaction)
         }
         let alertTitle = NSLocalizedString("ALERT_DELIVERY_ISSUE_TITLE", comment: "Title for delivery issue sheet")
         let alertMessageFormat: String

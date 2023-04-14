@@ -244,8 +244,7 @@ typedef void (^CustomLayoutBlock)(void);
     [learnMoreLabel autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:ScaleFromIPhone5To7Plus(5.f, 10.f)];
 
     // Instructions
-    NSString *instructionsFormat = NSLocalizedString(@"PRIVACY_VERIFICATION_INSTRUCTIONS",
-        @"Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}}");
+    NSString *instructionsFormat = @"";
     UILabel *instructionsLabel = [UILabel new];
     instructionsLabel.text = [NSString stringWithFormat:instructionsFormat, self.contactName];
     instructionsLabel.font = [UIFont ows_regularFontWithSize:ScaleFromIPhone5To7Plus(11.f, 14.f)];
@@ -396,8 +395,8 @@ typedef void (^CustomLayoutBlock)(void);
                                                NSFontAttributeName : [UIFont
                                                    ows_fontAwesomeFont:self.verifyUnverifyButtonLabel.font.pointSize],
                                            }];
-        [buttonText append:NSLocalizedString(@"PRIVACY_VERIFY_BUTTON",
-                                               @"Button that lets user mark another user's identity as verified.")
+        [buttonText append:NSLocalizedString(@"PRIVACY_MAHRAM_BUTTON_TEXT",
+                                               @"Button that lets user mark another user's identity as mahram.")
                 attributes:@{}];
         self.verifyUnverifyButtonLabel.attributedText = buttonText;
     }

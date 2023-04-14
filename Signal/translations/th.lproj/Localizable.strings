@@ -7350,3 +7350,11 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "คุณได้ตั้งเวลาข้อความที่ลบตัวเองได้ไว้ที่ %1$@";
+
+"PROFILE_GENDER_TITLE" = "เพศ"; 
+
+"PROFILE_GENDER_FEMALE_TEXT" = "หญิง";
+
+"PROFILE_GENDER_MALE_TEXT" = "ชาย";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "ทำเครื่องหมายเป็น Mahram";

@@ -7350,3 +7350,11 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Поставили сте трајање нестајућих порука на %1$@.";
+
+"PROFILE_GENDER_TITLE" = "Пол";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "Женско";
+
+"PROFILE_GENDER_MALE_TEXT" = "Мушки";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "Означи као Махрам";

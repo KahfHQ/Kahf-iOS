@@ -3,7 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>BuildDetails</key>
-	<dict/>
+	<dict>
+		<key>DateTime</key>
+		<string>Thu Apr 13 08:41:28 UTC 2023</string>
+		<key>SignalCommit</key>
+		<string>5ceedf13b6ea72137f9d5b9c8e99ce5e266d16a7 Merge pull request #1 from KahfHQ/release/v1.1</string>
+		<key>Timestamp</key>
+		<integer>1681375288</integer>
+		<key>XCodeVersion</key>
+		<string>1400.1420</string>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -64,34 +73,6 @@
 				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
 				<false/>
 			</dict>
-			<key>svr.kahf.co</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-				<false/>
-			</dict>
-			<key>cds.kahf.co</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-				<false/>
-			</dict>
-			<key>sfu.kahf.co</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-				<false/>
-			</dict>
-			<key>stg.kahf.co</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-				<false/>
-			</dict>
 			<key>cdn1.kahf.co</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
@@ -106,7 +87,7 @@
 				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
 				<false/>
 			</dict>
-			<key>turn.kahf.co</key>
+			<key>cds.kahf.co</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
@@ -120,12 +101,40 @@
 				<key>NSIncludesSubdomains</key>
 				<true/>
 			</dict>
+			<key>sfu.kahf.co</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
 			<key>signal.org</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
 				<key>NSIncludesSubdomains</key>
 				<true/>
+			</dict>
+			<key>stg.kahf.co</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+			<key>svr.kahf.co</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+			<key>turn.kahf.co</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
 			</dict>
 			<key>whispersystems.org</key>
 			<dict>
@@ -147,7 +156,7 @@
 	<key>NSContactsUsageDescription</key>
 	<string>Kahf uses your contacts to find users you know. We do not store your contacts on the server.</string>
 	<key>NSFaceIDUsageDescription</key>
-	<string>Kahf&apos;s Screen Lock uses Face ID.</string>
+	<string>Kahf's Screen Lock uses Face ID.</string>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>Kahf uses the local network to allow you to directly transfer your account to a new phone. It will not be used unless you explicitly choose to initiate a transfer to a new device.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>

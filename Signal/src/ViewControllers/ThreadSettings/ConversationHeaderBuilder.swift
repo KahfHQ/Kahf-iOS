@@ -204,8 +204,7 @@ struct ConversationHeaderBuilder: Dependencies {
             let subtitle = NSMutableAttributedString()
             subtitle.appendTemplatedImage(named: "check-12", font: .ows_dynamicTypeSubheadlineClamped)
             subtitle.append(" ")
-            subtitle.append(NSLocalizedString("PRIVACY_IDENTITY_IS_VERIFIED_BADGE",
-                                              comment: "Badge indicating that the user is verified."))
+            subtitle.append("Mahram")
             builder.addSubtitleLabel(attributedText: subtitle)
         }
 
@@ -449,10 +448,7 @@ struct ConversationHeaderBuilder: Dependencies {
 
     func buildThreadNameLabel() -> UILabel {
         let label = UILabel()
-        label.text = delegate.threadName(
-            renderLocalUserAsNoteToSelf: options.contains(.renderLocalUserAsNoteToSelf),
-            transaction: transaction
-        )
+        label.text = delegate.threadViewModel.shortName ?? delegate.threadViewModel.name
         label.textColor = Theme.primaryTextColor
         // TODO: See if design really wants this custom font size.
         label.font = UIFont.ows_semiboldFont(withSize: UIFont.ows_dynamicTypeTitle1Clamped.pointSize * (13/14))

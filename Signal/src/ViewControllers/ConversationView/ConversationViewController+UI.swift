@@ -20,7 +20,7 @@ extension ConversationViewController {
             if thread.isNoteToSelf {
                 name = MessageStrings.noteToSelf
             } else {
-                name = contactsManager.displayName(for: contactThread.contactAddress)
+                name = threadViewModel.shortName ?? threadViewModel.name
             }
 
             // If the user is in the system contacts, show a badge
@@ -251,9 +251,7 @@ extension ConversationViewController {
 
             subtitleText.appendTemplatedImage(named: "check-12", font: subtitleFont)
             subtitleText.append(iconSpacer, attributes: attributes)
-            subtitleText.append(NSLocalizedString("PRIVACY_IDENTITY_IS_VERIFIED_BADGE",
-                                                  comment: "Badge indicating that the user is verified."),
-                                attributes: attributes)
+            subtitleText.append("Mahram")
         }
 
         headerView.attributedSubtitle = subtitleText

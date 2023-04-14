@@ -625,7 +625,7 @@ class AnySearchIndexer: Dependencies {
         // We may likely end up with duplicate text in the index since the
         // display name will likely include some or all of the name components,
         // but that's fine.
-        var nameStrings: Set<String> = [contactsManager.displayName(for: recipientAddress, transaction: transaction)]
+        var nameStrings: Set<String> = [contactsManager.shortDisplayName(for: recipientAddress, transaction: transaction)]
         if let nameComponents = contactsManager.nameComponents(for: recipientAddress, transaction: transaction) {
             let insert: (String?) -> Void = { if let s = $0 { nameStrings.insert(s) } }
             insert(nameComponents.givenName)

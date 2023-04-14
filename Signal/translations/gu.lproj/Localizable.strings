@@ -7350,3 +7350,11 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "તમે અદ્રશ્ય મેસેજ સમય %1$@ પર સેટ કર્યો છે.";
+
+"PROFILE_GENDER_TITLE" = "જાતિ";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "સ્ત્રી"; 
+
+"PROFILE_GENDER_MALE_TEXT" = "પુરુષ";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "મહરામ તરીકે ચિહ્નિત કરો";

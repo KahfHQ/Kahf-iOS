@@ -384,7 +384,7 @@ class AppSettingsViewController: OWSTableViewController2 {
         let nameLabel = UILabel()
         vStackView.addArrangedSubview(nameLabel)
         nameLabel.font = UIFont.ows_dynamicTypeTitle2Clamped.ows_medium
-        if let fullName = snapshot.fullName, !fullName.isEmpty {
+        if let fullName = snapshot.givenName, !fullName.isEmpty {
             nameLabel.text = fullName
             nameLabel.textColor = Theme.primaryTextColor
         } else {

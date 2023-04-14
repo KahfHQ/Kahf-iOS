@@ -7350,3 +7350,11 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Kaybolan ileti süresini %1$@ olarak ayarladınız.";
+
+"PROFILE_GENDER_TITLE" = "Cinsiyet"; 
+
+"PROFILE_GENDER_FEMALE_TEXT" = "Kadın";
+
+"PROFILE_GENDER_MALE_TEXT" = "Erkek";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "Mahrem olarak işaretle";

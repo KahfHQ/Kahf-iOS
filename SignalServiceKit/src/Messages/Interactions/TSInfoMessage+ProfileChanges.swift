@@ -95,7 +95,7 @@ public class ProfileChanges: MTLModel {
         }
 
         if contactsManager.hasNameInSystemContacts(for: address, transaction: transaction) {
-            let displayName = contactsManager.displayName(for: address, transaction: transaction)
+            let displayName = contactsManager.shortDisplayName(for: address, transaction: transaction)
 
             let formatString = OWSLocalizedString(
                 "PROFILE_NAME_CHANGE_SYSTEM_CONTACT_FORMAT",

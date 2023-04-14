@@ -7350,3 +7350,11 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "आपण नाहीसे होणारे संदेशाची वेळ %1$@ वर सेट केली आहे.";
+
+"PROFILE_GENDER_TITLE" = "लिंग"; 
+
+"PROFILE_GENDER_FEMALE_TEXT" = "स्त्री"; 
+
+"PROFILE_GENDER_MALE_TEXT" = "पुरुष";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "मोहरम म्हणून चिन्हांकित करा"; 

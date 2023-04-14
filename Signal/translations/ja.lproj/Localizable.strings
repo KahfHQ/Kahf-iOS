@@ -7350,3 +7350,11 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "消えるメッセージのタイマーを%1$@に設定しました。";
+
+"PROFILE_GENDER_TITLE" = "性別";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "女性"; 
+
+"PROFILE_GENDER_MALE_TEXT" = "男";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "マーラムとしてマーク";

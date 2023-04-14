@@ -285,7 +285,7 @@ open class ConversationPickerViewController: OWSTableViewController2 {
         let isBlocked = self.blockingManager.isAddressBlocked(address, transaction: transaction)
         let dmConfig = TSContactThread.getWithContactAddress(address, transaction: transaction)?.disappearingMessagesConfiguration(with: transaction)
 
-        let contactName = contactsManager.displayName(for: address,
+        let contactName = contactsManager.shortDisplayName(for: address,
                                                       transaction: transaction)
 
         let comparableName = contactsManager.comparableName(for: address,
