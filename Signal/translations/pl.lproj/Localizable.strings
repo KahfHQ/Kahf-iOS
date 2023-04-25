@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Odtwórz";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "%1$@ nie jest oznaczony(a) jako zweryfikowany.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Nie oznaczyłeś %@ jako Mahram";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Zweryfikowano";

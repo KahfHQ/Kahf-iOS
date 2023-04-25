@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Mainkan Media";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Anda tidak tandakan %1$@ sebagai disahkan.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Anda belum menandai %@ sebagai Mahram";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Disahkan";

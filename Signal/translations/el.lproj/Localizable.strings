@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Αναπαραγωγή πολυμέσων";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Δεν έχεις σημειώσει τον/την %1$@ ως επιβεβαιωμένο/η.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Δεν έχετε επισημάνει το %@ ως Mahram";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Επιβεβαιωμένος/η";

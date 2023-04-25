@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "মিডিয়া চালান";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "আপনি %1$@ কে যাচাইকৃত হিসেবে চিহ্নিত করেছেন";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "আপনি %@ কে মাহরাম হিসাবে চিহ্নিত করেননি";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "যাচাইকৃত";

@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Seinn an Comhad Meáin";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Níor mharcáil tú %1$@ deimhnithe fós.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" =  "Níl %@ marcáilte agat mar Mahram";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Deimhnithe";

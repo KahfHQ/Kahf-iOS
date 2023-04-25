@@ -208,7 +208,7 @@ struct ConversationHeaderBuilder: Dependencies {
             builder.addSubtitleLabel(attributedText: subtitle)
         }
 
-        builder.addButtons()
+        builder.addButtons(isVerified: isVerified)
 
         return builder.build()
     }
@@ -238,7 +238,7 @@ struct ConversationHeaderBuilder: Dependencies {
         subviews.append(buildThreadNameLabel())
     }
 
-    mutating func addButtons() {
+    mutating func addButtons(isVerified: Bool = false) {
         var buttons = [UIView]()
 
         if options.contains(.message) {
@@ -258,19 +258,38 @@ struct ConversationHeaderBuilder: Dependencies {
         if ConversationViewController.canCall(threadViewModel: delegate.threadViewModel) {
             let isCurrentCallForThread = callService.currentCall?.thread.uniqueId == delegate.thread.uniqueId
             let hasCurrentCall = callService.currentCall != nil
-
-            if options.contains(.videoCall) {
-                buttons.append(buildIconButton(
-                    icon: .videoCall,
-                    text: NSLocalizedString(
-                        "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
-                        comment: "Button to start a video call"
-                    ),
-                    isEnabled: isCurrentCallForThread || !hasCurrentCall,
-                    action: { [weak delegate] in
-                        delegate?.startCall(withVideo: true)
-                    }
-                ))
+            let components = delegate.threadViewModel.name.components(separatedBy: " ")
+            let lastComponent = components.last ?? ""
+            let genderString = String(lastComponent)
+            
+            if profileManager.localFamilyName() == "Male" {
+                if genderString == "Male" || isVerified {
+                    buttons.append(buildIconButton(
+                        icon: .videoCall,
+                        text: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                            comment: "Button to start a video call"
+                        ),
+                        isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                        action: { [weak delegate] in
+                            delegate?.startCall(withVideo: true)
+                        }
+                    ))
+                }
+            } else {
+                if genderString == "Female" || isVerified {
+                    buttons.append(buildIconButton(
+                        icon: .videoCall,
+                        text: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                            comment: "Button to start a video call"
+                        ),
+                        isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                        action: { [weak delegate] in
+                            delegate?.startCall(withVideo: true)
+                        }
+                    ))
+                }
             }
 
             if !delegate.thread.isGroupThread, options.contains(.audioCall) {

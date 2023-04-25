@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "मिडिया प्ले करा";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "आपण %1$@ यास सत्यापित म्हणून चिन्हांकित केले नाही.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "तुम्ही %@ ला महराम म्हणून चिन्हांकित केलेले नाही";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "सत्यापित";

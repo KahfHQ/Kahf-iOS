@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "เล่นสื่อ";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "คุณยังไม่ได้ทำเครื่องหมายว่า %1$@ ถูกตรวจยืนยันแล้ว";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "คุณยังไม่ได้ทำเครื่องหมาย %@ เป็น Mahram";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "ตรวจยืนยันแล้ว";

@@ -3,16 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildDetails</key>
-	<dict>
-		<key>DateTime</key>
-		<string>Thu Apr 13 08:41:28 UTC 2023</string>
-		<key>SignalCommit</key>
-		<string>5ceedf13b6ea72137f9d5b9c8e99ce5e266d16a7 Merge pull request #1 from KahfHQ/release/v1.1</string>
-		<key>Timestamp</key>
-		<integer>1681375288</integer>
-		<key>XCodeVersion</key>
-		<string>1400.1420</string>
-	</dict>
+	<dict/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>

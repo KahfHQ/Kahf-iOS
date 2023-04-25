@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Воспроизвести медиа";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Контакт %1$@ не отмечен вами как подтверждённый.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Вы не отметили %@ как Махрама";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Подтверждён";

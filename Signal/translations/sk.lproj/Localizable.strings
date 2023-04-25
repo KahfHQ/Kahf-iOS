@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Spustiť média";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Neoznačili ste kontakt %1$@ ako overený.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Neoznačili ste %@ ako Mahrama";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Overený";

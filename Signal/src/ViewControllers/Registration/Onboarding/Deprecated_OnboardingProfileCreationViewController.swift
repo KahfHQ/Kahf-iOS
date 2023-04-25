@@ -327,7 +327,7 @@ public class Deprecated_OnboardingProfileCreationViewController: Deprecated_Onbo
         // Show an activity indicator to block the UI during the profile upload.
         let avatarData = self.avatarData
         let normalizedGivenName = self.normalizedGivenName
-        let normalizedFamilyName = self.normalizedFamilyName
+        let normalizedFamilyName = self.normalizedFamilyName == NSLocalizedString("PROFILE_GENDER_MALE_TEXT",comment: "Gender male text") ? "Male" : "Female"
 
         let spinner = AnimatedProgressView()
         primaryView.addSubview(spinner)

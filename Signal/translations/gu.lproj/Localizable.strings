@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "મીડિયા ચલાવો";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "તમે ચકાસાયેલ તરીકે %1$@ માર્ક નથી કર્યું.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "તમે %@ ને મહરામ તરીકે ચિહ્નિત કર્યા નથી";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "ચકાસણી";
