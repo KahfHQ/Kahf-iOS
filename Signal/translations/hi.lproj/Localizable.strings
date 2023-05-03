@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "नर"; 
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "महरम के रूप में चिह्नित करें";
+
+"VERIFY_MAHRAM" = "महरम नंबर देखें";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ महरम है"; 
+
+"PRIVACY_UNMAHRAM_BUTTON" = "महरम को हटाओ";

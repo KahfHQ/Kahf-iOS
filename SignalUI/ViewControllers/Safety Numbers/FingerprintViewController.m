@@ -170,8 +170,6 @@ typedef void (^CustomLayoutBlock)(void);
 {
     [super loadView];
 
-    self.title = NSLocalizedString(@"PRIVACY_VERIFICATION_TITLE", @"Navbar title");
-
     self.navigationItem.leftBarButtonItem =
         [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop
                                                       target:self
@@ -373,14 +371,14 @@ typedef void (^CustomLayoutBlock)(void);
         [labelText
             appendAttributedString:
                 [[NSAttributedString alloc]
-                    initWithString:[NSString stringWithFormat:NSLocalizedString(@"PRIVACY_IDENTITY_IS_VERIFIED_FORMAT",
-                                                                  @"Label indicating that the user is verified. Embeds "
+                    initWithString:[NSString stringWithFormat:NSLocalizedString(@"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT",
+                                                                  @"Label indicating that the user is mahram. Embeds "
                                                                   @"{{the user's name or phone number}}."),
                                              self.contactName]]];
         self.verificationStateLabel.attributedText = labelText;
 
         self.verifyUnverifyButtonLabel.text = NSLocalizedString(
-            @"PRIVACY_UNVERIFY_BUTTON", @"Button that lets user mark another user's identity as unverified.");
+            @"PRIVACY_UNMAHRAM_BUTTON", @"Button that lets user mark another user's identity as unverified.");
     } else {
         self.verificationStateLabel.text = [NSString
             stringWithFormat:NSLocalizedString(@"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT",

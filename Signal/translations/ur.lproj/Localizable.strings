@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "مرد";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "محرم کے طور پر نشان زد کریں۔";
+
+"VERIFY_MAHRAM" = "محرم نمبر دیکھیں";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ محرم ہے۔";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "محرم کو ہٹا دیں۔";

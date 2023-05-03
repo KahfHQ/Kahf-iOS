@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "ชาย";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "ทำเครื่องหมายเป็น Mahram";
+
+"VERIFY_MAHRAM" = "ดูหมายเลข Mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ คือมาห์ราม";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "กำจัดมะห์รอม";

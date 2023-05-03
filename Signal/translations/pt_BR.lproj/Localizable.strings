@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "Macho";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Marcar como Mahram";
+
+"VERIFY_MAHRAM" = "Ver Número do Mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ é mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Remover Mahram";

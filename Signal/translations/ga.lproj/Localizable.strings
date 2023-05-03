@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "Fireann";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Marcáil mar Maharam";
+
+"VERIFY_MAHRAM" = "Féach Uimhir Mahram"; 
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "Is mahram é %@";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Bain Maharam";

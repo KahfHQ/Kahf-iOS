@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "男性"; 
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "标记为 Mahram"; 
+
+"VERIFY_MAHRAM" = "查看 Mahram 编号";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ 是 mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "删除 Mahram";

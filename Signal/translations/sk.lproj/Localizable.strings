@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "Muž";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Označ ako Mahram";
+
+"VERIFY_MAHRAM" = "Zobraziť číslo Mahram"; 
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ je mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Odstrániť Mahrama";

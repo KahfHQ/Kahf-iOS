@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "Mâle";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Marquez comme Mahram";
+
+"VERIFY_MAHRAM" = "Afficher le numéro de mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ est mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Supprimer Mahram";

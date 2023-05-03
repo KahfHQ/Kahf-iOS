@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "Erkek";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Mahrem olarak işaretle";
+
+"VERIFY_MAHRAM" = "Mahrem Numarasını Görüntüle";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ mahrem";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Mahremi Kaldır"; 

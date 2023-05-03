@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "Мушки";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Означи као Махрам";
+
+"VERIFY_MAHRAM" = "Погледајте Махрамски број";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ је махрам";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Уклоните Махрам"; 

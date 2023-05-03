@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "પુરુષ";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "મહરામ તરીકે ચિહ્નિત કરો";
+
+"VERIFY_MAHRAM" = "મહરમ નંબર જુઓ";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ મહરામ છે";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "મહરામને કાઢી નાખો";

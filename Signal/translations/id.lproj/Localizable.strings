@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "Pria";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Tandai sebagai Mahram";
+
+"VERIFY_MAHRAM" = "Lihat Nomor Mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ adalah mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Hapus Mahram";

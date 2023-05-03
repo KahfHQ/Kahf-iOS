@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "نر";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "علامت گذاری به عنوان مهرام"; 
+
+"VERIFY_MAHRAM" = "مشاهده شماره مهرام";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ محرم است";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "محرم را حذف کن”";

@@ -196,8 +196,8 @@ extension ConversationSettingsViewController {
                 return OWSTableItem.newCell()
             }
 
-            return OWSTableItem.buildDisclosureCell(name: NSLocalizedString("VERIFY_PRIVACY",
-                                                                            comment: "Label for button or row which allows users to verify the safety number of another user."),
+            return OWSTableItem.buildDisclosureCell(name: NSLocalizedString("VERIFY_MAHRAM",
+                                                                            comment: "Label for button or row which allows users to verify the mahram of another user."),
                                                     icon: .settingsViewSafetyNumber,
                                                     accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "safety_numbers"))
         },

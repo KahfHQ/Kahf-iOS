@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "Αρσενικός";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Σημειώστε ως Μαχράμ";
+
+"VERIFY_MAHRAM" = "Δείτε τον αριθμό Mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "Το %@ είναι μαχράμ";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Αφαιρέστε τον Μαχράμ";

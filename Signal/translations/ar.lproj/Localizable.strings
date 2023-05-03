@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "ذكر";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "مارك أس محرم"; 
+
+"VERIFY_MAHRAM" = "مشاهدة رقم المحرم";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "٪ @ محرم";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "إزالة المحرم";

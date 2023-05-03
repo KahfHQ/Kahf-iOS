@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "jantan";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Tanda sebagai Mahram"; 
+
+"VERIFY_MAHRAM" = "View Mahram Number";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ ialah mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Remove Mahram";

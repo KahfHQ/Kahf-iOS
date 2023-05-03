@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "זָכָר"; 
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "סמן כמהר'ם";
+
+"VERIFY_MAHRAM" = "צפה במספר מהר״ם";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ הוא מהרם";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "הסר את מהר״ם";

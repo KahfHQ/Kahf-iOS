@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "Nam giới";
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Đánh dấu là Mahram";
+
+"VERIFY_MAHRAM" = "Xem số Mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ là mahram"; 
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Xóa Mahram"; 

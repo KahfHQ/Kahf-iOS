@@ -7358,3 +7358,9 @@
 "PROFILE_GENDER_MALE_TEXT" = "Uros"; 
 
 "PRIVACY_MAHRAM_BUTTON_TEXT" = "Merkitse Mahramiksi";
+
+"VERIFY_MAHRAM" = "Näytä Mahram-numero";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ on mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Poista Mahram";
