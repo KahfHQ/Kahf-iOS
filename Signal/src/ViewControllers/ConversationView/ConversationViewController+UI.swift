@@ -173,6 +173,9 @@ extension ConversationViewController {
                                 if genderString == "Female" && verificationStateMap[adress] == .verified {
                                     isMahrem = false
                                 }
+                                else if genderString == "Male" {
+                                    isMahrem = true
+                                }
                             }
                         }
                         else { //Female
@@ -183,15 +186,20 @@ extension ConversationViewController {
                                 if genderString == "Male" && verificationStateMap[adress] == .verified {
                                     isMahrem = false
                                 }
+                                else if genderString == "Female" {
+                                    isMahrem = true
+                                }
                             }
                         }
                         
-                        if isMahrem {
-                            videoCallButton.isEnabled = (self.callService.currentCall == nil || self.isCurrentCallForThread)
-                            videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL", comment: "Accessibility label for placing a video call")
-                            self.groupCallBarButtonItem = videoCallButton
-                            barButtons.append(videoCallButton)
+                        videoCallButton.isEnabled = (self.callService.currentCall == nil || self.isCurrentCallForThread)
+                        videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL", comment: "Accessibility label for placing a video call")
+                        self.groupCallBarButtonItem = videoCallButton
+                        if !isMahrem {
+                            videoCallButton.action = #selector(showDisabledAlert)
                         }
+                        barButtons.append(videoCallButton)
+                        
                     }
                 } else {
                     let audioCallButton = UIBarButtonItem(
@@ -209,30 +217,36 @@ extension ConversationViewController {
                     let lastComponent = components.last ?? ""
                     let genderString = String(lastComponent)
                     
+                    let videoCallButton = UIBarButtonItem(
+                        image: Theme.iconImage(.videoCall),
+                        style: .plain,
+                        target: self,
+                        action: #selector(startIndividualVideoCall)
+                    )
+                    videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL",
+                                                                           comment: "Accessibility label for placing a video call")
+
                     if profileManager.localFamilyName() == "Male" {
-                        if genderString == "Male" || shouldShowVerifiedBadge(for: thread) {
-                            let videoCallButton = UIBarButtonItem(
-                                image: Theme.iconImage(.videoCall),
-                                style: .plain,
-                                target: self,
-                                action: #selector(startIndividualVideoCall)
-                            )
-                            videoCallButton.isEnabled = !CurrentAppContext().hasActiveCall
-                            videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL",
-                                                                                   comment: "Accessibility label for placing a video call")
+                        if genderString == "Male" {
                             barButtons.append(videoCallButton)
                         }
-                    } else {
-                        if genderString == "Female" || shouldShowVerifiedBadge(for: thread) {
-                            let videoCallButton = UIBarButtonItem(
-                                image: Theme.iconImage(.videoCall),
-                                style: .plain,
-                                target: self,
-                                action: #selector(startIndividualVideoCall)
-                            )
-                            videoCallButton.isEnabled = !CurrentAppContext().hasActiveCall
-                            videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL",
-                                                                                   comment: "Accessibility label for placing a video call")
+                        else if genderString == "Female" && shouldShowVerifiedBadge(for: thread) {
+                            barButtons.append(videoCallButton)
+                        }
+                        else {
+                            videoCallButton.action = #selector(showDisabledAlert)
+                            barButtons.append(videoCallButton)
+                        }
+                    }
+                    else {
+                        if genderString == "Female" {
+                            barButtons.append(videoCallButton)
+                        }
+                        else if genderString == "Male" && shouldShowVerifiedBadge(for: thread) {
+                            barButtons.append(videoCallButton)
+                        }
+                        else {
+                            videoCallButton.action = #selector(showDisabledAlert)
                             barButtons.append(videoCallButton)
                         }
                     }
@@ -242,6 +256,15 @@ extension ConversationViewController {
             showGroupCallTooltipIfNecessary()
             return
         }
+    }
+    
+    @objc func showDisabledAlert() {
+        let alertController = UIAlertController(title: "Oops!",
+                                                    message: NSLocalizedString("PRIVACY_MAHRAM_BUTTON_TEXT", comment: "Need to add mahram for video call"),
+                                                    preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(okAction)
+        present(alertController, animated: true, completion: nil)
     }
 
     private func shouldShowVerifiedBadge(for thread: TSThread) -> Bool {

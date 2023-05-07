@@ -263,7 +263,7 @@ struct ConversationHeaderBuilder: Dependencies {
             let genderString = String(lastComponent)
             
             if profileManager.localFamilyName() == "Male" {
-                if genderString == "Male" || isVerified {
+                if genderString == "Male" {
                     buttons.append(buildIconButton(
                         icon: .videoCall,
                         text: NSLocalizedString(
@@ -275,9 +275,32 @@ struct ConversationHeaderBuilder: Dependencies {
                             delegate?.startCall(withVideo: true)
                         }
                     ))
+                } else if genderString == "Female" && isVerified {
+                    buttons.append(buildIconButton(
+                        icon: .videoCall,
+                        text: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                            comment: "Button to start a video call"
+                        ),
+                        isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                        action: { [weak delegate] in
+                            delegate?.startCall(withVideo: true)
+                        }
+                    ))
+                } else {
+                    let videoCallButton = buildIconButton(
+                        icon: .videoCall,
+                        text: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                            comment: "Button to start a video call"
+                        ),
+                        isEnabled: !hasCurrentCall,
+                        action: showDisabledAlert
+                    )
+                    buttons.append(videoCallButton)
                 }
             } else {
-                if genderString == "Female" || isVerified {
+                if genderString == "Female" {
                     buttons.append(buildIconButton(
                         icon: .videoCall,
                         text: NSLocalizedString(
@@ -289,6 +312,29 @@ struct ConversationHeaderBuilder: Dependencies {
                             delegate?.startCall(withVideo: true)
                         }
                     ))
+                } else if genderString == "Male" && isVerified {
+                    buttons.append(buildIconButton(
+                        icon: .videoCall,
+                        text: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                            comment: "Button to start a video call"
+                        ),
+                        isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                        action: { [weak delegate] in
+                            delegate?.startCall(withVideo: true)
+                        }
+                    ))
+                } else {
+                    let videoCallButton = buildIconButton(
+                        icon: .videoCall,
+                        text: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                            comment: "Button to start a video call"
+                        ),
+                        isEnabled: !hasCurrentCall,
+                        action: showDisabledAlert
+                    )
+                    buttons.append(videoCallButton)
                 }
             }
 
@@ -375,6 +421,12 @@ struct ConversationHeaderBuilder: Dependencies {
         }
     }
 
+    func showDisabledAlert() {
+        let toast = NSLocalizedString("PRIVACY_MAHRAM_BUTTON_TEXT",
+                                      comment: "Indicator that a value has been copied to the clipboard.")
+        delegate.tableViewController.presentToast(text: toast)
+    }
+    
     private var maxIconButtonWidth: CGFloat = 0
     mutating func buildIconButton(icon: ThemeIcon, text: String, isEnabled: Bool = true, action: @escaping () -> Void) -> UIView {
         let button = OWSButton { [weak delegate] in
