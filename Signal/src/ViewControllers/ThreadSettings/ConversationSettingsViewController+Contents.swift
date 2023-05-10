@@ -189,21 +189,44 @@ extension ConversationSettingsViewController {
 
     private func addSafetyNumberItemIfNecessary(to section: OWSTableSection) {
         guard !thread.isNoteToSelf, !isGroupThread, thread.hasSafetyNumbers() else { return }
+        let components = threadViewModel.name.components(separatedBy: " ")
+        let lastComponent = components.last ?? ""
+        let genderString = String(lastComponent)
+        if profileManager.localFamilyName() == "Male" {
+            if genderString != "Male" {
+                section.add(OWSTableItem(customCellBlock: { [weak self] in
+                    guard let self = self else {
+                        owsFailDebug("Missing self")
+                        return OWSTableItem.newCell()
+                    }
 
-        section.add(OWSTableItem(customCellBlock: { [weak self] in
-            guard let self = self else {
-                owsFailDebug("Missing self")
-                return OWSTableItem.newCell()
+                    return OWSTableItem.buildDisclosureCell(name: NSLocalizedString("VERIFY_MAHRAM",
+                                                                                    comment: "Label for button or row which allows users to verify the mahram of another user."),
+                                                            icon: .settingsViewSafetyNumber,
+                                                            accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "safety_numbers"))
+                },
+                actionBlock: { [weak self] in
+                    self?.showVerificationView()
+                }))
             }
+        } else {
+            if genderString != "Female" {
+                section.add(OWSTableItem(customCellBlock: { [weak self] in
+                    guard let self = self else {
+                        owsFailDebug("Missing self")
+                        return OWSTableItem.newCell()
+                    }
 
-            return OWSTableItem.buildDisclosureCell(name: NSLocalizedString("VERIFY_MAHRAM",
-                                                                            comment: "Label for button or row which allows users to verify the mahram of another user."),
-                                                    icon: .settingsViewSafetyNumber,
-                                                    accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "safety_numbers"))
-        },
-        actionBlock: { [weak self] in
-            self?.showVerificationView()
-        }))
+                    return OWSTableItem.buildDisclosureCell(name: NSLocalizedString("VERIFY_MAHRAM",
+                                                                                    comment: "Label for button or row which allows users to verify the mahram of another user."),
+                                                            icon: .settingsViewSafetyNumber,
+                                                            accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "safety_numbers"))
+                },
+                actionBlock: { [weak self] in
+                    self?.showVerificationView()
+                }))
+            }
+        }
     }
 
     private func addSystemContactItemIfNecessary(to section: OWSTableSection) {
