@@ -204,6 +204,7 @@ extension ConversationViewController {
                         videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL", comment: "Accessibility label for placing a video call")
                         self.groupCallBarButtonItem = videoCallButton
                         if !isMahrem {
+                            videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
                             videoCallButton.action = #selector(showDisabledAlert)
                         }
                         barButtons.append(videoCallButton)
@@ -242,6 +243,7 @@ extension ConversationViewController {
                             barButtons.append(videoCallButton)
                         }
                         else {
+                            videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
                             videoCallButton.action = #selector(showDisabledAlert)
                             barButtons.append(videoCallButton)
                         }
@@ -254,6 +256,7 @@ extension ConversationViewController {
                             barButtons.append(videoCallButton)
                         }
                         else {
+                            videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
                             videoCallButton.action = #selector(showDisabledAlert)
                             barButtons.append(videoCallButton)
                         }

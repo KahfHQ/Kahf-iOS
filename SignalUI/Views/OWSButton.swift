@@ -132,6 +132,6 @@ open class OWSButton: UIButton {
             (dimsWhenHighlighted && isHighlighted) ||
             (dimsWhenDisabled && !isEnabled)
         )
-        alpha = isDimmed ? 0.4 : 1
+        alpha = isDimmed ? 0.4 : alpha
     }
 }

@@ -349,7 +349,8 @@ struct ConversationHeaderBuilder: Dependencies {
                                 comment: "Button to start a video call"
                             ),
                             isEnabled: !hasCurrentCall,
-                            action: showDisabledAlert
+                            action: showDisabledAlert,
+                            alpha: 0.5
                         )
                         buttons.append(videoCallButton)
                     }
@@ -386,7 +387,8 @@ struct ConversationHeaderBuilder: Dependencies {
                                 comment: "Button to start a video call"
                             ),
                             isEnabled: !hasCurrentCall,
-                            action: showDisabledAlert
+                            action: showDisabledAlert,
+                            alpha: 0.5
                         )
                         buttons.append(videoCallButton)
                     }
@@ -414,7 +416,8 @@ struct ConversationHeaderBuilder: Dependencies {
                             comment: "Button to start a video call"
                         ),
                         isEnabled: !hasCurrentCall,
-                        action: showDisabledAlert
+                        action: showDisabledAlert,
+                        alpha: 0.5
                     )
                     buttons.append(videoCallButton)
                 }
@@ -511,7 +514,7 @@ struct ConversationHeaderBuilder: Dependencies {
     }
     
     private var maxIconButtonWidth: CGFloat = 0
-    mutating func buildIconButton(icon: ThemeIcon, text: String, isEnabled: Bool = true, action: @escaping () -> Void) -> UIView {
+    mutating func buildIconButton(icon: ThemeIcon, text: String, isEnabled: Bool = true, action: @escaping () -> Void, alpha: CGFloat = 1.0) -> UIView {
         let button = OWSButton { [weak delegate] in
             delegate?.tappedButton()
             action()
@@ -549,7 +552,7 @@ struct ConversationHeaderBuilder: Dependencies {
         label.autoPinWidthToSuperview(withMargin: 12)
         label.autoPinEdge(toSuperviewEdge: .bottom, withInset: 6)
         label.autoPinEdge(.top, to: .bottom, of: imageView, withOffset: 2)
-
+        button.alpha = alpha
         return button
     }
 
