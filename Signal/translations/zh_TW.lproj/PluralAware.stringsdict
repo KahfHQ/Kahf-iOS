@@ -260,7 +260,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>你的 Signal 版本將在 %1$d 天後過期。點擊以更新到最新版本。</string>
+			<string>你的 Kahf Messenger 版本將在 %1$d 天後過期。點擊以更新到最新版本。</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -302,7 +302,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>Signal 群組在 %1$d 或更少的成員中表現最佳。 新增更多成員將導致延遲傳送和接收訊息。</string>
+			<string>Kahf Messenger 群組在 %1$d 或更少的成員中表現最佳。 新增更多成員將導致延遲傳送和接收訊息。</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -414,7 +414,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>Signal 將會撥號給 %2$@、%3$@ 和其他 %1$d 位使用者</string>
+			<string>Kahf Messenger 將會撥號給 %2$@、%3$@ 和其他 %1$d 位使用者</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -764,7 +764,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>所有 Signal 人脈 · %1$d 個瀏覽者</string>
+			<string>所有 Kahf Messenger 人脈 · %1$d 個瀏覽者</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -778,7 +778,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>所有 Signal 人脈 · 已排除 %1$d 人</string>
+			<string>所有 Kahf Messenger 人脈 · 已排除 %1$d 人</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

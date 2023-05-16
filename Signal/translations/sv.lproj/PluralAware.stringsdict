@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Din version av Signal upphör att gälla om %1$d dag. Tryck för att uppdatera till den senaste versionen.</string>
+			<string>Din version av Kahf Messenger upphör att gälla om %1$d dag. Tryck för att uppdatera till den senaste versionen.</string>
 			<key>other</key>
-			<string>Din version av Signal upphör att gälla om %1$d dagar. Tryck för att uppdatera till den senaste versionen.</string>
+			<string>Din version av Kahf Messenger upphör att gälla om %1$d dagar. Tryck för att uppdatera till den senaste versionen.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal-grupper fungerar bäst med %1$d medlem eller färre. Om du lägger till fler medlemmar kommer det att orsaka förseningar när du skickar och tar emot meddelanden.</string>
+			<string>Kahf Messenger-grupper fungerar bäst med %1$d medlem eller färre. Om du lägger till fler medlemmar kommer det att orsaka förseningar när du skickar och tar emot meddelanden.</string>
 			<key>other</key>
-			<string>Signal-grupper fungerar bäst med %1$d medlemmar eller färre. Om du lägger till fler medlemmar kommer det att orsaka förseningar när du skickar och tar emot meddelanden.</string>
+			<string>Kahf Messenger-grupper fungerar bäst med %1$d medlemmar eller färre. Om du lägger till fler medlemmar kommer det att orsaka förseningar när du skickar och tar emot meddelanden.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -472,9 +472,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal kommer att ringa %2$@, %3$@ och %1$d annan</string>
+			<string>Kahf Messenger kommer att ringa %2$@, %3$@ och %1$d annan</string>
 			<key>other</key>
-			<string>Signal kommer att ringa %2$@, %3$@ och %1$d andra</string>
+			<string>Kahf Messenger kommer att ringa %2$@, %3$@ och %1$d andra</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Alla Signal-förbindelser · %1$d tittare</string>
+			<string>Alla Kahf Messenger-förbindelser · %1$d tittare</string>
 			<key>other</key>
-			<string>Alla Signal-förbindelser · %1$d tittare</string>
+			<string>Alla Kahf Messenger-förbindelser · %1$d tittare</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Alla Signal-förbindelser · %1$d exkluderad</string>
+			<string>Alla Kahf Messenger-förbindelser · %1$d exkluderad</string>
 			<key>other</key>
-			<string>Alla Signal-förbindelser · %1$d exkluderade</string>
+			<string>Alla Kahf Messenger-förbindelser · %1$d exkluderade</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

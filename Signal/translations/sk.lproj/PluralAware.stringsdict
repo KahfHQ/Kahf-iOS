@@ -368,13 +368,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Platnosť vašej verzie Signal vyprší o %1$d deň. Ťuknutím aktualizujete na najnovšiu verziu.</string>
+			<string>Platnosť vašej verzie Kahf Messenger vyprší o %1$d deň. Ťuknutím aktualizujete na najnovšiu verziu.</string>
 			<key>few</key>
-			<string>Platnosť vašej verzie Signal vyprší o %1$d dni. Ťuknutím aktualizujete na najnovšiu verziu.</string>
+			<string>Platnosť vašej verzie Kahf Messenger vyprší o %1$d dni. Ťuknutím aktualizujete na najnovšiu verziu.</string>
 			<key>many</key>
-			<string>Platnosť vašej verzie Signal vyprší o %1$d dňa. Ťuknutím aktualizujete na najnovšiu verziu.</string>
+			<string>Platnosť vašej verzie Kahf Messenger vyprší o %1$d dňa. Ťuknutím aktualizujete na najnovšiu verziu.</string>
 			<key>other</key>
-			<string>Platnosť vašej verzie Signal vyprší o %1$d dní. Ťuknutím aktualizujete na najnovšiu verziu.</string>
+			<string>Platnosť vašej verzie Kahf Messenger vyprší o %1$d dní. Ťuknutím aktualizujete na najnovšiu verziu.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -428,13 +428,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal skupiny najlepšie fungujú s %1$d členom. Pridanie ďalších členov spôsobí oneskorenia v posielaní a prijímaní správ.</string>
+			<string>Kahf Messenger skupiny najlepšie fungujú s %1$d členom. Pridanie ďalších členov spôsobí oneskorenia v posielaní a prijímaní správ.</string>
 			<key>few</key>
-			<string>Signal skupiny najlepšie fungujú s %1$d alebo menej členmi. Pridanie ďalších členov spôsobí oneskorenia v posielaní a prijímaní správ.</string>
+			<string>Kahf Messenger skupiny najlepšie fungujú s %1$d alebo menej členmi. Pridanie ďalších členov spôsobí oneskorenia v posielaní a prijímaní správ.</string>
 			<key>many</key>
-			<string>Signal skupiny najlepšie fungujú s %1$d alebo menej členom. Pridanie ďalších členov spôsobí oneskorenia v posielaní a prijímaní správ.</string>
+			<string>Kahf Messenger skupiny najlepšie fungujú s %1$d alebo menej členom. Pridanie ďalších členov spôsobí oneskorenia v posielaní a prijímaní správ.</string>
 			<key>other</key>
-			<string>Signal skupiny najlepšie fungujú s %1$d alebo menej členmi. Pridanie ďalších členov spôsobí oneskorenia v posielaní a prijímaní správ.</string>
+			<string>Kahf Messenger skupiny najlepšie fungujú s %1$d alebo menej členmi. Pridanie ďalších členov spôsobí oneskorenia v posielaní a prijímaní správ.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -588,13 +588,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal zavolá používateľom %2$@, %3$@ a %1$d ďalšiemu</string>
+			<string>Kahf Messenger zavolá používateľom %2$@, %3$@ a %1$d ďalšiemu</string>
 			<key>few</key>
-			<string>Signal zavolá používateľom %2$@, %3$@ a %1$d ďalším</string>
+			<string>Kahf Messenger zavolá používateľom %2$@, %3$@ a %1$d ďalším</string>
 			<key>many</key>
-			<string>Signal zavolá používateľom %2$@, %3$@ a %1$d ďalšiemu</string>
+			<string>Kahf Messenger zavolá používateľom %2$@, %3$@ a %1$d ďalšiemu</string>
 			<key>other</key>
-			<string>Signal zavolá používateľom %2$@, %3$@ a %1$d ďalším</string>
+			<string>Kahf Messenger zavolá používateľom %2$@, %3$@ a %1$d ďalším</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -1088,13 +1088,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Všetky Signal spojenia · %1$d sledovateľ</string>
+			<string>Všetky Kahf Messenger spojenia · %1$d sledovateľ</string>
 			<key>few</key>
-			<string>Všetky Signal spojenia · %1$d sledovatelia</string>
+			<string>Všetky Kahf Messenger spojenia · %1$d sledovatelia</string>
 			<key>many</key>
-			<string>Všetky Signal spojenia · %1$d sledovateľa</string>
+			<string>Všetky Kahf Messenger spojenia · %1$d sledovateľa</string>
 			<key>other</key>
-			<string>Všetky Signal spojenia · %1$d sledovateľov</string>
+			<string>Všetky Kahf Messenger spojenia · %1$d sledovateľov</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -1108,13 +1108,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Všetky Signal spojenia · %1$d vylúčené</string>
+			<string>Všetky Kahf Messenger spojenia · %1$d vylúčené</string>
 			<key>few</key>
-			<string>Všetky Signal spojenia · %1$d vylúčené</string>
+			<string>Všetky Kahf Messenger spojenia · %1$d vylúčené</string>
 			<key>many</key>
-			<string>Všetky Signal spojenia · %1$d vylúčeného</string>
+			<string>Všetky Kahf Messenger spojenia · %1$d vylúčeného</string>
 			<key>other</key>
-			<string>Všetky Signal spojenia · %1$d vylúčených</string>
+			<string>Všetky Kahf Messenger spojenia · %1$d vylúčených</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

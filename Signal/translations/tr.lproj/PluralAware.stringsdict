@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal sürümün %1$d gün içinde kullanım dışı kalacak. En yeni sürüme güncellemek için dokun.</string>
+			<string>Kahf Messenger sürümün %1$d gün içinde kullanım dışı kalacak. En yeni sürüme güncellemek için dokun.</string>
 			<key>other</key>
-			<string>Signal sürümün %1$d gün içinde kullanım dışı kalacak. En yeni sürüme güncellemek için dokun.</string>
+			<string>Kahf Messenger sürümün %1$d gün içinde kullanım dışı kalacak. En yeni sürüme güncellemek için dokun.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal grupları en iyi %1$d veya daha az üyeyle çalışır. Daha fazla üye eklenmesi iletilerin alımı ve gönderiminde gecikmelere yol açabilir.</string>
+			<string>Kahf Messenger grupları en iyi %1$d veya daha az üyeyle çalışır. Daha fazla üye eklenmesi iletilerin alımı ve gönderiminde gecikmelere yol açabilir.</string>
 			<key>other</key>
-			<string>Signal grupları en iyi %1$d veya daha az üyeyle çalışır. Daha fazla üye eklenmesi iletilerin alımı ve gönderiminde gecikmelere yol açabilir.</string>
+			<string>Kahf Messenger grupları en iyi %1$d veya daha az üyeyle çalışır. Daha fazla üye eklenmesi iletilerin alımı ve gönderiminde gecikmelere yol açabilir.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -472,9 +472,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal %2$@, %3$@ ve %1$d diğer kişiyi arayacak</string>
+			<string>Kahf Messenger %2$@, %3$@ ve %1$d diğer kişiyi arayacak</string>
 			<key>other</key>
-			<string>Signal %2$@, %3$@ ve diğer %1$d kişiyi arayacak</string>
+			<string>Kahf Messenger %2$@, %3$@ ve diğer %1$d kişiyi arayacak</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Tüm Signal Bağlantıları · %1$d Görüntüleyen</string>
+			<string>Tüm Kahf Messenger Bağlantıları · %1$d Görüntüleyen</string>
 			<key>other</key>
-			<string>Tüm Signal Bağlantıları · %1$d Görüntüleyen</string>
+			<string>Tüm Kahf Messenger Bağlantıları · %1$d Görüntüleyen</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Tüm Signal Bağlantıları · %1$d Kişi Hariç Tutuldu</string>
+			<string>Tüm Kahf Messenger Bağlantıları · %1$d Kişi Hariç Tutuldu</string>
 			<key>other</key>
-			<string>Tüm Signal Bağlantıları · %1$d Kişi Hariç Tutuldu</string>
+			<string>Tüm Kahf Messenger Bağlantıları · %1$d Kişi Hariç Tutuldu</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

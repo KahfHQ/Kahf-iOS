@@ -368,13 +368,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Twoja wersja Signal wygaśnie za %1$d dzień. Stuknij, aby zaktualizować do najnowszej wersji.</string>
+			<string>Twoja wersja Kahf Messenger wygaśnie za %1$d dzień. Stuknij, aby zaktualizować do najnowszej wersji.</string>
 			<key>few</key>
-			<string>Twoja wersja Signal wygaśnie za %1$d dni. Stuknij, aby zaktualizować do najnowszej wersji.</string>
+			<string>Twoja wersja Kahf Messenger wygaśnie za %1$d dni. Stuknij, aby zaktualizować do najnowszej wersji.</string>
 			<key>many</key>
-			<string>Twoja wersja Signal wygaśnie za %1$d dni. Stuknij, aby zaktualizować do najnowszej wersji.</string>
+			<string>Twoja wersja Kahf Messenger wygaśnie za %1$d dni. Stuknij, aby zaktualizować do najnowszej wersji.</string>
 			<key>other</key>
-			<string>Twoja wersja Signal wygaśnie za %1$d dni. Stuknij, aby zaktualizować do najnowszej wersji.</string>
+			<string>Twoja wersja Kahf Messenger wygaśnie za %1$d dni. Stuknij, aby zaktualizować do najnowszej wersji.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -428,13 +428,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Grupy Signal działają najlepiej, gdy liczba członków jest równa %1$d. Dodanie kolejnych członków grupy spowoduje opóźnienia w wysyłaniu i odbieraniu wiadomości.</string>
+			<string>Grupy Kahf Messenger działają najlepiej, gdy liczba członków jest równa %1$d. Dodanie kolejnych członków grupy spowoduje opóźnienia w wysyłaniu i odbieraniu wiadomości.</string>
 			<key>few</key>
-			<string>Grupy Signal działają najlepiej, gdy liczba członków jest mniejsza bądź równa %1$d. Dodanie kolejnych członków grupy spowoduje opóźnienia w wysyłaniu i odbieraniu wiadomości.</string>
+			<string>Grupy Kahf Messenger działają najlepiej, gdy liczba członków jest mniejsza bądź równa %1$d. Dodanie kolejnych członków grupy spowoduje opóźnienia w wysyłaniu i odbieraniu wiadomości.</string>
 			<key>many</key>
-			<string>Grupy Signal działają najlepiej, gdy liczba członków jest mniejsza bądź równa %1$d. Dodanie kolejnych członków grupy spowoduje opóźnienia w wysyłaniu i odbieraniu wiadomości.</string>
+			<string>Grupy Kahf Messenger działają najlepiej, gdy liczba członków jest mniejsza bądź równa %1$d. Dodanie kolejnych członków grupy spowoduje opóźnienia w wysyłaniu i odbieraniu wiadomości.</string>
 			<key>other</key>
-			<string>Grupy Signal działają najlepiej, gdy liczba członków jest mniejsza bądź równa %1$d. Dodanie kolejnych członków grupy spowoduje opóźnienia w wysyłaniu i odbieraniu wiadomości.</string>
+			<string>Grupy Kahf Messenger działają najlepiej, gdy liczba członków jest mniejsza bądź równa %1$d. Dodanie kolejnych członków grupy spowoduje opóźnienia w wysyłaniu i odbieraniu wiadomości.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -588,13 +588,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal zadzwoni do %2$@, %3$@ i %1$d innej osoby</string>
+			<string>Kahf Messenger zadzwoni do %2$@, %3$@ i %1$d innej osoby</string>
 			<key>few</key>
-			<string>Signal zadzwoni do %2$@, %3$@ i %1$d innych osób</string>
+			<string>Kahf Messenger zadzwoni do %2$@, %3$@ i %1$d innych osób</string>
 			<key>many</key>
-			<string>Signal zadzwoni do %2$@, %3$@ i %1$d innych osób</string>
+			<string>Kahf Messenger zadzwoni do %2$@, %3$@ i %1$d innych osób</string>
 			<key>other</key>
-			<string>Signal zadzwoni do %2$@, %3$@ i %1$d innych osób</string>
+			<string>Kahf Messenger zadzwoni do %2$@, %3$@ i %1$d innych osób</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -1088,13 +1088,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Wszystkie kontakty Signal · %1$d odbiorca</string>
+			<string>Wszystkie kontakty Kahf Messenger · %1$d odbiorca</string>
 			<key>few</key>
-			<string>Wszystkie kontakty Signal · %1$d odbiorców</string>
+			<string>Wszystkie kontakty Kahf Messenger · %1$d odbiorców</string>
 			<key>many</key>
-			<string>Wszystkie kontakty Signal · %1$d odbiorców</string>
+			<string>Wszystkie kontakty Kahf Messenger · %1$d odbiorców</string>
 			<key>other</key>
-			<string>Wszystkie kontakty Signal · %1$d odbiorcy</string>
+			<string>Wszystkie kontakty Kahf Messenger · %1$d odbiorcy</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -1108,13 +1108,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Wszystkie kontakty Signal · %1$d wykluczona osoba</string>
+			<string>Wszystkie kontakty Kahf Messenger · %1$d wykluczona osoba</string>
 			<key>few</key>
-			<string>Wszystkie kontakty Signal · %1$d wykluczone osoby</string>
+			<string>Wszystkie kontakty Kahf Messenger · %1$d wykluczone osoby</string>
 			<key>many</key>
-			<string>Wszystkie kontakty Signal · %1$d wykluczonych osób</string>
+			<string>Wszystkie kontakty Kahf Messenger · %1$d wykluczonych osób</string>
 			<key>other</key>
-			<string>Wszystkie kontakty Signal · %1$d wykluczonych osób</string>
+			<string>Wszystkie kontakty Kahf Messenger · %1$d wykluczonych osób</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

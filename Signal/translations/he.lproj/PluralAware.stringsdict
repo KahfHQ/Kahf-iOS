@@ -368,13 +368,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>גרסת Signal שלך תפוג עוד יום %1$d. אפשר ללחוץ כדי לעדכן לגרסה העדכנית ביותר.</string>
+			<string>גרסת Kahf Messenger שלך תפוג עוד יום %1$d. אפשר ללחוץ כדי לעדכן לגרסה העדכנית ביותר.</string>
 			<key>two</key>
-			<string>גרסת Signal שלך תפוג עוד יומיים. אפשר ללחוץ כדי לעדכן לגרסה העדכנית ביותר.</string>
+			<string>גרסת Kahf Messenger שלך תפוג עוד יומיים. אפשר ללחוץ כדי לעדכן לגרסה העדכנית ביותר.</string>
 			<key>many</key>
-			<string>גרסת Signal שלך תפוג עוד %1$d ימים. אפשר ללחוץ כדי לעדכן לגרסה העדכנית ביותר.</string>
+			<string>גרסת Kahf Messenger שלך תפוג עוד %1$d ימים. אפשר ללחוץ כדי לעדכן לגרסה העדכנית ביותר.</string>
 			<key>other</key>
-			<string>גרסת Signal שלך תפוג עוד %1$d ימים. אפשר ללחוץ כדי לעדכן לגרסה העדכנית ביותר.</string>
+			<string>גרסת Kahf Messenger שלך תפוג עוד %1$d ימים. אפשר ללחוץ כדי לעדכן לגרסה העדכנית ביותר.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -428,13 +428,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>קבוצות Signal מתפקדות בצורה הטובה ביותר עם חבר/ה %1$d. הוספת חברים נוספים תגרום לעיכובים בשליחה ובקבלה של הודעות.</string>
+			<string>קבוצות Kahf Messenger מתפקדות בצורה הטובה ביותר עם חבר/ה %1$d. הוספת חברים נוספים תגרום לעיכובים בשליחה ובקבלה של הודעות.</string>
 			<key>two</key>
-			<string>קבוצות Signal מתפקדות בצורה הטובה ביותר עם %1$d חברים או פחות. הוספת חברים נוספים תגרום לעיכובים בשליחה ובקבלה של הודעות.</string>
+			<string>קבוצות Kahf Messenger מתפקדות בצורה הטובה ביותר עם %1$d חברים או פחות. הוספת חברים נוספים תגרום לעיכובים בשליחה ובקבלה של הודעות.</string>
 			<key>many</key>
-			<string>קבוצות Signal מתפקדות בצורה הטובה ביותר עם %1$d חברים או פחות. הוספת חברים נוספים תגרום לעיכובים בשליחה ובקבלה של הודעות.</string>
+			<string>קבוצות Kahf Messenger מתפקדות בצורה הטובה ביותר עם %1$d חברים או פחות. הוספת חברים נוספים תגרום לעיכובים בשליחה ובקבלה של הודעות.</string>
 			<key>other</key>
-			<string>קבוצות Signal מתפקדות בצורה הטובה ביותר עם %1$d חברים או פחות. הוספת חברים נוספים תגרום לעיכובים בשליחה ובקבלה של הודעות.</string>
+			<string>קבוצות Kahf Messenger מתפקדות בצורה הטובה ביותר עם %1$d חברים או פחות. הוספת חברים נוספים תגרום לעיכובים בשליחה ובקבלה של הודעות.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -588,13 +588,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal תתקשר ל%2$@, %3$@, ועוד %1$d</string>
+			<string>Kahf Messenger תתקשר ל%2$@, %3$@, ועוד %1$d</string>
 			<key>two</key>
-			<string>Signal תתקשר ל%2$@, %3$@, ועוד %1$d</string>
+			<string>Kahf Messenger תתקשר ל%2$@, %3$@, ועוד %1$d</string>
 			<key>many</key>
-			<string>Signal תתקשר ל%2$@, %3$@, ועוד %1$d</string>
+			<string>Kahf Messenger תתקשר ל%2$@, %3$@, ועוד %1$d</string>
 			<key>other</key>
-			<string>Signal תתקשר ל%2$@, %3$@, ועוד %1$d</string>
+			<string>Kahf Messenger תתקשר ל%2$@, %3$@, ועוד %1$d</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -1088,13 +1088,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>כל חברי ה–Signal · צופה %1$d</string>
+			<string>כל חברי ה–Kahf Messenger · צופה %1$d</string>
 			<key>two</key>
-			<string>כל חברי ה–Signal · %1$d צופים</string>
+			<string>כל חברי ה–Kahf Messenger · %1$d צופים</string>
 			<key>many</key>
-			<string>כל חברי ה–Signal · %1$d צופים</string>
+			<string>כל חברי ה–Kahf Messenger · %1$d צופים</string>
 			<key>other</key>
-			<string>כל חברי ה–Signal · %1$d צופים</string>
+			<string>כל חברי ה–Kahf Messenger · %1$d צופים</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -1108,13 +1108,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>כל חברי ה–Signal · מוסתר מאדם %1$d</string>
+			<string>כל חברי ה–Kahf Messenger · מוסתר מאדם %1$d</string>
 			<key>two</key>
-			<string>כל חברי ה–Signal · מוסתר מ–%1$d אנשים</string>
+			<string>כל חברי ה–Kahf Messenger · מוסתר מ–%1$d אנשים</string>
 			<key>many</key>
-			<string>כל חברי ה–Signal · מוסתר מ–%1$d אנשים</string>
+			<string>כל חברי ה–Kahf Messenger · מוסתר מ–%1$d אנשים</string>
 			<key>other</key>
-			<string>כל חברי ה–Signal · מוסתר מ–%1$d אנשים</string>
+			<string>כל חברי ה–Kahf Messenger · מוסתר מ–%1$d אנשים</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

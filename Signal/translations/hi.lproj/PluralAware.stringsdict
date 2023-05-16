@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>आपका Signal का संस्करण %1$d दिन में समाप्त हो जाएगा। नवीनतम संस्करण में अपडेट करने के लिए टैप करें।</string>
+			<string>आपका Kahf Messenger का संस्करण %1$d दिन में समाप्त हो जाएगा। नवीनतम संस्करण में अपडेट करने के लिए टैप करें।</string>
 			<key>other</key>
-			<string>आपका Signal का संस्करण %1$d दिनों में समाप्त हो जाएगा। नवीनतम संस्करण में अपडेट करने के लिए टैप करें।</string>
+			<string>आपका Kahf Messenger का संस्करण %1$d दिनों में समाप्त हो जाएगा। नवीनतम संस्करण में अपडेट करने के लिए टैप करें।</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal के ग्रुप के लिए %1$d या उससे कम सदस्य सर्वाधिक उपयुक्त हैं। अधिक सदस्यों को जोड़ने से संदेश भेजने और प्राप्त करने में देरी होगी।</string>
+			<string>Kahf Messenger के ग्रुप के लिए %1$d या उससे कम सदस्य सर्वाधिक उपयुक्त हैं। अधिक सदस्यों को जोड़ने से संदेश भेजने और प्राप्त करने में देरी होगी।</string>
 			<key>other</key>
-			<string>Signal के ग्रुप के लिए %1$d या उससे कम सदस्य सर्वाधिक उपयुक्त हैं। अधिक सदस्यों को जोड़ने से संदेश भेजने और प्राप्त करने में देरी होगी।</string>
+			<string>Kahf Messenger के ग्रुप के लिए %1$d या उससे कम सदस्य सर्वाधिक उपयुक्त हैं। अधिक सदस्यों को जोड़ने से संदेश भेजने और प्राप्त करने में देरी होगी।</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -472,9 +472,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal द्वारा %2$@, %3$@, और %1$d अन्य को रिंग किया जाएगा</string>
+			<string>Kahf Messenger द्वारा %2$@, %3$@, और %1$d अन्य को रिंग किया जाएगा</string>
 			<key>other</key>
-			<string>Signal द्वारा %2$@, %3$@, और %1$d अन्य को रिंग किया जाएगा</string>
+			<string>Kahf Messenger द्वारा %2$@, %3$@, और %1$d अन्य को रिंग किया जाएगा</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>सभी Signal कनेक्शन · %1$d व्यूअर</string>
+			<string>सभी Kahf Messenger कनेक्शन · %1$d व्यूअर</string>
 			<key>other</key>
-			<string>सभी Signal कनेक्शन · %1$d व्यूअर</string>
+			<string>सभी Kahf Messenger कनेक्शन · %1$d व्यूअर</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>सभी Signal कनेक्शन · %1$d को छोड़कर</string>
+			<string>सभी Kahf Messenger कनेक्शन · %1$d को छोड़कर</string>
 			<key>other</key>
-			<string>सभी Signal कनेक्शन · %1$d को छोड़कर</string>
+			<string>सभी Kahf Messenger कनेक्शन · %1$d को छोड़कर</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>
