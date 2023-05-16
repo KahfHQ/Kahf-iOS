@@ -166,28 +166,36 @@ extension ConversationViewController {
                         var isMahrem = true
                         
                         if profileManager.localFamilyName() == "Male"  { //Male
-                            allMembersSorted.forEach { adress in
+                            for adress in allMembersSorted {
                                 let components = contactsManager.displayName(for: adress, transaction: transaction).components(separatedBy: " ")
                                 let lastComponent = components.last ?? ""
                                 let genderString = String(lastComponent)
                                 if genderString == "Female" && verificationStateMap[adress] == .verified {
-                                    isMahrem = false
+                                    isMahrem = true
                                 }
                                 else if genderString == "Male" {
                                     isMahrem = true
                                 }
+                                else {
+                                    isMahrem = false
+                                    break
+                                }
                             }
                         }
                         else { //Female
-                            allMembersSorted.forEach { adress in
+                            for adress in allMembersSorted {
                                 let components = contactsManager.displayName(for: adress, transaction: transaction).components(separatedBy: " ")
                                 let lastComponent = components.last ?? ""
                                 let genderString = String(lastComponent)
                                 if genderString == "Male" && verificationStateMap[adress] == .verified {
-                                    isMahrem = false
+                                    isMahrem = true
                                 }
                                 else if genderString == "Female" {
                                     isMahrem = true
+                                }
+                                else {
+                                    isMahrem = false
+                                    break
                                 }
                             }
                         }
