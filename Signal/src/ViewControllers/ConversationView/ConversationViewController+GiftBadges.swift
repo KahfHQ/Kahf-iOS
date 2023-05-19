@@ -89,7 +89,7 @@ extension ConversationViewController {
             } else {
                 let fullName = self.databaseStorage.read { transaction -> String in
                     let authorAddress = incomingMessage.authorAddress
-                    return self.contactsManager.displayName(for: authorAddress, transaction: transaction)
+                    return self.contactsManager.shortDisplayName(for: authorAddress, transaction: transaction)
                 }
                 mode = .giftNotRedeemed(fullName: fullName)
             }

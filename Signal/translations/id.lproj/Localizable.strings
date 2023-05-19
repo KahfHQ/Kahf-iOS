@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Mainkan Media";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Anda belum menandai %1$@ telah terverifikasi.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Anda belum menandai %@ sebagai Mahram";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Terverifikasi";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Anda mengatur waktu penghilangan pesan menjadi %1$@.";
+
+"PROFILE_GENDER_TITLE" = "Jenis kelamin";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "Perempuan";
+
+"PROFILE_GENDER_MALE_TEXT" = "Pria";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "Tandai sebagai Mahram";
+
+"VERIFY_MAHRAM" = "Lihat Nomor Mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ adalah mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Hapus Mahram";

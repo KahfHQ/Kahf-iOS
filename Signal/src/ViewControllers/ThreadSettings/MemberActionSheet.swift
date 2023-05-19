@@ -230,7 +230,7 @@ class MemberActionSheet: OWSTableSheetViewController {
         section.add(.actionItem(
             icon: .settingsViewSafetyNumber,
             name: NSLocalizedString(
-                "VERIFY_PRIVACY",
+                "VERIFY_MAHRAM",
                 comment: "Label for button or row which allows users to verify the safety number of another user."
             ),
             accessibilityIdentifier: "MemberActionSheet.safety_number",

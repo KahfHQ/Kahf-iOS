@@ -556,7 +556,7 @@ public class NotificationPresenter: NSObject, NotificationsProtocol {
 
         let messageText = rawMessageText.filterStringForDisplay()
 
-        let senderName = contactsManager.displayName(for: incomingMessage.authorAddress, transaction: transaction)
+        let senderName = contactsManager.shortDisplayName(for: incomingMessage.authorAddress, transaction: transaction)
 
         let notificationTitle: String?
         let threadIdentifier: String?
@@ -657,7 +657,7 @@ public class NotificationPresenter: NSObject, NotificationsProtocol {
         // disturb the user for a non-message
         guard previewType == .namePreview else { return }
 
-        let senderName = contactsManager.displayName(for: reaction.reactor, transaction: transaction)
+        let senderName = contactsManager.shortDisplayName(for: reaction.reactor, transaction: transaction)
 
         let notificationTitle: String
 

@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Відтворити медіа";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Ви не верифікували %1$@.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Ви не позначили %@ як Mahram";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Верифіковано";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Ви встановили час зникнення повідомлень на %1$@.";
+
+"PROFILE_GENDER_TITLE" = "Стать";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "Жінка";
+
+"PROFILE_GENDER_MALE_TEXT" = "Чоловік"; 
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "Позначте як Махрам";
+
+"VERIFY_MAHRAM" = "Переглянути номер Махрама"; 
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ є махрамом";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Видаліть Махрама"; 

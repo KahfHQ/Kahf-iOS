@@ -314,7 +314,7 @@ public class GroupMemberRequestsAndInvitesViewController: OWSTableViewController
 
                     Self.databaseStorage.read { transaction in
                         let configuration = ContactCellConfiguration(address: inviterAddress, localUserDisplayMode: .asUser)
-                        let inviterName = Self.contactsManager.displayName(for: inviterAddress,
+                        let inviterName = Self.contactsManager.shortDisplayName(for: inviterAddress,
                                                                            transaction: transaction)
                         let format = NSLocalizedString("PENDING_GROUP_MEMBERS_MEMBER_INVITED_USERS_%d", tableName: "PluralAware",
                                                        comment: "Format for label indicating the a group member has invited N other users to the group. Embeds {{ %1$@ the number of users they have invited, %2$@ name of the inviting group member }}.")

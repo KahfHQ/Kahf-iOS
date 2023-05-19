@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Tämä Signal-versio vanhenee %1$d päivän kuluttua. Päivitä uusimpaan versioon napauttamalla.</string>
+			<string>Tämä Kahf Messenger-versio vanhenee %1$d päivän kuluttua. Päivitä uusimpaan versioon napauttamalla.</string>
 			<key>other</key>
-			<string>Tämä Signal-versio vanhenee %1$d päivän kuluttua. Päivitä uusimpaan versioon napauttamalla.</string>
+			<string>Tämä Kahf Messenger-versio vanhenee %1$d päivän kuluttua. Päivitä uusimpaan versioon napauttamalla.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal-ryhmät toimivat parhaiten, kun niissä on enintään %1$d jäsen. Korkeampi jäsenmäärä viivästyttää viestien kulkua.</string>
+			<string>Kahf Messenger-ryhmät toimivat parhaiten, kun niissä on enintään %1$d jäsen. Korkeampi jäsenmäärä viivästyttää viestien kulkua.</string>
 			<key>other</key>
-			<string>Signal-ryhmät toimivat parhaiten, kun niissä on enintään %1$d jäsentä. Korkeampi jäsenmäärä viivästyttää viestien kulkua.</string>
+			<string>Kahf Messenger-ryhmät toimivat parhaiten, kun niissä on enintään %1$d jäsentä. Korkeampi jäsenmäärä viivästyttää viestien kulkua.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -472,9 +472,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal soittaa käyttäjille %2$@, %3$@ ja %1$d muulle</string>
+			<string>Kahf Messenger soittaa käyttäjille %2$@, %3$@ ja %1$d muulle</string>
 			<key>other</key>
-			<string>Signal soittaa käyttäjille %2$@, %3$@ ja %1$d muulle</string>
+			<string>Kahf Messenger soittaa käyttäjille %2$@, %3$@ ja %1$d muulle</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Kaikki Signal-kontaktit · %1$d katsoja</string>
+			<string>Kaikki Kahf Messenger-kontaktit · %1$d katsoja</string>
 			<key>other</key>
-			<string>Kaikki Signal-kontaktit · %1$d katsojaa</string>
+			<string>Kaikki Kahf Messenger-kontaktit · %1$d katsojaa</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Kaikki Signal-kontaktit · %1$d suljettu pois</string>
+			<string>Kaikki Kahf Messenger-kontaktit · %1$d suljettu pois</string>
 			<key>other</key>
-			<string>Kaikki Signal-kontaktit · %1$d suljettu pois</string>
+			<string>Kaikki Kahf Messenger-kontaktit · %1$d suljettu pois</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

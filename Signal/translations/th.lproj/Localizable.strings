@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "เล่นสื่อ";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "คุณยังไม่ได้ทำเครื่องหมายว่า %1$@ ถูกตรวจยืนยันแล้ว";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "คุณยังไม่ได้ทำเครื่องหมาย %@ เป็น Mahram";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "ตรวจยืนยันแล้ว";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "คุณได้ตั้งเวลาข้อความที่ลบตัวเองได้ไว้ที่ %1$@";
+
+"PROFILE_GENDER_TITLE" = "เพศ"; 
+
+"PROFILE_GENDER_FEMALE_TEXT" = "หญิง";
+
+"PROFILE_GENDER_MALE_TEXT" = "ชาย";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "ทำเครื่องหมายเป็น Mahram";
+
+"VERIFY_MAHRAM" = "ดูหมายเลข Mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ คือมาห์ราม";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "กำจัดมะห์รอม";

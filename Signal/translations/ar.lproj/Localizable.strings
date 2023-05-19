@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "تشغيل الوسط";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "لم تضع علامة تحقق لـ %1$@";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" =  "لم تقم بتعليم٪ @ على أنه محرم";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "مُتحقَّق منه";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "ضبطتَ وقت إختفاء الرسائل على %1$@.";
+
+"PROFILE_GENDER_TITLE" = "جنس";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "أنثى"; 
+
+"PROFILE_GENDER_MALE_TEXT" = "ذكر";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "مارك أس محرم"; 
+
+"VERIFY_MAHRAM" = "مشاهدة رقم المحرم";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "٪ @ محرم";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "إزالة المحرم";

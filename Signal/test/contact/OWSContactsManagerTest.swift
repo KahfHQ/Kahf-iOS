@@ -176,7 +176,7 @@ class OWSContactsManagerTest: SignalBaseTest {
 
         read { transaction in
             let contactsManager = self.contactsManager as! OWSContactsManager
-            let actual = contactsManager.displayNames(for: addresses, transaction: transaction)
+            let actual = contactsManager.shortDisplayNames(for: addresses, transaction: transaction)
             let expected = ["Alice Aliceson (home)", "Bob Bobson (home)"]
             XCTAssertEqual(actual, expected)
         }
@@ -190,7 +190,7 @@ class OWSContactsManagerTest: SignalBaseTest {
         ]
         read { transaction in
             let contactsManager = self.contactsManager as! OWSContactsManager
-            let actual = contactsManager.displayNames(for: addresses, transaction: transaction)
+            let actual = contactsManager.shortDisplayNames(for: addresses, transaction: transaction)
             let expected = ["Alice Aliceson", "Bob Bobson"]
             XCTAssertEqual(actual, expected)
         }
@@ -205,7 +205,7 @@ class OWSContactsManagerTest: SignalBaseTest {
         (self.profileManager as! OWSFakeProfileManager).fakeDisplayNames = [:]
         read { transaction in
             let contactsManager = self.contactsManager as! OWSContactsManager
-            let actual = contactsManager.displayNames(for: addresses, transaction: transaction)
+            let actual = contactsManager.shortDisplayNames(for: addresses, transaction: transaction)
             let expected = ["+17035559900", "+17035559901"]
             XCTAssertEqual(actual, expected)
         }
@@ -229,7 +229,7 @@ class OWSContactsManagerTest: SignalBaseTest {
 
         read { transaction in
             let contactsManager = self.contactsManager as! OWSContactsManager
-            let actual = contactsManager.displayNames(for: addresses, transaction: transaction)
+            let actual = contactsManager.shortDisplayNames(for: addresses, transaction: transaction)
             let expected = ["alice", "bob"]
             XCTAssertEqual(actual, expected)
         }
@@ -244,7 +244,7 @@ class OWSContactsManagerTest: SignalBaseTest {
 
         read { transaction in
             let contactsManager = self.contactsManager as! OWSContactsManager
-            let actual = contactsManager.displayNames(for: addresses, transaction: transaction)
+            let actual = contactsManager.shortDisplayNames(for: addresses, transaction: transaction)
             let expected = ["Unknown", "Unknown"]
             XCTAssertEqual(actual, expected)
         }
@@ -272,7 +272,7 @@ class OWSContactsManagerTest: SignalBaseTest {
         read { transaction in
             let contactsManager = self.contactsManager as! OWSContactsManager
             let addresses = [aliceAddress, bobAddress, carolAddress, daveAddress, eveAddress]
-            let actual = contactsManager.displayNames(for: addresses, transaction: transaction)
+            let actual = contactsManager.shortDisplayNames(for: addresses, transaction: transaction)
             let expected = ["Alice Aliceson (home)", "Bob Bobson", "+17035559900", "dave", "Unknown"]
             XCTAssertEqual(actual, expected)
         }
@@ -289,7 +289,7 @@ class OWSContactsManagerTest: SignalBaseTest {
 
         read { transaction in
             let contactsManager = self.contactsManager as! OWSContactsManager
-            let actual = contactsManager.displayNames(for: addresses, transaction: transaction)
+            let actual = contactsManager.shortDisplayNames(for: addresses, transaction: transaction)
             let expected = ["Alice (home)", "Bob (home)"]
             XCTAssertEqual(actual, expected)
         }

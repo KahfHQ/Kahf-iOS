@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal verziód %1$d napon belül lejár. Koppints a legújabb verzióra frissítéshez.</string>
+			<string>Kahf Messenger verziód %1$d napon belül lejár. Koppints a legújabb verzióra frissítéshez.</string>
 			<key>other</key>
-			<string>Signal verziód %1$d napon belül lejár. Koppints a legújabb verzióra frissítéshez.</string>
+			<string>Kahf Messenger verziód %1$d napon belül lejár. Koppints a legújabb verzióra frissítéshez.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>A Signal csoportok %1$d vagy kevesebb taggal működnek hatékonyan. Ennél több tag esetén lassulások tapasztalhatók az üzenetek küldése és fogadása során.</string>
+			<string>A Kahf Messenger csoportok %1$d vagy kevesebb taggal működnek hatékonyan. Ennél több tag esetén lassulások tapasztalhatók az üzenetek küldése és fogadása során.</string>
 			<key>other</key>
-			<string>A Signal csoportok %1$d vagy kevesebb taggal működnek hatékonyan. Ennél több tag esetén lassulások tapasztalhatók az üzenetek küldése és fogadása során.</string>
+			<string>A Kahf Messenger csoportok %1$d vagy kevesebb taggal működnek hatékonyan. Ennél több tag esetén lassulások tapasztalhatók az üzenetek küldése és fogadása során.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -472,9 +472,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>A Signal hívni fogja %2$@, %3$@ és %1$d további ismerősödet</string>
+			<string>A Kahf Messenger hívni fogja %2$@, %3$@ és %1$d további ismerősödet</string>
 			<key>other</key>
-			<string>A Signal hívni fogja %2$@, %3$@ és %1$d további ismerősödet</string>
+			<string>A Kahf Messenger hívni fogja %2$@, %3$@ és %1$d további ismerősödet</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Minden Signal Névjegy · %1$d néző</string>
+			<string>Minden Kahf Messenger Névjegy · %1$d néző</string>
 			<key>other</key>
-			<string>Minden Signal Névjegy · %1$d néző</string>
+			<string>Minden Kahf Messenger Névjegy · %1$d néző</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Minden Signal Névjegy · Kivéve %1$d</string>
+			<string>Minden Kahf Messenger Névjegy · Kivéve %1$d</string>
 			<key>other</key>
-			<string>Minden Signal Névjegy · Kivéve %1$d</string>
+			<string>Minden Kahf Messenger Névjegy · Kivéve %1$d</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

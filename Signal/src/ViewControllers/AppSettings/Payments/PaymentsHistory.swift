@@ -143,7 +143,7 @@ class PaymentsHistoryDataSource: Dependencies {
                 if paymentModel.isUnidentified {
                     displayName = PaymentsViewUtils.buildUnidentifiedTransactionString(paymentModel: paymentModel)
                 } else if let address = paymentModel.address {
-                    displayName = Self.contactsManager.displayName(for: address, transaction: transaction)
+                    displayName = Self.contactsManager.shortDisplayName(for: address, transaction: transaction)
                 } else if paymentModel.isOutgoingTransfer {
                     displayName = NSLocalizedString("PAYMENTS_TRANSFER_OUT_PAYMENT",
                                                     comment: "Label for 'transfer out' payments.")

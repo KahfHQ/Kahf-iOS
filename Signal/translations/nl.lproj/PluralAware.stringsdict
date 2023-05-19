@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Deze versie van Signal zal binnen %1$d dag verlopen. Tik hier om bij te werken naar de meest recente versie.</string>
+			<string>Deze versie van Kahf Messenger zal binnen %1$d dag verlopen. Tik hier om bij te werken naar de meest recente versie.</string>
 			<key>other</key>
-			<string>Deze versie van Signal zal binnen %1$d dagen verlopen. Tik hier om bij te werken naar de meest recente versie.</string>
+			<string>Deze versie van Kahf Messenger zal binnen %1$d dagen verlopen. Tik hier om bij te werken naar de meest recente versie.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal-groepen werken het best met %1$d lid. Het toevoegen van extra leden zal vertragingen veroorzaken in het versturen en ontvangen van berichten.</string>
+			<string>Kahf Messenger-groepen werken het best met %1$d lid. Het toevoegen van extra leden zal vertragingen veroorzaken in het versturen en ontvangen van berichten.</string>
 			<key>other</key>
-			<string>Signal-groepen werken het best met %1$d of minder leden. Het toevoegen van extra leden zal vertragingen veroorzaken in het versturen en ontvangen van berichten.</string>
+			<string>Kahf Messenger-groepen werken het best met %1$d of minder leden. Het toevoegen van extra leden zal vertragingen veroorzaken in het versturen en ontvangen van berichten.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -472,9 +472,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal zal %2$@, %3$@ en %1$d ander bellen</string>
+			<string>Kahf Messenger zal %2$@, %3$@ en %1$d ander bellen</string>
 			<key>other</key>
-			<string>Signal zal %2$@, %3$@ en %1$d anderen bellen</string>
+			<string>Kahf Messenger zal %2$@, %3$@ en %1$d anderen bellen</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Alle Signal-contacten · %1$d kijker</string>
+			<string>Alle Kahf Messenger-contacten · %1$d kijker</string>
 			<key>other</key>
-			<string>Alle Signal-contacten · %1$d kijkers</string>
+			<string>Alle Kahf Messenger-contacten · %1$d kijkers</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Alle Signal-contacten · Verborgen voor %1$d</string>
+			<string>Alle Kahf Messenger-contacten · Verborgen voor %1$d</string>
 			<key>other</key>
-			<string>Alle Signal-contacten · Verborgen voor %1$d</string>
+			<string>Alle Kahf Messenger-contacten · Verborgen voor %1$d</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>
@@ -1080,9 +1080,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Je hebt nog %1$d poging. Als je geen pogingen meer over hebt, wordt Signal voor dit telefoonnummer tijdelijk vergrendeld. Na 7 dagen kun je je telefoonnummer opnieuw registreren zonder je pincode. Je account wordt verwijderd en alle inhoud wordt gewist.</string>
+			<string>Je hebt nog %1$d poging. Als je geen pogingen meer over hebt, wordt Kahf Messenger voor dit telefoonnummer tijdelijk vergrendeld. Na 7 dagen kun je je telefoonnummer opnieuw registreren zonder je pincode. Je account wordt verwijderd en alle inhoud wordt gewist.</string>
 			<key>other</key>
-			<string>Je hebt nog %1$d pogingen. Als je geen pogingen meer over hebt, wordt Signal voor dit telefoonnummer tijdelijk vergrendeld. Na 7 dagen kun je je telefoonnummer opnieuw registreren zonder je pincode. Je account wordt verwijderd en alle inhoud wordt gewist.</string>
+			<string>Je hebt nog %1$d pogingen. Als je geen pogingen meer over hebt, wordt Kahf Messenger voor dit telefoonnummer tijdelijk vergrendeld. Na 7 dagen kun je je telefoonnummer opnieuw registreren zonder je pincode. Je account wordt verwijderd en alle inhoud wordt gewist.</string>
 		</dict>
 	</dict>
 	<key>STORIES_SHARESHEET_PARTIAL_SEND_SUBTITLE_%d</key>

@@ -1169,7 +1169,8 @@ extension OWSContactsManager {
     ) -> Refinery<SignalServiceAddress, String> {
         return .init(addresses).refine { addresses in
             // Prefer a saved name from system contacts, if available.
-            return cachedContactNames(for: addresses, transaction: transaction)
+            profileManager.fullNames(forAddresses: Array(addresses),
+                                     transaction: transaction).sequenceWithNils
         }.refine { addresses in
             profileManager.fullNames(forAddresses: Array(addresses),
                                      transaction: transaction).sequenceWithNils

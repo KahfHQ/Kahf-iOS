@@ -661,7 +661,7 @@ extension CVComponentSystemMessage {
             return errorMessage.previewText(transaction: transaction)
         } else if let verificationMessage = interaction as? OWSVerificationStateChangeMessage {
             let isVerified = verificationMessage.verificationState == .verified
-            let displayName = contactsManager.displayName(for: verificationMessage.recipientAddress, transaction: transaction)
+            let displayName = contactsManager.shortDisplayName(for: verificationMessage.recipientAddress, transaction: transaction)
             let format = (isVerified
                             ? (verificationMessage.isLocalChange
                                 ? NSLocalizedString("VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_LOCAL",

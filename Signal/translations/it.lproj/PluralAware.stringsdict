@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>La tua versione di Signal scadrà tra %1$d giorno. Tocca per aggiornare alla versione più recente.</string>
+			<string>La tua versione di Kahf Messenger scadrà tra %1$d giorno. Tocca per aggiornare alla versione più recente.</string>
 			<key>other</key>
-			<string>La tua versione di Signal scadrà tra %1$d giorni. Tocca per aggiornare alla versione più recente.</string>
+			<string>La tua versione di Kahf Messenger scadrà tra %1$d giorni. Tocca per aggiornare alla versione più recente.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>I gruppi di Signal funzionano meglio con massimo %1$d persona o meno. Aggiungere più persone causerà ritardi nell&apos;invio e nella ricezione dei messaggi.</string>
+			<string>I gruppi di Kahf Messenger funzionano meglio con massimo %1$d persona o meno. Aggiungere più persone causerà ritardi nell&apos;invio e nella ricezione dei messaggi.</string>
 			<key>other</key>
-			<string>I gruppi di Signal funzionano meglio con massimo %1$d persone o meno. Aggiungere più persone causerà ritardi nell&apos;invio e nella ricezione dei messaggi.</string>
+			<string>I gruppi di Kahf Messenger funzionano meglio con massimo %1$d persone o meno. Aggiungere più persone causerà ritardi nell&apos;invio e nella ricezione dei messaggi.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -472,9 +472,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal chiamerà %2$@, %3$@ e %1$d altra persona</string>
+			<string>Kahf Messenger chiamerà %2$@, %3$@ e %1$d altra persona</string>
 			<key>other</key>
-			<string>Signal chiamerà %2$@, %3$@ e altre %1$d persone</string>
+			<string>Kahf Messenger chiamerà %2$@, %3$@ e altre %1$d persone</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Tutte le amicizie di Signal · %1$d Persona</string>
+			<string>Tutte le amicizie di Kahf Messenger · %1$d Persona</string>
 			<key>other</key>
-			<string>Tutte le amicizie di Signal · %1$d Persone</string>
+			<string>Tutte le amicizie di Kahf Messenger · %1$d Persone</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Tutte le amicizie di Signal · %1$d Persona esclusa</string>
+			<string>Tutte le amicizie di Kahf Messenger · %1$d Persona esclusa</string>
 			<key>other</key>
-			<string>Tutte le amicizie di Signal · %1$d Persone escluse</string>
+			<string>Tutte le amicizie di Kahf Messenger · %1$d Persone escluse</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

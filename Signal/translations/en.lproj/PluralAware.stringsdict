@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Your version of Signal will expire in %d day. Tap to update to the most recent version.</string>
+			<string>Your version of Kahf Messenger will expire in %d day. Tap to update to the most recent version.</string>
 			<key>other</key>
-			<string>Your version of Signal will expire in %d days. Tap to update to the most recent version.</string>
+			<string>Your version of Kahf Messenger will expire in %d days. Tap to update to the most recent version.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal groups perform best with %d member or less. Adding more members will cause delays sending and receiving messages.</string>
+			<string>Kahf Messenger groups perform best with %d member or less. Adding more members will cause delays sending and receiving messages.</string>
 			<key>other</key>
-			<string>Signal groups perform best with %d members or less. Adding more members will cause delays sending and receiving messages.</string>
+			<string>Kahf Messenger groups perform best with %d members or less. Adding more members will cause delays sending and receiving messages.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -472,9 +472,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal will ring %2$@, %3$@, and %d other</string>
+			<string>Kahf Messenger will ring %2$@, %3$@, and %d other</string>
 			<key>other</key>
-			<string>Signal will ring %2$@, %3$@, and %d others</string>
+			<string>Kahf Messenger will ring %2$@, %3$@, and %d others</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>All Signal Connections · %d Viewer</string>
+			<string>All Kahf Messenger Connections · %d Viewer</string>
 			<key>other</key>
-			<string>All Signal Connections · %d Viewers</string>
+			<string>All Kahf Messenger Connections · %d Viewers</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>All Signal Connections · %d Excluded</string>
+			<string>All Kahf Messenger Connections · %d Excluded</string>
 			<key>other</key>
-			<string>All Signal Connections · %d Excluded</string>
+			<string>All Kahf Messenger Connections · %d Excluded</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

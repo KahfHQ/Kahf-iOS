@@ -861,7 +861,7 @@ extension GroupUpdateCopy {
                                                 comment: "Message indicating that the local user was granted administrator role."))
             }
         } else {
-            let userName = self.contactsManager.displayName(for: address, transaction: transaction)
+            let userName = self.contactsManager.shortDisplayName(for: address, transaction: transaction)
 
             switch updater {
             case .localUser:
@@ -928,7 +928,7 @@ extension GroupUpdateCopy {
                                                 comment: "Message indicating that the local user had their administrator role revoked."))
             }
         } else {
-            let userName = contactsManager.displayName(for: address, transaction: transaction)
+            let userName = contactsManager.shortDisplayName(for: address, transaction: transaction)
 
             switch updater {
             case .localUser:
@@ -985,7 +985,7 @@ extension GroupUpdateCopy {
                                                 comment: "Message indicating that the local user was removed from the group by an unknown user."))
             }
         } else {
-            let userName = contactsManager.displayName(for: address, transaction: transaction)
+            let userName = contactsManager.shortDisplayName(for: address, transaction: transaction)
 
             switch updater {
             case .localUser:
@@ -1031,7 +1031,7 @@ extension GroupUpdateCopy {
                     copy: OWSLocalizedString("GROUP_LOCAL_USER_INVITED_TO_THE_GROUP",
                                             comment: "Message indicating that the local user was invited to the group."))
         } else {
-            let userName = contactsManager.displayName(for: address, transaction: transaction)
+            let userName = contactsManager.shortDisplayName(for: address, transaction: transaction)
             do {
                 let format = OWSLocalizedString("GROUP_REMOTE_USER_LEFT_GROUP_FORMAT",
                                                comment: "Message indicating that a remote user has left the group. Embeds {{remote user name}}.")
@@ -1056,7 +1056,7 @@ extension GroupUpdateCopy {
         var inviterAddress: SignalServiceAddress?
         if let inviterUuid = oldGroupMembership.addedByUuid(forInvitedMember: address) {
             inviterAddress = SignalServiceAddress(uuid: inviterUuid)
-            inviterName = contactsManager.displayName(for: SignalServiceAddress(uuid: inviterUuid),
+            inviterName = contactsManager.shortDisplayName(for: SignalServiceAddress(uuid: inviterUuid),
                                                       transaction: transaction)
         }
 
@@ -1097,7 +1097,7 @@ extension GroupUpdateCopy {
                                                 comment: "Message indicating that the local user has joined the group."))
             }
         } else {
-            let userName = contactsManager.displayName(for: address, transaction: transaction)
+            let userName = contactsManager.shortDisplayName(for: address, transaction: transaction)
 
             switch updater {
             case .localUser:
@@ -1160,7 +1160,7 @@ extension GroupUpdateCopy {
         var inviterAddress: SignalServiceAddress?
         if let inviterUuid = oldGroupMembership.addedByUuid(forInvitedMember: address) {
             inviterAddress = SignalServiceAddress(uuid: inviterUuid)
-            inviterName = contactsManager.displayName(for: SignalServiceAddress(uuid: inviterUuid),
+            inviterName = contactsManager.shortDisplayName(for: SignalServiceAddress(uuid: inviterUuid),
                                                       transaction: transaction)
         }
 
@@ -1201,7 +1201,7 @@ extension GroupUpdateCopy {
                                                 comment: "Message indicating that the local user's invite was revoked by an unknown user."))
             }
         } else {
-            let userName = contactsManager.displayName(for: address, transaction: transaction)
+            let userName = contactsManager.shortDisplayName(for: address, transaction: transaction)
 
             switch updater {
             case .localUser:
@@ -1302,7 +1302,7 @@ extension GroupUpdateCopy {
                 }
             }
         } else {
-            let userName = contactsManager.displayName(for: address, transaction: transaction)
+            let userName = contactsManager.shortDisplayName(for: address, transaction: transaction)
 
             switch updater {
             case .localUser:
@@ -1365,7 +1365,7 @@ extension GroupUpdateCopy {
                                                 comment: "Message indicating that the local user has joined the group."))
             }
         } else {
-            let userName = contactsManager.displayName(for: address, transaction: transaction)
+            let userName = contactsManager.shortDisplayName(for: address, transaction: transaction)
 
             switch updater {
             case .otherUser(let updaterName, let updaterAddress):
@@ -1420,7 +1420,7 @@ extension GroupUpdateCopy {
                                                 comment: "Message indicating that the local user was invited to the group."))
             }
         } else {
-            let userName = contactsManager.displayName(for: address, transaction: transaction)
+            let userName = contactsManager.shortDisplayName(for: address, transaction: transaction)
 
             switch updater {
             case .localUser:
@@ -1474,7 +1474,7 @@ extension GroupUpdateCopy {
                     copy: OWSLocalizedString("GROUP_LOCAL_USER_REQUESTED_TO_JOIN_TO_THE_GROUP",
                                             comment: "Message indicating that the local user requested to join the group."))
         } else {
-            let requesterName = contactsManager.displayName(for: address, transaction: transaction)
+            let requesterName = contactsManager.shortDisplayName(for: address, transaction: transaction)
             let format = OWSLocalizedString("GROUP_REMOTE_USER_REQUESTED_TO_JOIN_THE_GROUP_FORMAT",
                                            comment: "Message indicating that a remote user requested to join the group. Embeds {{requesting user name}}.")
             addItem(.userMembershipState, address: address, format: format, .name(requesterName, address))
@@ -1515,7 +1515,7 @@ extension GroupUpdateCopy {
                                                 comment: "Message indicating that the local user was added to the group."))
             }
         } else {
-            let requesterName = contactsManager.displayName(for: address, transaction: transaction)
+            let requesterName = contactsManager.shortDisplayName(for: address, transaction: transaction)
             switch updater {
             case .localUser:
                 // A user with a "pending request to join the group" can be "added" or "approved".
@@ -1572,7 +1572,7 @@ extension GroupUpdateCopy {
                                                 comment: "Message indicating that the local user's request to join the group was rejected."))
             }
         } else {
-            let requesterName = contactsManager.displayName(for: address, transaction: transaction)
+            let requesterName = contactsManager.shortDisplayName(for: address, transaction: transaction)
             switch updater {
             case .localUser:
                 let format = OWSLocalizedString("GROUP_REMOTE_USER_REQUEST_REJECTED_BY_LOCAL_USER_FORMAT",
@@ -1913,7 +1913,7 @@ extension GroupUpdateCopy {
             if let localAddress = Self.tsAccountManager.localAddress,
                let inviterUuid = newGroupMembership.addedByUuid(forInvitedMember: localAddress) {
                 let inviterAddress = SignalServiceAddress(uuid: inviterUuid)
-                let inviterName = contactsManager.displayName(for: inviterAddress, transaction: transaction)
+                let inviterName = contactsManager.shortDisplayName(for: inviterAddress, transaction: transaction)
                 let format = OWSLocalizedString("GROUP_LOCAL_USER_INVITED_BY_REMOTE_USER_FORMAT",
                                                comment: "Message indicating that the local user was invited to the group by another user. Embeds {{remote user name}}.")
                 addItem(.userMembershipState_invited,
@@ -2038,7 +2038,7 @@ extension GroupUpdateCopy {
             return .localUser
         }
 
-        let updaterName = contactsManager.displayName(for: updaterAddress, transaction: transaction)
+        let updaterName = contactsManager.shortDisplayName(for: updaterAddress, transaction: transaction)
         return .otherUser(updaterName: updaterName, updaterAddress: updaterAddress)
     }
 

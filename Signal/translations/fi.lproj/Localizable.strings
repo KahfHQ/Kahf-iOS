@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Toista media";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Käyttäjää%1$@ ei ole merkitty varmennetuksi.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Et ole merkinnyt %@ Mahramiksi";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Varmennettu";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Asetit viestien katoamisajaksi %1$@.";
+
+"PROFILE_GENDER_TITLE" = "Sukupuoli";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "Nainen";
+
+"PROFILE_GENDER_MALE_TEXT" = "Uros"; 
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "Merkitse Mahramiksi";
+
+"VERIFY_MAHRAM" = "Näytä Mahram-numero";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ on mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Poista Mahram";

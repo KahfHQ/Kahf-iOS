@@ -10,7 +10,7 @@ import SignalMessaging
 public class Deprecated_OnboardingProfileCreationViewController: Deprecated_OnboardingBaseViewController {
 
     // MARK: - Properties
-
+    let genderOptions = [NSLocalizedString("PROFILE_GENDER_MALE_TEXT",comment: "Gender female text"), NSLocalizedString("PROFILE_GENDER_FEMALE_TEXT",comment: "Gender female text")]
     private var avatarData: Data?
 
     private var isValidProfile: Bool {
@@ -28,7 +28,7 @@ public class Deprecated_OnboardingProfileCreationViewController: Deprecated_Onbo
     // MARK: - Views
 
     private let contentScrollView = UIScrollView()
-
+    private let pickerView = UIPickerView()
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.ows_dynamicTypeTitle1.ows_semibold
@@ -111,16 +111,29 @@ public class Deprecated_OnboardingProfileCreationViewController: Deprecated_Onbo
         label.textContentType = .familyName
 
         label.accessibilityIdentifier = "family_name_textfield"
-        label.placeholder = NSLocalizedString(
-            "ONBOARDING_PROFILE_FAMILY_NAME_FIELD",
-            comment: "Placeholder text for the family name field of the profile creation view.")
+        label.placeholder = NSLocalizedString("PROFILE_GENDER_TITLE",comment: "Gender text")
 
+        
+        pickerView.delegate = self
+        pickerView.dataSource = self
+        label.inputView = pickerView
+        let toolbar = UIToolbar()
+        toolbar.sizeToFit()
+        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneButtonTapped))
+        toolbar.setItems([doneButton], animated: false)
+        label.inputAccessoryView = toolbar
         label.delegate = self
         label.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
         label.autoSetDimension(.height, toSize: 50, relation: .greaterThanOrEqual)
         return label
     }()
 
+    @objc func doneButtonTapped() {
+        let selectedOption = genderOptions[pickerView.selectedRow(inComponent: 0)]
+        familyNameTextField.text = selectedOption
+        familyNameTextField.resignFirstResponder()
+    }
+    
     private lazy var nameFieldStrokes: [UIView] = [givenNameTextField, familyNameTextField].map {
         $0.addBottomStroke(color: Theme.cellSeparatorColor, strokeWidth: CGHairlineWidth())
     }
@@ -314,7 +327,7 @@ public class Deprecated_OnboardingProfileCreationViewController: Deprecated_Onbo
         // Show an activity indicator to block the UI during the profile upload.
         let avatarData = self.avatarData
         let normalizedGivenName = self.normalizedGivenName
-        let normalizedFamilyName = self.normalizedFamilyName
+        let normalizedFamilyName = self.normalizedFamilyName == NSLocalizedString("PROFILE_GENDER_MALE_TEXT",comment: "Gender male text") ? "Male" : "Female"
 
         let spinner = AnimatedProgressView()
         primaryView.addSubview(spinner)
@@ -449,4 +462,20 @@ extension Deprecated_OnboardingProfileCreationViewController: UITextFieldDelegat
     func textFieldDidChange(_ textField: UITextField) {
         saveButton.setEnabled(isValidProfile)
     }
+}
+
+extension Deprecated_OnboardingProfileCreationViewController : UIPickerViewDelegate, UIPickerViewDataSource {
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return genderOptions.count
+    }
+    
+    // Return the title for each row in the picker view
+    public func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return genderOptions[row] // options is an array of strings representing the options to be displayed in the picker view
+    }
+    
 }

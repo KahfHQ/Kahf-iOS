@@ -35,15 +35,15 @@ class GRDBFullTextSearcherContactsManager: NSObject, ContactsManagerProtocol {
     }
 
     func comparableName(for address: SignalServiceAddress, transaction: SDSAnyReadTransaction) -> String {
-        self.displayName(for: address)
+        self.shortDisplayName(for: address)
     }
 
     func comparableName(for signalAccount: SignalAccount, transaction: SDSAnyReadTransaction) -> String {
-        self.displayName(for: signalAccount.recipientAddress)
+        self.shortDisplayName(for: signalAccount.recipientAddress)
     }
 
     func displayName(for address: SignalServiceAddress, transaction: SDSAnyReadTransaction) -> String {
-        self.displayName(for: address)
+        self.shortDisplayName(for: address)
     }
 
     func displayNames(forAddresses addresses: [SignalServiceAddress], transaction: SDSAnyReadTransaction) -> [String] {
@@ -51,7 +51,7 @@ class GRDBFullTextSearcherContactsManager: NSObject, ContactsManagerProtocol {
     }
 
     func shortDisplayName(for address: SignalServiceAddress, transaction: SDSAnyReadTransaction) -> String {
-        self.displayName(for: address)
+        self.shortDisplayName(for: address)
     }
 
     func displayName(for address: SignalServiceAddress) -> String {

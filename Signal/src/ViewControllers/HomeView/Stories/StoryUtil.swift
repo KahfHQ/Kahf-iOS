@@ -53,7 +53,7 @@ public enum StoryUtil: Dependencies {
             if !useFullNameForLocalAddress && storyMessage.authorAddress.isLocalAddress {
                 return CommonStrings.you
             }
-            return contactsManager.displayName(
+            return contactsManager.shortDisplayName(
                 for: storyMessage.authorAddress,
                 transaction: transaction
             )

@@ -373,7 +373,7 @@ struct CVItemModelBuilder: CVItemBuilding, Dependencies {
                 // the previous message has the same sender name and
                 // no "date break" separates us.
                 var shouldShowSenderName = true
-                let authorName = displayNameCache.displayName(address: incomingSenderAddress, transaction: transaction)
+                let authorName = displayNameCache.shortDisplayName(address: incomingSenderAddress, transaction: transaction)
                 itemViewState.accessibilityAuthorName = authorName
 
                 if let previousItem = previousItem,
@@ -773,7 +773,7 @@ class DisplayNameCache: Dependencies {
         if let uuid = address.uuid, let value = displayNameCache[uuid] {
             return value
         }
-        let value = contactsManager.displayName(for: address, transaction: transaction)
+        let value = contactsManager.shortDisplayName(for: address, transaction: transaction)
         if let uuid = address.uuid {
             displayNameCache[uuid] = value
         }

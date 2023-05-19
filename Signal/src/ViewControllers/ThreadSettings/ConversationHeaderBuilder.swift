@@ -115,8 +115,61 @@ struct ConversationHeaderBuilder: Dependencies {
         if groupThread.isGroupV1Thread {
             builder.addLegacyGroupView(groupThread: groupThread)
         }
+        
+        var isMahrem = true
+        
+        if let newThread = TSThread.anyFetch(uniqueId: groupThread.uniqueId, transaction: transaction) , let groupModel = groupThread.groupModel as? TSGroupModelV2, !groupModel.isPlaceholder {
+            let newThreadViewModel = ThreadViewModel(thread: newThread, forChatList: false, transaction: transaction)
+            let groupMembership = groupModel.groupMembership
+            let allMembers = groupMembership.fullMembers
+            var allMembersSorted = [SignalServiceAddress]()
+            var verificationStateMap = [SignalServiceAddress: OWSVerificationState]()
 
-        builder.addButtons()
+            for memberAddress in allMembers {
+                verificationStateMap[memberAddress] = self.identityManager.verificationState(for: memberAddress, transaction: transaction)
+            }
+            
+            allMembersSorted = self.contactsManagerImpl.sortSignalServiceAddresses(Array(allMembers),transaction: transaction)
+           
+          
+            
+            if profileManager.localFamilyName() == "Male"  { //Male
+                for adress in allMembersSorted {
+                    let components = contactsManager.displayName(for: adress, transaction: transaction).components(separatedBy: " ")
+                    let lastComponent = components.last ?? ""
+                    let genderString = String(lastComponent)
+                    if genderString == "Female" && verificationStateMap[adress] == .verified {
+                        isMahrem = true
+                    }
+                    else if genderString == "Male" {
+                        isMahrem = true
+                    }
+                    else {
+                        isMahrem = false
+                        break
+                    }
+                }
+            }
+            else { //Female
+                for adress in allMembersSorted {
+                    let components = contactsManager.displayName(for: adress, transaction: transaction).components(separatedBy: " ")
+                    let lastComponent = components.last ?? ""
+                    let genderString = String(lastComponent)
+                    if genderString == "Male" && verificationStateMap[adress] == .verified {
+                        isMahrem = true
+                    }
+                    else if genderString == "Female" {
+                        isMahrem = true
+                    }
+                    else {
+                        isMahrem = false
+                        break
+                    }
+                }
+            }
+        }
+        
+        builder.addButtons(isMahremGroup: isMahrem)
 
         return builder.build()
     }
@@ -204,12 +257,11 @@ struct ConversationHeaderBuilder: Dependencies {
             let subtitle = NSMutableAttributedString()
             subtitle.appendTemplatedImage(named: "check-12", font: .ows_dynamicTypeSubheadlineClamped)
             subtitle.append(" ")
-            subtitle.append(NSLocalizedString("PRIVACY_IDENTITY_IS_VERIFIED_BADGE",
-                                              comment: "Badge indicating that the user is verified."))
+            subtitle.append("Mahram")
             builder.addSubtitleLabel(attributedText: subtitle)
         }
 
-        builder.addButtons()
+        builder.addButtons(isVerified: isVerified)
 
         return builder.build()
     }
@@ -239,7 +291,7 @@ struct ConversationHeaderBuilder: Dependencies {
         subviews.append(buildThreadNameLabel())
     }
 
-    mutating func addButtons() {
+    mutating func addButtons(isVerified: Bool = false, isMahremGroup : Bool = false) {
         var buttons = [UIView]()
 
         if options.contains(.message) {
@@ -259,20 +311,118 @@ struct ConversationHeaderBuilder: Dependencies {
         if ConversationViewController.canCall(threadViewModel: delegate.threadViewModel) {
             let isCurrentCallForThread = callService.currentCall?.thread.uniqueId == delegate.thread.uniqueId
             let hasCurrentCall = callService.currentCall != nil
-
-            if options.contains(.videoCall) {
-                buttons.append(buildIconButton(
-                    icon: .videoCall,
-                    text: NSLocalizedString(
-                        "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
-                        comment: "Button to start a video call"
-                    ),
-                    isEnabled: isCurrentCallForThread || !hasCurrentCall,
-                    action: { [weak delegate] in
-                        delegate?.startCall(withVideo: true)
+            let components = delegate.threadViewModel.name.components(separatedBy: " ")
+            let lastComponent = components.last ?? ""
+            let genderString = String(lastComponent)
+            
+            if !delegate.thread.isGroupThread {
+                if profileManager.localFamilyName() == "Male" {
+                    if genderString == "Male" {
+                        buttons.append(buildIconButton(
+                            icon: .videoCall,
+                            text: NSLocalizedString(
+                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                comment: "Button to start a video call"
+                            ),
+                            isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                            action: { [weak delegate] in
+                                delegate?.startCall(withVideo: true)
+                            }
+                        ))
+                    } else if genderString == "Female" && isVerified {
+                        buttons.append(buildIconButton(
+                            icon: .videoCall,
+                            text: NSLocalizedString(
+                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                comment: "Button to start a video call"
+                            ),
+                            isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                            action: { [weak delegate] in
+                                delegate?.startCall(withVideo: true)
+                            }
+                        ))
+                    } else {
+                        let videoCallButton = buildIconButton(
+                            icon: .videoCall,
+                            text: NSLocalizedString(
+                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                comment: "Button to start a video call"
+                            ),
+                            isEnabled: !hasCurrentCall,
+                            action: showDisabledAlert,
+                            alpha: 0.5
+                        )
+                        buttons.append(videoCallButton)
                     }
-                ))
+                } else {
+                    if genderString == "Female" {
+                        buttons.append(buildIconButton(
+                            icon: .videoCall,
+                            text: NSLocalizedString(
+                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                comment: "Button to start a video call"
+                            ),
+                            isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                            action: { [weak delegate] in
+                                delegate?.startCall(withVideo: true)
+                            }
+                        ))
+                    } else if genderString == "Male" && isVerified {
+                        buttons.append(buildIconButton(
+                            icon: .videoCall,
+                            text: NSLocalizedString(
+                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                comment: "Button to start a video call"
+                            ),
+                            isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                            action: { [weak delegate] in
+                                delegate?.startCall(withVideo: true)
+                            }
+                        ))
+                    } else {
+                        let videoCallButton = buildIconButton(
+                            icon: .videoCall,
+                            text: NSLocalizedString(
+                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                comment: "Button to start a video call"
+                            ),
+                            isEnabled: !hasCurrentCall,
+                            action: showDisabledAlert,
+                            alpha: 0.5
+                        )
+                        buttons.append(videoCallButton)
+                    }
+                }
             }
+            else {
+                if isMahremGroup {
+                    buttons.append(buildIconButton(
+                        icon: .videoCall,
+                        text: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                            comment: "Button to start a video call"
+                        ),
+                        isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                        action: { [weak delegate] in
+                            delegate?.startCall(withVideo: true)
+                        }
+                    ))
+                }
+                else {
+                    let videoCallButton = buildIconButton(
+                        icon: .videoCall,
+                        text: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                            comment: "Button to start a video call"
+                        ),
+                        isEnabled: !hasCurrentCall,
+                        action: showDisabledAlert,
+                        alpha: 0.5
+                    )
+                    buttons.append(videoCallButton)
+                }
+            }
+            
 
             if !delegate.thread.isGroupThread, options.contains(.audioCall) {
                 buttons.append(buildIconButton(
@@ -357,8 +507,14 @@ struct ConversationHeaderBuilder: Dependencies {
         }
     }
 
+    func showDisabledAlert() {
+        let toast = NSLocalizedString("PRIVACY_MAHRAM_BUTTON_TEXT",
+                                      comment: "Indicator that a value has been copied to the clipboard.")
+        delegate.tableViewController.presentToast(text: toast)
+    }
+    
     private var maxIconButtonWidth: CGFloat = 0
-    mutating func buildIconButton(icon: ThemeIcon, text: String, isEnabled: Bool = true, action: @escaping () -> Void) -> UIView {
+    mutating func buildIconButton(icon: ThemeIcon, text: String, isEnabled: Bool = true, action: @escaping () -> Void, alpha: CGFloat = 1.0) -> UIView {
         let button = OWSButton { [weak delegate] in
             delegate?.tappedButton()
             action()
@@ -396,7 +552,7 @@ struct ConversationHeaderBuilder: Dependencies {
         label.autoPinWidthToSuperview(withMargin: 12)
         label.autoPinEdge(toSuperviewEdge: .bottom, withInset: 6)
         label.autoPinEdge(.top, to: .bottom, of: imageView, withOffset: 2)
-
+        button.alpha = alpha
         return button
     }
 
@@ -449,10 +605,7 @@ struct ConversationHeaderBuilder: Dependencies {
 
     func buildThreadNameLabel() -> UILabel {
         let label = UILabel()
-        label.text = delegate.threadName(
-            renderLocalUserAsNoteToSelf: options.contains(.renderLocalUserAsNoteToSelf),
-            transaction: transaction
-        )
+        label.text = delegate.threadViewModel.shortName ?? delegate.threadViewModel.name
         label.textColor = Theme.primaryTextColor
         // TODO: See if design really wants this custom font size.
         label.font = UIFont.ows_semiboldFont(withSize: UIFont.ows_dynamicTypeTitle1Clamped.pointSize * (13/14))

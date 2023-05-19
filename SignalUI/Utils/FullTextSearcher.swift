@@ -193,7 +193,7 @@ public class GroupSearchResult: NSObject, Comparable {
         let matchedMembers = groupThread.sortedMemberNames(searchText: searchText,
                                                            includingBlocked: true,
                                                            transaction: transaction) {
-            contactsManager.displayName(for: $0, transaction: transaction)
+            contactsManager.shortDisplayName(for: $0, transaction: transaction)
         }
         let matchedMembersSnippet = matchedMembers.joined(separator: ", ")
 
@@ -996,7 +996,7 @@ public class FullTextSearcher: NSObject {
     }
 
     private func indexingString(address: SignalServiceAddress, transaction: SDSAnyReadTransaction) -> String {
-        let displayName = contactsManager.displayName(for: address, transaction: transaction)
+        let displayName = contactsManager.shortDisplayName(for: address, transaction: transaction)
 
         return "\(address.phoneNumber ?? "") \(displayName)"
     }

@@ -852,7 +852,7 @@ class ConversationSettingsViewController: OWSTableViewController2, BadgeCollecti
     func showMediaGallery() {
         Logger.debug("")
 
-        let tileVC = AllMediaViewController(thread: thread, name: threadViewModel.name)
+        let tileVC = AllMediaViewController(thread: thread, name: threadViewModel.shortName ?? threadViewModel.name)
         navigationController?.pushViewController(tileVC, animated: true)
     }
 

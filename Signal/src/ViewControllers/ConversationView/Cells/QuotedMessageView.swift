@@ -59,7 +59,7 @@ public class QuotedMessageView: ManualStackViewWithLayer {
                                      isOutgoing: Bool,
                                      transaction: SDSAnyReadTransaction) -> State {
 
-        let quotedAuthorName = contactsManager.displayName(for: quotedReplyModel.authorAddress,
+        let quotedAuthorName = contactsManager.shortDisplayName(for: quotedReplyModel.authorAddress,
                                                            transaction: transaction)
 
         return State(quotedReplyModel: quotedReplyModel,
@@ -74,7 +74,7 @@ public class QuotedMessageView: ManualStackViewWithLayer {
                                 conversationStyle: ConversationStyle,
                                 transaction: SDSAnyReadTransaction) -> State {
 
-        let quotedAuthorName = contactsManager.displayName(for: quotedReplyModel.authorAddress,
+        let quotedAuthorName = contactsManager.shortDisplayName(for: quotedReplyModel.authorAddress,
                                                            transaction: transaction)
 
         var displayableQuotedText: DisplayableText?

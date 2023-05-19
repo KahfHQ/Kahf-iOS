@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "મીડિયા ચલાવો";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "તમે ચકાસાયેલ તરીકે %1$@ માર્ક નથી કર્યું.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "તમે %@ ને મહરામ તરીકે ચિહ્નિત કર્યા નથી";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "ચકાસણી";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "તમે અદ્રશ્ય મેસેજ સમય %1$@ પર સેટ કર્યો છે.";
+
+"PROFILE_GENDER_TITLE" = "જાતિ";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "સ્ત્રી"; 
+
+"PROFILE_GENDER_MALE_TEXT" = "પુરુષ";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "મહરામ તરીકે ચિહ્નિત કરો";
+
+"VERIFY_MAHRAM" = "મહરમ નંબર જુઓ";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ મહરામ છે";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "મહરામને કાઢી નાખો";
