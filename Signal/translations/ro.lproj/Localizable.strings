@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Redă media";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Nu ai marcat pe %1$@ ca verificat.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Nu ați marcat %@ ca Mahram"; 
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Verificat";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Ai setat timpul de expirare a mesajelor la %1$@.";
+
+"PROFILE_GENDER_TITLE" = "Gen";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "Femeie";
+
+"PROFILE_GENDER_MALE_TEXT" = "Masculin";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "Mark ca Mahram";
+
+"VERIFY_MAHRAM" = "Vedeți numărul Mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ este mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Eliminați Mahram"; 

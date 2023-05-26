@@ -260,7 +260,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>このバージョンのSignalは、%1$d日後に期限が切れます。最新バージョンにアップデートしてください。</string>
+			<string>このバージョンのKahf Messengerは、%1$d日後に期限が切れます。最新バージョンにアップデートしてください。</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -302,7 +302,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>Signalグループは%1$d人以下の人数で適切に作動します。これ以上のメンバー追加はメッセージの送受信に遅れが生じる可能性があります。</string>
+			<string>Kahf Messengerグループは%1$d人以下の人数で適切に作動します。これ以上のメンバー追加はメッセージの送受信に遅れが生じる可能性があります。</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -414,7 +414,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>Signalは %2$@、 %3$@、他 %1$d 人を呼び出します</string>
+			<string>Kahf Messengerは %2$@、 %3$@、他 %1$d 人を呼び出します</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -764,7 +764,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>すべてのSignalコネクション · %1$d 人の閲覧者</string>
+			<string>すべてのKahf Messengerコネクション · %1$d 人の閲覧者</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -778,7 +778,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>すべてのSignalコネクション　%1$d 人を除く</string>
+			<string>すべてのKahf Messengerコネクション　%1$d 人を除く</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

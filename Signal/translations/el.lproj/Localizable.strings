@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Αναπαραγωγή πολυμέσων";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Δεν έχεις σημειώσει τον/την %1$@ ως επιβεβαιωμένο/η.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Δεν έχετε επισημάνει το %@ ως Mahram";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Επιβεβαιωμένος/η";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Όρισες τον χρόνο εξαφάνισης των μηνυμάτων σε %1$@.";
+
+"PROFILE_GENDER_TITLE" = "Γένος";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "Θηλυκός";
+
+"PROFILE_GENDER_MALE_TEXT" = "Αρσενικός";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "Σημειώστε ως Μαχράμ";
+
+"VERIFY_MAHRAM" = "Δείτε τον αριθμό Mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "Το %@ είναι μαχράμ";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Αφαιρέστε τον Μαχράμ";

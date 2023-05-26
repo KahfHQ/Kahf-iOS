@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>آپ کا Signal کا ورژن %1$d دن میں زائد المیعاد ہو جائے گا۔ تازہ ترین ورژن پر اپ ڈیٹ کرنے کے لیے ٹیپ کریں۔</string>
+			<string>آپ کا Kahf Messenger کا ورژن %1$d دن میں زائد المیعاد ہو جائے گا۔ تازہ ترین ورژن پر اپ ڈیٹ کرنے کے لیے ٹیپ کریں۔</string>
 			<key>other</key>
-			<string>آپ کا Signal کا ورژن %1$d دنوں میں زائد المیعاد ہو جائے گا۔ حالیہ ترین ورژن پر اپ ڈیٹ کرنے کے لیے ٹیپ کریں۔</string>
+			<string>آپ کا Kahf Messenger کا ورژن %1$d دنوں میں زائد المیعاد ہو جائے گا۔ حالیہ ترین ورژن پر اپ ڈیٹ کرنے کے لیے ٹیپ کریں۔</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal گروپس %1$d ممبر یا اس سے کم کے ساتھ بہترین کارکردگی کا مظاہرہ کرتے ہیں۔ مزید ممبرز کو شامل کرنے سے میسجز بھیجنے اور وصول کرنے میں تاخیر ہو گی۔</string>
+			<string>Kahf Messenger گروپس %1$d ممبر یا اس سے کم کے ساتھ بہترین کارکردگی کا مظاہرہ کرتے ہیں۔ مزید ممبرز کو شامل کرنے سے میسجز بھیجنے اور وصول کرنے میں تاخیر ہو گی۔</string>
 			<key>other</key>
-			<string>Signal گروپس %1$d ممبرز یا اس سے کم کے ساتھ بہترین کارکردگی کا مظاہرہ کرتے ہیں۔ مزید ممبرز کو شامل کرنے سے میسجز بھیجنے اور وصول کرنے میں تاخیر ہو گی۔</string>
+			<string>Kahf Messenger گروپس %1$d ممبرز یا اس سے کم کے ساتھ بہترین کارکردگی کا مظاہرہ کرتے ہیں۔ مزید ممبرز کو شامل کرنے سے میسجز بھیجنے اور وصول کرنے میں تاخیر ہو گی۔</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -472,9 +472,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal %2$@، %3$@، اور %1$d دیگر کو کال کرے گا</string>
+			<string>Kahf Messenger %2$@، %3$@، اور %1$d دیگر کو کال کرے گا</string>
 			<key>other</key>
-			<string>Signal %2$@، %3$@، اور %1$d دیگر افراد کو کال کرے گا</string>
+			<string>Kahf Messenger %2$@، %3$@، اور %1$d دیگر افراد کو کال کرے گا</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>تمام Signal کنکشنز · %1$d ناظر</string>
+			<string>تمام Kahf Messenger کنکشنز · %1$d ناظر</string>
 			<key>other</key>
-			<string>تمام Signal کنکشنز · %1$d ناظرین</string>
+			<string>تمام Kahf Messenger کنکشنز · %1$d ناظرین</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>تمام Signal کنکشنز · %1$d خارج</string>
+			<string>تمام Kahf Messenger کنکشنز · %1$d خارج</string>
 			<key>other</key>
-			<string>تمام Signal کنکشن · %1$d خارج</string>
+			<string>تمام Kahf Messenger کنکشن · %1$d خارج</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

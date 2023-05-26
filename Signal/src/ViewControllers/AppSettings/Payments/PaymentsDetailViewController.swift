@@ -371,7 +371,7 @@ class PaymentsDetailViewController: OWSTableViewController2 {
                 config.dataSource = .address(address)
             }
 
-            let username = Self.contactsManager.displayName(for: address, transaction: transaction)
+            let username = Self.contactsManager.shortDisplayName(for: address, transaction: transaction)
             let usernameFormat = (self.paymentItem.isIncoming
                                     ? NSLocalizedString("SETTINGS_PAYMENTS_PAYMENT_USER_INCOMING_FORMAT",
                                                         comment: "Format string for the sender of an incoming payment. Embeds: {{ the name of the sender of the payment}}.")

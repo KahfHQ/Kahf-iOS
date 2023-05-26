@@ -53,7 +53,7 @@ public class SafetyNumberConfirmationSheet: UIViewController {
             self.items = addresses.map {
                 return Item(
                     address: $0,
-                    displayName: Self.contactsManager.displayName(for: $0, transaction: transaction),
+                    displayName: Self.contactsManager.shortDisplayName(for: $0, transaction: transaction),
                     verificationState: Self.identityManager.verificationState(for: $0, transaction: transaction)
                 )
             }

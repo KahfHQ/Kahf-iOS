@@ -261,7 +261,7 @@ public class CVComponentThreadDetails: CVComponentBase, CVRootComponent {
         let isAvatarBlurred = contactsManagerImpl.shouldBlurContactAvatar(contactThread: contactThread,
                                                                           transaction: transaction)
 
-        let contactName = Self.contactsManager.displayName(for: contactThread.contactAddress,
+        let contactName = Self.contactsManager.shortDisplayName(for: contactThread.contactAddress,
                                                            transaction: transaction)
 
         let titleText = { () -> String in

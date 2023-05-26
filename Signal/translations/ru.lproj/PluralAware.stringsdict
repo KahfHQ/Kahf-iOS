@@ -368,13 +368,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Ваша версия Signal перестанет работать через %1$d день. Нажмите, чтобы обновить до новейшей версии.</string>
+			<string>Ваша версия Kahf Messenger перестанет работать через %1$d день. Нажмите, чтобы обновить до новейшей версии.</string>
 			<key>few</key>
-			<string>Ваша версия Signal перестанет работать через %1$d дня. Нажмите, чтобы обновить до новейшей версии.</string>
+			<string>Ваша версия Kahf Messenger перестанет работать через %1$d дня. Нажмите, чтобы обновить до новейшей версии.</string>
 			<key>many</key>
-			<string>Ваша версия Signal перестанет работать через %1$d дней. Нажмите, чтобы обновить до новейшей версии.</string>
+			<string>Ваша версия Kahf Messenger перестанет работать через %1$d дней. Нажмите, чтобы обновить до новейшей версии.</string>
 			<key>other</key>
-			<string>Ваша версия Signal перестанет работать через %1$d дня. Нажмите, чтобы обновить до новейшей версии.</string>
+			<string>Ваша версия Kahf Messenger перестанет работать через %1$d дня. Нажмите, чтобы обновить до новейшей версии.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -428,13 +428,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Группы Signal работают лучше всего с %1$d участником или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
+			<string>Группы Kahf Messenger работают лучше всего с %1$d участником или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
 			<key>few</key>
-			<string>Группы Signal работают лучше всего с %1$d участниками или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
+			<string>Группы Kahf Messenger работают лучше всего с %1$d участниками или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
 			<key>many</key>
-			<string>Группы Signal работают лучше всего с %1$d участниками или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
+			<string>Группы Kahf Messenger работают лучше всего с %1$d участниками или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
 			<key>other</key>
-			<string>Группы Signal работают лучше всего с %1$d участника или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
+			<string>Группы Kahf Messenger работают лучше всего с %1$d участника или меньше. Добавление большего количества участников приведёт к задержкам при отправке и получении сообщений.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -588,13 +588,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal будет звонить у %2$@, %3$@ и ещё у %1$d человека</string>
+			<string>Kahf Messenger будет звонить у %2$@, %3$@ и ещё у %1$d человека</string>
 			<key>few</key>
-			<string>Signal будет звонить у %2$@, %3$@ и ещё у %1$d человек</string>
+			<string>Kahf Messenger будет звонить у %2$@, %3$@ и ещё у %1$d человек</string>
 			<key>many</key>
-			<string>Signal будет звонить у %2$@, %3$@ и ещё у %1$d человек</string>
+			<string>Kahf Messenger будет звонить у %2$@, %3$@ и ещё у %1$d человек</string>
 			<key>other</key>
-			<string>Signal будет звонить у %2$@, %3$@ и ещё у %1$d человека</string>
+			<string>Kahf Messenger будет звонить у %2$@, %3$@ и ещё у %1$d человека</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -1088,13 +1088,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Все контакты Signal · %1$d зритель</string>
+			<string>Все контакты Kahf Messenger · %1$d зритель</string>
 			<key>few</key>
-			<string>Все контакты Signal · %1$d зрителя</string>
+			<string>Все контакты Kahf Messenger · %1$d зрителя</string>
 			<key>many</key>
-			<string>Все контакты Signal · %1$d зрителей</string>
+			<string>Все контакты Kahf Messenger · %1$d зрителей</string>
 			<key>other</key>
-			<string>Все контакты Signal · %1$d зрителя</string>
+			<string>Все контакты Kahf Messenger · %1$d зрителя</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -1108,13 +1108,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Все контакты Signal · Исключено: %1$d</string>
+			<string>Все контакты Kahf Messenger · Исключено: %1$d</string>
 			<key>few</key>
-			<string>Все контакты Signal · Исключено: %1$d</string>
+			<string>Все контакты Kahf Messenger · Исключено: %1$d</string>
 			<key>many</key>
-			<string>Все контакты Signal · Исключено: %1$d</string>
+			<string>Все контакты Kahf Messenger · Исключено: %1$d</string>
 			<key>other</key>
-			<string>Все контакты Signal · Исключено: %1$d</string>
+			<string>Все контакты Kahf Messenger · Исключено: %1$d</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

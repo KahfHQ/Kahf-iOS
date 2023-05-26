@@ -817,7 +817,7 @@ public class ChatListCell: UITableViewCell {
                 if thread.threadRecord.isNoteToSelf {
                     return MessageStrings.noteToSelf
                 } else {
-                    return thread.name
+                    return thread.shortName ?? thread.name
                 }
             } else {
                 if let name: String = thread.name.nilIfEmpty {

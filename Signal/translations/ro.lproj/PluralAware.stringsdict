@@ -332,11 +332,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Versiunea ta Signal va expira mâine. Atinge pentru a actualiza la cea mai recentă versiune.</string>
+			<string>Versiunea ta Kahf Messenger va expira mâine. Atinge pentru a actualiza la cea mai recentă versiune.</string>
 			<key>few</key>
-			<string>Versiunea ta Signal va expira în %1$d zile. Atinge pentru a actualiza la cea mai recentă versiune.</string>
+			<string>Versiunea ta Kahf Messenger va expira în %1$d zile. Atinge pentru a actualiza la cea mai recentă versiune.</string>
 			<key>other</key>
-			<string>Versiunea ta Signal va expira în %1$d de zile. Atinge pentru a actualiza la cea mai recentă versiune.</string>
+			<string>Versiunea ta Kahf Messenger va expira în %1$d de zile. Atinge pentru a actualiza la cea mai recentă versiune.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -386,11 +386,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Grupurile Signal funcționează cel mai bine cu %1$d membru sau mai puțin. Adăugarea mai multor membri va cauza întârzieri la trimiterea și primirea mesajelor.</string>
+			<string>Grupurile Kahf Messenger funcționează cel mai bine cu %1$d membru sau mai puțin. Adăugarea mai multor membri va cauza întârzieri la trimiterea și primirea mesajelor.</string>
 			<key>few</key>
-			<string>Grupurile Signal funcționează cel mai bine cu %1$d membri sau mai puțin. Adăugarea mai multor membri va cauza întârzieri la trimiterea și primirea mesajelor.</string>
+			<string>Grupurile Kahf Messenger funcționează cel mai bine cu %1$d membri sau mai puțin. Adăugarea mai multor membri va cauza întârzieri la trimiterea și primirea mesajelor.</string>
 			<key>other</key>
-			<string>Grupurile Signal funcționează cel mai bine cu %1$d de membri sau mai puțin. Adăugarea mai multor membri va cauza întârzieri la trimiterea și primirea mesajelor.</string>
+			<string>Grupurile Kahf Messenger funcționează cel mai bine cu %1$d de membri sau mai puțin. Adăugarea mai multor membri va cauza întârzieri la trimiterea și primirea mesajelor.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -530,11 +530,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal va suna pe %2$@, %3$@, și %1$d altul</string>
+			<string>Kahf Messenger va suna pe %2$@, %3$@, și %1$d altul</string>
 			<key>few</key>
-			<string>Signal va apela %2$@, %3$@, și încă %1$d</string>
+			<string>Kahf Messenger va apela %2$@, %3$@, și încă %1$d</string>
 			<key>other</key>
-			<string>Signal va apela %2$@, %3$@, și încă %1$d</string>
+			<string>Kahf Messenger va apela %2$@, %3$@, și încă %1$d</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -980,11 +980,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Toate conexiunile Signal · %1$d spectator</string>
+			<string>Toate conexiunile Kahf Messenger · %1$d spectator</string>
 			<key>few</key>
-			<string>Toate conexiunile Signal · %1$d spectatori</string>
+			<string>Toate conexiunile Kahf Messenger · %1$d spectatori</string>
 			<key>other</key>
-			<string>Toate conexiunile Signal · %1$d de spectatori</string>
+			<string>Toate conexiunile Kahf Messenger · %1$d de spectatori</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -998,11 +998,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Toate conexiunile Signal · %1$d exclusă</string>
+			<string>Toate conexiunile Kahf Messenger · %1$d exclusă</string>
 			<key>few</key>
-			<string>Toate conexiunile Signal · %1$d excluse</string>
+			<string>Toate conexiunile Kahf Messenger · %1$d excluse</string>
 			<key>other</key>
-			<string>Toate conexiunile Signal · %1$d excluse</string>
+			<string>Toate conexiunile Kahf Messenger · %1$d excluse</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

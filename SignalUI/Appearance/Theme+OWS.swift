@@ -172,7 +172,7 @@ public extension Theme {
         // We only adapt for dark theme on iOS 13+, because only iOS 13 supports
         // handling dark / light appearance in the launch screen storyboard.
         guard #available(iOS 13, *) else { return .ows_signalBlue }
-        return Theme.isDarkThemeEnabled ? .ows_signalBlueDark : .ows_signalBlue
+        return Theme.isDarkThemeEnabled ? .ows_signalBlue : .ows_signalBlue
     }
 
     class var selectedConversationCellColor: UIColor {

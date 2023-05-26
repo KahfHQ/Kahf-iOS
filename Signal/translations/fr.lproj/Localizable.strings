@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Jouez le contenu multimédia";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Vous n’avez pas marqué %1$@ comme confirmé.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Vous n'avez pas marqué %@ comme Mahram";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Confirmé";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Vous avez défini l’expiration des messages éphémères à %1$@.";
+
+"PROFILE_GENDER_TITLE" = "Genre";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "Femme";
+
+"PROFILE_GENDER_MALE_TEXT" = "Mâle";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "Marquez comme Mahram";
+
+"VERIFY_MAHRAM" = "Afficher le numéro de mahram";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ est mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Supprimer Mahram";

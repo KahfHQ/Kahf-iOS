@@ -84,7 +84,7 @@ class GroupCallMemberSheet: InteractiveSheetViewController {
                         )
                         comparableName = displayName
                     } else {
-                        displayName = self.contactsManager.displayName(for: member.address, transaction: transaction)
+                        displayName = self.contactsManager.shortDisplayName(for: member.address, transaction: transaction)
                         comparableName = self.contactsManager.comparableName(for: member.address, transaction: transaction)
                     }
 
@@ -116,7 +116,7 @@ class GroupCallMemberSheet: InteractiveSheetViewController {
                 // We can get the list of joined members still, provided we are connected.
                 members += self.call.groupCall.peekInfo?.joinedMembers.map { uuid in
                     let address = SignalServiceAddress(uuid: uuid)
-                    let displayName = self.contactsManager.displayName(for: address, transaction: transaction)
+                    let displayName = self.contactsManager.shortDisplayName(for: address, transaction: transaction)
                     let comparableName = self.contactsManager.comparableName(for: address, transaction: transaction)
 
                     return JoinedMember(

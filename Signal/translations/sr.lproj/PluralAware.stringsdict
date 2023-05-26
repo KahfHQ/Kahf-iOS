@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Ваша верзија Signal-а истиче за %1$d дан. Додирните овде да ажурирате апликацију на најновију верзију.</string>
+			<string>Ваша верзија Kahf Messenger-а истиче за %1$d дан. Додирните овде да ажурирате апликацију на најновију верзију.</string>
 			<key>other</key>
-			<string>Ваша верзија Signal-а истиче за %1$d дан(а). Додирните овде да ажурирате апликацију на најновију верзију.</string>
+			<string>Ваша верзија Kahf Messenger-а истиче за %1$d дан(а). Додирните овде да ажурирате апликацију на најновију верзију.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal групе најбоље функционишу када је број чланова %1$d или мање. Ако додате више чланова долазиће до кашњења у слању и примању порука.</string>
+			<string>Kahf Messenger групе најбоље функционишу када је број чланова %1$d или мање. Ако додате више чланова долазиће до кашњења у слању и примању порука.</string>
 			<key>other</key>
-			<string>Signal групе најбоље функционишу када је број чланова %1$d или мање. Ако додате више чланова долазиће до кашњења у слању и примању порука.</string>
+			<string>Kahf Messenger групе најбоље функционишу када је број чланова %1$d или мање. Ако додате више чланова долазиће до кашњења у слању и примању порука.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Све Signal везе · Гледалаца: %1$d</string>
+			<string>Све Kahf Messenger везе · Гледалаца: %1$d</string>
 			<key>other</key>
-			<string>Све Signal везе · Гледалаца: %1$d</string>
+			<string>Све Kahf Messenger везе · Гледалаца: %1$d</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Све Signal везе · Изузетих особа: %1$d</string>
+			<string>Све Kahf Messenger везе · Изузетих особа: %1$d</string>
 			<key>other</key>
-			<string>Све Signal везе · Изузетих особа: %1$d</string>
+			<string>Све Kahf Messenger везе · Изузетих особа: %1$d</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

@@ -775,7 +775,7 @@ public class GroupManager: NSObject {
             if let groupUpdateSourceAddress = groupUpdateSourceAddress,
                groupUpdateSourceAddress.isValid,
                !groupUpdateSourceAddress.isLocalAddress {
-                remoteContactName = contactsManager.displayName(for: groupUpdateSourceAddress, transaction: transaction)
+                remoteContactName = contactsManager.shortDisplayName(for: groupUpdateSourceAddress, transaction: transaction)
             }
             let infoMessage = OWSDisappearingConfigurationUpdateInfoMessage(thread: thread,
                                                                             configuration: newConfiguration,

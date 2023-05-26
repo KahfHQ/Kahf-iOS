@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "미디어 재생";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "%1$@ 님을 검증하지 않았다 표시했습니다.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "%@을 Mahram으로 표시하지 않았습니다.";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "검증함";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "사라지는 메시지 시간을 %1$@(으)로 설정했습니다.";
+
+"PROFILE_GENDER_TITLE" = "성별"; 
+
+"PROFILE_GENDER_FEMALE_TEXT" = "여성";
+
+"PROFILE_GENDER_MALE_TEXT" = "남성";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "마람으로 표시";
+
+"VERIFY_MAHRAM" = "마람 번호 보기";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@은 마람입니다";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "마람 제거";

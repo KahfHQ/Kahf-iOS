@@ -271,11 +271,11 @@ public class ContactCellView: ManualStackView {
                     case .asLocalUser:
                         name = CommonStrings.you
                     case .asUser:
-                        name = contactsManager.displayName(for: address,
+                        name = contactsManager.shortDisplayName(for: address,
                                                            transaction: transaction)
                     }
                 } else {
-                    name = contactsManager.displayName(for: address,
+                    name = contactsManager.shortDisplayName(for: address,
                                                        transaction: transaction)
                 }
                 return name.asAttributedString

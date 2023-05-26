@@ -76,7 +76,7 @@ public class MessageBody: NSObject, NSCopying, NSSecureCoding {
             if shouldPreserveMention(mentionAddress) {
                 mentions[offsetRange] = uuid
             } else {
-                let displayName = Self.contactsManager.displayName(
+                let displayName = Self.contactsManager.shortDisplayName(
                     for: mentionAddress,
                     transaction: transaction.asAnyRead
                 )
@@ -162,7 +162,7 @@ public class MessageBodyRanges: NSObject, NSCopying, NSSecureCoding {
                 continue
             }
 
-            let displayName = Self.contactsManager.displayName(
+            let displayName = Self.contactsManager.shortDisplayName(
                 for: SignalServiceAddress(uuid: uuid),
                 transaction: transaction.asAnyRead
             )

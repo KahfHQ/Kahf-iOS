@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "پخش رسانه";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "%1$@ را به عنوان تأییدشده علامت نزده‌اید.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "شما %@ را به عنوان محرم علامت گذاری نکرده اید";
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "تأیید شده";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "شما زمان ناپدید شدن پیام‌ها را روی %1$@ تنظیم کردید.";
+
+"PROFILE_GENDER_TITLE" = "جنسیت";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "مونث"; 
+
+"PROFILE_GENDER_MALE_TEXT" = "نر";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "علامت گذاری به عنوان مهرام"; 
+
+"VERIFY_MAHRAM" = "مشاهده شماره مهرام";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ محرم است";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "محرم را حذف کن”";

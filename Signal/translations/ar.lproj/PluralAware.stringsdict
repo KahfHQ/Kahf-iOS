@@ -440,17 +440,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>إصدار Signal الخاص بك سينتهي في %1$d يوم. انقر لتحديثه إلى الإصدار الأحدث.</string>
+			<string>إصدار Kahf Messenger الخاص بك سينتهي في %1$d يوم. انقر لتحديثه إلى الإصدار الأحدث.</string>
 			<key>one</key>
-			<string>إصدار Signal الخاص بك سينتهي في %1$d يوم. انقر لتحديثه إلى الإصدار الأحدث.</string>
+			<string>إصدار Kahf Messenger الخاص بك سينتهي في %1$d يوم. انقر لتحديثه إلى الإصدار الأحدث.</string>
 			<key>two</key>
-			<string>إصدار Signal الخاص بك سينتهي في %1$d يومين. انقر لتحديثه إلى الإصدار الأحدث.</string>
+			<string>إصدار Kahf Messenger الخاص بك سينتهي في %1$d يومين. انقر لتحديثه إلى الإصدار الأحدث.</string>
 			<key>few</key>
-			<string>إصدار Signal الخاص بك سينتهي في %1$d أيام. انقر لتحديثه إلى الإصدار الأحدث.</string>
+			<string>إصدار Kahf Messenger الخاص بك سينتهي في %1$d أيام. انقر لتحديثه إلى الإصدار الأحدث.</string>
 			<key>many</key>
-			<string>إصدار Signal الخاص بك سينتهي في %1$d يومًا. انقر لتحديثه إلى الإصدار الأحدث.</string>
+			<string>إصدار Kahf Messenger الخاص بك سينتهي في %1$d يومًا. انقر لتحديثه إلى الإصدار الأحدث.</string>
 			<key>other</key>
-			<string>إصدار Signal الخاص بك سينتهي في %1$d يوم. انقر لتحديثه إلى الإصدار الأحدث.</string>
+			<string>إصدار Kahf Messenger الخاص بك سينتهي في %1$d يوم. انقر لتحديثه إلى الإصدار الأحدث.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -512,17 +512,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>تعمل مجموعات Signal بشكل أفضل مع %1$d عضو أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
+			<string>تعمل مجموعات Kahf Messenger بشكل أفضل مع %1$d عضو أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
 			<key>one</key>
-			<string>تعمل مجموعات Signal بشكل أفضل مع %1$d عضو أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
+			<string>تعمل مجموعات Kahf Messenger بشكل أفضل مع %1$d عضو أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
 			<key>two</key>
-			<string>تعمل مجموعات Signal بشكل أفضل مع عضوين %1$d أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
+			<string>تعمل مجموعات Kahf Messenger بشكل أفضل مع عضوين %1$d أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
 			<key>few</key>
-			<string>تعمل مجموعات Signal بشكل أفضل مع %1$d أعضاء أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
+			<string>تعمل مجموعات Kahf Messenger بشكل أفضل مع %1$d أعضاء أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
 			<key>many</key>
-			<string>تعمل مجموعات Signal بشكل أفضل مع %1$d عضوًا أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
+			<string>تعمل مجموعات Kahf Messenger بشكل أفضل مع %1$d عضوًا أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
 			<key>other</key>
-			<string>تعمل مجموعات Signal بشكل أفضل مع %1$d عضو أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
+			<string>تعمل مجموعات Kahf Messenger بشكل أفضل مع %1$d عضو أو أقل. سيؤدي إضافة المزيد من الأعضاء إلى تأخر في إرسال الرسائل واستلامها.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -704,17 +704,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>سَيتصل Signal بـ %2$@ و%3$@ و%1$d آخرين</string>
+			<string>سَيتصل Kahf Messenger بـ %2$@ و%3$@ و%1$d آخرين</string>
 			<key>one</key>
-			<string>سَيتصل Signal على %2$@ و%3$@ و%1$d آخر</string>
+			<string>سَيتصل Kahf Messenger على %2$@ و%3$@ و%1$d آخر</string>
 			<key>two</key>
-			<string>سَيتصل Signal بـ %2$@ و%3$@ و%1$d آخرين</string>
+			<string>سَيتصل Kahf Messenger بـ %2$@ و%3$@ و%1$d آخرين</string>
 			<key>few</key>
-			<string>سَيتصل Signal بـ %2$@ و%3$@ و%1$d آخرين</string>
+			<string>سَيتصل Kahf Messenger بـ %2$@ و%3$@ و%1$d آخرين</string>
 			<key>many</key>
-			<string>سَيتصل Signal بـ %2$@ و%3$@ و%1$d آخرين</string>
+			<string>سَيتصل Kahf Messenger بـ %2$@ و%3$@ و%1$d آخرين</string>
 			<key>other</key>
-			<string>سَيتصل Signal بـ %2$@ و%3$@ و%1$d آخرين</string>
+			<string>سَيتصل Kahf Messenger بـ %2$@ و%3$@ و%1$d آخرين</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -1304,17 +1304,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>جميع جهات اتصال Signal · %1$d مُشاهدين</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُشاهدين</string>
 			<key>one</key>
-			<string>جميع جهات اتصال Signal · %1$d مُشاهِد</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُشاهِد</string>
 			<key>two</key>
-			<string>جميع جهات اتصال Signal · %1$d مُشاهِدين</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُشاهِدين</string>
 			<key>few</key>
-			<string>جميع جهات اتصال Signal · %1$d مُشاهِدين</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُشاهِدين</string>
 			<key>many</key>
-			<string>جميع جهات اتصال Signal · %1$d مُشاهِدًا</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُشاهِدًا</string>
 			<key>other</key>
-			<string>جميع جهات اتصال Signal · %1$d مُشاهِد</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُشاهِد</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -1328,17 +1328,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>جميع جهات اتصال Signal · %1$d مُستبعد</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُستبعد</string>
 			<key>one</key>
-			<string>جميع جهات اتصال Signal · %1$d مُستبعد</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُستبعد</string>
 			<key>two</key>
-			<string>جميع جهات اتصال Signal · %1$d مُستَبعَدَيْن</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُستَبعَدَيْن</string>
 			<key>few</key>
-			<string>جميع جهات اتصال Signal · %1$d مُستبعدين</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُستبعدين</string>
 			<key>many</key>
-			<string>جميع جهات اتصال Signal · %1$d مُستبعدًا</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُستبعدًا</string>
 			<key>other</key>
-			<string>جميع جهات اتصال Signal · %1$d مُستبعد</string>
+			<string>جميع جهات اتصال Kahf Messenger · %1$d مُستبعد</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

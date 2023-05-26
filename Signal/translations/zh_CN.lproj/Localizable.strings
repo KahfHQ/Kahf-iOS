@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "播放媒体";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "您未将%1$@标记为已验证。";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "您还没有将 %@ 标记为 Mahram"; 
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "已验证";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "您设置了消息%1$@后消失。";
+
+"PROFILE_GENDER_TITLE" = "性別"; 
+
+"PROFILE_GENDER_FEMALE_TEXT" = "女性";
+
+"PROFILE_GENDER_MALE_TEXT" = "男性"; 
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "标记为 Mahram"; 
+
+"VERIFY_MAHRAM" = "查看 Mahram 编号";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ 是 mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "删除 Mahram";

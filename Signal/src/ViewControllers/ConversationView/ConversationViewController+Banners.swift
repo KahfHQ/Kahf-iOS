@@ -659,11 +659,11 @@ extension ConversationViewController {
         case 0:
             return
         case 1:
-            title = NSLocalizedString("VERIFY_PRIVACY",
-                                      comment: "Label for button or row which allows users to verify the safety number of another user.")
+            title = NSLocalizedString("VERIFY_MAHRAM",
+                                      comment: "Label for button or row which allows users to verify the mahram of another user.")
         default:
             title = NSLocalizedString("VERIFY_PRIVACY_MULTIPLE",
-                                      comment: "Label for button or row which allows users to verify the safety numbers of multiple users.")
+                                      comment: "Label for button or row which allows users to verify the mahram of multiple users.")
         }
 
         let actionSheet = ActionSheetController()

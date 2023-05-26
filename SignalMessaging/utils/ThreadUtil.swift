@@ -285,7 +285,7 @@ extension TSThread {
                                       transaction: SDSAnyReadTransaction) -> INPerson {
 
         // Generate recipient name
-        let contactName = contactsManager.displayName(for: recipient, transaction: transaction)
+        let contactName = contactsManager.shortDisplayName(for: recipient, transaction: transaction)
         let nameComponents = contactsManager.nameComponents(for: recipient, transaction: transaction)
 
         // Generate contact handle

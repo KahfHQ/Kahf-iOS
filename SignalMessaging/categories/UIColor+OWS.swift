@@ -43,7 +43,7 @@ public extension UIColor {
 
     @objc(ows_signalBlueColor)
     class var ows_signalBlue: UIColor {
-        return UIColor(rgbHex: 0x3A76F0)
+        return UIColor(rgbHex: 0x3E8DFF)
     }
 
     @objc(ows_signalBlueDarkColor)

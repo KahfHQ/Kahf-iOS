@@ -333,7 +333,7 @@ class TestContactsManager: NSObject, ContactsManagerProtocol {
     }
 
     func comparableName(for address: SignalServiceAddress, transaction: SDSAnyReadTransaction) -> String {
-        self.displayName(for: address)
+        self.shortDisplayName(for: address)
     }
 
     func comparableName(for signalAccount: SignalAccount, transaction: SDSAnyReadTransaction) -> String {

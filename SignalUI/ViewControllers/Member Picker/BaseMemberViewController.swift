@@ -184,7 +184,7 @@ open class BaseMemberViewController: RecipientPickerContainerViewController {
                 owsFailDebug("Invalid recipient.")
                 return nil
             }
-            let displayName = self.contactsManager.displayName(for: address, transaction: transaction)
+            let displayName = self.contactsManager.shortDisplayName(for: address, transaction: transaction)
             let shortDisplayName = self.contactsManager.shortDisplayName(for: address, transaction: transaction)
             let comparableName = self.contactsManager.comparableName(for: address, transaction: transaction)
             return NewMember(recipient: recipient,

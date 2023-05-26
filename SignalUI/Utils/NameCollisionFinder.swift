@@ -266,7 +266,7 @@ public class GroupMembershipNameCollisionFinder: NameCollisionFinder {
 
 fileprivate extension SignalServiceAddress {
     func displayName(transaction readTx: SDSAnyReadTransaction) -> String {
-        Self.contactsManager.displayName(for: self, transaction: readTx)
+        Self.contactsManager.shortDisplayName(for: self, transaction: readTx)
     }
 }
 

@@ -260,7 +260,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>Versi Signal Anda akan kedaluwarsa dalam %1$d hari. Ketuk untuk memperbarui ke versi paling baru.</string>
+			<string>Versi Kahf Messenger Anda akan kedaluwarsa dalam %1$d hari. Ketuk untuk memperbarui ke versi paling baru.</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -302,7 +302,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>Performa grup Signal bisa optimal dengan jumlah anggota %1$d atau kurang. Menambah anggota lebih banyak akan menyebabkan pengiriman dan penerimaan pesan menjadi lambat.</string>
+			<string>Performa grup Kahf Messenger bisa optimal dengan jumlah anggota %1$d atau kurang. Menambah anggota lebih banyak akan menyebabkan pengiriman dan penerimaan pesan menjadi lambat.</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -414,7 +414,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>Signal akan berdering untuk %2$@, %3$@, dan %1$d lainnya</string>
+			<string>Kahf Messenger akan berdering untuk %2$@, %3$@, dan %1$d lainnya</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -764,7 +764,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>Semua Koneksi Signal · %1$d Penonton</string>
+			<string>Semua Koneksi Kahf Messenger · %1$d Penonton</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -778,7 +778,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>Semua Koneksi Signal · %1$d Dikecualikan</string>
+			<string>Semua Koneksi Kahf Messenger · %1$d Dikecualikan</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

@@ -296,9 +296,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>আপনার Signal সংস্করণটি %1$d দিনের মধ্যে মেয়াদোত্তীর্ণ হয়ে যাবে। সর্বশেষ সংস্করণে আপডেট করতে ট্যাপ করুন।</string>
+			<string>আপনার Kahf Messenger সংস্করণটি %1$d দিনের মধ্যে মেয়াদোত্তীর্ণ হয়ে যাবে। সর্বশেষ সংস্করণে আপডেট করতে ট্যাপ করুন।</string>
 			<key>other</key>
-			<string>আপনার Signal সংস্করণটি %1$d দিনের মধ্যে মেয়াদোত্তীর্ণ হয়ে যাবে। সর্বশেষ সংস্করণে আপডেট করতে ট্যাপ করুন।</string>
+			<string>আপনার Kahf Messenger সংস্করণটি %1$d দিনের মধ্যে মেয়াদোত্তীর্ণ হয়ে যাবে। সর্বশেষ সংস্করণে আপডেট করতে ট্যাপ করুন।</string>
 		</dict>
 	</dict>
 	<key>FORWARD_MESSAGE_FIRST_FORWARD_PROCEED_%d</key>
@@ -344,9 +344,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal গ্রুপে %1$d জন বা তার কম সদস্য থাকলে সবচেয়ে ভালোভাবে কাজ করে। এর চেয়ে বেশি সদস্য যোগ করলে ম্যাসেজ পাঠাতে বা পেতে বিলম্ব হবে।</string>
+			<string>Kahf Messenger গ্রুপে %1$d জন বা তার কম সদস্য থাকলে সবচেয়ে ভালোভাবে কাজ করে। এর চেয়ে বেশি সদস্য যোগ করলে ম্যাসেজ পাঠাতে বা পেতে বিলম্ব হবে।</string>
 			<key>other</key>
-			<string>Signal গ্রুপে %1$d জন বা তার কম সদস্য থাকলে সবচেয়ে ভালোভাবে কাজ করে। এর চেয়ে বেশি সদস্য যোগ করলে ম্যাসেজ পাঠাতে বা পেতে বিলম্ব হবে।</string>
+			<string>Kahf Messenger গ্রুপে %1$d জন বা তার কম সদস্য থাকলে সবচেয়ে ভালোভাবে কাজ করে। এর চেয়ে বেশি সদস্য যোগ করলে ম্যাসেজ পাঠাতে বা পেতে বিলম্ব হবে।</string>
 		</dict>
 	</dict>
 	<key>GROUP_CALL_HAS_MAX_DEVICES_%d</key>
@@ -472,9 +472,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Signal %2$@, %3$@, এবং অন্য %1$d জনকে রিং করবে</string>
+			<string>Kahf Messenger %2$@, %3$@, এবং অন্য %1$d জনকে রিং করবে</string>
 			<key>other</key>
-			<string>Signal %2$@, %3$@, এবং অন্য %1$d জনকে রিং করবে</string>
+			<string>Kahf Messenger %2$@, %3$@, এবং অন্য %1$d জনকে রিং করবে</string>
 		</dict>
 	</dict>
 	<key>GROUP_INVITES_SENT_ALERT_TITLE_%d</key>
@@ -872,9 +872,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>সকল Signal কানেকশন · %1$d জন দর্শক</string>
+			<string>সকল Kahf Messenger কানেকশন · %1$d জন দর্শক</string>
 			<key>other</key>
-			<string>সকল Signal কানেকশন · %1$d জন দর্শক</string>
+			<string>সকল Kahf Messenger কানেকশন · %1$d জন দর্শক</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ALL_CONNECTIONS_EXCLUDING_%d</key>
@@ -888,9 +888,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>সকল Signal কানেকশন · %1$d জন বাদ</string>
+			<string>সকল Kahf Messenger কানেকশন · %1$d জন বাদ</string>
 			<key>other</key>
-			<string>সকল Signal কানেকশন · %1$d জন বাদ</string>
+			<string>সকল Kahf Messenger কানেকশন · %1$d জন বাদ</string>
 		</dict>
 	</dict>
 	<key>MY_STORY_VIEWERS_ONLY_%d</key>

@@ -4892,7 +4892,7 @@
 "PLAY_BUTTON_ACCESSABILITY_LABEL" = "Reproduciraj";
 
 /* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
-"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Niste označili %1$@ kao provjerenog/u.";
+"PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT" = "Niste označili %@ kao Mahram"; 
 
 /* Badge indicating that the user is verified. */
 "PRIVACY_IDENTITY_IS_VERIFIED_BADGE" = "Provjeren/a";
@@ -7350,3 +7350,17 @@
 
 /* Info Message when you update disappearing messages duration. Embeds a {{time amount}} before messages disappear. see the *_TIME_AMOUNT strings for context. */
 "YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Postavili ste da poruke nestaju za %1$@.";
+
+"PROFILE_GENDER_TITLE" = "Spol";
+
+"PROFILE_GENDER_FEMALE_TEXT" = "Žena";
+
+"PROFILE_GENDER_MALE_TEXT" = "Muški";
+
+"PRIVACY_MAHRAM_BUTTON_TEXT" = "Označi kao Mahram"; 
+
+"VERIFY_MAHRAM" = "Pogledajte Mahram broj";
+
+"PRIVACY_IDENTITY_IS_MAHRAM_FORMAT" = "%@ je mahram";
+
+"PRIVACY_UNMAHRAM_BUTTON" = "Ukloni Mahrama";
