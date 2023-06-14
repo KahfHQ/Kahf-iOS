@@ -53,6 +53,7 @@ NSString *const OWSPreferencesKeyWasBlurTooltipShown = @"OWSPreferencesKeyWasBlu
 NSString *const OWSPreferencesKeyWasGroupCallTooltipShown = @"OWSPreferencesKeyWasGroupCallTooltipShown";
 NSString *const OWSPreferencesKeyWasGroupCallTooltipShownCount = @"OWSPreferencesKeyWasGroupCallTooltipShownCount";
 NSString *const OWSPreferencesKeyDeviceScale = @"OWSPreferencesKeyDeviceScale";
+NSString *const OWSPreferencesKeyMahramEnabled = @"MahramEnabled";
 
 @interface OWSPreferences ()
 
@@ -488,6 +489,16 @@ NSString *const OWSPreferencesKeyDeviceScale = @"OWSPreferencesKeyDeviceScale";
 
     [self removeValueForKey:OWSPreferencesKeyLastRecordedPushToken];
     [self removeValueForKey:OWSPreferencesKeyLastRecordedVoipToken];
+}
+
+- (BOOL)getMahramEnabled
+{
+    return [self boolForKey:OWSPreferencesKeyMahramEnabled defaultValue:NO];
+}
+
+- (void)setMahramEnabled:(BOOL)value
+{
+    [self setBool:value forKey:OWSPreferencesKeyMahramEnabled];
 }
 
 @end

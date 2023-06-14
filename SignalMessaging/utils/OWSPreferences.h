@@ -108,7 +108,8 @@ extern NSString *const OWSPreferencesCallLoggingDidChangeNotification;
 - (nullable NSString *)getVoipToken;
 
 - (void)unsetRecordedAPNSTokens;
-
+- (BOOL)getMahramEnabled;
+- (void)setMahramEnabled:(BOOL)value;
 @end
 
 NS_ASSUME_NONNULL_END
