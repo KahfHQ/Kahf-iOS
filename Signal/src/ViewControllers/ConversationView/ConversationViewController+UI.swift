@@ -203,12 +203,12 @@ extension ConversationViewController {
                         videoCallButton.isEnabled = (self.callService.currentCall == nil || self.isCurrentCallForThread)
                         videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL", comment: "Accessibility label for placing a video call")
                         self.groupCallBarButtonItem = videoCallButton
-                        if !isMahrem {
+
+                        if !isMahrem && preferences.getMahramEnabled() {
                             videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
                             videoCallButton.action = #selector(showDisabledAlert)
                         }
                         barButtons.append(videoCallButton)
-                        
                     }
                 } else {
                     let audioCallButton = UIBarButtonItem(
@@ -235,31 +235,19 @@ extension ConversationViewController {
                     videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL",
                                                                            comment: "Accessibility label for placing a video call")
 
-                    if profileManager.localFamilyName() == "Male" {
-                        if genderString == "Male" {
-                            barButtons.append(videoCallButton)
-                        }
-                        else if genderString == "Female" && shouldShowVerifiedBadge(for: thread) {
-                            barButtons.append(videoCallButton)
-                        }
-                        else {
-                            videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
-                            videoCallButton.action = #selector(showDisabledAlert)
-                            barButtons.append(videoCallButton)
-                        }
+                    let isLocalFamilyNameMale = profileManager.localFamilyName() == "Male"
+                    let isGenderStringMale = genderString == "Male"
+                    let isGenderStringFemale = genderString == "Female"
+
+                    if (isLocalFamilyNameMale && isGenderStringMale) || (!isLocalFamilyNameMale && isGenderStringFemale && shouldShowVerifiedBadge(for: thread)) {
+                        barButtons.append(videoCallButton)
                     }
                     else {
-                        if genderString == "Female" {
-                            barButtons.append(videoCallButton)
-                        }
-                        else if genderString == "Male" && shouldShowVerifiedBadge(for: thread) {
-                            barButtons.append(videoCallButton)
-                        }
-                        else {
+                        if preferences.getMahramEnabled() {
                             videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
                             videoCallButton.action = #selector(showDisabledAlert)
-                            barButtons.append(videoCallButton)
                         }
+                        barButtons.append(videoCallButton)
                     }
             }}
 
