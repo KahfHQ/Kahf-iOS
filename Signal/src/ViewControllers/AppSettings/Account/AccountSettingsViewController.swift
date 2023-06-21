@@ -161,6 +161,12 @@ class AccountSettingsViewController: OWSTableViewController2 {
                     }
                 ))
             }
+            accountSection.add(.switch(
+                withText: "Mahram",
+                isOn: { Self.preferences.getMahramEnabled() },
+                target: self,
+                selector: #selector(didToggleMahramSwitch)
+            ))
             accountSection.add(.actionItem(
                 withText: NSLocalizedString("SETTINGS_DELETE_ACCOUNT_BUTTON", comment: ""),
                 textColor: .ows_accentRed,
@@ -356,6 +362,11 @@ class AccountSettingsViewController: OWSTableViewController2 {
             self.navigationController?.popToViewController(self, animated: true)
         }
         navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc
+    func didToggleMahramSwitch(_ sender: UISwitch) {
+        preferences.setMahramEnabled(sender.isOn)
     }
 }
 
