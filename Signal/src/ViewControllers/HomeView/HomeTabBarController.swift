@@ -47,7 +47,9 @@ class HomeTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tabBar.layer.cornerRadius = 10
+        tabBar.layer.shadowOffset = CGSize(width: 0, height: 4)
+        tabBar.layer.shadowColor = UIColor(rgbHex: 000000).withAlphaComponent(0.1).cgColor
         // Use our custom tab bar.
         setValue(OWSTabBar(), forKey: "tabBar")
 

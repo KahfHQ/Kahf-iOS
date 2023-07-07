@@ -300,7 +300,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     // Search
 
     UIView *searchBarContainer = [UIView new];
-    searchBarContainer.layoutMargins = UIEdgeInsetsMake(0, 8, 0, 8);
+    searchBarContainer.layoutMargins = UIEdgeInsetsMake(0, 30, 0, 30);
 
     self.searchBar.placeholder = NSLocalizedString(@"HOME_VIEW_CONVERSATION_SEARCHBAR_PLACEHOLDER",
         @"Placeholder text for search bar which filters conversations.");

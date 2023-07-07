@@ -168,8 +168,8 @@ public class ChatListCell: UITableViewCell {
         multipleSelectionBackgroundView = UIView(frame: contentView.bounds)
         contentView.addSubview(outerHStack)
         outerHStack.shouldDeactivateConstraints = false
-        outerHStack.autoPinEdge(toSuperviewEdge: .leading)
-        outerHStack.autoPinEdge(toSuperviewEdge: .trailing)
+        outerHStack.autoPinEdge(toSuperviewEdge: .leading, withInset: 30)
+        outerHStack.autoPinEdge(toSuperviewEdge: .trailing, withInset: 30)
         outerHStack.autoPinHeightToSuperview()
 
         self.selectionStyle = .default
@@ -339,7 +339,7 @@ public class ChatListCell: UITableViewCell {
         snippetLabelConfig.applyForRendering(label: snippetLabel)
 
         owsAssertDebug(avatarView == nil, "ChatListCell.configure without prior reset called")
-        avatarView = ConversationAvatarView(sizeClass: .fiftySix, localUserDisplayMode: .noteToSelf, useAutolayout: true)
+        avatarView = ConversationAvatarView(sizeClass: .fiftyTwo, localUserDisplayMode: .noteToSelf, useAutolayout: true)
         avatarView?.updateWithSneakyTransactionIfNecessary({ config in
             config.dataSource = .thread(cellContentToken.thread)
             if asyncAvatarLoadingAllowed && cellContentToken.shouldLoadAvatarAsync {
@@ -533,7 +533,7 @@ public class ChatListCell: UITableViewCell {
         ManualStackView.Config(axis: .horizontal,
                                alignment: .center,
                                spacing: 12,
-                               layoutMargins: UIEdgeInsets(hMargin: 16, vMargin: 0))
+                               layoutMargins: UIEdgeInsets(hMargin: 0, vMargin: 0))
     }
 
     private static var avatarStackConfig: ManualStackView.Config {

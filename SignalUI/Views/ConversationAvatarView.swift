@@ -78,6 +78,7 @@ public class ConversationAvatarView: UIView, CVView, PrimaryImageView {
             case thirtySix
             case forty
             case fortyEight
+            case fiftyTwo
             case fiftySix
             case sixtyFour
             case eighty
@@ -100,6 +101,8 @@ public class ConversationAvatarView: UIView, CVView, PrimaryImageView {
                     self = .forty
                 case Self.fortyEight.diameter:
                     self = .fortyEight
+                case Self.fiftyTwo.diameter:
+                    self = .fiftyTwo
                 case Self.fiftySix.diameter:
                     self = .fiftySix
                 case Self.sixtyFour.diameter:
@@ -981,6 +984,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         case .thirtySix: return 36
         case .forty: return 40
         case .fortyEight: return 48
+        case .fiftyTwo: return 52
         case .fiftySix: return 56
         case .sixtyFour: return 64
         case .eighty: return 80
@@ -1014,6 +1018,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         case .thirtySix: return CGPoint(x: 20, y: 23)
         case .forty: return CGPoint(x: 20, y: 22)
         case .fortyEight: return CGPoint(x: 28, y: 30)
+        case .fiftyTwo: return CGPoint(x: 32, y: 38)
         case .fiftySix: return CGPoint(x: 32, y: 38)
         case .sixtyFour: return CGPoint(x: 40, y: 46)
         case .eighty: return CGPoint(x: 44, y: 52)
@@ -1050,6 +1055,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         case .thirtySix: return 4
         case .forty: return 4
         case .fortyEight: return 5
+        case .fiftyTwo: return 5
         case .fiftySix: return 5
         case .sixtyFour: return 5
         case .eighty: return 5
@@ -1066,6 +1072,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         case .thirtySix: return 2
         case .forty: return 2
         case .fortyEight: return 2
+        case .fiftyTwo: return 2
         case .fiftySix: return 2
         case .sixtyFour: return 2
         case .eighty: return 3
