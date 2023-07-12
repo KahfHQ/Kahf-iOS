@@ -383,25 +383,21 @@ public extension ChatListViewController {
     }
 
     @objc
-    func createSettingsBarButtonItem() -> UIBarButtonItem {
+    func createSettingsBarButtonItem() -> ContextMenuButton {
         let contextButton = ContextMenuButton()
         contextButton.showsContextMenuAsPrimaryAction = true
         contextButton.contextMenu = settingsContextMenu()
         contextButton.accessibilityLabel = CommonStrings.openSettingsButton
-
-        let avatarImageView = createAvatarBarButtonViewWithSneakyTransaction()
-        contextButton.addSubview(avatarImageView)
-        avatarImageView.autoPinEdgesToSuperviewEdges()
-
+        contextButton.setImage(UIImage(named: "proxy_connected_24"), for: .normal)
+        
         let wrapper = UIView.container()
         wrapper.addSubview(contextButton)
-        contextButton.autoPinEdgesToSuperviewEdges()
 
         if unreadPaymentNotificationsCount > 0 {
             PaymentsViewUtils.addUnreadBadge(toView: wrapper)
         }
 
-        return .init(customView: wrapper)
+        return contextButton
     }
 
     func settingsContextMenu() -> ContextMenu {
@@ -413,6 +409,7 @@ public extension ChatListViewController {
                     image: Theme.isDarkThemeEnabled ? UIImage(named: "check-circle-solid-24")?.tintedImage(color: .white) : UIImage(named: "check-circle-outline-24"),
                     attributes: [],
                     handler: { [weak self] (_) in
+                        self?.customLeftView.isHidden = true
                         self?.willEnterMultiselectMode()
                     }))
         }

@@ -29,7 +29,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)unarchiveSelectedConversation;
 
 @property (nonatomic, readonly) CLVViewState *viewState;
-
+@property (nonatomic, strong) UIView *customLeftView;
+@property (nonatomic, strong) UIView *customRightView;
 /// Used to update the selected cell for split view and maintain scroll positions for reappearing collapsed views.
 - (void)updateLastViewedThread:(TSThread *)thread animated:(BOOL)animated;
 

@@ -397,37 +397,42 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     if (self.chatListMode != ChatListModeInbox || self.viewState.multiSelectState.isActive) {
         return;
     }
-
+    [self.navigationItem setTitle:nil];
+    NSMutableArray *rightBarButtonItems = [@[] mutableCopy];
+    
     // Settings button.
-    UIBarButtonItem *settingsButton = [self createSettingsBarButtonItem];
-
+    UIButton *settingsButton = [self createSettingsBarButtonItem];
     settingsButton.accessibilityLabel = CommonStrings.openSettingsButton;
-    self.navigationItem.leftBarButtonItem = settingsButton;
     SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, settingsButton);
 
-    NSMutableArray *rightBarButtonItems = [@[] mutableCopy];
+    UIButton *cameraButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [cameraButton setImage:[Theme iconImage:ThemeIconCameraButton] forState:UIControlStateNormal];
+    [cameraButton addTarget:self action:@selector(showCameraView) forControlEvents:UIControlEventTouchUpInside];
+    cameraButton.accessibilityLabel = NSLocalizedString(@"CAMERA_BUTTON_LABEL", @"Accessibility label for camera button.");
+    cameraButton.accessibilityHint = NSLocalizedString(@"CAMERA_BUTTON_HINT", @"Accessibility hint describing what you can do with the camera button");
+    cameraButton.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"camera");
 
-    UIBarButtonItem *compose = [[UIBarButtonItem alloc] initWithImage:[Theme iconImage:ThemeIconCompose24]
-                                                                style:UIBarButtonItemStylePlain
-                                                               target:self
-                                                               action:@selector(showNewConversationView)];
-    compose.accessibilityLabel
-        = NSLocalizedString(@"COMPOSE_BUTTON_LABEL", @"Accessibility label from compose button.");
-    compose.accessibilityHint = NSLocalizedString(
-        @"COMPOSE_BUTTON_HINT", @"Accessibility hint describing what you can do with the compose button");
-    compose.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"compose");
-    [rightBarButtonItems addObject:compose];
-
-    UIBarButtonItem *camera = [[UIBarButtonItem alloc] initWithImage:[Theme iconImage:ThemeIconCameraButton]
-                                                               style:UIBarButtonItemStylePlain
-                                                              target:self
-                                                              action:@selector(showCameraView)];
-    camera.accessibilityLabel = NSLocalizedString(@"CAMERA_BUTTON_LABEL", @"Accessibility label for camera button.");
-    camera.accessibilityHint = NSLocalizedString(
-        @"CAMERA_BUTTON_HINT", @"Accessibility hint describing what you can do with the camera button");
-    camera.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"camera");
-    [rightBarButtonItems addObject:camera];
-
+    cameraButton.frame = CGRectMake(0, 0, 22, 20); // Adjust the frame as needed
+    settingsButton.frame = CGRectMake(42, 0, 22, 20); // Adjust the frame as needed
+    
+    if (_customLeftView == nil && _customRightView == nil) {
+        
+        _customLeftView = [[UIView alloc] initWithFrame:CGRectMake(30, 0, 100, 40)]; // Adjust the frame as needed
+        _customLeftView.backgroundColor = [UIColor blueColor];
+        
+        _customRightView = [[UIView alloc] initWithFrame:CGRectMake(UIScreen.mainScreen.bounds.size.width - 92, 16, 92, 22)]; // Adjust the frame as needed
+        _customRightView.backgroundColor = [UIColor clearColor];
+        [self.navigationController.navigationBar addSubview:_customLeftView];
+        [self.navigationController.navigationBar addSubview:_customRightView];
+        
+       
+    }
+    for (UIView *subview in _customRightView.subviews) {
+        [subview removeFromSuperview];
+    }
+    [_customRightView addSubview:cameraButton];
+    [_customRightView addSubview:settingsButton];
+    
     if (SignalProxy.isEnabled) {
         UIImage *proxyStatusImage;
         UIColor *tintColor;
@@ -695,6 +700,13 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     self.isViewVisible = NO;
 
     [self.searchResultsController viewWillDisappear:animated];
+    if (self.customLeftView != nil && self.customRightView != nil) {
+        [self.customLeftView removeFromSuperview];
+        [self.customRightView removeFromSuperview];
+        
+    }
+    self.customLeftView = nil;
+    self.customRightView = nil;
 }
 
 - (void)updateLastViewedThread:(TSThread *)thread animated:(BOOL)animated

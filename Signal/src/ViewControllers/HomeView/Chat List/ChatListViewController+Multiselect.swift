@@ -21,17 +21,16 @@ extension ChatListViewController {
         guard !viewState.multiSelectState.isActive else {
             return
         }
-
         // multi selection does not work well with displaying search results, so let's clear the search for now
         searchBar.delegate?.searchBarCancelButtonClicked?(searchBar)
         viewState.multiSelectState.title = title
         if chatListMode == .inbox {
-            let doneButton = UIBarButtonItem(title: CommonStrings.cancelButton, style: .plain, target: self, action: #selector(done), accessibilityIdentifier: CommonStrings.cancelButton)
+            let doneButton = UIBarButtonItem(title: "   " + CommonStrings.cancelButton, style: .plain, target: self, action: #selector(done), accessibilityIdentifier: CommonStrings.cancelButton)
             navigationItem.setLeftBarButton(doneButton, animated: true)
             navigationItem.setRightBarButtonItems(nil, animated: true)
         } else {
             owsAssertDebug(navigationItem.rightBarButtonItem != nil, "can't change label of right bar button")
-            navigationItem.rightBarButtonItem?.title = CommonStrings.doneButton
+            navigationItem.rightBarButtonItem?.title = "   " + CommonStrings.doneButton
             navigationItem.rightBarButtonItem?.accessibilityHint = CommonStrings.doneButton
         }
         searchBar.isUserInteractionEnabled = false
@@ -122,6 +121,7 @@ extension ChatListViewController {
         if self.chatListMode == .archive {
             navigationItem.rightBarButtonItem?.title = CommonStrings.selectButton
         }
+        self.customLeftView.isHidden = false
     }
 
     private func adjustToolbarButtons(_ toolbar: UIToolbar?) {
