@@ -564,7 +564,7 @@ extension CLVTableDataSource: UITableViewDataSource {
         case .reminders:
             return UITableView.automaticDimension
         case .pinned, .unpinned:
-            return measureConversationCell(tableView: tableView, indexPath: indexPath)
+            return 88
         case .archiveButton:
             return UITableView.automaticDimension
         }

@@ -6,6 +6,7 @@
 import UIKit
 import SignalMessaging
 import SignalUI
+import SnapKit
 
 @objc
 public class ChatListCell: UITableViewCell {
@@ -132,11 +133,11 @@ public class ChatListCell: UITableViewCell {
     }
 
     private static var snippetFont: UIFont {
-        .ows_dynamicTypeSubheadlineClamped
+        UIFont.Typography.semiBold12
     }
 
     private static var nameFont: UIFont {
-        UIFont.ows_dynamicTypeBodyClamped.ows_semibold
+        UIFont.Typography.bold14
     }
 
     // Used for profile names.
@@ -149,7 +150,7 @@ public class ChatListCell: UITableViewCell {
     }
 
     // This value is now larger than AvatarBuilder.standardAvatarSizePoints.
-    private static let avatarSize: UInt = 56
+    private static let avatarSize: UInt = 52
     private static let muteIconSize: CGFloat = 16
 
     // MARK: -
@@ -171,7 +172,6 @@ public class ChatListCell: UITableViewCell {
         outerHStack.autoPinEdge(toSuperviewEdge: .leading, withInset: 30)
         outerHStack.autoPinEdge(toSuperviewEdge: .trailing, withInset: 30)
         outerHStack.autoPinHeightToSuperview()
-
         self.selectionStyle = .default
     }
 
@@ -253,10 +253,10 @@ public class ChatListCell: UITableViewCell {
 
         // Reserve space for two lines of snippet text, taking into account
         // the worst-case snippet content.
-        let snippetLineHeight = CGFloat(ceil(snippetLabelConfig.font.ows_semibold.lineHeight * 1.2))
+        let snippetLineHeight = CGFloat(15)
 
         // Use a fixed size for the snippet label and its wrapper.
-        let bottomRowWrapperSize = CGSize(width: 0, height: snippetLineHeight * 2)
+        let bottomRowWrapperSize = CGSize(width: 0, height: 20)
         var bottomRowStackSubviewInfos: [ManualStackSubviewInfo] = [
             bottomRowWrapperSize.asManualSubviewInfo()
         ]
@@ -265,7 +265,7 @@ public class ChatListCell: UITableViewCell {
             let statusIndicatorSize = messageStatusToken.image.size
             // The status indicator should vertically align with the
             // first line of the snippet.
-            let locationOffset = CGPoint(x: 0, y: snippetLineHeight * -0.5)
+            let locationOffset = CGPoint(x: -6, y: 0)
             bottomRowStackSubviewInfos.append(statusIndicatorSize.asManualSubviewInfo(hasFixedSize: true,
                                                                                       locationOffset: locationOffset))
         }
@@ -276,7 +276,7 @@ public class ChatListCell: UITableViewCell {
             let unreadBadgeSize = unreadMeasurements.badgeSize
             // The unread indicator should vertically align with the
             // first line of the snippet.
-            let locationOffset = CGPoint(x: 0, y: snippetLineHeight * -0.5)
+            let locationOffset = CGPoint(x: -6, y: 0)
             bottomRowStackSubviewInfos.append(unreadBadgeSize.asManualSubviewInfo(hasFixedSize: true,
                                                                                   locationOffset: locationOffset))
         }
@@ -451,7 +451,7 @@ public class ChatListCell: UITableViewCell {
         let newReuseToken = ReuseToken(hasMuteIndicator: shouldShowMuteIndicator,
                                        hasMessageStatusToken: configs.messageStatusToken != nil,
                                        hasUnreadBadge: measurements.unreadBadgeMeasurements != nil)
-
+        
         avatarStack.configure(config: avatarStackConfig,
                               measurement: avatarStackMeasurement,
                               subviews: avatarStackSubviews)
@@ -509,30 +509,36 @@ public class ChatListCell: UITableViewCell {
         ManualStackView.Config(axis: .horizontal,
                                alignment: .center,
                                spacing: 6,
-                               layoutMargins: .zero)
+                               layoutMargins: UIEdgeInsets(top: 0,
+                                                           leading: 0,
+                                                           bottom: 3,
+                                                           trailing: 0))
     }
 
     private static var bottomRowStackConfig: ManualStackView.Config {
         ManualStackView.Config(axis: .horizontal,
                                alignment: .center,
                                spacing: 6,
-                               layoutMargins: .zero)
+                               layoutMargins: UIEdgeInsets(top: 3,
+                                                           leading: 0,
+                                                           bottom: 0,
+                                                           trailing: 0))
     }
 
     private static var vStackConfig: ManualStackView.Config {
         ManualStackView.Config(axis: .vertical,
                                alignment: .fill,
-                               spacing: 1,
-                               layoutMargins: UIEdgeInsets(top: 7,
+                               spacing: 3,
+                               layoutMargins: UIEdgeInsets(top: 24,
                                                            leading: 0,
-                                                           bottom: 9,
+                                                           bottom: 23,
                                                            trailing: 0))
     }
 
     private static var outerHStackConfig: ManualStackView.Config {
         ManualStackView.Config(axis: .horizontal,
                                alignment: .center,
-                               spacing: 12,
+                               spacing: 20,
                                layoutMargins: UIEdgeInsets(hMargin: 0, vMargin: 0))
     }
 
