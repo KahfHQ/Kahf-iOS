@@ -388,7 +388,7 @@ public extension ChatListViewController {
         contextButton.showsContextMenuAsPrimaryAction = true
         contextButton.contextMenu = settingsContextMenu()
         contextButton.accessibilityLabel = CommonStrings.openSettingsButton
-        contextButton.setImage(UIImage(named: "proxy_connected_24"), for: .normal)
+        contextButton.setImage(UIImage(named: "settingsThreeDots"), for: .normal)
         
         let wrapper = UIView.container()
         wrapper.addSubview(contextButton)

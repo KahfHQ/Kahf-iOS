@@ -418,13 +418,26 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     if (_customLeftView == nil && _customRightView == nil) {
         
         _customLeftView = [[UIView alloc] initWithFrame:CGRectMake(30, 0, 100, 40)]; // Adjust the frame as needed
-        _customLeftView.backgroundColor = [UIColor blueColor];
+        _customLeftView.backgroundColor = [UIColor whiteColor];
         
         _customRightView = [[UIView alloc] initWithFrame:CGRectMake(UIScreen.mainScreen.bounds.size.width - 92, 16, 92, 22)]; // Adjust the frame as needed
-        _customRightView.backgroundColor = [UIColor clearColor];
+        _customRightView.backgroundColor = [UIColor whiteColor];
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:_customLeftView.bounds];
+        imageView.translatesAutoresizingMaskIntoConstraints = NO; // Allows you to add constraints
+        imageView.contentMode = UIViewContentModeScaleAspectFit; // Adjust as needed
+        imageView.image = [UIImage imageNamed:@"kahfhomelogo"];
+
+        [_customLeftView addSubview:imageView];
+
+        [NSLayoutConstraint activateConstraints:@[
+            [imageView.topAnchor constraintEqualToAnchor:_customLeftView.topAnchor],
+            [imageView.bottomAnchor constraintEqualToAnchor:_customLeftView.bottomAnchor],
+            [imageView.leadingAnchor constraintEqualToAnchor:_customLeftView.leadingAnchor],
+            [imageView.trailingAnchor constraintEqualToAnchor:_customLeftView.trailingAnchor],
+        ]];
+
         [self.navigationController.navigationBar addSubview:_customLeftView];
         [self.navigationController.navigationBar addSubview:_customRightView];
-        
        
     }
     for (UIView *subview in _customRightView.subviews) {
