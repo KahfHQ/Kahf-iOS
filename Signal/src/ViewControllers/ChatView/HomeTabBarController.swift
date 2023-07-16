@@ -13,6 +13,11 @@ class HomeTabBarController: UITabBarController {
         case stories = 1
         case chatList = 0
     }
+    lazy var prayerNavController = PrayerViewController.inModalNavigationController()
+    lazy var prayerTabBarItem = UITabBarItem(title: NSLocalizedString("Prayer",
+        comment: "Title for prayer activity"),
+        image: UIImage(named: "settings-tab-bar"),
+        selectedImage: UIImage(named: "selected_settings_tab_bar")!.tintedImage(color: UIColor(red: 0.24, green: 0.55, blue: 1.00, alpha: 1.00)))
     lazy var settingsNavController = AppSettingsViewController.inModalNavigationController()
     lazy var settingsTabBarItem = UITabBarItem(title: NSLocalizedString("SETTINGS_NAV_BAR_TITLE",
         comment: "Title for settings activity"),
@@ -69,7 +74,7 @@ class HomeTabBarController: UITabBarController {
 
         databaseStorage.appendDatabaseChangeDelegate(self)
 
-        viewControllers = [chatListNavController,storiesNavController,settingsNavController]
+        viewControllers = [chatListNavController,storiesNavController,settingsNavController, PrayerViewController]
 
         chatListNavController.tabBarItem = chatListTabBarItem
         storiesNavController.tabBarItem = storiesTabBarItem

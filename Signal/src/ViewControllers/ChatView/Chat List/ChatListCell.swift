@@ -129,11 +129,11 @@ public class ChatListCell: UITableViewCell {
     }
 
     private static var dateTimeFont: UIFont {
-        .ows_dynamicTypeCaption1Clamped
+        UIFont.Typography.regular12
     }
 
     private static var snippetFont: UIFont {
-        UIFont.Typography.semiBold12
+        UIFont.Typography.regular12
     }
 
     private static var nameFont: UIFont {
@@ -146,7 +146,7 @@ public class ChatListCell: UITableViewCell {
     }
 
     private static var snippetColor: UIColor {
-        Theme.isDarkThemeEnabled ? .ows_gray25 : .ows_gray45
+        Theme.isDarkThemeEnabled ? .ows_gray25 : .ows_gray03
     }
 
     // This value is now larger than AvatarBuilder.standardAvatarSizePoints.
@@ -680,7 +680,7 @@ public class ChatListCell: UITableViewCell {
         let unreadLabelSize = measurements.unreadLabelSize
 
         let unreadBadge = self.unreadBadge
-        unreadBadge.backgroundColor = .ows_accentBlue
+        unreadBadge.backgroundColor = .ows_accentRed
         unreadBadge.addSubview(unreadLabel) { view in
             // Center within badge.
             unreadLabel.frame = CGRect(origin: (view.frame.size - unreadLabelSize).asPoint * 0.5,
@@ -697,14 +697,19 @@ public class ChatListCell: UITableViewCell {
     private static func attributedSnippet(configuration: Configuration) -> NSAttributedString {
         owsAssertDebug(configuration.thread.chatListInfo != nil)
         let snippet: CLVSnippet = configuration.thread.chatListInfo?.snippet ?? .none
-
+        var textColor: UIColor
+        switch configuration.unreadMode {
+            case .none: textColor = .ows_gray03
+            case .unreadWithCount(count: _): textColor = .ows_gray01
+            case .unreadWithoutCount: textColor = .ows_gray01
+        }
         switch snippet {
         case .blocked:
             return NSAttributedString(string: NSLocalizedString("HOME_VIEW_BLOCKED_CONVERSATION",
                                                                 comment: "Table cell subtitle label for a conversation the user has blocked."),
                                       attributes: [
                                         .font: snippetFont,
-                                        .foregroundColor: snippetColor
+                                        .foregroundColor: textColor
                                       ])
         case .pendingMessageRequest(let addedToGroupByName):
             // If you haven't accepted the message request for this thread, don't show the latest message
@@ -716,7 +721,7 @@ public class ChatListCell: UITableViewCell {
                 return NSAttributedString(string: String(format: addedToGroupFormat, addedToGroupByName),
                                           attributes: [
                                             .font: snippetFont,
-                                            .foregroundColor: snippetColor
+                                            .foregroundColor: textColor
                                           ])
             } else {
                 // Otherwise just show a generic "message request" message
@@ -725,7 +730,7 @@ public class ChatListCell: UITableViewCell {
                 return NSAttributedString(string: text,
                                           attributes: [
                                             .font: snippetFont,
-                                            .foregroundColor: snippetColor
+                                            .foregroundColor: textColor
                                           ])
             }
         case .draft(let draftText):
@@ -734,12 +739,12 @@ public class ChatListCell: UITableViewCell {
                                                  comment: "A prefix indicating that a message preview is a draft"),
                                attributes: [
                                 .font: snippetFont.ows_italic,
-                                .foregroundColor: snippetColor
+                                .foregroundColor: textColor
                                ])
             snippetText.append(draftText,
                                attributes: [
                                 .font: snippetFont,
-                                .foregroundColor: snippetColor
+                                .foregroundColor: textColor
                                ])
             return snippetText
         case .voiceMemoDraft:
@@ -748,42 +753,42 @@ public class ChatListCell: UITableViewCell {
                                                  comment: "A prefix indicating that a message preview is a draft"),
                                attributes: [
                                 .font: snippetFont.ows_italic,
-                                .foregroundColor: snippetColor
+                                .foregroundColor: textColor
                                ])
             snippetText.append("🎤",
                                attributes: [
                                 .font: snippetFont,
-                                .foregroundColor: snippetColor
+                                .foregroundColor: textColor
                                ])
             snippetText.append(" ",
                                attributes: [
                                 .font: snippetFont,
-                                .foregroundColor: snippetColor
+                                .foregroundColor: textColor
                                ])
             snippetText.append(NSLocalizedString("ATTACHMENT_TYPE_VOICE_MESSAGE",
                                                  comment: "Short text label for a voice message attachment, used for thread preview and on the lock screen"),
                                attributes: [
                                 .font: snippetFont,
-                                .foregroundColor: snippetColor
+                                .foregroundColor: textColor
                                ])
             return snippetText
         case .contactSnippet(let lastMessageText):
             return NSAttributedString(string: lastMessageText,
                                       attributes: [
                                         .font: snippetFont,
-                                        .foregroundColor: snippetColor
+                                        .foregroundColor: textColor
                                       ])
         case .groupSnippet(let lastMessageText, let senderName):
             let snippetText = NSMutableAttributedString()
             snippetText.append(senderName,
                                attributes: [
                                 .font: snippetFont.ows_medium,
-                                .foregroundColor: snippetColor
+                                .foregroundColor: textColor
                                ])
             snippetText.append(":",
                                attributes: [
                                 .font: snippetFont.ows_medium,
-                                .foregroundColor: snippetColor
+                                .foregroundColor: textColor
                                ])
             snippetText.append(" ",
                                attributes: [
@@ -792,7 +797,7 @@ public class ChatListCell: UITableViewCell {
             snippetText.append(lastMessageText,
                                attributes: [
                                 .font: snippetFont,
-                                .foregroundColor: snippetColor
+                                .foregroundColor: textColor
                                ])
             return snippetText
         case .none:
@@ -833,9 +838,15 @@ public class ChatListCell: UITableViewCell {
                 }
             }
         }()
+        var textColor: UIColor
+        switch configuration.unreadMode {
+            case .none: textColor = .ows_gray03
+            case .unreadWithCount(count: _): textColor = .ows_gray01
+            case .unreadWithoutCount: textColor = .ows_gray01
+        }
         return CVLabelConfig(text: text,
                              font: nameFont,
-                             textColor: Theme.primaryTextColor,
+                             textColor: textColor,
                              lineBreakMode: .byTruncatingTail)
     }
 
