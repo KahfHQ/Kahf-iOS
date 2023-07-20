@@ -300,7 +300,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     // Search
 
     UIView *searchBarContainer = [UIView new];
-    searchBarContainer.layoutMargins = UIEdgeInsetsMake(0, 30, 0, 30);
+    searchBarContainer.layoutMargins = UIEdgeInsetsMake(24, 30, 0, 30);
 
     self.searchBar.placeholder = NSLocalizedString(@"HOME_VIEW_CONVERSATION_SEARCHBAR_PLACEHOLDER",
         @"Placeholder text for search bar which filters conversations.");
@@ -310,6 +310,11 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     self.searchBar.layoutMargins = UIEdgeInsetsZero;
 
     searchBarContainer.frame = self.searchBar.frame;
+    CGRect newFrame = CGRectMake(self.searchBar.frame.origin.x,
+                                 self.searchBar.frame.origin.y,
+                                 self.searchBar.frame.size.width,
+                                 self.searchBar.frame.size.height + 24);
+    searchBarContainer.frame = newFrame;
     [searchBarContainer addSubview:self.searchBar];
     [self.searchBar autoPinEdgesToSuperviewMargins];
 
@@ -325,7 +330,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     [self.searchResultsController.view autoPinEdgeToSuperviewEdge:ALEdgeBottom];
     [self.searchResultsController.view autoPinEdgeToSuperviewEdge:ALEdgeLeading];
     [self.searchResultsController.view autoPinEdgeToSuperviewEdge:ALEdgeTrailing];
-    [self.searchResultsController.view autoPinTopToSuperviewMarginWithInset:56];
+    [self.searchResultsController.view autoPinTopToSuperviewMarginWithInset:80];
     self.searchResultsController.view.hidden = YES;
 
     [self updateReminderViews];
