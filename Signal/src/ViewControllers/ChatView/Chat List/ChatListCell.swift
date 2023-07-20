@@ -230,8 +230,9 @@ public class ChatListCell: UITableViewCell {
         let dateTimeLabelConfig = configs.dateTimeLabelConfig
 
         var topRowStackSubviewInfos = [ManualStackSubviewInfo]()
-        let nameLabelSize = CVText.measureLabel(config: nameLabelConfig,
+        var nameLabelSize = CVText.measureLabel(config: nameLabelConfig,
                                                 maxWidth: .greatestFiniteMagnitude)
+        nameLabelSize.height = 20
         topRowStackSubviewInfos.append(nameLabelSize.asManualSubviewInfo(horizontalFlowBehavior: .canCompress,
                                                                          verticalFlowBehavior: .fixed))
         if shouldShowMuteIndicator {
@@ -249,8 +250,8 @@ public class ChatListCell: UITableViewCell {
 
         let topRowStackMeasurement = ManualStackView.measure(config: topRowStackConfig,
                                                              subviewInfos: topRowStackSubviewInfos)
-        let topRowStackSize = topRowStackMeasurement.measuredSize
-
+        var topRowStackSize = topRowStackMeasurement.measuredSize
+        topRowStackSize.height = 20
         // Reserve space for two lines of snippet text, taking into account
         // the worst-case snippet content.
         let snippetLineHeight = CGFloat(15)
@@ -511,7 +512,7 @@ public class ChatListCell: UITableViewCell {
                                spacing: 6,
                                layoutMargins: UIEdgeInsets(top: 0,
                                                            leading: 0,
-                                                           bottom: 3,
+                                                           bottom: 0,
                                                            trailing: 0))
     }
 
@@ -519,7 +520,7 @@ public class ChatListCell: UITableViewCell {
         ManualStackView.Config(axis: .horizontal,
                                alignment: .center,
                                spacing: 6,
-                               layoutMargins: UIEdgeInsets(top: 3,
+                               layoutMargins: UIEdgeInsets(top: 6,
                                                            leading: 0,
                                                            bottom: 0,
                                                            trailing: 0))
