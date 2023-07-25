@@ -706,6 +706,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
         // Deselect row when swiping back/returning to chat list.
         [self.tableView deselectRowAtIndexPath:selectedIndexPath animated:NO];
     }
+    [self updateBarButtonItems];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
