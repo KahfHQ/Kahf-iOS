@@ -743,7 +743,7 @@
 		4CD675C522E7CF22008010D2 /* ConversationViewController+OWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD675C422E7CF22008010D2 /* ConversationViewController+OWS.swift */; };
 		4CD675C722E7D393008010D2 /* MediaPresentationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD675C622E7D393008010D2 /* MediaPresentationContext.swift */; };
 		4CFF115323A9C2130007F9D7 /* UnreadIndicatorInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF115223A9C2130007F9D7 /* UnreadIndicatorInteraction.swift */; };
-		4E85CABC29F7B44000AF4FE3 /* GenderSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E85CABB29F7B43F00AF4FE3 /* GenderSettingsTableViewController.swift */; };
+		4E7D661C2A690543003910B7 /* GenderSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D661B2A690543003910B7 /* GenderSettingsTableViewController.swift */; };
 		4ED5CB2D2A5FC61900C54BE9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED5CB2C2A5FC61900C54BE9 /* SnapKit */; };
 		4ED5CB392A603CB000C54BE9 /* FontTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5CB382A603CB000C54BE9 /* FontTypography.swift */; };
 		4ED5CB3A2A603E8E00C54BE9 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED5CB342A603C1400C54BE9 /* Inter-Bold.ttf */; };
@@ -755,6 +755,7 @@
 		4ED5CB402A603E9B00C54BE9 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED5CB362A603C1400C54BE9 /* Inter-Regular.ttf */; };
 		4ED5CB412A603E9E00C54BE9 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED5CB312A603C1300C54BE9 /* Inter-SemiBold.ttf */; };
 		4ED5CB422A603EA000C54BE9 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED5CB372A603C1400C54BE9 /* Inter-Thin.ttf */; };
+		4ED5CB452A61671100C54BE9 /* PrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */; };
 		5003BB3F299DA0F10037159B /* LinkPreviewFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003BB3E299DA0F10037159B /* LinkPreviewFetcher.swift */; };
 		5003BB41299E1FD10037159B /* LinkPreviewFetcherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003BB40299E1FD10037159B /* LinkPreviewFetcherTest.swift */; };
 		5003BB43299F034D0037159B /* E164.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003BB42299F034D0037159B /* E164.swift */; };
@@ -3162,7 +3163,7 @@
 		4CFB4E9B220BC56D00ECB4DE /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = translations/nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4CFF115223A9C2130007F9D7 /* UnreadIndicatorInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnreadIndicatorInteraction.swift; sourceTree = "<group>"; };
 		4CFF4C0920F55BBA005DA313 /* MessageActionsToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageActionsToolbar.swift; sourceTree = "<group>"; };
-		4E85CABB29F7B43F00AF4FE3 /* GenderSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenderSettingsTableViewController.swift; path = ../../../../../../Desktop/GenderSettingsTableViewController.swift; sourceTree = "<group>"; };
+		4E7D661B2A690543003910B7 /* GenderSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSettingsTableViewController.swift; sourceTree = "<group>"; };
 		4ED5CB2F2A603C1300C54BE9 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.ttf"; path = "../../../../Downloads/Inter/static/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		4ED5CB302A603C1300C54BE9 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-ExtraLight.ttf"; path = "../../../../Downloads/Inter/static/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
 		4ED5CB312A603C1300C54BE9 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.ttf"; path = "../../../../Downloads/Inter/static/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -3173,6 +3174,7 @@
 		4ED5CB362A603C1400C54BE9 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Regular.ttf"; path = "../../../../Downloads/Inter/static/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		4ED5CB372A603C1400C54BE9 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Thin.ttf"; path = "../../../../Downloads/Inter/static/Inter-Thin.ttf"; sourceTree = "<group>"; };
 		4ED5CB382A603CB000C54BE9 /* FontTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTypography.swift; sourceTree = "<group>"; };
+		4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
 		5000499E28330102006A7466 /* sr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = sr; path = translations/sr.lproj/PluralAware.stringsdict; sourceTree = "<group>"; };
 		500049A328330114006A7466 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = sv; path = translations/sv.lproj/PluralAware.stringsdict; sourceTree = "<group>"; };
 		500049A62833011A006A7466 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = th; path = translations/th.lproj/PluralAware.stringsdict; sourceTree = "<group>"; };
@@ -5116,7 +5118,7 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		34386A4C207D0C01009F5D9C /* HomeView */ = {
+		34386A4C207D0C01009F5D9C /* ChatView */ = {
 			isa = PBXGroup;
 			children = (
 				8852572A27DD3A590032073C /* Chat List */,
@@ -5124,7 +5126,7 @@
 				880BFFE82345907600F6FAB1 /* ConversationSplitViewController.swift */,
 				8852572B27DD40870032073C /* HomeTabBarController.swift */,
 			);
-			path = HomeView;
+			path = ChatView;
 			sourceTree = "<group>";
 		};
 		34480B2F1FD0921000BC14EF /* utils */ = {
@@ -5900,6 +5902,8 @@
 		34B3F8331E8DF1700035BE1A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4ED5CB462A61681C00C54BE9 /* Home */,
+				4ED5CB432A61670300C54BE9 /* Prayer */,
 				340FC87A204DAC8C007AEB0F /* AppSettings */,
 				8809CE8822F93C0D00D38867 /* Attachment Keyboard */,
 				883A7FC1269F4BE700841DF9 /* Avatars */,
@@ -5909,7 +5913,7 @@
 				88A4CC13246CE41E0082211F /* Device Transfer */,
 				F924A68028F8703400E368C8 /* Donations */,
 				34BECE2C1F7ABCE000D7438D /* GifPicker */,
-				34386A4C207D0C01009F5D9C /* HomeView */,
+				34386A4C207D0C01009F5D9C /* ChatView */,
 				4C4F360E2284516F00A8DF48 /* MediaGallery */,
 				34995F122411838C00C70546 /* NewGroupView */,
 				3497971D25DAA86100E99FA4 /* Payments */,
@@ -6316,6 +6320,21 @@
 				4ED5CB382A603CB000C54BE9 /* FontTypography.swift */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4ED5CB432A61670300C54BE9 /* Prayer */ = {
+			isa = PBXGroup;
+			children = (
+				4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */,
+			);
+			path = Prayer;
+			sourceTree = "<group>";
+		};
+		4ED5CB462A61681C00C54BE9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		505C2ED72997421E00C23FB2 /* DeviceTransfer */ = {
@@ -6884,7 +6903,7 @@
 		8871B16D25F007CE00D4E070 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				4E85CABB29F7B43F00AF4FE3 /* GenderSettingsTableViewController.swift */,
+				4E7D661B2A690543003910B7 /* GenderSettingsTableViewController.swift */,
 				32E035232739059C0081EE11 /* BadgeCollectionView.swift */,
 				32E03521273901710081EE11 /* BadgeConfigurationViewController.swift */,
 				326DF2602739F4D90017B789 /* FeaturedBadgeViewController.swift */,
@@ -11150,6 +11169,7 @@
 				32AC5CF1255F875C00829BD8 /* GroupCallUpdateMessageHandler.swift in Sources */,
 				88ABB8B7253421F200229EAA /* GroupCallVideoGrid.swift in Sources */,
 				88ABB8B925349F6C00229EAA /* GroupCallVideoGridLayout.swift in Sources */,
+				4ED5CB452A61671100C54BE9 /* PrayerViewController.swift in Sources */,
 				88ABB8BB2535066100229EAA /* GroupCallVideoOverflow.swift in Sources */,
 				88588D18252D312800405414 /* GroupCallViewController.swift in Sources */,
 				8845B0C9264F12F800FA694C /* GroupDescriptionPreviewView.swift in Sources */,
@@ -11269,7 +11289,6 @@
 				E44AD4E624E98F440035D7B8 /* PhotoCaptureDismiss.swift in Sources */,
 				4CA485BB2232339F004B9E7D /* PhotoCaptureViewController.swift in Sources */,
 				3496955D219B605E00DCFE74 /* PhotoCollectionPickerController.swift in Sources */,
-				4E85CABC29F7B44000AF4FE3 /* GenderSettingsTableViewController.swift in Sources */,
 				4C1885D2218F8E1C00B67051 /* PhotoGridViewCell.swift in Sources */,
 				3496955E219B605E00DCFE74 /* PhotoLibrary.swift in Sources */,
 				887EEC1F23F0B20600F8C26D /* PinReminderMegaphone.swift in Sources */,
@@ -11381,6 +11400,7 @@
 				346CD5C226306578004162D6 /* UnknownThreadWarningInteraction.swift in Sources */,
 				4CFF115323A9C2130007F9D7 /* UnreadIndicatorInteraction.swift in Sources */,
 				C1DF443E2991BB3C003882D5 /* UsernameEducationViewController.swift in Sources */,
+				4E7D661C2A690543003910B7 /* GenderSettingsTableViewController.swift in Sources */,
 				D9C2D782299EEDDA00D79715 /* UsernameSelectionCoordinator.swift in Sources */,
 				D99840C829809E9C00F7ED6D /* UsernameSelectionViewController+HeaderView.swift in Sources */,
 				D99840B32976227100F7ED6D /* UsernameSelectionViewController+UsernameTextField.swift in Sources */,

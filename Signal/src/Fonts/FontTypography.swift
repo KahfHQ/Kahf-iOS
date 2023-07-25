@@ -10,5 +10,6 @@ extension UIFont {
     enum Typography {
         static let bold14 = UIFont(name: "Inter-Bold", size: 14) ?? .boldSystemFont(ofSize: 14)
         static let semiBold12 = UIFont(name: "Inter-SemiBold", size: 12) ?? .ows_semiboldFont(withSize: 12)
+        static let regular12 = UIFont(name: "Inter-Regular", size: 12) ?? .ows_semiboldFont(withSize: 12)
     }
 }

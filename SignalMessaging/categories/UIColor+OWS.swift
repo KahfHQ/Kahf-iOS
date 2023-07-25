@@ -86,7 +86,7 @@ public extension UIColor {
     /// Ending calls, error states
     @objc(ows_accentRedColor)
     class var ows_accentRed: UIColor {
-        return UIColor(rgbHex: 0xF44336)
+        return UIColor(rgbHex: 0xEB5757)
     }
 
     /// mute unmute background color
@@ -102,9 +102,19 @@ public extension UIColor {
         return UIColor(rgbHex: 0xFFFFFF)
     }
 
+    @objc(ows_gray01Color)
+    class var ows_gray01: UIColor {
+        return UIColor(rgbHex: 0x333333)
+    }
+    
     @objc(ows_gray02Color)
     class var ows_gray02: UIColor {
         return UIColor(rgbHex: 0xF6F6F6)
+    }
+    
+    @objc(ows_gray03Color)
+    class var ows_gray03: UIColor {
+        return UIColor(rgbHex: 0x828282)
     }
 
     @objc(ows_gray05Color)

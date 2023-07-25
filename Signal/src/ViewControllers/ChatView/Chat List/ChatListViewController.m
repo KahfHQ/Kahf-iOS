@@ -168,7 +168,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
 
     [self createFirstConversationCueView];
     [self.view addSubview:self.firstConversationCueView];
-    [self.firstConversationCueView autoPinToTopLayoutGuideOfViewController:self withInset:0.f];
+    [self.firstConversationCueView autoPinToBottomLayoutGuideOfViewController:self withInset:78.f];
     // This inset bakes in assumptions about UINavigationBar layout, but I'm not sure
     // there's a better way to do it, since it isn't safe to use iOS auto layout with
     // UINavigationBar contents.
@@ -209,7 +209,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
 {
     const CGFloat kTailWidth = 16.f;
     const CGFloat kTailHeight = 8.f;
-    const CGFloat kTailHMargin = 12.f;
+    const CGFloat kTailHMargin = 35.f;
 
     UILabel *label = [UILabel new];
     label.textColor = UIColor.ows_whiteColor;
@@ -218,7 +218,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     label.lineBreakMode = NSLineBreakByWordWrapping;
 
     OWSLayerView *layerView = [OWSLayerView new];
-    layerView.layoutMargins = UIEdgeInsetsMake(11 + kTailHeight, 16, 11, 16);
+    layerView.layoutMargins = UIEdgeInsetsMake(11, 16, 11 + kTailHeight, 16);
     CAShapeLayer *shapeLayer = [CAShapeLayer new];
     shapeLayer.fillColor = UIColor.ows_accentBlueColor.CGColor;
     [layerView.layer addSublayer:shapeLayer];
@@ -227,23 +227,22 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
         
         // Bubble
         CGRect bubbleBounds = view.bounds;
-        bubbleBounds.origin.y += kTailHeight;
         bubbleBounds.size.height -= kTailHeight;
         [bezierPath appendPath:[UIBezierPath bezierPathWithRoundedRect:bubbleBounds cornerRadius:8]];
         
         // Tail
-        CGPoint tailTop = CGPointMake(kTailHMargin + kTailWidth * 0.5f, 0.f);
-        CGPoint tailLeft = CGPointMake(kTailHMargin, kTailHeight);
-        CGPoint tailRight = CGPointMake(kTailHMargin + kTailWidth, kTailHeight);
+        CGPoint tailBottom = CGPointMake(kTailHMargin + kTailWidth * 0.5f, view.bounds.size.height); // Triangle bottom point
+        CGPoint tailLeft = CGPointMake(kTailHMargin, view.bounds.size.height - kTailHeight); // Triangle left point
+        CGPoint tailRight = CGPointMake(kTailHMargin + kTailWidth, view.bounds.size.height - kTailHeight); // Triangle right point
         if (!CurrentAppContext().isRTL) {
-            tailTop.x = view.width - tailTop.x;
+            tailBottom.x = view.width - tailBottom.x;
             tailLeft.x = view.width - tailLeft.x;
             tailRight.x = view.width - tailRight.x;
         }
-        [bezierPath moveToPoint:tailTop];
+        [bezierPath moveToPoint:tailBottom];
         [bezierPath addLineToPoint:tailLeft];
         [bezierPath addLineToPoint:tailRight];
-        [bezierPath addLineToPoint:tailTop];
+        [bezierPath closePath]; // Closes the path by drawing a line to the start point
         shapeLayer.path = bezierPath.CGPath;
         shapeLayer.frame = view.bounds;
     };

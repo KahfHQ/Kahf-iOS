@@ -10,13 +10,17 @@ import SignalUI
 
 class HomeTabBarController: UITabBarController {
     enum Tabs: Int {
+        case home = 0
         case stories = 1
-        case chatList = 0
+        case chatList = 2
+        case prayer = 3
+        case settings = 4
     }
+    lazy var homeNavController = PrayerViewController.inModalNavigationController()
+    lazy var homeTabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "settings-tab-bar"),
+        selectedImage: UIImage(named: "selected_settings_tab_bar")!.tintedImage(color: UIColor(red: 0.24, green: 0.55, blue: 1.00, alpha: 1.00)))
     lazy var prayerNavController = PrayerViewController.inModalNavigationController()
-    lazy var prayerTabBarItem = UITabBarItem(title: NSLocalizedString("Prayer",
-        comment: "Title for prayer activity"),
-        image: UIImage(named: "settings-tab-bar"),
+    lazy var prayerTabBarItem = UITabBarItem(title: "Prayer", image: UIImage(named: "settings-tab-bar"),
         selectedImage: UIImage(named: "selected_settings_tab_bar")!.tintedImage(color: UIColor(red: 0.24, green: 0.55, blue: 1.00, alpha: 1.00)))
     lazy var settingsNavController = AppSettingsViewController.inModalNavigationController()
     lazy var settingsTabBarItem = UITabBarItem(title: NSLocalizedString("SETTINGS_NAV_BAR_TITLE",
@@ -52,9 +56,6 @@ class HomeTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tabBar.layer.cornerRadius = 10
-        tabBar.layer.shadowOffset = CGSize(width: 0, height: 4)
-        tabBar.layer.shadowColor = UIColor(rgbHex: 000000).withAlphaComponent(0.1).cgColor
         // Use our custom tab bar.
         setValue(OWSTabBar(), forKey: "tabBar")
 
@@ -74,12 +75,13 @@ class HomeTabBarController: UITabBarController {
 
         databaseStorage.appendDatabaseChangeDelegate(self)
 
-        viewControllers = [chatListNavController,storiesNavController,settingsNavController, PrayerViewController]
-
+        viewControllers = [homeNavController,storiesNavController,chatListNavController, prayerNavController, settingsNavController]
+        homeNavController.tabBarItem = homeTabBarItem
         chatListNavController.tabBarItem = chatListTabBarItem
         storiesNavController.tabBarItem = storiesTabBarItem
+        prayerNavController.tabBarItem = prayerTabBarItem
         settingsNavController.tabBarItem = settingsTabBarItem
-
+        
         updateChatListBadge()
         storyBadgeCountManager.beginObserving(observer: self)
 
@@ -243,6 +245,7 @@ extension HomeTabBarController: UITabBarControllerDelegate {
                 tableView = chatListViewController.tableView
             case .stories:
                 tableView = storiesViewController.tableView
+            default: return true
             }
 
             tableView.setContentOffset(CGPoint(x: 0, y: -tableView.safeAreaInsets.top), animated: true)
