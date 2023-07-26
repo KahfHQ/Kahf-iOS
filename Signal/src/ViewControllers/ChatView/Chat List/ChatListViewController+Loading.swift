@@ -114,7 +114,6 @@ extension ChatListViewController {
         tableDataSource.calcRefreshTimer()
         // We need to perform this regardless of the load result type.
         updateViewState()
-        updateBarButtonItems()
     }
 
     fileprivate func applyPartialLoadResult(rowChanges: [CLVRowChange],

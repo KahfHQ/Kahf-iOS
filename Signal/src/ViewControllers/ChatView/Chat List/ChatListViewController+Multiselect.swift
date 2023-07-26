@@ -117,7 +117,6 @@ extension ChatListViewController {
 
     private func done() {
         leaveMultiselectMode()
-        updateBarButtonItems()
         if self.chatListMode == .archive {
             navigationItem.rightBarButtonItem?.title = CommonStrings.selectButton
         }

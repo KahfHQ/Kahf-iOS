@@ -150,8 +150,6 @@ extension ChatListViewController {
         guard paymentsHelper.arePaymentsEnabled else {
             self.unreadPaymentNotificationsCount = 0
             self.firstUnreadPaymentModel = nil
-
-            updateBarButtonItems()
             updateReminderViews()
             return
         }
@@ -165,8 +163,6 @@ extension ChatListViewController {
 
         self.unreadPaymentNotificationsCount = unreadPaymentNotificationsCount
         self.firstUnreadPaymentModel = firstUnreadPaymentModel
-
-        updateBarButtonItems()
         updateReminderViews()
     }
 }

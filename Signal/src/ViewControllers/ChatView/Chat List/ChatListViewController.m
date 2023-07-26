@@ -100,7 +100,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     self.view.backgroundColor = Theme.backgroundColor;
     self.tableView.backgroundColor = Theme.backgroundColor;
 
-    [self updateBarButtonItems];
+    //[self updateBarButtonItems];
 }
 
 - (void)viewWillTransitionToSize:(CGSize)size
