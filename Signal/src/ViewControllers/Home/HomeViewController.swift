@@ -9,11 +9,11 @@ import SignalUI
 import SnapKit
 
 @objc
-class PrayerViewController: OWSTableViewController2 {
+class HomeViewController: OWSTableViewController2 {
 
     @objc
     class func inModalNavigationController() -> OWSNavigationController {
-        OWSNavigationController(rootViewController: PrayerViewController())
+        OWSNavigationController(rootViewController: HomeViewController())
     }
 
     override func viewDidLoad() {
