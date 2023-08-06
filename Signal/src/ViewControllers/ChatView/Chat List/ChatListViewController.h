@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // Used by force-touch Springboard icon shortcut and key commands
 - (void)showNewConversationView;
+- (void)showCameraView;
 - (void)showNewGroupView;
 - (void)focusSearch;
 - (void)archiveSelectedConversation;

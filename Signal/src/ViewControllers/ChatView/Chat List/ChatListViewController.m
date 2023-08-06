@@ -180,7 +180,9 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
                                                        relation:NSLayoutRelationGreaterThanOrEqual];
     SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, _firstConversationCueView);
     SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, _firstConversationLabel);
-
+    
+    [self addStartToChatIcon];
+    
     UIRefreshControl *pullToRefreshView = [UIRefreshControl new];
     pullToRefreshView.tintColor = [UIColor grayColor];
     [pullToRefreshView addTarget:self
@@ -402,82 +404,9 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
         return;
     }
     [self.navigationItem setTitle:nil];
-    NSMutableArray *rightBarButtonItems = [@[] mutableCopy];
-    
-    // Settings button.
-    UIButton *settingsButton = [self createSettingsBarButtonItem];
-    settingsButton.accessibilityLabel = CommonStrings.openSettingsButton;
-    SET_SUBVIEW_ACCESSIBILITY_IDENTIFIER(self, settingsButton);
-
-    UIButton *cameraButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [cameraButton setImage:[Theme iconImage:ThemeIconCameraButton] forState:UIControlStateNormal];
-    [cameraButton addTarget:self action:@selector(showCameraView) forControlEvents:UIControlEventTouchUpInside];
-    cameraButton.accessibilityLabel = NSLocalizedString(@"CAMERA_BUTTON_LABEL", @"Accessibility label for camera button.");
-    cameraButton.accessibilityHint = NSLocalizedString(@"CAMERA_BUTTON_HINT", @"Accessibility hint describing what you can do with the camera button");
-    cameraButton.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"camera");
-
-    cameraButton.frame = CGRectMake(0, 0, 22, 20); // Adjust the frame as needed
-    settingsButton.frame = CGRectMake(42, 0, 22, 20); // Adjust the frame as needed
-    
-    if (_customLeftView == nil && _customRightView == nil) {
-        
-        _customLeftView = [[UIView alloc] initWithFrame:CGRectMake(30, 0, 100, 40)]; // Adjust the frame as needed
-        _customLeftView.backgroundColor = [UIColor whiteColor];
-        
-        _customRightView = [[UIView alloc] initWithFrame:CGRectMake(UIScreen.mainScreen.bounds.size.width - 92, 16, 92, 22)]; // Adjust the frame as needed
-        _customRightView.backgroundColor = [UIColor whiteColor];
-        UIImageView *imageView = [[UIImageView alloc] initWithFrame:_customLeftView.bounds];
-        imageView.translatesAutoresizingMaskIntoConstraints = NO; // Allows you to add constraints
-        imageView.contentMode = UIViewContentModeScaleAspectFit; // Adjust as needed
-        imageView.image = [UIImage imageNamed:@"kahfhomelogo"];
-
-        [_customLeftView addSubview:imageView];
-
-        [NSLayoutConstraint activateConstraints:@[
-            [imageView.topAnchor constraintEqualToAnchor:_customLeftView.topAnchor],
-            [imageView.bottomAnchor constraintEqualToAnchor:_customLeftView.bottomAnchor],
-            [imageView.leadingAnchor constraintEqualToAnchor:_customLeftView.leadingAnchor],
-            [imageView.trailingAnchor constraintEqualToAnchor:_customLeftView.trailingAnchor],
-        ]];
-
-        [self.navigationController.navigationBar addSubview:_customLeftView];
-        [self.navigationController.navigationBar addSubview:_customRightView];
-       
-    }
-    for (UIView *subview in _customRightView.subviews) {
-        [subview removeFromSuperview];
-    }
-    [_customRightView addSubview:cameraButton];
-    [_customRightView addSubview:settingsButton];
-    
-    if (SignalProxy.isEnabled) {
-        UIImage *proxyStatusImage;
-        UIColor *tintColor;
-
-        switch ([self.socketManager socketStateForType:OWSWebSocketTypeIdentified]) {
-            case OWSWebSocketStateOpen:
-                proxyStatusImage = [UIImage imageNamed:@"proxy_connected_24"];
-                tintColor = UIColor.ows_accentGreenColor;
-                break;
-            case OWSWebSocketStateClosed:
-                proxyStatusImage = [UIImage imageNamed:@"proxy_failed_24"];
-                tintColor = UIColor.ows_accentRedColor;
-                break;
-            case OWSWebSocketStateConnecting:
-                proxyStatusImage = [UIImage imageNamed:@"proxy_failed_24"];
-                tintColor = Theme.middleGrayColor;
-                break;
-        }
-
-        UIBarButtonItem *proxy = [[UIBarButtonItem alloc] initWithImage:proxyStatusImage
-                                                                  style:UIBarButtonItemStylePlain
-                                                                 target:self
-                                                                 action:@selector(showAppSettingsInProxyMode)];
-        proxy.tintColor = tintColor;
-        [rightBarButtonItems addObject:proxy];
-    }
-
-    self.navigationItem.rightBarButtonItems = rightBarButtonItems;
+    [self addNavBarLogo];
+    [self addNavBarCameraButton];
+    [self addNavBarSettingsButton];
 }
 
 - (void)showNewConversationView

@@ -54,6 +54,7 @@ public enum ThemeIcon: UInt {
     case settingsShareUsername
 
     case cameraButton
+    case startToChatButton
     case micButton
     case messageActionSpeak
     case messageActionStopSpeaking
@@ -299,6 +300,8 @@ public extension Theme {
         // Input Toolbar
         case .cameraButton:
             return isDarkThemeEnabled ? "camera-solid-24" : "camera-outline-24"
+        case .startToChatButton:
+            return "startToChatButtonIcon"
         case .micButton:
             return isDarkThemeEnabled ? "mic-solid-24" : "mic-outline-24"
         case .attachmentCamera:
