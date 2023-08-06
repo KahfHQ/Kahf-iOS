@@ -320,7 +320,10 @@ struct ConversationHeaderBuilder: Dependencies {
             let hasCurrentCall = callService.currentCall != nil
             let components = delegate.threadViewModel.name.components(separatedBy: " ")
             let lastComponent = components.last ?? ""
-            let genderString = String(lastComponent)
+            var genderString = String(lastComponent)
+            if !["Female", "Male"].contains(genderString) {
+                genderString = "Male"
+            }
             
             if !delegate.thread.isGroupThread {
                 if isMahramEnabled {
