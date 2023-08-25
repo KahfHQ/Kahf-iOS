@@ -572,7 +572,7 @@ private class OptionView: UIView {
         editOverlayView.contentMode = .center
         imageView.addSubview(editOverlayView)
         editOverlayView.autoPinEdgesToSuperviewEdges(
-            withInsets: UIEdgeInsets(margin: 2.5)
+            with: UIEdgeInsets(margin: 2.5)
         )
         editOverlayView.layer.borderWidth = 1.5
         editOverlayView.isHidden = true
