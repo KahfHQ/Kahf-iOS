@@ -22,8 +22,6 @@ NS_ASSUME_NONNULL_BEGIN
              animated:(BOOL)isAnimated;
 
 // Used by force-touch Springboard icon shortcut and key commands
-- (void)showNewConversationView;
-- (void)showCameraView;
 - (void)showNewGroupView;
 - (void)focusSearch;
 - (void)archiveSelectedConversation;
@@ -39,6 +37,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)updateBarButtonItems;
 - (void)updateViewState;
 - (void)presentGetStartedBannerIfNecessary;
+- (void)showNewConversationView;
+- (void)showCameraView;
 
 @property (nonatomic) UILabel *firstConversationLabel;
 @property (nonatomic) UIView *firstConversationCueView;

@@ -255,17 +255,10 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     layerView.userInteractionEnabled = YES;
     [layerView
         addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self
-                                                                     action:@selector(firstConversationCueWasTapped:)]];
+                                                                     action:@selector(showNewConversationView)]];
 
     self.firstConversationCueView = layerView;
     self.firstConversationLabel = label;
-}
-
-- (void)firstConversationCueWasTapped:(UITapGestureRecognizer *)gestureRecognizer
-{
-    OWSLogInfo(@"");
-
-    [self showNewConversationView];
 }
 
 - (void)viewDidLoad
