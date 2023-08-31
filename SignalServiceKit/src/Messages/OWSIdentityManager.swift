@@ -246,7 +246,7 @@ extension OWSIdentityManager {
                         return nil
                     }
 
-                    return ["uuid": uuid.uuidString, "fingerprint": Data(identityKeyDigest.prefix(4)).base64EncodedString()]
+                    return ["aci": uuid.uuidString, "fingerprint": Data(identityKeyDigest.prefix(4)).base64EncodedString()]
                 }
             }
 
@@ -270,8 +270,8 @@ extension OWSIdentityManager {
 
             self.databaseStorage.write { transaction in
                 for element in responseElements {
-                    guard let uuidString = element["uuid"], let uuid = UUID(uuidString: uuidString) else {
-                        owsFailDebug("Invalid uuid in batch identity response")
+                    guard let aciString = element["aci"], let aci = UUID(uuidString: aciString) else {
+                        owsFailDebug("Invalid ACI in batch identity response")
                         continue
                     }
 
@@ -290,7 +290,7 @@ extension OWSIdentityManager {
                         continue
                     }
 
-                    let address = SignalServiceAddress(uuid: uuid)
+                    let address = SignalServiceAddress(uuid: aci)
                     Logger.info("Identity key changed via batch request for address \(address)")
 
                     self.saveRemoteIdentity(identityKey, address: address, transaction: transaction)
