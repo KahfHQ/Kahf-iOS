@@ -202,9 +202,9 @@ private class TSConstantsProduction: TSConstantsProtocol {
     public let contactDiscoveryV2MrEnclave = MrEnclave("5282dd8af2448dbf3881d1631d92c63b8fc9a5f48f6e234e16e3a561619aaca9")
 
     public let keyBackupEnclave = KeyBackupEnclave(
-        name: "d651611c1c294346680e762a038ff2896752ec83e4358e99f3ab160280d272be",
-        mrenclave: MrEnclave("d651611c1c294346680e762a038ff2896752ec83e4358e99f3ab160280d272be"),
-        serviceId: "16d065c4fbb935fe16ac94d27dcdfebc4b968cf8de4275b097882d89785fab27"
+        name: "5118f111b0960a9a6e520ab3bc217e5e85ab13d1549fb11b38cb454ae5976b43",
+        mrenclave: MrEnclave("6da90ef71c03f53e8e7083ac45bf9c317c34223c3481f6d10125b418ba83cd21"),
+        serviceId: "4138e5353962efe34ea30042f085c9f6e1dcdaaf97b791daa5db4f11013ab06e"
     )
 
     // An array of previously used enclaves that we should try and restore
