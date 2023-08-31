@@ -258,16 +258,6 @@ public extension UIView {
     }
 
     @discardableResult
-    func autoPinEdgesToSuperviewEdges(withInsets insets: UIEdgeInsets) -> [NSLayoutConstraint] {
-        [
-            autoPinEdge(toSuperviewEdge: .top, withInset: insets.top),
-            autoPinEdge(toSuperviewEdge: .bottom, withInset: insets.bottom),
-            autoPinEdge(toSuperviewEdge: .left, withInset: insets.left),
-            autoPinEdge(toSuperviewEdge: .right, withInset: insets.right)
-        ]
-    }
-
-    @discardableResult
     func autoPinWidthToSuperview(relation: NSLayoutConstraint.Relation) -> [NSLayoutConstraint] {
         // We invert the relation because of the weird grammar switch when talking about
         // the size of widths to the positioning of edges
