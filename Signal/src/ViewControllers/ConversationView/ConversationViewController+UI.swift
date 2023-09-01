@@ -169,7 +169,11 @@ extension ConversationViewController {
                             for adress in allMembersSorted {
                                 let components = contactsManager.displayName(for: adress, transaction: transaction).components(separatedBy: " ")
                                 let lastComponent = components.last ?? ""
-                                let genderString = String(lastComponent)
+                                var genderString = String(lastComponent)
+                                if !["Female", "Male"].contains(genderString) {
+                                    genderString = "Male"
+                                }
+
                                 if genderString == "Female" && verificationStateMap[adress] == .verified {
                                     isMahrem = true
                                 }
@@ -186,7 +190,10 @@ extension ConversationViewController {
                             for adress in allMembersSorted {
                                 let components = contactsManager.displayName(for: adress, transaction: transaction).components(separatedBy: " ")
                                 let lastComponent = components.last ?? ""
-                                let genderString = String(lastComponent)
+                                var genderString = String(lastComponent)
+                                if !["Female", "Male"].contains(genderString) {
+                                    genderString = "Male"
+                                }
                                 if genderString == "Male" && verificationStateMap[adress] == .verified {
                                     isMahrem = true
                                 }
@@ -224,7 +231,6 @@ extension ConversationViewController {
                     
                     let components = threadViewModel.name.components(separatedBy: " ")
                     let lastComponent = components.last ?? ""
-                    let genderString = String(lastComponent)
                     
                     let videoCallButton = UIBarButtonItem(
                         image: Theme.iconImage(.videoCall),
@@ -236,10 +242,14 @@ extension ConversationViewController {
                                                                            comment: "Accessibility label for placing a video call")
 
                     let isLocalFamilyNameMale = profileManager.localFamilyName() == "Male"
+                    var genderString = String(lastComponent)
+                    if !["Female", "Male"].contains(genderString) {
+                        genderString = "Male"
+                    }
                     let isGenderStringMale = genderString == "Male"
                     let isGenderStringFemale = genderString == "Female"
 
-                    if (isLocalFamilyNameMale && isGenderStringMale) || (!isLocalFamilyNameMale && isGenderStringFemale && shouldShowVerifiedBadge(for: thread)) {
+                    if shouldShowVerifiedBadge(for: thread) || (isLocalFamilyNameMale && isGenderStringMale) || (!isLocalFamilyNameMale && isGenderStringFemale) {
                         barButtons.append(videoCallButton)
                     }
                     else {
