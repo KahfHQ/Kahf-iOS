@@ -45,7 +45,7 @@ public class Deprecated_OnboardingPermissionsViewController: Deprecated_Onboardi
                 comment: "Explanation in the 'onboarding permissions' view."
             )
             giveAccessText = NSLocalizedString(
-                "ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON",
+                "BUTTON_CONTINUE",
                 comment: "Label for the 'give access' button in the 'onboarding permissions' view."
             )
         } else {
@@ -58,7 +58,7 @@ public class Deprecated_OnboardingPermissionsViewController: Deprecated_Onboardi
                 comment: "Explanation in the 'onboarding permissions' view."
             )
             giveAccessText = NSLocalizedString(
-                "LINKED_ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON",
+                "BUTTON_CONTINUE",
                 comment: "Label for the 'give access' button in the 'onboarding permissions' view."
             )
         }
