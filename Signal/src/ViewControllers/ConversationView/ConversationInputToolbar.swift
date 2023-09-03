@@ -336,7 +336,7 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         voiceMemoContentView.autoPinEdges(toEdgesOf: inputTextView)
         // Wrap vertical stack into a view with rounded corners.
         let vStackRoundingView = UIView.container()
-        vStackRoundingView.backgroundColor = Theme.isDarkThemeEnabled ? UIColor(white: 1, alpha: 0.16) : UIColor(white: 0, alpha: 0.1)
+        vStackRoundingView.backgroundColor = Theme.isDarkThemeEnabled ? UIColor(white: 1, alpha: 0.16) : UIColor.ows_gray06
         vStackRoundingView.layer.cornerRadius = 18
         vStackRoundingView.clipsToBounds = true
         vStackRoundingView.addSubview(messageContentVStack)
@@ -581,7 +581,6 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
 
         lazy var cameraButton: UIButton = {
             let button = UIButton(type: .system)
-            button.tintColor = Theme.primaryIconColor
             button.accessibilityLabel = NSLocalizedString(
                 "CAMERA_BUTTON_LABEL",
                 comment: "Accessibility label for camera button."
@@ -591,14 +590,13 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
                 comment: "Accessibility hint describing what you can do with the camera button"
             )
             button.accessibilityIdentifier = UIView.accessibilityIdentifier(in: self, name: "cameraButton")
-            button.setImage(Theme.iconImage(.cameraButton), for: .normal)
+            button.setImage(Theme.iconImage(.cameraToolbarButton, renderingMode: .alwaysOriginal), for: .normal)
             button.bounds.size = CGSize(width: 40, height: LayoutMetrics.minToolbarItemHeight)
             return button
         }()
 
         lazy var voiceMemoButton: UIButton = {
             let button = UIButton(type: .system)
-            button.tintColor = Theme.primaryIconColor
             button.accessibilityLabel = NSLocalizedString(
                 "INPUT_TOOLBAR_VOICE_MEMO_BUTTON_ACCESSIBILITY_LABEL",
                 comment: "accessibility label for the button which records voice memos"
@@ -608,7 +606,7 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
                 comment: "accessibility hint for the button which records voice memos"
             )
             button.accessibilityIdentifier = UIView.accessibilityIdentifier(in: self, name: "voiceMemoButton")
-            button.setImage(Theme.iconImage(.micButton), for: .normal)
+            button.setImage(Theme.iconImage(.micToolbarButton, renderingMode: .alwaysOriginal), for: .normal)
             button.bounds.size = CGSize(width: 40, height: LayoutMetrics.minToolbarItemHeight)
             return button
         }()

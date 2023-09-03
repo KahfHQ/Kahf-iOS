@@ -54,8 +54,10 @@ public enum ThemeIcon: UInt {
     case settingsShareUsername
 
     case cameraButton
+    case cameraToolbarButton
     case startToChatButton
     case micButton
+    case micToolbarButton
     case messageActionSpeak
     case messageActionStopSpeaking
 
@@ -185,18 +187,18 @@ public extension Theme {
 
 @objc
 public extension Theme {
-    class func iconImage(_ icon: ThemeIcon) -> UIImage {
-        iconImage(icon, isDarkThemeEnabled: isDarkThemeEnabled)
+    class func iconImage(_ icon: ThemeIcon, renderingMode: UIImage.RenderingMode = .alwaysTemplate) -> UIImage {
+        iconImage(icon, isDarkThemeEnabled: isDarkThemeEnabled, renderingMode: renderingMode)
     }
 
-    class func iconImage(_ icon: ThemeIcon, isDarkThemeEnabled: Bool) -> UIImage {
+    class func iconImage(_ icon: ThemeIcon, isDarkThemeEnabled: Bool, renderingMode: UIImage.RenderingMode = .alwaysTemplate) -> UIImage {
         let name = iconName(icon, isDarkThemeEnabled: isDarkThemeEnabled)
         guard let image = UIImage(named: name) else {
             owsFailDebug("image was unexpectedly nil: \(name)")
             return UIImage()
         }
 
-        return image.withRenderingMode(.alwaysTemplate)
+        return image.withRenderingMode(renderingMode)
     }
 
     class func iconName(_ icon: ThemeIcon) -> String {
@@ -298,12 +300,16 @@ public extension Theme {
             return "share-outline-20"
 
         // Input Toolbar
+        case .cameraToolbarButton:
+            return "camera-toolbar"
         case .cameraButton:
             return isDarkThemeEnabled ? "camera-solid-24" : "camera-outline-24"
         case .startToChatButton:
             return "startToChatButtonIcon"
         case .micButton:
             return isDarkThemeEnabled ? "mic-solid-24" : "mic-outline-24"
+        case .micToolbarButton:
+            return "mic-toolbar"
         case .attachmentCamera:
             return "camera-outline-32"
         case .attachmentContact:
