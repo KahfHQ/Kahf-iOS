@@ -157,7 +157,7 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         static let minTextViewHeight: CGFloat = 48
         static let maxTextViewHeight: CGFloat = 98
         static let maxIPadTextViewHeight: CGFloat = 142
-        static let minToolbarItemHeight: CGFloat = 52
+        static let minToolbarItemHeight: CGFloat = 48
     }
 
     private lazy var inputTextView: ConversationInputTextView = {
@@ -335,20 +335,16 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         messageContentVStack.addSubview(voiceMemoContentView)
         voiceMemoContentView.autoPinEdges(toEdgesOf: inputTextView)
         // Wrap vertical stack into a view with rounded corners.
+        
         let vStackRoundingView = UIView.container()
         vStackRoundingView.backgroundColor = Theme.isDarkThemeEnabled ? UIColor(white: 1, alpha: 0.16) : UIColor.ows_gray06
         vStackRoundingView.layer.cornerRadius = 18
         vStackRoundingView.clipsToBounds = true
         vStackRoundingView.addSubview(messageContentVStack)
-        messageContentView.addSubview(vStackRoundingView)
-        // This margin defines amount of padding above and below visible text input box.
-        let textViewVInset = 0.5 * (LayoutMetrics.minToolbarItemHeight - LayoutMetrics.minTextViewHeight)
-        vStackRoundingView.autoPinHeightToSuperview(withMargin: textViewVInset)
-        // Sticker button: looks like is a part of the text input view,
-        // but is reality it located a couple levels up in the view hierarchy.
         vStackRoundingView.addSubview(stickerButton)
         vStackRoundingView.addSubview(voiceMemoContentView)
         vStackRoundingView.addSubview(keyboardButton)
+        messageContentView.addSubview(vStackRoundingView)
         voiceMemoContentView.autoPinEdge(toSuperviewEdge: .trailing, withInset: 18)
         voiceMemoContentView.autoAlignAxis(.horizontal, toSameAxisOf: inputTextView)
         // Horizontal Stack: Attacjhhment button, message components, Camera|VoiceNote|Send button.
@@ -383,6 +379,8 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         })
         vStackRoundingView.snp.makeConstraints { make in
             make.leading.trailing.equalToSuperview()
+            make.top.equalToSuperview().offset(18)
+            make.bottom.equalToSuperview().offset(-18)
         }
         messageContentView.snp.makeConstraints { make in
             make.leading.equalToSuperview().offset(20)
@@ -405,7 +403,7 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         // by this much to mask that extra space.
         let backgroundExtension: CGFloat = 500
         let extendedBackgroundView = UIView()
-        extendedBackgroundView.backgroundColor = UIColor.white
+        extendedBackgroundView.backgroundColor = UIColor.clear
         mainPanelWrapperView.insertSubview(extendedBackgroundView, at: 0)
         extendedBackgroundView.autoPinWidthToSuperview()
         extendedBackgroundView.autoPinEdge(toSuperviewEdge: .top)
