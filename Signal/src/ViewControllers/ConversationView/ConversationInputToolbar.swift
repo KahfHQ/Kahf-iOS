@@ -877,7 +877,10 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         quotedMessagePreview.setCompressionResistanceHorizontalLow()
         quotedMessagePreview.accessibilityIdentifier = UIView.accessibilityIdentifier(in: self, name: "quotedMessagePreview")
         quotedReplyWrapper.addSubview(quotedMessagePreview)
-        quotedMessagePreview.autoPinEdgesToSuperviewEdges()
+        quotedMessagePreview.snp.makeConstraints { make in
+            make.top.leading.bottom.equalToSuperview()
+            make.trailing.equalToSuperview().offset(-50)
+        }
 
         updateInputLinkPreview()
 

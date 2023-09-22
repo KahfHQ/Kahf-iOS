@@ -5,6 +5,7 @@
 
 import SignalMessaging
 import SignalUI
+import SnapKit
 
 public protocol ConversationInputTextViewDelegate: AnyObject {
     func didPasteAttachment(_ attachment: SignalAttachment?)
@@ -105,11 +106,11 @@ class ConversationInputTextView: MentionTextView {
         let leftInset = textContainerInset.left
         let rightInset = textContainerInset.right
 
-        placeholderConstraints = [
-            placeholderView.autoMatch(.width, to: .width, of: self, withOffset: -(leftInset + rightInset)),
-            placeholderView.autoPinEdge(toSuperviewEdge: .left, withInset: leftInset),
-            placeholderView.autoPinEdge(toSuperviewEdge: .top, withInset: 12)
-        ]
+        placeholderView.snp.makeConstraints { make in
+            make.width.equalTo(self.snp.width).offset(-(leftInset + rightInset))
+            make.left.equalToSuperview().inset(leftInset)
+            make.centerY.equalToSuperview()
+        }
     }
 
     private func updatePlaceholderVisibility(isHidden: Bool? = nil) {
