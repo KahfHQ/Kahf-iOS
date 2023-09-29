@@ -932,7 +932,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
         return;
     }
 
-    OWSGetStartedBannerViewController *getStartedVC = [[OWSGetStartedBannerViewController alloc] initWithDelegate:self];
+    /*OWSGetStartedBannerViewController *getStartedVC = [[OWSGetStartedBannerViewController alloc] initWithDelegate:self];
     if (getStartedVC.hasIncompleteCards) {
         self.getStartedBanner = getStartedVC;
 
@@ -945,7 +945,7 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
         if (self.view.bounds.size.width > self.view.bounds.size.height) {
             getStartedVC.view.alpha = 0;
         }
-    }
+    }*/
 }
 
 - (void)getStartedBannerDidTapCreateGroup:(OWSGetStartedBannerViewController *)banner

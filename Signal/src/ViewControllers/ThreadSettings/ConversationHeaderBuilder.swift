@@ -32,22 +32,24 @@ struct ConversationHeaderBuilder: Dependencies {
         for thread: TSThread,
         sizeClass: ConversationAvatarView.Configuration.SizeClass,
         options: Options,
-        delegate: ConversationHeaderDelegate
+        delegate: ConversationHeaderDelegate,
+        isMahramEnabled: Bool
     ) -> UIView {
         if let groupThread = thread as? TSGroupThread {
             return ConversationHeaderBuilder.buildHeaderForGroup(
                 groupThread: groupThread,
                 sizeClass: sizeClass,
                 options: options,
-                delegate: delegate
+                delegate: delegate,
+                isMahramEnabled: isMahramEnabled
             )
         } else if let contactThread = thread as? TSContactThread {
             return ConversationHeaderBuilder.buildHeaderForContact(
                 contactThread: contactThread,
                 sizeClass: sizeClass,
                 options: options,
-                delegate: delegate
-            )
+                delegate: delegate,
+                isMahramEnabled: isMahramEnabled)
         } else {
             owsFailDebug("Invalid thread.")
             return UIView()
@@ -58,7 +60,8 @@ struct ConversationHeaderBuilder: Dependencies {
         groupThread: TSGroupThread,
         sizeClass: ConversationAvatarView.Configuration.SizeClass,
         options: Options,
-        delegate: ConversationHeaderDelegate
+        delegate: ConversationHeaderDelegate,
+        isMahramEnabled: Bool
     ) -> UIView {
         // Make sure the view is loaded before we open a transaction,
         // because it can end up creating a transaction within.
@@ -69,8 +72,8 @@ struct ConversationHeaderBuilder: Dependencies {
                 sizeClass: sizeClass,
                 options: options,
                 delegate: delegate,
-                transaction: transaction
-            )
+                transaction: transaction,
+                isMahramEnabled: isMahramEnabled)
         }
     }
 
@@ -79,7 +82,8 @@ struct ConversationHeaderBuilder: Dependencies {
         sizeClass: ConversationAvatarView.Configuration.SizeClass,
         options: Options,
         delegate: ConversationHeaderDelegate,
-        transaction: SDSAnyReadTransaction
+        transaction: SDSAnyReadTransaction,
+        isMahramEnabled: Bool
     ) -> UIView {
         var builder = ConversationHeaderBuilder(
             delegate: delegate,
@@ -169,7 +173,7 @@ struct ConversationHeaderBuilder: Dependencies {
             }
         }
         
-        builder.addButtons(isMahremGroup: isMahrem)
+        builder.addButtons(isMahremGroup: isMahrem, isMahramEnabled: isMahramEnabled)
 
         return builder.build()
     }
@@ -178,7 +182,8 @@ struct ConversationHeaderBuilder: Dependencies {
         contactThread: TSContactThread,
         sizeClass: ConversationAvatarView.Configuration.SizeClass,
         options: Options,
-        delegate: ConversationHeaderDelegate
+        delegate: ConversationHeaderDelegate,
+        isMahramEnabled: Bool
     ) -> UIView {
         // Make sure the view is loaded before we open a transaction,
         // because it can end up creating a transaction within.
@@ -189,7 +194,8 @@ struct ConversationHeaderBuilder: Dependencies {
                 sizeClass: sizeClass,
                 options: options,
                 delegate: delegate,
-                transaction: transaction
+                transaction: transaction,
+                isMahramEnabled: isMahramEnabled
             )
         }
     }
@@ -199,7 +205,8 @@ struct ConversationHeaderBuilder: Dependencies {
         sizeClass: ConversationAvatarView.Configuration.SizeClass,
         options: Options,
         delegate: ConversationHeaderDelegate,
-        transaction: SDSAnyReadTransaction
+        transaction: SDSAnyReadTransaction,
+        isMahramEnabled: Bool
     ) -> UIView {
         var builder = ConversationHeaderBuilder(
             delegate: delegate,
@@ -261,7 +268,7 @@ struct ConversationHeaderBuilder: Dependencies {
             builder.addSubtitleLabel(attributedText: subtitle)
         }
 
-        builder.addButtons(isVerified: isVerified)
+        builder.addButtons(isVerified: isVerified, isMahramEnabled: isMahramEnabled)
 
         return builder.build()
     }
@@ -291,7 +298,7 @@ struct ConversationHeaderBuilder: Dependencies {
         subviews.append(buildThreadNameLabel())
     }
 
-    mutating func addButtons(isVerified: Bool = false, isMahremGroup : Bool = false) {
+    mutating func addButtons(isVerified: Bool = false, isMahremGroup : Bool = false, isMahramEnabled: Bool) {
         var buttons = [UIView]()
 
         if options.contains(.message) {
@@ -313,89 +320,92 @@ struct ConversationHeaderBuilder: Dependencies {
             let hasCurrentCall = callService.currentCall != nil
             let components = delegate.threadViewModel.name.components(separatedBy: " ")
             let lastComponent = components.last ?? ""
-            let genderString = String(lastComponent)
+            var genderString = String(lastComponent)
+            if !["Female", "Male"].contains(genderString) {
+                genderString = "Male"
+            }
             
             if !delegate.thread.isGroupThread {
-                if profileManager.localFamilyName() == "Male" {
-                    if genderString == "Male" {
-                        buttons.append(buildIconButton(
-                            icon: .videoCall,
-                            text: NSLocalizedString(
-                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
-                                comment: "Button to start a video call"
-                            ),
-                            isEnabled: isCurrentCallForThread || !hasCurrentCall,
-                            action: { [weak delegate] in
-                                delegate?.startCall(withVideo: true)
-                            }
-                        ))
-                    } else if genderString == "Female" && isVerified {
-                        buttons.append(buildIconButton(
-                            icon: .videoCall,
-                            text: NSLocalizedString(
-                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
-                                comment: "Button to start a video call"
-                            ),
-                            isEnabled: isCurrentCallForThread || !hasCurrentCall,
-                            action: { [weak delegate] in
-                                delegate?.startCall(withVideo: true)
-                            }
-                        ))
+                if isMahramEnabled {
+                    if profileManager.localFamilyName() == "Male" {
+                        if genderString == "Male" {
+                            buttons.append(buildIconButton(
+                                icon: .videoCall,
+                                text: NSLocalizedString(
+                                    "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                    comment: "Button to start a video call"
+                                ),
+                                isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                                action: { [weak delegate] in
+                                    delegate?.startCall(withVideo: true)
+                                }
+                            ))
+                        } else if genderString == "Female" && isVerified {
+                            buttons.append(buildIconButton(
+                                icon: .videoCall,
+                                text: NSLocalizedString(
+                                    "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                    comment: "Button to start a video call"
+                                ),
+                                isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                                action: { [weak delegate] in
+                                    delegate?.startCall(withVideo: true)
+                                }
+                            ))
+                        } else {
+                            let videoCallButton = buildIconButton(
+                                icon: .videoCall,
+                                text: NSLocalizedString(
+                                    "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                    comment: "Button to start a video call"
+                                ),
+                                isEnabled: !hasCurrentCall,
+                                action: showDisabledAlert,
+                                alpha: 0.5
+                            )
+                            buttons.append(videoCallButton)
+                        }
                     } else {
-                        let videoCallButton = buildIconButton(
-                            icon: .videoCall,
-                            text: NSLocalizedString(
-                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
-                                comment: "Button to start a video call"
-                            ),
-                            isEnabled: !hasCurrentCall,
-                            action: showDisabledAlert,
-                            alpha: 0.5
-                        )
-                        buttons.append(videoCallButton)
-                    }
-                } else {
-                    if genderString == "Female" {
-                        buttons.append(buildIconButton(
-                            icon: .videoCall,
-                            text: NSLocalizedString(
-                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
-                                comment: "Button to start a video call"
-                            ),
-                            isEnabled: isCurrentCallForThread || !hasCurrentCall,
-                            action: { [weak delegate] in
-                                delegate?.startCall(withVideo: true)
-                            }
-                        ))
-                    } else if genderString == "Male" && isVerified {
-                        buttons.append(buildIconButton(
-                            icon: .videoCall,
-                            text: NSLocalizedString(
-                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
-                                comment: "Button to start a video call"
-                            ),
-                            isEnabled: isCurrentCallForThread || !hasCurrentCall,
-                            action: { [weak delegate] in
-                                delegate?.startCall(withVideo: true)
-                            }
-                        ))
-                    } else {
-                        let videoCallButton = buildIconButton(
-                            icon: .videoCall,
-                            text: NSLocalizedString(
-                                "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
-                                comment: "Button to start a video call"
-                            ),
-                            isEnabled: !hasCurrentCall,
-                            action: showDisabledAlert,
-                            alpha: 0.5
-                        )
-                        buttons.append(videoCallButton)
+                        if genderString == "Female" {
+                            buttons.append(buildIconButton(
+                                icon: .videoCall,
+                                text: NSLocalizedString(
+                                    "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                    comment: "Button to start a video call"
+                                ),
+                                isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                                action: { [weak delegate] in
+                                    delegate?.startCall(withVideo: true)
+                                }
+                            ))
+                        } else if genderString == "Male" && isVerified {
+                            buttons.append(buildIconButton(
+                                icon: .videoCall,
+                                text: NSLocalizedString(
+                                    "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                    comment: "Button to start a video call"
+                                ),
+                                isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                                action: { [weak delegate] in
+                                    delegate?.startCall(withVideo: true)
+                                }
+                            ))
+                        } else {
+                            let videoCallButton = buildIconButton(
+                                icon: .videoCall,
+                                text: NSLocalizedString(
+                                    "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                                    comment: "Button to start a video call"
+                                ),
+                                isEnabled: !hasCurrentCall,
+                                action: showDisabledAlert,
+                                alpha: 0.5
+                            )
+                            buttons.append(videoCallButton)
+                        }
                     }
                 }
-            }
-            else {
-                if isMahremGroup {
+                else {
                     buttons.append(buildIconButton(
                         icon: .videoCall,
                         text: NSLocalizedString(
@@ -408,7 +418,9 @@ struct ConversationHeaderBuilder: Dependencies {
                         }
                     ))
                 }
-                else {
+            }
+            else {
+                if !isMahremGroup && isMahramEnabled {
                     let videoCallButton = buildIconButton(
                         icon: .videoCall,
                         text: NSLocalizedString(
@@ -420,6 +432,19 @@ struct ConversationHeaderBuilder: Dependencies {
                         alpha: 0.5
                     )
                     buttons.append(videoCallButton)
+                }
+                else {
+                    buttons.append(buildIconButton(
+                        icon: .videoCall,
+                        text: NSLocalizedString(
+                            "CONVERSATION_SETTINGS_VIDEO_CALL_BUTTON",
+                            comment: "Button to start a video call"
+                        ),
+                        isEnabled: isCurrentCallForThread || !hasCurrentCall,
+                        action: { [weak delegate] in
+                            delegate?.startCall(withVideo: true)
+                        }
+                    ))
                 }
             }
             
@@ -758,7 +783,8 @@ extension ConversationSettingsViewController: ConversationHeaderDelegate {
             for: thread,
             sizeClass: .eightyEight,
             options: [.videoCall, .audioCall, .mute, .search, .renderLocalUserAsNoteToSelf],
-            delegate: self
+            delegate: self,
+            isMahramEnabled: preferences.getMahramEnabled()
         )
     }
 

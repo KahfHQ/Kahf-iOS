@@ -91,7 +91,7 @@ class MemberActionSheet: OWSTableSheetViewController {
             for: thread,
             sizeClass: .eighty,
             options: [.message, .videoCall, .audioCall],
-            delegate: self
+            delegate: self, isMahramEnabled: preferences.getMahramEnabled()
         )
 
         // If the local user, show no options.

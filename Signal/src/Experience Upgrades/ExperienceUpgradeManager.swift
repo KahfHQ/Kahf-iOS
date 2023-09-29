@@ -140,7 +140,7 @@ class ExperienceUpgradeManager: NSObject {
             // Remote megaphones are always presentable. We filter out any with
             // unpresentable fields (e.g., unrecognized actions) before we get
             // out of the `ExperienceUpgradeFinder`.
-            return true
+            return false // I convert it to false to dismiss signal donate
         case .unrecognized:
             return false
         }

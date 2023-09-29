@@ -169,7 +169,11 @@ extension ConversationViewController {
                             for adress in allMembersSorted {
                                 let components = contactsManager.displayName(for: adress, transaction: transaction).components(separatedBy: " ")
                                 let lastComponent = components.last ?? ""
-                                let genderString = String(lastComponent)
+                                var genderString = String(lastComponent)
+                                if !["Female", "Male"].contains(genderString) {
+                                    genderString = "Male"
+                                }
+
                                 if genderString == "Female" && verificationStateMap[adress] == .verified {
                                     isMahrem = true
                                 }
@@ -186,7 +190,10 @@ extension ConversationViewController {
                             for adress in allMembersSorted {
                                 let components = contactsManager.displayName(for: adress, transaction: transaction).components(separatedBy: " ")
                                 let lastComponent = components.last ?? ""
-                                let genderString = String(lastComponent)
+                                var genderString = String(lastComponent)
+                                if !["Female", "Male"].contains(genderString) {
+                                    genderString = "Male"
+                                }
                                 if genderString == "Male" && verificationStateMap[adress] == .verified {
                                     isMahrem = true
                                 }
@@ -203,12 +210,12 @@ extension ConversationViewController {
                         videoCallButton.isEnabled = (self.callService.currentCall == nil || self.isCurrentCallForThread)
                         videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL", comment: "Accessibility label for placing a video call")
                         self.groupCallBarButtonItem = videoCallButton
-                        if !isMahrem {
+
+                        if !isMahrem && preferences.getMahramEnabled() {
                             videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
                             videoCallButton.action = #selector(showDisabledAlert)
                         }
                         barButtons.append(videoCallButton)
-                        
                     }
                 } else {
                     let audioCallButton = UIBarButtonItem(
@@ -224,7 +231,6 @@ extension ConversationViewController {
                     
                     let components = threadViewModel.name.components(separatedBy: " ")
                     let lastComponent = components.last ?? ""
-                    let genderString = String(lastComponent)
                     
                     let videoCallButton = UIBarButtonItem(
                         image: Theme.iconImage(.videoCall),
@@ -235,31 +241,23 @@ extension ConversationViewController {
                     videoCallButton.accessibilityLabel = NSLocalizedString("VIDEO_CALL_LABEL",
                                                                            comment: "Accessibility label for placing a video call")
 
-                    if profileManager.localFamilyName() == "Male" {
-                        if genderString == "Male" {
-                            barButtons.append(videoCallButton)
-                        }
-                        else if genderString == "Female" && shouldShowVerifiedBadge(for: thread) {
-                            barButtons.append(videoCallButton)
-                        }
-                        else {
-                            videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
-                            videoCallButton.action = #selector(showDisabledAlert)
-                            barButtons.append(videoCallButton)
-                        }
+                    let isLocalFamilyNameMale = profileManager.localFamilyName() == "Male"
+                    var genderString = String(lastComponent)
+                    if !["Female", "Male"].contains(genderString) {
+                        genderString = "Male"
+                    }
+                    let isGenderStringMale = genderString == "Male"
+                    let isGenderStringFemale = genderString == "Female"
+
+                    if shouldShowVerifiedBadge(for: thread) || (isLocalFamilyNameMale && isGenderStringMale) || (!isLocalFamilyNameMale && isGenderStringFemale) {
+                        barButtons.append(videoCallButton)
                     }
                     else {
-                        if genderString == "Female" {
-                            barButtons.append(videoCallButton)
-                        }
-                        else if genderString == "Male" && shouldShowVerifiedBadge(for: thread) {
-                            barButtons.append(videoCallButton)
-                        }
-                        else {
+                        if preferences.getMahramEnabled() {
                             videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
                             videoCallButton.action = #selector(showDisabledAlert)
-                            barButtons.append(videoCallButton)
                         }
+                        barButtons.append(videoCallButton)
                     }
             }}
 
