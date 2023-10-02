@@ -169,8 +169,7 @@ extension FeatureFlags {
             // RELEASE can be inferred from the lack of configuration. This will only be hit if the outer #if is removed.
             nil
             #else
-            owsFailDebug("Invalid configuration")
-            return "*"
+	    nil
             #endif
         }()
 
