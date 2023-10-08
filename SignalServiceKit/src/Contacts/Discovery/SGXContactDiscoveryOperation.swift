@@ -154,10 +154,21 @@ class SGXContactDiscoveryOperation: ContactDiscoveryOperation {
     }
 
     class func uuidArray(from data: Data) -> [UUID] {
-        return data.withUnsafeBytes {
-            [uuid_t]($0.bindMemory(to: uuid_t.self))
-                .map { UUID(uuid: $0) }
+        // Get the count of UUIDs by dividing the total data length by the size of a UUID (16 bytes)
+        let uuidCount = data.count / MemoryLayout<uuid_t>.size
+        
+        // Create a pointer to the raw bytes of the data
+        let dataPointer = (data as NSData).bytes.bindMemory(to: uuid_t.self, capacity: uuidCount)
+        
+        // Initialize an array of UUIDs and populate it by iterating through the data
+        var uuidArray = [UUID]()
+        for i in 0..<uuidCount {
+            let uuidBytes = dataPointer[i]
+            let uuid = UUID(uuid: uuidBytes)
+            uuidArray.append(uuid)
         }
+        
+        return uuidArray
     }
 
     /// Parse the error and, if appropriate, construct an error appropriate to return upwards
