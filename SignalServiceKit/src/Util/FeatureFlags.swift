@@ -169,7 +169,7 @@ extension FeatureFlags {
             // RELEASE can be inferred from the lack of configuration. This will only be hit if the outer #if is removed.
             nil
             #else
-	    nil
+	    LocalizationNotNeeded("Development")
             #endif
         }()
 
