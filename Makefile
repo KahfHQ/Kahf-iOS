@@ -1,4 +1,4 @@
-APP_IDENTIFIER=org.whispersystems.signal
+APP_IDENTIFIER=com.halalz.kahf
 SCHEME=Signal
 
 dependencies:
