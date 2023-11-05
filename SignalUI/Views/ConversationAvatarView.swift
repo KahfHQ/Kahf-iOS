@@ -76,6 +76,7 @@ public class ConversationAvatarView: UIView, CVView, PrimaryImageView {
             case twentyFour
             case twentyEight
             case thirtySix
+            case thirtyFour
             case forty
             case fortyEight
             case fiftyTwo
@@ -97,6 +98,8 @@ public class ConversationAvatarView: UIView, CVView, PrimaryImageView {
                     self = .twentyEight
                 case Self.thirtySix.diameter:
                     self = .thirtySix
+                case Self.thirtyFour.diameter:
+                    self = .thirtyFour
                 case Self.forty.diameter:
                     self = .forty
                 case Self.fortyEight.diameter:
@@ -981,6 +984,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return 24
         case .twentyEight: return 28
+        case .thirtyFour: return 34
         case .thirtySix: return 36
         case .forty: return 40
         case .fortyEight: return 48
@@ -1015,6 +1019,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return CGPoint(x: 10, y: 12)
         case .twentyEight: return CGPoint(x: 14, y: 16)
+        case .thirtyFour: return CGPoint(x: 20, y: 23)
         case .thirtySix: return CGPoint(x: 20, y: 23)
         case .forty: return CGPoint(x: 20, y: 22)
         case .fortyEight: return CGPoint(x: 28, y: 30)
@@ -1052,6 +1057,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return 4
         case .twentyEight: return 4
+        case .thirtyFour: return 4
         case .thirtySix: return 4
         case .forty: return 4
         case .fortyEight: return 5
@@ -1069,6 +1075,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return 2
         case .twentyEight: return 2
+        case .thirtyFour: return 2
         case .thirtySix: return 2
         case .forty: return 2
         case .fortyEight: return 2

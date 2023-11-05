@@ -51,56 +51,68 @@ public class ConversationHeaderView: UIView {
     public let titleSecondaryFont: UIFont =  UIFont.ows_regularFont(withSize: 9)
     public let subtitleFont: UIFont = UIFont.ows_regularFont(withSize: 12)
 
-    private let titleLabel: UILabel
-    private let titleIconView: UIImageView
-    private let subtitleLabel: UILabel
+    private let titleLabel: UILabel = {
+        let view = UILabel()
+        view.textColor = Theme.navbarTitleColor
+        view.lineBreakMode = .byTruncatingTail
+        view.font = UIFont.Typography.bold16
+        view.setContentHuggingHigh()
+        return view
+    }()
+    
+    private let titleIconView: UIImageView = {
+        let view = UIImageView()
+        view.contentMode = .scaleAspectFit
+        view.setCompressionResistanceHigh()
+        return view
+    }()
+    
+    private let subtitleLabel: UILabel = {
+       let view = UILabel()
+       view.textColor = Theme.navbarTitleColor
+       view.lineBreakMode = .byTruncatingTail
+       view.font = UIFont.ows_regularFont(withSize: 12)
+       view.setContentHuggingHigh()
+       return view
+    }()
+    
+    private let titleColumns: UIStackView = {
+       let view = UIStackView()
+       view.spacing = 5
+       // There is a strange bug where an initial height of 0
+       // breaks the layout, so set an initial height.
+        view.autoSetDimension(
+            .height,
+            toSize: UIFont.Typography.bold16.lineHeight,
+            relation: .greaterThanOrEqual
+       )
+       return view
+    }()
+    
+    private let textRows: UIStackView = {
+       let view = UIStackView()
+       view.axis = .vertical
+       view.alignment = .leading
+       view.distribution = .fillProportionally
+       view.spacing = 0
+       view.layoutMargins = UIEdgeInsets(top: 0, leading: 11, bottom: 0, trailing: 0)
+       view.isLayoutMarginsRelativeArrangement = true
+       // low content hugging so that the text rows push container to the right bar button item(s)
+       view.setContentHuggingLow()
+       return view
+    }()
 
     private var avatarSizeClass: ConversationAvatarView.Configuration.SizeClass {
-        traitCollection.verticalSizeClass == .compact ? .twentyFour : .thirtySix
+        traitCollection.verticalSizeClass == .compact ? .twentyFour : .thirtyFour
     }
+    
     private(set) lazy var avatarView = ConversationAvatarView(
         sizeClass: avatarSizeClass,
         localUserDisplayMode: .noteToSelf)
 
     public required init() {
-        titleLabel = UILabel()
-        titleLabel.textColor = Theme.navbarTitleColor
-        titleLabel.lineBreakMode = .byTruncatingTail
-        titleLabel.font = titlePrimaryFont
-        titleLabel.setContentHuggingHigh()
-
-        titleIconView = UIImageView()
-        titleIconView.contentMode = .scaleAspectFit
-        titleIconView.setCompressionResistanceHigh()
-
-        let titleColumns = UIStackView(arrangedSubviews: [titleLabel, titleIconView])
-        titleColumns.spacing = 5
-        // There is a strange bug where an initial height of 0
-        // breaks the layout, so set an initial height.
-        titleColumns.autoSetDimension(
-            .height,
-            toSize: titleLabel.font.lineHeight,
-            relation: .greaterThanOrEqual
-        )
-
-        subtitleLabel = UILabel()
-        subtitleLabel.textColor = Theme.navbarTitleColor
-        subtitleLabel.lineBreakMode = .byTruncatingTail
-        subtitleLabel.font = subtitleFont
-        subtitleLabel.setContentHuggingHigh()
-
-        let textRows = UIStackView(arrangedSubviews: [titleColumns, subtitleLabel])
-        textRows.axis = .vertical
-        textRows.alignment = .leading
-        textRows.distribution = .fillProportionally
-        textRows.spacing = 0
-
-        textRows.layoutMargins = UIEdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 0)
-        textRows.isLayoutMarginsRelativeArrangement = true
-
-        // low content hugging so that the text rows push container to the right bar button item(s)
-        textRows.setContentHuggingLow()
-
+        titleColumns.addArrangedSubviews([titleLabel, titleIconView])
+        textRows.addArrangedSubviews([titleColumns, subtitleLabel])
         super.init(frame: .zero)
 
         let rootStack = UIStackView()
@@ -114,7 +126,11 @@ public class ConversationHeaderView: UIView {
         rootStack.addArrangedSubview(textRows)
 
         addSubview(rootStack)
-        rootStack.autoPinEdgesToSuperviewEdges()
+        rootStack.snp.makeConstraints { make in
+            make.leading.equalToSuperview().offset(38)
+            make.top.bottom.equalToSuperview()
+            make.trailing.equalToSuperview()
+        }
 
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapView))
         rootStack.addGestureRecognizer(tapGesture)

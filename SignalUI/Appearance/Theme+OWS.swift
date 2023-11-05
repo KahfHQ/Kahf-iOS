@@ -164,6 +164,12 @@ public enum ThemeIcon: UInt {
 
     case hide20
     case hide24
+    
+    case kahfHomeIcon
+    case kahfBackIcon
+    case kahfVideoIcon
+    case kahfCallIcon
+    case kahfTreeDotIcon
 }
 
 // MARK: - Colors
@@ -506,6 +512,17 @@ public extension Theme {
             return isDarkThemeEnabled ? "hide-solid-20" : "hide-outline-20"
         case .hide24:
             return isDarkThemeEnabled ? "hide-solid-24" : "hide-outline-24"
+            
+        case .kahfHomeIcon:
+            return "kahf_home_icon"
+        case .kahfBackIcon:
+            return "kahf_back_icon"
+        case .kahfVideoIcon:
+            return "kahf_video_icon"
+        case .kahfCallIcon:
+            return "kahf_call_icon"
+        case .kahfTreeDotIcon:
+            return "kahf_three_dot_icon"
         }
     }
 }

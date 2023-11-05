@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "kahf_three_dot_icon 1.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

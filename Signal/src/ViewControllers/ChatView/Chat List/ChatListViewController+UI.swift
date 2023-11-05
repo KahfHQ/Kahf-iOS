@@ -53,7 +53,7 @@ public extension ChatListViewController {
         let imageView = UIImageView(frame: customLeftView.bounds)
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
-        imageView.image = UIImage(named: "kahfhomelogo")
+        imageView.image = Theme.iconImage(.kahfHomeIcon, renderingMode: .alwaysOriginal)
         customLeftView.addSubview(imageView)
         imageView.snp.makeConstraints { make in
             make.top.equalTo(customLeftView.snp.top)

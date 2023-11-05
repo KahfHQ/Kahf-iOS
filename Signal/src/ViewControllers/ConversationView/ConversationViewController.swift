@@ -287,7 +287,7 @@ public class ConversationViewController: OWSViewController {
         // We should have already requested contact access at this point, so this should be a no-op
         // unless it ever becomes possible to load this VC without going via the ChatListViewController.
         self.contactsManagerImpl.requestSystemContactsOnce()
-
+        self.setCustomizedBackButton()
         self.updateBarButtonItems()
         self.updateNavigationTitle()
 
@@ -423,6 +423,8 @@ public class ConversationViewController: OWSViewController {
 
         self.dismissReactionsDetailSheet(animated: false)
         self.saveLastVisibleSortIdAndOnScreenPercentage(async: true)
+        self.customLeftView?.removeFromSuperview()
+        self.customLeftView = nil
     }
 
     public override func viewDidDisappear(_ animated: Bool) {
