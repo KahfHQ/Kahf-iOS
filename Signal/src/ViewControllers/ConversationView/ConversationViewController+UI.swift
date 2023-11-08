@@ -103,12 +103,14 @@ extension ConversationViewController {
                 navigationItem.hidesBackButton = true
             }
             customLeftView?.isHidden = true
+            customShadowView?.isHidden = true
             return
         case .selection:
             navigationItem.rightBarButtonItems = [ self.cancelSelectionBarButtonItem ]
             navigationItem.leftBarButtonItem = self.deleteAllBarButtonItem
             navigationItem.hidesBackButton = true
             customLeftView?.isHidden = true
+            customShadowView?.isHidden = true
             return
         case .normal:
             if self.userLeftGroup {
@@ -252,6 +254,7 @@ extension ConversationViewController {
             navigationItem.rightBarButtonItems = barButtons
             showGroupCallTooltipIfNecessary()
             customLeftView?.isHidden = false
+            customShadowView?.isHidden = false
             return
         }
     }
@@ -418,7 +421,7 @@ extension ConversationViewController {
         }
     }
     
-    func setCustomizedBackButton(){
+    func setCustomizedBackButton() {
         if customLeftView == nil {
             let customView = UIView(frame: CGRect(x: 0, y: 13, width: 46, height: 18))
             customView.backgroundColor = UIColor.clear
@@ -434,6 +437,42 @@ extension ConversationViewController {
             }
             customLeftView = customView
             navigationController?.navigationBar.addSubview(customView)
+        }
+    }
+    
+    func customizeNavigationBarShadow() {
+        if customShadowView == nil {
+            let shadowView = UIView()
+            shadowView.backgroundColor = .clear
+            shadowView.isUserInteractionEnabled = false
+            navigationController?.navigationBar.addSubview(shadowView)
+            navigationController?.navigationBar.backgroundColor = .white
+            //TODO: Talk with designer and android dev about shadow color and opacity
+            let shadowBottomView = UIView()
+            //shadowView.setShadow(radius: 10.0, opacity: 1, offset: CGSize(width: 0, height: 10), color: UIColor(red: 0, green: 0, blue: 0, alpha: 0.5))
+            
+            shadowView.addSubview(shadowBottomView)
+            
+            shadowView.snp.makeConstraints { make in
+                make.leading.trailing.equalToSuperview()
+                make.top.equalToSuperview()
+                make.bottom.equalToSuperview().offset(15)
+            }
+            shadowBottomView.snp.makeConstraints { make in
+                make.leading.trailing.equalToSuperview()
+                make.bottom.equalToSuperview()
+                make.height.equalTo(15)
+            }
+            
+            shadowBottomView.layoutIfNeeded()
+            shadowBottomView.backgroundColor = UIColor.white
+            shadowBottomView.layer.cornerRadius = 10.0
+            shadowBottomView.layer.masksToBounds = false
+            shadowBottomView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+            shadowBottomView.layer.shadowPath = UIBezierPath(rect: CGRect(x: 0, y: 15, width: shadowBottomView.frame.width, height: 4)).cgPath
+            shadowBottomView.layer.shadowRadius = 5
+            shadowBottomView.layer.shadowOpacity = 0.4
+            customShadowView = shadowView
         }
     }
     

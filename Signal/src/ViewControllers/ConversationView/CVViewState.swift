@@ -27,6 +27,7 @@ public class CVViewState: NSObject {
     public let inputAccessoryPlaceholder = InputAccessoryViewPlaceholder()
     public var bottomBar = UIView.container()
     public var customLeftView: UIView?
+    public var customShadowView: UIView?
     public var bottomBarBottomConstraint: NSLayoutConstraint?
     public var requestView: UIView?
     public var bannerView: UIView?
@@ -317,6 +318,10 @@ public extension ConversationViewController {
     var customLeftView: UIView? {
         get { viewState.customLeftView }
         set { viewState.customLeftView = newValue }
+    }
+    var customShadowView: UIView? {
+        get { viewState.customShadowView }
+        set { viewState.customShadowView = newValue }
     }
     // MARK: -
 
