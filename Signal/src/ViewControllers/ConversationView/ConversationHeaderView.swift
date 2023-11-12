@@ -55,7 +55,7 @@ public class ConversationHeaderView: UIView {
         let view = UILabel()
         view.textColor = Theme.navbarTitleColor
         view.lineBreakMode = .byTruncatingTail
-        view.font = UIFont.Typography.bold16
+        view.font = UIFont.interBold16
         view.setContentHuggingHigh()
         return view
     }()
@@ -83,7 +83,7 @@ public class ConversationHeaderView: UIView {
        // breaks the layout, so set an initial height.
         view.autoSetDimension(
             .height,
-            toSize: UIFont.Typography.bold16.lineHeight,
+            toSize: UIFont.interBold16.lineHeight,
             relation: .greaterThanOrEqual
        )
        return view

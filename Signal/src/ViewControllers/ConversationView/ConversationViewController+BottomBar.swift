@@ -137,11 +137,8 @@ public extension ConversationViewController {
         if let newBottomView = bottomView {
             bottomBar.addSubview(newBottomView)
 
-            // The request views expect to extend into the safe area.
-            if requestView != nil {
-                newBottomView.autoPinEdgesToSuperviewEdges()
-            } else {
-                newBottomView.autoPinEdgesToSuperviewMargins()
+            newBottomView.snp.makeConstraints { make in
+                make.edges.equalToSuperview()
             }
         }
         updateBottomBarShadow()

@@ -72,7 +72,7 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         quotedReply: OWSQuotedReplyModel?,
         inputToolbarDelegate: ConversationInputToolbarDelegate,
         inputTextViewDelegate: ConversationInputTextViewDelegate,
-        mentionDelegate: MentionTextViewDelegate
+        mentionDelegate: MentionTextViewDelegate, quotedView: UIView
     ) {
         self.conversationStyle = conversationStyle
         self.mediaCache = mediaCache
@@ -90,7 +90,8 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
             messageDraft,
             quotedReply: quotedReply,
             inputTextViewDelegate: inputTextViewDelegate,
-            mentionDelegate: mentionDelegate
+            mentionDelegate: mentionDelegate,
+            quotedView: quotedView
         )
 
         NotificationCenter.default.addObserver(
@@ -293,12 +294,13 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
     private(set) var isAnimatingHeightChange = false
 
     private var layoutConstraints: [NSLayoutConstraint]?
-
+    private var quotedView: UIView?
     private func createContentsWithMessageDraft(
         _ messageDraft: MessageBody?,
         quotedReply: OWSQuotedReplyModel?,
         inputTextViewDelegate: ConversationInputTextViewDelegate,
-        mentionDelegate: MentionTextViewDelegate
+        mentionDelegate: MentionTextViewDelegate,
+        quotedView: UIView
     ) {
         // The input toolbar should *always* be laid out left-to-right, even when using
         // a right-to-left language. The convention for messaging apps is for the send
@@ -306,7 +308,7 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         // This means, in most places you'll want to pin deliberately to left/right
         // instead of leading/trailing. You'll also want to the semanticContentAttribute
         // to ensure horizontal stack views layout left-to-right.
-
+        self.quotedView = quotedView
         layoutMargins = .zero
         autoresizingMask = .flexibleHeight
         isUserInteractionEnabled = true
@@ -320,12 +322,17 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         if DebugFlags.internalLogging {
             OWSLogger.info("")
         }
-
+        quotedView.isHidden = quotedReply == nil
         quotedReplyWrapper.isHidden = quotedReply == nil
         self.quotedReply = quotedReply
-
-        // Vertical stack of message component views in the center: Link Preview, Reply Quote, Text Input View.
-        let messageContentVStack = UIStackView(arrangedSubviews: [ quotedReplyWrapper, linkPreviewWrapper, inputTextView ])
+        quotedView.addSubview(quotedReplyWrapper)
+        quotedReplyWrapper.snp.makeConstraints { make in
+            make.top.leading.trailing.equalToSuperview()
+            make.height.equalTo(85)
+        }
+        
+        // Vertical stack of message component views in the center: Link Preview, Text Input View.
+        let messageContentVStack = UIStackView(arrangedSubviews: [ linkPreviewWrapper, inputTextView ])
         messageContentVStack.axis = .vertical
         messageContentVStack.alignment = .fill
         messageContentVStack.setContentHuggingHorizontalLow()
@@ -378,9 +385,7 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
             }
         })
         vStackRoundingView.snp.makeConstraints { make in
-            make.leading.trailing.equalToSuperview()
-            make.top.equalToSuperview().offset(18)
-            make.bottom.equalToSuperview().offset(-18)
+            make.edges.equalToSuperview()
         }
         messageContentView.snp.makeConstraints { make in
             make.leading.equalToSuperview().offset(20)
@@ -394,8 +399,10 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         let outerVStack = UIStackView(arrangedSubviews: [ suggestedStickerWrapper, mainPanelWrapperView ] )
         outerVStack.axis = .vertical
         addSubview(outerVStack)
-        outerVStack.autoPinEdgesToSuperviewEdges(with: .zero, excludingEdge: .bottom)
-        outerVStack.autoPinEdge(toSuperviewSafeArea: .bottom)
+        outerVStack.snp.makeConstraints { make in
+            make.top.bottom.equalToSuperview().inset(18)
+            make.leading.trailing.equalToSuperview()
+        }
 
         // When presenting or dismissing the keyboard, there may be a slight
         // gap between the keyboard and the bottom of the input bar during
@@ -876,10 +883,10 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         quotedMessagePreview.setContentHuggingHorizontalLow()
         quotedMessagePreview.setCompressionResistanceHorizontalLow()
         quotedMessagePreview.accessibilityIdentifier = UIView.accessibilityIdentifier(in: self, name: "quotedMessagePreview")
+        self.quotedReplyWrapper.removeAllSubviews()
         quotedReplyWrapper.addSubview(quotedMessagePreview)
         quotedMessagePreview.snp.makeConstraints { make in
-            make.top.leading.bottom.equalToSuperview()
-            make.trailing.equalToSuperview().offset(-50)
+            make.edges.equalToSuperview()
         }
 
         updateInputLinkPreview()
@@ -890,14 +897,14 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
             UIView.animate(
                 withDuration: ConversationInputToolbar.heightChangeAnimationDuration,
                 animations: {
-                    self.quotedReplyWrapper.isHidden = false
+                    self.showQuoteView()
                 },
                 completion: { _ in
                     self.isAnimatingHeightChange = false
                 }
             )
         } else {
-            quotedReplyWrapper.isHidden = false
+            showQuoteView()
         }
     }
 
@@ -910,7 +917,7 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
             UIView.animate(
                 withDuration: ConversationInputToolbar.heightChangeAnimationDuration,
                 animations: {
-                    self.quotedReplyWrapper.isHidden = true
+                    self.hideQuoteView()
                 },
                 completion: { _ in
                     self.isAnimatingHeightChange = false
@@ -918,7 +925,7 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
                 }
             )
         } else {
-            quotedReplyWrapper.isHidden = true
+            hideQuoteView()
             quotedReplyWrapper.removeAllSubviews()
         }
     }
@@ -1851,6 +1858,16 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
             isMeasuringKeyboardHeight = false
             hasMeasuredKeyboardHeight = true
         }
+    }
+    
+    private func showQuoteView() {
+        quotedReplyWrapper.isHidden = false
+        self.quotedView?.isHidden = false
+    }
+    
+    private func hideQuoteView() {
+        quotedReplyWrapper.isHidden = true
+        self.quotedView?.isHidden = true
     }
 }
 

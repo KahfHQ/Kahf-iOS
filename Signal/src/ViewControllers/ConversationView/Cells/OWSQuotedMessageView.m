@@ -117,7 +117,7 @@ const CGFloat kRemotelySourcedContentRowSpacing = 3;
 
 - (CGFloat)hSpacing
 {
-    return 8.f;
+    return 0.f;
 }
 
 - (CGFloat)vSpacing
@@ -156,15 +156,8 @@ const CGFloat kRemotelySourcedContentRowSpacing = 3;
         }];
     innerBubbleView.layer.mask = maskLayer;
 
-    // Background
-    CVColorOrGradientView *chatColorView = [CVColorOrGradientView buildWithConversationStyle:self.conversationStyle
-                                                                               referenceView:self];
-    chatColorView.shouldDeactivateConstraints = NO;
-    [innerBubbleView addSubview:chatColorView];
-    [chatColorView autoPinEdgesToSuperviewEdges];
     UIView *tintView = [UIView new];
-    tintView.backgroundColor = (self.conversationStyle.isDarkThemeEnabled ? [UIColor colorWithWhite:0 alpha:0.4]
-                                                                          : [UIColor colorWithWhite:1 alpha:0.6]);
+    tintView.backgroundColor = UIColor.ows_bluish;
     [innerBubbleView addSubview:tintView];
     [tintView autoPinEdgesToSuperviewEdges];
 
@@ -180,16 +173,9 @@ const CGFloat kRemotelySourcedContentRowSpacing = 3;
     hStackView.axis = UILayoutConstraintAxisHorizontal;
     hStackView.spacing = self.hSpacing;
 
-    UIView *stripeView = [UIView new];
-    stripeView.backgroundColor = UIColor.ows_whiteColor;
-    [stripeView autoSetDimension:ALDimensionWidth toSize:self.stripeThickness];
-    [stripeView setContentHuggingHigh];
-    [stripeView setCompressionResistanceHigh];
-    [hStackView addArrangedSubview:stripeView];
-
     UIStackView *vStackView = [UIStackView new];
     vStackView.axis = UILayoutConstraintAxisVertical;
-    vStackView.layoutMargins = UIEdgeInsetsMake(self.textVMargin, 0, self.textVMargin, 0);
+    vStackView.layoutMargins = UIEdgeInsetsMake(21, 29, 19, 0);
     vStackView.layoutMarginsRelativeArrangement = YES;
     vStackView.spacing = self.vSpacing;
     [vStackView setContentHuggingHorizontalLow];
@@ -297,7 +283,7 @@ const CGFloat kRemotelySourcedContentRowSpacing = 3;
 
     UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [cancelButton
-        setImage:[[UIImage imageNamed:@"compose-cancel"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]
+        setImage:[[UIImage imageNamed:@"kahf_cancel_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
         forState:UIControlStateNormal];
     cancelButton.imageView.tintColor = Theme.secondaryTextAndIconColor;
     [cancelButton addTarget:self action:@selector(didTapCancel) forControlEvents:UIControlEventTouchUpInside];
@@ -308,11 +294,11 @@ const CGFloat kRemotelySourcedContentRowSpacing = 3;
     cancelStack.axis = UILayoutConstraintAxisHorizontal;
     cancelStack.alignment = UIStackViewAlignmentTop;
     cancelStack.layoutMarginsRelativeArrangement = YES;
-    CGFloat hMarginLeading = 0;
-    CGFloat hMarginTrailing = 6;
-    cancelStack.layoutMargins = UIEdgeInsetsMake(6,
+    CGFloat hMarginLeading = 10;
+    CGFloat hMarginTrailing = 25;
+    cancelStack.layoutMargins = UIEdgeInsetsMake(35,
         CurrentAppContext().isRTL ? hMarginTrailing : hMarginLeading,
-        0,
+        25,
         CurrentAppContext().isRTL ? hMarginLeading : hMarginTrailing);
     [cancelStack setContentHuggingHorizontalHigh];
     [cancelStack setCompressionResistanceHorizontalHigh];
@@ -616,7 +602,7 @@ const CGFloat kRemotelySourcedContentRowSpacing = 3;
 
 - (UIFont *)quotedAuthorFont
 {
-    return UIFont.ows_dynamicTypeSubheadlineFont.ows_semibold;
+    return UIFont.interSemiBold16;
 }
 
 - (UIColor *)quotedAuthorColor
@@ -631,7 +617,7 @@ const CGFloat kRemotelySourcedContentRowSpacing = 3;
 
 - (UIFont *)quotedTextFont
 {
-    return [UIFont ows_dynamicTypeBodyFont];
+    return UIFont.interRegular16;
 }
 
 - (UIColor *)fileTypeTextColor

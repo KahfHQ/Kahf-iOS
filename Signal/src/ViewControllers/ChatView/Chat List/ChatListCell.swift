@@ -129,15 +129,15 @@ public class ChatListCell: UITableViewCell {
     }
 
     private static var dateTimeFont: UIFont {
-        UIFont.Typography.regular12
+        UIFont.interRegular12
     }
 
     private static var snippetFont: UIFont {
-        UIFont.Typography.regular12
+        UIFont.interRegular12
     }
 
     private static var nameFont: UIFont {
-        UIFont.Typography.bold14
+        UIFont.interBold14
     }
 
     // Used for profile names.

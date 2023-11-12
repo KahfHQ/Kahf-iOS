@@ -101,7 +101,7 @@ class HomeTabBarController: UITabBarController {
         if let items = tabBar.items {
             for item in items {
                 item.setTitleTextAttributes([.foregroundColor: UIColor.clear], for: .normal)
-                item.setTitleTextAttributes([.foregroundColor: selectedItemColor,.font: UIFont.Typography.medium11], for: .selected)
+                item.setTitleTextAttributes([.foregroundColor: selectedItemColor,.font: UIFont.interMedium11], for: .selected)
             }
         }
     }

@@ -187,12 +187,19 @@ public class ConversationViewController: OWSViewController {
         backgroundContainer.delegate = self
         self.view.addSubview(backgroundContainer)
         backgroundContainer.autoPinEdgesToSuperviewEdges()
-        setupWallpaper()
-
+        setupWallpaper() 
+        self.view.addSubview(quoteView)
         self.view.addSubview(bottomBar)
         self.bottomBarBottomConstraint = bottomBar.autoPinEdge(toSuperviewEdge: .bottom)
-        bottomBar.autoPinWidthToSuperview()
-
+        bottomBar.snp.makeConstraints { make in
+            make.height.equalTo(84)
+            make.leading.trailing.equalToSuperview()
+        }
+        quoteView.snp.makeConstraints { make in
+            make.height.equalTo(169)
+            make.leading.trailing.equalToSuperview()
+            make.bottom.equalToSuperview()
+        }
         self.selectionToolbar = self.buildSelectionToolbar()
 
         // This should kick off the first load.

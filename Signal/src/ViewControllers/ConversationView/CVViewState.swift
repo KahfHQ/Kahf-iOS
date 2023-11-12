@@ -26,6 +26,12 @@ public class CVViewState: NSObject {
 
     public let inputAccessoryPlaceholder = InputAccessoryViewPlaceholder()
     public var bottomBar = UIView.container()
+    public lazy var quoteView : UIView = {
+        let view = UIView()
+        view.backgroundColor = UIColor.ows_bluish
+        view.layer.cornerRadius = 24
+        return view
+    }()
     public var customLeftView: UIView?
     public var customShadowView: UIView?
     public var bottomBarBottomConstraint: NSLayoutConstraint?
@@ -196,6 +202,10 @@ public extension ConversationViewController {
 
     var bottomBar: UIView {
         viewState.bottomBar
+    }
+    
+    var quoteView: UIView {
+        viewState.quoteView
     }
 
     var bottomBarBottomConstraint: NSLayoutConstraint? {

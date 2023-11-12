@@ -375,7 +375,7 @@ extension ConversationViewController {
                                                     quotedReply: quotedReply,
                                                     inputToolbarDelegate: self,
                                                     inputTextViewDelegate: self,
-                                                    mentionDelegate: self)
+                                                    mentionDelegate: self, quotedView: quoteView)
         inputToolbar.accessibilityIdentifier = "inputToolbar"
         if let voiceMemoDraft = voiceMemoDraft {
             inputToolbar.showVoiceMemoDraft(voiceMemoDraft)

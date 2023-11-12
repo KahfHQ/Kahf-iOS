@@ -306,6 +306,13 @@ public extension UIColor {
     class var ows_reminderYellow: UIColor {
         return UIColor(rgbHex: 0xFCF0D9)
     }
+    
+    // MARK: - Kahf Color Palette
+    
+    @objc(ows_bluish)
+    class var ows_bluish: UIColor {
+        return UIColor(rgbHex: 0xE6EAF2)
+    }
 
     // MARK: -
 
