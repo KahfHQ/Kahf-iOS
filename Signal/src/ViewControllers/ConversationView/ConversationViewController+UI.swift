@@ -447,10 +447,12 @@ extension ConversationViewController {
             shadowView.isUserInteractionEnabled = false
             navigationController?.navigationBar.addSubview(shadowView)
             navigationController?.navigationBar.backgroundColor = .white
+        
+            let appearance = UINavigationBarAppearance()
+            appearance.backgroundColor = .white
+            navigationController?.navigationBar.standardAppearance = appearance
             //TODO: Talk with designer and android dev about shadow color and opacity
             let shadowBottomView = UIView()
-            //shadowView.setShadow(radius: 10.0, opacity: 1, offset: CGSize(width: 0, height: 10), color: UIColor(red: 0, green: 0, blue: 0, alpha: 0.5))
-            
             shadowView.addSubview(shadowBottomView)
             
             shadowView.snp.makeConstraints { make in
