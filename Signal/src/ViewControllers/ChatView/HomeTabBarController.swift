@@ -98,12 +98,14 @@ class HomeTabBarController: UITabBarController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        if let items = tabBar.items {
-            for item in items {
-                item.setTitleTextAttributes([.foregroundColor: UIColor.clear], for: .normal)
-                item.setTitleTextAttributes([.foregroundColor: selectedItemColor,.font: UIFont.interMedium11], for: .selected)
-            }
-        }
+        let appearance = UITabBarAppearance()
+        appearance.shadowImage = UIImage()
+        appearance.shadowColor = .white
+        appearance.stackedLayoutAppearance.normal.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.clear]
+        appearance.stackedLayoutAppearance.selected.titleTextAttributes = [NSAttributedString.Key.foregroundColor: selectedItemColor, .font: UIFont.interMedium11]
+        appearance.stackedLayoutAppearance.selected.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -15)
+        appearance.stackedLayoutAppearance.normal.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -15)
+        self.tabBar.standardAppearance = appearance
     }
 
     @objc
