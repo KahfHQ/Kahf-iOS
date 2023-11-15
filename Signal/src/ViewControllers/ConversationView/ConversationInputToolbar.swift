@@ -695,28 +695,14 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
 
     private class AttachmentButton: UIButton {
 
-        private let roundedCornersBackground: UIView = {
-            let view = UIView()
-            view.backgroundColor = .init(rgbHex: 0x3B3B3B)
-            view.clipsToBounds = true
-            view.layer.cornerRadius = 8
-            view.isUserInteractionEnabled = false
-            return view
-        }()
-
-        private let iconImageView = UIImageView(image: UIImage(named: "attachment-plus"))
+        private let iconImageView = UIImageView(image: Theme.iconImage(.kahfAttachmentPlus, renderingMode: .alwaysOriginal))
 
         private override init(frame: CGRect) {
             super.init(frame: frame)
-
-            addSubview(roundedCornersBackground)
-            roundedCornersBackground.autoCenterInSuperview()
-            roundedCornersBackground.autoSetDimensions(to: CGSize(square: 28))
             updateImageColorAndBackground()
 
             addSubview(iconImageView)
             iconImageView.autoCenterInSuperview()
-            updateImageTransform()
         }
 
         required init?(coder: NSCoder) {
@@ -729,14 +715,11 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
                 // We don't want changes performed by this method to interfere with animations.
                 guard !isAnimatingAppearance else { return }
 
-                // Mimic behavior of a standard system button.
-                let opacity: CGFloat = isHighlighted ? (Theme.isDarkThemeEnabled ? 0.4 : 0.2) : 1
                 switch appearance {
                 case .add:
-                    iconImageView.alpha = opacity
-
+                    iconImageView.image = Theme.iconImage(.kahfAttachmentPlus, renderingMode: .alwaysOriginal)
                 case .close:
-                    roundedCornersBackground.alpha = opacity
+                    iconImageView.image = Theme.iconImage(.kahfCancelIcon, renderingMode: .alwaysOriginal)
                 }
             }
         }
@@ -761,7 +744,6 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
 
             guard let animator else {
                 updateImageColorAndBackground()
-                updateImageTransform()
                 return
             }
 
@@ -771,9 +753,6 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
                 },
                 delayFactor: appearance == .add ? 0 : 0.2
             )
-            animator.addAnimations {
-                self.updateImageTransform()
-            }
             animator.addCompletion { _ in
                 self.isAnimatingAppearance = false
             }
@@ -781,27 +760,8 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
 
         private func updateImageColorAndBackground() {
             switch appearance {
-            case .add:
-                iconImageView.alpha = 1
-                iconImageView.tintColor = Theme.primaryIconColor
-                roundedCornersBackground.alpha = 0
-                roundedCornersBackground.transform = .scale(0.05)
-
-            case .close:
-                iconImageView.alpha = 1
-                iconImageView.tintColor = .white
-                roundedCornersBackground.alpha = 0
-                roundedCornersBackground.transform = .identity
-            }
-        }
-
-        private func updateImageTransform() {
-            switch appearance {
-            case .add:
-                iconImageView.transform = .identity
-
-            case .close:
-                iconImageView.transform = .rotate(1.5 * .halfPi)
+                case .add: iconImageView.image = Theme.iconImage(.kahfAttachmentPlus, renderingMode: .alwaysOriginal)
+                case .close: iconImageView.image = Theme.iconImage(.kahfCancelIcon, renderingMode: .alwaysOriginal)
             }
         }
     }
