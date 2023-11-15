@@ -487,7 +487,7 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
 
         ConversationInputToolbar.setView(stickerButton, hidden: desiredKeyboardType == .sticker, usingAnimator: animator)
         ConversationInputToolbar.setView(keyboardButton, hidden: desiredKeyboardType != .sticker, usingAnimator: animator)
-
+        stickerButton.setIsHidden(isShowingVoiceMemoUI, animated: isAnimated)
         // Hide text input field if Voice Message UI is presented or make it visible otherwise.
         // Do not change "isHidden" because that'll cause inputTextView to lose focus.
         let inputTextViewAlpha: CGFloat = isShowingVoiceMemoUI ? 0 : 1
