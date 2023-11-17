@@ -352,6 +352,11 @@ public class ConversationInputToolbar: UIView, LinkPreviewViewDraftDelegate, Quo
         vStackRoundingView.addSubview(voiceMemoContentView)
         vStackRoundingView.addSubview(keyboardButton)
         messageContentView.addSubview(vStackRoundingView)
+        voiceMemoContentView.snp.makeConstraints { make in
+            make.trailing.equalTo(-18)
+            make.centerY.equalTo(inputTextView)
+            make.leading.equalTo(13)
+        }
         voiceMemoContentView.autoPinEdge(toSuperviewEdge: .trailing, withInset: 18)
         voiceMemoContentView.autoAlignAxis(.horizontal, toSameAxisOf: inputTextView)
         // Horizontal Stack: Attacjhhment button, message components, Camera|VoiceNote|Send button.
