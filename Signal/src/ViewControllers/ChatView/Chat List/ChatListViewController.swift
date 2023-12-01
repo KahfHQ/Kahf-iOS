@@ -383,23 +383,21 @@ public extension ChatListViewController {
     }
 
     @objc
-    func createSettingsBarButtonItem() -> ContextMenuButton {
-        let contextButton = ContextMenuButton()
-        contextButton.showsContextMenuAsPrimaryAction = true
-        contextButton.contextMenu = settingsContextMenu()
-        contextButton.accessibilityLabel = CommonStrings.openSettingsButton
+    func createSettingsBarButtonItem() -> UIButton {
+        let contextButton = UIButton()
         contextButton.setImage(UIImage(named: "settingsThreeDots"), for: .normal)
-        
-        let wrapper = UIView.container()
-        wrapper.addSubview(contextButton)
-
-        if unreadPaymentNotificationsCount > 0 {
-            PaymentsViewUtils.addUnreadBadge(toView: wrapper)
-        }
-
+        contextButton.addTarget(self, action: #selector(showSettingsPage), for: .touchUpInside)
         return contextButton
     }
-
+    
+    @objc func showSettingsPage() {
+        let vc = AppSettingsViewController()
+        if let tabBarController = navigationController?.tabBarController as? HomeTabBarController {
+            tabBarController.tabBar.setIsHidden(true, animated: true)
+        }
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
     func settingsContextMenu() -> ContextMenu {
         var contextMenuActions: [ContextMenuAction] = []
         if renderState.inboxCount > 0 {

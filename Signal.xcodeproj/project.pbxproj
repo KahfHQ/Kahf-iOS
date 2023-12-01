@@ -746,6 +746,9 @@
 		4E2D16122A722FF400A18D2B /* OWSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D16112A722FF400A18D2B /* OWSTabBar.swift */; };
 		4E2D16142A728C9500A18D2B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D16132A728C9500A18D2B /* HomeViewController.swift */; };
 		4E3FE4FE2A7FF7CC001CD17E /* ChatListViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */; };
+		4E782D2D2B1489BC00F6CE89 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = 4E782D2C2B1489BC00F6CE89 /* PanModal */; };
+		4E782D2F2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */; };
+		4E782D332B16011400F6CE89 /* WpTelegramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D322B16011400F6CE89 /* WpTelegramVC.swift */; };
 		4ED214082AA0C8B4004E713C /* GenderSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED214072AA0C8B4004E713C /* GenderSettingsTableViewController.swift */; };
 		4ED5CB2D2A5FC61900C54BE9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED5CB2C2A5FC61900C54BE9 /* SnapKit */; };
 		4ED5CB392A603CB000C54BE9 /* FontTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5CB382A603CB000C54BE9 /* FontTypography.swift */; };
@@ -3169,6 +3172,8 @@
 		4E2D16112A722FF400A18D2B /* OWSTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWSTabBar.swift; sourceTree = "<group>"; };
 		4E2D16132A728C9500A18D2B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatListViewController+UI.swift"; sourceTree = "<group>"; };
+		4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoveAppsViewControllerVC.swift; path = Signal/src/ViewControllers/MoreApps/MoveAppsViewControllerVC.swift; sourceTree = SOURCE_ROOT; };
+		4E782D322B16011400F6CE89 /* WpTelegramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WpTelegramVC.swift; sourceTree = "<group>"; };
 		4ED214072AA0C8B4004E713C /* GenderSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSettingsTableViewController.swift; sourceTree = "<group>"; };
 		4ED5CB382A603CB000C54BE9 /* FontTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTypography.swift; sourceTree = "<group>"; };
 		4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
@@ -4824,6 +4829,7 @@
 				4520D8D51D417D8E00123472 /* Photos.framework in Frameworks */,
 				BFF3FB9730634F37D25903F4 /* Pods_Signal.framework in Frameworks */,
 				B6FE7EB71ADD62FA00A6D22F /* PushKit.framework in Frameworks */,
+				4E782D2D2B1489BC00F6CE89 /* PanModal in Frameworks */,
 				A11CD70D17FA230600A2D1B1 /* QuartzCore.framework in Frameworks */,
 				A163E8AB16F3F6AA0094D68B /* Security.framework in Frameworks */,
 				453518991FC63DBF00210559 /* SignalMessaging.framework in Frameworks */,
@@ -5901,6 +5907,8 @@
 		34B3F8331E8DF1700035BE1A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4E782D312B1600F500F6CE89 /* Whatsapp&Telegram */,
+				4E782D302B148CF200F6CE89 /* MoreApps */,
 				4ED5CB462A61681C00C54BE9 /* Home */,
 				4ED5CB432A61670300C54BE9 /* Prayer */,
 				340FC87A204DAC8C007AEB0F /* AppSettings */,
@@ -6318,6 +6326,22 @@
 				4E1CFDA22AF6C5D700B9568D /* Inter-Thin.ttf */,
 			);
 			path = Inter;
+			sourceTree = "<group>";
+		};
+		4E782D302B148CF200F6CE89 /* MoreApps */ = {
+			isa = PBXGroup;
+			children = (
+				4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */,
+			);
+			path = MoreApps;
+			sourceTree = "<group>";
+		};
+		4E782D312B1600F500F6CE89 /* Whatsapp&Telegram */ = {
+			isa = PBXGroup;
+			children = (
+				4E782D322B16011400F6CE89 /* WpTelegramVC.swift */,
+			);
+			path = "Whatsapp&Telegram";
 			sourceTree = "<group>";
 		};
 		4ED5CB2E2A603C0200C54BE9 /* Fonts */ = {
@@ -9577,6 +9601,7 @@
 			name = Signal;
 			packageProductDependencies = (
 				4ED5CB2C2A5FC61900C54BE9 /* SnapKit */,
+				4E782D2C2B1489BC00F6CE89 /* PanModal */,
 			);
 			productName = RedPhone;
 			productReference = D221A089169C9E5E00537ABF /* Signal.app */;
@@ -9793,6 +9818,7 @@
 			mainGroup = D221A07E169C9E5E00537ABF;
 			packageReferences = (
 				4ED5CB2B2A5FC61900C54BE9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				4E782D2B2B1489BC00F6CE89 /* XCRemoteSwiftPackageReference "PanModal" */,
 			);
 			productRefGroup = D221A08A169C9E5E00537ABF /* Products */;
 			projectDirPath = "";
@@ -11108,6 +11134,7 @@
 				88C4E38024635337009C9B97 /* DeviceTransferService.swift in Sources */,
 				88EF42E525F825650017C057 /* DisappearingMessagesTimerSettingsViewController.swift in Sources */,
 				34A95501271B503E00B05242 /* DisplayableText.swift in Sources */,
+				4E782D2F2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift in Sources */,
 				5011D1CB293FC7E000064098 /* DomainFrontingCountryViewController.swift in Sources */,
 				F96B66AA2912B88B004FFFAA /* DonateChoosePaymentMethodSheet.swift in Sources */,
 				F96B66AC2912B88B004FFFAA /* DonateViewController+DonationMode.swift in Sources */,
@@ -11175,6 +11202,7 @@
 				88588D18252D312800405414 /* GroupCallViewController.swift in Sources */,
 				8845B0C9264F12F800FA694C /* GroupDescriptionPreviewView.swift in Sources */,
 				889DFA12264EE77C00D03921 /* GroupDescriptionViewController.swift in Sources */,
+				4E782D332B16011400F6CE89 /* WpTelegramVC.swift in Sources */,
 				340D900024FEE6A9007B5504 /* GroupInviteLinksUI.swift in Sources */,
 				3490D57D25ADDC2A00F5F96C /* GroupLinkPromotionActionSheet.swift in Sources */,
 				34B14D8F24F41C4300CC3A9A /* GroupLinkQRCodeViewController.swift in Sources */,
@@ -15551,6 +15579,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4E782D2B2B1489BC00F6CE89 /* XCRemoteSwiftPackageReference "PanModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/slackhq/PanModal.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.6;
+			};
+		};
 		4ED5CB2B2A5FC61900C54BE9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -15562,6 +15598,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4E782D2C2B1489BC00F6CE89 /* PanModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E782D2B2B1489BC00F6CE89 /* XCRemoteSwiftPackageReference "PanModal" */;
+			productName = PanModal;
+		};
 		4ED5CB2C2A5FC61900C54BE9 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4ED5CB2B2A5FC61900C54BE9 /* XCRemoteSwiftPackageReference "SnapKit" */;

@@ -172,6 +172,11 @@ public enum ThemeIcon: UInt {
     case kahfTreeDotIcon
     case kahfCancelIcon
     case kahfAttachmentPlus
+    
+    case kahfStoryIcon
+    case kahfMosqueNearbyIcon
+    case kahfEventsIcon
+    case kahfArticlesIcon
 }
 
 // MARK: - Colors
@@ -529,6 +534,14 @@ public extension Theme {
             return "kahf_cancel_icon"
         case .kahfAttachmentPlus:
             return "kahf_attachment_plus"
+        case .kahfStoryIcon:
+            return "kahf_story_menu_icon"
+        case .kahfMosqueNearbyIcon:
+            return "kahf_mosque_nearby_menu_icon"
+        case .kahfEventsIcon:
+            return "kahf_events_menu_icon"
+        case .kahfArticlesIcon:
+            return "kahf_articles_menu_icon"
         }
     }
 }

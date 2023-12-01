@@ -281,7 +281,7 @@ class StoriesViewController: OWSViewController, StoryListDataSourceDelegate {
     func profileDidChange() { updateNavigationBar() }
 
     private func updateNavigationBar() {
-        let contextButton = ContextMenuButton()
+        /*let contextButton = ContextMenuButton()
         contextButton.showsContextMenuAsPrimaryAction = true
         contextButton.contextMenu = .init([
             .init(
@@ -313,7 +313,7 @@ class StoriesViewController: OWSViewController, StoryListDataSourceDelegate {
         contextButton.addSubview(avatarView)
         avatarView.autoPinEdgesToSuperviewEdges()
 
-        navigationItem.leftBarButtonItem = .init(customView: contextButton)
+        navigationItem.leftBarButtonItem = .init(customView: contextButton)*/
 
         let cameraButton = UIBarButtonItem(image: Theme.iconImage(.cameraButton), style: .plain, target: self, action: #selector(showCameraView))
         cameraButton.accessibilityLabel = NSLocalizedString("CAMERA_BUTTON_LABEL", comment: "Accessibility label for camera button.")

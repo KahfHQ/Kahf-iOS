@@ -7,6 +7,7 @@ import Foundation
 import UIKit
 import SignalServiceKit
 import SignalUI
+import PanModal
 
 class HomeTabBarController: UITabBarController {
     lazy var selectedItemColor = UIColor(red: 0.24, green: 0.55, blue: 1, alpha: 1)
@@ -41,12 +42,26 @@ class HomeTabBarController: UITabBarController {
     )
     lazy var storiesViewController = StoriesViewController()
     lazy var storiesNavController = OWSNavigationController(rootViewController: storiesViewController)
+    lazy var wpViewController = WpTelegramVC()
+    lazy var wpNavController = OWSNavigationController(rootViewController: wpViewController)
+    
+    lazy var moreAppsVC = MoveAppsViewControllerVC(storyAction: {}, mosqueAction: {}, eventsAction: {}, articlesAction: {})
+    
+    
     lazy var storiesTabBarItem = UITabBarItem(
         title: NSLocalizedString("STORIES_TITLE",
         comment: "Title for the stories view."),
         image: UIImage(named: "tabbar-story"),
         selectedImage: UIImage(named: "tabbar-story")
     )
+    
+    lazy var wpTabBarItem = UITabBarItem(
+        title: NSLocalizedString("Wp&Tl",
+        comment: "Title for the Whatsapp&Telegram view."),
+        image: UIImage(named: "tabbar-wp"),
+        selectedImage: UIImage(named: "tabbar-wp")
+    )
+    
     var selectedTab: Tabs {
         get { Tabs(rawValue: selectedIndex) ?? .chatList }
         set { selectedIndex = newValue.rawValue }
@@ -79,10 +94,10 @@ class HomeTabBarController: UITabBarController {
 
         databaseStorage.appendDatabaseChangeDelegate(self)
 
-        viewControllers = [homeNavController,storiesNavController,chatListNavController, prayerNavController, settingsNavController]
+        viewControllers = [homeNavController,wpNavController,chatListNavController, prayerNavController, settingsNavController]
         homeNavController.tabBarItem = homeTabBarItem
         chatListNavController.tabBarItem = chatListTabBarItem
-        storiesNavController.tabBarItem = storiesTabBarItem
+        wpNavController.tabBarItem = wpTabBarItem
         prayerNavController.tabBarItem = prayerTabBarItem
         settingsNavController.tabBarItem = settingsTabBarItem
         
@@ -126,7 +141,7 @@ class HomeTabBarController: UITabBarController {
             setTabBarHidden(false, animated: false)
         } else {
             if selectedTab == .stories {
-                storiesNavController.popToRootViewController(animated: false)
+                wpNavController.popToRootViewController(animated: false)
             }
             selectedTab = .chatList
             setTabBarHidden(true, animated: false)
@@ -266,8 +281,30 @@ extension HomeTabBarController: UITabBarControllerDelegate {
 
             tableView.setContentOffset(CGPoint(x: 0, y: -tableView.safeAreaInsets.top), animated: true)
         }
-
+        
+        if viewControllers?[4] == viewController {
+            moreAppsVC.storyAction = { self.showStories() }
+            moreAppsVC.mosqueAction = { print("mosqueAction") }
+            moreAppsVC.eventsAction = { print("eventsAction") }
+            moreAppsVC.articlesAction = { print("articlesAction") }
+            presentPanModal(moreAppsVC)
+            return false
+        }
+        
         return true
+    }
+    
+    func showStories() {
+        if let selectedViewController = self.viewControllers?[selectedTab.rawValue] {
+            if let navigationController = selectedViewController as? UINavigationController {
+                self.tabBar.setIsHidden(true, animated: true)
+                self.moreAppsVC.dismiss(animated: true)
+                let vc = StoriesViewController()
+                DispatchQueue.main.async {
+                    navigationController.pushViewController(vc, animated: true)
+                }
+            }
+        }
     }
 
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {

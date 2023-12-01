@@ -577,6 +577,9 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
         self.tabBarController.tabBar.hidden = YES;
         self.extendedLayoutIncludesOpaqueBars = YES;
     }
+    else {
+        self.tabBarController.tabBar.hidden = NO;
+    }
 
     BOOL isShowingSearchResults = !self.searchResultsController.view.hidden;
     if (isShowingSearchResults) {
