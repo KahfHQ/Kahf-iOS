@@ -56,8 +56,7 @@ class HomeTabBarController: UITabBarController {
     )
     
     lazy var wpTabBarItem = UITabBarItem(
-        title: NSLocalizedString("Wp&Tl",
-        comment: "Title for the Whatsapp&Telegram view."),
+        title: "Safe Chat",
         image: UIImage(named: "tabbar-wp"),
         selectedImage: UIImage(named: "tabbar-wp")
     )
