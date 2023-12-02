@@ -82,6 +82,7 @@ public class ConversationAvatarView: UIView, CVView, PrimaryImageView {
             case fiftyTwo
             case fiftySix
             case sixtyFour
+            case seventy
             case eighty
             case eightyEight
             case oneHundredTwelve
@@ -991,6 +992,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         case .fiftyTwo: return 52
         case .fiftySix: return 56
         case .sixtyFour: return 64
+        case .seventy: return 70
         case .eighty: return 80
         case .eightyEight: return 88
         case .oneHundredTwelve: return 112
@@ -1026,6 +1028,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         case .fiftyTwo: return CGPoint(x: 32, y: 38)
         case .fiftySix: return CGPoint(x: 32, y: 38)
         case .sixtyFour: return CGPoint(x: 40, y: 46)
+        case .seventy: return CGPoint(x: 32, y: 38)
         case .eighty: return CGPoint(x: 44, y: 52)
         case .eightyEight: return CGPoint(x: 49, y: 56)
         case .oneHundredTwelve: return CGPoint(x: 74, y: 80)
@@ -1064,6 +1067,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         case .fiftyTwo: return 5
         case .fiftySix: return 5
         case .sixtyFour: return 5
+        case .seventy: return 5
         case .eighty: return 5
         case .eightyEight: return 6
         case .oneHundredTwelve: return 6
@@ -1082,6 +1086,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         case .fiftyTwo: return 2
         case .fiftySix: return 2
         case .sixtyFour: return 2
+        case .seventy: return 5
         case .eighty: return 3
         case .eightyEight: return 3
         case .oneHundredTwelve: return 3

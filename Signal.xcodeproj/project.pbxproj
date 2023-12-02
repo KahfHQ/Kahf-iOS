@@ -749,6 +749,18 @@
 		4E782D2D2B1489BC00F6CE89 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = 4E782D2C2B1489BC00F6CE89 /* PanModal */; };
 		4E782D2F2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */; };
 		4E782D332B16011400F6CE89 /* WpTelegramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D322B16011400F6CE89 /* WpTelegramVC.swift */; };
+		4E782D352B1A042A00F6CE89 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D342B1A042A00F6CE89 /* SettingsVC.swift */; };
+		4E782D3D2B1A0E0700F6CE89 /* SettingsProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D3C2B1A0E0700F6CE89 /* SettingsProfileCell.swift */; };
+		4E782D412B1B1A9000F6CE89 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D402B1B1A9000F6CE89 /* SettingsCell.swift */; };
+		4E782D422B1B880400F6CE89 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA82AF6C5D700B9568D /* Inter-Black.ttf */; };
+		4E782D432B1B880600F6CE89 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA72AF6C5D700B9568D /* Inter-Medium.ttf */; };
+		4E782D442B1B880A00F6CE89 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA42AF6C5D700B9568D /* Inter-Bold.ttf */; };
+		4E782D452B1B880C00F6CE89 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA32AF6C5D700B9568D /* Inter-ExtraBold.ttf */; };
+		4E782D462B1B880E00F6CE89 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA12AF6C5D600B9568D /* Inter-ExtraLight.ttf */; };
+		4E782D472B1B881000F6CE89 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA52AF6C5D700B9568D /* Inter-Light.ttf */; };
+		4E782D482B1B881300F6CE89 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA92AF6C5D700B9568D /* Inter-Regular.ttf */; };
+		4E782D492B1B881500F6CE89 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA62AF6C5D700B9568D /* Inter-SemiBold.ttf */; };
+		4E782D4A2B1B881A00F6CE89 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA22AF6C5D700B9568D /* Inter-Thin.ttf */; };
 		4ED214082AA0C8B4004E713C /* GenderSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED214072AA0C8B4004E713C /* GenderSettingsTableViewController.swift */; };
 		4ED5CB2D2A5FC61900C54BE9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED5CB2C2A5FC61900C54BE9 /* SnapKit */; };
 		4ED5CB392A603CB000C54BE9 /* FontTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5CB382A603CB000C54BE9 /* FontTypography.swift */; };
@@ -3174,6 +3186,9 @@
 		4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatListViewController+UI.swift"; sourceTree = "<group>"; };
 		4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoveAppsViewControllerVC.swift; path = Signal/src/ViewControllers/MoreApps/MoveAppsViewControllerVC.swift; sourceTree = SOURCE_ROOT; };
 		4E782D322B16011400F6CE89 /* WpTelegramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WpTelegramVC.swift; sourceTree = "<group>"; };
+		4E782D342B1A042A00F6CE89 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		4E782D3C2B1A0E0700F6CE89 /* SettingsProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsProfileCell.swift; sourceTree = "<group>"; };
+		4E782D402B1B1A9000F6CE89 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		4ED214072AA0C8B4004E713C /* GenderSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSettingsTableViewController.swift; sourceTree = "<group>"; };
 		4ED5CB382A603CB000C54BE9 /* FontTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTypography.swift; sourceTree = "<group>"; };
 		4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
@@ -5029,6 +5044,7 @@
 				3498AC8C2518E92B00B1F315 /* Payments */,
 				887B381425F0681B00685845 /* Privacy */,
 				8871B16D25F007CE00D4E070 /* Profile */,
+				4E782D362B1A04C000F6CE89 /* Settings */,
 				88F58A1625EEE5B9008CDA24 /* AppSettingsViewController.swift */,
 				F9BC0A2427FB8E730085B23D /* AppSettingsViewsUtil.swift */,
 				887B380725F0355700685845 /* ChatsSettingsViewController.swift */,
@@ -6342,6 +6358,16 @@
 				4E782D322B16011400F6CE89 /* WpTelegramVC.swift */,
 			);
 			path = "Whatsapp&Telegram";
+			sourceTree = "<group>";
+		};
+		4E782D362B1A04C000F6CE89 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4E782D342B1A042A00F6CE89 /* SettingsVC.swift */,
+				4E782D3C2B1A0E0700F6CE89 /* SettingsProfileCell.swift */,
+				4E782D402B1B1A9000F6CE89 /* SettingsCell.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		4ED5CB2E2A603C0200C54BE9 /* Fonts */ = {
@@ -9920,6 +9946,7 @@
 				88DBDFBB2638FFBD00C2101C /* audio-played-dot.json in Resources */,
 				45B74A742044AAB600CD42F8 /* aurora-quiet.aifc in Resources */,
 				45B74A882044AAB600CD42F8 /* aurora.aifc in Resources */,
+				4E782D4A2B1B881A00F6CE89 /* Inter-Thin.ttf in Resources */,
 				45B74A782044AAB600CD42F8 /* bamboo-quiet.aifc in Resources */,
 				45B74A852044AAB600CD42F8 /* bamboo.aifc in Resources */,
 				8880178B2741E5DB00346E9A /* boost_clap.json in Resources */,
@@ -9928,6 +9955,7 @@
 				8880178E2741E5DB00346E9A /* boost_rockets.json in Resources */,
 				8880178C2741E5DB00346E9A /* boost_shock.json in Resources */,
 				8880178F2741E5DB00346E9A /* boost_smile.json in Resources */,
+				4E782D452B1B880C00F6CE89 /* Inter-ExtraBold.ttf in Resources */,
 				34CF0787203E6B78005C4D61 /* busy_tone_ansi.caf in Resources */,
 				34848D5E25D43ADD00E5034B /* cash-out.json in Resources */,
 				45B74A812044AAB600CD42F8 /* chord-quiet.aifc in Resources */,
@@ -9942,8 +9970,10 @@
 				880FB3F028CA53D400FA1C10 /* determinate_spinner_56.json in Resources */,
 				34CF078A203E6B78005C4D61 /* end_call_tone_cept.caf in Resources */,
 				88D6E940254CF712003142D9 /* group_call_join.aiff in Resources */,
+				4E782D462B1B880E00F6CE89 /* Inter-ExtraLight.ttf in Resources */,
 				88D6E93F254CF712003142D9 /* group_call_leave.aiff in Resources */,
 				45B74A7C2044AAB600CD42F8 /* hello-quiet.aifc in Resources */,
+				4E782D442B1B880A00F6CE89 /* Inter-Bold.ttf in Resources */,
 				45B74A772044AAB600CD42F8 /* hello.aifc in Resources */,
 				B66DBF4A19D5BBC8006EA940 /* Images.xcassets in Resources */,
 				88E8BEF028D53C3700509CE2 /* indeterminate_spinner_20.json in Resources */,
@@ -9951,11 +9981,13 @@
 				880FB3EF28CA53D400FA1C10 /* indeterminate_spinner_56.json in Resources */,
 				A5E7C675248C5443007C949A /* InfoPlist.strings in Resources */,
 				45B74A8C2044AAB600CD42F8 /* input-quiet.aifc in Resources */,
+				4E782D422B1B880400F6CE89 /* Inter-Black.ttf in Resources */,
 				45B74A792044AAB600CD42F8 /* input.aifc in Resources */,
 				45B74A762044AAB600CD42F8 /* keys-quiet.aifc in Resources */,
 				45B74A7A2044AAB600CD42F8 /* keys.aifc in Resources */,
 				45CB2FA81CB7146C00E1B343 /* Launch Screen.storyboard in Resources */,
 				887CD48B24735D4200FDD265 /* launchApp-iPad.json in Resources */,
+				4E782D482B1B881300F6CE89 /* Inter-Regular.ttf in Resources */,
 				887CD48A24735D4200FDD265 /* launchApp-iPhone.json in Resources */,
 				B6F509971AA53F760068F56A /* Localizable.strings in Resources */,
 				34661FB820C1C0D60056EDD6 /* message_sent.aiff in Resources */,
@@ -9990,6 +10022,7 @@
 				4C63CC00210A620B003AE45C /* SignalTSan.supp in Resources */,
 				4C6F527C20FFE8400097DEEE /* SignalUBSan.supp in Resources */,
 				886CB07824E77E5B00753909 /* silence.aiff in Resources */,
+				4E782D472B1B881000F6CE89 /* Inter-Light.ttf in Resources */,
 				34C3C78F2040A4F70000134C /* sonarping.mp3 in Resources */,
 				88928A44263A2781009C9B30 /* state-change_confirm-down.caf in Resources */,
 				88928A45263A2781009C9B30 /* state-change_confirm-up.caf in Resources */,
@@ -9997,10 +10030,12 @@
 				66586D3729005A1B00DDA9B9 /* story_viewer_onboarding_2.json in Resources */,
 				66586D3929005A1B00DDA9B9 /* story_viewer_onboarding_3.json in Resources */,
 				45B74A752044AAB600CD42F8 /* synth-quiet.aifc in Resources */,
+				4E782D492B1B881500F6CE89 /* Inter-SemiBold.ttf in Resources */,
 				45B74A8B2044AAB600CD42F8 /* synth.aifc in Resources */,
 				4C0CF6FA2386295400C9F818 /* tap_to_focus.json in Resources */,
 				887CD4872473587300FDD265 /* transfer.json in Resources */,
 				346EFC3D25FFDC6A00F493C7 /* update-pin-dark.json in Resources */,
+				4E782D432B1B880600F6CE89 /* Inter-Medium.ttf in Resources */,
 				346EFC3E25FFDC6A00F493C7 /* update-pin.json in Resources */,
 				88BFD4732335C2B3001797D7 /* waveformLoading.json in Resources */,
 			);
@@ -11076,9 +11111,11 @@
 				34D2CCDF206939B400CB1A14 /* DebugUIMessagesAction.m in Sources */,
 				34D2CCE0206939B400CB1A14 /* DebugUIMessagesAssetLoader.m in Sources */,
 				341F2C0F1F2B8AE700D07D6B /* DebugUIMisc.m in Sources */,
+				4E782D412B1B1A9000F6CE89 /* SettingsCell.swift in Sources */,
 				34429B3D273440420050D3EA /* DebugUIMisc.swift in Sources */,
 				457C87B82032645C008D52D6 /* DebugUINotifications.swift in Sources */,
 				34E3EF101EFC2684007F6822 /* DebugUIPage.m in Sources */,
+				4E782D352B1A042A00F6CE89 /* SettingsVC.swift in Sources */,
 				3498AC982518E98A00B1F315 /* DebugUIPayments.swift in Sources */,
 				4556FA681F54AA9500AF40DD /* DebugUIProfile.swift in Sources */,
 				452037D11EE84975004E4CDF /* DebugUISessionState.m in Sources */,
@@ -11235,6 +11272,7 @@
 				88A9729422FB4D02004B4FBF /* LocationPicker.swift in Sources */,
 				4CBBFE4A2306F5D300B37450 /* LogViewController.swift in Sources */,
 				3496744F2076ACD000080B5F /* LongTextViewController.swift in Sources */,
+				4E782D3D2B1A0E0700F6CE89 /* SettingsProfileCell.swift in Sources */,
 				88A941992409A391000E9700 /* LottieToggleButton.swift in Sources */,
 				D221A09A169C9E5E00537ABF /* main.m in Sources */,
 				34B0796D1FCF46B100E248C2 /* MainAppContext.m in Sources */,

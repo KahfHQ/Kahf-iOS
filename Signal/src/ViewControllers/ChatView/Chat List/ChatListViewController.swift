@@ -391,7 +391,7 @@ public extension ChatListViewController {
     }
     
     @objc func showSettingsPage() {
-        let vc = AppSettingsViewController()
+        let vc = SettingsVC()
         if let tabBarController = navigationController?.tabBarController as? HomeTabBarController {
             tabBarController.tabBar.setIsHidden(true, animated: true)
         }
