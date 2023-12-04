@@ -383,11 +383,22 @@ public extension ChatListViewController {
     }
 
     @objc
-    func createSettingsBarButtonItem() -> UIButton {
-        let contextButton = UIButton()
+    func createSettingsBarButtonItem() -> UIView {
+        let contextButton = ContextMenuButton()
         contextButton.setImage(UIImage(named: "settingsThreeDots"), for: .normal)
-        contextButton.addTarget(self, action: #selector(showSettingsPage), for: .touchUpInside)
-        return contextButton
+        contextButton.showsContextMenuAsPrimaryAction = true
+        contextButton.contextMenu = settingsContextMenu()
+        contextButton.accessibilityLabel = CommonStrings.openSettingsButton
+
+        let wrapper = UIView.container()
+        wrapper.addSubview(contextButton)
+        contextButton.autoPinEdgesToSuperviewEdges()
+
+        if unreadPaymentNotificationsCount > 0 {
+            PaymentsViewUtils.addUnreadBadge(toView: wrapper)
+        }
+
+        return wrapper
     }
     
     @objc func showSettingsPage() {
@@ -411,6 +422,17 @@ public extension ChatListViewController {
                         self?.willEnterMultiselectMode()
                     }))
         }
+        contextMenuActions.append(
+            ContextMenuAction(
+            title: NSLocalizedString("SETTINGS_NAV_BAR_TITLE", comment: "Title for the 'Select Chats' option in the ChatList."),
+            attributes: [],
+            handler: { [weak self] (_) in
+                let vc = SettingsVC()
+                if let tabBarController = self?.navigationController?.tabBarController as? HomeTabBarController {
+                    tabBarController.tabBar.setIsHidden(true, animated: true)
+                }
+                self?.navigationController?.pushViewController(vc, animated: true)
+        }))
         /*contextMenuActions.append(
             ContextMenuAction(
                 title: CommonStrings.openSettingsButton,
