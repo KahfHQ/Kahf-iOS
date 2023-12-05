@@ -187,6 +187,11 @@ public enum ThemeIcon: UInt {
     case kahfSettingsLinkedDevice
     case kahfSettingsNotifications
     case kahfSettingsPrivacy
+    case kahfRunningPrayer
+    case kahfCalendarLeft
+    case kahfCalendarRight
+    case kahfAlert
+    case kahfAlertDisabled
 }
 
 // MARK: - Colors
@@ -570,6 +575,16 @@ public extension Theme {
             return "kahf_settings_privacy"
         case .kahfSettingsData:
             return "kahf_settings_data"
+        case .kahfRunningPrayer:
+            return "kahf_running_prayer"
+        case .kahfCalendarLeft:
+            return "kahf_calendar_left"
+        case .kahfCalendarRight:
+            return "kahf_calendar_right"
+        case .kahfAlert:
+            return "kahf_alert"
+        case .kahfAlertDisabled:
+            return "kahf_alert_disabled"
         }
     }
 }

@@ -743,6 +743,9 @@
 		4CD675C522E7CF22008010D2 /* ConversationViewController+OWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD675C422E7CF22008010D2 /* ConversationViewController+OWS.swift */; };
 		4CD675C722E7D393008010D2 /* MediaPresentationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD675C622E7D393008010D2 /* MediaPresentationContext.swift */; };
 		4CFF115323A9C2130007F9D7 /* UnreadIndicatorInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF115223A9C2130007F9D7 /* UnreadIndicatorInteraction.swift */; };
+		4E0B86102B1F56F700939063 /* RunningPrayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B860F2B1F56F700939063 /* RunningPrayerCell.swift */; };
+		4E0B86122B1F757B00939063 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B86112B1F757B00939063 /* CalendarCell.swift */; };
+		4E0B86142B1F7AE600939063 /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B86132B1F7AE600939063 /* TimeCell.swift */; };
 		4E2D16122A722FF400A18D2B /* OWSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D16112A722FF400A18D2B /* OWSTabBar.swift */; };
 		4E2D16142A728C9500A18D2B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D16132A728C9500A18D2B /* HomeViewController.swift */; };
 		4E3FE4FE2A7FF7CC001CD17E /* ChatListViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */; };
@@ -3173,6 +3176,9 @@
 		4CFB4E9B220BC56D00ECB4DE /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = translations/nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4CFF115223A9C2130007F9D7 /* UnreadIndicatorInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnreadIndicatorInteraction.swift; sourceTree = "<group>"; };
 		4CFF4C0920F55BBA005DA313 /* MessageActionsToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageActionsToolbar.swift; sourceTree = "<group>"; };
+		4E0B860F2B1F56F700939063 /* RunningPrayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningPrayerCell.swift; sourceTree = "<group>"; };
+		4E0B86112B1F757B00939063 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		4E0B86132B1F7AE600939063 /* TimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
 		4E1CFDA12AF6C5D600B9568D /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-ExtraLight.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
 		4E1CFDA22AF6C5D700B9568D /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Thin.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Thin.ttf"; sourceTree = "<group>"; };
 		4E1CFDA32AF6C5D700B9568D /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-ExtraBold.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -5925,6 +5931,7 @@
 		34B3F8331E8DF1700035BE1A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4E782D4B2B1C9D7800F6CE89 /* KahfCustomNavBar.swift */,
 				4E782D312B1600F500F6CE89 /* Whatsapp&Telegram */,
 				4E782D302B148CF200F6CE89 /* MoreApps */,
 				4ED5CB462A61681C00C54BE9 /* Home */,
@@ -6384,7 +6391,9 @@
 			isa = PBXGroup;
 			children = (
 				4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */,
-				4E782D4B2B1C9D7800F6CE89 /* KahfCustomNavBar.swift */,
+				4E0B860F2B1F56F700939063 /* RunningPrayerCell.swift */,
+				4E0B86112B1F757B00939063 /* CalendarCell.swift */,
+				4E0B86132B1F7AE600939063 /* TimeCell.swift */,
 			);
 			path = Prayer;
 			sourceTree = "<group>";
@@ -11213,6 +11222,7 @@
 				F090C8202762F2C5005C20FC /* EmojiReactionPickerConfigViewController.swift in Sources */,
 				8855DF87238F1E0C0066D96F /* EmojiReactorsTableView.swift in Sources */,
 				88238EBC24F21EE400F28079 /* EmojiSkinTonePicker.swift in Sources */,
+				4E0B86122B1F757B00939063 /* CalendarCell.swift in Sources */,
 				3428577826BD8777005A2A96 /* EmojiWithSkinTones+String.swift in Sources */,
 				3428577A26BD8777005A2A96 /* EmojiWithSkinTones.swift in Sources */,
 				88A505F423DA16E10005C012 /* ExperienceUpgradeManager.swift in Sources */,
@@ -11333,6 +11343,7 @@
 				881677C522DD2B21007BAF49 /* OWSPinReminderViewController.swift in Sources */,
 				881D85B822D92C2B00E118DF /* OWSPinSetupViewController.swift in Sources */,
 				34277A5E20751BDC006049F2 /* OWSQuotedMessageView.m in Sources */,
+				4E0B86142B1F7AE600939063 /* TimeCell.swift in Sources */,
 				34D2CCDA2062E7D000CB1A14 /* OWSScreenLockUI.m in Sources */,
 				342FFE6B271EF502000AC89F /* OWSWindowManager.m in Sources */,
 				34FB6A5525D2E17200E599B1 /* PaymentModelCell.swift in Sources */,
@@ -11445,6 +11456,7 @@
 				884DB95227DE67D900C6A309 /* StoryItemMediaView.swift in Sources */,
 				661602A428BEB94400C1932D /* StoryListDataSource.swift in Sources */,
 				884DB94F27DE67BB00C6A309 /* StoryPageViewController.swift in Sources */,
+				4E0B86102B1F56F700939063 /* RunningPrayerCell.swift in Sources */,
 				884DB95427DEB9E900C6A309 /* StoryPlaybackProgressView.swift in Sources */,
 				88B2234A283F290400A25048 /* StoryPrivacySettingsViewController.swift in Sources */,
 				88B00D4F28A33B5800BC9CA0 /* StoryPrivateViewsSheet.swift in Sources */,

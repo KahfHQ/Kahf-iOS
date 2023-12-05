@@ -313,7 +313,16 @@ public extension UIColor {
     class var ows_bluish: UIColor {
         return UIColor(rgbHex: 0xE6EAF2)
     }
-
+    
+    @objc(ows_kahf_gray2)
+    class var ows_kahf_gray2: UIColor {
+        return UIColor(rgbHex: 0x4F4F4F)
+    }
+    
+    @objc(ows_kahf_background)
+    class var ows_kahf_background: UIColor {
+        return UIColor(rgbHex: 0xFAFBFD)
+    }
     // MARK: -
 
     class func ows_randomColor(isAlphaRandom: Bool) -> UIColor {

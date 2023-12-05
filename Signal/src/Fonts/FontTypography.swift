@@ -28,6 +28,11 @@ public extension UIFont {
         UIFont(name: "Inter-Bold", size: 24) ?? .boldSystemFont(ofSize: 24)
     }
     
+    @objc(interBold36)
+    class var interBold36: UIFont {
+        UIFont(name: "Inter-Bold", size: 36) ?? .boldSystemFont(ofSize: 36)
+    }
+    
     @objc(interSemiBold12)
     class var interSemiBold12: UIFont {
         return UIFont(name: "Inter-SemiBold", size: 12) ?? .ows_semiboldFont(withSize: 12)
@@ -38,9 +43,19 @@ public extension UIFont {
         return UIFont(name: "Inter-SemiBold", size: 16) ?? .ows_semiboldFont(withSize: 16)
     }
 
+    @objc(interRegular11)
+    class var interRegular11: UIFont {
+        return UIFont(name: "Inter-Regular", size: 11) ?? .ows_regularFont(withSize: 11)
+    }
+    
     @objc(interRegular12)
     class var interRegular12: UIFont {
         return UIFont(name: "Inter-Regular", size: 12) ?? .ows_regularFont(withSize: 12)
+    }
+    
+    @objc(interRegular14)
+    class var interRegular14: UIFont {
+        return UIFont(name: "Inter-Regular", size: 14) ?? .ows_regularFont(withSize: 14)
     }
     
     @objc(interRegular16)
@@ -53,8 +68,18 @@ public extension UIFont {
         return UIFont(name: "Inter-Medium", size: 11) ?? .ows_semiboldFont(withSize: 11)
     }
     
+    @objc(interMedium12)
+    class var interMedium12: UIFont {
+        return UIFont(name: "Inter-Medium", size: 12) ?? .ows_semiboldFont(withSize: 12)
+    }
+    
     @objc(interMedium14)
     class var interMedium14: UIFont {
         return UIFont(name: "Inter-Medium", size: 14) ?? .ows_semiboldFont(withSize: 14)
+    }
+    
+    @objc(interMedium16)
+    class var interMedium16: UIFont {
+        return UIFont(name: "Inter-Medium", size: 16) ?? .ows_semiboldFont(withSize: 16)
     }
 }
