@@ -75,8 +75,9 @@ public class ConversationAvatarView: UIView, CVView, PrimaryImageView {
         public enum SizeClass: Equatable {
             case twentyFour
             case twentyEight
-            case thirtySix
+            case thirtyTwo
             case thirtyFour
+            case thirtySix
             case forty
             case fortyEight
             case fiftyTwo
@@ -97,6 +98,8 @@ public class ConversationAvatarView: UIView, CVView, PrimaryImageView {
                     self = .twentyFour
                 case Self.twentyEight.diameter:
                     self = .twentyEight
+                case Self.thirtyTwo.diameter:
+                    self = .thirtyTwo
                 case Self.thirtySix.diameter:
                     self = .thirtySix
                 case Self.thirtyFour.diameter:
@@ -985,6 +988,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return 24
         case .twentyEight: return 28
+        case .thirtyTwo: return 32
         case .thirtyFour: return 34
         case .thirtySix: return 36
         case .forty: return 40
@@ -1021,6 +1025,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return CGPoint(x: 10, y: 12)
         case .twentyEight: return CGPoint(x: 14, y: 16)
+        case .thirtyTwo: return CGPoint(x: 20, y: 23)
         case .thirtyFour: return CGPoint(x: 20, y: 23)
         case .thirtySix: return CGPoint(x: 20, y: 23)
         case .forty: return CGPoint(x: 20, y: 22)
@@ -1060,6 +1065,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return 4
         case .twentyEight: return 4
+        case .thirtyTwo: return 4
         case .thirtyFour: return 4
         case .thirtySix: return 4
         case .forty: return 4
@@ -1079,6 +1085,7 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return 2
         case .twentyEight: return 2
+        case .thirtyTwo: return 2
         case .thirtyFour: return 2
         case .thirtySix: return 2
         case .forty: return 2

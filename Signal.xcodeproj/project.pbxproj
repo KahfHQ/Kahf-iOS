@@ -761,6 +761,7 @@
 		4E782D482B1B881300F6CE89 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA92AF6C5D700B9568D /* Inter-Regular.ttf */; };
 		4E782D492B1B881500F6CE89 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA62AF6C5D700B9568D /* Inter-SemiBold.ttf */; };
 		4E782D4A2B1B881A00F6CE89 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA22AF6C5D700B9568D /* Inter-Thin.ttf */; };
+		4E782D4C2B1C9D7800F6CE89 /* KahfCustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D4B2B1C9D7800F6CE89 /* KahfCustomNavBar.swift */; };
 		4ED214082AA0C8B4004E713C /* GenderSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED214072AA0C8B4004E713C /* GenderSettingsTableViewController.swift */; };
 		4ED5CB2D2A5FC61900C54BE9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED5CB2C2A5FC61900C54BE9 /* SnapKit */; };
 		4ED5CB392A603CB000C54BE9 /* FontTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5CB382A603CB000C54BE9 /* FontTypography.swift */; };
@@ -3189,6 +3190,7 @@
 		4E782D342B1A042A00F6CE89 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		4E782D3C2B1A0E0700F6CE89 /* SettingsProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsProfileCell.swift; sourceTree = "<group>"; };
 		4E782D402B1B1A9000F6CE89 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		4E782D4B2B1C9D7800F6CE89 /* KahfCustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KahfCustomNavBar.swift; sourceTree = "<group>"; };
 		4ED214072AA0C8B4004E713C /* GenderSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSettingsTableViewController.swift; sourceTree = "<group>"; };
 		4ED5CB382A603CB000C54BE9 /* FontTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTypography.swift; sourceTree = "<group>"; };
 		4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
@@ -6382,6 +6384,7 @@
 			isa = PBXGroup;
 			children = (
 				4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */,
+				4E782D4B2B1C9D7800F6CE89 /* KahfCustomNavBar.swift */,
 			);
 			path = Prayer;
 			sourceTree = "<group>";
@@ -11119,6 +11122,7 @@
 				3498AC982518E98A00B1F315 /* DebugUIPayments.swift in Sources */,
 				4556FA681F54AA9500AF40DD /* DebugUIProfile.swift in Sources */,
 				452037D11EE84975004E4CDF /* DebugUISessionState.m in Sources */,
+				4E782D4C2B1C9D7800F6CE89 /* KahfCustomNavBar.swift in Sources */,
 				34BECE2B1F74C12700D7438D /* DebugUIStress.m in Sources */,
 				344DAEDF248A7526000AD4FA /* DebugUIStress.swift in Sources */,
 				343A65951FC47D5E000477A1 /* DebugUISyncMessages.m in Sources */,
