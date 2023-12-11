@@ -53,7 +53,9 @@ extension ConversationSettingsViewController {
         addColorAndWallpaperSettingsItem(to: mainSection)
         if !isNoteToSelf { addSoundAndNotificationSettingsItem(to: mainSection) }
         addSystemContactItemIfNecessary(to: mainSection)
-        addSafetyNumberItemIfNecessary(to: mainSection)
+        if Self.preferences.getMahramEnabled() {
+            addSafetyNumberItemIfNecessary(to: mainSection)
+        }
 
         contents.addSection(mainSection)
 

@@ -36,4 +36,6 @@ Scripts/sds_codegen/sds-includes/*
 /.idea
 /.vscode
 
+Signal/Firebase/*
+
 fastlane/Preview.html
