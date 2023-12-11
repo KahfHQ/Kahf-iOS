@@ -34,7 +34,7 @@ pod 'GRDB.swift/SQLCipher'
 # pod 'GRDB.swift/SQLCipher', path: '../GRDB.swift'
 
 pod 'SQLCipher', ">= 4.0.1"
-
+pod 'Firebase/Crashlytics'
 ###
 # forked third party pods
 ###
