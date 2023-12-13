@@ -3176,8 +3176,7 @@
 		4CFB4E9B220BC56D00ECB4DE /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = translations/nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4CFF115223A9C2130007F9D7 /* UnreadIndicatorInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnreadIndicatorInteraction.swift; sourceTree = "<group>"; };
 		4CFF4C0920F55BBA005DA313 /* MessageActionsToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageActionsToolbar.swift; sourceTree = "<group>"; };
-		4E550F8F2B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4E550F912B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		4E0B860F2B1F56F700939063 /* RunningPrayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningPrayerCell.swift; sourceTree = "<group>"; };
 		4E0B86112B1F757B00939063 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		4E0B86132B1F7AE600939063 /* TimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
@@ -3199,6 +3198,10 @@
 		4E782D3C2B1A0E0700F6CE89 /* SettingsProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsProfileCell.swift; sourceTree = "<group>"; };
 		4E782D402B1B1A9000F6CE89 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		4E782D4B2B1C9D7800F6CE89 /* KahfCustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KahfCustomNavBar.swift; sourceTree = "<group>"; };
+=======
+		4E550F8F2B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E550F912B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+>>>>>>> master
 		4ED214072AA0C8B4004E713C /* GenderSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSettingsTableViewController.swift; sourceTree = "<group>"; };
 		4ED5CB382A603CB000C54BE9 /* FontTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTypography.swift; sourceTree = "<group>"; };
 		4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
@@ -6339,31 +6342,7 @@
 			path = Transitions;
 			sourceTree = "<group>";
 		};
-		4E550F8D2B233AE5004DFB17 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				4E550F8E2B233AE5004DFB17 /* Prod */,
-				4E550F902B233AE5004DFB17 /* Dev */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		4E550F8E2B233AE5004DFB17 /* Prod */ = {
-			isa = PBXGroup;
-			children = (
-				4E550F8F2B233AE5004DFB17 /* GoogleService-Info.plist */,
-			);
-			path = Prod;
-			sourceTree = "<group>";
-		};
-		4E550F902B233AE5004DFB17 /* Dev */ = {
-			isa = PBXGroup;
-			children = (
-				4E550F912B233AE5004DFB17 /* GoogleService-Info.plist */,
-			);
-			path = Dev;
-			sourceTree = "<group>";
-		};
+<<<<<<< HEAD
 		4E1CFDA02AF6C5CB00B9568D /* Inter */ = {
 			isa = PBXGroup;
 			children = (
@@ -6431,6 +6410,31 @@
 				4E2D16132A728C9500A18D2B /* HomeViewController.swift */,
 			);
 			path = Home;
+=======
+		4E550F8D2B233AE5004DFB17 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				4E550F8E2B233AE5004DFB17 /* Prod */,
+				4E550F902B233AE5004DFB17 /* Dev */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		4E550F8E2B233AE5004DFB17 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				4E550F8F2B233AE5004DFB17 /* GoogleService-Info.plist */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		4E550F902B233AE5004DFB17 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				4E550F912B233AE5004DFB17 /* GoogleService-Info.plist */,
+			);
+			path = Dev;
+>>>>>>> master
 			sourceTree = "<group>";
 		};
 		505C2ED72997421E00C23FB2 /* DeviceTransfer */ = {

@@ -109,6 +109,14 @@ final class CallKitCallUIAdaptee: NSObject, CallUIAdaptee, CXProviderDelegate {
 
     private func localizedCallerNameWithSneakyTransaction(for call: SignalCall) -> String {
         if showNamesOnCallScreen {
+            let fullName = contactsManager.displayNameWithSneakyTransaction(thread: call.thread)
+            var nameParts = fullName.components(separatedBy: " ")
+            if let lastItem = nameParts.last {
+                if lastItem == "Male" || lastItem == "Female" {
+                    nameParts.removeLast()
+                    return nameParts.joined(separator: " ")
+                }
+            }
             return contactsManager.displayNameWithSneakyTransaction(thread: call.thread)
         } else if call.isIndividualCall {
             return NSLocalizedString("CALLKIT_ANONYMOUS_CONTACT_NAME",

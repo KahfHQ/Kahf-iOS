@@ -39,6 +39,7 @@
 #import <SignalUI/ViewControllerUtils.h>
 #import <UserNotifications/UserNotifications.h>
 #import <WebRTC/WebRTC.h>
+@import FirebaseCore;
 
 NSString *const AppDelegateStoryboardMain = @"Main";
 NSString *const kAppLaunchesAttemptedKey = @"AppLaunchesAttempted";
@@ -159,7 +160,7 @@ static void uncaughtExceptionHandler(NSException *exception)
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
-
+    [FIRApp configure];
     // This should be the first thing we do.
     SetCurrentAppContext([MainAppContext new], NO);
 
