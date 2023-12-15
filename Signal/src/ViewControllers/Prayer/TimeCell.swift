@@ -16,7 +16,6 @@ class TimeCell: UITableViewCell {
     
     lazy var nameLabel: UILabel = {
         let view = UILabel()
-        view.text = "Fajr"
         view.textColor = .ows_gray01
         view.font = UIFont.interMedium16
         return view
@@ -24,7 +23,6 @@ class TimeCell: UITableViewCell {
     
     lazy var timeLabel: UILabel = {
         let view = UILabel()
-        view.text = "03:43 AM"
         view.textColor = .ows_kahf_gray2
         view.font = UIFont.interMedium12
         return view
@@ -52,13 +50,20 @@ class TimeCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    init(reuseIdentifier: String?) {
+    init(reuseIdentifier: String?, name: String, time: Date) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         addSubviews()
         setupConstraints()
         self.accessoryType = .none
         self.selectionStyle = .none
         self.backgroundColor = .clear
+        self.nameLabel.text = name
+        let formatter = DateFormatter()
+        formatter.timeStyle = .short
+        formatter.timeZone = TimeZone.current
+        self.timeLabel.text = "\(formatter.string(from: time))"
+        bgView.alpha = Date() > time ? 0.5 : 1.0
+        bgView.isUserInteractionEnabled = Date() < time
     }
     
     required init?(coder: NSCoder) {

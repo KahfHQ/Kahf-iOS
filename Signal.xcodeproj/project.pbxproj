@@ -769,6 +769,8 @@
 		4ED5CB2D2A5FC61900C54BE9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED5CB2C2A5FC61900C54BE9 /* SnapKit */; };
 		4ED5CB392A603CB000C54BE9 /* FontTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5CB382A603CB000C54BE9 /* FontTypography.swift */; };
 		4ED5CB452A61671100C54BE9 /* PrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */; };
+		4ED8A6E52B2A3F7F00EDD8BD /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED8A6E42B2A3F7F00EDD8BD /* Adhan */; };
+		4ED8A6E72B2B7EE600EDD8BD /* PrayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8A6E62B2B7EE600EDD8BD /* PrayerManager.swift */; };
 		5003BB3F299DA0F10037159B /* LinkPreviewFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003BB3E299DA0F10037159B /* LinkPreviewFetcher.swift */; };
 		5003BB41299E1FD10037159B /* LinkPreviewFetcherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003BB40299E1FD10037159B /* LinkPreviewFetcherTest.swift */; };
 		5003BB43299F034D0037159B /* E164.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003BB42299F034D0037159B /* E164.swift */; };
@@ -3176,8 +3178,6 @@
 		4CFB4E9B220BC56D00ECB4DE /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = translations/nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4CFF115223A9C2130007F9D7 /* UnreadIndicatorInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnreadIndicatorInteraction.swift; sourceTree = "<group>"; };
 		4CFF4C0920F55BBA005DA313 /* MessageActionsToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageActionsToolbar.swift; sourceTree = "<group>"; };
-		4E550F8F2B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4E550F912B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E0B860F2B1F56F700939063 /* RunningPrayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningPrayerCell.swift; sourceTree = "<group>"; };
 		4E0B86112B1F757B00939063 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		4E0B86132B1F7AE600939063 /* TimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
@@ -3193,6 +3193,8 @@
 		4E2D16112A722FF400A18D2B /* OWSTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWSTabBar.swift; sourceTree = "<group>"; };
 		4E2D16132A728C9500A18D2B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatListViewController+UI.swift"; sourceTree = "<group>"; };
+		4E550F8F2B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E550F912B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoveAppsViewControllerVC.swift; path = Signal/src/ViewControllers/MoreApps/MoveAppsViewControllerVC.swift; sourceTree = SOURCE_ROOT; };
 		4E782D322B16011400F6CE89 /* WpTelegramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WpTelegramVC.swift; sourceTree = "<group>"; };
 		4E782D342B1A042A00F6CE89 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
@@ -3202,6 +3204,7 @@
 		4ED214072AA0C8B4004E713C /* GenderSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSettingsTableViewController.swift; sourceTree = "<group>"; };
 		4ED5CB382A603CB000C54BE9 /* FontTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTypography.swift; sourceTree = "<group>"; };
 		4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
+		4ED8A6E62B2B7EE600EDD8BD /* PrayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerManager.swift; sourceTree = "<group>"; };
 		5000499E28330102006A7466 /* sr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = sr; path = translations/sr.lproj/PluralAware.stringsdict; sourceTree = "<group>"; };
 		500049A328330114006A7466 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = sv; path = translations/sv.lproj/PluralAware.stringsdict; sourceTree = "<group>"; };
 		500049A62833011A006A7466 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = th; path = translations/th.lproj/PluralAware.stringsdict; sourceTree = "<group>"; };
@@ -4849,6 +4852,7 @@
 				768A1A2B17FC9CD300E00ED8 /* libz.dylib in Frameworks */,
 				76C87F19181EFCE600C4ACAB /* MediaPlayer.framework in Frameworks */,
 				B9EB5ABD1884C002007CBB57 /* MessageUI.framework in Frameworks */,
+				4ED8A6E52B2A3F7F00EDD8BD /* Adhan in Frameworks */,
 				455A16DD1F1FEA0000F86704 /* Metal.framework in Frameworks */,
 				455A16DE1F1FEA0000F86704 /* MetalKit.framework in Frameworks */,
 				4520D8D51D417D8E00123472 /* Photos.framework in Frameworks */,
@@ -6339,6 +6343,22 @@
 			path = Transitions;
 			sourceTree = "<group>";
 		};
+		4E1CFDA02AF6C5CB00B9568D /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				4E1CFDA82AF6C5D700B9568D /* Inter-Black.ttf */,
+				4E1CFDA42AF6C5D700B9568D /* Inter-Bold.ttf */,
+				4E1CFDA32AF6C5D700B9568D /* Inter-ExtraBold.ttf */,
+				4E1CFDA12AF6C5D600B9568D /* Inter-ExtraLight.ttf */,
+				4E1CFDA52AF6C5D700B9568D /* Inter-Light.ttf */,
+				4E1CFDA72AF6C5D700B9568D /* Inter-Medium.ttf */,
+				4E1CFDA92AF6C5D700B9568D /* Inter-Regular.ttf */,
+				4E1CFDA62AF6C5D700B9568D /* Inter-SemiBold.ttf */,
+				4E1CFDA22AF6C5D700B9568D /* Inter-Thin.ttf */,
+			);
+			path = Inter;
+			sourceTree = "<group>";
+		};
 		4E550F8D2B233AE5004DFB17 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
@@ -6362,22 +6382,6 @@
 				4E550F912B233AE5004DFB17 /* GoogleService-Info.plist */,
 			);
 			path = Dev;
-			sourceTree = "<group>";
-		};
-		4E1CFDA02AF6C5CB00B9568D /* Inter */ = {
-			isa = PBXGroup;
-			children = (
-				4E1CFDA82AF6C5D700B9568D /* Inter-Black.ttf */,
-				4E1CFDA42AF6C5D700B9568D /* Inter-Bold.ttf */,
-				4E1CFDA32AF6C5D700B9568D /* Inter-ExtraBold.ttf */,
-				4E1CFDA12AF6C5D600B9568D /* Inter-ExtraLight.ttf */,
-				4E1CFDA52AF6C5D700B9568D /* Inter-Light.ttf */,
-				4E1CFDA72AF6C5D700B9568D /* Inter-Medium.ttf */,
-				4E1CFDA92AF6C5D700B9568D /* Inter-Regular.ttf */,
-				4E1CFDA62AF6C5D700B9568D /* Inter-SemiBold.ttf */,
-				4E1CFDA22AF6C5D700B9568D /* Inter-Thin.ttf */,
-			);
-			path = Inter;
 			sourceTree = "<group>";
 		};
 		4E782D302B148CF200F6CE89 /* MoreApps */ = {
@@ -6421,6 +6425,7 @@
 				4E0B860F2B1F56F700939063 /* RunningPrayerCell.swift */,
 				4E0B86112B1F757B00939063 /* CalendarCell.swift */,
 				4E0B86132B1F7AE600939063 /* TimeCell.swift */,
+				4ED8A6E62B2B7EE600EDD8BD /* PrayerManager.swift */,
 			);
 			path = Prayer;
 			sourceTree = "<group>";
@@ -9670,6 +9675,7 @@
 			packageProductDependencies = (
 				4ED5CB2C2A5FC61900C54BE9 /* SnapKit */,
 				4E782D2C2B1489BC00F6CE89 /* PanModal */,
+				4ED8A6E42B2A3F7F00EDD8BD /* Adhan */,
 			);
 			productName = RedPhone;
 			productReference = D221A089169C9E5E00537ABF /* Signal.app */;
@@ -9887,6 +9893,7 @@
 			packageReferences = (
 				4ED5CB2B2A5FC61900C54BE9 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				4E782D2B2B1489BC00F6CE89 /* XCRemoteSwiftPackageReference "PanModal" */,
+				4ED8A6E32B2A3F7F00EDD8BD /* XCRemoteSwiftPackageReference "adhan-swift" */,
 			);
 			productRefGroup = D221A08A169C9E5E00537ABF /* Products */;
 			projectDirPath = "";
@@ -11468,6 +11475,7 @@
 				887B380A25F0427F00685845 /* NotificationSettingsViewController.swift in Sources */,
 				F9CA468828FF0CA600C074F6 /* OneTimeDonationCustomAmountTextField.swift in Sources */,
 				AC12B86D0DA4943DF1DE9CE6 /* OWSAddToContactViewController.swift in Sources */,
+				4ED8A6E72B2B7EE600EDD8BD /* PrayerManager.swift in Sources */,
 				34D99C931F2937CC00D284D6 /* OWSAnalytics.swift in Sources */,
 				34A6C28021E503E700B5B12E /* OWSImagePickerController.swift in Sources */,
 				340FC8AF204DAC8D007AEB0F /* OWSLinkDeviceViewController.m in Sources */,
@@ -15782,6 +15790,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		4ED8A6E32B2A3F7F00EDD8BD /* XCRemoteSwiftPackageReference "adhan-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/batoulapps/adhan-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -15794,6 +15810,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4ED5CB2B2A5FC61900C54BE9 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		4ED8A6E42B2A3F7F00EDD8BD /* Adhan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ED8A6E32B2A3F7F00EDD8BD /* XCRemoteSwiftPackageReference "adhan-swift" */;
+			productName = Adhan;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -24,7 +24,6 @@ class RunningPrayerCell: UITableViewCell {
     
     lazy var bigTitleLabel: UILabel = {
         let view = UILabel()
-        view.text = "Isha"
         view.textColor = .white
         view.font = UIFont.interBold36
         return view
@@ -32,7 +31,6 @@ class RunningPrayerCell: UITableViewCell {
     
     lazy var contentLabel: UILabel = {
         let view = UILabel()
-        view.text = "2 hours 43 minutes until Fajr"
         view.textColor = .white
         view.font = UIFont.interRegular11
         return view
@@ -49,13 +47,40 @@ class RunningPrayerCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    init(reuseIdentifier: String?) {
+    init(reuseIdentifier: String?, current: String, next: String, coundown: Date) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         addSubviews()
         setupConstraints()
         self.accessoryType = .none
         self.selectionStyle = .none
         self.backgroundColor = .clear
+        self.bigTitleLabel.text = current
+        self.contentLabel.text = next
+        let calendar = Calendar.current
+        let components = calendar.dateComponents([.hour, .minute], from: Date(), to: coundown)
+        if let hours = components.hour, let minutes = components.minute {
+            var labelText = ""
+                
+            if hours > 0 {
+                labelText += "\(hours) hours"
+            }
+            
+            if minutes > 0 {
+                if labelText.count > 0 {
+                    labelText += " "
+                }
+                labelText += "\(minutes) minutes"
+            }
+
+            if labelText.count > 0 {
+                labelText += " until \(next)"
+                self.contentLabel.text = labelText
+            } else {
+                self.contentLabel.text = "Event is happening now or in the past."
+            }
+        } else {
+            print("Unable to calculate duration.")
+        }
     }
     
     required init?(coder: NSCoder) {

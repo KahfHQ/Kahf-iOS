@@ -14,7 +14,6 @@ class CalendarCell: UITableViewCell {
     
     lazy var smallTitleLabel: UILabel = {
         let view = UILabel()
-        view.text = "Dhaka  |  15 June 2023"
         view.textColor = .blue
         view.font = UIFont.interSemiBold12
         return view
@@ -22,7 +21,6 @@ class CalendarCell: UITableViewCell {
     
     lazy var bigTitleLabel: UILabel = {
         let view = UILabel()
-        view.text = "Today"
         view.textColor = .black
         view.font = UIFont.interBold24
         return view
@@ -30,7 +28,6 @@ class CalendarCell: UITableViewCell {
     
     lazy var contentLabel: UILabel = {
         let view = UILabel()
-        view.text = "Dgy Al-Ql’dah 30, 1444 AH"
         view.textColor = .ows_gray03
         view.font = UIFont.interRegular12
         return view
@@ -43,6 +40,7 @@ class CalendarCell: UITableViewCell {
             make.width.equalTo(11)
             make.height.equalTo(18)
         }
+        button.addTarget(self, action: #selector(leftButtonTapped), for: .touchUpInside)
         return button
     }()
     
@@ -53,8 +51,12 @@ class CalendarCell: UITableViewCell {
             make.width.equalTo(11)
             make.height.equalTo(18)
         }
+        button.addTarget(self, action: #selector(rightButtonTapped), for: .touchUpInside)
         return button
     }()
+    
+    var leftButtonAction : (() -> Void)?
+    var rightButtonAction : (() -> Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -67,13 +69,18 @@ class CalendarCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    init(reuseIdentifier: String?) {
+    init(reuseIdentifier: String?, day: Day, city: String) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         addSubviews()
         setupConstraints()
         self.accessoryType = .none
         self.selectionStyle = .none
         self.backgroundColor = .clear
+        self.bigTitleLabel.text = day.name
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd MMMM yyyy"
+        self.smallTitleLabel.text = city + "  |  " + dateFormatter.string(from: day.date)
+        self.contentLabel.text = convertToIslamicDate(day.date)
     }
     
     required init?(coder: NSCoder) {
@@ -110,13 +117,35 @@ class CalendarCell: UITableViewCell {
     }
     
     func addSubviews() {
-        addSubview(bgView)
+        contentView.addSubview(bgView)
         bgView.addSubview(smallTitleLabel)
         bgView.addSubview(bigTitleLabel)
         bgView.addSubview(contentLabel)
         bgView.addSubview(leftButton)
         bgView.addSubview(rightButton)
     }
+    
+    @objc func leftButtonTapped() {
+        leftButtonAction?()
+    }
+    
+    @objc func rightButtonTapped() {
+        rightButtonAction?()
+    }
+    
+    func convertToIslamicDate(_ date: Date) -> String {
+        let calendar = Calendar(identifier: .islamicUmmAlQura)
+        let components = calendar.dateComponents([.day, .month, .year], from: date)
 
+        let day = components.day ?? 1
+        let month = components.month ?? 1
+        let year = components.year ?? 1444
+
+        // Convert month number to its Arabic representation
+        let arabicMonths = ["Muharram", "Safar", "Rabi' al-Awwal", "Rabi' al-Thani", "Jumada al-Awwal", "Jumada al-Thani", "Rajab", "Sha'ban", "Ramadan", "Shawwal", "Dhu al-Qi'dah", "Dhu al-Hijjah"]
+        let arabicMonth = arabicMonths[month - 1]
+
+        return "Dgy \(arabicMonth) \(day), \(year) AH"
+    }
 }
 
