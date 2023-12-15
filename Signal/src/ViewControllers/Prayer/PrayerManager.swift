@@ -31,12 +31,17 @@ class PrayerManager {
         let today = calendar.dateComponents([.year, .month, .day], from: Day.today.date)
         let tomorrow = calendar.dateComponents([.year, .month, .day], from: Day.tomorrow.date)
         if let prayerTimes = PrayerTimes(coordinates: coordinates, date: today, calculationParameters: params) {
-            guard let current = prayerTimes.currentPrayer(), let next = prayerTimes.nextPrayer() else { return }
-            completion(current, next, prayerTimes.time(for: next))
-            
+            if let current = prayerTimes.currentPrayer(){
+                if let next = prayerTimes.nextPrayer() {
+                    completion(current, next, prayerTimes.time(for: next))
+                } else if let prayerTimes = PrayerTimes(coordinates: coordinates, date: tomorrow, calculationParameters: params), let next = prayerTimes.nextPrayer() {
+                    completion(current, next, prayerTimes.time(for: next))
+                }
+            }
         } else if let prayerTimes = PrayerTimes(coordinates: coordinates, date: tomorrow, calculationParameters: params) {
-            guard let current = prayerTimes.currentPrayer(), let next = prayerTimes.nextPrayer() else { return }
-            completion(current, next, prayerTimes.time(for: next))
+            if let current = prayerTimes.currentPrayer(), let next = prayerTimes.nextPrayer() {
+                completion(current, next, prayerTimes.time(for: next))
+            }
         }
         else {
             completion(nil, nil, nil)
