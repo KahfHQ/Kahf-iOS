@@ -765,6 +765,13 @@
 		4E782D492B1B881500F6CE89 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA62AF6C5D700B9568D /* Inter-SemiBold.ttf */; };
 		4E782D4A2B1B881A00F6CE89 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA22AF6C5D700B9568D /* Inter-Thin.ttf */; };
 		4E782D4C2B1C9D7800F6CE89 /* KahfCustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D4B2B1C9D7800F6CE89 /* KahfCustomNavBar.swift */; };
+		4E8AED002B2CE2EA0033F9F9 /* tickle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AECE92B2CE2EA0033F9F9 /* tickle.mp3 */; };
+		4E8AED052B2CE2EA0033F9F9 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECF02B2CE2EA0033F9F9 /* NotificationScheduler.swift */; };
+		4E8AED062B2CE2EA0033F9F9 /* NotificationSchedulerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECF12B2CE2EA0033F9F9 /* NotificationSchedulerDelegate.swift */; };
+		4E8AED0A2B2CE2EA0033F9F9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECF52B2CE2EA0033F9F9 /* Store.swift */; };
+		4E8AED0C2B2CE2EA0033F9F9 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECF72B2CE2EA0033F9F9 /* Alarm.swift */; };
+		4E8AED0D2B2CE2EA0033F9F9 /* Alarms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECF82B2CE2EA0033F9F9 /* Alarms.swift */; };
+		4E8AED122B2CE2EA0033F9F9 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECFD2B2CE2EA0033F9F9 /* Identifier.swift */; };
 		4ED214082AA0C8B4004E713C /* GenderSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED214072AA0C8B4004E713C /* GenderSettingsTableViewController.swift */; };
 		4ED5CB2D2A5FC61900C54BE9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED5CB2C2A5FC61900C54BE9 /* SnapKit */; };
 		4ED5CB392A603CB000C54BE9 /* FontTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5CB382A603CB000C54BE9 /* FontTypography.swift */; };
@@ -3201,6 +3208,13 @@
 		4E782D3C2B1A0E0700F6CE89 /* SettingsProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsProfileCell.swift; sourceTree = "<group>"; };
 		4E782D402B1B1A9000F6CE89 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		4E782D4B2B1C9D7800F6CE89 /* KahfCustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KahfCustomNavBar.swift; sourceTree = "<group>"; };
+		4E8AECE92B2CE2EA0033F9F9 /* tickle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tickle.mp3; sourceTree = "<group>"; };
+		4E8AECF02B2CE2EA0033F9F9 /* NotificationScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		4E8AECF12B2CE2EA0033F9F9 /* NotificationSchedulerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSchedulerDelegate.swift; sourceTree = "<group>"; };
+		4E8AECF52B2CE2EA0033F9F9 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		4E8AECF72B2CE2EA0033F9F9 /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		4E8AECF82B2CE2EA0033F9F9 /* Alarms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarms.swift; sourceTree = "<group>"; };
+		4E8AECFD2B2CE2EA0033F9F9 /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 		4ED214072AA0C8B4004E713C /* GenderSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSettingsTableViewController.swift; sourceTree = "<group>"; };
 		4ED5CB382A603CB000C54BE9 /* FontTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTypography.swift; sourceTree = "<group>"; };
 		4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
@@ -6410,6 +6424,20 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		4E8AECE72B2CE2EA0033F9F9 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				4E8AECE92B2CE2EA0033F9F9 /* tickle.mp3 */,
+				4E8AECF02B2CE2EA0033F9F9 /* NotificationScheduler.swift */,
+				4E8AECF12B2CE2EA0033F9F9 /* NotificationSchedulerDelegate.swift */,
+				4E8AECF52B2CE2EA0033F9F9 /* Store.swift */,
+				4E8AECF72B2CE2EA0033F9F9 /* Alarm.swift */,
+				4E8AECF82B2CE2EA0033F9F9 /* Alarms.swift */,
+				4E8AECFD2B2CE2EA0033F9F9 /* Identifier.swift */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
 		4ED5CB2E2A603C0200C54BE9 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -6421,6 +6449,7 @@
 		4ED5CB432A61670300C54BE9 /* Prayer */ = {
 			isa = PBXGroup;
 			children = (
+				4E8AECE72B2CE2EA0033F9F9 /* Alarm */,
 				4ED5CB442A61671100C54BE9 /* PrayerViewController.swift */,
 				4E0B860F2B1F56F700939063 /* RunningPrayerCell.swift */,
 				4E0B86112B1F757B00939063 /* CalendarCell.swift */,
@@ -10003,6 +10032,7 @@
 				8880178D2741E5DB00346E9A /* boost_heart_eyes.json in Resources */,
 				8880178E2741E5DB00346E9A /* boost_rockets.json in Resources */,
 				8880178C2741E5DB00346E9A /* boost_shock.json in Resources */,
+				4E8AED002B2CE2EA0033F9F9 /* tickle.mp3 in Resources */,
 				8880178F2741E5DB00346E9A /* boost_smile.json in Resources */,
 				4E782D452B1B880C00F6CE89 /* Inter-ExtraBold.ttf in Resources */,
 				34CF0787203E6B78005C4D61 /* busy_tone_ansi.caf in Resources */,
@@ -11155,6 +11185,7 @@
 				34A4D8852677DF6B00A794E7 /* ConversationViewController+ConversationInputToolbarDelegate.swift in Sources */,
 				3470518E254B511B00A19468 /* ConversationViewController+CVC.swift in Sources */,
 				34A4D87D2677A1EF00A794E7 /* ConversationViewController+CVComponentDelegate.swift in Sources */,
+				4E8AED0D2B2CE2EA0033F9F9 /* Alarms.swift in Sources */,
 				34A4D8872678F24300A794E7 /* ConversationViewController+Delegates.swift in Sources */,
 				88238EAF24EB798900F28079 /* ConversationViewController+GestureRecognizers.swift in Sources */,
 				500FE4E0288A11B000FA090C /* ConversationViewController+GiftBadges.swift in Sources */,
@@ -11184,6 +11215,7 @@
 				F9F797DF296CC54A0025C103 /* CreditOrDebitCardDonationViewController+GiftDonation.swift in Sources */,
 				F98ED2D02922F24C008483DC /* CreditOrDebitCardDonationViewController+MonthlyDonation.swift in Sources */,
 				F93461B3291EB8C700366682 /* CreditOrDebitCardDonationViewController+OneTimeDonation.swift in Sources */,
+				4E8AED0A2B2CE2EA0033F9F9 /* Store.swift in Sources */,
 				F94360F12910154C007EE6A7 /* CreditOrDebitCardDonationViewController.swift in Sources */,
 				F9C8CFCC2935700B0094469C /* CreditOrDebitCardReadMoreSheetViewController.swift in Sources */,
 				346B66311F4E29B200E5122F /* CropScaleImageViewController.swift in Sources */,
@@ -11249,6 +11281,7 @@
 				88535064240829950011D318 /* DateHeaderInteraction.swift in Sources */,
 				34DC9BD921543E0C00FDDCEC /* DebugContactsUtils.m in Sources */,
 				349A5C5425CD7A6C00B30EE8 /* DebugContactsUtils.swift in Sources */,
+				4E8AED052B2CE2EA0033F9F9 /* NotificationScheduler.swift in Sources */,
 				4579431E1E7C8CE9008ED0C0 /* DebugLogs.m in Sources */,
 				34067EAB2710D61A000407C3 /* DebugLogs.swift in Sources */,
 				45638BDC1F3DD0D400128435 /* DebugUICalling.swift in Sources */,
@@ -11462,6 +11495,7 @@
 				8862921028355B8000AA0C3B /* MyStoryViewModel.swift in Sources */,
 				32CBF07D258C939800D56903 /* NameCollisionResolutionViewController.swift in Sources */,
 				3236FCC42592B67B006D33B9 /* NameCollisionReviewCell.swift in Sources */,
+				4E8AED062B2CE2EA0033F9F9 /* NotificationSchedulerDelegate.swift in Sources */,
 				329D42A725AE673400DCB449 /* NetworkInterfacePreferenceViewController.swift in Sources */,
 				3465947E2434CCC100E5C510 /* NewGroupConfirmViewController.swift in Sources */,
 				34995F1B2411838D00C70546 /* NewGroupMembersViewController.swift in Sources */,
@@ -11567,9 +11601,11 @@
 				346EAA1225013CDF00E8AB6F /* SendMessageFlow.swift in Sources */,
 				3497972025DAA86100E99FA4 /* SendPaymentCompletionActionSheet.swift in Sources */,
 				3497972325DAAE3800E99FA4 /* SendPaymentHelper.swift in Sources */,
+				4E8AED0C2B2CE2EA0033F9F9 /* Alarm.swift in Sources */,
 				34EEECF225E846ED00574F0D /* SendPaymentMemoViewController.swift in Sources */,
 				3497972125DAA86100E99FA4 /* SendPaymentViewController.swift in Sources */,
 				8876CE4A26A914B8002217ED /* SentMediaQualitySettingsViewController.swift in Sources */,
+				4E8AED122B2CE2EA0033F9F9 /* Identifier.swift in Sources */,
 				886BB3D325BA0CA400079781 /* SetWallpaperViewController.swift in Sources */,
 				D99840CE2981A09900F7ED6D /* ShareMyUsernameSheetViewController.swift in Sources */,
 				346129991FD1E4DA00532771 /* SignalApp.m in Sources */,

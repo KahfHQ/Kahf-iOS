@@ -28,16 +28,17 @@ class TimeCell: UITableViewCell {
         return view
     }()
     
-    lazy var silentButton: UIButton = {
+    lazy var alarmButton: UIButton = {
         let button = UIButton()
-        button.setImage(Theme.iconImage(.kahfAlert, renderingMode: .alwaysOriginal), for: .normal)
-        //button.setImage(Theme.iconImage(.kahfAlertDisabled, renderingMode: .alwaysOriginal), for: .normal)
+        button.addTarget(self, action: #selector(alarmButtonTapped), for: .touchUpInside)
         button.snp.makeConstraints { make in
             make.width.equalTo(18)
             make.height.equalTo(18)
         }
         return button
     }()
+    
+    var alarmButtonAction : (() -> Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -50,7 +51,7 @@ class TimeCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    init(reuseIdentifier: String?, name: String, time: Date) {
+    init(reuseIdentifier: String?, name: String, time: Date, isAlarmSet: Bool) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         addSubviews()
         setupConstraints()
@@ -62,8 +63,19 @@ class TimeCell: UITableViewCell {
         formatter.timeStyle = .short
         formatter.timeZone = TimeZone.current
         self.timeLabel.text = "\(formatter.string(from: time))"
-        bgView.alpha = Date() > time ? 0.5 : 1.0
-        bgView.isUserInteractionEnabled = Date() < time
+        if Date() > time {
+            alarmButton.setImage(Theme.iconImage(isAlarmSet ? .kahfAlertDisabled :.kahfAlert, renderingMode: .alwaysOriginal).withTintColor(.ows_gray01), for: .normal)
+            bgView.alpha = 0.3
+            bgView.backgroundColor = .ows_gray06
+            bgView.isUserInteractionEnabled = false
+        }
+        else {
+            alarmButton.setImage(Theme.iconImage(isAlarmSet ? .kahfAlertDisabled :.kahfAlert, renderingMode: .alwaysOriginal), for: .normal)
+            bgView.alpha = 1.0
+            bgView.backgroundColor = .white
+            bgView.isUserInteractionEnabled = true
+        }
+        
     }
     
     required init?(coder: NSCoder) {
@@ -82,19 +94,23 @@ class TimeCell: UITableViewCell {
         }
         timeLabel.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
-            make.trailing.equalTo(silentButton.snp.leading).offset(-26)
+            make.trailing.equalTo(alarmButton.snp.leading).offset(-26)
         }
-        silentButton.snp.makeConstraints { make in
+        alarmButton.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
             make.trailing.equalToSuperview().offset(-20)
         }
     }
     
     func addSubviews() {
-        addSubview(bgView)
+        contentView.addSubview(bgView)
         bgView.addSubview(nameLabel)
         bgView.addSubview(timeLabel)
-        bgView.addSubview(silentButton)
+        bgView.addSubview(alarmButton)
+    }
+    
+    @objc func alarmButtonTapped() {
+        alarmButtonAction?()
     }
 }
 

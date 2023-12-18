@@ -55,6 +55,9 @@ class PrayerViewController: UITableViewController {
     var locationManager = CLLocationManager()
     var coordinate: CLLocationCoordinate2D?
     var day : Day = .today
+    var prayerManager = PrayerManager.shared
+    private let scheduler: NotificationSchedulerDelegate = NotificationScheduler()
+    var alarms = Store.shared.alarms
     
     private var customNavBar: KahfCustomNavBar = {
        let view = KahfCustomNavBar()
@@ -76,12 +79,16 @@ class PrayerViewController: UITableViewController {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         checkAndRequestLocationAuthorization()
+        NotificationCenter.default.addObserver(self, selector: #selector(handleChangeNotification(_:)), name: Store.changedNotification, object: nil)
+        scheduler.requestAuthorization()
+        scheduler.registerNotificationCategories()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         addSubviews()
         makeConstraints()
+        clearOldAlarms()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -100,15 +107,15 @@ class PrayerViewController: UITableViewController {
     }
     
     func fetchTimes(coordinate: CLLocationCoordinate2D) {
-        contents.removeAll()
         getAddressFromCoordinates(latitude: coordinate.latitude, longitude: coordinate.longitude) { city in
-            PrayerManager.shared.getCurrentNextPrayerTimes(coordinate: coordinate, completion: { current, next, countdown in
+            self.contents.removeAll()
+            self.prayerManager.getCurrentNextPrayerTimes(coordinate: coordinate, completion: { current, next, countdown in
                 guard let current = current, let next = next, let countdown = countdown else { return }
                 self.contents.append(.runningPrayer(current: current, next: next, countdown: countdown))
                 if let city = city {
                     self.contents.append(.calendar(day: self.day, city: city))
                 }
-                PrayerManager.shared.fetchTimes(coordinate: coordinate, day: self.day.date) { times in
+                self.prayerManager.fetchTimes(coordinate: coordinate, day: self.day.date) { times in
                     guard let times = times else { return }
                     self.contents.append(.times(name: "Fajr", time: times.fajr))
                     self.contents.append(.times(name: "Sunrise", time: times.sunrise))
@@ -138,6 +145,18 @@ class PrayerViewController: UITableViewController {
     func startUpdatingLocation() {
         locationManager.startUpdatingLocation()
     }
+    
+    func clearOldAlarms() {
+        alarms.uuids.forEach { id in
+            if let alarm = alarms.getAlarm(ByUUIDStr: id) {
+                let now = Date()
+                if alarm.date < now {
+                    print("\(alarm.id) alarmDate\(alarm.date) now \(now)")
+                    alarms.remove(alarm.id)
+                }
+            }
+        }
+    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return contents.count
@@ -155,7 +174,25 @@ class PrayerViewController: UITableViewController {
                 cell.rightButtonAction = { self.goToNextDay() }
                 return cell
             case .times(let name, let time):
-                return TimeCell(reuseIdentifier: nil, name: name, time: time)
+                var isAlarmSet = false
+                var buttonAction = {}
+                if let alarm = self.alarms.getAlarm(ByUUIDStr: "alarm_set_at_\(time.timeIntervalSince1970)") {
+                    isAlarmSet = true
+                    buttonAction = {
+                        self.alarms.remove("alarm_set_at_\(time.timeIntervalSince1970)")
+                        self.tableView.reloadData()
+                    }
+                }
+                else {
+                    buttonAction = {
+                        let alarm = Alarm(id: "alarm_set_at_\(time.timeIntervalSince1970)", date: time, enabled: true, snoozeEnabled: true, repeatWeekdays: [], mediaID: "bell", mediaLabel: "78787", label: "87878")
+                        self.alarms.add(alarm)
+                        self.tableView.reloadData()
+                    }
+                }
+                let cell = TimeCell(reuseIdentifier: nil, name: name, time: time, isAlarmSet: isAlarmSet)
+                cell.alarmButtonAction = buttonAction
+                return cell
         }
     }
     
@@ -196,6 +233,40 @@ class PrayerViewController: UITableViewController {
     func update() {
         guard let coordinate = coordinate else { return }
         self.fetchTimes(coordinate: coordinate)
+    }
+    
+    @objc func handleChangeNotification(_ notification: Notification) {
+        
+        guard let userInfo = notification.userInfo else {
+            return
+        }
+        
+        // Handle changes to contents
+        if let changeReason = userInfo[Alarm.changeReasonKey] as? String {
+            let newValue = userInfo[Alarm.newValueKey]
+            let oldValue = userInfo[Alarm.oldValueKey]
+            switch (changeReason, newValue, oldValue) {
+            case let (Alarm.removed, (uuid as String)?, (_ as Int)?):
+                if alarms.count == 0 {
+                    self.navigationItem.leftBarButtonItem = nil
+                }
+                scheduler.cancelNotification(ByUUIDStr: uuid)
+            case let (Alarm.added, (index as Int)?, _):
+                let alarm = alarms[index]
+                scheduler.setNotification(date: alarm.date, ringtoneName: alarm.mediaLabel, repeatWeekdays: alarm.repeatWeekdays, snoozeEnabled: alarm.snoozeEnabled, onSnooze: false, uuid: alarm.id)
+            case let (Alarm.updated, (index as Int)?, _):
+                let alarm = alarms[index]
+                let id = alarm.id
+                if alarm.enabled {
+                    scheduler.updateNotification(ByUUIDStr: id, date: alarm.date, ringtoneName: alarm.mediaLabel, repeatWeekdays: alarm.repeatWeekdays, snoonzeEnabled: alarm.snoozeEnabled)
+                } else {
+                    scheduler.cancelNotification(ByUUIDStr: id)
+                }
+            default: tableView.reloadData()
+            }
+        } else {
+            tableView.reloadData()
+        }
     }
 }
 
