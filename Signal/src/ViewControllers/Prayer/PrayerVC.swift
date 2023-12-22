@@ -308,12 +308,12 @@ class PrayerVC: UITableViewController {
                 scheduler.cancelNotification(ByUUIDStr: uuid)
             case let (Alarm.added, (index as Int)?, _):
                 let alarm = alarms[index]
-                scheduler.setNotification(date: Date().addingTimeInterval(60), ringtoneName: alarm.mediaLabel, repeatWeekdays: alarm.repeatWeekdays, snoozeEnabled: alarm.snoozeEnabled, onSnooze: false, uuid: alarm.id, label: alarm.label)
+                scheduler.setNotification(date: alarm.date, ringtoneName: alarm.mediaLabel, repeatWeekdays: alarm.repeatWeekdays, snoozeEnabled: alarm.snoozeEnabled, onSnooze: false, uuid: alarm.id, label: alarm.label)
             case let (Alarm.updated, (index as Int)?, _):
                 let alarm = alarms[index]
                 let id = alarm.id
                 if alarm.enabled {
-                    scheduler.updateNotification(ByUUIDStr: id, date: Date().addingTimeInterval(60), ringtoneName: alarm.mediaLabel, repeatWeekdays: alarm.repeatWeekdays, snoonzeEnabled: alarm.snoozeEnabled, label: alarm.label)
+                    scheduler.updateNotification(ByUUIDStr: id, date: alarm.date, ringtoneName: alarm.mediaLabel, repeatWeekdays: alarm.repeatWeekdays, snoonzeEnabled: alarm.snoozeEnabled, label: alarm.label)
                 } else {
                     scheduler.cancelNotification(ByUUIDStr: id)
                 }
