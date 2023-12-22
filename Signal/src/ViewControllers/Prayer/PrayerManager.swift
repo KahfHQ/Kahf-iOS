@@ -1,5 +1,5 @@
 //
-// Copyright 2023 Signal Messenger, LLC
+// Copyright 2023 Kahf Messenger, LLC
 // SPDX-License-Identifier: AGPL-3.0-only
 //
 
@@ -10,11 +10,12 @@ import CoreLocation
 class PrayerManager {
     static let shared = PrayerManager()
     private var calendar = Calendar(identifier: Calendar.Identifier.gregorian)
-    private var params = CalculationMethod.moonsightingCommittee.params
+    var params = CalculationMethod.moonsightingCommittee.params
     
     init() {
         calendar.timeZone = TimeZone.current
         params.madhab = .hanafi
+        params.method = .muslimWorldLeague
     }
     
     func fetchTimes(coordinate: CLLocationCoordinate2D, day: Date, completion: @escaping(PrayerTimes?) -> Void) -> Void {

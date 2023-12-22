@@ -323,6 +323,11 @@ public extension UIColor {
     class var ows_kahf_background: UIColor {
         return UIColor(rgbHex: 0xFAFBFD)
     }
+    
+    @objc(ows_kahf_selected_item_blue_background)
+    class var ows_kahf_selected_item_blue_background: UIColor {
+        return UIColor(rgbHex: 0xECF4FF)
+    }
     // MARK: -
 
     class func ows_randomColor(isAlphaRandom: Bool) -> UIColor {

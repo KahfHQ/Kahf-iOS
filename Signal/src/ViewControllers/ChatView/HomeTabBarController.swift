@@ -23,7 +23,7 @@ class HomeTabBarController: UITabBarController {
     lazy var homeTabBarItem = UITabBarItem(title: "Home",
         image: UIImage(named: "tabbar-home"),
         selectedImage: UIImage(named: "tabbar-home")!)
-    lazy var prayerNavController = PrayerViewController.inModalNavigationController()
+    lazy var prayerNavController = PrayerVC.inModalNavigationController()
     lazy var prayerTabBarItem = UITabBarItem(title: "Prayer",
         image: UIImage(named: "tabbar-prayer"),
         selectedImage: UIImage(named: "tabbar-prayer")!)

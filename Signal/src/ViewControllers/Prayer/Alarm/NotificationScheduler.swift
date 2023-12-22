@@ -1,3 +1,9 @@
+//
+// Copyright 2023 Kahf Messenger, LLC
+// SPDX-License-Identifier: AGPL-3.0-only
+//
+
+
 import Foundation
 import UIKit
 import UserNotifications
@@ -126,16 +132,18 @@ class NotificationScheduler : NotificationSchedulerDelegate
         return d
     }
     
-    func setNotification(date: Date, ringtoneName: String, repeatWeekdays: [Int], snoozeEnabled: Bool, onSnooze: Bool, uuid: String) {
+    func setNotification(date: Date, ringtoneName: String, repeatWeekdays: [Int], snoozeEnabled: Bool, onSnooze: Bool, uuid: String, label: String) {
         let datesForNotification = getNotificationDates(baseDate: date, onWeekdaysForNotify: repeatWeekdays)
         
         for d in datesForNotification {
             let notificationContent = UNMutableNotificationContent()
-            notificationContent.title = "Alarm"
-            notificationContent.body = "Wake Up"
+            notificationContent.title = "\(label) Time"
+            notificationContent.body = "It is the prayer time for \(label)"
             notificationContent.categoryIdentifier = snoozeEnabled ? Identifier.snoozeAlarmCategoryIndentifier
                                                                    : Identifier.alarmCategoryIndentifier
-            notificationContent.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "tickle.mp3"))
+            if ringtoneName != "" {
+                notificationContent.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: ringtoneName))
+            }
             notificationContent.userInfo = ["snooze" : snoozeEnabled, "uuid": uuid, "soundName": ringtoneName]
             //repeat weekly if repeat weekdays are selected
             //no repeat with snooze notification
@@ -159,20 +167,13 @@ class NotificationScheduler : NotificationSchedulerDelegate
         }
     }
     
-    func setNotificationForSnooze(ringtoneName: String, snoozeMinute: Int, uuid: String) {
-        let calendar = Calendar(identifier: Calendar.Identifier.gregorian)
-        let now = Date()
-        let snoozeDate = (calendar as NSCalendar).date(byAdding: NSCalendar.Unit.minute, value: snoozeMinute, to: now, options:.matchStrictly)!
-        setNotification(date: snoozeDate, ringtoneName: ringtoneName, repeatWeekdays: [], snoozeEnabled: true, onSnooze: true, uuid: uuid)
-    }
-    
     func cancelNotification(ByUUIDStr uuid: String) {
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [uuid])
     }
     
-    func updateNotification(ByUUIDStr uuid: String, date: Date, ringtoneName: String, repeatWeekdays: [Int], snoonzeEnabled: Bool) {
+    func updateNotification(ByUUIDStr uuid: String, date: Date, ringtoneName: String, repeatWeekdays: [Int], snoonzeEnabled: Bool, label: String) {
         cancelNotification(ByUUIDStr: uuid)
-        setNotification(date: date, ringtoneName: ringtoneName, repeatWeekdays: repeatWeekdays, snoozeEnabled: snoonzeEnabled, onSnooze: false, uuid: uuid)
+        setNotification(date: date, ringtoneName: ringtoneName, repeatWeekdays: repeatWeekdays, snoozeEnabled: snoonzeEnabled, onSnooze: false, uuid: uuid, label: label)
     }
     
     enum weekdaysComparisonResult {

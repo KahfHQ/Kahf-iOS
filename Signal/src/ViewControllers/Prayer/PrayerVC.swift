@@ -1,7 +1,8 @@
 //
-// Copyright 2021 Signal Messenger, LLC
+// Copyright 2021 Kahf Messenger, LLC
 // SPDX-License-Identifier: AGPL-3.0-only
 //
+
 
 import Foundation
 import SignalMessaging
@@ -9,7 +10,8 @@ import SignalUI
 import SnapKit
 import UIKit
 import CoreLocation
-import Adhan    
+import Adhan
+import PanModal
 
 enum PrayerContent {
     case runningPrayer(current: Prayer, next: Prayer, countdown: Date)
@@ -49,7 +51,7 @@ enum Day: CaseIterable {
 }
 
 @objc
-class PrayerViewController: UITableViewController {
+class PrayerVC: UITableViewController {
 
     private var contents: [PrayerContent] = []
     var locationManager = CLLocationManager()
@@ -66,7 +68,7 @@ class PrayerViewController: UITableViewController {
     
     @objc
     class func inModalNavigationController() -> OWSNavigationController {
-        OWSNavigationController(rootViewController: PrayerViewController())
+        OWSNavigationController(rootViewController: PrayerVC())
     }
 
     override func viewDidLoad() {
@@ -82,6 +84,7 @@ class PrayerViewController: UITableViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(handleChangeNotification(_:)), name: Store.changedNotification, object: nil)
         scheduler.requestAuthorization()
         scheduler.registerNotificationCategories()
+        customNavBar.contextMenuButton.contextMenu = settingsContextMenu()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -89,6 +92,9 @@ class PrayerViewController: UITableViewController {
         addSubviews()
         makeConstraints()
         clearOldAlarms()
+        if let coordinate = coordinate {
+            fetchTimes(coordinate: coordinate)
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -98,12 +104,37 @@ class PrayerViewController: UITableViewController {
     
     func makeConstraints() {
         customNavBar.snp.makeConstraints { make in
-            make.width.equalToSuperview()
+            make.width.height.equalToSuperview()
         }
     }
     
     func addSubviews() {
         navigationController?.navigationBar.addSubview(customNavBar)
+    }
+    
+    func settingsContextMenu() -> ContextMenu {
+        var contextMenuActions: [ContextMenuAction] = []
+        contextMenuActions.append(
+            ContextMenuAction(
+                title: "Madhab / Asr Time",
+                attributes: [],
+                handler: { [weak self] (_) in
+                    self?.showParameterPickerVC(isCalculationMethods: false)
+                }))
+        contextMenuActions.append(
+            ContextMenuAction(
+                title: "Calculation Method",
+                attributes: [],
+                handler: { [weak self] (_) in
+                    self?.showParameterPickerVC(isCalculationMethods: true)
+                }))
+        return .init(contextMenuActions)
+    }
+    
+    func showParameterPickerVC(isCalculationMethods: Bool) {
+        let vc = PrayerParameterPickerVC()
+        vc.isCalculationMethods = isCalculationMethods
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     func fetchTimes(coordinate: CLLocationCoordinate2D) {
@@ -174,23 +205,25 @@ class PrayerViewController: UITableViewController {
                 cell.rightButtonAction = { self.goToNextDay() }
                 return cell
             case .times(let name, let time):
-                var isAlarmSet = false
-                var buttonAction = {}
-                if let alarm = self.alarms.getAlarm(ByUUIDStr: "alarm_set_at_\(time.timeIntervalSince1970)") {
-                    isAlarmSet = true
-                    buttonAction = {
-                        self.alarms.remove("alarm_set_at_\(time.timeIntervalSince1970)")
-                        self.tableView.reloadData()
+                let buttonAction = {
+                    let vc = AlarmNotificationOptionsVC()
+                    if let alarm = self.alarms.getAlarm(ByUUIDStr: "alarm_set_at_\(time.timeIntervalSince1970)") {
+                        if alarm.mediaLabel.isEmpty {
+                            vc.selectedMethod = .notification
+                        }
+                        else {
+                            vc.selectedMethod = .adhan
+                        }
+                    } else {
+                        vc.selectedMethod = .silent
                     }
-                }
-                else {
-                    buttonAction = {
-                        let alarm = Alarm(id: "alarm_set_at_\(time.timeIntervalSince1970)", date: time, enabled: true, snoozeEnabled: true, repeatWeekdays: [], mediaID: "bell", mediaLabel: "78787", label: "87878")
-                        self.alarms.add(alarm)
-                        self.tableView.reloadData()
+                    vc .changeNotificationOption = { method in
+                        self.editNotification(method: method, time: time, name: name)
+                        vc.dismiss(animated: true)
                     }
+                    self.presentPanModal(vc)
                 }
-                let cell = TimeCell(reuseIdentifier: nil, name: name, time: time, isAlarmSet: isAlarmSet)
+                let cell = TimeCell(reuseIdentifier: nil, name: name, time: time, alarm: self.alarms.getAlarm(ByUUIDStr: "alarm_set_at_\(time.timeIntervalSince1970)"))
                 cell.alarmButtonAction = buttonAction
                 return cell
         }
@@ -235,6 +268,28 @@ class PrayerViewController: UITableViewController {
         self.fetchTimes(coordinate: coordinate)
     }
     
+    func editNotification(method: NotificationMethod, time: Date, name: String) {
+        if let alarm = self.alarms.getAlarm(ByUUIDStr: "alarm_set_at_\(time.timeIntervalSince1970)") {
+            switch method {
+                case .silent: self.alarms.remove("alarm_set_at_\(time.timeIntervalSince1970)")
+                case .notification: alarm.mediaLabel = ""
+                case .adhan: alarm.mediaLabel = "tickle.mp3"
+            }
+        }
+        else {
+            switch method {
+                case .silent: return
+                case .notification:
+                    let alarm = Alarm(id: "alarm_set_at_\(time.timeIntervalSince1970)", date: time, enabled: true, snoozeEnabled: true, repeatWeekdays: [], mediaID: "bell", mediaLabel: "", label: name)
+                    self.alarms.add(alarm)
+                case .adhan:
+                    let alarm = Alarm(id: "alarm_set_at_\(time.timeIntervalSince1970)", date: time, enabled: true, snoozeEnabled: true, repeatWeekdays: [], mediaID: "bell", mediaLabel:  "tickle.mp3", label: name)
+                    self.alarms.add(alarm)
+            }
+        }
+        self.tableView.reloadData()
+    }
+    
     @objc func handleChangeNotification(_ notification: Notification) {
         
         guard let userInfo = notification.userInfo else {
@@ -253,12 +308,12 @@ class PrayerViewController: UITableViewController {
                 scheduler.cancelNotification(ByUUIDStr: uuid)
             case let (Alarm.added, (index as Int)?, _):
                 let alarm = alarms[index]
-                scheduler.setNotification(date: alarm.date, ringtoneName: alarm.mediaLabel, repeatWeekdays: alarm.repeatWeekdays, snoozeEnabled: alarm.snoozeEnabled, onSnooze: false, uuid: alarm.id)
+                scheduler.setNotification(date: Date().addingTimeInterval(60), ringtoneName: alarm.mediaLabel, repeatWeekdays: alarm.repeatWeekdays, snoozeEnabled: alarm.snoozeEnabled, onSnooze: false, uuid: alarm.id, label: alarm.label)
             case let (Alarm.updated, (index as Int)?, _):
                 let alarm = alarms[index]
                 let id = alarm.id
                 if alarm.enabled {
-                    scheduler.updateNotification(ByUUIDStr: id, date: alarm.date, ringtoneName: alarm.mediaLabel, repeatWeekdays: alarm.repeatWeekdays, snoonzeEnabled: alarm.snoozeEnabled)
+                    scheduler.updateNotification(ByUUIDStr: id, date: Date().addingTimeInterval(60), ringtoneName: alarm.mediaLabel, repeatWeekdays: alarm.repeatWeekdays, snoonzeEnabled: alarm.snoozeEnabled, label: alarm.label)
                 } else {
                     scheduler.cancelNotification(ByUUIDStr: id)
                 }
@@ -266,48 +321,6 @@ class PrayerViewController: UITableViewController {
             }
         } else {
             tableView.reloadData()
-        }
-    }
-}
-
-// MARK: - CLLocationManagerDelegate
-
-extension PrayerViewController: CLLocationManagerDelegate{
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        guard let location = locations.last else { return }
-        coordinate = location.coordinate
-        fetchTimes(coordinate: location.coordinate)
-    }
-
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        //Show location page
-    }
-    
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-            switch status {
-            case .authorizedWhenInUse, .authorizedAlways:
-                startUpdatingLocation()
-            case .denied, .restricted, .notDetermined:
-                return //Show location page
-            @unknown default:
-                break
-            }
-    }
-    
-    func getAddressFromCoordinates(latitude: CLLocationDegrees, longitude: CLLocationDegrees, completion: @escaping (String?) -> Void) {
-        let location = CLLocation(latitude: latitude, longitude: longitude)
-        
-        let geocoder = CLGeocoder()
-        geocoder.reverseGeocodeLocation(location) { (placemarks, error) in
-            if let error = error {
-                print("Reverse geocoding failed with error: \(error.localizedDescription)")
-                completion(nil)
-            } else if let placemark = placemarks?.first {
-                completion(placemark.administrativeArea ?? placemark.locality)
-            } else {
-                print("No placemarks available.")
-                completion(nil)
-            }
         }
     }
 }

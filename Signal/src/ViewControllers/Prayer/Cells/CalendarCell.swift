@@ -1,7 +1,8 @@
 //
-// Copyright 2023 Signal Messenger, LLC
+// Copyright 2021 Kahf Messenger, LLC
 // SPDX-License-Identifier: AGPL-3.0-only
 //
+
 
 import UIKit
 
@@ -36,10 +37,7 @@ class CalendarCell: UITableViewCell {
     lazy var leftButton: UIButton = {
         let button = UIButton()
         button.setImage(Theme.iconImage(.kahfCalendarLeft, renderingMode: .alwaysOriginal), for: .normal)
-        button.snp.makeConstraints { make in
-            make.width.equalTo(11)
-            make.height.equalTo(18)
-        }
+        button.snp.makeConstraints { make in make.width.height.equalTo(30) }
         button.addTarget(self, action: #selector(leftButtonTapped), for: .touchUpInside)
         return button
     }()
@@ -47,10 +45,7 @@ class CalendarCell: UITableViewCell {
     lazy var rightButton: UIButton = {
         let button = UIButton()
         button.setImage(Theme.iconImage(.kahfCalendarRight, renderingMode: .alwaysOriginal), for: .normal)
-        button.snp.makeConstraints { make in
-            make.width.equalTo(11)
-            make.height.equalTo(18)
-        }
+        button.snp.makeConstraints { make in make.width.height.equalTo(30) }
         button.addTarget(self, action: #selector(rightButtonTapped), for: .touchUpInside)
         return button
     }()
@@ -81,6 +76,18 @@ class CalendarCell: UITableViewCell {
         dateFormatter.dateFormat = "dd MMMM yyyy"
         self.smallTitleLabel.text = city + "  |  " + dateFormatter.string(from: day.date)
         self.contentLabel.text = convertToIslamicDate(day.date)
+        if day == .today {
+            leftButton.isHidden = false
+            rightButton.isHidden = false
+        }
+        else if day == .tomorrow {
+            leftButton.isHidden = false
+            rightButton.isHidden = true
+        }
+        else {
+            leftButton.isHidden = true
+            rightButton.isHidden = false
+        }
     }
     
     required init?(coder: NSCoder) {

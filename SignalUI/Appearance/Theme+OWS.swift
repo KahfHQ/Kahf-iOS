@@ -190,8 +190,9 @@ public enum ThemeIcon: UInt {
     case kahfRunningPrayer
     case kahfCalendarLeft
     case kahfCalendarRight
-    case kahfAlert
+    case kahfAlertAdhan
     case kahfAlertDisabled
+    case kahfAlertNotif
 }
 
 // MARK: - Colors
@@ -581,10 +582,12 @@ public extension Theme {
             return "kahf_calendar_left"
         case .kahfCalendarRight:
             return "kahf_calendar_right"
-        case .kahfAlert:
-            return "kahf_alert"
+        case .kahfAlertAdhan:
+            return "kahf_alert_adhan"
         case .kahfAlertDisabled:
             return "kahf_alert_disabled"
+        case .kahfAlertNotif:
+            return "kahf_alert_notif"
         }
     }
 }

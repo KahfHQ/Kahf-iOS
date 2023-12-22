@@ -17,7 +17,24 @@ class KahfCustomNavBar: UIView {
     
     lazy private var avatarImageView: ConversationAvatarView = {
        let view = ConversationAvatarView(sizeClass: .thirtyTwo, localUserDisplayMode: .asUser)
+       view.isUserInteractionEnabled = true
        return view
+    }()
+    
+    lazy var contextMenuButton: ContextMenuButton = {
+        let contextButton = ContextMenuButton()
+        contextButton.showsContextMenuAsPrimaryAction = true
+        contextButton.frame = CGRectMake(0, 0, 32, 32);
+        return contextButton
+    }()
+    
+    lazy var button: UIView = {
+        let wrapper = UIView.container()
+        wrapper.addSubview(avatarImageView)
+        wrapper.addSubview(contextMenuButton)
+        contextMenuButton.autoPinEdgesToSuperviewEdges()
+        wrapper.frame = CGRectMake(0, 0, 32, 32);
+        return wrapper
     }()
     
     override init(frame: CGRect) {
@@ -42,15 +59,16 @@ class KahfCustomNavBar: UIView {
             make.height.equalTo(40)
             make.width.equalTo(120)
         }
-        avatarImageView.snp.makeConstraints { make in
-            make.centerY.equalTo(logo.snp.centerY)
+        button.snp.makeConstraints { make in
             make.trailing.equalToSuperview().offset(-30)
+            make.height.width.equalTo(32)
+            make.centerY.equalTo(logo.snp.centerY)
         }
     }
     
     func addSubviews() {
         self.addSubview(logo)
-        self.addSubview(avatarImageView)
+        self.addSubview(button)
     }
 }
 

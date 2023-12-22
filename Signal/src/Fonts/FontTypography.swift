@@ -38,6 +38,11 @@ public extension UIFont {
         return UIFont(name: "Inter-SemiBold", size: 12) ?? .ows_semiboldFont(withSize: 12)
     }
     
+    @objc(interSemiBold14)
+    class var interSemiBold14: UIFont {
+        return UIFont(name: "Inter-SemiBold", size: 14) ?? .ows_semiboldFont(withSize: 14)
+    }
+    
     @objc(interSemiBold16)
     class var interSemiBold16: UIFont {
         return UIFont(name: "Inter-SemiBold", size: 16) ?? .ows_semiboldFont(withSize: 16)
