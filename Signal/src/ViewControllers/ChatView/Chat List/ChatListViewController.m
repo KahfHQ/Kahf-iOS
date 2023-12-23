@@ -643,13 +643,8 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     self.isViewVisible = NO;
 
     [self.searchResultsController viewWillDisappear:animated];
-    if (self.customLeftView != nil && self.customRightView != nil) {
-        [self.customLeftView removeFromSuperview];
-        [self.customRightView removeFromSuperview];
-        
-    }
-    self.customLeftView = nil;
-    self.customRightView = nil;
+    [self.customLeftView removeFromSuperview];
+    [self.customRightView removeFromSuperview];
 }
 
 - (void)updateLastViewedThread:(TSThread *)thread animated:(BOOL)animated
