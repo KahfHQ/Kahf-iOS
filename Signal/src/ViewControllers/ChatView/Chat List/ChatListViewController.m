@@ -315,8 +315,6 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     // Setting tableHeader calls numberOfSections, which must happen after updateMappings has been called at least once.
     OWSAssertDebug(self.tableView.tableHeaderView == nil);
     self.tableView.tableHeaderView = searchBarContainer;
-    // Hide search bar by default.  User can pull down to search.
-    self.tableView.contentOffset = CGPointMake(0, CGRectGetHeight(self.searchBar.frame));
 
     self.searchResultsController.delegate = self;
     [self addChildViewController:self.searchResultsController];
