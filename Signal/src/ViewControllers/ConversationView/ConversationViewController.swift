@@ -271,7 +271,7 @@ public class ConversationViewController: OWSViewController {
         Logger.verbose("viewWillAppear")
 
         super.viewWillAppear(animated)
-
+        self.navigationController?.navigationBar.removeAllSubviews()
         if let groupThread = thread as? TSGroupThread {
             acquireCacheLeases(groupThread)
         }
