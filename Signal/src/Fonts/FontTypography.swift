@@ -28,6 +28,11 @@ public extension UIFont {
         UIFont(name: "Inter-Bold", size: 24) ?? .boldSystemFont(ofSize: 24)
     }
     
+    @objc(interBold30)
+    class var interBold30: UIFont {
+        UIFont(name: "Inter-Bold", size: 30) ?? .boldSystemFont(ofSize: 30)
+    }
+    
     @objc(interBold36)
     class var interBold36: UIFont {
         UIFont(name: "Inter-Bold", size: 36) ?? .boldSystemFont(ofSize: 36)

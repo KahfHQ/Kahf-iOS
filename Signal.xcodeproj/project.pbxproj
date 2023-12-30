@@ -749,6 +749,7 @@
 		4E2D16122A722FF400A18D2B /* OWSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D16112A722FF400A18D2B /* OWSTabBar.swift */; };
 		4E2D16142A728C9500A18D2B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D16132A728C9500A18D2B /* HomeVC.swift */; };
 		4E3A8C2B2B3C17A3005D35E6 /* MosqueNearbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A8C2A2B3C17A3005D35E6 /* MosqueNearbyCell.swift */; };
+		4E3A8C372B40459E005D35E6 /* HomeVCLocation+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A8C362B40459E005D35E6 /* HomeVCLocation+.swift */; };
 		4E3FE4FE2A7FF7CC001CD17E /* ChatListViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */; };
 		4E782D2D2B1489BC00F6CE89 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = 4E782D2C2B1489BC00F6CE89 /* PanModal */; };
 		4E782D2F2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */; };
@@ -3209,6 +3210,7 @@
 		4E2D16112A722FF400A18D2B /* OWSTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWSTabBar.swift; sourceTree = "<group>"; };
 		4E2D16132A728C9500A18D2B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		4E3A8C2A2B3C17A3005D35E6 /* MosqueNearbyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueNearbyCell.swift; sourceTree = "<group>"; };
+		4E3A8C362B40459E005D35E6 /* HomeVCLocation+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVCLocation+.swift"; sourceTree = "<group>"; };
 		4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatListViewController+UI.swift"; sourceTree = "<group>"; };
 		4E550F8F2B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E550F912B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -6502,6 +6504,7 @@
 				4ED01DBA2B3ABA600006580C /* Views */,
 				4ED01DB22B3737F50006580C /* Cells */,
 				4E2D16132A728C9500A18D2B /* HomeVC.swift */,
+				4E3A8C362B40459E005D35E6 /* HomeVCLocation+.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -11670,6 +11673,7 @@
 				880D90302481E617003D2B14 /* SignalApp.swift in Sources */,
 				8841584C252F9F1C0078903D /* SignalCall.swift in Sources */,
 				8822558D26B9D1D7001A33C4 /* SignalMe.swift in Sources */,
+				4E3A8C372B40459E005D35E6 /* HomeVCLocation+.swift in Sources */,
 				88BE44A626153E7B00AE8E33 /* SoundAndNotificationsSettingsViewController.swift in Sources */,
 				F94D12FF28BD0DD900B2C478 /* SpeechManager.swift in Sources */,
 				34B3F87B1E8DF1700035BE1A /* SplashViewController.swift in Sources */,

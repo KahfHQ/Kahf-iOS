@@ -1,15 +1,14 @@
 //
-// Copyright 2023 Kahf Messenger, LLC
+// Copyright 2023 Signal Messenger, LLC
 // SPDX-License-Identifier: AGPL-3.0-only
 //
-
 
 import Foundation
 import CoreLocation
 
 // MARK: - CLLocationManagerDelegate
 
-extension PrayerVC: CLLocationManagerDelegate {
+extension HomeVC: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last else { return }
         coordinate = location.coordinate
@@ -65,4 +64,3 @@ extension PrayerVC: CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
     }
 }
-

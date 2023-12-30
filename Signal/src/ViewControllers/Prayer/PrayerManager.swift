@@ -65,5 +65,59 @@ class PrayerManager {
             return "Isha"
         }
     }
+    
+    func calculateNextPrayerTime(next: Prayer, date: Date) -> String {
+        let calendar = Calendar.current
+        let components = calendar.dateComponents([.hour, .minute], from: Date(), to: date)
+        var labelText = ""
+        if let hours = components.hour, let minutes = components.minute {
+            
+            
+            if hours > 0 {
+                labelText += "\(hours) hours"
+            }
+            
+            if minutes > 0 {
+                if labelText.count > 0 {
+                    labelText += " "
+                }
+                labelText += "\(minutes) minutes"
+            }
+            
+            if labelText.count > 0 {
+                labelText += " until \(next)"
+            } else {
+                return "Event is happening now or in the past."
+            }
+        }
+        return labelText
+    }
+    
+    func calculateLeftTimeNextPrayerTime(next: Prayer, date: Date) -> String {
+        let calendar = Calendar.current
+        let components = calendar.dateComponents([.hour, .minute], from: Date(), to: date)
+        var labelText = ""
+        if let hours = components.hour, let minutes = components.minute {
+            
+            
+            if hours > 0 {
+                labelText += "\(hours) hours"
+            }
+            
+            if minutes > 0 {
+                if labelText.count > 0 {
+                    labelText += " "
+                }
+                labelText += "\(minutes) minutes"
+            }
+            
+            if labelText.count > 0 {
+                labelText += " Left"
+            } else {
+                return "Event is happening now or in the past."
+            }
+        }
+        return labelText
+    }
 }
 

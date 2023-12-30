@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import Adhan
 
 class NextPrayerTimeCell: UITableViewCell {
     
@@ -52,8 +53,9 @@ class NextPrayerTimeCell: UITableViewCell {
     lazy var hourLabel: UILabel = {
         let view = UILabel()
         view.textColor = .white
-        view.font = UIFont.interBold36
+        view.font = UIFont.interBold30
         view.text = "6:39"
+        view.adjustsFontSizeToFitWidth = true
         return view
     }()
     
@@ -73,7 +75,7 @@ class NextPrayerTimeCell: UITableViewCell {
         return view
     }()
     
-    var time: Date
+    let prayerManager = PrayerManager.shared
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -86,8 +88,7 @@ class NextPrayerTimeCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    init(reuseIdentifier: String?, time: Date) {
-        self.time = time
+    init(reuseIdentifier: String?, next: Prayer, nextPrayer: Date) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         self.backgroundColor = .orange
         addSubviews()
@@ -95,6 +96,12 @@ class NextPrayerTimeCell: UITableViewCell {
         self.accessoryType = .none
         self.selectionStyle = .none
         self.backgroundColor = .clear
+        self.prayerNameLabel.text = prayerManager.getRawValue(prayer: next)
+        self.timeLeftLabel.text = prayerManager.calculateLeftTimeNextPrayerTime(next: next, date: nextPrayer)
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeStyle = .short
+        dateFormatter.timeZone = TimeZone.current
+        hourLabel.text = dateFormatter.string(from: nextPrayer)
     }
     
     required init?(coder: NSCoder) {
@@ -129,6 +136,7 @@ class NextPrayerTimeCell: UITableViewCell {
         hourLabel.snp.makeConstraints { make in
             make.top.equalTo(nextPrayerLabel.snp.bottom).offset(8)
             make.height.equalTo(42)
+            make.width.equalTo(82)
             make.leading.equalToSuperview().offset(35)
         }
         prayerNameLabel.snp.makeConstraints { make in

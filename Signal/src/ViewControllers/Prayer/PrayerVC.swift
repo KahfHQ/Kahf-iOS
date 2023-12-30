@@ -160,23 +160,6 @@ class PrayerVC: UITableViewController {
         }
     }
     
-    func checkAndRequestLocationAuthorization() {
-        if CLLocationManager.locationServicesEnabled() {
-            let authorizationStatus = locationManager.authorizationStatus
-            if !(authorizationStatus == .authorizedWhenInUse || authorizationStatus == .authorizedAlways) {
-                locationManager.requestWhenInUseAuthorization()
-            } else {
-                startUpdatingLocation()
-            }
-        } else {
-            print("Location services are not enabled.")
-        }
-    }
-
-    func startUpdatingLocation() {
-        locationManager.startUpdatingLocation()
-    }
-    
     func clearOldAlarms() {
         alarms.uuids.forEach { id in
             if let alarm = alarms.getAlarm(ByUUIDStr: id) {
@@ -197,8 +180,8 @@ class PrayerVC: UITableViewController {
         let content = contents[indexPath.row]
 
         switch content {
-            case .runningPrayer(let current, let next, let countdown):
-                return RunningPrayerCell(reuseIdentifier: nil, current: PrayerManager.shared.getRawValue(prayer: current), next: PrayerManager.shared.getRawValue(prayer: next), coundown: countdown)
+            case .runningPrayer(let current, let next, let nextPrayerTime):
+            return RunningPrayerCell(reuseIdentifier: nil, current: PrayerManager.shared.getRawValue(prayer: current), next: next, nextPrayerTime: nextPrayerTime)
             case .calendar(let day, let city):
                 let cell = CalendarCell(reuseIdentifier: nil, day: day, city: city)
                 cell.leftButtonAction = { self.goToPrevDay() }

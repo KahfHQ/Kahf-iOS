@@ -5,6 +5,7 @@
 
 
 import UIKit
+import Adhan
 
 class RunningPrayerCell: UITableViewCell {
 
@@ -47,8 +48,10 @@ class RunningPrayerCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    let prayerManager = PrayerManager.shared
 
-    init(reuseIdentifier: String?, current: String, next: String, coundown: Date) {
+    init(reuseIdentifier: String?, current: String, next: Prayer, nextPrayerTime: Date) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         addSubviews()
         setupConstraints()
@@ -56,32 +59,7 @@ class RunningPrayerCell: UITableViewCell {
         self.selectionStyle = .none
         self.backgroundColor = .clear
         self.bigTitleLabel.text = current
-        self.contentLabel.text = next
-        let calendar = Calendar.current
-        let components = calendar.dateComponents([.hour, .minute], from: Date(), to: coundown)
-        if let hours = components.hour, let minutes = components.minute {
-            var labelText = ""
-                
-            if hours > 0 {
-                labelText += "\(hours) hours"
-            }
-            
-            if minutes > 0 {
-                if labelText.count > 0 {
-                    labelText += " "
-                }
-                labelText += "\(minutes) minutes"
-            }
-
-            if labelText.count > 0 {
-                labelText += " until \(next)"
-                self.contentLabel.text = labelText
-            } else {
-                self.contentLabel.text = "Event is happening now or in the past."
-            }
-        } else {
-            print("Unable to calculate duration.")
-        }
+        self.contentLabel.text = prayerManager.calculateNextPrayerTime(next: next, date: nextPrayerTime)
     }
     
     required init?(coder: NSCoder) {

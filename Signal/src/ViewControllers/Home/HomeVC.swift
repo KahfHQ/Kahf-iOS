@@ -7,17 +7,23 @@ import Foundation
 import SignalMessaging
 import SignalUI
 import SnapKit
+import CoreLocation
+import Adhan
 
 enum HomeContent {
-    case time
-    case nextPrayer
+    case time(date: Date)
+    case nextPrayer(prayer: Prayer, countdown: Date)
     case mosqueNearby
 }
 
 @objc
 class HomeVC: UITableViewController {
 
-    private var contents: [HomeContent] = [.time, .nextPrayer, .mosqueNearby]
+    private var contents: [HomeContent] = []
+    var locationManager = CLLocationManager()
+    var coordinate: CLLocationCoordinate2D?
+    var day : Day = .today
+    var prayerManager = PrayerManager.shared
     
     private var customNavBar: KahfCustomNavBar = {
        let view = KahfCustomNavBar()
@@ -33,12 +39,19 @@ class HomeVC: UITableViewController {
         super.viewDidLoad()
         tableView.separatorStyle = .none
         tableView.backgroundColor = .ows_kahf_background
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        checkAndRequestLocationAuthorization()
+        self.contents.append(.time(date: Date()))
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         addSubviews()
         makeConstraints()
+        if let coordinate = coordinate {
+            fetchTimes(coordinate: coordinate)
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -56,6 +69,17 @@ class HomeVC: UITableViewController {
         navigationController?.navigationBar.addSubview(customNavBar)
     }
     
+    func fetchTimes(coordinate: CLLocationCoordinate2D) {
+        getAddressFromCoordinates(latitude: coordinate.latitude, longitude: coordinate.longitude) { city in
+            self.contents.removeAll()
+            self.prayerManager.getCurrentNextPrayerTimes(coordinate: coordinate, completion: { current, next, countdown in
+                guard let next = next, let countdown = countdown else { return }
+                self.contents.append(.nextPrayer(prayer: next, countdown: countdown))
+                self.tableView.reloadData()
+            })
+        }
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return contents.count
     }
@@ -64,9 +88,9 @@ class HomeVC: UITableViewController {
         let content = contents[indexPath.row]
 
         switch content {
-            case .time: return DateCell(reuseIdentifier: nil, time: Date())
-            case .nextPrayer: return NextPrayerTimeCell(reuseIdentifier: nil, time: Date())
-            case .mosqueNearby: return MosqueNearbyCell(reuseIdentifier: nil, time: Date())
+            case .time(let date): return DateCell(reuseIdentifier: nil, time: date)
+            case .nextPrayer(let next, let nextPrayer): return NextPrayerTimeCell(reuseIdentifier: nil, next: next, nextPrayer: nextPrayer)
+            case .mosqueNearby: return MosqueNearbyCell(reuseIdentifier: nil, time:Date())
         }
     }
     

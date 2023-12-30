@@ -35,6 +35,7 @@ class DateCell: UITableViewCell {
     }()
     
     var time: Date
+    let dateFormatter = DateFormatter()
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -54,7 +55,12 @@ class DateCell: UITableViewCell {
         setupConstraints()
         self.accessoryType = .none
         self.selectionStyle = .none
-        self.backgroundColor = .clear 
+        self.backgroundColor = .clear
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "d MMMM yyyy; HH:mm"
+        dayFullInfoLabel.text = dateFormatter.string(from: time)
+        dateFormatter.dateFormat = "HH:mm"
+        hourLabel.text = dateFormatter.string(from: time)
     }
     
     required init?(coder: NSCoder) {
