@@ -17,7 +17,7 @@ enum HomeContent {
 @objc
 class HomeVC: UITableViewController {
 
-    private var contents: [HomeContent] = [.time, .nextPrayer]
+    private var contents: [HomeContent] = [.time, .nextPrayer, .mosqueNearby]
     
     private var customNavBar: KahfCustomNavBar = {
        let view = KahfCustomNavBar()
@@ -32,6 +32,7 @@ class HomeVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.separatorStyle = .none
+        tableView.backgroundColor = .ows_kahf_background
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -65,7 +66,7 @@ class HomeVC: UITableViewController {
         switch content {
             case .time: return DateCell(reuseIdentifier: nil, time: Date())
             case .nextPrayer: return NextPrayerTimeCell(reuseIdentifier: nil, time: Date())
-            case .mosqueNearby: return DateCell(reuseIdentifier: nil, time: Date())
+            case .mosqueNearby: return MosqueNearbyCell(reuseIdentifier: nil, time: Date())
         }
     }
     
@@ -75,7 +76,7 @@ class HomeVC: UITableViewController {
         switch content {
             case .time: return 56
             case .nextPrayer: return 243
-            case .mosqueNearby: return 30
+            case .mosqueNearby: return 125
         }
     }
 }

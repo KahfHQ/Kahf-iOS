@@ -748,6 +748,7 @@
 		4E0B86142B1F7AE600939063 /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B86132B1F7AE600939063 /* TimeCell.swift */; };
 		4E2D16122A722FF400A18D2B /* OWSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D16112A722FF400A18D2B /* OWSTabBar.swift */; };
 		4E2D16142A728C9500A18D2B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D16132A728C9500A18D2B /* HomeVC.swift */; };
+		4E3A8C2B2B3C17A3005D35E6 /* MosqueNearbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A8C2A2B3C17A3005D35E6 /* MosqueNearbyCell.swift */; };
 		4E3FE4FE2A7FF7CC001CD17E /* ChatListViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */; };
 		4E782D2D2B1489BC00F6CE89 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = 4E782D2C2B1489BC00F6CE89 /* PanModal */; };
 		4E782D2F2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */; };
@@ -3207,6 +3208,7 @@
 		4E1CFDA92AF6C5D700B9568D /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Regular.ttf"; path = "../../../../../../../Downloads/Inter/static/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		4E2D16112A722FF400A18D2B /* OWSTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWSTabBar.swift; sourceTree = "<group>"; };
 		4E2D16132A728C9500A18D2B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		4E3A8C2A2B3C17A3005D35E6 /* MosqueNearbyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueNearbyCell.swift; sourceTree = "<group>"; };
 		4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatListViewController+UI.swift"; sourceTree = "<group>"; };
 		4E550F8F2B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E550F912B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -6459,6 +6461,7 @@
 			children = (
 				4ED01DB32B3738280006580C /* DateCell.swift */,
 				4ED01DB52B39C7320006580C /* NextPrayerTimeCell.swift */,
+				4E3A8C2A2B3C17A3005D35E6 /* MosqueNearbyCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -11498,6 +11501,7 @@
 				88D23D2023CEC0C700B0E74B /* IndividualCallService.swift in Sources */,
 				34B3F8751E8DF1700035BE1A /* IndividualCallViewController.swift in Sources */,
 				88BCCC8123837B7D00CE5FE6 /* InteractionReactionState.swift in Sources */,
+				4E3A8C2B2B3C17A3005D35E6 /* MosqueNearbyCell.swift in Sources */,
 				8862A55925F090C5005D65DB /* InternalSettingsViewController.swift in Sources */,
 				88A505FA23DBA1360005C012 /* IntroducingPINs.swift in Sources */,
 				32AC5CE7255B51E900829BD8 /* JoinGroupCallPill.swift in Sources */,

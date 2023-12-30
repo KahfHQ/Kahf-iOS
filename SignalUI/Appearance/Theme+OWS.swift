@@ -194,6 +194,7 @@ public enum ThemeIcon: UInt {
     case kahfAlertDisabled
     case kahfAlertNotif
     case kahfNextPrayerTimeBg
+    case kahfMosqueDirection
 }
 
 // MARK: - Colors
@@ -591,6 +592,8 @@ public extension Theme {
             return "kahf_alert_notif"
         case .kahfNextPrayerTimeBg:
             return "kahf_next_prayer_time_bg"
+        case .kahfMosqueDirection:
+            return "kahf_mosque_direction"
         }
     }
 }
