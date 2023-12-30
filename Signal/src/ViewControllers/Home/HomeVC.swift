@@ -47,6 +47,8 @@ class HomeVC: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.contents.removeAll()
+        self.tableView.reloadData()
         addSubviews()
         makeConstraints()
         if let coordinate = coordinate {
@@ -89,7 +91,9 @@ class HomeVC: UITableViewController {
 
         switch content {
             case .time(let date): return DateCell(reuseIdentifier: nil, time: date)
-            case .nextPrayer(let next, let nextPrayer): return NextPrayerTimeCell(reuseIdentifier: nil, next: next, nextPrayer: nextPrayer)
+            case .nextPrayer(let next, let nextPrayer):
+                let cell = NextPrayerTimeCell(reuseIdentifier: nil, next: next, nextPrayer: nextPrayer)
+                return cell
             case .mosqueNearby: return MosqueNearbyCell(reuseIdentifier: nil, time:Date())
         }
     }

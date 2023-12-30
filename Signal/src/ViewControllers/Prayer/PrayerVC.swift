@@ -89,6 +89,8 @@ class PrayerVC: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.contents.removeAll()
+        self.tableView.reloadData()
         addSubviews()
         makeConstraints()
         clearOldAlarms()

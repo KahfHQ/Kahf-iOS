@@ -37,7 +37,17 @@ class NextPrayerTimeCell: UITableViewCell {
     
     lazy private var muteView: MuteView = {
        let view = MuteView()
-       
+       view.muteButtonView.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+       if let alarm = self.alarms.getAlarm(ByUUIDStr: "alarm_set_at_\(date.timeIntervalSince1970)") {
+            if alarm.mediaLabel.isEmpty {
+                view.isMuted = false
+            }
+            else {
+                view.isMuted = false
+            }
+        } else {
+            view.isMuted = true
+       }
        return view
     }()
     
@@ -76,7 +86,10 @@ class NextPrayerTimeCell: UITableViewCell {
     }()
     
     let prayerManager = PrayerManager.shared
-    
+    var buttonAction: (() -> Void)?
+    var date: Date
+    var alarms = Store.shared.alarms
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -89,6 +102,7 @@ class NextPrayerTimeCell: UITableViewCell {
     }
 
     init(reuseIdentifier: String?, next: Prayer, nextPrayer: Date) {
+        self.date = nextPrayer
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         self.backgroundColor = .orange
         addSubviews()
@@ -151,5 +165,15 @@ class NextPrayerTimeCell: UITableViewCell {
     
     func addSubviews() {
         contentView.addSubview(fullBackgroundView)
+    }
+    
+    @objc func buttonTapped() {
+        if let alarm = self.alarms.getAlarm(ByUUIDStr: "alarm_set_at_\(date.timeIntervalSince1970)") {
+            self.alarms.remove(alarm.id)
+         } else {
+             let alarm = Alarm(id: "alarm_set_at_\(date.timeIntervalSince1970)", date: date, enabled: true, snoozeEnabled: true, repeatWeekdays: [], mediaID: "bell", mediaLabel: "", label: self.prayerNameLabel.text ?? "")
+             self.alarms.add(alarm)
+        }
+        muteView.isMuted.toggle()
     }
 }

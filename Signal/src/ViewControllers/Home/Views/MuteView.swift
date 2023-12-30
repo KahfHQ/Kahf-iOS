@@ -14,7 +14,6 @@ class MuteView: UIView {
         view.layer.cornerRadius = 4
         view.setImage(muteImage, animated: false)
         view.snp.makeConstraints { make in make.width.height.equalTo(33) }
-        view.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         view.isUserInteractionEnabled = true
         return view
     }()
@@ -30,7 +29,20 @@ class MuteView: UIView {
        return view
     }()
     
-    var isMuted = false
+    var isMuted = false {
+        didSet {
+            if isMuted {
+                muteLabel.text = "Mute"
+                muteButtonView.backgroundColor = .ows_signalBlueDark.withAlphaComponent(0.3)
+                muteButtonView.setImage(muteImage, animated: true)
+            }
+            else {
+                muteLabel.text = "Unmute"
+                muteButtonView.backgroundColor = .white
+                muteButtonView.setImage(unmuteImage, animated: true)
+            }
+        }
+    }
     
     init() {
         super.init(frame: .zero)
@@ -56,20 +68,6 @@ class MuteView: UIView {
         muteLabel.snp.makeConstraints { make in
             make.centerY.equalTo(muteButtonView.snp.centerY)
             make.leading.equalTo(muteButtonView.snp.trailing).offset(7)
-        }
-    }
-    
-    @objc func buttonTapped() {
-        isMuted.toggle()
-        if isMuted {
-            muteLabel.text = "Unmute"
-            muteButtonView.backgroundColor = .white
-            muteButtonView.setImage(unmuteImage, animated: true)
-        }
-        else {
-            muteLabel.text = "Mute"
-            muteButtonView.backgroundColor = .ows_signalBlueDark.withAlphaComponent(0.3)
-            muteButtonView.setImage(muteImage, animated: true)
         }
     }
 }
