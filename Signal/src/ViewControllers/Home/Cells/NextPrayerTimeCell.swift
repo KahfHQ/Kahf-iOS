@@ -20,6 +20,8 @@ class NextPrayerTimeCell: UITableViewCell {
         view.backgroundColor = .clear
         view.layer.cornerRadius = 10
         view.addSubview(mainBgImageView)
+        view.addSubview(bottomShadowView)
+        view.addSubview(allPrayerTime)
         return view
     }()
     
@@ -33,6 +35,44 @@ class NextPrayerTimeCell: UITableViewCell {
        view.addSubview(prayerNameLabel)
        view.addSubview(timeLeftLabel)
        return view
+    }()
+    
+    lazy private var bottomShadowView: UIImageView = {
+        let view = UIImageView()
+        view.image = Theme.iconImage(.kahfNextPrayerBottomShadow, renderingMode: .alwaysOriginal)
+        return view
+    }()
+    
+    lazy private var allPrayerTime: UIView = {
+        let view = UIView()
+        view.layer.cornerRadius = 21
+        view.backgroundColor = .white
+        view.snp.makeConstraints { make in
+            make.height.equalTo(43)
+            make.width.equalTo(177)
+        }
+        let titleLabel = UILabel()
+        titleLabel.font = UIFont.interMedium14
+        titleLabel.textColor = UIColor.ows_signalBlue
+        titleLabel.text = "All Prayer Time"
+        titleLabel.textAlignment = .center
+        view.addSubview(titleLabel)
+        titleLabel.snp.makeConstraints { make in
+            make.top.bottom.equalToSuperview().inset(13)
+        }
+        let arrowImageView = UIImageView(image: Theme.iconImage(.kahfRightArrow, renderingMode: .alwaysOriginal))
+        arrowImageView.contentMode = .scaleAspectFit
+        view.addSubview(arrowImageView)
+        arrowImageView.snp.makeConstraints { make in
+            make.trailing.equalToSuperview().offset(-25)
+            make.leading.equalTo(titleLabel.snp.trailing).offset(11)
+            make.centerY.equalToSuperview()
+            make.width.equalTo(16)
+            make.height.equalTo(12)
+        }
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(allPrayerTapped))
+        view.addGestureRecognizer(tapGesture)
+        return view
     }()
     
     lazy private var muteView: MuteView = {
@@ -89,6 +129,7 @@ class NextPrayerTimeCell: UITableViewCell {
     var buttonAction: (() -> Void)?
     var date: Date
     var alarms = Store.shared.alarms
+    var tabBar: HomeTabBarController?
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -161,6 +202,15 @@ class NextPrayerTimeCell: UITableViewCell {
             make.top.equalTo(hourLabel.snp.bottom).offset(5)
             make.leading.equalToSuperview().offset(35)
         }
+        bottomShadowView.snp.makeConstraints { make in
+            make.leading.trailing.equalToSuperview().inset(10)
+            make.top.equalTo(mainBgImageView.snp.bottom)
+            make.height.equalTo(10)
+        }
+        allPrayerTime.snp.makeConstraints { make in
+            make.top.equalTo(mainBgImageView.snp.bottom).offset(-21)
+            make.centerX.equalToSuperview()
+        }
     }
     
     func addSubviews() {
@@ -175,5 +225,9 @@ class NextPrayerTimeCell: UITableViewCell {
              self.alarms.add(alarm)
         }
         muteView.isMuted.toggle()
+    }
+    
+    @objc func allPrayerTapped() {
+        tabBar?.selectedTab = .prayer
     }
 }

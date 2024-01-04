@@ -24,6 +24,7 @@ class HomeVC: UITableViewController {
     var coordinate: CLLocationCoordinate2D?
     var day : Day = .today
     var prayerManager = PrayerManager.shared
+    var tabBar: HomeTabBarController
     
     private var customNavBar: KahfCustomNavBar = {
        let view = KahfCustomNavBar()
@@ -31,10 +32,19 @@ class HomeVC: UITableViewController {
     }()
     
     @objc
-    class func inModalNavigationController() -> OWSNavigationController {
-        OWSNavigationController(rootViewController: HomeVC())
+    class func inModalNavigationController(tabBar: HomeTabBarController) -> OWSNavigationController {
+        OWSNavigationController(rootViewController: HomeVC(tabBar: tabBar))
     }
-
+    
+    init(tabBar: HomeTabBarController) {
+        self.tabBar = tabBar
+        super.init(style: .plain)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.separatorStyle = .none
@@ -42,7 +52,6 @@ class HomeVC: UITableViewController {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         checkAndRequestLocationAuthorization()
-        self.contents.append(.time(date: Date()))
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -51,6 +60,7 @@ class HomeVC: UITableViewController {
         self.tableView.reloadData()
         addSubviews()
         makeConstraints()
+        self.contents.append(.time(date: Date()))
         if let coordinate = coordinate {
             fetchTimes(coordinate: coordinate)
         }
@@ -73,7 +83,6 @@ class HomeVC: UITableViewController {
     
     func fetchTimes(coordinate: CLLocationCoordinate2D) {
         getAddressFromCoordinates(latitude: coordinate.latitude, longitude: coordinate.longitude) { city in
-            self.contents.removeAll()
             self.prayerManager.getCurrentNextPrayerTimes(coordinate: coordinate, completion: { current, next, countdown in
                 guard let next = next, let countdown = countdown else { return }
                 self.contents.append(.nextPrayer(prayer: next, countdown: countdown))
@@ -93,6 +102,7 @@ class HomeVC: UITableViewController {
             case .time(let date): return DateCell(reuseIdentifier: nil, time: date)
             case .nextPrayer(let next, let nextPrayer):
                 let cell = NextPrayerTimeCell(reuseIdentifier: nil, next: next, nextPrayer: nextPrayer)
+                cell.tabBar = tabBar
                 return cell
             case .mosqueNearby: return MosqueNearbyCell(reuseIdentifier: nil, time:Date())
         }

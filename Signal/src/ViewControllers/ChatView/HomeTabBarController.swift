@@ -19,7 +19,7 @@ class HomeTabBarController: UITabBarController {
         case prayer = 3
         case settings = 4
     }
-    lazy var homeNavController = HomeVC.inModalNavigationController()
+    lazy var homeNavController = HomeVC.inModalNavigationController(tabBar: self)
     lazy var homeTabBarItem = UITabBarItem(title: "Home",
         image: UIImage(named: "tabbar-home"),
         selectedImage: UIImage(named: "tabbar-home")!)
