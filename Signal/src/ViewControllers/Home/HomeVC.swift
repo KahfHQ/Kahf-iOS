@@ -82,11 +82,11 @@ class HomeVC: UITableViewController {
     }
     
     func fetchTimes(coordinate: CLLocationCoordinate2D) {
-        self.contents.removeAll()
-        self.contents.append(.time(date: Date()))
         getAddressFromCoordinates(latitude: coordinate.latitude, longitude: coordinate.longitude) { city in
             self.prayerManager.getCurrentNextPrayerTimes(coordinate: coordinate, completion: { current, next, countdown in
                 guard let next = next, let countdown = countdown else { return }
+                self.contents.removeAll()
+                self.contents.append(.time(date: Date()))
                 self.contents.append(.nextPrayer(prayer: next, countdown: countdown))
                 self.tableView.reloadData()
             })

@@ -433,8 +433,7 @@ public class ConversationViewController: OWSViewController {
         self.saveLastVisibleSortIdAndOnScreenPercentage(async: true)
         self.customLeftView?.removeFromSuperview()
         self.customLeftView = nil
-        self.customShadowView?.removeFromSuperview()
-        self.customShadowView = nil
+        self.customShadowView.removeFromSuperview()
     }
 
     public override func viewDidDisappear(_ animated: Bool) {

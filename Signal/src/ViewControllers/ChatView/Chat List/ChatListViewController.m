@@ -395,9 +395,6 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
         return;
     }
     [self.navigationItem setTitle:nil];
-    [self addNavBarLogo];
-    [self addNavBarCameraButton];
-    [self addNavBarSettingsButton];
 }
 
 - (void)showNewConversationView
@@ -630,6 +627,9 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
         [self.tableView deselectRowAtIndexPath:selectedIndexPath animated:NO];
     }
     [self updateBarButtonItems];
+    [self addNavBarLogo];
+    [self addNavBarCameraButton];
+    [self addNavBarSettingsButton];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
