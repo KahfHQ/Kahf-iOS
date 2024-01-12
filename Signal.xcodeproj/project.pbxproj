@@ -767,6 +767,7 @@
 		4E782D492B1B881500F6CE89 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA62AF6C5D700B9568D /* Inter-SemiBold.ttf */; };
 		4E782D4A2B1B881A00F6CE89 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CFDA22AF6C5D700B9568D /* Inter-Thin.ttf */; };
 		4E782D4C2B1C9D7800F6CE89 /* KahfCustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D4B2B1C9D7800F6CE89 /* KahfCustomNavBar.swift */; };
+		4E870CE12B4C19B900E988F4 /* MosqueNearbyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E870CE02B4C19B900E988F4 /* MosqueNearbyManager.swift */; };
 		4E8AED002B2CE2EA0033F9F9 /* tickle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AECE92B2CE2EA0033F9F9 /* tickle.mp3 */; };
 		4E8AED052B2CE2EA0033F9F9 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECF02B2CE2EA0033F9F9 /* NotificationScheduler.swift */; };
 		4E8AED062B2CE2EA0033F9F9 /* NotificationSchedulerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECF12B2CE2EA0033F9F9 /* NotificationSchedulerDelegate.swift */; };
@@ -3220,6 +3221,7 @@
 		4E782D3C2B1A0E0700F6CE89 /* SettingsProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsProfileCell.swift; sourceTree = "<group>"; };
 		4E782D402B1B1A9000F6CE89 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		4E782D4B2B1C9D7800F6CE89 /* KahfCustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KahfCustomNavBar.swift; sourceTree = "<group>"; };
+		4E870CE02B4C19B900E988F4 /* MosqueNearbyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueNearbyManager.swift; sourceTree = "<group>"; };
 		4E8AECE92B2CE2EA0033F9F9 /* tickle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tickle.mp3; sourceTree = "<group>"; };
 		4E8AECF02B2CE2EA0033F9F9 /* NotificationScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
 		4E8AECF12B2CE2EA0033F9F9 /* NotificationSchedulerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSchedulerDelegate.swift; sourceTree = "<group>"; };
@@ -6444,6 +6446,14 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		4E870CDF2B4C199800E988F4 /* MosqueNearby */ = {
+			isa = PBXGroup;
+			children = (
+				4E870CE02B4C19B900E988F4 /* MosqueNearbyManager.swift */,
+			);
+			path = MosqueNearby;
+			sourceTree = "<group>";
+		};
 		4E8AECE72B2CE2EA0033F9F9 /* Alarm */ = {
 			isa = PBXGroup;
 			children = (
@@ -6501,6 +6511,7 @@
 		4ED5CB462A61681C00C54BE9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4E870CDF2B4C199800E988F4 /* MosqueNearby */,
 				4ED01DBA2B3ABA600006580C /* Views */,
 				4ED01DB22B3737F50006580C /* Cells */,
 				4E2D16132A728C9500A18D2B /* HomeVC.swift */,
@@ -11362,6 +11373,7 @@
 				4556FA681F54AA9500AF40DD /* DebugUIProfile.swift in Sources */,
 				452037D11EE84975004E4CDF /* DebugUISessionState.m in Sources */,
 				4E782D4C2B1C9D7800F6CE89 /* KahfCustomNavBar.swift in Sources */,
+				4E870CE12B4C19B900E988F4 /* MosqueNearbyManager.swift in Sources */,
 				34BECE2B1F74C12700D7438D /* DebugUIStress.m in Sources */,
 				344DAEDF248A7526000AD4FA /* DebugUIStress.swift in Sources */,
 				343A65951FC47D5E000477A1 /* DebugUISyncMessages.m in Sources */,

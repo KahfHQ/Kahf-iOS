@@ -4,6 +4,8 @@
 //
 
 import Foundation
+import CoreLocation
+import MapKit
 
 class MosqueNearbyCell: UITableViewCell {
     
@@ -41,10 +43,12 @@ class MosqueNearbyCell: UITableViewCell {
     lazy var directionImage: UIButton = {
        let view = UIButton()
        view.setImage(Theme.iconImage(.kahfMosqueDirection, renderingMode: .alwaysOriginal), animated: true)
+       view.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
        return view
     }()
     
-    var time: Date
+    var mosqueNearbyManager = MosqueNearbyManager.shared
+    var mosque: Mosque
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -57,14 +61,17 @@ class MosqueNearbyCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    init(reuseIdentifier: String?, time: Date) {
-        self.time = time
+    init(reuseIdentifier: String?, mosque: Mosque) {
+        self.mosque = mosque
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         addSubviews()
         setupConstraints()
+        bgView.setShadow(radius: 50, opacity: 0.05, offset: CGSize(width: 0, height: 4), color: .ows_black)
         self.accessoryType = .none
         self.selectionStyle = .none
         self.backgroundColor = .clear
+        mosqueNearbyLabel.text = mosque.name
+        locationLabel.text = mosque.distanceString
     }
     
     required init?(coder: NSCoder) {
@@ -74,7 +81,8 @@ class MosqueNearbyCell: UITableViewCell {
     func setupConstraints() {
         bgView.snp.makeConstraints { make in
             make.leading.trailing.equalToSuperview().inset(20)
-            make.top.bottom.equalToSuperview()
+            make.top.equalToSuperview().offset(20)
+            make.bottom.equalToSuperview()
         }
         mosqueNearbyTitleLabel.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(25)
@@ -102,5 +110,13 @@ class MosqueNearbyCell: UITableViewCell {
         bgView.addSubview(mosqueNearbyLabel)
         bgView.addSubview(locationLabel)
         bgView.addSubview(directionImage)
+    }
+    
+    @objc func buttonTapped() {
+        guard let coordinate = mosque.mosqueCoordinate else { return }
+        let placemark = MKPlacemark(coordinate: coordinate)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = mosque.name
+        mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving])
     }
 }

@@ -13,7 +13,7 @@ import Adhan
 enum HomeContent {
     case time(date: Date)
     case nextPrayer(prayer: Prayer, countdown: Date)
-    case mosqueNearby
+    case mosqueNearby(mosque: Mosque)
 }
 
 @objc
@@ -24,6 +24,7 @@ class HomeVC: UITableViewController {
     var coordinate: CLLocationCoordinate2D?
     var day : Day = .today
     var prayerManager = PrayerManager.shared
+    var mosqueNearbyManager = MosqueNearbyManager.shared
     var tabBar: HomeTabBarController
     
     private var customNavBar: KahfCustomNavBar = {
@@ -82,14 +83,24 @@ class HomeVC: UITableViewController {
     }
     
     func fetchTimes(coordinate: CLLocationCoordinate2D) {
-        getAddressFromCoordinates(latitude: coordinate.latitude, longitude: coordinate.longitude) { city in
-            self.prayerManager.getCurrentNextPrayerTimes(coordinate: coordinate, completion: { current, next, countdown in
-                guard let next = next, let countdown = countdown else { return }
-                self.contents.removeAll()
-                self.contents.append(.time(date: Date()))
+        self.contents.removeAll()
+        self.contents.append(.time(date: Date()))
+        
+        self.prayerManager.getCurrentNextPrayerTimes(coordinate: coordinate, completion: { current, next, countdown in
+            if let next = next, let countdown = countdown {
                 self.contents.append(.nextPrayer(prayer: next, countdown: countdown))
-                self.tableView.reloadData()
-            })
+            }
+            self.tableView.reloadData()
+        })
+        
+        self.mosqueNearbyManager.getNearestMosque(coordinate: coordinate) { mosque in
+            if let mosque = mosque {
+                if self.contents.count > 2 {
+                    self.contents.removeLast()
+                }
+                self.contents.append(.mosqueNearby(mosque: mosque))
+            }
+            self.tableView.reloadData()
         }
     }
     
@@ -106,7 +117,7 @@ class HomeVC: UITableViewController {
                 let cell = NextPrayerTimeCell(reuseIdentifier: nil, next: next, nextPrayer: nextPrayer)
                 cell.tabBar = tabBar
                 return cell
-            case .mosqueNearby: return MosqueNearbyCell(reuseIdentifier: nil, time:Date())
+            case .mosqueNearby(let mosque): return MosqueNearbyCell(reuseIdentifier: nil, mosque: mosque)
         }
     }
     
@@ -116,7 +127,7 @@ class HomeVC: UITableViewController {
         switch content {
             case .time: return 56
             case .nextPrayer: return 243
-            case .mosqueNearby: return 125
+            case .mosqueNearby: return 145
         }
     }
 }

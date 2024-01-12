@@ -13,6 +13,7 @@ extension HomeVC: CLLocationManagerDelegate {
         guard let location = locations.last else { return }
         coordinate = location.coordinate
         fetchTimes(coordinate: location.coordinate)
+        locationManager.stopUpdatingLocation()
     }
 
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
