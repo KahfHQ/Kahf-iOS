@@ -35,8 +35,8 @@ public class TSConstants: NSObject {
     // Never instantiate this class.
     private override init() {}
 
-    public static let legalTermsUrl = URL(string: "https://kahf.co/privacy-policy/")!
-    public static let donateUrl = URL(string: "https://kahf.co/")!
+    public static let legalTermsUrl = URL(string: "https://messenger.kahf.co/privacy-policy/")!
+    public static let donateUrl = URL(string: "https://messenger.kahf.co/donate/")!
     public static var appStoreUpdateURL = URL(string: "https://apps.apple.com/tr/app/kahf-messenger/id6445921515")!
 
     public static var mainServiceIdentifiedURL: String { shared.mainServiceIdentifiedURL }
