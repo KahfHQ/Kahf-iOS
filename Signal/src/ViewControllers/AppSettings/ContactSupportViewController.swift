@@ -10,11 +10,11 @@ import SignalMessaging
 @objc(OWSSupportConstants)
 @objcMembers
 class SupportConstants: NSObject {
-    static let supportURL = URL(string: "https://kahf.co/contact/")!
-    static let debugLogsInfoURL = URL(string: "https://kahf.co/contact/")!
+    static let supportURL = URL(string: "https://messenger.kahf.co/contact/")!
+    static let debugLogsInfoURL = URL(string: "https://messenger.kahf.co/contact/")!
     static let supportEmail = "support@kahf.co"
-    static let subscriptionFAQURL = URL(string: "https://kahf.co/contact/")!
-    static let badgeExpirationLearnMoreURL = URL(string: "https://kahf.co/contact/")!
+    static let subscriptionFAQURL = URL(string: "https://messenger.kahf.co/contact/")!
+    static let badgeExpirationLearnMoreURL = URL(string: "https://messenger.kahf.co/contact/")!
 }
 
 enum ContactSupportFilter: String, CaseIterable {

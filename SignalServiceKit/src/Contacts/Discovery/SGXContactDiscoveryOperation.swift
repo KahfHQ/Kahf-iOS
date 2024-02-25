@@ -154,9 +154,15 @@ class SGXContactDiscoveryOperation: ContactDiscoveryOperation {
     }
 
     class func uuidArray(from data: Data) -> [UUID] {
-        return data.withUnsafeBytes {
-            [uuid_t]($0.bindMemory(to: uuid_t.self))
-                .map { UUID(uuid: $0) }
+        // Ensure that the data length is a multiple of the UUID size
+        guard data.count % MemoryLayout<uuid_t>.size == 0 else {
+            return [] // The data length is not a multiple of the UUID size
+        }
+
+        return data.withUnsafeBytes { (pointer: UnsafePointer<uuid_t>) in
+            let count = data.count / MemoryLayout<uuid_t>.size
+            let buffer = UnsafeBufferPointer(start: pointer, count: count)
+            return Array(buffer).map { UUID(uuid: $0) }
         }
     }
 

@@ -316,6 +316,8 @@ static void uncaughtExceptionHandler(NSException *exception)
     [OWSAnalytics appLaunchDidBegin];
 
     [InstrumentsMonitor stopSpanWithCategory:@"appstart" hash:monitorId];
+    
+    self.window.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
 
     return YES;
 }

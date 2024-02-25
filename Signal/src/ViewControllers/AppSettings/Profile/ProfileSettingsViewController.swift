@@ -174,7 +174,7 @@ class ProfileSettingsViewController: OWSTableViewController2 {
                 "PROFILE_GENDER_TITLE",
                 comment: "Gender text"
             ),
-            detailText: normalizedFamilyName,
+            detailText: normalizedFamilyName == "Male" ? GenderSettingsTableViewController.nameForTheme(.male) : GenderSettingsTableViewController.nameForTheme(.female),
             accessibilityIdentifier: UIView.accessibilityIdentifier(in: self, name: "theme")
         ) { [weak self] in
             guard let self = self else { return }

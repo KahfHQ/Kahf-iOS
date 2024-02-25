@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "kahf_mosque_direction.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

@@ -5,6 +5,7 @@
 
 import SignalMessaging
 import SignalUI
+import SnapKit
 
 public protocol ConversationInputTextViewDelegate: AnyObject {
     func didPasteAttachment(_ attachment: SignalAttachment?)
@@ -105,15 +106,15 @@ class ConversationInputTextView: MentionTextView {
         let leftInset = textContainerInset.left
         let rightInset = textContainerInset.right
 
-        placeholderConstraints = [
-            placeholderView.autoMatch(.width, to: .width, of: self, withOffset: -(leftInset + rightInset)),
-            placeholderView.autoPinEdge(toSuperviewEdge: .left, withInset: leftInset),
-            placeholderView.autoPinEdge(toSuperviewEdge: .top, withInset: topInset)
-        ]
+        placeholderView.snp.makeConstraints { make in
+            make.width.equalTo(self.snp.width).offset(-(leftInset + rightInset))
+            make.left.equalToSuperview().inset(leftInset)
+            make.centerY.equalToSuperview()
+        }
     }
 
-    private func updatePlaceholderVisibility() {
-        placeholderView.isHidden = !text.isEmpty
+    private func updatePlaceholderVisibility(isHidden: Bool? = nil) {
+        placeholderView.isHidden = isHidden ?? !text.isEmpty
     }
 
     override var font: UIFont? {
@@ -198,13 +199,21 @@ class ConversationInputTextView: MentionTextView {
         super.textViewDidChange(textView)
         textIsChanging = false
 
-        updatePlaceholderVisibility()
+        updatePlaceholderVisibility(isHidden: textView.isFirstResponder ? true : nil)
         updateTextContainerInset()
 
         inputTextViewDelegate?.textViewDidChange(self)
         textViewToolbarDelegate?.textViewDidChange(self)
     }
 
+    override func textViewDidBeginEditing(_ textView: UITextView) {
+        updatePlaceholderVisibility(isHidden: true)
+    }
+    
+    override func textViewDidEndEditing(_ textView: UITextView) {
+        updatePlaceholderVisibility()
+    }
+    
     override func textViewDidChangeSelection(_ textView: UITextView) {
         super.textViewDidChangeSelection(textView)
 

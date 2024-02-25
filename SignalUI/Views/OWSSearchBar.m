@@ -77,7 +77,7 @@ NS_ASSUME_NONNULL_BEGIN
     searchBar.tintColor = Theme.secondaryTextAndIconColor;
     searchBar.barStyle = Theme.barStyle;
     searchBar.barTintColor = Theme.backgroundColor;
-
+    searchBar.layer.cornerRadius = 10.0;
     // Hide searchBar border.
     // Alternatively we could hide the border by using `UISearchBarStyleMinimal`, but that causes an issue when toggling
     // from light -> dark -> light theme wherein the textField background color appears darker than it should
@@ -109,11 +109,33 @@ NS_ASSUME_NONNULL_BEGIN
     [searchBar traverseViewHierarchyDownwardWithVisitor:^(UIView *view) {
         if ([view isKindOfClass:[UITextField class]]) {
             UITextField *textField = (UITextField *)view;
-            textField.backgroundColor = searchFieldBackgroundColor;
+            textField.backgroundColor = UIColor.ows_gray06Color;
             textField.textColor = Theme.primaryTextColor;
             textField.keyboardAppearance = Theme.keyboardAppearance;
         }
     }];
+    // Assuming you have a UISearchBar named "searchBar"
+    UITextField *searchTextField = [searchBar valueForKey:@"searchField"];
+    searchTextField.translatesAutoresizingMaskIntoConstraints = NO;
+
+    // Add constraints to the text field
+    [NSLayoutConstraint activateConstraints:@[
+        [searchTextField.leadingAnchor constraintEqualToAnchor:searchBar.leadingAnchor constant:0.0],
+        [searchTextField.trailingAnchor constraintEqualToAnchor:searchBar.trailingAnchor constant:0.0],
+        [searchTextField.topAnchor constraintEqualToAnchor:searchBar.topAnchor constant:4.0],
+        [searchTextField.bottomAnchor constraintEqualToAnchor:searchBar.bottomAnchor constant:-4.0],
+    ]];
+    
+    searchTextField.clearButtonMode = UITextFieldViewModeNever;
+    
+    // Assuming you have a UISearchBar named "searchBar"
+    UIOffset iconOffset = UIOffsetMake(12, 0); // Set the desired offset for the search icon
+    [searchBar setPositionAdjustment:iconOffset forSearchBarIcon:UISearchBarIconSearch];
+    
+    // Assuming you have a UISearchBar named "searchBar"
+    UIOffset textOffset = UIOffsetMake(9, 0); // Set the desired offset for the text
+    [searchBar setSearchTextPositionAdjustment:textOffset];
+
 }
 
 - (void)switchToStyle:(OWSSearchBarStyle)style

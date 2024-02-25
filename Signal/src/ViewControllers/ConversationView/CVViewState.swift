@@ -26,6 +26,19 @@ public class CVViewState: NSObject {
 
     public let inputAccessoryPlaceholder = InputAccessoryViewPlaceholder()
     public var bottomBar = UIView.container()
+    public lazy var quoteView : UIView = {
+        let view = UIView()
+        view.backgroundColor = UIColor.ows_bluish
+        view.layer.cornerRadius = 24
+        return view
+    }()
+    public var customLeftView: UIView?
+    public var customShadowView: UIView = {
+        let shadowView = UIView()
+        shadowView.backgroundColor = .clear
+        shadowView.isUserInteractionEnabled = false
+        return shadowView
+    }()
     public var bottomBarBottomConstraint: NSLayoutConstraint?
     public var requestView: UIView?
     public var bannerView: UIView?
@@ -195,6 +208,10 @@ public extension ConversationViewController {
     var bottomBar: UIView {
         viewState.bottomBar
     }
+    
+    var quoteView: UIView {
+        viewState.quoteView
+    }
 
     var bottomBarBottomConstraint: NSLayoutConstraint? {
         get { viewState.bottomBarBottomConstraint }
@@ -313,7 +330,14 @@ public extension ConversationViewController {
         set { viewState.reactionsDetailSheet = newValue }
     }
     var contactShareViewHelper: ContactShareViewHelper { viewState.contactShareViewHelper }
-
+    var customLeftView: UIView? {
+        get { viewState.customLeftView }
+        set { viewState.customLeftView = newValue }
+    }
+    var customShadowView: UIView {
+        get { viewState.customShadowView }
+        set { viewState.customShadowView = newValue }
+    }
     // MARK: -
 
     #if TESTABLE_BUILD

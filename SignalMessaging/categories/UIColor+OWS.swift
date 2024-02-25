@@ -86,7 +86,7 @@ public extension UIColor {
     /// Ending calls, error states
     @objc(ows_accentRedColor)
     class var ows_accentRed: UIColor {
-        return UIColor(rgbHex: 0xF44336)
+        return UIColor(rgbHex: 0xEB5757)
     }
 
     /// mute unmute background color
@@ -102,14 +102,29 @@ public extension UIColor {
         return UIColor(rgbHex: 0xFFFFFF)
     }
 
+    @objc(ows_gray01Color)
+    class var ows_gray01: UIColor {
+        return UIColor(rgbHex: 0x333333)
+    }
+    
     @objc(ows_gray02Color)
     class var ows_gray02: UIColor {
         return UIColor(rgbHex: 0xF6F6F6)
+    }
+    
+    @objc(ows_gray03Color)
+    class var ows_gray03: UIColor {
+        return UIColor(rgbHex: 0x828282)
     }
 
     @objc(ows_gray05Color)
     class var ows_gray05: UIColor {
         return UIColor(rgbHex: 0xE9E9E9)
+    }
+    
+    @objc(ows_gray06Color)
+    class var ows_gray06: UIColor {
+        return UIColor(rgbHex: 0xF2F2F2)
     }
 
     @objc(ows_gray10Color)
@@ -291,7 +306,28 @@ public extension UIColor {
     class var ows_reminderYellow: UIColor {
         return UIColor(rgbHex: 0xFCF0D9)
     }
-
+    
+    // MARK: - Kahf Color Palette
+    
+    @objc(ows_bluish)
+    class var ows_bluish: UIColor {
+        return UIColor(rgbHex: 0xE6EAF2)
+    }
+    
+    @objc(ows_kahf_gray2)
+    class var ows_kahf_gray2: UIColor {
+        return UIColor(rgbHex: 0x4F4F4F)
+    }
+    
+    @objc(ows_kahf_background)
+    class var ows_kahf_background: UIColor {
+        return UIColor(rgbHex: 0xFAFBFD)
+    }
+    
+    @objc(ows_kahf_selected_item_blue_background)
+    class var ows_kahf_selected_item_blue_background: UIColor {
+        return UIColor(rgbHex: 0xECF4FF)
+    }
     // MARK: -
 
     class func ows_randomColor(isAlphaRandom: Bool) -> UIColor {

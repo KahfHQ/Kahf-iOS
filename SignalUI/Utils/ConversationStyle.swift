@@ -322,7 +322,7 @@ public class ConversationStyle: NSObject {
 
     @objc
     public func quotedReplyTextColor() -> UIColor {
-        isDarkThemeEnabled ? .ows_gray05 : .ows_gray90
+        isDarkThemeEnabled ? .ows_gray01 : .ows_gray01
     }
 
     @objc

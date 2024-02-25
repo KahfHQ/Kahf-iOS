@@ -85,15 +85,8 @@ extension ConversationViewController {
 
     public func updateBarButtonItems() {
         AssertIsOnMainThread()
-
-        // Don't include "Back" text on view controllers pushed above us, just use the arrow.
-        navigationItem.backBarButtonItem = UIBarButtonItem(title: "",
-                                                           style: .plain,
-                                                           target: nil,
-                                                           action: nil)
-
-        navigationItem.hidesBackButton = false
-        navigationItem.leftBarButtonItem = nil
+        navigationItem.backBarButtonItem = nil
+        navigationItem.hidesBackButton = true
         self.groupCallBarButtonItem = nil
 
         switch uiMode {
@@ -109,11 +102,15 @@ extension ConversationViewController {
                 navigationItem.leftBarButtonItem = nil
                 navigationItem.hidesBackButton = true
             }
+            customLeftView?.isHidden = true
+            customShadowView.isHidden = true
             return
         case .selection:
             navigationItem.rightBarButtonItems = [ self.cancelSelectionBarButtonItem ]
             navigationItem.leftBarButtonItem = self.deleteAllBarButtonItem
             navigationItem.hidesBackButton = true
+            customLeftView?.isHidden = true
+            customShadowView.isHidden = true
             return
         case .normal:
             if self.userLeftGroup {
@@ -121,6 +118,7 @@ extension ConversationViewController {
                 return
             }
             var barButtons = [UIBarButtonItem]()
+            barButtons.append(createThreeDotButton())
             if self.canCall {
                 if self.isGroupConversation {
                     let videoCallButton = UIBarButtonItem()
@@ -137,7 +135,7 @@ extension ConversationViewController {
                         pill.buttonText = self.isCurrentCallForThread ? returnString : joinString
                         videoCallButton.customView = pill
                     } else {
-                        videoCallButton.image = Theme.iconImage(.videoCall)
+                        videoCallButton.image = Theme.iconImage(.kahfVideoIcon, renderingMode: .alwaysOriginal)
                         videoCallButton.target = self
                         videoCallButton.action = #selector(showGroupLobbyOrActiveCall)
                     }
@@ -212,28 +210,20 @@ extension ConversationViewController {
                         self.groupCallBarButtonItem = videoCallButton
 
                         if !isMahrem && preferences.getMahramEnabled() {
-                            videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
+                            videoCallButton.image =  Theme.iconImage(.kahfVideoIcon, renderingMode: .alwaysOriginal)
                             videoCallButton.action = #selector(showDisabledAlert)
                         }
                         barButtons.append(videoCallButton)
                     }
                 } else {
-                    let audioCallButton = UIBarButtonItem(
-                        image: Theme.iconImage(.audioCall),
-                        style: .plain,
-                        target: self,
-                        action: #selector(startIndividualAudioCall)
-                    )
-                    audioCallButton.isEnabled = !CurrentAppContext().hasActiveCall
-                    audioCallButton.accessibilityLabel = NSLocalizedString("AUDIO_CALL_LABEL",
-                                                                           comment: "Accessibility label for placing an audio call")
-                    barButtons.append(audioCallButton)
+                   
+                    barButtons.append(createAudioCallButton())
                     
                     let components = threadViewModel.name.components(separatedBy: " ")
                     let lastComponent = components.last ?? ""
                     
                     let videoCallButton = UIBarButtonItem(
-                        image: Theme.iconImage(.videoCall),
+                        image: Theme.iconImage(.kahfVideoIcon, renderingMode: .alwaysOriginal),
                         style: .plain,
                         target: self,
                         action: #selector(startIndividualVideoCall)
@@ -254,15 +244,17 @@ extension ConversationViewController {
                     }
                     else {
                         if preferences.getMahramEnabled() {
-                            videoCallButton.image = Theme.iconImage(.videoCall).tintedImage(color: .lightGray)
+                            videoCallButton.image = Theme.iconImage(.kahfVideoIcon, renderingMode: .alwaysOriginal)
                             videoCallButton.action = #selector(showDisabledAlert)
                         }
                         barButtons.append(videoCallButton)
                     }
-            }}
-
+            }
+            }
             navigationItem.rightBarButtonItems = barButtons
             showGroupCallTooltipIfNecessary()
+            customLeftView?.isHidden = false
+            customShadowView.isHidden = false
             return
         }
     }
@@ -383,7 +375,7 @@ extension ConversationViewController {
                                                     quotedReply: quotedReply,
                                                     inputToolbarDelegate: self,
                                                     inputTextViewDelegate: self,
-                                                    mentionDelegate: self)
+                                                    mentionDelegate: self, quotedView: quoteView)
         inputToolbar.accessibilityIdentifier = "inputToolbar"
         if let voiceMemoDraft = voiceMemoDraft {
             inputToolbar.showVoiceMemoDraft(voiceMemoDraft)
@@ -428,7 +420,88 @@ extension ConversationViewController {
 
         }
     }
-
+    
+    func setCustomizedBackButton() {
+        if customLeftView == nil {
+            let customView = UIView(frame: CGRect(x: 0, y: 13, width: 46, height: 18))
+            customView.backgroundColor = UIColor.clear
+            let backButton = UIButton(type: .custom)
+            backButton.setImage(Theme.iconImage(.kahfBackIcon, renderingMode: .alwaysOriginal), for: .normal)
+            backButton.imageView?.contentMode = .scaleAspectFit
+            backButton.addTarget(self, action: #selector(backButtonTapped), for: .touchUpInside)
+            customView.addSubview(backButton)
+            backButton.snp.makeConstraints { make in
+                make.top.bottom.equalToSuperview()
+                make.leading.equalToSuperview().offset(23)
+                make.trailing.equalToSuperview()
+            }
+            customLeftView = customView
+            navigationController?.navigationBar.addSubview(customView)
+        }
+    }
+    
+    func customizeNavigationBarShadow() {
+        let appearance = UINavigationBarAppearance()
+        appearance.backgroundColor = .white
+        navigationController?.navigationBar.standardAppearance = appearance
+        navigationController?.navigationBar.addSubview(customShadowView)
+        navigationController?.navigationBar.backgroundColor = .white
+        
+        customShadowView.snp.makeConstraints { make in
+            make.leading.trailing.equalToSuperview()
+            make.top.equalToSuperview()
+            make.bottom.equalToSuperview().offset(15)
+        }
+        
+        //TODO: Talk with designer and android dev about shadow color and opacity
+        let shadowBottomView = UIView()
+        customShadowView.addSubview(shadowBottomView)
+        
+        shadowBottomView.snp.makeConstraints { make in
+            make.leading.trailing.equalToSuperview()
+            make.bottom.equalToSuperview()
+            make.height.equalTo(15)
+        }
+        
+        shadowBottomView.layoutIfNeeded()
+        shadowBottomView.backgroundColor = UIColor.white
+        shadowBottomView.layer.cornerRadius = 10.0
+        shadowBottomView.layer.masksToBounds = false
+        shadowBottomView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+        shadowBottomView.layer.shadowPath = UIBezierPath(rect: CGRect(x: 0, y: 15, width: shadowBottomView.frame.width, height: 4)).cgPath
+        shadowBottomView.layer.shadowRadius = 5
+        shadowBottomView.layer.shadowOpacity = 0.4
+    }
+    
+    private func createThreeDotButton() -> UIBarButtonItem {
+        let threeDotButton = UIBarButtonItem(
+            image: Theme.iconImage(.kahfTreeDotIcon, renderingMode: .alwaysOriginal),
+            style: .plain,
+            target: self,
+            action: nil
+        )
+        //audioCallButton.isEnabled = !CurrentAppContext().hasActiveCall
+        //audioCallButton.accessibilityLabel = NSLocalizedString("AUDIO_CALL_LABEL", comment: "Accessibility label for placing an audio call")
+        return threeDotButton
+    }
+    
+    private func createAudioCallButton() -> UIBarButtonItem {
+        let audioCallButton = UIBarButtonItem(
+            image: Theme.iconImage(.kahfCallIcon, renderingMode: .alwaysOriginal),
+            style: .plain,
+            target: self,
+            action: #selector(startIndividualAudioCall)
+        )
+        audioCallButton.isEnabled = !CurrentAppContext().hasActiveCall
+        audioCallButton.accessibilityLabel = NSLocalizedString("AUDIO_CALL_LABEL", comment: "Accessibility label for placing an audio call")
+        return audioCallButton
+    }
+    
+    @objc func backButtonTapped() {
+        if let navigationController = self.navigationController {
+            navigationController.popViewController(animated: true)
+        }
+    }
 }
 // MARK: - Keyboard Shortcuts
 

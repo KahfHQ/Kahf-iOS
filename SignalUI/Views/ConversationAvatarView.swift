@@ -75,11 +75,15 @@ public class ConversationAvatarView: UIView, CVView, PrimaryImageView {
         public enum SizeClass: Equatable {
             case twentyFour
             case twentyEight
+            case thirtyTwo
+            case thirtyFour
             case thirtySix
             case forty
             case fortyEight
+            case fiftyTwo
             case fiftySix
             case sixtyFour
+            case seventy
             case eighty
             case eightyEight
             case oneHundredTwelve
@@ -94,12 +98,18 @@ public class ConversationAvatarView: UIView, CVView, PrimaryImageView {
                     self = .twentyFour
                 case Self.twentyEight.diameter:
                     self = .twentyEight
+                case Self.thirtyTwo.diameter:
+                    self = .thirtyTwo
                 case Self.thirtySix.diameter:
                     self = .thirtySix
+                case Self.thirtyFour.diameter:
+                    self = .thirtyFour
                 case Self.forty.diameter:
                     self = .forty
                 case Self.fortyEight.diameter:
                     self = .fortyEight
+                case Self.fiftyTwo.diameter:
+                    self = .fiftyTwo
                 case Self.fiftySix.diameter:
                     self = .fiftySix
                 case Self.sixtyFour.diameter:
@@ -978,11 +988,15 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return 24
         case .twentyEight: return 28
+        case .thirtyTwo: return 32
+        case .thirtyFour: return 34
         case .thirtySix: return 36
         case .forty: return 40
         case .fortyEight: return 48
+        case .fiftyTwo: return 52
         case .fiftySix: return 56
         case .sixtyFour: return 64
+        case .seventy: return 70
         case .eighty: return 80
         case .eightyEight: return 88
         case .oneHundredTwelve: return 112
@@ -1011,11 +1025,15 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return CGPoint(x: 10, y: 12)
         case .twentyEight: return CGPoint(x: 14, y: 16)
+        case .thirtyTwo: return CGPoint(x: 20, y: 23)
+        case .thirtyFour: return CGPoint(x: 20, y: 23)
         case .thirtySix: return CGPoint(x: 20, y: 23)
         case .forty: return CGPoint(x: 20, y: 22)
         case .fortyEight: return CGPoint(x: 28, y: 30)
+        case .fiftyTwo: return CGPoint(x: 32, y: 38)
         case .fiftySix: return CGPoint(x: 32, y: 38)
         case .sixtyFour: return CGPoint(x: 40, y: 46)
+        case .seventy: return CGPoint(x: 32, y: 38)
         case .eighty: return CGPoint(x: 44, y: 52)
         case .eightyEight: return CGPoint(x: 49, y: 56)
         case .oneHundredTwelve: return CGPoint(x: 74, y: 80)
@@ -1047,11 +1065,15 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return 4
         case .twentyEight: return 4
+        case .thirtyTwo: return 4
+        case .thirtyFour: return 4
         case .thirtySix: return 4
         case .forty: return 4
         case .fortyEight: return 5
+        case .fiftyTwo: return 5
         case .fiftySix: return 5
         case .sixtyFour: return 5
+        case .seventy: return 5
         case .eighty: return 5
         case .eightyEight: return 6
         case .oneHundredTwelve: return 6
@@ -1063,11 +1085,15 @@ extension ConversationAvatarView.Configuration.SizeClass {
         switch self {
         case .twentyFour: return 2
         case .twentyEight: return 2
+        case .thirtyTwo: return 2
+        case .thirtyFour: return 2
         case .thirtySix: return 2
         case .forty: return 2
         case .fortyEight: return 2
+        case .fiftyTwo: return 2
         case .fiftySix: return 2
         case .sixtyFour: return 2
+        case .seventy: return 5
         case .eighty: return 3
         case .eightyEight: return 3
         case .oneHundredTwelve: return 3

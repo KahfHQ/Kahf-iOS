@@ -109,10 +109,10 @@ public class QuotedMessageView: ManualStackViewWithLayer {
         var quotedAuthorName: String { state.quotedAuthorName }
 
         let stripeThickness: CGFloat = 4
-        var quotedAuthorFont: UIFont { UIFont.ows_dynamicTypeSubheadlineClamped.ows_semibold }
-        var quotedAuthorColor: UIColor { conversationStyle.quotedReplyAuthorColor() }
-        var quotedTextColor: UIColor { conversationStyle.quotedReplyTextColor() }
-        var quotedTextFont: UIFont { UIFont.ows_dynamicTypeBody2 }
+        var quotedAuthorFont: UIFont { UIFont.interSemiBold16; }
+        var quotedAuthorColor: UIColor { UIColor.ows_gray01 }
+        var quotedTextColor: UIColor { UIColor.ows_gray01 }
+        var quotedTextFont: UIFont { UIFont.interRegular16 }
         var fileTypeTextColor: UIColor { conversationStyle.quotedReplyAttachmentColor() }
         var fileTypeFont: UIFont { quotedTextFont.ows_italic }
         var filenameTextColor: UIColor { conversationStyle.quotedReplyAttachmentColor() }
@@ -422,7 +422,7 @@ public class QuotedMessageView: ManualStackViewWithLayer {
         var hStackSubviews = [UIView]()
 
         if configurator.isForPreview || configurator.isOutgoing {
-            stripeView.backgroundColor = .ows_white
+            stripeView.backgroundColor = .clear
         } else {
             // We render the stripe by manipulating the chat color overlay.
             stripeView.backgroundColor = .clear

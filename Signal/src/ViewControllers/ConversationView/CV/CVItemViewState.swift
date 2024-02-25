@@ -115,8 +115,8 @@ struct CVItemModelBuilder: CVItemBuilding, Dependencies {
             }
             let threadDetails = ThreadDetailsInteraction(thread: thread,
                                                          timestamp: threadDetailsTimestamp)
-            let item = addItem(interaction: threadDetails)
-            owsAssertDebug(item != nil)
+            //let item = addItem(interaction: threadDetails)
+            //owsAssertDebug(item != nil)
         }
 
         // UnknownThreadWarning are the second item in the thread

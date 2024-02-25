@@ -54,7 +54,10 @@ public enum ThemeIcon: UInt {
     case settingsShareUsername
 
     case cameraButton
+    case cameraToolbarButton
+    case startToChatButton
     case micButton
+    case micToolbarButton
     case messageActionSpeak
     case messageActionStopSpeaking
 
@@ -161,6 +164,39 @@ public enum ThemeIcon: UInt {
 
     case hide20
     case hide24
+    
+    case kahfHomeIcon
+    case kahfBackIcon
+    case kahfVideoIcon
+    case kahfCallIcon
+    case kahfTreeDotIcon
+    case kahfCancelIcon
+    case kahfAttachmentPlus
+    
+    case kahfStoryIcon
+    case kahfMosqueNearbyIcon
+    case kahfEventsIcon
+    case kahfArticlesIcon
+    
+    case kahfSettingsAccounts
+    case kahfSettingsAppearance
+    case kahfSettingsChat
+    case kahfSettingsData
+    case kahfSettingsHelp
+    case kahfSettingsInvite
+    case kahfSettingsLinkedDevice
+    case kahfSettingsNotifications
+    case kahfSettingsPrivacy
+    case kahfRunningPrayer
+    case kahfCalendarLeft
+    case kahfCalendarRight
+    case kahfAlertAdhan
+    case kahfAlertDisabled
+    case kahfAlertNotif
+    case kahfNextPrayerTimeBg
+    case kahfMosqueDirection
+    case kahfNextPrayerBottomShadow
+    case kahfRightArrow
 }
 
 // MARK: - Colors
@@ -184,18 +220,18 @@ public extension Theme {
 
 @objc
 public extension Theme {
-    class func iconImage(_ icon: ThemeIcon) -> UIImage {
-        iconImage(icon, isDarkThemeEnabled: isDarkThemeEnabled)
+    class func iconImage(_ icon: ThemeIcon, renderingMode: UIImage.RenderingMode = .alwaysTemplate) -> UIImage {
+        iconImage(icon, isDarkThemeEnabled: isDarkThemeEnabled, renderingMode: renderingMode)
     }
 
-    class func iconImage(_ icon: ThemeIcon, isDarkThemeEnabled: Bool) -> UIImage {
+    class func iconImage(_ icon: ThemeIcon, isDarkThemeEnabled: Bool, renderingMode: UIImage.RenderingMode = .alwaysTemplate) -> UIImage {
         let name = iconName(icon, isDarkThemeEnabled: isDarkThemeEnabled)
         guard let image = UIImage(named: name) else {
             owsFailDebug("image was unexpectedly nil: \(name)")
             return UIImage()
         }
 
-        return image.withRenderingMode(.alwaysTemplate)
+        return image.withRenderingMode(renderingMode)
     }
 
     class func iconName(_ icon: ThemeIcon) -> String {
@@ -297,10 +333,16 @@ public extension Theme {
             return "share-outline-20"
 
         // Input Toolbar
+        case .cameraToolbarButton:
+            return "camera-toolbar"
         case .cameraButton:
             return isDarkThemeEnabled ? "camera-solid-24" : "camera-outline-24"
+        case .startToChatButton:
+            return "startToChatButtonIcon"
         case .micButton:
             return isDarkThemeEnabled ? "mic-solid-24" : "mic-outline-24"
+        case .micToolbarButton:
+            return "mic-toolbar"
         case .attachmentCamera:
             return "camera-outline-32"
         case .attachmentContact:
@@ -497,6 +539,67 @@ public extension Theme {
             return isDarkThemeEnabled ? "hide-solid-20" : "hide-outline-20"
         case .hide24:
             return isDarkThemeEnabled ? "hide-solid-24" : "hide-outline-24"
+            
+        case .kahfHomeIcon:
+            return "kahf_home_icon"
+        case .kahfBackIcon:
+            return "kahf_back_icon"
+        case .kahfVideoIcon:
+            return "kahf_video_icon"
+        case .kahfCallIcon:
+            return "kahf_call_icon"
+        case .kahfTreeDotIcon:
+            return "kahf_three_dot_icon"
+        case .kahfCancelIcon:
+            return "kahf_cancel_icon"
+        case .kahfAttachmentPlus:
+            return "kahf_attachment_plus"
+        case .kahfStoryIcon:
+            return "kahf_story_menu_icon"
+        case .kahfMosqueNearbyIcon:
+            return "kahf_mosque_nearby_menu_icon"
+        case .kahfEventsIcon:
+            return "kahf_events_menu_icon"
+        case .kahfArticlesIcon:
+            return "kahf_articles_menu_icon"
+        case .kahfSettingsAccounts:
+            return "kahf_settings_accounts"
+        case .kahfSettingsAppearance:
+            return "kahf_settings_appearance"
+        case .kahfSettingsChat:
+            return "kahf_settings_chat"
+        case .kahfSettingsHelp:
+            return "kahf_settings_help"
+        case .kahfSettingsInvite:
+            return "kahf_settings_invite"
+        case .kahfSettingsLinkedDevice:
+            return "kahf_settings_linkedDevice"
+        case .kahfSettingsNotifications:
+            return "kahf_settings_notifications"
+        case .kahfSettingsPrivacy:
+            return "kahf_settings_privacy"
+        case .kahfSettingsData:
+            return "kahf_settings_data"
+        case .kahfRunningPrayer:
+            return "kahf_running_prayer"
+        case .kahfCalendarLeft:
+            return "kahf_calendar_left"
+        case .kahfCalendarRight:
+            return "kahf_calendar_right"
+        case .kahfAlertAdhan:
+            return "kahf_alert_adhan"
+        case .kahfAlertDisabled:
+            return "kahf_alert_disabled"
+        case .kahfAlertNotif:
+            return "kahf_alert_notif"
+        case .kahfNextPrayerTimeBg:
+            return "kahf_next_prayer_time_bg"
+        case .kahfMosqueDirection:
+            return "kahf_mosque_direction"
+        case .kahfNextPrayerBottomShadow:
+            return "kahf_next_prayer_bottom_shadow"
+        case .kahfRightArrow:
+            return "kahf_right_arrow"
         }
     }
 }

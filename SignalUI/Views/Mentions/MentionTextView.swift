@@ -449,7 +449,7 @@ open class MentionTextView: OWSTextView {
     // MARK: - Text Container Insets
 
     open var defaultTextContainerInset: UIEdgeInsets {
-        UIEdgeInsets(hMargin: 7, vMargin: 7 - CGHairlineWidth())
+        UIEdgeInsets(hMargin: 7, vMargin: 13 - CGHairlineWidth())
     }
 
     public func updateTextContainerInset() {

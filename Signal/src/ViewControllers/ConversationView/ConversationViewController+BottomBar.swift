@@ -137,14 +137,11 @@ public extension ConversationViewController {
         if let newBottomView = bottomView {
             bottomBar.addSubview(newBottomView)
 
-            // The request views expect to extend into the safe area.
-            if requestView != nil {
-                newBottomView.autoPinEdgesToSuperviewEdges()
-            } else {
-                newBottomView.autoPinEdgesToSuperviewMargins()
+            newBottomView.snp.makeConstraints { make in
+                make.edges.equalToSuperview()
             }
         }
-
+        updateBottomBarShadow()
         updateInputAccessoryPlaceholderHeight()
         updateBottomBarPosition()
         updateContentInsets()
@@ -244,6 +241,17 @@ public extension ConversationViewController {
         // We always want to apply the new bottom bar position immediately,
         // as this only happens during animations (interactive or otherwise)
         bottomBarSuperview.layoutIfNeeded()
+    }
+    
+    func updateBottomBarShadow() {
+        AssertIsOnMainThread()
+        bottomBar.layoutIfNeeded()
+        bottomBar.backgroundColor = UIColor.white
+        bottomBar.layer.cornerRadius = 10.0
+        bottomBar.layer.masksToBounds = false
+        bottomBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        //TODO: Talk with designer and android dev about shadow color and opacity
+        bottomBar.setShadow(radius: 10.0, opacity: 1, offset: CGSize(width: 3, height: 10), color: UIColor(red: 0, green: 0, blue: 0, alpha: 0.5))
     }
 
     func updateInputAccessoryPlaceholderHeight() {

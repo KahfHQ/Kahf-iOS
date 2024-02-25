@@ -381,10 +381,36 @@ class UserNotificationPresenter: Dependencies {
     }
 
     func clearAllNotifications() {
-        Logger.warn("Clearing all notifications")
+        // DO NOT REMOVE THE PRAYER ALARM
+        getNotificationsRequests { notificationRequests in
+            let requestMatchesPredicate: (UNNotificationRequest) -> Bool = { request in
+                if request.identifier.starts(with: "alarm_set_at") { //filter prayer alarms
+                    return false
+                }
+                else {
+                    return true
+                }
+            }
 
-        Self.notificationCenter.removeAllPendingNotificationRequests()
-        Self.notificationCenter.removeAllDeliveredNotifications()
+            let identifiersToCancel: [String] = {
+                notificationRequests.compactMap { request in
+                    if requestMatchesPredicate(request) {
+                        return request.identifier
+                    }
+
+                    return nil
+                }
+            }()
+
+            guard !identifiersToCancel.isEmpty else {
+                return
+            }
+
+            Logger.info("Removing delivered/pending notifications with identifiers: \(identifiersToCancel)")
+
+            Self.notificationCenter.removeDeliveredNotifications(withIdentifiers: identifiersToCancel)
+            Self.notificationCenter.removePendingNotificationRequests(withIdentifiers: identifiersToCancel)
+        }
     }
 
     private enum CancellationType: Equatable, Hashable {

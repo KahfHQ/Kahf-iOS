@@ -41,16 +41,11 @@ class QuotedReplyPreview: UIView, OWSQuotedMessageViewDelegate {
         NotificationCenter.default.addObserver(self, selector: #selector(contentSizeCategoryDidChange), name: UIContentSizeCategory.didChangeNotification, object: nil)
     }
 
-    private let draftMarginTop: CGFloat = 6
+    private let draftMarginTop: CGFloat = 0
 
     func updateContents() {
         subviews.forEach { $0.removeFromSuperview() }
-
-        let hMargin: CGFloat = 6
-        self.layoutMargins = UIEdgeInsets(top: draftMarginTop,
-                                          left: hMargin,
-                                          bottom: 0,
-                                          right: hMargin)
+        self.layoutMargins = UIEdgeInsets(top: draftMarginTop,left: 0,bottom: 0,right: 0)
 
         // We instantiate quotedMessageView late to ensure that it is updated
         // every time contentSizeCategoryDidChange (i.e. when dynamic type

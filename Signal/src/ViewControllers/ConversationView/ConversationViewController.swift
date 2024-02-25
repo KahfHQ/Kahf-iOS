@@ -187,12 +187,19 @@ public class ConversationViewController: OWSViewController {
         backgroundContainer.delegate = self
         self.view.addSubview(backgroundContainer)
         backgroundContainer.autoPinEdgesToSuperviewEdges()
-        setupWallpaper()
-
+        setupWallpaper() 
+        self.view.addSubview(quoteView)
         self.view.addSubview(bottomBar)
         self.bottomBarBottomConstraint = bottomBar.autoPinEdge(toSuperviewEdge: .bottom)
-        bottomBar.autoPinWidthToSuperview()
-
+        bottomBar.snp.makeConstraints { make in
+            make.height.equalTo(84)
+            make.leading.trailing.equalToSuperview()
+        }
+        quoteView.snp.makeConstraints { make in
+            make.height.equalTo(169)
+            make.leading.trailing.equalToSuperview()
+            make.bottom.equalToSuperview()
+        }
         self.selectionToolbar = self.buildSelectionToolbar()
 
         // This should kick off the first load.
@@ -264,7 +271,7 @@ public class ConversationViewController: OWSViewController {
         Logger.verbose("viewWillAppear")
 
         super.viewWillAppear(animated)
-
+        self.navigationController?.navigationBar.removeAllSubviews()
         if let groupThread = thread as? TSGroupThread {
             acquireCacheLeases(groupThread)
         }
@@ -287,7 +294,8 @@ public class ConversationViewController: OWSViewController {
         // We should have already requested contact access at this point, so this should be a no-op
         // unless it ever becomes possible to load this VC without going via the ChatListViewController.
         self.contactsManagerImpl.requestSystemContactsOnce()
-
+        self.customizeNavigationBarShadow()
+        self.setCustomizedBackButton()
         self.updateBarButtonItems()
         self.updateNavigationTitle()
 
@@ -423,6 +431,9 @@ public class ConversationViewController: OWSViewController {
 
         self.dismissReactionsDetailSheet(animated: false)
         self.saveLastVisibleSortIdAndOnScreenPercentage(async: true)
+        self.customLeftView?.removeFromSuperview()
+        self.customLeftView = nil
+        self.customShadowView.removeFromSuperview()
     }
 
     public override func viewDidDisappear(_ animated: Bool) {
