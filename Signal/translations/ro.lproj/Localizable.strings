@@ -7440,4 +7440,18 @@
 "KAHF_COMING_SOON" = "În curând...";
 "KAHF_ADHAN_AND_NOTIFICATION" = "Adhan și notificare";
 "KAHF_ADHAN" = "Adhan";
-"KAHF_RUNNING_PRAYER" = "Rugăci
+"KAHF_RUNNING_PRAYER" = "Rugăciune în curs";
+"KAHF_ADD_STORY" = "Adaugă poveste +";
+"KAHF_KAHF_STORY" = "Poveste Kahf";
+"KAHF_SAFE_CHAT" = "Chat sigur";
+"KAHF_ALERT" = "Avertizare";
+"KAHF_HOURS" = "Ore";
+"KAHF_HOURS_LEFT" = "Ore Rămase";
+"KAHF_SECS_LEFT" = "Secunde Rămase";
+"KAHF_HOURS_UNTIL" = "ore până la";
+"KAHF_MINUTES_UNTIL" = "minute până la";
+"KAHF_SECS_UNTIL" = "secunde până la";
+"KAHF_ISHA" = "Isha";
+"KAHF_LOCATION_COULD_NOT_GET" = "Nu am putut obține informațiile despre locația dvs. Asigurați-vă că funcțiile de localizare ale telefonului dvs. sunt activate.";
+"KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Trebuie să acordați permisiunea pentru locație în setările dispozitivului pentru a vizualiza această pagină. Mergeți la permisiunea de locație pe pagina redirecționată și acordați permisiunea.";
+
