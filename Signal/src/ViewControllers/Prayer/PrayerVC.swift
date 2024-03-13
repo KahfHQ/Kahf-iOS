@@ -41,11 +41,11 @@ enum Day: CaseIterable {
     var name: String {
         switch self {
         case .yesterday:
-            return "Yesterday"
+            return OWSLocalizedString("DATE_YESTERDAY", comment: "text for yesterday")
         case .today:
-            return "Today"
+            return OWSLocalizedString("DATE_TODAY", comment: "text for today")
         case .tomorrow:
-            return "Tomorrow"
+            return OWSLocalizedString("KAHF_TOMORROW", comment: "text for tomorrow")
         }
     }
 }

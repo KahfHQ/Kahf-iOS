@@ -68,56 +68,53 @@ class PrayerManager {
     
     func calculateNextPrayerTime(next: Prayer, date: Date) -> String {
         let calendar = Calendar.current
-        let components = calendar.dateComponents([.hour, .minute], from: Date(), to: date)
-        var labelText = ""
-        if let hours = components.hour, let minutes = components.minute {
-            
-            
-            if hours > 0 {
-                labelText += "\(hours) hours"
-            }
-            
-            if minutes > 0 {
-                if labelText.count > 0 {
-                    labelText += " "
+        let components = calendar.dateComponents([.hour, .minute, .second], from: Date(), to: date)
+    
+        if let remainingHours = components.hour, let remainingMinutes = components.minute, let remainingSecs = components.second {
+            switch remainingHours > 0 {
+            case true:
+                switch remainingMinutes > 0 {
+                case true:
+                    return "\(remainingHours) \(NSLocalizedString("KAHF_HOURS", comment: "")) \(remainingMinutes) \(NSLocalizedString("KAHF_MINUTES_UNTIL", comment: ""))"
+                default:
+                    return "\(remainingHours) \(NSLocalizedString("KAHF_HOURS_UNTIL", comment: ""))"
                 }
-                labelText += "\(minutes) minutes"
-            }
-            
-            if labelText.count > 0 {
-                labelText += " until \(next)"
-            } else {
-                return "Event is happening now or in the past."
+            default:
+                switch remainingMinutes > 0 {
+                case true:
+                    return "\(remainingMinutes) \(NSLocalizedString("KAHF_MINUTES_UNTIL", comment: ""))"
+                default:
+                    return "\(remainingSecs) \(NSLocalizedString("KAHF_SECS_UNTIL", comment: ""))"
+                }
             }
         }
-        return labelText
+        else {
+            return "---"
+        }
     }
     
-    func calculateLeftTimeNextPrayerTime(next: Prayer, date: Date) -> String {
-        let calendar = Calendar.current
-        let components = calendar.dateComponents([.hour, .minute], from: Date(), to: date)
-        var labelText = ""
-        if let hours = components.hour, let minutes = components.minute {
-            
-            
-            if hours > 0 {
-                labelText += "\(hours) hours"
+    func getRemainingTimeText(date: Date) -> String {
+        let now = Date()
+        let remainingSecs = Int(date.timeIntervalSince(now) / 60.0)
+        let remainingHours = remainingSecs / 60
+        let remainingMinutes = remainingSecs % 60
+
+        switch remainingHours > 0 {
+        case true:
+            switch remainingMinutes > 0 {
+            case true:
+                return "\(remainingHours) \(NSLocalizedString("KAHF_HOURS", comment: "")) \(remainingMinutes) \(NSLocalizedString("KAHF_MINUTES_LEFT", comment: ""))"
+            default:
+                return "\(remainingHours) \(NSLocalizedString("KAHF_HOURS_LEFT", comment: ""))"
             }
-            
-            if minutes > 0 {
-                if labelText.count > 0 {
-                    labelText += " "
-                }
-                labelText += "\(minutes) minutes"
-            }
-            
-            if labelText.count > 0 {
-                labelText += " Left"
-            } else {
-                return "Event is happening now or in the past."
+        default:
+            switch remainingMinutes > 0 {
+            case true:
+                return "\(remainingMinutes) \(NSLocalizedString("KAHF_MINUTES_LEFT", comment: ""))"
+            default:
+                return "\(remainingSecs) \(NSLocalizedString("KAHF_SECS_LEFT", comment: ""))"
             }
         }
-        return labelText
     }
 }
 

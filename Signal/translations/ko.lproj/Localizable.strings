@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "남은 분";
 "KAHF_ALL_PRAYER_TIME" = "모든 기도 시간";
 "KAHF_MOSQUE_NEARBY" = "근처 모스크";
-"KAHF_DISTANCE_FROM_LOCATION" = "위치에서 %.2f KM 떨어져 있음";
+"KAHF_DISTANCE_FROM_LOCATION" = "위치에서 %@ KM 떨어져 있음";
 "KAHF_RECENT_STORY" = "최근 이야기";
 "KAHF_DUA_BEFORE_SLEEPING" = "잠들기 전에 더하는";
 "KAHF_QURAN_RECITATION" = "쿠란 낭독";
@@ -7454,4 +7454,5 @@
 "KAHF_ISHA" = "이샤";
 "KAHF_LOCATION_COULD_NOT_GET" = "위치 정보를 가져올 수 없습니다. 휴대폰의 위치 기능이 켜져 있는지 확인하세요.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "이 페이지를 보려면 디바이스 설정에서 위치 권한을 부여해야 합니다. 리디렉트된 페이지의 위치 권한으로 이동하여 권한을 부여하세요.";
-
+"KAHF_MOSQUE_NEARBY" = "가까운 모스크";
+"KAHF_PRAYER" = "기도";

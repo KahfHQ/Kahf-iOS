@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "باقی معیاری";
 "KAHF_ALL_PRAYER_TIME" = "تمام نماز کا وقت";
 "KAHF_MOSQUE_NEARBY" = "قریبی مسجد";
-"KAHF_DISTANCE_FROM_LOCATION" = "آپ کے مقام سے فاصلہ %.2f کلومیٹر";
+"KAHF_DISTANCE_FROM_LOCATION" = "آپ کے مقام سے فاصلہ %@ کلومیٹر";
 "KAHF_RECENT_STORY" = "حالیہ کہانی";
 "KAHF_DUA_BEFORE_SLEEPING" = "سونے سے پہلے دعا";
 "KAHF_QURAN_RECITATION" = "قرآن کی تلاوت";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "عشاء";
 "KAHF_LOCATION_COULD_NOT_GET" = "ہم آپ کی مقامی معلومات حاصل نہیں کر سکے۔ براہ کرم یقینی بنائیں کہ آپ کے فون کی مقام کی خصوصیات چالو ہیں۔";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "آپ کو اس صفحے کو دیکھنے کے لئے آپ کے آلہ کی ترتیبات میں مقام کی اجازت دینی ہوگی۔ براہ کرم مقام کی اجازت پر ریڈائریکٹ شدہ صفحہ پر جائیں اور اجازت دیں۔";
+"KAHF_MOSQUE_NEARBY" = "قریبی مسجد";
+"KAHF_PRAYER" = "نماز";

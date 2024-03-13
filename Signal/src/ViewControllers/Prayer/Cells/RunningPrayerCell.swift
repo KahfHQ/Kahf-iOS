@@ -18,7 +18,7 @@ class RunningPrayerCell: UITableViewCell {
     
     lazy var smallTitleLabel: UILabel = {
         let view = UILabel()
-        view.text = "Running Prayer"
+        view.text = OWSLocalizedString("KAHF_RUNNING_PRAYER", comment: "")
         view.textColor = .white
         view.font = UIFont.interRegular14
         return view

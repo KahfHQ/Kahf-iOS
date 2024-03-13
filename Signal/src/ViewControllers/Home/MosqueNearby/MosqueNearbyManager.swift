@@ -47,7 +47,8 @@ class MosqueNearbyManager {
                             if let mosqueCoordinate = mosqueCoordinate {
                                 let distance = self.calculateDistance(from: coordinate, to: mosqueCoordinate)
                                 firstMosque.mosqueCoordinate = mosqueCoordinate
-                                firstMosque.distanceString = "\(String(format: "%.2f", distance)) KM from your location"
+                                let distanceString = String(format: NSLocalizedString("KAHF_DISTANCE_FROM_LOCATION", comment: ""),  String(format: "%.2f", distance))
+                                firstMosque.distanceString = distanceString
                             }
                             completion(firstMosque)
                         }

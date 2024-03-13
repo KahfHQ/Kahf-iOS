@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "分钟剩余";
 "KAHF_ALL_PRAYER_TIME" = "所有祈祷时间";
 "KAHF_MOSQUE_NEARBY" = "附近的清真寺";
-"KAHF_DISTANCE_FROM_LOCATION" = "距离您的位置 %.2f 公里";
+"KAHF_DISTANCE_FROM_LOCATION" = "距离您的位置 %@ 公里";
 "KAHF_RECENT_STORY" = "最近的故事";
 "KAHF_DUA_BEFORE_SLEEPING" = "睡前祈祷";
 "KAHF_QURAN_RECITATION" = "古兰经朗诵";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "晚祷";
 "KAHF_LOCATION_COULD_NOT_GET" = "无法获取您的位置信息。请确保您的手机位置功能已打开。";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "您必须在设备设置中授予该页面查看位置的权限。请在引导的页面上打开位置权限并授予权限。";
+"KAHF_MOSQUE_NEARBY" = "附近清真寺";
+"KAHF_PRAYER" = "祈祷";

@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Pozostałe minuty";
 "KAHF_ALL_PRAYER_TIME" = "Wszystkie godziny modlitwy";
 "KAHF_MOSQUE_NEARBY" = "Najbliższa meczet";
-"KAHF_DISTANCE_FROM_LOCATION" = "Odległość od Twojej lokalizacji %.2f KM";
+"KAHF_DISTANCE_FROM_LOCATION" = "Odległość od Twojej lokalizacji %@ KM";
 "KAHF_RECENT_STORY" = "Ostatnia historia";
 "KAHF_DUA_BEFORE_SLEEPING" = "Modlitwa przed snem";
 "KAHF_QURAN_RECITATION" = "Recytacja Koranu";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "Nie mogliśmy pobrać Twojej lokalizacji. Upewnij się, że funkcje lokalizacji na Twoim telefonie są włączone.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Musisz udzielić uprawnień do lokalizacji w ustawieniach urządzenia, aby wyświetlić tę stronę. Przejdź do uprawnień lokalizacji na przekierowanej stronie i udziel uprawnień.";
+"KAHF_MOSQUE_NEARBY" = "Meczet w pobliżu";
+"KAHF_PRAYER" = "Modlitwa";

@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Zbývající minuty";
 "KAHF_ALL_PRAYER_TIME" = "Všechny časy modliteb";
 "KAHF_MOSQUE_NEARBY" = "Blízká mešita";
-"KAHF_DISTANCE_FROM_LOCATION" = "Vzdálenost od vaší polohy %.2f km";
+"KAHF_DISTANCE_FROM_LOCATION" = "Vzdálenost od vaší polohy %@ km";
 "KAHF_RECENT_STORY" = "Nedávný příběh";
 "KAHF_DUA_BEFORE_SLEEPING" = "Dua před spaním";
 "KAHF_QURAN_RECITATION" = "Recitace Koránu";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "Nepodařilo se nám získat informace o vaší poloze. Ujistěte se, že jsou na vašem telefonu zapnuté funkce polohy.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Pro zobrazení této stránky musíte udělit povolení k určení polohy v nastavení zařízení. Přejděte na povolení polohy na přesměrované stránce a udělte povolení.";
+"KAHF_MOSQUE_NEARBY" = "Mešita v blízkosti";
+"KAHF_PRAYER" = "Modlitba";

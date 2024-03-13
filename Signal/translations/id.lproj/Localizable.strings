@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Menit yang tersisa";
 "KAHF_ALL_PRAYER_TIME" = "Semua waktu shalat";
 "KAHF_MOSQUE_NEARBY" = "Masjid Terdekat";
-"KAHF_DISTANCE_FROM_LOCATION" = "Jarak dari lokasi Anda %.2f KM";
+"KAHF_DISTANCE_FROM_LOCATION" = "Jarak dari lokasi Anda %@ KM";
 "KAHF_RECENT_STORY" = "Cerita Terkini";
 "KAHF_DUA_BEFORE_SLEEPING" = "Doa Sebelum Tidur";
 "KAHF_QURAN_RECITATION" = "Bacaan Al-Qur'an";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Isya";
 "KAHF_LOCATION_COULD_NOT_GET" = "Kami tidak dapat mengambil informasi lokasi Anda. Pastikan fitur lokasi ponsel Anda aktif.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Anda harus memberikan izin lokasi di pengaturan perangkat Anda untuk melihat halaman ini. Buka izin lokasi di halaman yang diarahkan dan berikan izin.";
+"KAHF_MOSQUE_NEARBY" = "Masjid Terdekat";
+"KAHF_PRAYER" = "Shalat";

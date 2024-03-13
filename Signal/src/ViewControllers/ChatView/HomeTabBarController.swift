@@ -20,11 +20,13 @@ class HomeTabBarController: UITabBarController {
         case settings = 4
     }
     lazy var homeNavController = HomeVC.inModalNavigationController(tabBar: self)
-    lazy var homeTabBarItem = UITabBarItem(title: "Home",
+    lazy var homeTabBarItem = UITabBarItem(title: NSLocalizedString("KAHF_HOME",
+        comment: "Title for the chat list's default mode."),
         image: UIImage(named: "tabbar-home"),
         selectedImage: UIImage(named: "tabbar-home")!)
     lazy var prayerNavController = PrayerVC.inModalNavigationController()
-    lazy var prayerTabBarItem = UITabBarItem(title: "Prayer",
+    lazy var prayerTabBarItem = UITabBarItem(title: NSLocalizedString("KAHF_PRAYER",
+        comment: "Title for the prayer's default mode."),
         image: UIImage(named: "tabbar-prayer"),
         selectedImage: UIImage(named: "tabbar-prayer")!)
     lazy var settingsNavController = AppSettingsViewController.inModalNavigationController()
@@ -56,7 +58,7 @@ class HomeTabBarController: UITabBarController {
     )
     
     lazy var wpTabBarItem = UITabBarItem(
-        title: "Safe Chat",
+        title: OWSLocalizedString("KAHF_SAFE_CHAT", comment: ""),
         image: UIImage(named: "tabbar-wp"),
         selectedImage: UIImage(named: "tabbar-wp")
     )

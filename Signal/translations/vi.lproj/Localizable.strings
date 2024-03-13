@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Phút còn lại";
 "KAHF_ALL_PRAYER_TIME" = "Tất cả thời gian cầu nguyện";
 "KAHF_MOSQUE_NEARBY" = "Gần nhà thờ";
-"KAHF_DISTANCE_FROM_LOCATION" = "Khoảng cách từ vị trí của bạn là %.2f KM";
+"KAHF_DISTANCE_FROM_LOCATION" = "Khoảng cách từ vị trí của bạn là %@ KM";
 "KAHF_RECENT_STORY" = "Câu chuyện gần đây";
 "KAHF_DUA_BEFORE_SLEEPING" = "Đọc du’a trước khi đi ngủ";
 "KAHF_QURAN_RECITATION" = "Đọc Quran";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "Chúng tôi không thể lấy thông tin vị trí của bạn. Vui lòng đảm bảo rằng các tính năng vị trí của điện thoại của bạn đã được bật.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Bạn phải cấp quyền vị trí trong cài đặt của thiết bị để xem trang này. Vui lòng chuyển đến quyền vị trí trên trang được chuyển hướng và cấp quyền.";
+"KAHF_MOSQUE_NEARBY" = "Nhà thờ Hồi giáo gần đây";
+"KAHF_PRAYER" = "Lễ cầu nguyện";

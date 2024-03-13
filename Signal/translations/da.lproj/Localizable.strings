@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Minutter tilbage";
 "KAHF_ALL_PRAYER_TIME" = "Alle bønnetider";
 "KAHF_MOSQUE_NEARBY" = "Nærliggende moské";
-"KAHF_DISTANCE_FROM_LOCATION" = "Afstand fra din placering %.2f km";
+"KAHF_DISTANCE_FROM_LOCATION" = "Afstand fra din placering %@ km";
 "KAHF_RECENT_STORY" = "Seneste historie";
 "KAHF_DUA_BEFORE_SLEEPING" = "Dua før søvn";
 "KAHF_QURAN_RECITATION" = "Koranrecitation";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "Vi kunne ikke hente dine placeringsoplysninger. Sørg for, at din telefons placeringsfunktioner er aktiveret.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Du skal give tilladelse til placering i din enhedsindstillinger for at se denne side. Gå til placeringstilladelsen på den omstyrede side og tildel tilladelsen.";
+"KAHF_MOSQUE_NEARBY" = "Moské i nærheden";
+"KAHF_PRAYER" = "Bøn";

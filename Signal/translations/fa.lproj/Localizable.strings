@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "دقیقه های باقی مانده";
 "KAHF_ALL_PRAYER_TIME" = "همه زمان‌های نماز";
 "KAHF_MOSQUE_NEARBY" = "مسجد نزدیک";
-"KAHF_DISTANCE_FROM_LOCATION" = "فاصله از موقعیت شما %.2f کیلومتر";
+"KAHF_DISTANCE_FROM_LOCATION" = "فاصله از موقعیت شما %@ کیلومتر";
 "KAHF_RECENT_STORY" = "داستان اخیر";
 "KAHF_DUA_BEFORE_SLEEPING" = "دعای قبل از خواب";
 "KAHF_QURAN_RECITATION" = "تلاوت قرآن";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "عشاء";
 "KAHF_LOCATION_COULD_NOT_GET" = "اطلاعات موقعیت شما را نتوانستیم دریافت کنیم. لطفاً اطمینان حاصل کنید که ویژگی های موقعیت مکانی تلفن شما فعال شده باشد.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "برای مشاهده این صفحه باید مجوز موقعیت را در تنظیمات دستگاه خود بدهید. لطفاً به مجوز موقعیت در صفحه انتقال داده شده بروید و مجوز را بدهید.";
+"KAHF_MOSQUE_NEARBY" = "مسجد نزدیک";
+"KAHF_PRAYER" = "نماز";

@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Minuts restants";
 "KAHF_ALL_PRAYER_TIME" = "Totes les hores de pregària";
 "KAHF_MOSQUE_NEARBY" = "Mesquita propera";
-"KAHF_DISTANCE_FROM_LOCATION" = "Distància des de la vostra ubicació %.2f km";
+"KAHF_DISTANCE_FROM_LOCATION" = "Distància des de la vostra ubicació %@ km";
 "KAHF_RECENT_STORY" = "Història recent";
 "KAHF_DUA_BEFORE_SLEEPING" = "Dua abans de dormir";
 "KAHF_QURAN_RECITATION" = "Recitació del Corà";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "No hem pogut recuperar la informació de la vostra ubicació. Assegureu-vos que les característiques de ubicació del vostre telèfon estiguin activades.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Heu de concedir el permís de ubicació a la configuració del dispositiu per veure aquesta pàgina. Anau al permís de ubicació a la pàgina redirigida i concediu el permís.";
+"KAHF_MOSQUE_NEARBY" = "Mesquita Propera";
+"KAHF_PRAYER" = "Prega";

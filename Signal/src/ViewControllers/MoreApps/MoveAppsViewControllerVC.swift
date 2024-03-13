@@ -14,7 +14,7 @@ class MoveAppsViewControllerVC: UIViewController {
 
     lazy private var titleLabel: UILabel = {
         let view = UILabel()
-        view.text = "More Apps"
+        view.text = OWSLocalizedString("KAHF_MORE_APPS", comment: "")
         view.font = UIFont.interBold24
         return view
     }()
@@ -40,7 +40,7 @@ class MoveAppsViewControllerVC: UIViewController {
     }()
     
     lazy private var storyButton: CustomButtonView = {
-      let view = CustomButtonView(title: "Story", image: Theme.iconImage(.kahfStoryIcon, renderingMode: .alwaysOriginal), action: {
+      let view = CustomButtonView(title: OWSLocalizedString("KAHF_STORY", comment: ""), image: Theme.iconImage(.kahfStoryIcon, renderingMode: .alwaysOriginal), action: {
           self.storyAction?()
       })
        view.snp.makeConstraints { make in
@@ -51,7 +51,7 @@ class MoveAppsViewControllerVC: UIViewController {
     }()
     
     lazy private var mosqueNearbyButton: CustomButtonView = {
-        let view = CustomButtonView(title: "Mosque Nearby", image: Theme.iconImage(.kahfMosqueNearbyIcon, renderingMode: .alwaysOriginal), action: {
+        let view = CustomButtonView(title: OWSLocalizedString("KAHF_MOSQUE_NEARBY", comment: ""), image: Theme.iconImage(.kahfMosqueNearbyIcon, renderingMode: .alwaysOriginal), action: {
             self.mosqueAction?()
         })
         view.snp.makeConstraints { make in
@@ -62,7 +62,7 @@ class MoveAppsViewControllerVC: UIViewController {
     }()
     
     lazy private var eventsButton: CustomButtonView = {
-        let view = CustomButtonView(title: "Events", image: Theme.iconImage(.kahfEventsIcon, renderingMode: .alwaysOriginal), action: {
+        let view = CustomButtonView(title: OWSLocalizedString("KAHF_EVENTS", comment: ""), image: Theme.iconImage(.kahfEventsIcon, renderingMode: .alwaysOriginal), action: {
             self.eventsAction?()
         })
         view.snp.makeConstraints { make in
@@ -73,7 +73,7 @@ class MoveAppsViewControllerVC: UIViewController {
     }()
     
     lazy private var articlesButton: CustomButtonView = {
-        let view = CustomButtonView(title: "Articles", image: Theme.iconImage(.kahfArticlesIcon, renderingMode: .alwaysOriginal), action: {
+        let view = CustomButtonView(title: OWSLocalizedString("KAHF_ARTICLES", comment: ""), image: Theme.iconImage(.kahfArticlesIcon, renderingMode: .alwaysOriginal), action: {
             self.articlesAction?()
         })
         view.snp.makeConstraints { make in

@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Dakika Kaldı";
 "KAHF_ALL_PRAYER_TIME" = "Tüm Namaz Vakitleri";
 "KAHF_MOSQUE_NEARBY" = "Yakındaki Cami";
-"KAHF_DISTANCE_FROM_LOCATION" = "Konumunuza %.2f KM";
+"KAHF_DISTANCE_FROM_LOCATION" = "Konumunuza %@ KM";
 "KAHF_RECENT_STORY" = "Son Hikaye";
 "KAHF_DUA_BEFORE_SLEEPING" = "Uyumadan Önce Dua";
 "KAHF_QURAN_RECITATION" = "Kuran Tilaveti";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Yatsı";
 "KAHF_LOCATION_COULD_NOT_GET" = "Konum bilgilerinizi alamadık. Lütfen telefonunuzun konum özelliklerinin açık olduğundan emin olun.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Bu sayfayı görüntülemek için cihazınızın ayarlarında konum izni vermelisiniz. Lütfen yönlendirilen sayfada konum iznini açın ve izin verin.";
+"KAHF_MOSQUE_NEARBY" = "Yakındaki Cami";
+"KAHF_PRAYER" = "Namaz";

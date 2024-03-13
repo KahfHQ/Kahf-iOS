@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Minutes Left";
 "KAHF_ALL_PRAYER_TIME" = "All Prayer Times";
 "KAHF_MOSQUE_NEARBY" = "Nearest Mosque";
-"KAHF_DISTANCE_FROM_LOCATION" = "Distance from Your Location %.2f KM";
+"KAHF_DISTANCE_FROM_LOCATION" = "Distance from Your Location %@ KM";
 "KAHF_RECENT_STORY" = "Recent Story";
 "KAHF_DUA_BEFORE_SLEEPING" = "Dua Before Sleeping";
 "KAHF_QURAN_RECITATION" = "Quran Recitation";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "We couldn't retrieve your location information. Please make sure that your phone's location features are turned on.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "You must grant location permission in your device's settings to view this page. Please go to location permission on redirected page and grant permission.";
+"KAHF_MOSQUE_NEARBY" = "Mosque Nearby";
+"KAHF_PRAYER" = "Prayer";

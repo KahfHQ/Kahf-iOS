@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Nóiméad fágtha";
 "KAHF_ALL_PRAYER_TIME" = "Gach am Ghéabhtú";
 "KAHF_MOSQUE_NEARBY" = "Moschea áitiúil";
-"KAHF_DISTANCE_FROM_LOCATION" = "Fad ó do shuíomh %.2f KM";
+"KAHF_DISTANCE_FROM_LOCATION" = "Fad ó do shuíomh %@ KM";
 "KAHF_RECENT_STORY" = "Scéal Déanaí";
 "KAHF_DUA_BEFORE_SLEEPING" = "Duain sula dtéann tú a chodladh";
 "KAHF_QURAN_RECITATION" = "Aisíocadh an Chórán";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "Níor fhéadamar do fhaisnéis láthair a bhailiú. Cinntigh go bhfuil gnéithe áiteachais do ghuthán ar siúl.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Ní mór duit cead a thabhairt do sheoladh i shocruithe do mhíreanna chun an leathanach seo a fheiceáil. Téigh go dtí an ceadúnas d'fhostaítear ar an leathanach a threorú agus tabhair ceadúnas.";
+"KAHF_MOSQUE_NEARBY" = "Moschee i ndiaidh";
+"KAHF_PRAYER" = "Paidir";

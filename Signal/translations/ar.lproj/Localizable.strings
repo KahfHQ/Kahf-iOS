@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "الدقائق المتبقية";
 "KAHF_ALL_PRAYER_TIME" = "جميع أوقات الصلاة";
 "KAHF_MOSQUE_NEARBY" = "المسجد القريب";
-"KAHF_DISTANCE_FROM_LOCATION" = "المسافة من الموقع";
+"KAHF_DISTANCE_FROM_LOCATION" = "المسافة من موقعك %@ كم";
 "KAHF_RECENT_STORY" = "القصة الأخيرة";
 "KAHF_DUA_BEFORE_SLEEPING" = "الدعاء قبل النوم";
 "KAHF_QURAN_RECITATION" = "تلاوة القرآن";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "العشاء";
 "KAHF_LOCATION_COULD_NOT_GET" = "لم نتمكن من الحصول على معلومات موقعك. يرجى التأكد من تشغيل ميزات الموقع على هاتفك.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "يجب عليك منح إذن الموقع في إعدادات جهازك لعرض هذه الصفحة. يرجى الانتقال إلى إذن الموقع على الصفحة المعاد توجيهها ومنح الإذن.";
+"KAHF_MOSQUE_NEARBY" = "المسجد القريب";
+"KAHF_PRAYER" = "الصلاة";

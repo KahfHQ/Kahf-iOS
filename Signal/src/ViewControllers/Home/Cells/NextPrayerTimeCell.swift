@@ -54,7 +54,7 @@ class NextPrayerTimeCell: UITableViewCell {
         let titleLabel = UILabel()
         titleLabel.font = UIFont.interMedium14
         titleLabel.textColor = UIColor.ows_signalBlue
-        titleLabel.text = "All Prayer Time"
+        titleLabel.text = OWSLocalizedString("KAHF_ALL_PRAYER_TIME", comment: "")
         titleLabel.textAlignment = .center
         view.addSubview(titleLabel)
         titleLabel.snp.makeConstraints { make in
@@ -96,7 +96,7 @@ class NextPrayerTimeCell: UITableViewCell {
         let view = UILabel()
         view.textColor = .white
         view.font = UIFont.interRegular14
-        view.text = "Next Prayer Time"
+        view.text = OWSLocalizedString("KAHF_NEXT_PRAYER_TIME", comment: "")
         return view
     }()
     
@@ -104,7 +104,6 @@ class NextPrayerTimeCell: UITableViewCell {
         let view = UILabel()
         view.textColor = .white
         view.font = UIFont.interBold30
-        view.text = "6:39"
         view.adjustsFontSizeToFitWidth = true
         return view
     }()
@@ -113,7 +112,6 @@ class NextPrayerTimeCell: UITableViewCell {
         let view = UILabel()
         view.textColor = .white
         view.font = UIFont.interBold14
-        view.text = "Magrib"
         return view
     }()
     
@@ -121,7 +119,6 @@ class NextPrayerTimeCell: UITableViewCell {
         let view = UILabel()
         view.textColor = .white
         view.font = UIFont.interRegular11
-        view.text = "20 Minutes Left"
         return view
     }()
     
@@ -152,7 +149,7 @@ class NextPrayerTimeCell: UITableViewCell {
         self.selectionStyle = .none
         self.backgroundColor = .clear
         self.prayerNameLabel.text = prayerManager.getRawValue(prayer: next)
-        self.timeLeftLabel.text = prayerManager.calculateLeftTimeNextPrayerTime(next: next, date: nextPrayer)
+        self.timeLeftLabel.text = prayerManager.getRemainingTimeText(date: nextPrayer)
         let dateFormatter = DateFormatter()
         dateFormatter.timeStyle = .short
         dateFormatter.timeZone = TimeZone.current

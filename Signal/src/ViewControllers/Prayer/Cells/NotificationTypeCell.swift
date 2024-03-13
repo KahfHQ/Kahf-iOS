@@ -51,7 +51,7 @@ class NotificationTypeCell: UITableViewCell {
         self.accessoryType = .none
         self.selectionStyle = .none
         self.backgroundColor = .clear
-        self.nameLabel.text = method.rawValue
+        self.nameLabel.text = method.title
         self.descriptionNameLabel.text = method.detail
         if isSelected {
             bgView.layer.borderColor = UIColor.ows_signalBlue.cgColor

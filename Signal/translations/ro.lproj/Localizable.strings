@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Minute rămase";
 "KAHF_ALL_PRAYER_TIME" = "Toate orele de rugăciune";
 "KAHF_MOSQUE_NEARBY" = "Moscheea cea mai apropiată";
-"KAHF_DISTANCE_FROM_LOCATION" = "Distanța față de locația dvs. %.2f KM";
+"KAHF_DISTANCE_FROM_LOCATION" = "Distanța față de locația dvs. %@ KM";
 "KAHF_RECENT_STORY" = "Povestea recentă";
 "KAHF_DUA_BEFORE_SLEEPING" = "Dua înainte de a adormi";
 "KAHF_QURAN_RECITATION" = "Recitarea Coranului";
@@ -7454,4 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "Nu am putut obține informațiile despre locația dvs. Asigurați-vă că funcțiile de localizare ale telefonului dvs. sunt activate.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Trebuie să acordați permisiunea pentru locație în setările dispozitivului pentru a vizualiza această pagină. Mergeți la permisiunea de locație pe pagina redirecționată și acordați permisiunea.";
-
+"KAHF_MOSQUE_NEARBY" = "Moschee in der Nähe";
+"KAHF_PRAYER" = "Rugăciune";

@@ -23,7 +23,7 @@ class MuteView: UIView {
     
     lazy var muteLabel: UILabel = {
        let view = UILabel()
-       view.text = "Mute"
+       view.text = OWSLocalizedString("BUTTON_MUTE", comment: "")
        view.textColor = .white
        view.font = UIFont.interRegular12
        return view
@@ -32,12 +32,12 @@ class MuteView: UIView {
     var isMuted = false {
         didSet {
             if isMuted {
-                muteLabel.text = "Mute"
+                muteLabel.text = OWSLocalizedString("BUTTON_MUTE", comment: "")
                 muteButtonView.backgroundColor = .ows_signalBlueDark.withAlphaComponent(0.3)
                 muteButtonView.setImage(muteImage, animated: true)
             }
             else {
-                muteLabel.text = "Unmute"
+                muteLabel.text = OWSLocalizedString("BUTTON_UNMUTE", comment: "")
                 muteButtonView.backgroundColor = .white
                 muteButtonView.setImage(unmuteImage, animated: true)
             }

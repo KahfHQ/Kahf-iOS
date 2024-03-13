@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "นาทีที่เหลือ";
 "KAHF_ALL_PRAYER_TIME" = "เวลาการสวดมนต์ทั้งหมด";
 "KAHF_MOSQUE_NEARBY" = "มัสยิดใกล้เคียง";
-"KAHF_DISTANCE_FROM_LOCATION" = "ระยะห่างจากตำแหน่งของคุณ %.2f กม.";
+"KAHF_DISTANCE_FROM_LOCATION" = "ระยะห่างจากตำแหน่งของคุณ %@ กม.";
 "KAHF_RECENT_STORY" = "เรื่องราวล่าสุด";
 "KAHF_DUA_BEFORE_SLEEPING" = "อธิษฐานก่อนนอน";
 "KAHF_QURAN_RECITATION" = "การอ่านคัมภีร์กุรอาน";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "อีซา";
 "KAHF_LOCATION_COULD_NOT_GET" = "เราไม่สามารถรับข้อมูลตำแหน่งของคุณได้ โปรดตรวจสอบให้แน่ใจว่าการตั้งค่าตำแหน่งของโทรศัพท์ของคุณเปิดอยู่";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "คุณต้องให้สิทธิ์ตำแหน่งในการตั้งค่าของอุปกรณ์เพื่อดูหน้านี้ กรุณาเปิดใช้งานสิทธิ์ตำแหน่งในหน้าที่เป็นทางการและอนุญาต";
+"KAHF_MOSQUE_NEARBY" = "มัสยิดใกล้เคียง";
+"KAHF_PRAYER" = "การอภิปราย";

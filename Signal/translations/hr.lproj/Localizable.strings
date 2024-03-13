@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Preostalo minuta";
 "KAHF_ALL_PRAYER_TIME" = "Sva vremena molitve";
 "KAHF_MOSQUE_NEARBY" = "Obližnja džamija";
-"KAHF_DISTANCE_FROM_LOCATION" = "Udaljenost od lokacije %.2f KM";
+"KAHF_DISTANCE_FROM_LOCATION" = "Udaljenost od lokacije %@ KM";
 "KAHF_RECENT_STORY" = "Nedavna priča";
 "KAHF_DUA_BEFORE_SLEEPING" = "Molitva prije spavanja";
 "KAHF_QURAN_RECITATION" = "Recitacija Kur'ana";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "Nismo mogli dohvatiti vaše lokacijske informacije. Provjerite jesu li značajke lokacije na vašem telefonu uključene.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Da biste vidjeli ovu stranicu, morate dodijeliti dozvolu za lokaciju u postavkama uređaja. Idite na dozvolu za lokaciju na preusmjerenom mjestu i dodijelite dozvolu.";
+"KAHF_MOSQUE_NEARBY" = "Džamija u blizini";
+"KAHF_PRAYER" = "Molitva";

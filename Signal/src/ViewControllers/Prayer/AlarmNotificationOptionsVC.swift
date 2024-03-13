@@ -30,19 +30,11 @@ class AlarmNotificationOptionsVC: UIViewController {
        return view
     }()
     
-    lazy var titleSmall: UILabel = {
-       let view = UILabel()
-       view.font = UIFont.interMedium14
-       view.textColor = UIColor.ows_gray01
-       view.text = "Dhuhr Time"
-       return view
-    }()
-    
     lazy var titleBig: UILabel = {
        let view = UILabel()
        view.font = UIFont.interBold24
        view.textColor = UIColor.ows_gray01
-       view.text = "Adhan & Notification"
+       view.text =  OWSLocalizedString("KAHF_ADHAN_NOTIFICATION", comment: "")
        return view
     }()
     
@@ -75,7 +67,6 @@ class AlarmNotificationOptionsVC: UIViewController {
     
     func addSubview() {
         self.view.addSubview(customDragLine)
-        self.view.addSubview(titleSmall)
         self.view.addSubview(titleBig)
         self.view.addSubview(tableView)
     }
@@ -85,12 +76,8 @@ class AlarmNotificationOptionsVC: UIViewController {
             make.top.equalToSuperview().offset(30)
             make.centerX.equalToSuperview()
         }
-        titleSmall.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(40)
-            make.leading.equalToSuperview().offset(29)
-        }
         titleBig.snp.makeConstraints { make in
-            make.top.equalTo(titleSmall.snp.bottom).offset(7)
+            make.top.equalTo(customDragLine.snp.bottom).offset(7)
             make.leading.equalToSuperview().offset(29)
         }
         tableView.snp.makeConstraints { make in
@@ -121,16 +108,24 @@ extension AlarmNotificationOptionsVC: UITableViewDataSource, UITableViewDelegate
     }
 }
 
-public enum NotificationMethod: String {
-    case silent = "Silent"
-    case notification = "Notification"
-    case adhan = "Adhan"
+public enum NotificationMethod {
+    case silent
+    case notification
+    case adhan
     
     var detail: String {
         switch self {
-            case .silent: return "No notification & Adhan"
-            case .notification: return "Notification message ( No Adhan) Only Beep"
-            case .adhan: return "Full Adhan and notification both"
+            case .silent: return OWSLocalizedString("KAHF_NO_NOTIFICATION_ADHAN", comment: "")
+            case .notification: return OWSLocalizedString("KAHF_NOTIFICATION_MESSAGE", comment: "")
+            case .adhan: return OWSLocalizedString("KAHF_FULL_ADHAN_NOTIFICATION", comment: "")
+        }
+    }
+    
+    var title: String {
+        switch self {
+            case .silent: return OWSLocalizedString("KAHF_SILENT", comment: "")
+            case .notification: return OWSLocalizedString("KAHF_NOTIFICATION", comment: "")
+            case .adhan:  return OWSLocalizedString("KAHF_ADHAN", comment: "")
         }
     }
     

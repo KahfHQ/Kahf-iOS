@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "残りの分数";
 "KAHF_ALL_PRAYER_TIME" = "すべての祈りの時間";
 "KAHF_MOSQUE_NEARBY" = "近くのモスク";
-"KAHF_DISTANCE_FROM_LOCATION" = "位置からの距離%.2fキロメートル";
+"KAHF_DISTANCE_FROM_LOCATION" = "位置からの距離%@キロメートル";
 "KAHF_RECENT_STORY" = "最近のストーリー";
 "KAHF_DUA_BEFORE_SLEEPING" = "寝る前の祈り";
 "KAHF_QURAN_RECITATION" = "クルアーンの朗読";
@@ -7454,4 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "Non siamo riusciti a recuperare le informazioni sulla tua posizione. Assicurati che le funzionalità di localizzazione del tuo telefono siano attivate.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "Devi concedere il permesso di localizzazione nelle impostazioni del tuo dispositivo per visualizzare questa pagina. Vai al permesso di localizzazione sulla pagina reindirizzata e concedi il permesso.";
-
+"KAHF_MOSQUE_NEARBY" = "近くのモスク";
+"KAHF_PRAYER" = "祈り";

@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Overgebleven Minuten";
 "KAHF_ALL_PRAYER_TIME" = "Alle Gebedstijden";
 "KAHF_MOSQUE_NEARBY" = "Moskee in de Buurt";
-"KAHF_DISTANCE_FROM_LOCATION" = "Afstand vanaf uw Locatie %.2f KM";
+"KAHF_DISTANCE_FROM_LOCATION" = "Afstand vanaf uw Locatie %@ KM";
 "KAHF_RECENT_STORY" = "Recent Verhaal";
 "KAHF_DUA_BEFORE_SLEEPING" = "Dua voor het Slapen";
 "KAHF_QURAN_RECITATION" = "Koranrecitatie";
@@ -7454,3 +7454,5 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "We konden uw locatiegegevens niet ophalen. Zorg ervoor dat de locatiefuncties van uw telefoon zijn ingeschakeld.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "U moet toestemming geven voor locatie in de instellingen van uw apparaat om deze pagina te bekijken. Ga naar locatietoestemming op de doorgestuurde pagina en geef toestemming.";
+"KAHF_MOSQUE_NEARBY" = "Moskee in de buurt";
+"KAHF_PRAYER" = "Gebed";

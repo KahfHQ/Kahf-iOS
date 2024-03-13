@@ -12,7 +12,7 @@ class DateCell: UITableViewCell {
         let view = UILabel()
         view.textColor = .ows_gray01
         view.font = UIFont.interBold24
-        view.text = "Today"
+        view.text = OWSLocalizedString("DATE_TODAY", comment: "")
         return view
     }()
     

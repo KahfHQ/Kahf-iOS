@@ -7401,7 +7401,7 @@
 "KAHF_MINUTES_LEFT" = "Hátralévő perc";
 "KAHF_ALL_PRAYER_TIME" = "Összes ima idő";
 "KAHF_MOSQUE_NEARBY" = "Közelben lévő mecset";
-"KAHF_DISTANCE_FROM_LOCATION" = "Távolság a helyzetedtől %.2f KM";
+"KAHF_DISTANCE_FROM_LOCATION" = "Távolság a helyzetedtől %@ KM";
 "KAHF_RECENT_STORY" = "Legutóbbi történet";
 "KAHF_DUA_BEFORE_SLEEPING" = "Dua lefekvés előtt";
 "KAHF_QURAN_RECITATION" = "Korán recitáció";
@@ -7454,4 +7454,6 @@
 "KAHF_ISHA" = "Isha";
 "KAHF_LOCATION_COULD_NOT_GET" = "Nem sikerült elérni a tartózkodási hely információkat. Ellenőrizze, hogy a telefon helyszolgáltatása be van-e kapcsolva.";
 "KAHF_LOCATION_COULD_NOT_GET_APP_LEVEL" = "A lap megtekintéséhez engedélyeznie kell az eszköz helyzetének az engedélyezését. Ugrás a helyengedélyt kérő oldalra és adja meg az engedélyt.";
+"KAHF_MOSQUE_NEARBY" = "Közeli mecset";
+"KAHF_PRAYER" = "Ima";
 
