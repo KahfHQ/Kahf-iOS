@@ -55,10 +55,12 @@ class NextPrayerTimeCell: UITableViewCell {
         titleLabel.font = UIFont.interMedium14
         titleLabel.textColor = UIColor.ows_signalBlue
         titleLabel.text = OWSLocalizedString("KAHF_ALL_PRAYER_TIME", comment: "")
+        titleLabel.adjustsFontSizeToFitWidth = true
         titleLabel.textAlignment = .center
         view.addSubview(titleLabel)
         titleLabel.snp.makeConstraints { make in
             make.top.bottom.equalToSuperview().inset(13)
+            make.leading.equalToSuperview().offset(10)
         }
         let arrowImageView = UIImageView(image: Theme.iconImage(.kahfRightArrow, renderingMode: .alwaysOriginal))
         arrowImageView.contentMode = .scaleAspectFit

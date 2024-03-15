@@ -118,14 +118,16 @@ class PrayerVC: UITableViewController {
         var contextMenuActions: [ContextMenuAction] = []
         contextMenuActions.append(
             ContextMenuAction(
-                title: "Madhab / Asr Time",
+                title: NSLocalizedString("KAHF_MADHAB_ASR_TIME",
+                                         comment: "Title for the prayer's default mode."),
                 attributes: [],
                 handler: { [weak self] (_) in
                     self?.showParameterPickerVC(isCalculationMethods: false)
                 }))
         contextMenuActions.append(
             ContextMenuAction(
-                title: "Calculation Method",
+                title: NSLocalizedString("KAHF_CALCULATION_METHOD",
+                                         comment: "Title for the prayer's default mode."),
                 attributes: [],
                 handler: { [weak self] (_) in
                     self?.showParameterPickerVC(isCalculationMethods: true)
