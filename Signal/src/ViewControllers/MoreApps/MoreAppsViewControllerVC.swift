@@ -10,7 +10,7 @@ import PanModal
 import SnapKit
 
 @objc
-class MoveAppsViewControllerVC: UIViewController {
+class MoreAppsViewControllerVC: UIViewController {
 
     lazy private var titleLabel: UILabel = {
         let view = UILabel()
@@ -192,7 +192,7 @@ class CustomButtonView: UIView {
         action?()
     }
 }
-extension MoveAppsViewControllerVC: PanModalPresentable {
+extension MoreAppsViewControllerVC: PanModalPresentable {
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent

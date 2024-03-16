@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -752,7 +752,7 @@
 		4E3A8C372B40459E005D35E6 /* HomeVCLocation+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A8C362B40459E005D35E6 /* HomeVCLocation+.swift */; };
 		4E3FE4FE2A7FF7CC001CD17E /* ChatListViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */; };
 		4E782D2D2B1489BC00F6CE89 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = 4E782D2C2B1489BC00F6CE89 /* PanModal */; };
-		4E782D2F2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */; };
+		4E782D2F2B148C5000F6CE89 /* MoreAppsViewControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D2E2B148C5000F6CE89 /* MoreAppsViewControllerVC.swift */; };
 		4E782D332B16011400F6CE89 /* WpTelegramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D322B16011400F6CE89 /* WpTelegramVC.swift */; };
 		4E782D352B1A042A00F6CE89 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D342B1A042A00F6CE89 /* SettingsVC.swift */; };
 		4E782D3D2B1A0E0700F6CE89 /* SettingsProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E782D3C2B1A0E0700F6CE89 /* SettingsProfileCell.swift */; };
@@ -3215,7 +3215,7 @@
 		4E3FE4FD2A7FF7CC001CD17E /* ChatListViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatListViewController+UI.swift"; sourceTree = "<group>"; };
 		4E550F8F2B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E550F912B233AE5004DFB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoveAppsViewControllerVC.swift; path = Signal/src/ViewControllers/MoreApps/MoveAppsViewControllerVC.swift; sourceTree = SOURCE_ROOT; };
+		4E782D2E2B148C5000F6CE89 /* MoreAppsViewControllerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreAppsViewControllerVC.swift; path = Signal/src/ViewControllers/MoreApps/MoreAppsViewControllerVC.swift; sourceTree = SOURCE_ROOT; };
 		4E782D322B16011400F6CE89 /* WpTelegramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WpTelegramVC.swift; sourceTree = "<group>"; };
 		4E782D342B1A042A00F6CE89 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		4E782D3C2B1A0E0700F6CE89 /* SettingsProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsProfileCell.swift; sourceTree = "<group>"; };
@@ -6423,7 +6423,7 @@
 		4E782D302B148CF200F6CE89 /* MoreApps */ = {
 			isa = PBXGroup;
 			children = (
-				4E782D2E2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift */,
+				4E782D2E2B148C5000F6CE89 /* MoreAppsViewControllerVC.swift */,
 			);
 			path = MoreApps;
 			sourceTree = "<group>";
@@ -11426,7 +11426,7 @@
 				88C4E38024635337009C9B97 /* DeviceTransferService.swift in Sources */,
 				88EF42E525F825650017C057 /* DisappearingMessagesTimerSettingsViewController.swift in Sources */,
 				34A95501271B503E00B05242 /* DisplayableText.swift in Sources */,
-				4E782D2F2B148C5000F6CE89 /* MoveAppsViewControllerVC.swift in Sources */,
+				4E782D2F2B148C5000F6CE89 /* MoreAppsViewControllerVC.swift in Sources */,
 				5011D1CB293FC7E000064098 /* DomainFrontingCountryViewController.swift in Sources */,
 				F96B66AA2912B88B004FFFAA /* DonateChoosePaymentMethodSheet.swift in Sources */,
 				F96B66AC2912B88B004FFFAA /* DonateViewController+DonationMode.swift in Sources */,

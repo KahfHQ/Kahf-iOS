@@ -47,9 +47,6 @@ class HomeTabBarController: UITabBarController {
     lazy var wpViewController = WpTelegramVC()
     lazy var wpNavController = OWSNavigationController(rootViewController: wpViewController)
     
-    lazy var moreAppsVC = MoveAppsViewControllerVC(storyAction: {}, mosqueAction: {}, eventsAction: {}, articlesAction: {})
-    
-    
     lazy var storiesTabBarItem = UITabBarItem(
         title: NSLocalizedString("STORIES_TITLE",
         comment: "Title for the stories view."),
@@ -284,10 +281,19 @@ extension HomeTabBarController: UITabBarControllerDelegate {
         }
         
         if viewControllers?[4] == viewController {
-            moreAppsVC.storyAction = { self.showStories() }
-            moreAppsVC.mosqueAction = { print("mosqueAction") }
-            moreAppsVC.eventsAction = { print("eventsAction") }
-            moreAppsVC.articlesAction = { print("articlesAction") }
+            var moreAppsVC = MoreAppsViewControllerVC(storyAction: { }, mosqueAction: {}, eventsAction: {}, articlesAction: {})
+            moreAppsVC.storyAction = {
+                if let selectedViewController = self.viewControllers?[self.selectedTab.rawValue] {
+                    if let navigationController = selectedViewController as? UINavigationController {
+                        self.tabBar.setIsHidden(true, animated: true)
+                        moreAppsVC.dismiss(animated: true)
+                        let vc = StoriesViewController()
+                        DispatchQueue.main.async {
+                            navigationController.pushViewController(vc, animated: true)
+                        }
+                    }
+                }
+            }
             presentPanModal(moreAppsVC)
             return false
         }
@@ -295,19 +301,6 @@ extension HomeTabBarController: UITabBarControllerDelegate {
         return true
     }
     
-    func showStories() {
-        if let selectedViewController = self.viewControllers?[selectedTab.rawValue] {
-            if let navigationController = selectedViewController as? UINavigationController {
-                self.tabBar.setIsHidden(true, animated: true)
-                self.moreAppsVC.dismiss(animated: true)
-                let vc = StoriesViewController()
-                DispatchQueue.main.async {
-                    navigationController.pushViewController(vc, animated: true)
-                }
-            }
-        }
-    }
-
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         if isStoriesTabActive {
             storyBadgeCountManager.markAllStoriesRead()
