@@ -48,7 +48,7 @@ public extension ChatListViewController {
     func addNavBarLogo() {
         customLeftView = UIView(frame: CGRect(x: 30, y: 0, width: 100, height: 40))
         customLeftView.backgroundColor = UIColor.white
-        customRightView = UIView(frame: CGRect(x: UIScreen.main.bounds.size.width - 92, y: 16, width: 92, height: 22))
+        customRightView = UIView(frame: CGRect(x: UIDevice.current.isIPad ? 230 : UIScreen.main.bounds.size.width - 92, y: 16, width: 92, height: 22))
         customRightView.backgroundColor = UIColor.white
         let imageView = UIImageView(frame: customLeftView.bounds)
         imageView.translatesAutoresizingMaskIntoConstraints = false

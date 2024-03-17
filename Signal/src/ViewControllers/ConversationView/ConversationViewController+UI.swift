@@ -422,7 +422,7 @@ extension ConversationViewController {
     }
     
     func setCustomizedBackButton() {
-        if customLeftView == nil {
+        if customLeftView == nil && !UIDevice.current.isIPad {
             let customView = UIView(frame: CGRect(x: 0, y: 13, width: 46, height: 18))
             customView.backgroundColor = UIColor.clear
             let backButton = UIButton(type: .custom)
@@ -446,6 +446,10 @@ extension ConversationViewController {
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.addSubview(customShadowView)
         navigationController?.navigationBar.backgroundColor = .white
+        
+        guard let superView = customShadowView.superview else {
+            return
+        }
         
         customShadowView.snp.makeConstraints { make in
             make.leading.trailing.equalToSuperview()
