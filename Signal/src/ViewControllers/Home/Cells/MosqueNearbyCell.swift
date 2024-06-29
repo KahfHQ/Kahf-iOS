@@ -29,6 +29,7 @@ class MosqueNearbyCell: UITableViewCell {
         view.textColor = .ows_signalBlue
         view.font = UIFont.interBold24
         view.text = "Masjid al-Fatah"
+        view.adjustsFontSizeToFitWidth = true
         return view
     }()
     

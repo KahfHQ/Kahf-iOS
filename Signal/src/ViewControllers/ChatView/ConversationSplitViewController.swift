@@ -610,12 +610,6 @@ extension ChatListViewController {
     }
 }
 
-extension StoriesViewController {
-    var conversationSplitViewController: ConversationSplitViewController? {
-        return splitViewController as? ConversationSplitViewController
-    }
-}
-
 @objc
 extension ConversationViewController {
     var conversationSplitViewController: ConversationSplitViewController? {

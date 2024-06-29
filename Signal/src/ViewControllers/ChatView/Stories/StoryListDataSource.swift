@@ -10,9 +10,9 @@ import SignalServiceKit
 protocol StoryListDataSourceDelegate: AnyObject {
 
     // If null, will still load data but won't update the tableview.
-    var tableViewIfLoaded: UITableView? { get }
+    var collectionViewIfLoaded: UICollectionView? { get }
 
-    func tableViewDidUpdate()
+    func collectionViewDidUpdate()
 }
 
 class StoryListDataSource: NSObject, Dependencies {
@@ -21,8 +21,8 @@ class StoryListDataSource: NSObject, Dependencies {
 
     private lazy var syncingModels = SyncingStoryListViewModel(loadingQueue: loadingQueue)
 
-    private var tableView: UITableView? {
-        return delegate?.tableViewIfLoaded
+    private var collectionView: UICollectionView? {
+        return delegate?.collectionViewIfLoaded
     }
 
     private weak var delegate: StoryListDataSourceDelegate?
@@ -129,9 +129,9 @@ class StoryListDataSource: NSObject, Dependencies {
                     myStoryChanged: true // is ignored
                 )
             } sync: { _ in
-                self.tableView?.reloadData()
+                self.collectionView?.reloadData()
                 self.observeAssociatedDataChangesForAvailableModels()
-                self.delegate?.tableViewDidUpdate()
+                self.delegate?.collectionViewDidUpdate()
             }
         }
     }
@@ -211,9 +211,9 @@ class StoryListDataSource: NSObject, Dependencies {
                     myStoryChanged: true // is ignored
                 )
             } sync: { _ in
-                self.tableView?.reloadData()
+                self.collectionView?.reloadData()
                 self.observeAssociatedDataChangesForAvailableModels()
-                self.delegate?.tableViewDidUpdate()
+                self.delegate?.collectionViewDidUpdate()
             }
         }
     }
@@ -520,22 +520,22 @@ class StoryListDataSource: NSObject, Dependencies {
     // MARK: - Applying updates to TableView
 
     private func applyChangesToTableView(_ changes: StoryChanges) {
-        guard let tableView = tableView else {
+        guard let collectionView = collectionView else {
             return
         }
 
-        tableView.beginUpdates()
+        //collectionView.beginUpdates()
         defer {
-            tableView.endUpdates()
-            self.delegate?.tableViewDidUpdate()
+            //collectionView.endUpdates()
+            self.delegate?.collectionViewDidUpdate()
         }
 
         if !changes.oldModel.shouldDisplayMyStory, changes.newModel.shouldDisplayMyStory {
-            tableView.insertRows(at: [IndexPath(row: 0, section: Section.myStory.rawValue)], with: .fade)
+            //collectionView.insertRows(at: [IndexPath(row: 0, section: Section.myStory.rawValue)], with: .fade)
         } else if changes.oldModel.shouldDisplayMyStory, !changes.newModel.shouldDisplayMyStory {
-            tableView.deleteRows(at: [IndexPath(row: 0, section: Section.myStory.rawValue)], with: .fade)
+            //collectionView.deleteRows(at: [IndexPath(row: 0, section: Section.myStory.rawValue)], with: .fade)
         } else if changes.myStoryChanged, changes.newModel.shouldDisplayMyStory {
-            tableView.reloadRows(at: [IndexPath(row: 0, section: Section.myStory.rawValue)], with: .fade)
+            //collectionView.reloadRows(at: [IndexPath(row: 0, section: Section.myStory.rawValue)], with: .fade)
         }
 
         // Visible stories section is always visible, directly apply changes.
@@ -546,7 +546,7 @@ class StoryListDataSource: NSObject, Dependencies {
 
     /// Hidden stories section can be expanded and collapsed, so here we handle that as well as changes to the actual contents.
     private func applyHiddenStoryUpdates(_ changes: StoryChanges) {
-        guard let tableView = tableView else {
+        /*guard let collectionView = collectionView else {
             return
         }
 
@@ -650,7 +650,7 @@ class StoryListDataSource: NSObject, Dependencies {
         case (false, false):
             // Was hidden and is hidden, so can just ignore any updates.
             break
-        }
+        }*/
     }
 
     /// Apply batch updates to a section of the table view.
@@ -659,7 +659,7 @@ class StoryListDataSource: NSObject, Dependencies {
         toSection section: Section,
         models: [StoryViewModel]
     ) {
-        guard let tableView = tableView else {
+        /*guard let tableView = tableView else {
             return
         }
 
@@ -687,7 +687,7 @@ class StoryListDataSource: NSObject, Dependencies {
                     tableView.reloadRows(at: [path], with: .none)
                 }
             }
-        }
+        }*/
     }
 }
 

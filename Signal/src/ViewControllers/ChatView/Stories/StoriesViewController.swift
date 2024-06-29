@@ -10,6 +10,7 @@ import SignalServiceKit
 import SignalUI
 import UIKit
 
+/*
 class StoriesViewController: OWSViewController, StoryListDataSourceDelegate {
     let tableView = UITableView()
 
@@ -737,3 +738,4 @@ extension StoriesViewController: StoryContextMenuDelegate {
         return false
     }
 }
+*/

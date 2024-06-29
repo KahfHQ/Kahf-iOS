@@ -775,6 +775,8 @@
 		4E8AED0C2B2CE2EA0033F9F9 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECF72B2CE2EA0033F9F9 /* Alarm.swift */; };
 		4E8AED0D2B2CE2EA0033F9F9 /* Alarms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECF82B2CE2EA0033F9F9 /* Alarms.swift */; };
 		4E8AED122B2CE2EA0033F9F9 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AECFD2B2CE2EA0033F9F9 /* Identifier.swift */; };
+		4E9194922BBC46B600422A8A /* NewStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9194912BBC46B600422A8A /* NewStoriesViewController.swift */; };
+		4E9194942BC0016000422A8A /* NewStoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9194932BC0016000422A8A /* NewStoriesCell.swift */; };
 		4ED01DB42B3738280006580C /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED01DB32B3738280006580C /* DateCell.swift */; };
 		4ED01DB62B39C7320006580C /* NextPrayerTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED01DB52B39C7320006580C /* NextPrayerTimeCell.swift */; };
 		4ED01DBC2B3ABA6D0006580C /* MuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED01DBB2B3ABA6D0006580C /* MuteView.swift */; };
@@ -3229,6 +3231,8 @@
 		4E8AECF72B2CE2EA0033F9F9 /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		4E8AECF82B2CE2EA0033F9F9 /* Alarms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarms.swift; sourceTree = "<group>"; };
 		4E8AECFD2B2CE2EA0033F9F9 /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		4E9194912BBC46B600422A8A /* NewStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStoriesViewController.swift; sourceTree = "<group>"; };
+		4E9194932BC0016000422A8A /* NewStoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStoriesCell.swift; sourceTree = "<group>"; };
 		4ED01DB32B3738280006580C /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
 		4ED01DB52B39C7320006580C /* NextPrayerTimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPrayerTimeCell.swift; sourceTree = "<group>"; };
 		4ED01DBB2B3ABA6D0006580C /* MuteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuteView.swift; sourceTree = "<group>"; };
@@ -6987,6 +6991,7 @@
 				8840B6E1283F16650036BA4C /* MyStoriesViewController.swift */,
 				886292112835606D00AA0C3B /* MyStoryCell.swift */,
 				8862920F28355B8000AA0C3B /* MyStoryViewModel.swift */,
+				4E9194912BBC46B600422A8A /* NewStoriesViewController.swift */,
 				8852572827DD366D0032073C /* StoriesViewController.swift */,
 				884DB94627DD754700C6A309 /* StoryCell.swift */,
 				880FB40728CD437500FA1C10 /* StoryInfoSheet.swift */,
@@ -6994,6 +6999,7 @@
 				88B2234B284FABE600A25048 /* StoryThumbnailView.swift */,
 				668AB0CB28AD610600B31984 /* StoryUtil.swift */,
 				884DB94427DD70F700C6A309 /* StoryViewModel.swift */,
+				4E9194932BC0016000422A8A /* NewStoriesCell.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -11495,6 +11501,7 @@
 				88588D18252D312800405414 /* GroupCallViewController.swift in Sources */,
 				8845B0C9264F12F800FA694C /* GroupDescriptionPreviewView.swift in Sources */,
 				889DFA12264EE77C00D03921 /* GroupDescriptionViewController.swift in Sources */,
+				4E9194922BBC46B600422A8A /* NewStoriesViewController.swift in Sources */,
 				4E782D332B16011400F6CE89 /* WpTelegramVC.swift in Sources */,
 				340D900024FEE6A9007B5504 /* GroupInviteLinksUI.swift in Sources */,
 				3490D57D25ADDC2A00F5F96C /* GroupLinkPromotionActionSheet.swift in Sources */,
@@ -11714,6 +11721,7 @@
 				88B00D4F28A33B5800BC9CA0 /* StoryPrivateViewsSheet.swift in Sources */,
 				8864073127F21AD7009916B6 /* StoryReplyInputToolbar.swift in Sources */,
 				88423A54280A2675007D2918 /* StoryReplyPreviewView.swift in Sources */,
+				4E9194942BC0016000422A8A /* NewStoriesCell.swift in Sources */,
 				88423A56280A373C007D2918 /* StoryReplySheet.swift in Sources */,
 				88863A4E280CAE0800977F69 /* StorySlideAnimator.swift in Sources */,
 				88B2234C284FABE600A25048 /* StoryThumbnailView.swift in Sources */,

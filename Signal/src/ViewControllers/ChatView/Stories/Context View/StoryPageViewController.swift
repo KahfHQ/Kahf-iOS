@@ -451,92 +451,10 @@ extension StoryPageViewController: StoryContextViewControllerDelegate {
 }
 
 extension StoryPageViewController: UIViewControllerTransitioningDelegate {
-    public func animationController(
-        forPresented presented: UIViewController,
-        presenting: UIViewController,
-        source: UIViewController
-    ) -> UIViewControllerAnimatedTransitioning? {
-        guard let storyTransitionContext = try? storyTransitionContext(
-            presentingViewController: presenting,
-            isPresenting: true
-        ) else {
-            return nil
-        }
-        return StoryZoomAnimator(storyTransitionContext: storyTransitionContext)
-    }
-
-    public func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        guard let presentingViewController = presentingViewController else { return nil }
-        guard let storyTransitionContext = try? storyTransitionContext(
-            presentingViewController: presentingViewController,
-            isPresenting: false
-        ) else {
-            return StorySlideAnimator(coordinator: interactiveDismissCoordinator)
-        }
-        return StoryZoomAnimator(storyTransitionContext: storyTransitionContext)
-    }
-
     public func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
         guard interactiveDismissCoordinator.interactionInProgress else { return nil }
         interactiveDismissCoordinator.mode = animator is StoryZoomAnimator ? .zoom : .slide
         return interactiveDismissCoordinator
-    }
-
-    private func storyTransitionContext(presentingViewController: UIViewController, isPresenting: Bool) throws -> StoryTransitionContext? {
-        // If we're not presenting from the stories tab, use a default animation
-        guard let splitViewController = presentingViewController as? ConversationSplitViewController else { return nil }
-        guard splitViewController.homeVC.selectedTab == .stories else { return nil }
-
-        let thumbnailView: UIView
-        let storyMessage: StoryMessage
-        let thumbnailRepresentsStoryView: Bool
-
-        switch splitViewController.homeVC.storiesNavController.topViewController {
-        case let storiesVC as StoriesViewController:
-            // If the story cell isn't visible, use a default animation
-            guard let storyCell = storiesVC.cell(for: currentContext) else { return nil }
-
-            guard let storyModel = storiesVC.model(for: currentContext), !storyModel.messages.isEmpty else {
-                throw OWSAssertionError("Unexpectedly missing story model for presentation")
-            }
-
-            if let currentMessage = currentMessage {
-                storyMessage = currentMessage
-            } else {
-                storyMessage = storyModel.messages.first(where: { $0.localUserViewedTimestamp == nil }) ?? storyModel.messages.first!
-            }
-
-            thumbnailView = storyCell.attachmentThumbnail
-            thumbnailRepresentsStoryView = storyMessage.uniqueId == storyModel.messages.last?.uniqueId
-        case let myStoriesVC as MyStoriesViewController:
-            guard let message = currentMessage ?? currentContextViewController.loadMessage else {
-                owsFailDebug("Unexpectedly missing current message when presenting story from MyStoriesViewController")
-                return nil
-            }
-
-            // If the story cell isn't visible, use a default animation
-            guard let sentStoryCell = myStoriesVC.cell(for: message, and: currentContext) else { return nil }
-
-            storyMessage = message
-            thumbnailView = sentStoryCell.attachmentThumbnail
-            thumbnailRepresentsStoryView = true
-        default:
-            return nil
-        }
-
-        guard let storyView = storyView(for: storyMessage) else {
-            return nil
-        }
-
-        return .init(
-            isPresenting: isPresenting,
-            thumbnailView: thumbnailView,
-            storyView: storyView,
-            storyThumbnailSize: try storyThumbnailSize(for: storyMessage),
-            thumbnailRepresentsStoryView: thumbnailRepresentsStoryView,
-            pageViewController: self,
-            coordinator: interactiveDismissCoordinator
-        )
     }
 
     private func storyThumbnailSize(for presentingMessage: StoryMessage) throws -> CGSize? {

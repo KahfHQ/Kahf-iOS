@@ -42,18 +42,8 @@ class HomeTabBarController: UITabBarController {
         image: UIImage(named: "tabbar-chat"),
         selectedImage: UIImage(named: "tabbar-chat")!
     )
-    lazy var storiesViewController = StoriesViewController()
-    lazy var storiesNavController = OWSNavigationController(rootViewController: storiesViewController)
     lazy var wpViewController = WpTelegramVC()
     lazy var wpNavController = OWSNavigationController(rootViewController: wpViewController)
-    
-    lazy var storiesTabBarItem = UITabBarItem(
-        title: NSLocalizedString("STORIES_TITLE",
-        comment: "Title for the stories view."),
-        image: UIImage(named: "tabbar-story"),
-        selectedImage: UIImage(named: "tabbar-story")
-    )
-    
     lazy var wpTabBarItem = UITabBarItem(
         title: OWSLocalizedString("KAHF_SAFE_CHAT", comment: ""),
         image: UIImage(named: "tabbar-wp"),
@@ -85,7 +75,6 @@ class HomeTabBarController: UITabBarController {
             return
         }
 
-        NotificationCenter.default.addObserver(self, selector: #selector(storiesEnabledStateDidChange), name: .storiesEnabledStateDidChange, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(applyTheme), name: .ThemeDidChange, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(didEnterForeground), name: .OWSApplicationWillEnterForeground, object: nil)
         applyTheme()
@@ -100,8 +89,6 @@ class HomeTabBarController: UITabBarController {
         settingsNavController.tabBarItem = settingsTabBarItem
         
         updateChatListBadge()
-        storyBadgeCountManager.beginObserving(observer: self)
-
         // We read directly from the database here, as the cache may not have been warmed by the time
         // this view is loaded (since it's the very first thing to load). Otherwise, there can be a
         // small window where the tab bar is in the wrong state at app launch.
@@ -131,19 +118,6 @@ class HomeTabBarController: UITabBarController {
     @objc
     func applyTheme() {
         tabBar.tintColor = UIColor(red: 0.24, green: 0.55, blue: 1.00, alpha: 1.00)
-    }
-
-    @objc
-    func storiesEnabledStateDidChange() {
-        if StoryManager.areStoriesEnabled {
-            setTabBarHidden(false, animated: false)
-        } else {
-            if selectedTab == .stories {
-                wpNavController.popToRootViewController(animated: false)
-            }
-            selectedTab = .chatList
-            setTabBarHidden(true, animated: false)
-        }
     }
 
     func updateChatListBadge() {
@@ -232,38 +206,6 @@ extension HomeTabBarController: DatabaseChangeDelegate {
     }
 }
 
-extension HomeTabBarController: StoryBadgeCountObserver {
-
-    public var isStoriesTabActive: Bool {
-        return selectedTab == .stories && CurrentAppContext().isAppForegroundAndActive()
-    }
-
-    public func didUpdateStoryBadge(_ badge: String?) {
-        storiesTabBarItem.badgeValue = badge
-        var views: [UIView] = [tabBar]
-        var badgeViews = [UIView]()
-        while let view = views.popLast() {
-            if NSStringFromClass(view.classForCoder) == "_UIBadgeView" {
-                badgeViews.append(view)
-            }
-            views = view.subviews + views
-        }
-        let sortedBadgeViews = badgeViews.sorted { lhs, rhs in
-            let lhsX = view.convert(CGPoint.zero, from: lhs).x
-            let rhsX = view.convert(CGPoint.zero, from: rhs).x
-            if CurrentAppContext().isRTL {
-                return lhsX > rhsX
-            } else {
-                return lhsX < rhsX
-            }
-        }
-        let badgeView = sortedBadgeViews[safe: Tabs.stories.rawValue]
-        badgeView?.layer.transform = CATransform3DIdentity
-        let xOffset: CGFloat = CurrentAppContext().isRTL ? 0 : -5
-        badgeView?.layer.transform = CATransform3DMakeTranslation(xOffset, 1, 1)
-    }
-}
-
 extension HomeTabBarController: UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         // If we re-select the active tab, scroll to the top.
@@ -272,8 +214,6 @@ extension HomeTabBarController: UITabBarControllerDelegate {
             switch selectedTab {
             case .chatList:
                 tableView = chatListViewController.tableView
-            case .stories:
-                tableView = storiesViewController.tableView
             default: return true
             }
 
@@ -281,15 +221,18 @@ extension HomeTabBarController: UITabBarControllerDelegate {
         }
         
         if viewControllers?[4] == viewController {
-            var moreAppsVC = MoreAppsViewControllerVC(storyAction: { }, mosqueAction: {}, eventsAction: {}, articlesAction: {})
+            let moreAppsVC = MoreAppsViewControllerVC(storyAction: { }, mosqueAction: {}, eventsAction: {}, articlesAction: {})
             moreAppsVC.storyAction = {
                 if let selectedViewController = self.viewControllers?[self.selectedTab.rawValue] {
                     if let navigationController = selectedViewController as? UINavigationController {
-                        self.tabBar.setIsHidden(true, animated: true)
-                        moreAppsVC.dismiss(animated: true)
-                        let vc = StoriesViewController()
+                        let vc = NewStoriesViewController()
+                        vc.showTabBar = {
+                            self.tabBar.setIsHidden(false, animated: false)
+                        }
                         DispatchQueue.main.async {
+                            self.tabBar.setIsHidden(true, animated: false)
                             navigationController.pushViewController(vc, animated: true)
+                            moreAppsVC.dismiss(animated: true)
                         }
                     }
                 }
@@ -299,11 +242,5 @@ extension HomeTabBarController: UITabBarControllerDelegate {
         }
         
         return true
-    }
-    
-    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
-        if isStoriesTabActive {
-            storyBadgeCountManager.markAllStoriesRead()
-        }
     }
 }
